@@ -1,2 +1,6 @@
+google-generativeai
+pydantic
+openai
+python-dotenv
 fastapi
 uvicorn[standard]
