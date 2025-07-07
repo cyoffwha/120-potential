@@ -23,7 +23,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-The backend will be available at http://localhost:8000
+The backend will be available at http://localhost:8079
 
 ### 2. Frontend (React + TypeScript)
 
@@ -33,6 +33,6 @@ npm install
 npm run dev
 ```
 
-The frontend will be available at http://localhost:5173
+The frontend will be available at http://localhost:8080
 
 ---

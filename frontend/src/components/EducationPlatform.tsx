@@ -22,7 +22,7 @@ export const EducationPlatform = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      <main className="max-w-8xl mx-auto px-6 py-6">
+      <main className="max-w-7xl mx-auto px-6 py-6">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Text Content - Left Side */}

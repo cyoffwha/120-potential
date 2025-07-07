@@ -57,11 +57,11 @@ export const MultipleChoice = ({
   };
 
   return (
-    <Card className="mb-6 bg-card border-border shadow-sm relative">
+    <Card className="mb-6 bg-card border-border shadow-sm relative min-h-[320px]">
       <div className="absolute right-4 top-4 z-10">
         <Timer />
       </div>
-      <CardHeader>
+      <CardHeader className="pt-10">
         <CardTitle className="text-base font-medium leading-relaxed text-card-foreground">
           {questionText}
         </CardTitle>

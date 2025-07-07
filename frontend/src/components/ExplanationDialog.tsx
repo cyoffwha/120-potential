@@ -78,17 +78,17 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
         <DialogHeader>
           <DialogTitle>Question Explanation</DialogTitle>
         </DialogHeader>
-        
+        {/* Main content area: make it flex-1 and min-h-0 to avoid overlap */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 min-h-0">
           {/* AI Chat Section - Left */}
           <Card className="flex flex-col h-full min-h-0">
             <CardHeader>
               <CardTitle className="text-lg">Ask AI for Help</CardTitle>
             </CardHeader>
-            <CardContent className="flex flex-col h-full">
-              <div className="flex-1 space-y-4">
+            <CardContent className="flex flex-col h-full min-h-0">
+              <div className="flex-1 space-y-4 min-h-0 flex flex-col">
                 {/* Chat Messages */}
-                <div className="h-full overflow-y-auto space-y-3 p-3 bg-muted/20 rounded-lg min-h-0" style={{maxHeight: 'calc(45vh + 80px)'}}>
+                <div className="flex-1 h-full overflow-y-auto space-y-3 p-3 bg-muted/20 rounded-lg min-h-0" style={{maxHeight: 'calc(45vh + 80px)'}}>
                   {chatMessages.length === 0 ? (
                     <p className="text-muted-foreground text-sm text-center py-8">
                       Ask me anything about this question to get personalized help!
@@ -114,7 +114,7 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
                 </div>
 
                 {/* Input Field */}
-                <div className="flex gap-2">
+                <div className="flex gap-2 pt-2">
                   <Input
                     placeholder="Ask a question about this problem..."
                     value={inputValue}
@@ -178,7 +178,7 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
         </div>
 
         {/* Bottom Buttons */}
-        <div className="flex justify-center gap-4 mt-4">
+        <div className="flex justify-center gap-4 mt-4 shrink-0">
           <Button 
             onClick={() => { setAgainClicked(true); onOpenChange(false); }}
             variant="outline"

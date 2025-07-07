@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>react-interface-wizardry-kit</title>
+    <title>120% Potential</title>
     <meta name="description" content="Lovable Generated Project" />
     <meta name="author" content="Lovable" />
 
@@ -18,7 +18,14 @@
   </head>
 
   <body>
+    <script>
+      // Force browser language to English for Google Identity Services
+      Object.defineProperty(window.navigator, 'language', {get: () => 'en'});
+      Object.defineProperty(window.navigator, 'languages', {get: () => ['en']});
+    </script>
     <div id="root"></div>
+    <!-- Force Google Identity Services to use English -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
