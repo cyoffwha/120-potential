@@ -10,6 +10,8 @@ interface ExplanationDialogProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   selectedAnswer: string;
+  explanations?: Record<string, string>;
+  correctAnswer?: string;
 }
 
 interface ChatMessage {
@@ -19,7 +21,7 @@ interface ChatMessage {
   timestamp: Date;
 }
 
-export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage = '', question = '', answerExplanation = '' }: ExplanationDialogProps & { passage?: string, question?: string, answerExplanation?: string }) => {
+export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage = '', question = '', answerExplanation = '', explanations = {}, correctAnswer = 'A' }: ExplanationDialogProps & { passage?: string, question?: string, answerExplanation?: string, explanations?: Record<string, string>, correctAnswer?: string }) => {
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
   const [inputValue, setInputValue] = useState("");
   const [againClicked, setAgainClicked] = useState(false);
@@ -72,21 +74,21 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-7xl max-h-[90vh] overflow-hidden">
+      <DialogContent className="max-w-7xl max-h-[90vh] h-[90vh] flex flex-col">
         <DialogHeader>
           <DialogTitle>Question Explanation</DialogTitle>
         </DialogHeader>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 h-[70vh]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 min-h-0">
           {/* AI Chat Section - Left */}
-          <Card className="flex flex-col">
+          <Card className="flex flex-col h-full min-h-0">
             <CardHeader>
               <CardTitle className="text-lg">Ask AI for Help</CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col h-full">
               <div className="flex-1 space-y-4">
                 {/* Chat Messages */}
-                <div className="h-full overflow-y-auto space-y-3 p-3 bg-muted/20 rounded-lg">
+                <div className="h-full overflow-y-auto space-y-3 p-3 bg-muted/20 rounded-lg min-h-0" style={{maxHeight: 'calc(45vh + 80px)'}}>
                   {chatMessages.length === 0 ? (
                     <p className="text-muted-foreground text-sm text-center py-8">
                       Ask me anything about this question to get personalized help!
@@ -133,23 +135,43 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
           </Card>
 
           {/* Explanation Section - Right */}
-          <Card>
+          <Card className="flex flex-col h-full min-h-0">
             <CardHeader>
               <CardTitle className="text-lg">Answer Explanation</CardTitle>
             </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
+            <CardContent className="flex-1 flex flex-col min-h-0">
+              <div className="space-y-4 flex-1 min-h-0 overflow-y-auto">
                 <p className="text-sm text-muted-foreground">
                   Your selected answer: <span className="font-semibold text-primary">{selectedAnswer || "None selected"}</span>
                 </p>
-                <div className="p-4 bg-muted/50 rounded-lg">
-                  <p className="text-sm leading-relaxed">
-                    <strong>Correct Answer: A</strong><br />
-                    Both Sykes in Text 1 and the scholars in Text 2 recognize that John Fletcher has a distinctive writing style. 
-                    Text 1 mentions that "Fletcher had a distinct style in his other plays, so much so that lines with that style were considered sufficient evidence of Fletcher's authorship." 
-                    Text 2 supports this by stating that scholars can determine authorship "on the basis of style," indicating they can distinguish Fletcher's contributions from Shakespeare's.
-                  </p>
-                </div>
+                {/* Explanations by choice, selected first, then correct, then others */}
+                {selectedAnswer && explanations[selectedAnswer] && (
+                  <div className={`p-4 rounded-lg border ${selectedAnswer === correctAnswer ? 'bg-green-50 border-green-400' : 'bg-red-50 border-red-400'}`}>
+                    <p className="text-sm leading-relaxed">
+                      <strong>Choice {selectedAnswer}{selectedAnswer === correctAnswer ? ' (Correct)' : ' (Your Choice)'}:</strong><br />
+                      {explanations[selectedAnswer]}
+                    </p>
+                  </div>
+                )}
+                {selectedAnswer !== correctAnswer && explanations[correctAnswer] && (
+                  <div className="p-4 rounded-lg border bg-green-50 border-green-400">
+                    <p className="text-sm leading-relaxed">
+                      <strong>Choice {correctAnswer} (Correct):</strong><br />
+                      {explanations[correctAnswer]}
+                    </p>
+                  </div>
+                )}
+                {/* Show other explanations except selected and correct */}
+                {Object.entries(explanations)
+                  .filter(([key]) => key !== selectedAnswer && key !== correctAnswer)
+                  .map(([key, text]) => (
+                    <div key={key} className="p-4 rounded-lg border bg-muted/50">
+                      <p className="text-sm leading-relaxed">
+                        <strong>Choice {key}:</strong><br />
+                        {text}
+                      </p>
+                    </div>
+                  ))}
               </div>
             </CardContent>
           </Card>
@@ -158,15 +180,15 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
         {/* Bottom Buttons */}
         <div className="flex justify-center gap-4 mt-4">
           <Button 
-            onClick={() => setAgainClicked(true)}
+            onClick={() => { setAgainClicked(true); onOpenChange(false); }}
             variant="outline"
-            className={`px-8 ${againClicked ? 'bg-secondary text-secondary-foreground' : ''}`}
+            className={`px-8 hover:bg-[#223971] hover:text-white`}
           >
             Again
           </Button>
           <Button 
-            onClick={() => setEasyClicked(true)}
-            className={`px-8 ${easyClicked ? 'bg-accent text-accent-foreground hover:bg-accent/90' : 'bg-accent text-accent-foreground hover:bg-accent/90'}`}
+            onClick={() => { setEasyClicked(true); onOpenChange(false); }}
+            className={`px-8 bg-accent text-accent-foreground hover:bg-accent/90`}
           >
             Easy
           </Button>
