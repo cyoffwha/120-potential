@@ -7,6 +7,8 @@ venv/
 .env
 .env.*
 backend/venv/
+backend/database/math780.pdf
+backend/database/rw1443.pdf
 
 # FastAPI
 instance/

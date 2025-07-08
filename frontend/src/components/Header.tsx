@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { GoogleLogin, googleLogout } from "@react-oauth/google";
 import { jwtDecode, JwtPayload } from "jwt-decode";
@@ -32,15 +32,53 @@ export const Header = ({ activeSection = "Question Banks" }: HeaderProps) => {
   // Google user state
   const [user, setUser] = useState<UserProfile | null>(null);
 
+  // Restore user from localStorage on mount
+  useEffect(() => {
+    const storedCredential = localStorage.getItem("google_credential");
+    if (storedCredential) {
+      // Optionally, re-send to backend for validation and get user info
+      fetch("http://127.0.0.1:8079/auth/google", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ credential: storedCredential })
+      })
+        .then(res => res.ok ? res.json() : null)
+        .then(data => {
+          if (data && data.user) {
+            setUser({
+              name: data.user.name,
+              email: data.user.email,
+              picture: data.user.picture,
+            });
+          } else {
+            localStorage.removeItem("google_credential");
+          }
+        })
+        .catch(() => localStorage.removeItem("google_credential"));
+    }
+  }, []);
+
   // Handle Google login success
-  const handleGoogleLogin = (credentialResponse: any) => {
+  const handleGoogleLogin = async (credentialResponse: any) => {
     if (credentialResponse.credential) {
-      const decoded: GoogleJwtPayload = jwtDecode(credentialResponse.credential);
-      setUser({
-        name: decoded.name,
-        email: decoded.email,
-        picture: decoded.picture,
-      });
+      localStorage.setItem("google_credential", credentialResponse.credential);
+      // Send credential to backend for user storage
+      try {
+        const res = await fetch("http://127.0.0.1:8079/auth/google", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ credential: credentialResponse.credential })
+        });
+        if (!res.ok) throw new Error("Failed to store user");
+        const data = await res.json();
+        setUser({
+          name: data.user.name,
+          email: data.user.email,
+          picture: data.user.picture,
+        });
+      } catch (e) {
+        alert("Google login succeeded but user could not be stored in backend.");
+      }
     }
   };
 
@@ -48,6 +86,7 @@ export const Header = ({ activeSection = "Question Banks" }: HeaderProps) => {
   const handleLogout = () => {
     googleLogout();
     setUser(null);
+    localStorage.removeItem("google_credential");
   };
 
   return (

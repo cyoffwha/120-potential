@@ -1,10 +1,13 @@
-
-
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, HTTPException, Depends
 from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
+from db import User, SessionLocal, engine, Base
+from sqlalchemy.future import select
+from sqlalchemy.exc import SQLAlchemyError
+import jwt
+import datetime
 
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
@@ -39,13 +42,49 @@ def read_root():
 async def dialog(req: DialogRequest):
     prompt = (
         "You are an expert SAT tutor. Use the reading passage, the question, and the official answer explanation to answer the user's follow-up question. "
-        "Be concise, factual, and only answer within the context of the SAT material provided, and SAT in general like Erica Grammar/Reading, Hard SAT questions, Panda, etc. If the user asks something off-topic, irrelevant, or not related to SAT, respond with: 'Focus on the task, stop crying.' Do not provide generic, evasive, or off-topic responses.\n"
+        "Be concise, factual, and only answer within the context of the SAT material provided, and SAT in general like Erica Grammar/Reading, Hard SAT questions, Panda, etc. If the user asks something off-topic, irrelevant, or not related to SAT, respond with something helping, determining, motivating to study the SAT. Do not provide generic, evasive, or off-topic responses.\n"
         f"Reading Passage: {req.passage}\n"
         f"Question: {req.question}\n"
         f"Official Answer Explanation: {req.answer_explanation}\n"
         f"User: {req.user_message}\nAnswer:"
     )
     model = genai.GenerativeModel("gemini-1.5-flash-latest")
-    response = model.generate_content(prompt, generation_config={"temperature": 0.0})
+    response = model.generate_content(prompt, generation_config={"temperature": 0.2})
     answer = response.text.strip()
     return {"answer": answer}
+
+class GoogleAuthRequest(BaseModel):
+    credential: str
+
+@app.post("/auth/google")
+async def auth_google(req: GoogleAuthRequest):
+    try:
+        # Decode JWT without verification (for demo; in prod, verify with Google certs)
+        payload = jwt.decode(req.credential, options={"verify_signature": False})
+        # Extract all available fields
+        user_data = {
+            "sub": payload.get("sub"),
+            "name": payload.get("name"),
+            "email": payload.get("email"),
+            "picture": payload.get("picture"),
+            "given_name": payload.get("given_name"),
+            "family_name": payload.get("family_name"),
+            "birthdate": payload.get("birthdate"),
+            "locale": payload.get("locale"),
+            "email_verified": str(payload.get("email_verified")),
+            "hd": payload.get("hd"),
+        }
+        async with SessionLocal() as session:
+            result = await session.execute(select(User).where(User.sub == user_data["sub"]))
+            user = result.scalar_one_or_none()
+            if user:
+                # Update existing user
+                for k, v in user_data.items():
+                    setattr(user, k, v)
+            else:
+                user = User(**user_data)
+                session.add(user)
+            await session.commit()
+        return {"status": "ok", "user": user_data}
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))

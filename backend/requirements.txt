@@ -4,3 +4,8 @@ openai
 python-dotenv
 fastapi
 uvicorn[standard]
+SQLAlchemy[asyncio]
+asyncpg
+pyjwt
+psycopg2-binary
+# psycopg2

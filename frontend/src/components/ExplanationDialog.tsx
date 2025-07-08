@@ -38,13 +38,15 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
     };
 
     setChatMessages(prev => [...prev, newMessage]);
+    const prevInput = inputValue;
+    setInputValue(""); // Optimistically clear
 
     try {
       const response = await axios.post("http://127.0.0.1:8079/dialog", {
         passage,
         question,
         answer_explanation: answerExplanation,
-        user_message: inputValue
+        user_message: prevInput
       });
       const aiResponse: ChatMessage = {
         id: (Date.now() + 1).toString(),
@@ -61,9 +63,8 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
         timestamp: new Date()
       };
       setChatMessages(prev => [...prev, aiResponse]);
+      setInputValue(prevInput); // Restore input if error
     }
-
-    setInputValue("");
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
@@ -74,10 +75,11 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-7xl max-h-[90vh] h-[90vh] flex flex-col">
+      <DialogContent className="max-w-7xl max-h-[90vh] h-[90vh] flex flex-col" aria-describedby="explanation-dialog-desc">
         <DialogHeader>
           <DialogTitle>Question Explanation</DialogTitle>
         </DialogHeader>
+        <span id="explanation-dialog-desc" className="sr-only">This dialog provides AI explanations and answer details for the current question.</span>
         {/* Main content area: make it flex-1 and min-h-0 to avoid overlap */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 min-h-0">
           {/* AI Chat Section - Left */}
