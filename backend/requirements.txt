@@ -12,3 +12,5 @@ pymupdf
 pillow
 pytesseract
 pdf2image
+gunicorn
+uvicorn
