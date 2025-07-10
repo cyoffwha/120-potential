@@ -1,7 +1,7 @@
-import { EducationPlatform } from "@/components/EducationPlatform";
+import LandingPage from "./LandingPage";
 
 const Index = () => {
-  return <EducationPlatform />;
+  return <LandingPage />;
 };
 
 export default Index;

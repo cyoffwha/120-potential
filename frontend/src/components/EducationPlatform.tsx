@@ -29,7 +29,7 @@ export const EducationPlatform = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
+      <Header activeSection="Practice" />
       <main className="max-w-7xl mx-auto px-6 py-6">
         {loading && <div>Loading questions...</div>}
         {error && <div className="text-red-600">{error}</div>}

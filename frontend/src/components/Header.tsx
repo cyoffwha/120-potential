@@ -1,101 +1,60 @@
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { GoogleLogin, googleLogout } from "@react-oauth/google";
-import { jwtDecode, JwtPayload } from "jwt-decode";
+import { googleLogout } from "@react-oauth/google";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useAuth } from "@/contexts/AuthContext";
+import { LoginModal } from "./LoginModal";
 
 interface HeaderProps {
   activeSection?: string;
 }
 
-interface UserProfile {
-  name: string;
-  email: string;
-  picture: string;
-}
-
-interface GoogleJwtPayload extends JwtPayload {
-  name: string;
-  email: string;
-  picture: string;
-}
-
 export const Header = ({ activeSection = "Question Banks" }: HeaderProps) => {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const currentPath = location.pathname;
+  const { user, handleGoogleLogin, handleLogout, isAuthenticated } = useAuth();
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
+
   const navigationItems = [
-    { label: "Dashboard", href: "#" },
-    { label: "Practice", href: "#", active: true },
-    { label: "Full practice", href: "#" },
-    { label: "Add Question", href: "/add-question" },
+    { label: "Home", href: "/", active: currentPath === "/" },
+    { label: "Practice", href: "/practice", active: currentPath === "/practice", requiresAuth: true },
+    { label: "Full practice", href: "#", requiresAuth: true },
+    { label: "Add Question", href: "/add-question", active: currentPath === "/add-question" },
     // { label: "Stats", href: "#" }
   ];
 
-  // Google user state
-  const [user, setUser] = useState<UserProfile | null>(null);
-
-  // Restore user from localStorage on mount
-  useEffect(() => {
-    const storedCredential = localStorage.getItem("google_credential");
-    if (storedCredential) {
-      // Optionally, re-send to backend for validation and get user info
-      fetch("http://127.0.0.1:8079/auth/google", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ credential: storedCredential })
-      })
-        .then(res => res.ok ? res.json() : null)
-        .then(data => {
-          if (data && data.user) {
-            setUser({
-              name: data.user.name,
-              email: data.user.email,
-              picture: data.user.picture,
-            });
-          } else {
-            localStorage.removeItem("google_credential");
-          }
-        })
-        .catch(() => localStorage.removeItem("google_credential"));
-    }
-  }, []);
-
-  // Handle Google login success
-  const handleGoogleLogin = async (credentialResponse: any) => {
-    if (credentialResponse.credential) {
-      localStorage.setItem("google_credential", credentialResponse.credential);
-      // Send credential to backend for user storage
-      try {
-        const res = await fetch("http://127.0.0.1:8079/auth/google", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ credential: credentialResponse.credential })
-        });
-        if (!res.ok) throw new Error("Failed to store user");
-        const data = await res.json();
-        setUser({
-          name: data.user.name,
-          email: data.user.email,
-          picture: data.user.picture,
-        });
-      } catch (e) {
-        alert("Google login succeeded but user could not be stored in backend.");
-      }
+  const handleNavItemClick = (item: typeof navigationItems[0]) => {
+    if (item.requiresAuth && !isAuthenticated) {
+      setIsLoginModalOpen(true);
+    } else if (item.href.startsWith('/')) {
+      navigate(item.href);
     }
   };
 
-  // Handle Google logout
-  const handleLogout = () => {
-    googleLogout();
-    setUser(null);
-    localStorage.removeItem("google_credential");
+  const handleLoginSuccess = async (credentialResponse: any) => {
+    await handleGoogleLogin(credentialResponse);
+    setIsLoginModalOpen(false);
+    // If user was trying to access practice, navigate there after login
+    if (currentPath === "/" && navigationItems.find(item => item.requiresAuth && item.active)) {
+      navigate('/practice');
+    }
   };
 
   return (
     <header className="bg-primary border-b border-border px-6 py-3">
+      <LoginModal 
+        isOpen={isLoginModalOpen} 
+        onClose={() => setIsLoginModalOpen(false)} 
+        onSuccess={handleLoginSuccess} 
+      />
+      
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo/Brand */}
         <div className="flex items-center w-full">
-          <h1 className="text-xl font-bold mr-8" style={{ color: '#F4EBEE' }}>120% Potential</h1>
+          <Link to="/" className="text-xl font-bold mr-8" style={{ color: '#F4EBEE' }}>120% Potential</Link>
           
           {/* Navigation */}
           <nav className="flex items-center space-x-1">
@@ -105,6 +64,7 @@ export const Header = ({ activeSection = "Question Banks" }: HeaderProps) => {
                 variant={item.active || item.label === activeSection ? "secondary" : "ghost"}
                 size="sm"
                 className="text-sm text-primary-foreground hover:bg-primary-hover"
+                onClick={() => handleNavItemClick(item)}
               >
                 {item.label}
               </Button>
@@ -112,9 +72,8 @@ export const Header = ({ activeSection = "Question Banks" }: HeaderProps) => {
           </nav>
         </div>
 
-        {/* Timer and User Avatar or Auth Buttons */}
+        {/* User Avatar or Auth Buttons */}
         <div className="flex items-center space-x-4">
-          {/* <Timer /> */}
           {user ? (
             <Popover>
               <PopoverTrigger asChild>
@@ -138,16 +97,13 @@ export const Header = ({ activeSection = "Question Banks" }: HeaderProps) => {
               </PopoverContent>
             </Popover>
           ) : (
-            <GoogleLogin
-              onSuccess={handleGoogleLogin}
-              onError={() => alert("Google Login Failed")}
-              width="240"
-              theme="filled_blue"
-              text="continue_with"
-              shape="pill"
-              logo_alignment="left"
-              locale="en"
-            />
+            <Button 
+              variant="secondary" 
+              size="sm" 
+              onClick={() => setIsLoginModalOpen(true)}
+            >
+              Sign in
+            </Button>
           )}
         </div>
       </div>

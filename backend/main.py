@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import insert
+from sqlalchemy import insert, select
 from pydantic import BaseModel
 from dotenv import load_dotenv
 import os

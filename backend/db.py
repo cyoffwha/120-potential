@@ -43,8 +43,8 @@ class Question(Base):
     rationale_c = Column(String, nullable=True)
     rationale_d = Column(String, nullable=True)
     difficulty = Column(String, nullable=False)  # One of: Easy, Medium, Hard, Very Hard
-    domain = Column(String, nullable=False)      # e.g. Craft and Structure
-    skill = Column(String, nullable=False)       # e.g. Cross-Text Connections
+    domain = Column(String, nullable=True)      # e.g. Craft and Structure
+    skill = Column(String, nullable=True)       # e.g. Cross-Text Connections
 
 # To create tables (including the questions table), run:
 #
