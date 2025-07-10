@@ -1,36 +1,70 @@
-from fastapi import FastAPI, Request, HTTPException, Depends
+from fastapi import FastAPI, HTTPException, Depends, Request
+from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import insert
 from pydantic import BaseModel
-import os
 from dotenv import load_dotenv
-import google.generativeai as genai
-from db import User, SessionLocal, engine, Base
-from sqlalchemy.future import select
-from sqlalchemy.exc import SQLAlchemyError
+import os
 import jwt
 import datetime
+import google.generativeai as genai
+
+from db import User, SessionLocal, engine, Base, Question
+from questions_api import router as questions_router
 
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-
-
-from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
 # Allow CORS for local frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8080", "http://127.0.0.1:8080"],
+    allow_origins=["http://localhost:8080"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
 )
+
+# --- Include questions API router ---
+app.include_router(questions_router)
 
 class DialogRequest(BaseModel):
     passage: str
     question: str
     answer_explanation: str
     user_message: str
+
+
+# Model for creating a new SAT question
+class QuestionCreate(BaseModel):
+    image: str | None = None
+    passage: str | None = None
+    question: str
+    choice_a: str
+    choice_b: str
+    choice_c: str
+    choice_d: str
+    correct_choice: str
+    rationale_a: str | None = None
+    rationale_b: str | None = None
+    rationale_c: str | None = None
+    rationale_d: str | None = None
+    difficulty: str  # Must be one of: Easy, Medium, Hard, Very Hard
+    domain: str      # e.g. Craft and Structure
+    skill: str       # e.g. Cross-Text Connections
+
+# Endpoint to add a new SAT question
+@app.post("/questions")
+async def create_question(q: QuestionCreate):
+    try:
+        async with AsyncSession(engine) as session:
+            stmt = insert(Question).values(**q.dict())
+            await session.execute(stmt)
+            await session.commit()
+        return {"status": "ok"}
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
 
 
 @app.get("/")
@@ -74,7 +108,7 @@ async def auth_google(req: GoogleAuthRequest):
             "email_verified": str(payload.get("email_verified")),
             "hd": payload.get("hd"),
         }
-        async with SessionLocal() as session:
+        async with AsyncSession(engine) as session:
             result = await session.execute(select(User).where(User.sub == user_data["sub"]))
             user = result.scalar_one_or_none()
             if user:

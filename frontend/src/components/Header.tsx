@@ -26,6 +26,7 @@ export const Header = ({ activeSection = "Question Banks" }: HeaderProps) => {
     { label: "Dashboard", href: "#" },
     { label: "Practice", href: "#", active: true },
     { label: "Full practice", href: "#" },
+    { label: "Add Question", href: "/add-question" },
     // { label: "Stats", href: "#" }
   ];
 

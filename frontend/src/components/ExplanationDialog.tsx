@@ -21,7 +21,7 @@ interface ChatMessage {
   timestamp: Date;
 }
 
-export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage = '', question = '', answerExplanation = '', explanations = {}, correctAnswer = 'A' }: ExplanationDialogProps & { passage?: string, question?: string, answerExplanation?: string, explanations?: Record<string, string>, correctAnswer?: string }) => {
+export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage = '', question = '', answerExplanation = '', explanations = {}, correctAnswer = 'A', onAgain, onEasy }: ExplanationDialogProps & { passage?: string, question?: string, answerExplanation?: string, explanations?: Record<string, string>, correctAnswer?: string, onAgain?: () => void, onEasy?: () => void }) => {
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
   const [inputValue, setInputValue] = useState("");
   const [againClicked, setAgainClicked] = useState(false);
@@ -182,14 +182,14 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
         {/* Bottom Buttons */}
         <div className="flex justify-center gap-4 mt-4 shrink-0">
           <Button 
-            onClick={() => { setAgainClicked(true); onOpenChange(false); }}
+            onClick={() => { if (onAgain) onAgain(); onOpenChange(false); }}
             variant="outline"
             className={`px-8 hover:bg-[#223971] hover:text-white`}
           >
             Again
           </Button>
           <Button 
-            onClick={() => { setEasyClicked(true); onOpenChange(false); }}
+            onClick={() => { if (onEasy) onEasy(); onOpenChange(false); }}
             className={`px-8 bg-accent text-accent-foreground hover:bg-accent/90`}
           >
             Easy

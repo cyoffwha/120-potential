@@ -16,13 +16,25 @@ interface MultipleChoiceProps {
   options?: ChoiceOption[];
   selectedAnswer?: string;
   onAnswerChange?: (answer: string) => void;
+  onAgain?: () => void;
+  onEasy?: () => void;
+  passage?: string;
+  answerExplanation?: string;
+  explanations?: Record<string, string>;
+  correctAnswer?: string;
 }
 
 export const MultipleChoice = ({
   question,
   options,
   selectedAnswer,
-  onAnswerChange
+  onAnswerChange,
+  onAgain,
+  onEasy,
+  passage,
+  answerExplanation,
+  explanations,
+  correctAnswer
 }: MultipleChoiceProps) => {
   const [selected, setSelected] = useState(selectedAnswer || "");
   const [showExplanation, setShowExplanation] = useState(false);
@@ -108,17 +120,13 @@ export const MultipleChoice = ({
         open={showExplanation}
         onOpenChange={setShowExplanation}
         selectedAnswer={selected}
-        passage={`In 1916, H. Dugdale Sykes disputed claims that The Two Noble Kinsmen was coauthored by William Shakespeare and John Fletcher. Sykes felt Fletcher's contributions to the play were obvious—Fletcher had a distinct style in his other plays, so much so that lines with that style were considered sufficient evidence of Fletcher's authorship. But for the lines not deemed to be by Fletcher, Sykes felt that their depiction of women indicated that their author was not Shakespeare but Philip Massinger.\nScholars have accepted The Two Noble Kinsmen as coauthored by Shakespeare since the 1970s: it appears in all major one-volume editions of Shakespeare's complete works. Though scholars disagree about who wrote what exactly, it is generally held that on the basis of style, Shakespeare wrote all of the first act and most of the last, while John Fletcher authored most of the three middle acts.`}
+        passage={passage}
         question={questionText}
-        
-        answerExplanation={`Choice A is the best answer. “In addition” logically signals that the detail in this sentence—that Coleridge-Taylor included traditional African music in his classical compositions—adds to the information in the previous sentence. Specifically, the previous sentence indicates one way in which Coleridge-Taylor emphasized his mixed-race ancestry, and the claim that follows indicates a second, additional way.\n\nChoice B is incorrect because “actually” illogically signals that the detail in this sentence is surprising in light of the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry. Choice C is incorrect because “however” illogically signals that the detail in this sentence contrasts with the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry. Choice D is incorrect because “regardless” illogically signals that the detail in this sentence is true despite the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry.`}
-        explanations={{
-          A: '“In addition” logically signals that the detail in this sentence—that Coleridge-Taylor included traditional African music in his classical compositions—adds to the information in the previous sentence. Specifically, the previous sentence indicates one way in which Coleridge-Taylor emphasized his mixed-race ancestry, and the claim that follows indicates a second, additional way.',
-          B: '“Actually” illogically signals that the detail in this sentence is surprising in light of the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry.',
-          C: '“However” illogically signals that the detail in this sentence contrasts with the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry.',
-          D: '“Regardless” illogically signals that the detail in this sentence is true despite the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry.'
-        }}
-        correctAnswer="A"
+        answerExplanation={answerExplanation}
+        explanations={explanations}
+        correctAnswer={correctAnswer}
+        onAgain={onAgain}
+        onEasy={onEasy}
       />
     </Card>
   );

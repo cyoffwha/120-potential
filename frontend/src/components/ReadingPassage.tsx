@@ -26,12 +26,15 @@ export const ReadingPassage = ({ passages }: ReadingPassageProps) => {
   return (
     <Card className="mb-6">
       <CardHeader>
-        <CardTitle className="text-lg">Reading Passages</CardTitle>
+        <CardTitle className="text-lg">Passage</CardTitle>
       </CardHeader>
       <CardContent className="space-y-6">
         {textsToRender.map((passage, index) => (
           <div key={index} className="space-y-3">
-            <h3 className="font-semibold text-primary">{passage.title}</h3>
+            {/* Only show passage title if there are multiple passages */}
+            {textsToRender.length > 1 && (
+              <h3 className="font-semibold text-primary">{passage.title}</h3>
+            )}
             <p className="text-sm leading-relaxed text-foreground">
               {passage.content}
             </p>
