@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+import { BACKEND_URL } from "../config";
+
 export function useRandomQuestion() {
   const [questions, setQuestions] = useState<any[]>([]);
   const [current, setCurrent] = useState<any | null>(null);
@@ -8,7 +10,7 @@ export function useRandomQuestion() {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:8079/questions")
+    fetch(`${BACKEND_URL}/questions`)
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch questions");
         return res.json();
