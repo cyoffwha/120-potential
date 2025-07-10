@@ -7,20 +7,21 @@ from dotenv import load_dotenv
 import os
 import jwt
 import datetime
-import google.generativeai as genai
+import openai
 
 from db import User, SessionLocal, engine, Base, Question
 from questions_api import router as questions_router
 
+
 load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 app = FastAPI()
 
 # Allow CORS for local frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8080"],
+    allow_origins=["http://localhost:8080", "120potential.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
@@ -45,7 +46,7 @@ class QuestionCreate(BaseModel):
     choice_b: str
     choice_c: str
     choice_d: str
-    correct_choice: str
+    correct_choice: str # Must be 'A', 'B', 'C', or 'D'
     rationale_a: str | None = None
     rationale_b: str | None = None
     rationale_c: str | None = None
@@ -74,6 +75,7 @@ def read_root():
 
 @app.post("/dialog")
 async def dialog(req: DialogRequest):
+    import openai
     prompt = (
         "You are an expert SAT tutor. Use the reading passage, the question, and the official answer explanation to answer the user's follow-up question. "
         "Be concise, factual, and only answer within the context of the SAT material provided, and SAT in general like Erica Grammar/Reading, Hard SAT questions, Panda, etc. If the user asks something off-topic, irrelevant, or not related to SAT, respond with something helping, determining, motivating to study the SAT. Do not provide generic, evasive, or off-topic responses.\n"
@@ -82,10 +84,20 @@ async def dialog(req: DialogRequest):
         f"Official Answer Explanation: {req.answer_explanation}\n"
         f"User: {req.user_message}\nAnswer:"
     )
-    model = genai.GenerativeModel("gemini-1.5-flash-latest")
-    response = model.generate_content(prompt, generation_config={"temperature": 0.2})
-    answer = response.text.strip()
-    return {"answer": answer}
+    try:
+        response = openai.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "Stick to the context. You are an expert SAT tutor. Use the reading passage, the question, and the official answer explanation to answer the user's follow-up question. Be concise, factual, and only answer within the context of the SAT material provided, and SAT in general like Erica Grammar/Reading, Hard SAT questions, Panda, etc. If the user asks something off-topic, irrelevant, or not related to SAT, respond with something helping, determining, motivating to study the SAT. Do not provide generic, evasive, or off-topic responses.\n"},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=512,
+            temperature=0.2,
+        )
+        answer = response.choices[0].message.content.strip()
+        return {"answer": answer}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 class GoogleAuthRequest(BaseModel):
     credential: str
