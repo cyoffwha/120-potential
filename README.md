@@ -37,8 +37,6 @@ echo 'DATABASE_URL="postgresql+asyncpg://postgres:postgres@localhost:5432/potent
 echo 'GEMINI_API_KEY="your_gemini_api_key_here"' >> .env
 # Initialize database (creates DB and tables):
 python setup_db.py
-# If you encounter any database schema issues, run:
-python migrate_db.py
 ```
 
 #### Running the Backend

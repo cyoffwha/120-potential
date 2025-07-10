@@ -1,4 +1,13 @@
 import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import {
+  SelectValue,
+  SelectTrigger,
+  SelectItem,
+  SelectContent,
+  Select,
+} from "@/components/ui/select";
+import { BACKEND_URL } from "../config";
 
 const DOMAIN_SKILL_MAP = {
   "Craft and Structure": [
@@ -36,7 +45,7 @@ const initialState = {
   skill: DOMAIN_SKILL_MAP[Object.keys(DOMAIN_SKILL_MAP)[0]][0],
 };
 
-export default function AddQuestionPage() {
+export function AddQuestion() {
   const [form, setForm] = useState(initialState);
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -56,7 +65,6 @@ export default function AddQuestionPage() {
     });
   };
 
-  const BACKEND_URL = (import.meta.env.BACKEND_IP_ADDRESS || "http://localhost:8079/").replace(/\/$/, "");
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);

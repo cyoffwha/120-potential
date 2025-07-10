@@ -1,3 +1,40 @@
+---
+
+## Accessing and Reading PostgreSQL Tables via SSH
+
+1. **Connect to your server via SSH.**
+
+2. **Switch to the postgres user and open psql:**
+   ```bash
+   sudo -u postgres psql
+   ```
+
+3. **List all databases:**
+   ```sql
+   \l
+   ```
+
+4. **Connect to your database (e.g., `potential`):**
+   ```sql
+   \c potential
+   ```
+
+5. **List all tables:**
+   ```sql
+   \dt
+   ```
+
+6. **Read data from a table (e.g., `users`):**
+   ```sql
+   SELECT * FROM users;
+   ```
+
+7. **Exit psql:**
+   ```sql
+   \q
+   ```
+
+You can use these commands to inspect, query, and manage your database tables directly from your SSH session.
 # Deployment Guide for 120% Potential
 
 This guide provides clear, production-ready deployment instructions for both the backend (FastAPI) and frontend (Vite + React) of the 120% Potential project. It assumes you are deploying on a Linux server with root or sudo access.
@@ -104,7 +141,7 @@ This generates a `dist/` folder with static assets.
 ## 5. Useful Commands
 - **Backend:**
   - Start: `gunicorn main:app -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8079 --workers 2`
-  - DB migration: `python migrate_db.py`
+  # DB migration is not needed; tables and columns are created automatically with setup_db.py
 - **Frontend:**
   - Build: `npm run build`
   - Dev: `npm run dev`

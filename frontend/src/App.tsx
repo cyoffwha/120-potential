@@ -9,7 +9,7 @@ import AddQuestion from "./pages/AddQuestion";
 import Practice from "./pages/Practice";
 import Dashboard from "./pages/Dashboard";
 import { GoogleOAuthProvider } from "@react-oauth/google";
-import { AuthProvider, useAuth } from "./contexts/AuthContext";
+import { AuthProvider } from "./contexts/AuthContext";
 import { ProtectedRoute } from "./components/ProtectedRoute";
 
 const queryClient = new QueryClient();

@@ -11,6 +11,8 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 
 # Extract db name and admin connection string
 import re
+if not DATABASE_URL:
+    raise Exception("DATABASE_URL is not set!")
 match = re.match(r"postgresql\+asyncpg://(.*):(.*)@(.*):(\d+)/(.*)", DATABASE_URL)
 if not match:
     raise Exception("DATABASE_URL is not in the expected format!")
@@ -30,9 +32,10 @@ else:
 cur.close()
 conn.close()
 
-# 2. Create tables if not exists (async)
+# 2. Create tables (with all fields) if not exist (async)
 import asyncio
 async def create_tables():
+    print("Creating tables...")
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
     print("Tables created (if not exist). Done!")

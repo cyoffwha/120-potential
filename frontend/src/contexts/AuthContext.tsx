@@ -1,4 +1,5 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import { BACKEND_URL } from "../config";
 
 interface UserProfile {
   name: string;
@@ -23,7 +24,6 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const isAuthenticated = user !== null;
 
   // Restore user from localStorage on mount
-  const BACKEND_URL = (import.meta.env.BACKEND_IP_ADDRESS || "http://localhost:8079/").replace(/\/$/, "");
   useEffect(() => {
     const storedCredential = localStorage.getItem("google_credential");
     if (storedCredential) {
