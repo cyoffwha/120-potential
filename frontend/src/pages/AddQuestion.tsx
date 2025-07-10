@@ -56,13 +56,14 @@ export default function AddQuestionPage() {
     });
   };
 
+  const BACKEND_URL = (import.meta.env.BACKEND_IP_ADDRESS || "http://localhost:8079/").replace(/\/$/, "");
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError("");
     setSuccess(false);
     try {
-      const res = await fetch("http://localhost:8079/questions", {
+      const res = await fetch(`${BACKEND_URL}/questions`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

@@ -27,6 +27,8 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
   const [againClicked, setAgainClicked] = useState(false);
   const [easyClicked, setEasyClicked] = useState(false);
 
+  const BACKEND_URL = (import.meta.env.BACKEND_IP_ADDRESS || "http://localhost:8079/").replace(/\/$/, "");
+
   const handleSendMessage = async () => {
     if (!inputValue.trim()) return;
 
@@ -42,7 +44,7 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
     setInputValue(""); // Optimistically clear
 
     try {
-      const response = await axios.post("http://127.0.0.1:8079/dialog", {
+      const response = await axios.post(`${BACKEND_URL}/dialog`, {
         passage,
         question,
         answer_explanation: answerExplanation,

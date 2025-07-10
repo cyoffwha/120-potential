@@ -23,11 +23,11 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const isAuthenticated = user !== null;
 
   // Restore user from localStorage on mount
+  const BACKEND_URL = (import.meta.env.BACKEND_IP_ADDRESS || "http://localhost:8079/").replace(/\/$/, "");
   useEffect(() => {
     const storedCredential = localStorage.getItem("google_credential");
     if (storedCredential) {
-      // Optionally, re-send to backend for validation and get user info
-      fetch("http://127.0.0.1:8079/auth/google", {
+      fetch(`${BACKEND_URL}/auth/google`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ credential: storedCredential })
@@ -52,9 +52,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const handleGoogleLogin = async (credentialResponse: any) => {
     if (credentialResponse.credential) {
       localStorage.setItem("google_credential", credentialResponse.credential);
-      // Send credential to backend for user storage
       try {
-        const res = await fetch("http://127.0.0.1:8079/auth/google", {
+        const res = await fetch(`${BACKEND_URL}/auth/google`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ credential: credentialResponse.credential })
