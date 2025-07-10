@@ -8,4 +8,7 @@ SQLAlchemy[asyncio]
 asyncpg
 pyjwt
 psycopg2-binary
-# psycopg2
+pymupdf
+pillow
+pytesseract
+pdf2image
