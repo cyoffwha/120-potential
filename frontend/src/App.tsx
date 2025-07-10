@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import AddQuestion from "./pages/AddQuestion";
 import Practice from "./pages/Practice";
+import Dashboard from "./pages/Dashboard";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { AuthProvider, useAuth } from "./contexts/AuthContext";
 import { ProtectedRoute } from "./components/ProtectedRoute";
@@ -37,18 +38,26 @@ const App = () => {
           <TooltipProvider>
             <Toaster />
             <Sonner />
-            <BrowserRouter>
-              <Routes>
-                <Route path="/" element={<Index />} />
-                <Route path="/practice" element={
-                  <ProtectedRoute>
-                    <Practice />
-                  </ProtectedRoute>
-                } />
-                <Route path="/add-question" element={<AddQuestion />} />
-                {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-                <Route path="*" element={<NotFound />} />
-              </Routes>
+            <BrowserRouter>            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/practice" element={
+                <ProtectedRoute>
+                  <Practice />
+                </ProtectedRoute>
+              } />
+              <Route path="/dashboard" element={
+                <ProtectedRoute>
+                  <Dashboard />
+                </ProtectedRoute>
+              } />
+              <Route path="/add-question" element={
+                <ProtectedRoute>
+                  <AddQuestion />
+                </ProtectedRoute>
+              } />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
             </BrowserRouter>
           </TooltipProvider>
         </AuthProvider>

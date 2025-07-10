@@ -71,7 +71,8 @@ The frontend will be available at http://localhost:8080
 
 - **Landing Page:** Visit the homepage at http://localhost:8080/ to learn about the platform
 - **Practice:** Go to http://localhost:8080/practice to practice SAT questions with our SRS system (requires Google login)
-- **Add Questions:** Go to http://localhost:8080/add-question to add new SAT questions to the database (admin only)
+- **Dashboard:** Go to http://localhost:8080/dashboard to view your study progress and statistics (requires Google login)
+- **Add Questions:** Go to http://localhost:8080/add-question to add new SAT questions to the database (requires Google login)
 
 ### 5. Authentication
 
