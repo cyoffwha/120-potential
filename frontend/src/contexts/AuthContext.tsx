@@ -66,7 +66,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
           picture: data.user.picture,
         });
       } catch (e) {
-        alert("Google login succeeded but user could not be stored in backend.");
+        console.error("Failed to store user in backend:", e);
+        alert("Google login succeeded but user data could not be stored in backend. Check the browser console for more details.");
       }
     }
   };

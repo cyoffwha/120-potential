@@ -21,7 +21,7 @@ app = FastAPI()
 # Allow CORS for local frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8080", "https://120potential.app"],
+    allow_origins=["http://localhost:8080", "https://120-potential.app", "https://120potential.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
@@ -115,7 +115,6 @@ async def auth_google(req: GoogleAuthRequest):
             "picture": payload.get("picture"),
             "given_name": payload.get("given_name"),
             "family_name": payload.get("family_name"),
-            "birthdate": payload.get("birthdate"),
             "locale": payload.get("locale"),
             "email_verified": str(payload.get("email_verified")),
             "hd": payload.get("hd"),
