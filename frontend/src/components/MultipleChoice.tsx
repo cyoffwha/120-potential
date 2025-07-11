@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Timer } from "./Timer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -37,6 +37,11 @@ export const MultipleChoice = ({
   correctAnswer
 }: MultipleChoiceProps) => {
   const [showExplanation, setShowExplanation] = useState(false);
+
+  // Reset explanation dialog when question changes
+  useEffect(() => {
+    setShowExplanation(false);
+  }, [question]);
 
   const defaultQuestion = "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?";
   
