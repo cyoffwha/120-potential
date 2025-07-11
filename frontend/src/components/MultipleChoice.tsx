@@ -27,7 +27,7 @@ interface MultipleChoiceProps {
 export const MultipleChoice = ({
   question,
   options,
-  selectedAnswer,
+  selectedAnswer = "",
   onAnswerChange,
   onAgain,
   onEasy,
@@ -36,7 +36,6 @@ export const MultipleChoice = ({
   explanations,
   correctAnswer
 }: MultipleChoiceProps) => {
-  const [selected, setSelected] = useState(selectedAnswer || "");
   const [showExplanation, setShowExplanation] = useState(false);
 
   const defaultQuestion = "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?";
@@ -64,9 +63,8 @@ export const MultipleChoice = ({
   const choiceOptions = options || defaultOptions;
 
   const handleValueChange = (value: string) => {
-    setSelected(value);
     onAnswerChange?.(value);
-  };
+  }
 
   return (
     <Card className="mb-6 bg-card border-border shadow-sm relative min-h-[320px]">
@@ -80,7 +78,7 @@ export const MultipleChoice = ({
       </CardHeader>
       <CardContent>
         <RadioGroup 
-          value={selected} 
+          value={selectedAnswer} 
           onValueChange={handleValueChange}
           className="space-y-4"
         >
@@ -108,7 +106,7 @@ export const MultipleChoice = ({
         <div className="mt-6 flex justify-center">
           <Button 
             className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 font-medium"
-            disabled={!selected}
+            disabled={!selectedAnswer}
             onClick={() => setShowExplanation(true)}
           >
             Check
@@ -119,7 +117,7 @@ export const MultipleChoice = ({
       <ExplanationDialog 
         open={showExplanation}
         onOpenChange={setShowExplanation}
-        selectedAnswer={selected}
+        selectedAnswer={selectedAnswer}
         passage={passage}
         question={questionText}
         answerExplanation={answerExplanation}
