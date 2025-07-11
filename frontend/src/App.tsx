@@ -50,11 +50,7 @@ const App = () => {
                   <Dashboard />
                 </ProtectedRoute>
               } />
-              <Route path="/add-question" element={
-                <ProtectedRoute>
-                  <AddQuestion />
-                </ProtectedRoute>
-              } />
+              <Route path="/add-question" element={<AddQuestion />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
