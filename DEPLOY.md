@@ -39,7 +39,51 @@ You can use these commands to inspect, query, and manage your database tables di
 
 This guide provides clear, production-ready deployment instructions for both the backend (FastAPI) and frontend (Vite + React) of the 120% Potential project. It assumes you are deploying on a Linux server with root or sudo access.
 
+
 ---
+
+server {
+    server_name 120potential.app;
+
+    root /var/www/120-potential/frontend/dist;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    location /api/ {
+        proxy_pass http://localhost:8079/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/120potential.app/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/120potential.app/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+server {
+    if ($host = 120potential.app) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    listen 80;
+    server_name 120potential.app;
+    return 404; # managed by Certbot
+
+
+}
+
+sudo mkdir -p /var/www/120-potential/frontend
+sudo cp -r /root/120-potential/frontend/dist /var/www/120-potential/frontend/
+sudo chmod -R o+r /var/www/120-potential/frontend/dist
+sudo find /var/www/120-potential/frontend/dist -type d -exec chmod o+x {} \;
+sudo nginx -t
+sudo systemctl reload nginx
 
 ## 1. Prerequisites
 
