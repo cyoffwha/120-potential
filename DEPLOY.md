@@ -1,89 +1,9 @@
----
 
-## Accessing and Reading PostgreSQL Tables via SSH
+# Production Deployment Guide for 120% Potential
 
-1. **Connect to your server via SSH.**
-
-2. **Switch to the postgres user and open psql:**
-   ```bash
-   sudo -u postgres psql
-   ```
-
-3. **List all databases:**
-   ```sql
-   \l
-   ```
-
-4. **Connect to your database (e.g., `potential`):**
-   ```sql
-   \c potential
-   ```
-
-5. **List all tables:**
-   ```sql
-   \dt
-   ```
-
-6. **Read data from a table (e.g., `users`):**
-   ```sql
-   SELECT * FROM users;
-   ```
-
-7. **Exit psql:**
-   ```sql
-   \q
-   ```
-
-You can use these commands to inspect, query, and manage your database tables directly from your SSH session.
-# Deployment Guide for 120% Potential
-
-This guide provides clear, production-ready deployment instructions for both the backend (FastAPI) and frontend (Vite + React) of the 120% Potential project. It assumes you are deploying on a Linux server with root or sudo access.
-
+This guide provides step-by-step instructions for deploying the backend (FastAPI) and frontend (Vite + React) in production. For full project details, see the main `README.md`.
 
 ---
-
-server {
-    server_name 120potential.app;
-
-    root /var/www/120-potential/frontend/dist;
-    index index.html;
-
-    location / {
-        try_files $uri $uri/ /index.html;
-    }
-
-    location /api/ {
-        proxy_pass http://localhost:8079/;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-    }
-
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/120potential.app/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/120potential.app/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-}
-server {
-    if ($host = 120potential.app) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-
-
-    listen 80;
-    server_name 120potential.app;
-    return 404; # managed by Certbot
-
-
-}
-
-sudo mkdir -p /var/www/120-potential/frontend
-sudo cp -r /root/120-potential/frontend/dist /var/www/120-potential/frontend/
-sudo chmod -R o+r /var/www/120-potential/frontend/dist
-sudo find /var/www/120-potential/frontend/dist -type d -exec chmod o+x {} \;
-sudo nginx -t
-sudo systemctl reload nginx
 
 ## 1. Prerequisites
 
@@ -146,37 +66,34 @@ npm run build
 ```
 This generates a `dist/` folder with static assets.
 
-### b. Serve Static Files
-- **Option 1: Nginx (recommended)**
-  - Configure nginx to serve `/opt/120-potential/frontend/dist` at your domain or subdomain.
-  - Example nginx config:
-    ```nginx
-    server {
-        listen 80;
-        server_name yourdomain.com;
-        root /opt/120-potential/frontend/dist;
-        index index.html;
+### b. Serve Static Files with Nginx
+Configure nginx to serve `/opt/120-potential/frontend/dist` at your domain or subdomain.
 
-        location /api/ {
-            proxy_pass http://127.0.0.1:8079/;
-            proxy_set_header Host $host;
-            proxy_set_header X-Real-IP $remote_addr;
-        }
+**Example nginx config:**
+```nginx
+server {
+    listen 80;
+    server_name yourdomain.com;
+    root /opt/120-potential/frontend/dist;
+    index index.html;
 
-        location / {
-            try_files $uri $uri/ /index.html;
-        }
+    location /api/ {
+        proxy_pass http://127.0.0.1:8079/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
     }
-    ```
-- **Option 2: Any static file host** (Vercel, Netlify, etc.)
-  - Deploy the `dist/` folder as a static site.
-  - Ensure API requests are proxied to your backend.
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}
+```
 
 ---
 
 ## 4. Environment & Security Notes
 - Never commit secrets (API keys, DB passwords) to git.
-- Use HTTPS in production.
+- Use HTTPS in production (see Certbot/Let's Encrypt docs).
 - Restrict CORS origins in `main.py` to your production domain.
 - Set proper permissions on `.env` files.
 
@@ -185,7 +102,7 @@ This generates a `dist/` folder with static assets.
 ## 5. Useful Commands
 - **Backend:**
   - Start: `gunicorn main:app -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8079 --workers 2`
-  # DB migration is not needed; tables and columns are created automatically with setup_db.py
+  - DB migration is not needed; tables and columns are created automatically with setup_db.py
 - **Frontend:**
   - Build: `npm run build`
   - Dev: `npm run dev`
@@ -212,4 +129,9 @@ This generates a `dist/` folder with static assets.
 
 ---
 
-**For further details, see the `README.md` files in each subfolder.**
+## 9. PostgreSQL CLI Reference
+For basic PostgreSQL CLI usage (listing databases, tables, etc.), see [`docs/POSTGRES_CLI.md`](docs/POSTGRES_CLI.md).
+
+---
+
+**For further details, see the `README.md` files in each subfolder and the main project README.**

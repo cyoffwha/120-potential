@@ -1,82 +1,86 @@
-## Add New SAT Questions (Admin/Content Creator)
+<h1 align="center">SAT Practice Platform</h1>
 
-To add new SAT questions to the database, use the web UI:
-
-- [Add Question Page (localhost)](http://localhost:8080/add-question)
-
-This page is available after running the frontend. Fill out the form and submit to add questions directly to your backend database.
-
----
-
-## Key Features
-
-- **Spaced Repetition System (SRS)**: Our advanced SRS algorithm (as effective as Anki) selects questions based on difficulty and optimal timing for maximum retention.
-- **User-Friendly Interface**: An intuitive, Duolingo-inspired interface with a convenient two-button system for SRS feedback.
-- **AI Assistance**: Ask AI about text passages, answers, and explanations. AI will attempt to solve questions when explanations aren't available.
-- **Text Selection Tool**: Select any text to get instant AI analysis and explanation via a convenient popup.
+## Overview
+This project is a full-stack SAT practice and learning platform featuring:
+- **Spaced Repetition System (SRS)** for optimal retention
+- **AI-powered explanations** (OpenAI/Gemini)
+- **Modern, accessible UI** inspired by professional testing platforms
+- **Admin interface** for adding new questions
 
 ---
 
-## Project Setup & Deployment
+## Features
+- **Spaced Repetition (SRS):** Advanced algorithm selects questions for maximum learning efficiency
+- **AI Assistance:** Get instant explanations for questions and text selections
+- **User-Friendly Interface:** Clean, responsive, and accessible design
+- **Admin Tools:** Add new SAT questions via web UI
+- **Authentication:** Google login for personalized experience
+
+---
+
+## Quick Start
 
 ### 1. Backend (FastAPI)
+**Requirements:** Python 3.8+, PostgreSQL, OpenAI/Gemini API key
 
-#### Prerequisites
-- Python 3.8+
-- PostgreSQL running locally (default: user `postgres`, password `postgres`, db `potential`)
-- [Optional] Google Gemini API key (for AI explanations)
-
-#### Setup
 ```bash
 cd backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-# Create .env file with your secrets:
+# Configure environment variables:
 echo 'DATABASE_URL="postgresql+asyncpg://postgres:postgres@localhost:5432/potential"' > .env
+echo 'OPENAI_API_KEY="your_openai_api_key_here"' >> .env
+# (Optional) Gemini:
 echo 'GEMINI_API_KEY="your_gemini_api_key_here"' >> .env
-# Initialize database (creates DB and tables):
+# Initialize database:
 python setup_db.py
-```
-
-#### Running the Backend
-```bash
-cd backend
+# Run server:
 uvicorn main:app --reload --port 8079
 ```
-The backend will be available at http://localhost:8079
+API available at: http://localhost:8079
 
-### 2. Frontend (React + TypeScript + Vite)
+### 2. Frontend (React + Vite)
+**Requirements:** Node.js, npm
 
-#### Setup
 ```bash
 cd frontend
 npm install
-```
-
-#### Running the Frontend
-```bash
 npm run dev
 ```
-The frontend will be available at http://localhost:8080
-
-### 3. Deployment
-
-- **Backend:** Use a production ASGI server (e.g. gunicorn with uvicorn workers) and set environment variables for production DB/API keys.
-- **Frontend:** Build with `npm run build` and serve the `dist/` folder with a static file server (e.g. nginx, Vercel, Netlify).
-
-### 4. Using the Application
-
-- **Landing Page:** Visit the homepage at http://localhost:8080/ to learn about the platform
-- **Practice:** Go to http://localhost:8080/practice to practice SAT questions with our SRS system (requires Google login)
-- **Dashboard:** Go to http://localhost:8080/dashboard to view your study progress and statistics (requires Google login)
-- **Add Questions:** Go to http://localhost:8080/add-question to add new SAT questions to the database (requires Google login)
-
-### 5. Authentication
-
-The application uses Google Authentication:
-- All practice features require authentication
-- When users click on "Start Practicing" or "Practice" links, they'll be prompted to sign in with Google
-- User information is securely stored and used for personalized learning experiences
+App available at: http://localhost:8080
 
 ---
+
+## Usage
+- **Landing Page:** http://localhost:8080/
+- **Practice:** http://localhost:8080/practice (Google login required)
+- **Dashboard:** http://localhost:8080/dashboard (Google login required)
+- **Add Questions:** http://localhost:8080/add-question (Admin only)
+
+### Add New SAT Questions
+Use the web UI at `/add-question` to submit new questions directly to the backend database.
+
+---
+
+## Deployment
+- **Backend:** Use a production ASGI server (e.g. gunicorn+uvicorn) and set environment variables securely
+- **Frontend:** Build with `npm run build` and serve `dist/` with a static file server (nginx, Vercel, Netlify, etc.)
+
+---
+
+## Authentication
+Google Authentication is required for all practice and dashboard features. User data is securely stored for personalized learning.
+
+---
+
+## Developer Notes
+
+- **Backend API:** See `backend/README.md` for API details and endpoints
+- **Frontend UI:** See `frontend/README.md` for component and customization info
+- **Design System:** Educational color scheme and accessibility features are built-in
+
+---
+
+## License
+See [LICENSE](LICENSE)

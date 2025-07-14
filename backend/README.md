@@ -1,54 +1,30 @@
-# Backend API - SAT Question & Answer Explanation
 
-This backend provides a FastAPI server with an endpoint for SAT question and answer explanations using OpenAI's API.
+# Backend API (FastAPI)
 
-## Prerequisites
-- Python 3.8+
-- A virtual environment (recommended: `venv` in the `backend` folder)
-- An OpenAI API key (add to `.env` as `OPENAI_API_KEY`)
+This is the backend for the SAT Practice Platform. It provides a FastAPI server with endpoints for SAT questions, answers, and AI explanations.
 
-## Setup
+## Setup & Usage
+See the [root README](../README.md) for full setup instructions.
 
-1. **Create and activate your virtual environment:**
-   ```bash
-   cd backend
-   python3 -m venv venv
-   source .venv/bin/activate
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Configure your OpenAI API key:**
-   - Create a `.env` file in the `backend` folder with this content:
-     ```
-     OPENAI_API_KEY="your_openai_api_key_here"
-     ```
-
-## Running the Server
-
-
-Start the FastAPI server with Uvicorn on port 8079:
-
+**Quick Start:**
 ```bash
-./venv/bin/uvicorn main:app --reload --port 8079
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+# Configure .env with your API keys and database URL
+uvicorn main:app --reload --port 8079
 ```
 
-- The API will be available at: http://127.0.0.1:8079
-- The `/dialog` endpoint accepts POST requests with a JSON body:
-  ```json
-  { "question": "Your SAT question here" }
-  ```
+## API Endpoints
+- `/dialog` (POST): Get AI explanation for a question
+  - Request: `{ "question": "Your SAT question here" }`
+  - Response: `{ "answer": "..." }`
 
-## Example Request
+## Environment Variables
+- `DATABASE_URL` (PostgreSQL connection string)
+- `OPENAI_API_KEY` (required for AI explanations)
+- `GEMINI_API_KEY` (optional, for Gemini AI)
 
-```bash
-curl -X POST http://127.0.0.1:8079/dialog \
-  -H "Content-Type: application/json" \
-  -d '{"question": "What is the value of x if 2x + 3 = 7?"}'
-```
-
-## Notes
-- The model is instructed to answer only SAT questions, with the simplest, most direct answer and no extra reasoning or emotion.
+---
+For more details, see the main [README](../README.md).
