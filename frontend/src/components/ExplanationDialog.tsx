@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import { BACKEND_URL } from "../config";
 import { Button } from "@/components/ui/button";
@@ -22,8 +22,12 @@ interface ChatMessage {
   timestamp: Date;
 }
 
-export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage = '', question = '', answerExplanation = '', explanations = {}, correctAnswer = 'A', onAgain, onEasy }: ExplanationDialogProps & { passage?: string, question?: string, answerExplanation?: string, explanations?: Record<string, string>, correctAnswer?: string, onAgain?: () => void, onEasy?: () => void }) => {
-  const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
+export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage = '', question = '', answerExplanation = '', explanations = {}, correctAnswer = 'A', onAgain, onEasy, initialUserMessage = "" }: ExplanationDialogProps & { passage?: string, question?: string, answerExplanation?: string, explanations?: Record<string, string>, correctAnswer?: string, onAgain?: () => void, onEasy?: () => void, initialUserMessage?: string }) => {
+  const [chatMessages, setChatMessages] = useState<ChatMessage[]>(
+    initialUserMessage && open
+      ? [{ id: Date.now().toString(), text: initialUserMessage, isUser: true, timestamp: new Date() }]
+      : []
+  );
   const [inputValue, setInputValue] = useState("");
   const [againClicked, setAgainClicked] = useState(false);
   const [easyClicked, setEasyClicked] = useState(false);
@@ -75,6 +79,17 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
       handleSendMessage();
     }
   };
+
+  // Reset chat when dialog is opened with a new initialUserMessage
+  useEffect(() => {
+    if (open && initialUserMessage) {
+      setChatMessages([
+        { id: Date.now().toString(), text: initialUserMessage, isUser: true, timestamp: new Date() }
+      ]);
+    } else if (open && !initialUserMessage) {
+      setChatMessages([]);
+    }
+  }, [open, initialUserMessage]);
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
