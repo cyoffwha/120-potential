@@ -197,20 +197,13 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
           </Card>
         </div>
 
-        {/* Bottom Buttons */}
-        <div className="flex justify-center gap-4 mt-4 shrink-0">
-          <Button 
-            onClick={() => { if (onAgain) onAgain(); onOpenChange(false); }}
-            variant="outline"
-            className={`px-8 hover:bg-[#223971] hover:text-white`}
-          >
-            Again
-          </Button>
+        {/* Bottom Button: Next only, aligned right */}
+        <div className="flex justify-end gap-4 mt-4 shrink-0">
           <Button 
             onClick={() => { if (onEasy) onEasy(); onOpenChange(false); }}
             className={`px-8 bg-accent text-accent-foreground hover:bg-accent/90`}
           >
-            Easy
+            Next
           </Button>
         </div>
       </DialogContent>

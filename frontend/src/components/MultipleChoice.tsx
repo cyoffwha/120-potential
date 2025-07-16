@@ -109,13 +109,22 @@ export const MultipleChoice = ({
         </RadioGroup>
         
         <div className="mt-6 flex justify-center">
-          <Button 
-            className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 font-medium"
-            disabled={!selectedAnswer}
-            onClick={() => setShowExplanation(true)}
-          >
-            Check
-          </Button>
+          <div className="flex gap-2">
+            <Button 
+              className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 font-medium"
+              disabled={!selectedAnswer}
+              onClick={() => setShowExplanation(true)}
+            >
+              Check
+            </Button>
+            <Button
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 font-medium"
+              onClick={onEasy}
+              type="button"
+            >
+              Next
+            </Button>
+          </div>
         </div>
       </CardContent>
 

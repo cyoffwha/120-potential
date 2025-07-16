@@ -1,27 +1,3 @@
-  // Persist selection highlight while popup is open
-  useEffect(() => {
-    if (showChat && selectedText) {
-      const selection = window.getSelection();
-      if (selection && selection.toString().trim() !== selectedText) {
-        // Try to find and reselect the text in the document
-        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
-        let node;
-        let found = false;
-        while ((node = walker.nextNode())) {
-          const idx = node.textContent?.indexOf(selectedText);
-          if (idx !== undefined && idx !== -1) {
-            const range = document.createRange();
-            range.setStart(node, idx);
-            range.setEnd(node, idx + selectedText.length);
-            selection.removeAllRanges();
-            selection.addRange(range);
-            found = true;
-            break;
-          }
-        }
-      }
-    }
-  }, [showChat, selectedText]);
 import { useState, useEffect, useRef } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { ExplanationDialog } from "./ExplanationDialog";
@@ -33,30 +9,7 @@ import { MultipleChoice } from "./MultipleChoice";
 import { QuestionNavigation } from "./QuestionNavigation";
 
 export const EducationPlatform = () => {
-  // Persist selection highlight while popup is open
-  useEffect(() => {
-    if (showChat && selectedText) {
-      const selection = window.getSelection();
-      if (selection && selection.toString().trim() !== selectedText) {
-        // Try to find and reselect the text in the document
-        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
-        let node;
-        let found = false;
-        while ((node = walker.nextNode())) {
-          const idx = node.textContent?.indexOf(selectedText);
-          if (idx !== undefined && idx !== -1) {
-            const range = document.createRange();
-            range.setStart(node, idx);
-            range.setEnd(node, idx + selectedText.length);
-            selection.removeAllRanges();
-            selection.addRange(range);
-            found = true;
-            break;
-          }
-        }
-      }
-    }
-  }, [showChat, selectedText]);
+
 
   const { current, loading, error, nextRandom, hasQuestions } = useRandomQuestion();
   const [selectedAnswer, setSelectedAnswer] = useState("");
@@ -155,30 +108,33 @@ export const EducationPlatform = () => {
             </div>
             {/* Question - Right Side */}
             <div className="space-y-6">
-              <MultipleChoice
-                question={current.question}
-                options={[
-                  { id: "A", text: current.choice_a },
-                  { id: "B", text: current.choice_b },
-                  { id: "C", text: current.choice_c },
-                  { id: "D", text: current.choice_d },
-                ]}
-                selectedAnswer={selectedAnswer}
-                onAnswerChange={handleAnswerChange}
-                onAgain={handleAgain}
-                onEasy={handleEasy}
-                passage={current.passage}
-                answerExplanation={current.rationale_a || ""}
-                explanations={{
-                  A: current.rationale_a || "",
-                  B: current.rationale_b || "",
-                  C: current.rationale_c || "",
-                  D: current.rationale_d || ""
-                }}
-                correctAnswer={current.correct_choice}
-              />
-              {/* Again/Easy buttons removed; handled in ExplanationDialog */}
-              {feedback && <div>{feedback}</div>}
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <MultipleChoice
+                    question={current.question}
+                    options={[
+                      { id: "A", text: current.choice_a },
+                      { id: "B", text: current.choice_b },
+                      { id: "C", text: current.choice_c },
+                      { id: "D", text: current.choice_d },
+                    ]}
+                    selectedAnswer={selectedAnswer}
+                    onAnswerChange={handleAnswerChange}
+                    onAgain={handleAgain}
+                    onEasy={handleEasy}
+                    passage={current.passage}
+                    answerExplanation={current.rationale_a || ""}
+                    explanations={{
+                      A: current.rationale_a || "",
+                      B: current.rationale_b || "",
+                      C: current.rationale_c || "",
+                      D: current.rationale_d || ""
+                    }}
+                    correctAnswer={current.correct_choice}
+                  />
+                </div>
+                {feedback && <div>{feedback}</div>}
+              </div>
             </div>
           </div>
         )}
