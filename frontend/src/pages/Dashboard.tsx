@@ -43,7 +43,7 @@ const Dashboard = () => {
         // Mock data - will be replaced with API call
         const mockStats = {
           questionsAnswered: 37,
-          totalQuestions: 120,
+          totalQuestions: 2950,
           completionRate: 30.8,
           accuracy: 82.4,
           streakDays: 5,

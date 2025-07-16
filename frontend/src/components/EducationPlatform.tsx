@@ -7,6 +7,7 @@ import { QuestionBank } from "./QuestionBank";
 import { ReadingPassage } from "./ReadingPassage";
 import { MultipleChoice } from "./MultipleChoice";
 import { QuestionNavigation } from "./QuestionNavigation";
+import "./animate-fadein.css";
 
 export const EducationPlatform = () => {
 
@@ -141,6 +142,7 @@ export const EducationPlatform = () => {
         {/* Small floating chat input near selection */}
         {showChat && chatPosition && (
           <div
+            className="animate-fadein"
             style={{
               position: "fixed",
               left: chatPosition.x,
@@ -154,7 +156,7 @@ export const EducationPlatform = () => {
               minWidth: 200,
               display: "flex",
               alignItems: "center",
-              transition: "box-shadow 0.2s, border 0.2s"
+              transition: "box-shadow 0.2s, border 0.2s, opacity 0.25s, transform 0.25s"
             }}
             onMouseDown={e => e.stopPropagation()}
           >

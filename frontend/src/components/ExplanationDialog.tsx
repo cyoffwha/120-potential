@@ -80,16 +80,47 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
     }
   };
 
-  // Reset chat when dialog is opened with a new initialUserMessage
+  // Reset chat and auto-send initialUserMessage when dialog is opened with a new initialUserMessage
   useEffect(() => {
+    let didSend = false;
     if (open && initialUserMessage) {
       setChatMessages([
         { id: Date.now().toString(), text: initialUserMessage, isUser: true, timestamp: new Date() }
       ]);
+      // Auto-send to backend
+      (async () => {
+        try {
+          const response = await axios.post(`${BACKEND_URL}/dialog`, {
+            passage,
+            question,
+            answer_explanation: answerExplanation,
+            user_message: initialUserMessage
+          });
+          const aiResponse = {
+            id: (Date.now() + 1).toString(),
+            text: response.data.answer,
+            isUser: false,
+            timestamp: new Date()
+          };
+          setChatMessages(prev => [...prev, aiResponse]);
+        } catch (err) {
+          setChatMessages(prev => [
+            ...prev,
+            {
+              id: (Date.now() + 1).toString(),
+              text: "Sorry, there was an error contacting the AI backend.",
+              isUser: false,
+              timestamp: new Date()
+            }
+          ]);
+        }
+      })();
+      didSend = true;
     } else if (open && !initialUserMessage) {
       setChatMessages([]);
     }
-  }, [open, initialUserMessage]);
+    return () => { didSend = false; };
+  }, [open, initialUserMessage, passage, question, answerExplanation]);
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
