@@ -10,8 +10,10 @@ import { QuestionNavigation } from "./QuestionNavigation";
 import "./animate-fadein.css";
 
 export const EducationPlatform = () => {
-  const chatPopupRef = useRef<HTMLDivElement>(null);
 
+
+  const chatPopupRef = useRef<HTMLDivElement>(null);
+  const chatInputRef = useRef<HTMLInputElement>(null);
 
   const { current, loading, error, nextRandom, hasQuestions } = useRandomQuestion();
   const [selectedAnswer, setSelectedAnswer] = useState("");
@@ -24,32 +26,26 @@ export const EducationPlatform = () => {
   const [chatInput, setChatInput] = useState("");
   const [showExplanationDialog, setShowExplanationDialog] = useState(false);
   const [initialChat, setInitialChat] = useState<string>("");
-  const chatInputRef = useRef<HTMLInputElement>(null);
+  // Store the selection range for reliable persistence
+  const [selectedRange, setSelectedRange] = useState<Range | null>(null);
 
-  // Persist selection highlight while popup is open
+  // Persist selection highlight while popup is open using stored range
   useEffect(() => {
-    if (showChat && selectedText) {
+    if (showChat && selectedRange) {
       const selection = window.getSelection();
-      if (selection && selection.toString().trim() !== selectedText) {
-        // Try to find and reselect the text in the document
-        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
-        let node;
-        let found = false;
-        while ((node = walker.nextNode())) {
-          const idx = node.textContent?.indexOf(selectedText);
-          if (idx !== undefined && idx !== -1) {
-            const range = document.createRange();
-            range.setStart(node, idx);
-            range.setEnd(node, idx + selectedText.length);
-            selection.removeAllRanges();
-            selection.addRange(range);
-            found = true;
-            break;
-          }
+      if (selection && selection.rangeCount > 0) {
+        // Only reselect if not already selected
+        const currentRange = selection.getRangeAt(0);
+        if (currentRange.toString() !== selectedRange.toString()) {
+          selection.removeAllRanges();
+          selection.addRange(selectedRange);
         }
+      } else if (selection) {
+        selection.removeAllRanges();
+        selection.addRange(selectedRange);
       }
     }
-  }, [showChat, selectedText]);
+  }, [showChat, selectedRange]);
 
   // Listen for text selection
   useEffect(() => {
@@ -64,18 +60,25 @@ export const EducationPlatform = () => {
       }
       const selection = window.getSelection();
       if (selection && selection.toString().trim().length > 0) {
-        const range = selection.getRangeAt(0);
+        const range = selection.getRangeAt(0).cloneRange();
         setSelectedText(selection.toString());
-        setChatPosition({ x: e.clientX + 7, y: e.clientY - 47 });
+        setSelectedRange(range);
+        // Use the last rect of the selection for popup position (end of last line)
+        const rects = range.getClientRects();
+        let x = e.clientX, y = e.clientY;
+        if (rects.length > 0) {
+          const lastRect = rects[rects.length - 1];
+          x = lastRect.right - 2; // 1px to the right
+          y = lastRect.bottom - 48; // 65px higher than end of last line
+        }
+        setChatPosition({ x, y });
         setShowChat(true);
         setChatInput("");
-        setTimeout(() => {
-          selection.removeAllRanges();
-          selection.addRange(range);
-        }, 0);
+        // No need to reselect here, useEffect will handle it
       } else if (showChat) {
         setShowChat(false);
         setSelectedText("");
+        setSelectedRange(null);
         setChatInput("");
         setChatPosition(null);
       }
@@ -179,7 +182,7 @@ export const EducationPlatform = () => {
               onKeyDown={e => {
                 if (e.key === 'Enter' && chatInput.trim()) {
                   setShowChat(false);
-                  setInitialChat(`"${selectedText}" - "${chatInput.trim()}"`);
+                  setInitialChat(`Regarding the "${selectedText}", I ask you: "${chatInput.trim()}"`);
                   setShowExplanationDialog(true);
                 }
               }}
@@ -191,6 +194,7 @@ export const EducationPlatform = () => {
               onClick={() => {
                 setShowChat(false);
                 setSelectedText("");
+                setSelectedRange(null);
                 setChatInput("");
                 setChatPosition(null);
               }}
