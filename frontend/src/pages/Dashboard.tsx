@@ -44,7 +44,7 @@ const Dashboard = () => {
         const mockStats = {
           questionsAnswered: 37,
           totalQuestions: 2950,
-          completionRate: 30.8,
+          completionRate: 0.01,
           accuracy: 82.4,
           streakDays: 5,
           difficultyBreakdown: {

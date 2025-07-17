@@ -10,6 +10,7 @@ import { QuestionNavigation } from "./QuestionNavigation";
 import "./animate-fadein.css";
 
 export const EducationPlatform = () => {
+  const chatPopupRef = useRef<HTMLDivElement>(null);
 
 
   const { current, loading, error, nextRandom, hasQuestions } = useRandomQuestion();
@@ -53,6 +54,14 @@ export const EducationPlatform = () => {
   // Listen for text selection
   useEffect(() => {
     const handleMouseUp = (e: MouseEvent) => {
+      // If popup is open and click is inside the popup, do nothing
+      if (
+        showChat &&
+        chatPopupRef.current &&
+        chatPopupRef.current.contains(e.target as Node)
+      ) {
+        return;
+      }
       const selection = window.getSelection();
       if (selection && selection.toString().trim().length > 0) {
         const range = selection.getRangeAt(0);
@@ -60,7 +69,6 @@ export const EducationPlatform = () => {
         setChatPosition({ x: e.clientX + 7, y: e.clientY - 47 });
         setShowChat(true);
         setChatInput("");
-        // Reselect after popup appears to keep highlight
         setTimeout(() => {
           selection.removeAllRanges();
           selection.addRange(range);
@@ -142,6 +150,7 @@ export const EducationPlatform = () => {
         {/* Small floating chat input near selection */}
         {showChat && chatPosition && (
           <div
+            ref={chatPopupRef}
             className="animate-fadein"
             style={{
               position: "fixed",
