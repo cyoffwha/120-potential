@@ -50,6 +50,12 @@ export const EducationPlatform = () => {
   // Listen for text selection
   useEffect(() => {
     const handleMouseUp = (e: MouseEvent) => {
+      // If the explanation dialog is open, do nothing.
+      // The dialog will handle its own text selection.
+      if (showExplanationDialog) {
+        return;
+      }
+
       // If popup is open and click is inside the popup, do nothing
       if (
         showChat &&
@@ -58,6 +64,7 @@ export const EducationPlatform = () => {
       ) {
         return;
       }
+
       const selection = window.getSelection();
       if (selection && selection.toString().trim().length > 0) {
         const range = selection.getRangeAt(0).cloneRange();
@@ -74,8 +81,8 @@ export const EducationPlatform = () => {
         setChatPosition({ x, y });
         setShowChat(true);
         setChatInput("");
-        // No need to reselect here, useEffect will handle it
-      } else if (showChat) {
+      } else if (showChat && !selection?.toString().trim()) {
+        // Only clear if there's truly no selection and popup is showing
         setShowChat(false);
         setSelectedText("");
         setSelectedRange(null);
@@ -85,7 +92,7 @@ export const EducationPlatform = () => {
     };
     document.addEventListener("mouseup", handleMouseUp);
     return () => document.removeEventListener("mouseup", handleMouseUp);
-  }, [showChat]);
+  }, [showChat, showExplanationDialog]);
 
   const handleAnswerChange = (answer: string) => {
     setSelectedAnswer(answer);
@@ -102,6 +109,14 @@ export const EducationPlatform = () => {
     setFeedback("");
     nextRandom();
   };
+
+  // Ensure input gets focus when popup shows
+  useEffect(() => {
+    if (showChat && chatInputRef.current) {
+      // Immediate focus without timeout to reduce lag
+      chatInputRef.current.focus();
+    }
+  }, [showChat]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -159,18 +174,16 @@ export const EducationPlatform = () => {
               position: "fixed",
               left: chatPosition.x,
               top: chatPosition.y,
-              zIndex: 100,
-              background: "rgba(255,255,255,0.92)",
+              zIndex: 9999,
+              background: "rgba(255,255,255,0.98)",
               border: "1.5px solid #cbd5e1",
               borderRadius: 10,
               boxShadow: "0 4px 24px 0 rgba(30,41,59,0.13)",
               padding: "6px 12px",
               minWidth: 200,
               display: "flex",
-              alignItems: "center",
-              transition: "box-shadow 0.2s, border 0.2s, opacity 0.25s, transform 0.25s"
+              alignItems: "center"
             }}
-            onMouseDown={e => e.stopPropagation()}
           >
             <input
               ref={chatInputRef}
@@ -184,6 +197,11 @@ export const EducationPlatform = () => {
                   setShowChat(false);
                   setInitialChat(`Regarding the "${selectedText}", I ask you: "${chatInput.trim()}"`);
                   setShowExplanationDialog(true);
+                  // Clear selection state only after using it
+                  setSelectedText("");
+                  setSelectedRange(null);
+                  setChatInput("");
+                  setChatPosition(null);
                 }
               }}
               autoFocus
@@ -193,10 +211,9 @@ export const EducationPlatform = () => {
               style={{ background: "none", border: "none", cursor: "pointer", fontWeight: 700, fontSize: 18, padding: 0 }}
               onClick={() => {
                 setShowChat(false);
-                setSelectedText("");
-                setSelectedRange(null);
                 setChatInput("");
                 setChatPosition(null);
+                // Don't clear selectedText and selectedRange - let user keep the selection
               }}
               tabIndex={-1}
               aria-label="Close chat popup"
