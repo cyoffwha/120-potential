@@ -227,7 +227,12 @@ export const EducationPlatform = () => {
         open={showExplanationDialog}
         onOpenChange={setShowExplanationDialog}
         selectedAnswer={selectedAnswer}
-        explanations={{}}
+        explanations={{
+          A: current?.rationale_a || "",
+          B: current?.rationale_b || "",
+          C: current?.rationale_c || "",
+          D: current?.rationale_d || ""
+        }}
         correctAnswer={current?.correct_choice || "A"}
         passage={current?.passage || ""}
         question={current?.question || ""}

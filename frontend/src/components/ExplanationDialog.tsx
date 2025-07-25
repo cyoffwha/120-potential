@@ -23,7 +23,7 @@ interface ChatMessage {
   timestamp: Date;
 }
 
-export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage = '', question = '', answerExplanation = '', explanations = {}, correctAnswer = 'A', onAgain, onEasy, initialUserMessage = "" }: ExplanationDialogProps & { passage?: string, question?: string, answerExplanation?: string, explanations?: Record<string, string>, correctAnswer?: string, onAgain?: () => void, onEasy?: () => void, initialUserMessage?: string }) => {
+export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage = '', question = '', answerExplanation = '', explanations = {}, correctAnswer = 'A', onAgain, onEasy, initialUserMessage = "", autoShowExplanations = false }: ExplanationDialogProps & { passage?: string, question?: string, answerExplanation?: string, explanations?: Record<string, string>, correctAnswer?: string, onAgain?: () => void, onEasy?: () => void, initialUserMessage?: string, autoShowExplanations?: boolean }) => {
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>(
     initialUserMessage && open
       ? [{ id: Date.now().toString(), text: initialUserMessage, isUser: true, timestamp: new Date() }]
@@ -32,6 +32,7 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
   const [inputValue, setInputValue] = useState("");
   const [againClicked, setAgainClicked] = useState(false);
   const [easyClicked, setEasyClicked] = useState(false);
+  const [showExplanations, setShowExplanations] = useState(false);
 
   // Text selection popup state
   const [showChat, setShowChat] = useState(false);
@@ -244,6 +245,14 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
     }
   }, [showChat]);
 
+  // Auto-show explanations when dialog opens with autoShowExplanations=true
+  useEffect(() => {
+    if (open && autoShowExplanations && selectedAnswer) {
+      console.log('Auto-showing explanations because autoShowExplanations=true');
+      setShowExplanations(true);
+    }
+  }, [open, autoShowExplanations, selectedAnswer]);
+
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent ref={dialogContentRef} className="max-w-7xl max-h-[90vh] h-[90vh] flex flex-col" aria-describedby="explanation-dialog-desc">
@@ -318,7 +327,7 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
                   Your selected answer: <span className="font-semibold text-primary">{selectedAnswer || "None selected"}</span>
                 </p>
                 {/* Explanations by choice, selected first, then correct, then others */}
-                {selectedAnswer && explanations[selectedAnswer] && (
+                {showExplanations && selectedAnswer && explanations[selectedAnswer] && (
                   <div className={`p-4 rounded-lg border ${selectedAnswer === correctAnswer ? 'bg-green-50 border-green-400' : 'bg-red-50 border-red-400'}`}>
                     <p className="text-sm leading-relaxed">
                       <strong>Choice {selectedAnswer}{selectedAnswer === correctAnswer ? ' (Correct)' : ' (Your Choice)'}:</strong><br />
@@ -326,7 +335,7 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
                     </p>
                   </div>
                 )}
-                {selectedAnswer !== correctAnswer && explanations[correctAnswer] && (
+                {showExplanations && selectedAnswer !== correctAnswer && explanations[correctAnswer] && (
                   <div className="p-4 rounded-lg border bg-green-50 border-green-400">
                     <p className="text-sm leading-relaxed">
                       <strong>Choice {correctAnswer} (Correct):</strong><br />
@@ -335,7 +344,7 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
                   </div>
                 )}
                 {/* Show other explanations except selected and correct */}
-                {Object.entries(explanations)
+                {showExplanations && Object.entries(explanations)
                   .filter(([key]) => key !== selectedAnswer && key !== correctAnswer)
                   .map(([key, text]) => (
                     <div key={key} className="p-4 rounded-lg border bg-muted/50">
@@ -353,8 +362,24 @@ export const ExplanationDialog = ({ open, onOpenChange, selectedAnswer, passage 
         {/* Bottom Button: Next only, aligned right */}
         <div className="flex justify-end gap-4 mt-4 shrink-0">
           <Button 
+            className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 font-medium"
+            onClick={() => {
+              console.log('Check button clicked!');
+              console.log('Selected Answer:', selectedAnswer);
+              console.log('Explanations:', explanations);
+              console.log('Current showExplanations:', showExplanations);
+              setShowExplanations(true);
+              console.log('Set showExplanations to true');
+            }}
+            type="button"
+            disabled={!selectedAnswer}
+          >
+            Check
+          </Button>
+          <Button
+            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 font-medium"
             onClick={() => { if (onEasy) onEasy(); onOpenChange(false); }}
-            className={`px-8 bg-accent text-accent-foreground hover:bg-accent/90`}
+            type="button"
           >
             Next
           </Button>

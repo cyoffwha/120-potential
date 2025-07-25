@@ -43,6 +43,15 @@ export const MultipleChoice = ({
     setShowExplanation(false);
   }, [question]);
 
+  // Prepare explanations as soon as an answer is selected
+  useEffect(() => {
+    if (selectedAnswer && !explanations) {
+      // If explanations are not present, fetch or prepare them here
+      // Example: fetchExplanations(selectedAnswer)
+      // For now, do nothing since explanations are passed as props
+    }
+  }, [selectedAnswer, explanations]);
+
   const defaultQuestion = "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?";
   
   const defaultOptions: ChoiceOption[] = [
@@ -69,6 +78,7 @@ export const MultipleChoice = ({
 
   const handleValueChange = (value: string) => {
     onAnswerChange?.(value);
+    // Optionally, trigger explanation preparation here if needed
   }
 
   return (
@@ -113,7 +123,12 @@ export const MultipleChoice = ({
             <Button 
               className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 font-medium"
               disabled={!selectedAnswer}
-              onClick={() => setShowExplanation(true)}
+              onClick={() => {
+                console.log('MultipleChoice Check button clicked!');
+                console.log('Selected Answer:', selectedAnswer);
+                console.log('Explanations:', explanations);
+                setShowExplanation(true);
+              }}
             >
               Check
             </Button>
@@ -139,6 +154,7 @@ export const MultipleChoice = ({
         correctAnswer={correctAnswer}
         onAgain={onAgain}
         onEasy={onEasy}
+        autoShowExplanations={true}
       />
     </Card>
   );
