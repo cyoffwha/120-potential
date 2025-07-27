@@ -1,6 +1,25 @@
-
-
-
+READING_WRITING_DOMAINS_SKILLS = {
+    "Information and Ideas": [
+        "Central Ideas and Details",
+        "Command of Evidence",
+        #"Command of Evidence (Textual)",
+        #"Command of Evidence (Quantitative)",
+        "Inferences"
+    ],
+    "Craft and Structure": [
+        "Words in Context",
+        "Text Structure and Purpose",
+        "Cross-Text Connections"
+    ],
+    "Expression of Ideas": [
+        "Rhetorical Synthesis",
+        "Transitions"
+    ],
+    "Standard English Conventions": [
+        "Boundaries",
+        "Form, Structure, and Sense"
+    ]
+}
 import os
 import sys
 from pdf2image import convert_from_path
@@ -9,7 +28,7 @@ import re
 import json
 
 
-def extract_first_100_lines(pdf_path, output_path, max_lines=10000):
+def extract_first_100_lines(pdf_path, output_path, max_lines=50000):
 
     # Convert PDF pages to images (limit to first 10 pages for dev)
     images = convert_from_path(pdf_path, first_page=1, last_page=10)
@@ -37,21 +56,49 @@ def extract_first_100_lines(pdf_path, output_path, max_lines=10000):
     if current_question:
         questions.append({"id": current_question, "text": "\n".join(question_lines).strip()})
 
-    # Filter out questions containing 'Command of Evidence'
+    # Do not filter or remove any text; include all question data
     filtered_questions = []
     for q in questions:
-        if 'Command of Evidence' in q['text']:
-            continue
-        # Remove the boilerplate header from the beginning of the text
-        # The header is like: 'Question ID <id>\n\nAssessment Test Domain Skill Difficulty\nSAT Reading and Writing'
-        header_pattern = re.compile(r'^Question ID \w+\n+Assessment Test Domain Skill Difficulty\nSAT Reading and Writing', re.IGNORECASE)
-        cleaned_text = header_pattern.sub('', q['text']).lstrip('\n')
-        filtered_questions.append({"text": cleaned_text})
-    # Write filtered questions (without id) to JSON file
-    json_output = os.path.splitext(output_path)[0] + "_questions.json"
-    with open(json_output, 'w', encoding='utf-8') as f:
+        full_text = q['text']
+        # Extract the last word as Difficulty
+        difficulty = full_text.strip().split()[-1] if full_text.strip() else ""
+        # Extract the answer letter after 'Correct Answer: '
+        answer_match = re.search(r'Correct Answer:\s*([A-D])', full_text)
+        answer = answer_match.group(1) if answer_match else ""
+        # Extract the ID after 'Question ID '
+        id_match = re.search(r'^Question ID\s+(\w+)', full_text)
+        qid = id_match.group(1) if id_match else ""
+        # Extract the region after 'SAT Reading and Writing ' and before 'ID:'
+        domain_region = ""
+        domain_start = full_text.find('SAT Reading and Writing ')
+        if domain_start != -1:
+            domain_sub = full_text[domain_start + len('SAT Reading and Writing '):]
+            # Find where 'ID:' or 'ID:' (case-insensitive) appears next
+            id_marker = re.search(r'ID:', domain_sub, re.IGNORECASE)
+            if id_marker:
+                domain_region = domain_sub[:id_marker.start()].strip()
+            else:
+                domain_region = domain_sub.strip()
+        # Try to match the domain_region to one of the known domain names
+        matched_domain = ""
+        matched_skill = ""
+        for domain_name, skills in READING_WRITING_DOMAINS_SKILLS.items():
+            domain_words = domain_name.lower().split()
+            if all(word in domain_region.lower() for word in domain_words):
+                matched_domain = domain_name
+                # Try to match a skill from this domain
+                for skill in skills:
+                    skill_words = skill.lower().replace('(', '').replace(')', '').replace('-', ' ').split()
+                    if all(word in domain_region.lower() for word in skill_words):
+                        matched_skill = skill
+                        break
+                break
+        filtered_questions.append({"ID": qid, "text": full_text, "Domain": matched_domain, "Skill": matched_skill, "Difficulty": difficulty, "Answer": answer})
+    # Write filtered questions (with Difficulty) to questions.json
+    questions_json_output = os.path.join(os.path.dirname(output_path), 'questions.json')
+    with open(questions_json_output, 'w', encoding='utf-8') as f:
         json.dump(filtered_questions, f, indent=2, ensure_ascii=False)
-    print(f"Extracted {len(filtered_questions)} questions to {json_output}")
+    print(f"Extracted {len(filtered_questions)} questions to {questions_json_output}")
 
 
 if __name__ == "__main__":
