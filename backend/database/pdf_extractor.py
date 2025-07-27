@@ -93,7 +93,35 @@ def extract_first_100_lines(pdf_path, output_path, max_lines=50000):
                         matched_skill = skill
                         break
                 break
-        filtered_questions.append({"ID": qid, "text": full_text, "Domain": matched_domain, "Skill": matched_skill, "Difficulty": difficulty, "Answer": answer})
+        # Extract Passage: between 2nd and 3rd double newline (\n\n) in the 'text' field
+        passage = ""
+        text_field = q['text']
+        double_newlines = [m.start() for m in re.finditer(r'\n\n', text_field)]
+        if len(double_newlines) >= 3:
+            passage_region = text_field[double_newlines[1]+2:double_newlines[2]].strip()
+        else:
+            # Fallback: previous logic
+            prompt_match = re.search(r'(Which choice|Based on the text|According to the text|What does the text|How does the author|What is the main idea|What can be inferred|Question Difficulty:)', text_field, re.IGNORECASE)
+            passage_end = None
+            if prompt_match:
+                passage_end = prompt_match.start()
+            answer_marker = re.search(r'ID:\s*' + re.escape(qid) + r' Answer', text_field)
+            if passage_end is not None:
+                passage_region = text_field[:passage_end].strip()
+            elif answer_marker:
+                passage_region = text_field[:answer_marker.start()].strip()
+            else:
+                passage_region = text_field.strip()
+        passage = passage_region
+        filtered_questions.append({
+            "ID": qid,
+            "text": full_text,
+            "Domain": matched_domain,
+            "Skill": matched_skill,
+            "Passage": passage,
+            "Difficulty": difficulty,
+            "Answer": answer
+        })
     # Write filtered questions (with Difficulty) to questions.json
     questions_json_output = os.path.join(os.path.dirname(output_path), 'questions.json')
     with open(questions_json_output, 'w', encoding='utf-8') as f:
