@@ -22,135 +22,220 @@ READING_WRITING_DOMAINS_SKILLS = {
 }
 import os
 import sys
-import re
-import json
 from pdf2image import convert_from_path
 import pytesseract
+import re
+import json
 
 
 def extract_first_100_lines(pdf_path, output_path, max_lines=50000):
-def extract_text_lines(pdf_path, first_page=1, last_page=30):
-    """Convert PDF pages to images and extract text lines using OCR."""
-    images = convert_from_path(pdf_path, first_page=first_page, last_page=last_page)
-    lines = []
+
+    # Convert PDF pages to images (limit to first 30 pages for dev)
+    images = convert_from_path(pdf_path, first_page=1, last_page=30)
+    all_text = []
     for img in images:
         text = pytesseract.image_to_string(img, lang='eng')
-        lines.extend(text.splitlines())
-    return lines
+        all_text.extend(text.splitlines())
 
-def split_questions(text_lines):
-    """Split extracted text lines into individual questions based on 'Question ID'."""
+    # Extract questions into JSON
     questions = []
-    current_id = None
-    buffer = []
-    pattern = re.compile(r'^Question ID (\w+)', re.IGNORECASE)
-    for line in text_lines:
-        match = pattern.match(line.strip())
+    current_question = None
+    question_lines = []
+    question_id_pattern = re.compile(r'^Question ID (\w+)', re.IGNORECASE)
+    for line in all_text:
+        match = question_id_pattern.match(line.strip())
         if match:
-            if current_id:
-                questions.append((current_id, '\n'.join(buffer).strip()))
-            current_id = match.group(1)
-            buffer = [line.strip()]
-        elif current_id:
-            buffer.append(line.strip())
-    if current_id:
-        questions.append((current_id, '\n'.join(buffer).strip()))
-    return questions
+            # Save previous question
+            if current_question:
+                questions.append({"id": current_question, "text": "\n".join(question_lines).strip()})
+            current_question = match.group(1)
+            question_lines = [line.strip()]
+        elif current_question:
+            question_lines.append(line.strip())
+    # Save last question
+    if current_question:
+        questions.append({"id": current_question, "text": "\n".join(question_lines).strip()})
 
-def extract_metadata(text, qid):
-    """Extract difficulty, answer choice, and domain/skill from question text."""
-    difficulty = text.strip().split()[-1] if text else ''
-    answer_match = re.search(r'Correct Answer:\s*([A-D])', text)
-    answer = answer_match.group(1) if answer_match else ''
-    domain_region = ''
-    start = text.find('SAT Reading and Writing ')
-    if start >= 0:
-        tail = text[start + len('SAT Reading and Writing '):]
-        cut = re.search(r'ID:', tail, re.IGNORECASE)
-        domain_region = tail[:cut.start()].strip() if cut else tail.strip()
-    matched_domain = ''
-    matched_skill = ''
-    for domain_name, skills in READING_WRITING_DOMAINS_SKILLS.items():
-        if domain_name.lower() in domain_region.lower():
-            matched_domain = domain_name
-            for skill in skills:
-                key = skill.lower().replace('(', '').replace(')', '').replace('-', ' ')
-                if key in domain_region.lower():
-                    matched_skill = skill
-                    break
-            break
-    return difficulty, answer, matched_domain, matched_skill
+    # All field extraction is strictly from the 'text' field of each question.
+    filtered_questions = []
+    for q in questions:
+        text_field = q['text']  # Only use this for all extractions
+        # Extract Difficulty (last word)
+        difficulty = text_field.strip().split()[-1] if text_field.strip() else ""
+        # Extract Answer
+        answer_match = re.search(r'Correct Answer:\s*([A-D])', text_field)
+        answer = answer_match.group(1) if answer_match else ""
+        # Extract ID
+        id_match = re.search(r'^Question ID\s+(\w+)', text_field)
+        qid = id_match.group(1) if id_match else ""
+        # Extract Domain/Skill
+        domain_region = ""
+        domain_start = text_field.find('SAT Reading and Writing ')
+        if domain_start != -1:
+            domain_sub = text_field[domain_start + len('SAT Reading and Writing '):]
+            id_marker = re.search(r'ID:', domain_sub, re.IGNORECASE)
+            if id_marker:
+                domain_region = domain_sub[:id_marker.start()].strip()
+            else:
+                domain_region = domain_sub.strip()
+        matched_domain = ""
+        matched_skill = ""
+        for domain_name, skills in READING_WRITING_DOMAINS_SKILLS.items():
+            domain_words = domain_name.lower().split()
+            if all(word in domain_region.lower() for word in domain_words):
+                matched_domain = domain_name
+                for skill in skills:
+                    skill_words = skill.lower().replace('(', '').replace(')', '').replace('-', ' ').split()
+                    if all(word in domain_region.lower() for word in skill_words):
+                        if skill == "Command of Evidence":
+                            id_marker = re.search(r'ID:\s*' + re.escape(qid), text_field)
+                            if id_marker:
+                                after_id = text_field[id_marker.end():id_marker.end()+250]
+                                newline_count = after_id.count('\n')
+                                if newline_count > 15:
+                                    matched_skill = "Command of Evidence (Quantitative)"
+                                else:
+                                    matched_skill = "Command of Evidence (Textual)"
+                            else:
+                                matched_skill = skill
+                        else:
+                            matched_skill = skill
+                        break
+                break
+        # Extract Passage (from text_field only)
+        passage = ""
+        double_newlines = [m.start() for m in re.finditer(r'\n\n', text_field)]
+        passage_region = ""
+        if len(double_newlines) >= 3:
+            passage_region = text_field[double_newlines[1]+2:double_newlines[2]].strip()
+        if passage_region:
+            passage_lines = passage_region.splitlines()
+            cleaned_lines = []
+            for line in passage_lines:
+                if re.match(r'^(Question ID|Assessment Test|SAT Reading|ID:)', line.strip()):
+                    continue
+                if re.match(r'^[A-Za-z ]{5,}$', line.strip()) and line.strip().lower().startswith('ideas'):
+                    continue
+                cleaned_lines.append(line)
+            passage_region = '\n'.join(cleaned_lines).strip()
+        if passage_region and len(passage_region) > 20 and not passage_region.startswith('ID:'):
+            passage = passage_region
+        else:
+            id_match = re.search(r'ID:.*?\n', text_field)
+            if id_match:
+                after_id = text_field[id_match.end():]
+                passage_match = re.search(r'(.*?)(\n\n|\nA\.|\nA )', after_id, re.DOTALL)
+                if passage_match:
+                    passage_region = passage_match.group(1).strip()
+                    passage_lines = passage_region.splitlines()
+                    cleaned_lines = []
+                    for line in passage_lines:
+                        if re.match(r'^(Question ID|Assessment Test|SAT Reading|ID:)', line.strip()):
+                            continue
+                        if re.match(r'^[A-Za-z ]{5,}$', line.strip()) and line.strip().lower().startswith('ideas'):
+                            continue
+                        cleaned_lines.append(line)
+                    passage_region = '\n'.join(cleaned_lines).strip()
+                    if passage_region and len(passage_region) > 20:
+                        passage = passage_region
+            if not passage:
+                prompt_match = re.search(r'(Which choice|Based on the text|According to the text|What does the text|How does the author|What is the main idea|What can be inferred|Question Difficulty:)', text_field, re.IGNORECASE)
+                passage_end = None
+                if prompt_match:
+                    passage_end = prompt_match.start()
+                answer_marker = re.search(r'ID:\s*' + re.escape(qid) + r' Answer', text_field)
+                if passage_end is not None:
+                    passage_region = text_field[:passage_end].strip()
+                elif answer_marker:
+                    passage_region = text_field[:answer_marker.start()].strip()
+                else:
+                    passage_region = text_field.strip()
+                passage_lines = passage_region.splitlines()
+                cleaned_lines = []
+                for line in passage_lines:
+                    if re.match(r'^(Question ID|Assessment Test|SAT Reading|ID:)', line.strip()):
+                        continue
+                    if re.match(r'^[A-Za-z ]{5,}$', line.strip()) and line.strip().lower().startswith('ideas'):
+                        continue
+                    cleaned_lines.append(line)
+                passage_region = '\n'.join(cleaned_lines).strip()
+                passage = passage_region
 
-def clean_passage_region(region):
-    """Remove header/footer artifacts from a passage region."""
-    lines = region.splitlines()
-    cleaned = []
-    for line in lines:
-        stripped = line.strip()
-        if re.match(r'^(Question ID|Assessment Test|SAT Reading|ID:)', stripped):
-            continue
-        cleaned.append(line)
-    return '\n'.join(cleaned).strip()
-
-def extract_passage(text):
-    """Extract the passage segment from the question text."""
-    parts = text.split('\n\n')
-    if len(parts) >= 3:
-        region = parts[1].strip()
-        cleaned = clean_passage_region(region)
-        if len(cleaned) > 20 and not cleaned.startswith('ID:'):
-            return cleaned
-    id_marker = re.search(r'ID:.*?\n', text)
-    if id_marker:
-        tail = text[id_marker.end():]
-        match = re.search(r'(.*?)(\n\n|\nA\.|\nA )', tail, re.DOTALL)
-        if match:
-            return clean_passage_region(match.group(1).strip())
-    return clean_passage_region(text)
-
-def extract_question(text, skill):
-    """Extract the question prompt from question text."""
-    if skill == 'Command of Evidence (Quantitative)':
-        m = re.search(r'\nA\.', text)
-        segment = text[:m.start()] if m else text
-        return segment.split('\n')[-1].strip()
-    parts = text.split('\n\n')
-    if len(parts) > 4:
-        blob = parts[4]
-        return re.split(r'\nA\.', blob)[0].strip()
-    return ''
-
-def process_questions(input_pdf, output_json):
-    """Pipeline: OCR PDF, parse questions, extract fields, write JSON."""
-    lines = extract_text_lines(input_pdf)
-    raw_qs = split_questions(lines)
-    output = []
-    for qid, txt in raw_qs:
-        diff, ans, dom, skl = extract_metadata(txt, qid)
-        passg = extract_passage(txt)
-        ques = extract_question(txt, skl)
-        output.append({
-            'ID': qid,
-            'text': txt,
-            'Domain': dom,
-            'Skill': skl,
-            'Passage': passg,
-            'Question': ques,
-            'Difficulty': diff,
-            'Answer': ans,
-            'Image_path': ''
+        # Extract Question (from text_field only)
+        # For most questions, Question is between the 4th and 5th double newlines (\n\n)
+        # For Command of Evidence (Quantitative), leave as-is for now
+        question = ""
+        if matched_skill != "Command of Evidence (Quantitative)":
+            # Extract question as the segment between the 4th double newline and first 'A.'
+            parts = text_field.split('\n\n')
+            if len(parts) > 4:
+                question_blob = parts[4].strip()
+                # Trim off choices starting at 'A.'
+                question = re.split(r'\nA\.', question_blob)[0].strip()
+            else:
+                # Fallback to previous logic if not enough segments
+                answer_a_match = re.search(r'\nA\. ', text_field)
+                if answer_a_match:
+                    pre_a_text = text_field[:answer_a_match.start()]
+                    double_newlines = [m.start() for m in re.finditer(r'\n\n', pre_a_text)]
+                    if len(double_newlines) >= 2:
+                        start_idx = double_newlines[-2] + 2
+                        end_idx = double_newlines[-1]
+                        question = pre_a_text[start_idx:end_idx].strip()
+                    elif len(double_newlines) == 1:
+                        start_idx = double_newlines[0] + 2
+                        question = pre_a_text[start_idx:].strip()
+                    else:
+                        question = pre_a_text.strip()
+                else:
+                    question = ""
+        else:
+            # For Command of Evidence (Quantitative), keep previous extraction logic (use fallback)
+            answer_a_match = re.search(r'\nA\. ', text_field)
+            if answer_a_match:
+                pre_a_text = text_field[:answer_a_match.start()]
+                double_newlines = [m.start() for m in re.finditer(r'\n\n', pre_a_text)]
+                if len(double_newlines) >= 2:
+                    start_idx = double_newlines[-2] + 2
+                    end_idx = double_newlines[-1]
+                    question_region = pre_a_text[start_idx:end_idx].strip()
+                    lines = [line.strip() for line in question_region.split('\n') if line.strip()]
+                    if lines:
+                        question = lines[0]
+                    else:
+                        question = question_region
+                elif len(double_newlines) == 1:
+                    start_idx = double_newlines[0] + 2
+                    question_region = pre_a_text[start_idx:].strip()
+                    lines = [line.strip() for line in question_region.split('\n') if line.strip()]
+                    if lines:
+                        question = lines[0]
+                    else:
+                        question = question_region
+                else:
+                    lines = [line.strip() for line in pre_a_text.split('\n') if line.strip()]
+                    if lines:
+                        question = lines[-1]
+                    else:
+                        question = pre_a_text.strip()
+            else:
+                question = ""
+        filtered_questions.append({
+            "ID": qid,
+            "text": text_field,
+            "Domain": matched_domain,
+            "Skill": matched_skill,
+            "Passage": passage,
+            "Question": question,
+            "Difficulty": difficulty,
+            "Answer": answer,
+            "Image_path": ""
         })
-    with open(output_json, 'w', encoding='utf-8') as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
-    print(f'Extracted {len(output)} questions to {output_json}')
-
-if __name__ == '__main__':
-    if len(sys.argv) < 2:
-        print('Usage: python pdf_extractor.py <pdf_file>')
-        sys.exit(1)
-    pdf_file = sys.argv[1]
-    output_file = os.path.join(os.path.dirname(__file__), 'questions.json')
-    process_questions(pdf_file, output_file)
+    # Write filtered questions (with Difficulty) to questions.json
+    questions_json_output = os.path.join(os.path.dirname(__file__), 'questions.json')
+    with open(questions_json_output, 'w', encoding='utf-8') as f:
+        json.dump(filtered_questions, f, indent=2, ensure_ascii=False)
+    print(f"Extracted {len(filtered_questions)} questions to {questions_json_output}")
 
 
 if __name__ == "__main__":
