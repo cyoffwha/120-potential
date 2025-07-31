@@ -117,18 +117,160 @@ def extract_answer_rationales(rationale_content: str) -> Dict[str, str]:
     
     return rationales
 
-def download_question_html(question_id: str, base_dir: str = None) -> str:
-    """Download HTML content for a question ID if it doesn't exist."""
+def extract_container_div(html_content: str) -> str:
+    """Extract only the question content, excluding header, announcements, and navigation."""
+    
+    # Find the main body content after DOCTYPE and head
+    # Look for everything between body tags
+    body_match = re.search(r'<body[^>]*>(.*?)</body>', html_content, re.DOTALL)
+    if not body_match:
+        return ""
+    
+    body_content = body_match.group(1)
+    
+    # Remove the header section (orange background with title)
+    body_content = re.sub(
+        r'<div class="bg-orange-600[^>]*>.*?</div>',
+        '',
+        body_content,
+        flags=re.DOTALL
+    )
+    
+    # Remove announcement banner (indigo background) 
+    body_content = re.sub(
+        r'<div class="container mx-auto px-2 pb-4">\s*<div class="bg-indigo-100[^>]*>.*?</div>\s*</div>',
+        '',
+        body_content,
+        flags=re.DOTALL
+    )
+    
+    # Remove navigation pagination section (the numbered links) - be more aggressive
+    body_content = re.sub(
+        r'<div class="mt-4 mb-14">.*?</div>\s*</div>',
+        '',
+        body_content,
+        flags=re.DOTALL
+    )
+    
+    # Remove any navigation links with href="/question/module"
+    body_content = re.sub(
+        r'<a[^>]*href="/question/module[^"]*"[^>]*>.*?</a>',
+        '',
+        body_content,
+        flags=re.DOTALL
+    )
+    
+    # Remove sr-only elements (screen reader only content)
+    body_content = re.sub(
+        r'<div[^>]*class="[^"]*sr-only[^"]*"[^>]*>.*?</div>',
+        '',
+        body_content,
+        flags=re.DOTALL
+    )
+    
+    # Remove any remaining navigation div blocks
+    body_content = re.sub(
+        r'<div[^>]*class="[^"]*flex[^"]*"[^>]*>.*?</div>',
+        '',
+        body_content,
+        flags=re.DOTALL
+    )
+    
+    # Clean up extra whitespace and empty lines
+    body_content = re.sub(r'\n\s*\n\s*\n', '\n\n', body_content)
+    body_content = body_content.strip()
+    
+    # Extract just the question content - look for the container with the actual question
+    # Find the div that contains the question content (usually has x-data attribute)
+    question_pattern = r'(<div class="container mx-auto"[^>]*>.*?<script.*?</script>.*?</div>)'
+    question_match = re.search(question_pattern, body_content, re.DOTALL)
+    
+    if question_match:
+        question_content = question_match.group(1)
+        # Remove any remaining navigation elements inside
+        question_content = re.sub(
+            r'<div class="mt-4 mb-14">.*?</div>\s*</div>',
+            '',
+            question_content,
+            flags=re.DOTALL
+        )
+        # Remove navigation links
+        question_content = re.sub(
+            r'<a[^>]*href="/question/module[^"]*"[^>]*>.*?</a>',
+            '',
+            question_content,
+            flags=re.DOTALL
+        )
+        return question_content
+    
+    # Fallback: return cleaned body content wrapped in a container
+    return f'<div class="container mx-auto">\n{body_content}\n</div>'
+
+def extract_all_css_styles(html_content: str) -> str:
+    """Extract all CSS styles from the HTML to preserve exact appearance."""
+    css_content = ""
+    
+    # Extract inline styles from <style> tags
+    style_pattern = r'<style[^>]*>(.*?)</style>'
+    style_matches = re.findall(style_pattern, html_content, re.DOTALL)
+    
+    for style in style_matches:
+        css_content += style.strip() + "\n\n"
+    
+    # Extract linked CSS content if available (though unlikely in downloaded HTML)
+    # This would require additional requests to fetch external CSS files
+    # For now, we'll focus on inline styles which should contain most styling
+    
+    return css_content.strip()
+
+def create_minimal_html(container_div: str, css_styles: str, question_id: str) -> str:
+    """Create a minimal HTML file with just the container div and necessary CSS."""
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question {question_id}</title>
+    <style>
+{css_styles}
+
+/* Hide screen reader only content */
+.sr-only {{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    {container_div}
+</body>
+</html>"""
+
+def download_question_html(question_id: str, base_dir: Optional[str] = None) -> str:
+    """Download HTML content for a question ID, extract container div and CSS, save minimal version."""
     if base_dir is None:
         # Default to the /questions/ directory relative to this script
         base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.', 'questions')
     os.makedirs(base_dir, exist_ok=True)
+    
+    # Paths for different file types
     html_file_path = os.path.join(base_dir, f"{question_id}.html")
+    minimal_html_path = os.path.join(base_dir, f"{question_id}_minimal.html")
+    css_file_path = os.path.join(base_dir, f"{question_id}.css")
 
-    # Check if HTML file already exists
-    if os.path.exists(html_file_path):
-        print(f"HTML file already exists for {question_id}, using cached version")
-        return html_file_path
+    # Check if minimal HTML file already exists
+    if os.path.exists(minimal_html_path):
+        print(f"Minimal HTML file already exists for {question_id}, using cached version")
+        return minimal_html_path
 
     print(f"Downloading HTML for question ID: {question_id}")
     url = f"https://sat-questions.onrender.com/question/module:english-group/{question_id}"
@@ -136,13 +278,32 @@ def download_question_html(question_id: str, base_dir: str = None) -> str:
     try:
         response = requests.get(url, timeout=30)
         response.raise_for_status()
-
-        # Save HTML content
+        
+        # Save original full HTML (for backup/debugging)
         with open(html_file_path, 'w', encoding='utf-8') as f:
             f.write(response.text)
 
-        print(f"HTML saved to: {html_file_path}")
-        return html_file_path
+        # Extract container div and CSS
+        container_div = extract_container_div(response.text)
+        css_styles = extract_all_css_styles(response.text)
+        
+        if not container_div:
+            print(f"Warning: Could not find container div for {question_id}")
+            return html_file_path  # Return original file as fallback
+        
+        # Save CSS file separately
+        with open(css_file_path, 'w', encoding='utf-8') as f:
+            f.write(css_styles)
+        
+        # Create and save minimal HTML
+        minimal_html = create_minimal_html(container_div, css_styles, question_id)
+        with open(minimal_html_path, 'w', encoding='utf-8') as f:
+            f.write(minimal_html)
+
+        print(f"Original HTML saved to: {html_file_path}")
+        print(f"Minimal HTML saved to: {minimal_html_path}")
+        print(f"CSS saved to: {css_file_path}")
+        return minimal_html_path
 
     except requests.RequestException as e:
         print(f"Error downloading HTML: {e}")
@@ -153,7 +314,7 @@ def extract_sat_question_data(html_file_path: str) -> Dict[str, str]:
     Extract SAT question data from HTML file.
     
     Args:
-        html_file_path: Path to the HTML file
+        html_file_path: Path to the HTML file (can be minimal or full)
         
     Returns:
         Dictionary containing extracted data
@@ -161,9 +322,19 @@ def extract_sat_question_data(html_file_path: str) -> Dict[str, str]:
     
     with open(html_file_path, 'r', encoding='utf-8') as f:
         content = f.read()
+        
     # If the HTML contains 'Question not found', exit silently
     if 'Question not found' in content:
         sys.exit(0)
+    
+    # If this is a minimal HTML file, try to find the corresponding full HTML file
+    if '_minimal.html' in html_file_path:
+        # Get the original full HTML file for data extraction
+        original_html_path = html_file_path.replace('_minimal.html', '.html')
+        if os.path.exists(original_html_path):
+            with open(original_html_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+    
     # Find the JavaScript question object
     js_match = re.search(r'let question = ({.*?});', content, re.DOTALL)
     if not js_match:
@@ -188,7 +359,8 @@ def extract_sat_question_data(html_file_path: str) -> Dict[str, str]:
             'answer_options': [re.sub(r'<[^>]+>', ' ', opt.get('content', '')).strip() for opt in content_data.get('answerOptions', [])],
             'correct_answer': extract_correct_answer_from_html(content),
             'answer_rationales': extract_answer_rationales(content_data.get('rationale', '')),
-            'css_styles': extract_css_styles(content)
+            'css_styles': extract_css_styles(content),
+            'html_file': html_file_path  # Include path to the HTML file
         }
         
         # Clean up difficulty mapping
