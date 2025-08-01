@@ -3,6 +3,8 @@ import re
 import os
 import requests
 import sys
+import time
+import random
 from typing import Dict, Optional, List
 
 def extract_passage_text(stimulus_content: str) -> str:
@@ -19,32 +21,36 @@ def extract_passage_text(stimulus_content: str) -> str:
     return clean_text
 
 def extract_passage_from_html(html_content: str) -> str:
-    """Extract passage content (including figures/graphs and text) from the div after <div class="my-6"></div>."""
-    # Look for the more specific pattern within the question content area
-    # Target the div containing figure and paragraph elements
-    pattern = r'<div class="my-6"></div>\s*(<div[^>]*>\s*<figure[^>]*>.*?</figure>.*?<p>.*?</p>\s*</div>)'
+    """Extract clean passage text without HTML/CSS formatting."""
+    # Look for the pattern within the question content area
+    # Target the div containing paragraph elements after the my-6 div
+    pattern = r'<div class="my-6"></div>\s*<div[^>]*><p>(.*?)</p></div>'
     match = re.search(pattern, html_content, re.DOTALL)
     
     if match:
-        passage_html = match.group(1).strip()
-        # Convert literal \n to proper HTML line breaks
-        passage_html = passage_html.replace('\\n', '<br>')
-        # Clean up excessive whitespace but preserve HTML structure
-        passage_html = re.sub(r'\n\s*', ' ', passage_html)
-        passage_html = re.sub(r'\s+', ' ', passage_html)
-        return passage_html
-    
-    # Fallback: try the original simpler pattern for text-only passages
-    pattern_fallback = r'<div class="my-6"></div>\s*<div[^>]*><p>(.*?)</p></div>'
-    match_fallback = re.search(pattern_fallback, html_content, re.DOTALL)
-    
-    if match_fallback:
-        passage = match_fallback.group(1).strip()
-        # Convert literal \n to proper HTML line breaks
-        passage = passage.replace('\\n', '<br>')
-        # Replace actual newlines with spaces to avoid formatting issues
-        passage = re.sub(r'\n\s*', ' ', passage)
+        passage = match.group(1).strip()
+        # Clean HTML tags and decode entities
+        passage = re.sub(r'<[^>]+>', ' ', passage)
+        passage = passage.replace('&rsquo;', "'").replace('&ldquo;', '"').replace('&rdquo;', '"').replace('&mdash;', '—').replace('&nbsp;', ' ').replace('&ndash;', '–')
+        # Clean up whitespace
+        passage = re.sub(r'\s+', ' ', passage).strip()
         return passage
+    
+    # Alternative pattern for passages that might be structured differently
+    pattern_alt = r'<div class="my-6"></div>\s*<div[^>]*>(.*?)</div>'
+    match_alt = re.search(pattern_alt, html_content, re.DOTALL)
+    
+    if match_alt:
+        content = match_alt.group(1).strip()
+        # Only extract text content, skip if it contains figures/images
+        if '<figure' in content or '<svg' in content:
+            return ""
+        # Clean HTML tags and decode entities
+        content = re.sub(r'<[^>]+>', ' ', content)
+        content = content.replace('&rsquo;', "'").replace('&ldquo;', '"').replace('&rdquo;', '"').replace('&mdash;', '—').replace('&nbsp;', ' ').replace('&ndash;', '–')
+        # Clean up whitespace
+        content = re.sub(r'\s+', ' ', content).strip()
+        return content
     
     return ""
 
@@ -264,13 +270,12 @@ def download_question_html(question_id: str, base_dir: Optional[str] = None) -> 
     
     # Paths for different file types
     html_file_path = os.path.join(base_dir, f"{question_id}.html")
-    minimal_html_path = os.path.join(base_dir, f"{question_id}_minimal.html")
-    css_file_path = os.path.join(base_dir, f"{question_id}.css")
+    # css_file_path = os.path.join(base_dir, f"{question_id}.css")  # Commented out - may need later
 
-    # Check if minimal HTML file already exists
-    if os.path.exists(minimal_html_path):
-        print(f"Minimal HTML file already exists for {question_id}, using cached version")
-        return minimal_html_path
+    # Check if HTML file already exists
+    if os.path.exists(html_file_path):
+        print(f"HTML file already exists for {question_id}, using cached version")
+        return html_file_path
 
     print(f"Downloading HTML for question ID: {question_id}")
     url = f"https://sat-questions.onrender.com/question/module:english-group/{question_id}"
@@ -278,10 +283,6 @@ def download_question_html(question_id: str, base_dir: Optional[str] = None) -> 
     try:
         response = requests.get(url, timeout=30)
         response.raise_for_status()
-        
-        # Save original full HTML (for backup/debugging)
-        with open(html_file_path, 'w', encoding='utf-8') as f:
-            f.write(response.text)
 
         # Extract container div and CSS
         container_div = extract_container_div(response.text)
@@ -289,21 +290,23 @@ def download_question_html(question_id: str, base_dir: Optional[str] = None) -> 
         
         if not container_div:
             print(f"Warning: Could not find container div for {question_id}")
-            return html_file_path  # Return original file as fallback
+            # Save original as fallback
+            with open(html_file_path, 'w', encoding='utf-8') as f:
+                f.write(response.text)
+            return html_file_path
         
-        # Save CSS file separately
-        with open(css_file_path, 'w', encoding='utf-8') as f:
-            f.write(css_styles)
+        # Save CSS file separately - COMMENTED OUT (may need later)
+        # with open(css_file_path, 'w', encoding='utf-8') as f:
+        #     f.write(css_styles)
         
-        # Create and save minimal HTML
+        # Create and save minimal HTML (replace original)
         minimal_html = create_minimal_html(container_div, css_styles, question_id)
-        with open(minimal_html_path, 'w', encoding='utf-8') as f:
+        with open(html_file_path, 'w', encoding='utf-8') as f:
             f.write(minimal_html)
 
-        print(f"Original HTML saved to: {html_file_path}")
-        print(f"Minimal HTML saved to: {minimal_html_path}")
-        print(f"CSS saved to: {css_file_path}")
-        return minimal_html_path
+        print(f"Minimal HTML saved to: {html_file_path}")
+        # print(f"CSS saved to: {css_file_path}")  # Commented out
+        return html_file_path
 
     except requests.RequestException as e:
         print(f"Error downloading HTML: {e}")
@@ -314,7 +317,7 @@ def extract_sat_question_data(html_file_path: str) -> Dict[str, str]:
     Extract SAT question data from HTML file.
     
     Args:
-        html_file_path: Path to the HTML file (can be minimal or full)
+        html_file_path: Path to the HTML file
         
     Returns:
         Dictionary containing extracted data
@@ -326,14 +329,6 @@ def extract_sat_question_data(html_file_path: str) -> Dict[str, str]:
     # If the HTML contains 'Question not found', exit silently
     if 'Question not found' in content:
         sys.exit(0)
-    
-    # If this is a minimal HTML file, try to find the corresponding full HTML file
-    if '_minimal.html' in html_file_path:
-        # Get the original full HTML file for data extraction
-        original_html_path = html_file_path.replace('_minimal.html', '.html')
-        if os.path.exists(original_html_path):
-            with open(original_html_path, 'r', encoding='utf-8') as f:
-                content = f.read()
     
     # Find the JavaScript question object
     js_match = re.search(r'let question = ({.*?});', content, re.DOTALL)
@@ -348,19 +343,23 @@ def extract_sat_question_data(html_file_path: str) -> Dict[str, str]:
         # Extract the specific fields you need
         content_data = question_data.get('content', {})
         
+        # Check if it has images - skip if it does (we only want has_images: false)
+        has_image = 'figure' in content_data.get('stem', '') or 'figure' in content_data.get('stimulus', '')
+        if has_image:
+            return {"error": "Skipping question: Contains images (has_image: true)"}
+        
         extracted_data = {
             'question_id': question_data.get('questionId', ''),
             'domain': question_data.get('primary_class_cd_desc', ''),
             'skill': question_data.get('skill_desc', ''),
             'difficulty': question_data.get('difficulty', ''),
-            'has_image': 'figure' in content_data.get('stem', '') or 'figure' in content_data.get('stimulus', ''),
+            'has_image': has_image,
             'passage': extract_passage_from_html(content),
             'question_text': re.sub(r'<[^>]+>', ' ', content_data.get('stem', '')).strip(),
             'answer_options': [re.sub(r'<[^>]+>', ' ', opt.get('content', '')).strip() for opt in content_data.get('answerOptions', [])],
             'correct_answer': extract_correct_answer_from_html(content),
-            'answer_rationales': extract_answer_rationales(content_data.get('rationale', '')),
-            'css_styles': extract_css_styles(content),
-            'html_file': html_file_path  # Include path to the HTML file
+            'answer_rationales': extract_answer_rationales(content_data.get('rationale', ''))
+            # Removed css_styles and html_file fields
         }
         
         # Clean up difficulty mapping
@@ -393,7 +392,10 @@ def main():
     extracted_data = extract_sat_question_data(html_file)
     
     if "error" in extracted_data:
-        print(f"Error: {extracted_data['error']}")
+        if "Skipping question:" in extracted_data["error"]:
+            print(f"SKIPPED: {extracted_data['error']}")
+        else:
+            print(f"Error: {extracted_data['error']}")
         return
     
     # Display extracted data
