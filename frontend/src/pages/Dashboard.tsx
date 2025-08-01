@@ -48,9 +48,9 @@ const Dashboard = () => {
         // Mock data for demonstration
         const mockStats: UserStats = {
           questionsAnswered: 147,
-          totalQuestions: 299,
+          totalQuestions: 843,
           completionRate: 49,
-          accuracy: 73,
+          accuracy: 17,
           streakDays: 12,
           difficultyBreakdown: {
             easy: 68,
@@ -58,12 +58,10 @@ const Dashboard = () => {
             hard: 27
           },
           domainPerformance: [
-            { domain: "Math", accuracy: 81 },
-            { domain: "Reading", accuracy: 69 },
-            { domain: "Writing", accuracy: 78 },
-            { domain: "Science", accuracy: 65 },
-            { domain: "History", accuracy: 71 },
-            { domain: "Literature", accuracy: 74 }
+            { domain: "Information and Ideas", accuracy: 78 },
+            { domain: "Craft and Structure", accuracy: 71 },
+            { domain: "Expression of Ideas", accuracy: 82 },
+            { domain: "Standard English Conventions", accuracy: 69 }
           ]
         };
         
@@ -168,10 +166,10 @@ const Dashboard = () => {
         
         {/* Domain Performance */}
         {stats.domainPerformance && (
-          <Card>
+          <Card className="mb-8">
             <CardHeader>
               <CardTitle>Domain Performance</CardTitle>
-              <CardDescription>Accuracy by knowledge domain</CardDescription>
+              <CardDescription>Accuracy by SAT knowledge domain</CardDescription>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
@@ -181,7 +179,13 @@ const Dashboard = () => {
                       <span className="text-sm font-medium">{domain.domain}</span>
                       <span className="text-sm text-muted-foreground">{domain.accuracy}%</span>
                     </div>
-                    <Progress value={domain.accuracy} className="h-2" />
+                    <Progress 
+                      value={domain.accuracy} 
+                      className="h-3"
+                      style={{
+                        '--progress-foreground': 'hsl(215, 55%, 28%)'
+                      } as React.CSSProperties}
+                    />
                   </div>
                 ))}
               </div>
