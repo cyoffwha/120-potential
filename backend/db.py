@@ -128,6 +128,83 @@ User.progress = relationship("UserProgress", back_populates="user", uselist=Fals
 
 Question.attempts = relationship("UserQuestionAttempt", back_populates="question")
 
+
+# Vocabulary Flashcard Tables
+class VocabularyCard(Base):
+    """Vocabulary flashcards for learning"""
+    __tablename__ = "vocabulary_cards"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    word = Column(String, nullable=False, index=True)
+    definition = Column(Text, nullable=False)
+    example = Column(Text, nullable=True)
+    difficulty = Column(String, nullable=False)  # Easy, Medium, Hard
+    category = Column(String, nullable=True)  # e.g., "SAT Vocab", "Academic", etc.
+    
+    # Metadata
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Relationships
+    user_attempts = relationship("UserVocabularyAttempt", back_populates="card")
+
+
+class UserVocabularyAttempt(Base):
+    """Track user attempts on vocabulary cards"""
+    __tablename__ = "user_vocabulary_attempts"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    card_id = Column(Integer, ForeignKey("vocabulary_cards.id"), nullable=False)
+    
+    # Attempt details
+    result = Column(String, nullable=False)  # "again", "easy"
+    time_elapsed_seconds = Column(Float, nullable=False)  # Time spent on card
+    attempted_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    
+    # Spaced repetition fields
+    interval_days = Column(Integer, default=1)  # Days until next review (1, 3, 7, etc.)
+    next_review_date = Column(Date, nullable=True)  # When card should be shown again
+    failure_count = Column(Integer, default=0)  # How many times user clicked "again"
+    
+    # Relationships
+    user = relationship("User", back_populates="vocabulary_attempts")
+    card = relationship("VocabularyCard", back_populates="user_attempts")
+
+
+class UserVocabularyProgress(Base):
+    """Track user's overall vocabulary progress"""
+    __tablename__ = "user_vocabulary_progress"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False, unique=True)
+    
+    # Progress stats
+    total_cards_attempted = Column(Integer, default=0)
+    total_cards_completed = Column(Integer, default=0)  # Cards marked as "easy"
+    total_time_spent = Column(Float, default=0.0)  # Total seconds spent
+    
+    # Difficulty breakdown
+    easy_attempted = Column(Integer, default=0)
+    easy_completed = Column(Integer, default=0)
+    medium_attempted = Column(Integer, default=0)
+    medium_completed = Column(Integer, default=0)
+    hard_attempted = Column(Integer, default=0)
+    hard_completed = Column(Integer, default=0)
+    
+    # Timestamps
+    last_study_date = Column(Date, nullable=True)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Relationships
+    user = relationship("User", back_populates="vocabulary_progress")
+
+
+# Update User model to add vocabulary relationships
+User.vocabulary_attempts = relationship("UserVocabularyAttempt", back_populates="user")
+User.vocabulary_progress = relationship("UserVocabularyProgress", back_populates="user", uselist=False)
+
+
 # To create tables (including the questions table), run:
 #
 # Option 1: Use the provided setup_db.py script (recommended):

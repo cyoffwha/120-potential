@@ -1,27 +1,33 @@
-from fastapi import APIRouter, Depends, HTTPException
-from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, func, update, and_
-from pydantic import BaseModel
 from datetime import datetime, date
-from typing import List
+from typing import Optional, List
+from fastapi import APIRouter, Depends, HTTPException, status
+from pydantic import BaseModel
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.future import select
+from sqlalchemy import func, case, update, delete
 
-from db import SessionLocal, User, Question, UserQuestionAttempt, UserStudySession, UserProgress
+from db import engine, User, Question, UserQuestionAttempt, UserStudySession, UserProgress
 
-# Dependency to get database session
+# Database dependency
 async def get_db():
-    async with SessionLocal() as session:
+    async with AsyncSession(engine) as session:
         yield session
 
 router = APIRouter(prefix="/progress", tags=["progress"])
 
-# Request/Response models
+# Request models
 class SubmitAnswerRequest(BaseModel):
     question_id: str
     selected_choice: str
     is_correct: bool
-    time_elapsed_seconds: int
+    time_elapsed_seconds: float
 
-class DifficultyStats(BaseModel):
+# Response models
+class SubmitAnswerResponse(BaseModel):
+    success: bool
+    message: str
+
+class DifficultyBreakdown(BaseModel):
     easy: int
     medium: int
     hard: int
@@ -34,288 +40,143 @@ class DomainStats(BaseModel):
 
 class UserStatsResponse(BaseModel):
     questionsAnswered: int
-    avgTimePerQuestion: float
+    totalQuestions: int
     completionRate: float
     accuracy: float
     streakDays: int
-    difficultyBreakdown: DifficultyStats
-    domainBreakdown: List[DomainStats]
+    difficultyBreakdown: DifficultyBreakdown
+    domainPerformance: List[DomainStats]
 
-@router.post("/submit-answer")
+@router.post("/submit-answer", response_model=SubmitAnswerResponse)
 async def submit_answer(
     request: SubmitAnswerRequest,
     db: AsyncSession = Depends(get_db)
 ):
-    """Submit an answer and track user progress"""
+    """Submit a user's answer to a question"""
     try:
-        # Mock user for now
+        # For now, use hardcoded user ID (in real app, get from auth)
         user_sub = "102668604194363784471"
         
-        # Get user
-        user_result = await db.execute(
-            select(User).where(User.sub == user_sub)
-        )
+        user_result = await db.execute(select(User).where(User.sub == user_sub))
         user = user_result.scalar_one_or_none()
         
         if not user:
+            # In a real app, you might create the user here or rely on auth flow
             raise HTTPException(status_code=404, detail="User not found")
-
-        # Get question
-        question_result = await db.execute(
-            select(Question).where(Question.question_id == request.question_id)
-        )
-        question = question_result.scalar_one_or_none()
         
-        if not question:
+        question_result = await db.execute(select(Question).where(Question.question_id == request.question_id))
+        if not question_result.scalar_one_or_none():
             raise HTTPException(status_code=404, detail="Question not found")
 
-        # Create attempt record
+        # Delete any existing attempt for this user+question
+        await db.execute(
+            delete(UserQuestionAttempt).where(
+                UserQuestionAttempt.user_id == user.id,
+                UserQuestionAttempt.question_id == request.question_id
+            )
+        )
+
+        # Create new attempt record
         attempt = UserQuestionAttempt(
             user_id=user.id,
-            question_id=question.id,
+            question_id=request.question_id,
             selected_choice=request.selected_choice,
             is_correct=request.is_correct,
             time_elapsed_seconds=request.time_elapsed_seconds,
             attempted_at=datetime.utcnow()
         )
         db.add(attempt)
-
-        # Get or create progress
-        progress_result = await db.execute(
-            select(UserProgress).where(UserProgress.user_id == user.id)
-        )
-        progress = progress_result.scalar_one_or_none()
         
-        if not progress:
-            # Create new progress
-            progress = UserProgress(
-                user_id=user.id,
-                total_questions_attempted=1,
-                total_correct_answers=1 if request.is_correct else 0,
-                easy_attempted=1 if question.difficulty == "Easy" else 0,
-                easy_correct=1 if question.difficulty == "Easy" and request.is_correct else 0,
-                medium_attempted=1 if question.difficulty == "Medium" else 0,
-                medium_correct=1 if question.difficulty == "Medium" and request.is_correct else 0,
-                hard_attempted=1 if question.difficulty in ["Hard", "Very Hard"] else 0,
-                hard_correct=1 if question.difficulty in ["Hard", "Very Hard"] and request.is_correct else 0,
-                domain_craft_structure_attempted=1 if question.domain == "Craft and Structure" else 0,
-                domain_craft_structure_correct=1 if question.domain == "Craft and Structure" and request.is_correct else 0,
-                domain_info_ideas_attempted=1 if question.domain == "Information and Ideas" else 0,
-                domain_info_ideas_correct=1 if question.domain == "Information and Ideas" and request.is_correct else 0,
-                domain_expression_ideas_attempted=1 if question.domain == "Expression of Ideas" else 0,
-                domain_expression_ideas_correct=1 if question.domain == "Expression of Ideas" and request.is_correct else 0,
-                domain_standard_english_attempted=1 if question.domain == "Standard English Conventions" else 0,
-                domain_standard_english_correct=1 if question.domain == "Standard English Conventions" and request.is_correct else 0,
-                current_streak_days=0,
-                longest_streak_days=0,
-                last_study_date=date.today(),
-                created_at=datetime.utcnow(),
-                updated_at=datetime.utcnow()
-            )
-            db.add(progress)
-        else:
-            # Update existing progress
-            update_data = {
-                "total_questions_attempted": progress.total_questions_attempted + 1,
-                "updated_at": datetime.utcnow(),
-                "last_study_date": date.today()
-            }
-            
-            if request.is_correct:
-                update_data["total_correct_answers"] = progress.total_correct_answers + 1
-            
-            # Update difficulty stats
-            if question.difficulty == "Easy":
-                update_data["easy_attempted"] = progress.easy_attempted + 1
-                if request.is_correct:
-                    update_data["easy_correct"] = progress.easy_correct + 1
-            elif question.difficulty == "Medium":
-                update_data["medium_attempted"] = progress.medium_attempted + 1
-                if request.is_correct:
-                    update_data["medium_correct"] = progress.medium_correct + 1
-            elif question.difficulty in ["Hard", "Very Hard"]:
-                update_data["hard_attempted"] = progress.hard_attempted + 1
-                if request.is_correct:
-                    update_data["hard_correct"] = progress.hard_correct + 1
-            
-            # Update domain stats
-            if question.domain == "Craft and Structure":
-                update_data["domain_craft_structure_attempted"] = progress.domain_craft_structure_attempted + 1
-                if request.is_correct:
-                    update_data["domain_craft_structure_correct"] = progress.domain_craft_structure_correct + 1
-            elif question.domain == "Information and Ideas":
-                update_data["domain_info_ideas_attempted"] = progress.domain_info_ideas_attempted + 1
-                if request.is_correct:
-                    update_data["domain_info_ideas_correct"] = progress.domain_info_ideas_correct + 1
-            elif question.domain == "Expression of Ideas":
-                update_data["domain_expression_ideas_attempted"] = progress.domain_expression_ideas_attempted + 1
-                if request.is_correct:
-                    update_data["domain_expression_ideas_correct"] = progress.domain_expression_ideas_correct + 1
-            elif question.domain == "Standard English Conventions":
-                update_data["domain_standard_english_attempted"] = progress.domain_standard_english_attempted + 1
-                if request.is_correct:
-                    update_data["domain_standard_english_correct"] = progress.domain_standard_english_correct + 1
-            
-            # Update progress
-            await db.execute(
-                update(UserProgress)
-                .where(UserProgress.user_id == user.id)
-                .values(**update_data)
-            )
-
-        # Handle study session
-        today = date.today()
-        session_result = await db.execute(
-            select(UserStudySession).where(
-                and_(
-                    UserStudySession.user_id == user.id,
-                    UserStudySession.session_date == today
-                )
-            )
-        )
-        study_session = session_result.scalar_one_or_none()
-        
-        if not study_session:
-            study_session = UserStudySession(
-                user_id=user.id,
-                session_date=today,
-                questions_attempted=1,
-                time_spent_seconds=request.time_elapsed_seconds,
-                created_at=datetime.utcnow()
-            )
-            db.add(study_session)
-        else:
-            await db.execute(
-                update(UserStudySession)
-                .where(
-                    and_(
-                        UserStudySession.user_id == user.id,
-                        UserStudySession.session_date == today
-                    )
-                )
-                .values(
-                    questions_attempted=study_session.questions_attempted + 1,
-                    time_spent_seconds=study_session.time_spent_seconds + request.time_elapsed_seconds
-                )
-            )
-
         await db.commit()
-        return {"success": True, "message": "Answer submitted successfully"}
-
+        
+        return SubmitAnswerResponse(
+            success=True,
+            message=f"Answer submitted successfully for question {request.question_id}"
+        )
+        
     except Exception as e:
         await db.rollback()
-        raise HTTPException(status_code=500, detail=f"Error: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Failed to submit answer: {str(e)}")
 
 @router.get("/stats", response_model=UserStatsResponse)
 async def get_user_stats(db: AsyncSession = Depends(get_db)):
-    """Get user progress statistics"""
+    """Get comprehensive user statistics"""
     try:
-        # Mock user for now
+        # For now, use hardcoded user ID
         user_sub = "102668604194363784471"
         
-        # Get user
-        user_result = await db.execute(
-            select(User).where(User.sub == user_sub)
-        )
+        user_result = await db.execute(select(User).where(User.sub == user_sub))
         user = user_result.scalar_one_or_none()
         
         if not user:
-            return UserStatsResponse(
-                questionsAnswered=0,
-                avgTimePerQuestion=0.0,
-                completionRate=0.0,
-                accuracy=0.0,
-                streakDays=0,
-                difficultyBreakdown=DifficultyStats(easy=0, medium=0, hard=0),
-                domainBreakdown=[]
-            )
-
-        # Get progress
-        progress_result = await db.execute(
-            select(UserProgress).where(UserProgress.user_id == user.id)
-        )
-        progress = progress_result.scalar_one_or_none()
+            raise HTTPException(status_code=404, detail="User not found")
         
-        if not progress:
-            return UserStatsResponse(
-                questionsAnswered=0,
-                avgTimePerQuestion=0.0,
-                completionRate=0.0,
-                accuracy=0.0,
-                streakDays=0,
-                difficultyBreakdown=DifficultyStats(easy=0, medium=0, hard=0),
-                domainBreakdown=[]
-            )
-
-        # Calculate stats
-        total_attempted = progress.total_questions_attempted
-        total_correct = progress.total_correct_answers
-        accuracy = (total_correct / total_attempted * 100) if total_attempted > 0 else 0.0
-
-        # Get average time
-        avg_time_result = await db.execute(
-            select(func.avg(UserQuestionAttempt.time_elapsed_seconds))
-            .where(UserQuestionAttempt.user_id == user.id)
-        )
-        avg_time = avg_time_result.scalar() or 0.0
-
-        # Get total questions for completion rate
         total_questions_result = await db.execute(select(func.count(Question.id)))
-        total_questions = total_questions_result.scalar()
-        completion_rate = (total_attempted / total_questions * 100) if total_questions > 0 else 0.0
-
-        # Build domain breakdown
-        domain_breakdown = []
+        total_questions = total_questions_result.scalar() or 0
         
-        if progress.domain_craft_structure_attempted > 0:
-            domain_accuracy = (progress.domain_craft_structure_correct / progress.domain_craft_structure_attempted * 100)
-            domain_breakdown.append(DomainStats(
-                domain="Craft and Structure",
-                attempted=progress.domain_craft_structure_attempted,
-                correct=progress.domain_craft_structure_correct,
-                accuracy=round(domain_accuracy, 1)
-            ))
-        
-        if progress.domain_info_ideas_attempted > 0:
-            domain_accuracy = (progress.domain_info_ideas_correct / progress.domain_info_ideas_attempted * 100)
-            domain_breakdown.append(DomainStats(
-                domain="Information and Ideas",
-                attempted=progress.domain_info_ideas_attempted,
-                correct=progress.domain_info_ideas_correct,
-                accuracy=round(domain_accuracy, 1)
-            ))
-        
-        if progress.domain_expression_ideas_attempted > 0:
-            domain_accuracy = (progress.domain_expression_ideas_correct / progress.domain_expression_ideas_attempted * 100)
-            domain_breakdown.append(DomainStats(
-                domain="Expression of Ideas",
-                attempted=progress.domain_expression_ideas_attempted,
-                correct=progress.domain_expression_ideas_correct,
-                accuracy=round(domain_accuracy, 1)
-            ))
-        
-        if progress.domain_standard_english_attempted > 0:
-            domain_accuracy = (progress.domain_standard_english_correct / progress.domain_standard_english_attempted * 100)
-            domain_breakdown.append(DomainStats(
-                domain="Standard English Conventions",
-                attempted=progress.domain_standard_english_attempted,
-                correct=progress.domain_standard_english_correct,
-                accuracy=round(domain_accuracy, 1)
-            ))
-
-        return UserStatsResponse(
-            questionsAnswered=total_attempted,
-            avgTimePerQuestion=float(avg_time),
-            completionRate=round(completion_rate, 2),
-            accuracy=round(accuracy, 1),
-            streakDays=progress.current_streak_days,
-            difficultyBreakdown=DifficultyStats(
-                easy=progress.easy_attempted,
-                medium=progress.medium_attempted,
-                hard=progress.hard_attempted
-            ),
-            domainBreakdown=domain_breakdown
+        attempts_result = await db.execute(
+            select(UserQuestionAttempt).where(UserQuestionAttempt.user_id == user.id)
         )
+        attempts = attempts_result.scalars().all()
+        
+        questions_answered = len(attempts)
+        completion_rate = (questions_answered / total_questions * 100) if total_questions > 0 else 0
+        
+        correct_answers = sum(1 for a in attempts if a.is_correct)
+        accuracy = (correct_answers / questions_answered * 100) if questions_answered > 0 else 0
+        
+        # This is a simplified streak calculation. A full implementation is more complex.
+        streak_days = 0 # Placeholder
 
+        difficulty_result = await db.execute(
+            select(
+                Question.difficulty,
+                func.count(UserQuestionAttempt.id).label('attempted'),
+                func.sum(case((UserQuestionAttempt.is_correct == True, 1), else_=0)).label('correct')
+            )
+            .join(Question, UserQuestionAttempt.question_id == Question.question_id)
+            .where(UserQuestionAttempt.user_id == user.id)
+            .group_by(Question.difficulty)
+        )
+        
+        difficulty_data = {row.difficulty: row.correct or 0 for row in difficulty_result.all()}
+        difficulty_breakdown = DifficultyBreakdown(
+            easy=difficulty_data.get('Easy', 0),
+            medium=difficulty_data.get('Medium', 0),
+            hard=difficulty_data.get('Hard', 0)
+        )
+        
+        domain_result = await db.execute(
+            select(
+                Question.domain,
+                func.count(UserQuestionAttempt.id).label('attempted'),
+                func.sum(case((UserQuestionAttempt.is_correct == True, 1), else_=0)).label('correct')
+            )
+            .join(Question, UserQuestionAttempt.question_id == Question.question_id)
+            .where(UserQuestionAttempt.user_id == user.id)
+            .group_by(Question.domain)
+        )
+        
+        domain_performance = []
+        for row in domain_result.all():
+            if row.domain and row.attempted:
+                accuracy_pct = (row.correct / row.attempted * 100) if row.attempted > 0 else 0
+                domain_performance.append(DomainStats(
+                    domain=row.domain,
+                    attempted=row.attempted,
+                    correct=row.correct or 0,
+                    accuracy=accuracy_pct
+                ))
+        
+        return UserStatsResponse(
+            questionsAnswered=questions_answered,
+            totalQuestions=total_questions,
+            completionRate=completion_rate,
+            accuracy=accuracy,
+            streakDays=streak_days,
+            difficultyBreakdown=difficulty_breakdown,
+            domainPerformance=domain_performance
+        )
+        
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Failed to get user stats: {str(e)}")

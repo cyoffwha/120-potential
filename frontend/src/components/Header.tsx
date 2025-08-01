@@ -21,6 +21,7 @@ export const Header = ({ activeSection = "Question Banks" }: HeaderProps) => {
   const navigationItems = [
     { label: "Home", href: "/", active: currentPath === "/" },
     { label: "Practice", href: "/practice", active: currentPath === "/practice", requiresAuth: true },
+    { label: "Vocabulary", href: "/vocabulary", active: currentPath === "/vocabulary", requiresAuth: true },
     { label: "Dashboard", href: "/dashboard", active: currentPath === "/dashboard", requiresAuth: true },
     { label: "Full practice", href: "#", requiresAuth: true },
     // { label: "Add Question", href: "/add-question", active: currentPath === "/add-question" },

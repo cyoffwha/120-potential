@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import AddQuestion from "./pages/AddQuestion";
 import Practice from "./pages/Practice";
 import Dashboard from "./pages/Dashboard";
+import Vocabulary from "./pages/Vocabulary";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { AuthProvider } from "./contexts/AuthContext";
 import { ProtectedRoute } from "./components/ProtectedRoute";
@@ -48,6 +49,11 @@ const App = () => {
               <Route path="/dashboard" element={
                 <ProtectedRoute>
                   <Dashboard />
+                </ProtectedRoute>
+              } />
+              <Route path="/vocabulary" element={
+                <ProtectedRoute>
+                  <Vocabulary />
                 </ProtectedRoute>
               } />
               <Route path="/add-question" element={<AddQuestion />} />

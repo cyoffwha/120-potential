@@ -92,13 +92,14 @@ export const MultipleChoice = ({
     setIsSubmitting(true);
     try {
       const elapsedTime = timerRef.current?.getElapsedSeconds() || 0;
+      const isCorrect = selectedAnswer === correctAnswer;
       
       // Submit answer to progress tracking
       const result = await userProgressService.submitAnswer({
         question_id: questionId,
         selected_choice: selectedAnswer,
         time_elapsed_seconds: elapsedTime,
-        correct_choice: correctAnswer
+        is_correct: isCorrect
       });
       
       console.log('Answer submitted:', result);

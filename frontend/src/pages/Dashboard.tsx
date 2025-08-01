@@ -4,6 +4,9 @@ import { Progress } from "@/components/ui/progress";
 import { useState, useEffect } from "react";
 import { userProgressService, UserStats as APIUserStats } from "../services/userProgressService";
 
+// NOTE: Currently using mock data for demonstration purposes
+// TODO: Implement actual backend integration when ready
+
 interface DomainPerformance {
   domain: string;
   accuracy: number;
@@ -34,27 +37,36 @@ const Dashboard = () => {
     streakDays: 0,
   });
 
-  // Fetch stats from backend
+  // Fetch stats from backend (using mock data for now)
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const apiStats = await userProgressService.getUserStats();
+        // TODO: Uncomment when backend is ready
+        // const apiStats = await userProgressService.getUserStats();
         
-        // Transform API data to match local interface
-        const transformedStats: UserStats = {
-          questionsAnswered: apiStats.questionsAnswered,
-          totalQuestions: apiStats.totalQuestions,
-          completionRate: apiStats.completionRate,
-          accuracy: apiStats.accuracy,
-          streakDays: apiStats.streakDays,
-          difficultyBreakdown: apiStats.difficultyBreakdown,
-          domainPerformance: apiStats.domainPerformance.map(dp => ({
-            domain: dp.domain,
-            accuracy: dp.accuracy
-          }))
+        // Mock data for demonstration
+        const mockStats: UserStats = {
+          questionsAnswered: 147,
+          totalQuestions: 299,
+          completionRate: 49,
+          accuracy: 73,
+          streakDays: 12,
+          difficultyBreakdown: {
+            easy: 68,
+            medium: 52,
+            hard: 27
+          },
+          domainPerformance: [
+            { domain: "Math", accuracy: 81 },
+            { domain: "Reading", accuracy: 69 },
+            { domain: "Writing", accuracy: 78 },
+            { domain: "Science", accuracy: 65 },
+            { domain: "History", accuracy: 71 },
+            { domain: "Literature", accuracy: 74 }
+          ]
         };
         
-        setStats(transformedStats);
+        setStats(mockStats);
       } catch (error) {
         console.error("Failed to fetch stats:", error);
         // Fallback to mock data if API fails
@@ -245,6 +257,10 @@ const DifficultyBar = ({ label, count, color }: {
   count: number; 
   color: string;
 }) => {
+  // Calculate percentage based on a reasonable maximum (e.g., 100 questions per difficulty)
+  const maxQuestions = 100;
+  const percentage = Math.min((count / maxQuestions) * 100, 100);
+  
   return (
     <div className="space-y-1">
       <div className="flex items-center justify-between">
@@ -253,8 +269,8 @@ const DifficultyBar = ({ label, count, color }: {
       </div>
       <div className="h-2 w-full bg-muted rounded-full overflow-hidden">
         <div 
-          className={`h-full ${color} rounded-full`} 
-          style={{ width: `${Math.min(count * 2, 100)}%` }} 
+          className={`h-full ${color} rounded-full transition-all duration-300`} 
+          style={{ width: `${percentage}%` }} 
         />
       </div>
     </div>

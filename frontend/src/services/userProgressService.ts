@@ -1,10 +1,11 @@
 import { FilterOptions } from "../types";
+import { BACKEND_URL } from "../config";
 
 export interface QuestionAttempt {
   question_id: string;
   selected_choice: string;
   time_elapsed_seconds: number;
-  correct_choice: string;
+  is_correct: boolean;
 }
 
 export interface UserStats {
@@ -37,7 +38,7 @@ export interface RecentAttempt {
   domain: string | null;
 }
 
-const API_BASE_URL = "http://127.0.0.1:8079/api/user-progress";
+const API_BASE_URL = `${BACKEND_URL}/progress`;
 
 class UserProgressService {
   async submitAnswer(attempt: QuestionAttempt): Promise<{
