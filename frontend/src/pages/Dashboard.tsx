@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Progress } from "@/components/ui/progress";
 import { useState, useEffect } from "react";
 import { userProgressService, UserStats as APIUserStats } from "../services/userProgressService";
+import { ActivityCalendar } from "@/components/ActivityCalendar";
 
 // NOTE: Currently using mock data for demonstration purposes
 // TODO: Implement actual backend integration when ready
@@ -132,6 +133,9 @@ const Dashboard = () => {
             }
           />
         </div>
+        
+        {/* Activity Calendar */}
+        <ActivityCalendar className="mb-8" />
         
         {/* Difficulty Breakdown */}
         {stats.difficultyBreakdown && (
