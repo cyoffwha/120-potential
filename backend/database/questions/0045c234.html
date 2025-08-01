@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0045c234</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Given that stars and planets initially form from the same gas and dust in space, some astronomers have posited that host stars (such as the Sun) and their planets (such as those in our solar system) are composed of the same materials, with the planets containing equal or smaller quantities of the materials that make up the host star. This idea is also supported by evidence that rocky planets in our solar system are composed of some of the same materials as the Sun.</p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most directly weaken the astronomers&rsquo; claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Most stars are made of hydrogen and helium, but when cooled they are revealed to contain small amounts of iron and silicate.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>A nearby host star is observed to contain the same proportion of hydrogen and helium as that of the Sun.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Evidence emerges that the amount of iron in some rocky planets is considerably higher than the amount in their host star.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The method for determining the composition of rocky planets is discovered to be less effective when used to analyze other kinds of planets.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it presents a finding that, if true, would weaken the astronomers&rsquo; claim about the makeup of host stars and their planets. The text explains that because stars and planets begin forming from the same gas and dust, astronomers believe planets should be composed of the same materials as their host stars, but in equal or smaller quantities. The finding that the amount of iron in some rocky planets is much higher than the amount in their host star would weaken the astronomers&rsquo; claim because it would show that some planets contain the same material as their host star, but in higher quantities. </p><p>Choice A is incorrect because a finding only about the makeup of stars, whether they&rsquo;ve cooled or not, would provide no information about the makeup of planets. Thus, it wouldn&rsquo;t have any bearing on the claim that planets and their host stars are composed of the same materials in differing quantities. Choice B is incorrect because a finding about two host stars having similar proportions of certain materials wouldn&rsquo;t provide any information about the makeup of planets. Thus, it wouldn&rsquo;t be relevant to the claim that planets and their host stars are composed of the same materials in differing quantities. Choice D is incorrect because the text indicates that the astronomers&rsquo; claim is based on a fact&mdash;that stars and planets begin forming from the same gas and dust in space&mdash;which would remain true regardless of the effectiveness of a method for analysis of compositions. The text does cite analysis of rocky planets in our solar system and the Sun, but only as a single piece of evidence that is consistent with the claim and not as the source of the claim; the finding that the method used for that analysis is less effective in other scenarios wouldn&rsquo;t weaken a claim that&rsquo;s based on knowledge of how stars and planets initially form. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">277 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eMost stars are made of hydrogen and helium, but when cooled they are revealed to contain small amounts of iron and silicate.\u003c/p\u003e", "id": "76d16ef9-21e6-4f2a-b39c-d0716b83528d"}, {"content": "\u003cp\u003eA nearby host star is observed to contain the same proportion of hydrogen and helium as that of the Sun.\u003c/p\u003e", "id": "1089547d-ad67-4563-a2d9-db71371bd3ed"}, {"content": "\u003cp\u003eEvidence emerges that the amount of iron in some rocky planets is considerably higher than the amount in their host star.\u003c/p\u003e", "id": "26e0b6c4-6b92-49f9-93d3-6ab71414e13e"}, {"content": "\u003cp\u003eThe method for determining the composition of rocky planets is discovered to be less effective when used to analyze other kinds of planets.\u003c/p\u003e", "id": "d2e51c97-295a-47f6-9111-34a038569286"}], "correct_answer": ["C"], "externalid": "de524c7e-6530-4cc4-889d-5f33fb362adc", "keys": ["26e0b6c4-6b92-49f9-93d3-6ab71414e13e"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-320-TXT", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it presents a finding that, if true, would weaken the astronomers\u0026rsquo; claim about the makeup of host stars and their planets. The text explains that because stars and planets begin forming from the same gas and dust, astronomers believe planets should be composed of the same materials as their host stars, but in equal or smaller quantities. The finding that the amount of iron in some rocky planets is much higher than the amount in their host star would weaken the astronomers\u0026rsquo; claim because it would show that some planets contain the same material as their host star, but in higher quantities. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because a finding only about the makeup of stars, whether they\u0026rsquo;ve cooled or not, would provide no information about the makeup of planets. Thus, it wouldn\u0026rsquo;t have any bearing on the claim that planets and their host stars are composed of the same materials in differing quantities. Choice B is incorrect because a finding about two host stars having similar proportions of certain materials wouldn\u0026rsquo;t provide any information about the makeup of planets. Thus, it wouldn\u0026rsquo;t be relevant to the claim that planets and their host stars are composed of the same materials in differing quantities. Choice D is incorrect because the text indicates that the astronomers\u0026rsquo; claim is based on a fact\u0026mdash;that stars and planets begin forming from the same gas and dust in space\u0026mdash;which would remain true regardless of the effectiveness of a method for analysis of compositions. The text does cite analysis of rocky planets in our solar system and the Sun, but only as a single piece of evidence that is consistent with the claim and not as the source of the claim; the finding that the method used for that analysis is less effective in other scenarios wouldn\u0026rsquo;t weaken a claim that\u0026rsquo;s based on knowledge of how stars and planets initially form. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most directly weaken the astronomers\u0026rsquo; claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eGiven that stars and planets initially form from the same gas and dust in space, some astronomers have posited that host stars (such as the Sun) and their planets (such as those in our solar system) are composed of the same materials, with the planets containing equal or smaller quantities of the materials that make up the host star. This idea is also supported by evidence that rocky planets in our solar system are composed of some of the same materials as the Sun.\u003c/p\u003e", "templateclusterid": "41779965-3f31-4197-8af5-ffa5a17bfae1", "templateclustername": "", "type": "mcq", "vaultid": "5905eed5-41ea-42ee-8cd4-b3a88dfc46e1"}, "createDate": 1691007959335, "difficulty": "H", "external_id": "de524c7e-6530-4cc4-889d-5f33fb362adc", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "0045c234", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "ee6a5d4d-6c43-47c5-96bd-629d6b5f18c2", "updateDate": 1691007959335};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0045c234");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

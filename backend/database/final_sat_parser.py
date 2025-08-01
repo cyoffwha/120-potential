@@ -372,8 +372,149 @@ def extract_sat_question_data(html_file_path: str) -> Dict[str, str]:
     except json.JSONDecodeError as e:
         return {"error": f"Failed to parse JSON: {e}"}
 
+
+
+def process_question(question_id: str) -> Dict[str, str]:
+    """Process a single question ID - download if needed and extract data."""
+    
+    # Download HTML if it doesn't exist
+    html_file = download_question_html(question_id)
+    
+    if not html_file:
+        return {"error": f"Failed to download HTML for question ID: {question_id}"}
+    
+    # Extract data
+    extracted_data = extract_sat_question_data(html_file)
+    
+    if "error" in extracted_data:
+        return extracted_data
+    
+    # Save to JSON file in /questions/ directory
+    questions_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.', 'questions')
+    os.makedirs(questions_dir, exist_ok=True)
+    json_file = os.path.join(questions_dir, f'{question_id}.json')
+
+    with open(json_file, 'w', encoding='utf-8') as f:
+        json.dump(extracted_data, f, indent=2, ensure_ascii=False)
+
+    extracted_data['json_file'] = json_file
+    return extracted_data
+
+def process_all_verbal_ids(ids_file: str = "VerbalIDs", start_from: int = 0, max_questions: Optional[int] = None) -> None:
+    """
+    Process all question IDs from the VerbalIDs file with safe intervals to avoid getting banned.
+    
+    Args:
+        ids_file: Path to the file containing question IDs (one per line)
+        start_from: Line number to start from (0-indexed, useful for resuming)
+        max_questions: Maximum number of questions to process (None for all)
+    """
+    
+    # Check if the IDs file exists
+    if not os.path.exists(ids_file):
+        print(f"Error: {ids_file} file not found!")
+        return
+    
+    # Read all question IDs
+    with open(ids_file, 'r') as f:
+        question_ids = [line.strip() for line in f.readlines() if line.strip()]
+    
+    total_ids = len(question_ids)
+    print(f"Found {total_ids} question IDs in {ids_file}")
+    
+    # Apply start_from and max_questions limits
+    if start_from > 0:
+        question_ids = question_ids[start_from:]
+        print(f"Starting from line {start_from + 1}")
+    
+    if max_questions:
+        question_ids = question_ids[:max_questions]
+        print(f"Processing maximum {max_questions} questions")
+    
+    print(f"Will process {len(question_ids)} questions")
+    print("=" * 60)
+    
+    # Counters for tracking progress
+    processed = 0
+    skipped = 0
+    errors = 0
+    
+    for i, question_id in enumerate(question_ids):
+        current_line = start_from + i + 1
+        print(f"\n[{current_line}/{total_ids}] Processing: {question_id}")
+        
+        try:
+            # Process the question
+            result = process_question(question_id)
+            
+            if "error" in result:
+                if "Skipping question:" in result["error"]:
+                    print(f"  SKIPPED: {result['error']}")
+                    skipped += 1
+                else:
+                    print(f"  ERROR: {result['error']}")
+                    errors += 1
+            else:
+                print(f"  SUCCESS: Saved to {result.get('json_file', 'JSON file')}")
+                processed += 1
+        
+        except Exception as e:
+            print(f"  EXCEPTION: {str(e)}")
+            errors += 1
+        
+        # Safe interval between requests to avoid getting banned
+        if i < len(question_ids) - 1:  # Don't wait after the last question
+            # Random delay between 0.5-2 seconds to be more human-like but faster
+            delay = random.uniform(0.5, 2.0)
+            print(f"  Waiting {delay:.1f} seconds...")
+            time.sleep(delay)
+            
+            # Longer break every 100 questions (3-8 seconds)
+            if (i + 1) % 100 == 0:
+                longer_delay = random.uniform(3.0, 8.0)
+                print(f"  📋 Progress checkpoint: {processed} processed, {skipped} skipped, {errors} errors")
+                print(f"  Taking longer break: {longer_delay:.1f} seconds...")
+                time.sleep(longer_delay)
+    
+    # Final summary
+    print("\n" + "=" * 60)
+    print("BATCH PROCESSING COMPLETE!")
+    print(f"Total processed successfully: {processed}")
+    print(f"Total skipped (images/other): {skipped}")
+    print(f"Total errors: {errors}")
+    print(f"Total attempted: {len(question_ids)}")
+    
+    if errors > 0:
+        print(f"\n⚠️  {errors} errors occurred. Check the output above for details.")
+    if processed > 0:
+        print(f"✅ {processed} questions successfully processed and saved as JSON files.")
+
 def main():
-    # Get question ID from command line argument or use default
+    # Check if we're running in batch mode
+    if len(sys.argv) > 1 and sys.argv[1] == "batch":
+        # Parse additional arguments for batch processing
+        start_from = 0
+        max_questions = None
+        
+        if len(sys.argv) > 2:
+            try:
+                start_from = int(sys.argv[2])
+            except ValueError:
+                print("Error: start_from must be an integer")
+                return
+        
+        if len(sys.argv) > 3:
+            try:
+                max_questions = int(sys.argv[3])
+            except ValueError:
+                print("Error: max_questions must be an integer")
+                return
+        
+        print("🚀 Starting batch processing of VerbalIDs...")
+        process_all_verbal_ids(start_from=start_from, max_questions=max_questions)
+        return
+    
+    # Single question processing (original behavior)
     if len(sys.argv) > 1:
         question_id = sys.argv[1]
     else:
@@ -431,32 +572,6 @@ def main():
         print("-" * 40)
         for choice, rationale in extracted_data['answer_rationales'].items():
             print(f"Choice {choice}: {rationale[:100]}...")
-
-def process_question(question_id: str) -> Dict[str, str]:
-    """Process a single question ID - download if needed and extract data."""
-    
-    # Download HTML if it doesn't exist
-    html_file = download_question_html(question_id)
-    
-    if not html_file:
-        return {"error": f"Failed to download HTML for question ID: {question_id}"}
-    
-    # Extract data
-    extracted_data = extract_sat_question_data(html_file)
-    
-    if "error" in extracted_data:
-        return extracted_data
-    
-    # Save to JSON file in /questions/ directory
-    questions_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'questions')
-    os.makedirs(questions_dir, exist_ok=True)
-    json_file = os.path.join(questions_dir, f'{question_id}_extracted.json')
-
-    with open(json_file, 'w', encoding='utf-8') as f:
-        json.dump(extracted_data, f, indent=2, ensure_ascii=False)
-
-    extracted_data['json_file'] = json_file
-    return extracted_data
 
 if __name__ == "__main__":
     main()
