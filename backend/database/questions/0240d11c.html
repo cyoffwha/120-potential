@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0240d11c</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In the twentieth century, ethnographers made a concerted effort to collect Mexican American folklore, but they did not always agree about that folklore&rsquo;s origins. Scholars such as Aurelio Espinosa claimed that Mexican American folklore derived largely from the folklore of Spain, which ruled Mexico and what is now the southwestern United States from the sixteenth to early nineteenth centuries. Scholars such as Am&eacute;rico Paredes, by contrast, argued that while some Spanish influence is undeniable, Mexican American folklore is mainly the product of the ongoing interactions of various cultures in Mexico and the United States. </p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most directly support Paredes&rsquo;s argument?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The folklore that the ethnographers collected included several songs written in the form of a <span lang="es"><em>d&eacute;cima</em></span>, a type of poem originating in late sixteenth-century Spain.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Much of the folklore that the ethnographers collected had similar elements from region to region.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Most of the folklore that the ethnographers collected was previously unknown to scholars.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Most of the folklore that the ethnographers collected consisted of <span lang="es"><em>corridos</em></span>&mdash;ballads about history and social life&mdash;of a clearly recent origin.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it presents a finding that, if true, would support Paredes&rsquo;s argument that Mexican-American folklore is mostly the result of cultural interactions in Mexico and the United States rather than an adaptation of Spanish folklore. The text describes a disagreement among scholars about whether Mexican-American folklore mostly derived from the folklore of Spain or originated in Mexico and the United States as cultures there have interacted. The latter view is the argument that Paredes puts forward. If Mexican-American folklore collected in the twentieth century mostly consists of ballads about history and social life that originated recently, then that would support Paredes&rsquo;s argument, since it would suggest that the folklore mostly arose after Spanish rule ended in the early nineteenth century and that the folklore reflects cultural interactions in Mexico and the United States rather than traditions from Spain.&nbsp;</p><p>Choice A is incorrect because the inclusion of songs influenced by sixteenth-century Spanish poetry among Mexican-American folklore collected in the twentieth century would not support Paredes&rsquo;s view that the folklore was the result of cultural interactions in Mexico and the United States rather than an offshoot of Spanish folklore. If anything, the presence of such songs among the folklore collected in the twentieth century would weaken Paredes&rsquo;s argument, since it would reflect the influence of Spanish culture on the folklore.&nbsp;Choice B is incorrect because the mere presence of similarities in Mexican-American folklore across regions would not be sufficient to draw a conclusion about where the folklore originated, let alone to support Paredes&rsquo;s argument that the folklore reflects cultural interactions in Mexico and the United States. In fact, since Paredes argued that Mexican-American folklore is the product of various cultures interacting in Mexico and the United States, he would likely expect there to be regional variations in folklore as different cultures have interacted in different places.&nbsp;Choice C is incorrect because scholars&rsquo; previous ignorance of the folklore would have no bearing on Paredes&rsquo;s argument that Mexican-American folklore mostly reflects cultural interactions in Mexico and the United States. The folklore&rsquo;s origins are independent of scholars&rsquo; knowledge of the folklore.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">139 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe folklore that the ethnographers collected included several songs written in the form of a \u003cspan lang=\"es\"\u003e\u003cem\u003ed\u0026eacute;cima\u003c/em\u003e\u003c/span\u003e, a type of poem originating in late sixteenth-century Spain.\u0026nbsp;\u003c/p\u003e", "id": "65430d14-ecde-4f68-aed6-8995fdee8134"}, {"content": "\u003cp\u003eMuch of the folklore that the ethnographers collected had similar elements from region to region.\u0026nbsp;\u003c/p\u003e", "id": "3464264d-63d4-4e1d-9725-fa41db89dd48"}, {"content": "\u003cp\u003eMost of the folklore that the ethnographers collected was previously unknown to scholars.\u0026nbsp;\u003c/p\u003e", "id": "f3a30c36-9d35-4569-ae70-8dc2a44aac33"}, {"content": "\u003cp\u003eMost of the folklore that the ethnographers collected consisted of \u003cspan lang=\"es\"\u003e\u003cem\u003ecorridos\u003c/em\u003e\u003c/span\u003e\u0026mdash;ballads about history and social life\u0026mdash;of a clearly recent origin.\u0026nbsp;\u003c/p\u003e", "id": "a4e48ae2-c996-4464-be93-3beea692748b"}], "correct_answer": ["D"], "externalid": "05b51061-19d4-45fe-8086-a6b565cc8902", "keys": ["a4e48ae2-c996-4464-be93-3beea692748b"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-303-TXT", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it presents a finding that, if true, would support Paredes\u0026rsquo;s argument that Mexican-American folklore is mostly the result of cultural interactions in Mexico and the United States rather than an adaptation of Spanish folklore. The text describes a disagreement among scholars about whether Mexican-American folklore mostly derived from the folklore of Spain or originated in Mexico and the United States as cultures there have interacted. The latter view is the argument that Paredes puts forward. If Mexican-American folklore collected in the twentieth century mostly consists of ballads about history and social life that originated recently, then that would support Paredes\u0026rsquo;s argument, since it would suggest that the folklore mostly arose after Spanish rule ended in the early nineteenth century and that the folklore reflects cultural interactions in Mexico and the United States rather than traditions from Spain.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because the inclusion of songs influenced by sixteenth-century Spanish poetry among Mexican-American folklore collected in the twentieth century would not support Paredes\u0026rsquo;s view that the folklore was the result of cultural interactions in Mexico and the United States rather than an offshoot of Spanish folklore. If anything, the presence of such songs among the folklore collected in the twentieth century would weaken Paredes\u0026rsquo;s argument, since it would reflect the influence of Spanish culture on the folklore.\u0026nbsp;Choice B is incorrect because the mere presence of similarities in Mexican-American folklore across regions would not be sufficient to draw a conclusion about where the folklore originated, let alone to support Paredes\u0026rsquo;s argument that the folklore reflects cultural interactions in Mexico and the United States. In fact, since Paredes argued that Mexican-American folklore is the product of various cultures interacting in Mexico and the United States, he would likely expect there to be regional variations in folklore as different cultures have interacted in different places.\u0026nbsp;Choice C is incorrect because scholars\u0026rsquo; previous ignorance of the folklore would have no bearing on Paredes\u0026rsquo;s argument that Mexican-American folklore mostly reflects cultural interactions in Mexico and the United States. The folklore\u0026rsquo;s origins are independent of scholars\u0026rsquo; knowledge of the folklore.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most directly support Paredes\u0026rsquo;s argument?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn the twentieth century, ethnographers made a concerted effort to collect Mexican American folklore, but they did not always agree about that folklore\u0026rsquo;s origins. Scholars such as Aurelio Espinosa claimed that Mexican American folklore derived largely from the folklore of Spain, which ruled Mexico and what is now the southwestern United States from the sixteenth to early nineteenth centuries. Scholars such as Am\u0026eacute;rico Paredes, by contrast, argued that while some Spanish influence is undeniable, Mexican American folklore is mainly the product of the ongoing interactions of various cultures in Mexico and the United States. \u003c/p\u003e", "templateclusterid": "d5cb784f-9135-4d63-a6b9-999aae6610ac", "templateclustername": "", "type": "mcq", "vaultid": "df61958c-9aed-4249-89d9-52f6e33b209c"}, "createDate": 1691007959334, "difficulty": "H", "external_id": "05b51061-19d4-45fe-8086-a6b565cc8902", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "0240d11c", "score_band_range_cd": 7, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "757fe2e5-4e7a-4fc3-a15c-31dc0d249261", "updateDate": 1691007959334};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0240d11c");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

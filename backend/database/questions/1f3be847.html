@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 1f3be847</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>&ldquo;Loon Point&rdquo; is a 1912 poem by Amy Lowell. In the poem, which presents a nighttime scene on a body of water, Lowell describes an element of nature as an active participant in the experience, writing, <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which quotation from &ldquo;Loon Point&rdquo; most effectively illustrates the claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Through the water the moon writes her legends / In light, on the smooth, wet sand.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Softly the water ripples / Against the canoe&rsquo;s curving side.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Or like the snow-white petals / Which drop from an overblown rose.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;But the moon in her wayward beauty / Is ever and always the same.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most effectively illustrates the claim that Lowell describes an element of nature as an active participant in the experience of a nighttime scene on a body of water. The quotation presents the image of the moon shining on a body of water. However, instead of describing the moon in passive terms or simply stating that it reflects through the water and onto the sandy shore, the quotation portrays the moon as being engaged in the humanlike action of writing a legend. In other words, the moon is participating actively in the nighttime scene. </p><p>Choice B is incorrect. Although the quotation describes a nighttime scene on a body of water, the element of nature in these lines&mdash;the waves&mdash;isn&rsquo;t portrayed as an active participant in an experience; instead, the waves merely ripple softly against a canoe, as waves would normally do. Choice C is incorrect because the quotation doesn&rsquo;t present a nighttime scene on a body of water; instead, it describes petals falling from a rose.&nbsp;Choice D is incorrect. Although the quotation presents an image of an element of nature&mdash;the moon&mdash;it doesn&rsquo;t mention a body of water; moreover, it portrays the moon not as an active participant in a scene but instead as static or unchanging (&ldquo;ever and always the same&rdquo;). </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">17 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;Through the water the moon writes her legends / In light, on the smooth, wet sand.\u0026rdquo;\u003c/p\u003e", "id": "9896723b-fe8c-427f-9149-664df3acf5f8"}, {"content": "\u003cp\u003e\u0026ldquo;Softly the water ripples / Against the canoe\u0026rsquo;s curving side.\u0026rdquo;\u003c/p\u003e", "id": "73b52aa0-e0b4-4313-bb3c-d42da9af4131"}, {"content": "\u003cp\u003e\u0026ldquo;Or like the snow-white petals / Which drop from an overblown rose.\u0026rdquo;\u003c/p\u003e", "id": "417cbaf4-4573-4e7c-bd2b-c00d5c31a58c"}, {"content": "\u003cp\u003e\u0026ldquo;But the moon in her wayward beauty / Is ever and always the same.\u0026rdquo;\u003c/p\u003e", "id": "ad742a7b-47b7-4969-9597-3740354ed9e5"}], "correct_answer": ["A"], "externalid": "323d585c-ed72-4482-a6e7-60adf99b2849", "keys": ["9896723b-fe8c-427f-9149-664df3acf5f8"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-401-LIT", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most effectively illustrates the claim that Lowell describes an element of nature as an active participant in the experience of a nighttime scene on a body of water. The quotation presents the image of the moon shining on a body of water. However, instead of describing the moon in passive terms or simply stating that it reflects through the water and onto the sandy shore, the quotation portrays the moon as being engaged in the humanlike action of writing a legend. In other words, the moon is participating actively in the nighttime scene. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. Although the quotation describes a nighttime scene on a body of water, the element of nature in these lines\u0026mdash;the waves\u0026mdash;isn\u0026rsquo;t portrayed as an active participant in an experience; instead, the waves merely ripple softly against a canoe, as waves would normally do. Choice C is incorrect because the quotation doesn\u0026rsquo;t present a nighttime scene on a body of water; instead, it describes petals falling from a rose.\u0026nbsp;Choice D is incorrect. Although the quotation presents an image of an element of nature\u0026mdash;the moon\u0026mdash;it doesn\u0026rsquo;t mention a body of water; moreover, it portrays the moon not as an active participant in a scene but instead as static or unchanging (\u0026ldquo;ever and always the same\u0026rdquo;). \u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from \u0026ldquo;Loon Point\u0026rdquo; most effectively illustrates the claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u0026ldquo;Loon Point\u0026rdquo; is a 1912 poem by Amy Lowell. In the poem, which presents a nighttime scene on a body of water, Lowell describes an element of nature as an active participant in the experience, writing, \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "08383265-ae45-4297-ad8e-23ddf856024a", "templateclustername": "", "type": "mcq", "vaultid": "91867c29-41cd-4339-be20-8585e22a9874"}, "createDate": 1691007959336, "difficulty": "M", "external_id": "323d585c-ed72-4482-a6e7-60adf99b2849", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "1f3be847", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "0e0842d1-dd4a-48d1-9771-8d47efa63a9b", "updateDate": 1691007959336};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-1f3be847");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

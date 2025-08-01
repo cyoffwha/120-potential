@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 479c7e82</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Although critics believed that customers would never agree to pay to pick their own produce on farms, such concerns didn&rsquo;t <span aria-hidden="true">______</span><span class="sr-only">blank</span> Booker T. Whatley&rsquo;s efforts to promote the practice. Thanks in part to Whatley&rsquo;s determined advocacy, farms that allow visitors to pick their own apples, pumpkins, and other produce can be found throughout the United States.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>enhance</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>hinder</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>misrepresent</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>aggravate</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it most logically completes the text&rsquo;s discussion of Booker T. Whatley. In this context, &ldquo;hinder&rdquo; means hold back or obstruct. The text explains that Whatley encouraged farms to allow customers on site to pick their own produce for a fee. He did so despite critics&rsquo; concerns that the customers would never pay to do so. This context establishes that the critics&rsquo; concerns didn&rsquo;t hinder Whatley&rsquo;s efforts to promote the practice. </p><p>Choice A is incorrect. The text indicates that critics&rsquo; skepticism of the idea that customers would pay to pick their own produce didn&rsquo;t have some effect on Whatley&rsquo;s promotion of the practice. The text illustrates this assertion by describing Whatley&rsquo;s &ldquo;determined advocacy&rdquo; for the practice. This context suggests that critics&rsquo; concerns didn&rsquo;t obstruct Whatley&rsquo;s efforts, not that critics&rsquo; concerns didn&rsquo;t &ldquo;enhance,&rdquo; or increase or improve, Whatley&rsquo;s efforts.&nbsp;Choice C is incorrect because in this context, &ldquo;misrepresent&rdquo; would mean portray inaccurately, and the text includes no information relevant to the issue of how Whatley&rsquo;s efforts were portrayed by critics of the practice of charging customers to pick their own produce. Choice D is incorrect. The text indicates that critics&rsquo; skepticism of the idea that customers would pay to pick their own produce didn&rsquo;t have some effect on Whatley&rsquo;s promotion of the practice. The text illustrates this assertion by describing Whatley&rsquo;s &ldquo;determined advocacy&rdquo; for the practice. This context suggests that critics&rsquo; concerns didn&rsquo;t obstruct Whatley&rsquo;s efforts, not that critics&rsquo; concerns didn&rsquo;t &ldquo;aggravate,&rdquo; or irritate or make more severe, Whatley&rsquo;s efforts. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">404 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eenhance\u003c/p\u003e", "id": "07173a73-daaa-4d93-af26-bc35e6cd11d2"}, {"content": "\u003cp\u003ehinder\u003c/p\u003e", "id": "1535b04d-2d64-4c12-96e7-c8d8e91243a2"}, {"content": "\u003cp\u003emisrepresent\u003c/p\u003e", "id": "efc17ed2-5cb3-44da-9f87-367387e7ea73"}, {"content": "\u003cp\u003eaggravate\u003c/p\u003e", "id": "66e350a3-2f07-4f4d-bbbe-41cb4a92b9a3"}], "correct_answer": ["B"], "externalid": "ab4f824a-0bae-46de-b416-7eaa2476984d", "keys": ["1535b04d-2d64-4c12-96e7-c8d8e91243a2"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-901-WIC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it most logically completes the text\u0026rsquo;s discussion of Booker T. Whatley. In this context, \u0026ldquo;hinder\u0026rdquo; means hold back or obstruct. The text explains that Whatley encouraged farms to allow customers on site to pick their own produce for a fee. He did so despite critics\u0026rsquo; concerns that the customers would never pay to do so. This context establishes that the critics\u0026rsquo; concerns didn\u0026rsquo;t hinder Whatley\u0026rsquo;s efforts to promote the practice. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The text indicates that critics\u0026rsquo; skepticism of the idea that customers would pay to pick their own produce didn\u0026rsquo;t have some effect on Whatley\u0026rsquo;s promotion of the practice. The text illustrates this assertion by describing Whatley\u0026rsquo;s \u0026ldquo;determined advocacy\u0026rdquo; for the practice. This context suggests that critics\u0026rsquo; concerns didn\u0026rsquo;t obstruct Whatley\u0026rsquo;s efforts, not that critics\u0026rsquo; concerns didn\u0026rsquo;t \u0026ldquo;enhance,\u0026rdquo; or increase or improve, Whatley\u0026rsquo;s efforts.\u0026nbsp;Choice C is incorrect because in this context, \u0026ldquo;misrepresent\u0026rdquo; would mean portray inaccurately, and the text includes no information relevant to the issue of how Whatley\u0026rsquo;s efforts were portrayed by critics of the practice of charging customers to pick their own produce. Choice D is incorrect. The text indicates that critics\u0026rsquo; skepticism of the idea that customers would pay to pick their own produce didn\u0026rsquo;t have some effect on Whatley\u0026rsquo;s promotion of the practice. The text illustrates this assertion by describing Whatley\u0026rsquo;s \u0026ldquo;determined advocacy\u0026rdquo; for the practice. This context suggests that critics\u0026rsquo; concerns didn\u0026rsquo;t obstruct Whatley\u0026rsquo;s efforts, not that critics\u0026rsquo; concerns didn\u0026rsquo;t \u0026ldquo;aggravate,\u0026rdquo; or irritate or make more severe, Whatley\u0026rsquo;s efforts. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eAlthough critics believed that customers would never agree to pay to pick their own produce on farms, such concerns didn\u0026rsquo;t \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e Booker T. Whatley\u0026rsquo;s efforts to promote the practice. Thanks in part to Whatley\u0026rsquo;s determined advocacy, farms that allow visitors to pick their own apples, pumpkins, and other produce can be found throughout the United States.\u003c/p\u003e", "templateclusterid": "675d63a7-4faa-4b22-a755-214788ee167b", "templateclustername": "", "type": "mcq", "vaultid": "04c299d0-80ab-4b38-b62f-fd5b6cb9f3e2"}, "createDate": 1691007959354, "difficulty": "E", "external_id": "ab4f824a-0bae-46de-b416-7eaa2476984d", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "479c7e82", "score_band_range_cd": 3, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "7a55e35d-d8ae-488b-9bcc-08cdf7b74f33", "updateDate": 1691007959354};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-479c7e82");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

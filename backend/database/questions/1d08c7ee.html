@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 1d08c7ee</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Pulitzer Prize&ndash;winning writer H&eacute;ctor Tobar has built a multifaceted career as both a journalist and an author of short stories and novels. In an essay about Tobar&rsquo;s work, a student claims that Tobar blends his areas of expertise by applying journalism techniques to his creation of works of fiction.</p></div>
+
+                        <div class="mt-3"><p>Which quotation from a literary critic best supports the student&rsquo;s claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;For one novel, an imagined account of a real person&rsquo;s global travels, Tobar approached his subject like a reporter, interviewing people the man had met along the way and researching the man&rsquo;s own writings.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Tobar got his start as a volunteer for <em>El Tecolote</em>, a community newspaper in San Francisco, and wrote for newspapers for years before earning a degree in creative writing and starting to publish works of fiction.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Many of Tobar&rsquo;s notable nonfiction articles are marked by the writer&rsquo;s use of techniques usually associated with fiction, such as complex narrative structures and the incorporation of symbolism.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;The protagonist of Tobar&rsquo;s third novel is a man who wants to be a novelist and keeps notes about interesting people he encounters so he can use them when developing characters for his stories.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The example of Tobar approaching his subject &ldquo;like a reporter,&rdquo; including conducting &ldquo;interviews&rdquo; and &ldquo;research,&rdquo; shows Tobar applying journalism techniques to his fiction-writing. </p><p>Choice B is incorrect. This choice doesn&rsquo;t support the claim. It tells us about Tobar&rsquo;s initial career as a journalist, but it doesn&rsquo;t say anything about him &ldquo;applying journalism techniques&rdquo; to his fiction-writing. Choice C is incorrect. This choice doesn&rsquo;t support the claim. It tells us that Tobar applied fiction techniques to his nonfiction writing, but we&rsquo;re looking for evidence of the other way around: that Tobar applied journalism techniques to his fiction-writing. Choice D is incorrect. This choice doesn&rsquo;t support the claim. It tells us that a character in one of Tobar&rsquo;s novels applied a journalism technique to his fiction-writing, but it doesn&rsquo;t tell us that Tobar did that himself. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">196 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;For one novel, an imagined account of a real person\u0026rsquo;s global travels, Tobar approached his subject like a reporter, interviewing people the man had met along the way and researching the man\u0026rsquo;s own writings.\u0026rdquo;\u003c/p\u003e", "id": "10dc567c-9511-43bf-b88e-305c1993a62f"}, {"content": "\u003cp\u003e\u0026ldquo;Tobar got his start as a volunteer for \u003cem\u003eEl Tecolote\u003c/em\u003e, a community newspaper in San Francisco, and wrote for newspapers for years before earning a degree in creative writing and starting to publish works of fiction.\u0026rdquo;\u003c/p\u003e", "id": "7ffb7911-f427-4c37-8175-7c0a15313054"}, {"content": "\u003cp\u003e\u0026ldquo;Many of Tobar\u0026rsquo;s notable nonfiction articles are marked by the writer\u0026rsquo;s use of techniques usually associated with fiction, such as complex narrative structures and the incorporation of symbolism.\u0026rdquo;\u003c/p\u003e", "id": "2a5cea7f-3999-429a-815b-8673975b0c19"}, {"content": "\u003cp\u003e\u0026ldquo;The protagonist of Tobar\u0026rsquo;s third novel is a man who wants to be a novelist and keeps notes about interesting people he encounters so he can use them when developing characters for his stories.\u0026rdquo;\u003c/p\u003e", "id": "db85d842-6dbc-442c-8fcb-4005dde5548e"}], "correct_answer": ["A"], "externalid": "b8e4991e-0fc5-4cb7-874e-6f04e764e8c9", "keys": ["10dc567c-9511-43bf-b88e-305c1993a62f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TXT-M002", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The example of Tobar approaching his subject \u0026ldquo;like a reporter,\u0026rdquo; including conducting \u0026ldquo;interviews\u0026rdquo; and \u0026ldquo;research,\u0026rdquo; shows Tobar applying journalism techniques to his fiction-writing. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. This choice doesn\u0026rsquo;t support the claim. It tells us about Tobar\u0026rsquo;s initial career as a journalist, but it doesn\u0026rsquo;t say anything about him \u0026ldquo;applying journalism techniques\u0026rdquo; to his fiction-writing. Choice C is incorrect. This choice doesn\u0026rsquo;t support the claim. It tells us that Tobar applied fiction techniques to his nonfiction writing, but we\u0026rsquo;re looking for evidence of the other way around: that Tobar applied journalism techniques to his fiction-writing. Choice D is incorrect. This choice doesn\u0026rsquo;t support the claim. It tells us that a character in one of Tobar\u0026rsquo;s novels applied a journalism technique to his fiction-writing, but it doesn\u0026rsquo;t tell us that Tobar did that himself. \u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from a literary critic best supports the student\u0026rsquo;s claim?\u003c/p\u003e", "stimulus": "\u003cp\u003ePulitzer Prize\u0026ndash;winning writer H\u0026eacute;ctor Tobar has built a multifaceted career as both a journalist and an author of short stories and novels. In an essay about Tobar\u0026rsquo;s work, a student claims that Tobar blends his areas of expertise by applying journalism techniques to his creation of works of fiction.\u003c/p\u003e", "templateclusterid": "3b71dae0-5dcd-4d93-86ab-66996a97c35a", "templateclustername": "", "type": "mcq", "vaultid": "67d5afef-da4f-4b21-ba26-a5ba9d31a8b9"}, "createDate": 1691007959377, "difficulty": "M", "external_id": "b8e4991e-0fc5-4cb7-874e-6f04e764e8c9", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "1d08c7ee", "score_band_range_cd": 4, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "a035ffe3-5549-4b06-bec9-93b99024b61a", "updateDate": 1691007959377};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-1d08c7ee");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

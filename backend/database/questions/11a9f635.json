@@ -1,0 +1,22 @@
+{
+  "question_id": "11a9f635",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Paleontologists searching for signs of ancient life have found many fossilized specimens of prehistoric human ancestors, including several from the Pleistocene era discovered in a geological formation in the Minatogawa quarry in Japan. However, to study the emergence of the earliest multicellular organisms to appear on Earth, researchers must turn elsewhere, such as to the Ediacaran geological formation at Mistaken Point in Canada. A UNESCO World Heritage Site, the 146-hectare reserve contains more than 10,000 fossils that together document a critical moment in evolutionary history.",
+  "question_text": "What does the text indicate about the geological formation at Mistaken Point?&nbsp;",
+  "answer_options": [
+    "It holds a greater number of fossils but from a smaller variety of species than the formation in the Minatogawa quarry does.",
+    "It has provided evidence that the earliest human species may have emerged before the Pleistocene era.",
+    "It is widely considered by paleontologists to be the most valuable source of information about prehistoric life forms.",
+    "It contains specimens from an older time period than those found in the formation in the Minatogawa quarry."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text says that the formation at Mistaken Point contains fossils of \"the earliest multicellular organisms,\" which implies that these fossils are from an older time period than the fossils of \"prehistoric human ancestors\" found in the Minatogawa quarry.",
+    "A": "Choice A is incorrect. The text says that the formation at Mistake Point contains \"more than 10,000 fossils,\" but it doesn't compare this number to the number of fossils in the Minatogawa quarry. It also doesn't say anything about the variety of species in either formation.",
+    "B": "Choice B is incorrect. The text says that the formation at Mistaken Point contains fossils of \"the earliest multicellular organisms,\" but it never says that the site contains early human fossils too. Rather, the early human fossils mentioned in the text were found in the formation at Minatogawa quarry.",
+    "C": "Choice C is incorrect. The text says that the fossils at Mistaken Point \"document a critical moment in evolutionary history,\" but it never says that Mistaken Point is the most valuable source of information about prehistoric life forms."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "02fd3da7",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Text 1 Public policy researcher Anthony Fowler studied the history of elections in Australia, a country that requires citizens to vote. Fowler argues that requiring citizens to vote leads to a significant increase in voters who would otherwise not have the time or motivation to vote. Thus, election results in countries that require citizens to vote better reflect the preferences of the country as a whole. Text 2 Governments in democratic countries function better when more people vote. However, forcing people to vote may have negative consequences. Shane P. Singh and Jason Roy studied what happens when a country requires its citizens to vote. They found that when people feel forced to vote, they tend to spend less time looking for information about their choices when voting. As a result, votes from these voters may not reflect their actual preferences.",
+  "question_text": "Based on the texts, how would Singh and Roy (Text 2) most likely respond to the research discussed in Text 1?",
+  "answer_options": [
+    "Only countries of a certain population size should implement mandatory voting.",
+    "People who are forced to vote are likely to become politically engaged in other ways, such as volunteering or running for office.",
+    "Requiring people to vote does not necessarily lead to election outcomes that better represent the preferences of the country as a whole.",
+    "Countries that require voting must also make the process of voting easier for their citizens."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. Text 1 claims that mandatory voting results in elections that \"better reflect the preferences of the country.\" Singh and Roy disagree. They claim that more voters doesn't equal more quality votes—instead, they argue that forced voting may lead to less-informed votes that \"may not reflect [voters'] actual preferences.\"",
+    "A": "Choice A is incorrect. Neither text mentions the population size of countries that require voting, or how that might affect election outcomes.",
+    "B": "Choice B is incorrect. Neither text discusses the effects of mandatory voting on other forms of political engagement.",
+    "D": "Choice D is incorrect. Neither text discusses the ease or difficulty of the voting process in countries that require voting."
+  }
+}

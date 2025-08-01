@@ -1,0 +1,22 @@
+{
+  "question_id": "485962a6",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Astronomers investigated the Arabia Terra region of Mars because it appears to contain irregularly shaped craters that may have been caused by massive volcanic explosions. In their investigations of Arabia Terra, the researchers found remnants of ash deposits in an amount and thickness that would result from a massive volcanic eruption. However, erosion and past resurfacing events could have modified the surface of the planet. Therefore, ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "the current makeup of the Arabia Terra region might not accurately reflect the volcanic activity of Mars&rsquo;s past.",
+    "eruptions from Mars&rsquo;s volcanoes were likely not as massive as astronomers previously believed.",
+    "ash was most likely expelled from multiple different volcanoes on Mars&rsquo;s surface.",
+    "the craters found in the Arabia Terra region were necessarily created by events other than volcanic eruptions."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it presents the conclusion that most logically follows from the text's discussion of the Arabia Terra region of Mars. According to the text, there are craters in Arabia Terra that could be the result of volcanic activity, and researchers have found evidence of ash deposits consistent with a large eruption. The text goes on to note, however, that erosion and other events could have altered the surface of Mars. This observation suggests that current conditions on Mars's surface are not necessarily a reliable guide to past events—some signs of past events could have been transformed or erased entirely—and thus the current makeup of Arabia Terra may not accurately reflect past volcanic activity.",
+    "B": "Choice B is incorrect because the text suggests only that past events could have changed Mars's surface such that its current appearance isn't a reliable guide to past activity, not that it's likely that past eruptions were not as massive as astronomers previously believed. Nothing in the text supports a conclusion about the likely size of past eruptions.",
+    "C": "Choice C is incorrect because the observation that resurfacing events could have changed the appearance of Mars doesn't imply that the ash discussed in the text likely came from multiple volcanoes. Although it's possible that the ash came from different volcanoes, there's no information in the text supporting a conclusion about how likely that possibility is.",
+    "D": "Choice D is incorrect because nothing in the text suggests that the Arabia Terra craters had to have been created by something other than volcanic eruptions. Although the text does suggest that the evidence consistent with volcanic eruptions shouldn't be taken as definitive proof of past eruptions, that doesn't mean that the craters couldn't have been created by eruptions, only that we can't be certain they were."
+  }
+}

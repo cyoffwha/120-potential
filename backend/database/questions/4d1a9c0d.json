@@ -1,0 +1,22 @@
+{
+  "question_id": "4d1a9c0d",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Following the principles of community-based participatory research, tribal nations and research institutions are equal partners in health studies conducted on reservations. A collaboration between the Crow Tribe and Montana State University &shy;&shy;&shy;&shy; ______ blank this model: tribal citizens worked alongside scientists to design the methodology and continue to assist in data collection.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "circumvents",
+    "eclipses",
+    "fabricates",
+    "exemplifies"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of the collaboration between the Crow Tribe and Montana State University. As used in this context, \"exemplifies\" means demonstrates. The text conveys how the Crow Tribe&ndash;Montana State University collaboration serves to illustrate the model of community-based participatory research introduced earlier in the text and expanded on later in the text.",
+    "A": "Choice A is incorrect because referring to \"circumvents,\" or avoids, wouldn't make sense in context. The text suggests that the Crow Tribe&ndash;Montana State University collaboration serves as an example of the principles of community-based participatory research, not that the collaboration evades this model.",
+    "B": "Choice B is incorrect because referring to \"eclipses,\" or overshadows, wouldn't make sense in context. The text describes the Crow Tribe&ndash;Montana State University collaboration as an equal partnership, which indicates that it's an example of the community-based participatory research model, not that it overshadows the model.",
+    "C": "Choice C is incorrect because saying that the collaboration \"fabricates,\" or creates, the model wouldn't make sense in context. The text indicates that the Crow Tribe&ndash;Montana State University collaboration serves as an example of the model, not that it created the model."
+  }
+}

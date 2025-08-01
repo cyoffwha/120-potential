@@ -1,0 +1,22 @@
+{
+  "question_id": "350e2336",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The Haitian Declaration of Independence was issued in 1804, bringing to an end the revolution against colonial France that began in 1791. Written in French, which was not the first language of most Haitians but which was used throughout Europe as the language of international diplomacy, the declaration notes that Haiti will not bring rebellion to other Caribbean nations, promises to respect the sovereignty of its neighbors—widely understood as a reassurance to the United States—and sets up Haiti as an example for future struggles against colonizers (an implicit reference to the many colonies then found in the Americas). So even though the declaration is explicitly addressed to the Haitian people, it's reasonable to conclude that ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "aspects of the declaration were modeled on similar documents from other countries.",
+    "the French government may have been surprised by the declaration.",
+    "many Haitian people opposed the revolution and the declaration.",
+    "the declaration actually had several intended audiences."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The passage tells us that the declaration was written in a language important to European diplomacy but not most Haitians, states that the declaration included \"a reassurance to the United States,\" and made implicit references to colonies in the Americas. Because of the messages within the declaration that were largely irrelevant to the Haitian people, we can assume that the Haitian people were not the only audience for this document.",
+    "A": "Choice A is incorrect. There's no mention in the passage of similar documents in other countries, so there's no basis for this inference.",
+    "B": "Choice B is incorrect. Although there's an implicit reference to European governments when the passage discusses how the declaration was written in French, \"which was used throughout Europe as the language of international diplomacy,\" there is no discussion of the French government's response to the declaration. Therefore, there's no basis for this inference.",
+    "C": "Choice C is incorrect. The passage doesn't mention the popularity of the revolution and declaration among the Haitian people, so there's no basis for this inference."
+  }
+}

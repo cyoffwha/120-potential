@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 39ccb463</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>The <em>Atlantic Monthly</em> magazine was first published in 1857.</li>
+<li>The magazine focused on politics, art, and literature.</li>
+<li>In 2019, historian Cathryn Halverson published the book <em>Faraway Women and the &ldquo;Atlantic Monthly.&rdquo;</em></li>
+<li>Its subject is female authors whose autobiographies appeared in the magazine in the early 1900s.</li>
+<li>One of the authors discussed is Juanita Harrison.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to introduce Cathryn Halverson&rsquo;s book to an audience already familiar with the <em>Atlantic Monthly</em>. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Cathryn Halverson&rsquo;s <em>Faraway Women and the &ldquo;Atlantic</em> <em>Monthly&rdquo;</em>&nbsp; discusses female authors whose autobiographies appeared in the magazine<em> </em>in the early 1900s.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>A magazine called the <em>Atlantic Monthly</em>, referred to in Cathryn Halverson&rsquo;s book title, was first published in 1857.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p><em>Faraway Women and the &ldquo;Atlantic Monthly&rdquo;</em>&nbsp; features contributors to the <em>Atlantic Monthly</em>, first published in 1857 as a magazine focusing on politics, art, and literature.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>An author discussed by Cathryn Halverson is Juanita Harrison, whose autobiography appeared in the <em>Atlantic Monthly</em> in the early 1900s.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The sentence effectively introduces Cathryn Halverson&rsquo;s book to an audience already familiar with the <em>Atlantic Monthly</em>, noting the title of Halverson&rsquo;s book and describing its content without providing background information about the <em>Atlantic Monthly</em>. </p><p>Choice B is incorrect. The sentence introduces the <em>Atlantic Monthly</em> and mentions that it&rsquo;s referred to in Cathryn Halverson&rsquo;s book title; it doesn&rsquo;t effectively introduce Halverson&rsquo;s book. Choice C is incorrect. The sentence assumes that the audience is unfamiliar with the <em>Atlantic Monthly</em>, providing background information about the magazine; it doesn&rsquo;t effectively introduce Halverson&rsquo;s book to an audience already familiar with the <em>Atlantic Monthly</em>. Choice D is incorrect. While the sentence assumes that the audience is familiar with the <em>Atlantic Monthly</em>, it doesn&rsquo;t effectively introduce Cathryn Halverson&rsquo;s book. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">542 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eCathryn Halverson\u0026rsquo;s \u003cem\u003eFaraway Women and the \u0026ldquo;Atlantic\u003c/em\u003e \u003cem\u003eMonthly\u0026rdquo;\u003c/em\u003e\u0026nbsp; discusses female authors whose autobiographies appeared in the magazine\u003cem\u003e \u003c/em\u003ein the early 1900s.\u003c/p\u003e", "id": "ba968417-37c6-4b49-9e93-dcfb4b18972c"}, {"content": "\u003cp\u003eA magazine called the \u003cem\u003eAtlantic Monthly\u003c/em\u003e, referred to in Cathryn Halverson\u0026rsquo;s book title, was first published in 1857.\u003c/p\u003e", "id": "c11cabbc-c0bb-4fdd-9bda-42b278e8efca"}, {"content": "\u003cp\u003e\u003cem\u003eFaraway Women and the \u0026ldquo;Atlantic Monthly\u0026rdquo;\u003c/em\u003e\u0026nbsp; features contributors to the \u003cem\u003eAtlantic Monthly\u003c/em\u003e, first published in 1857 as a magazine focusing on politics, art, and literature.\u0026nbsp;\u003c/p\u003e", "id": "a6695452-9a79-426d-9970-35d811e3b1c3"}, {"content": "\u003cp\u003eAn author discussed by Cathryn Halverson is Juanita Harrison, whose autobiography appeared in the \u003cem\u003eAtlantic Monthly\u003c/em\u003e in the early 1900s.\u003c/p\u003e", "id": "5e0a6916-2bf4-4b1c-8509-a93b6f458569"}], "correct_answer": ["A"], "externalid": "2a121475-3531-4130-9a6f-9b4b2ac0cc54", "keys": ["ba968417-37c6-4b49-9e93-dcfb4b18972c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-766-SYN", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The sentence effectively introduces Cathryn Halverson\u0026rsquo;s book to an audience already familiar with the \u003cem\u003eAtlantic Monthly\u003c/em\u003e, noting the title of Halverson\u0026rsquo;s book and describing its content without providing background information about the \u003cem\u003eAtlantic Monthly\u003c/em\u003e. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. The sentence introduces the \u003cem\u003eAtlantic Monthly\u003c/em\u003e and mentions that it\u0026rsquo;s referred to in Cathryn Halverson\u0026rsquo;s book title; it doesn\u0026rsquo;t effectively introduce Halverson\u0026rsquo;s book. Choice C is incorrect. The sentence assumes that the audience is unfamiliar with the \u003cem\u003eAtlantic Monthly\u003c/em\u003e, providing background information about the magazine; it doesn\u0026rsquo;t effectively introduce Halverson\u0026rsquo;s book to an audience already familiar with the \u003cem\u003eAtlantic Monthly\u003c/em\u003e. Choice D is incorrect. While the sentence assumes that the audience is familiar with the \u003cem\u003eAtlantic Monthly\u003c/em\u003e, it doesn\u0026rsquo;t effectively introduce Cathryn Halverson\u0026rsquo;s book. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to introduce Cathryn Halverson\u0026rsquo;s book to an audience already familiar with the \u003cem\u003eAtlantic Monthly\u003c/em\u003e. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eThe \u003cem\u003eAtlantic Monthly\u003c/em\u003e magazine was first published in 1857.\u003c/li\u003e\n\u003cli\u003eThe magazine focused on politics, art, and literature.\u003c/li\u003e\n\u003cli\u003eIn 2019, historian Cathryn Halverson published the book \u003cem\u003eFaraway Women and the \u0026ldquo;Atlantic Monthly.\u0026rdquo;\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003eIts subject is female authors whose autobiographies appeared in the magazine in the early 1900s.\u003c/li\u003e\n\u003cli\u003eOne of the authors discussed is Juanita Harrison.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "be723af8-c945-464e-b8b7-90353f02eaa6", "templateclustername": "", "type": "mcq", "vaultid": "b75282c1-91be-4a1e-8b40-8f1af9805a8e"}, "createDate": 1691007959351, "difficulty": "H", "external_id": "2a121475-3531-4130-9a6f-9b4b2ac0cc54", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "39ccb463", "score_band_range_cd": 6, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "06affb0d-2471-47de-83b4-660d0ef79e8e", "updateDate": 1691007959351};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-39ccb463");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

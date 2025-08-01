@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 56f477fb</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Distribution of Ecosystem Services Affected by Invasive Species by Service Type</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Region (Overall)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Provisioning (75%)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Regulating (21%)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Cultural (4%)</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">West</th><td style="text-align: center;">73%</td><td style="text-align: center;">27%</td><td style="text-align: center;">0%</td></tr><tr><th scope="row" style="text-align: left;">North</th><td style="text-align: center;">88%</td><td style="text-align: center;">12%</td><td style="text-align: center;">0%</td></tr><tr><th scope="row" style="text-align: left;">South</th><td style="text-align: center;">79%</td><td style="text-align: center;">14%</td><td style="text-align: center;">7%</td></tr><tr><th scope="row" style="text-align: left;">East</th><td style="text-align: center;">83%</td><td style="text-align: center;">6%</td><td style="text-align: center;">11%</td></tr><tr><th scope="row" style="text-align: left;">Central</th><td style="text-align: center;">33%</td><td style="text-align: center;">67%</td><td style="text-align: center;">0%</td></tr></tbody></table></figure></p>
+<p>To assess the impact of invasive species on ecosystems in Africa, Benis N. Egoh and colleagues reviewed government reports from those nations about how invasive species are undermining ecosystem services (aspects of the ecosystem on which residents depend). The services were sorted into three categories: provisioning (material resources from the ecosystem), regulating (natural processes such as cleaning the air or water), and cultural (nonmaterial benefits of ecosystems). Egoh and her team assert that countries in each region reported effects on provisioning services and that provisioning services represent the majority of the reported services.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes data from the table that support Egoh and colleagues&rsquo; assertion?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Provisioning services represent 73% of the services reported for the West region and 33% of those for the Central region, but they represent 75% of the services reported overall.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>None of the percentages shown for provisioning services are lower than 33%, and the overall percentage shown for provisioning services is 75%.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Provisioning services are shown for each region, while no cultural services are shown for some regions.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The greatest percentage shown for provisioning services is 88% for the North region, and the least shown for provisioning services is 33% for the Central region.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The finding that all the regions reported at least some effects on provisioning services supports the first part of the assertion. And the fact that provisioning services comprise 75% of the reported services overall supports the second part of the assertion. </p><p>Choice A is incorrect. This choice doesn&rsquo;t fully support the assertion. It doesn&rsquo;t include the finding that all the regions (not just Central and West) reported at least some effects on provisioning services. Choice C is incorrect. This choice doesn&rsquo;t fully support the assertion. It doesn&rsquo;t demonstrate that provisioning services represent the majority of the reported services overall. Choice D is incorrect. This choice doesn&rsquo;t fully support the assertion. It doesn&rsquo;t demonstrate that provisioning services represent the majority of the reported services overall. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">273 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eProvisioning services represent 73% of the services reported for the West region and 33% of those for the Central region, but they represent 75% of the services reported overall.\u003c/p\u003e", "id": "85c91c72-f164-4840-a326-b6624cf09046"}, {"content": "\u003cp\u003eNone of the percentages shown for provisioning services are lower than 33%, and the overall percentage shown for provisioning services is 75%.\u003c/p\u003e", "id": "5c9d1d40-8a31-4cbe-98ce-6ad966e39b92"}, {"content": "\u003cp\u003eProvisioning services are shown for each region, while no cultural services are shown for some regions.\u003c/p\u003e", "id": "45869694-5fb3-45a7-85c9-1a0e96909c4f"}, {"content": "\u003cp\u003eThe greatest percentage shown for provisioning services is 88% for the North region, and the least shown for provisioning services is 33% for the Central region.\u003c/p\u003e", "id": "c2f7e6f1-7080-4489-892d-0d1e8ab386d5"}], "correct_answer": ["B"], "externalid": "483cec0f-fa36-49b0-b170-d9f66685471a", "keys": ["5c9d1d40-8a31-4cbe-98ce-6ad966e39b92"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-H004", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The finding that all the regions reported at least some effects on provisioning services supports the first part of the assertion. And the fact that provisioning services comprise 75% of the reported services overall supports the second part of the assertion. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice doesn\u0026rsquo;t fully support the assertion. It doesn\u0026rsquo;t include the finding that all the regions (not just Central and West) reported at least some effects on provisioning services. Choice C is incorrect. This choice doesn\u0026rsquo;t fully support the assertion. It doesn\u0026rsquo;t demonstrate that provisioning services represent the majority of the reported services overall. Choice D is incorrect. This choice doesn\u0026rsquo;t fully support the assertion. It doesn\u0026rsquo;t demonstrate that provisioning services represent the majority of the reported services overall. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes data from the table that support Egoh and colleagues\u0026rsquo; assertion?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eDistribution of Ecosystem Services Affected by Invasive Species by Service Type\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eRegion (Overall)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eProvisioning (75%)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eRegulating (21%)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eCultural (4%)\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eWest\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e73%\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e27%\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0%\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eNorth\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e88%\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e12%\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0%\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eSouth\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e79%\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e14%\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e7%\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eEast\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e83%\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e6%\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e11%\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eCentral\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e33%\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e67%\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0%\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eTo assess the impact of invasive species on ecosystems in Africa, Benis N. Egoh and colleagues reviewed government reports from those nations about how invasive species are undermining ecosystem services (aspects of the ecosystem on which residents depend). The services were sorted into three categories: provisioning (material resources from the ecosystem), regulating (natural processes such as cleaning the air or water), and cultural (nonmaterial benefits of ecosystems). Egoh and her team assert that countries in each region reported effects on provisioning services and that provisioning services represent the majority of the reported services.\u003c/p\u003e", "templateclusterid": "4ddcd146-8148-4af3-81ca-9270d47a401a", "templateclustername": "", "type": "mcq", "vaultid": "90c21773-5206-4161-8d4e-9b179d11157d"}, "createDate": 1691007959369, "difficulty": "H", "external_id": "483cec0f-fa36-49b0-b170-d9f66685471a", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "56f477fb", "score_band_range_cd": 7, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "ec3d9b99-66cc-495e-bb2e-3afe49def0ff", "updateDate": 1691007959369};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-56f477fb");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

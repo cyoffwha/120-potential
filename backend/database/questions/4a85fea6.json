@@ -1,0 +1,22 @@
+{
+  "question_id": "4a85fea6",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Euphorbia esula (leafy spurge) is a Eurasian plant that has become invasive in North America, where it displaces native vegetation and sickens cattle. E. esula can be controlled with chemical herbicides, but that approach can also kill harmless plants nearby. Recent research on introducing engineered DNA into plant species to inhibit their reproduction may offer a path toward exclusively targeting E. esula , consequently ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "making individual  E. esula  plants more susceptible to existing chemical herbicides.",
+    "enhancing the ecological benefits of  E. esula  in North America.",
+    "enabling cattle to consume  E. esula&nbsp; without becoming sick.",
+    "reducing invasive  E. esula  numbers without harming other organisms."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it presents the conclusion that most logically follows from the text's discussion of leafy spurge and engineered DNA. The text establishes that using chemical herbicides to control leafy spurge in North America can also harm other plants nearby. The text then indicates that it might be possible to use engineered DNA to prevent plants from reproducing, which would be useful for \"exclusively targeting\" leafy spurge. If it's possible to exclusively target leafy spurge with engineered DNA—meaning that only leafy spurge is affected by the engineered DNA—and prevent the plant from reproducing, then leafy spurge numbers could be reduced \"without harming other organisms.\"",
+    "A": "Choice A is incorrect because the text raises the possibility of using engineered DNA to prevent leafy spurge from reproducing, not to make individual leafy spurge plants more vulnerable to chemical herbicides that already exist.",
+    "B": "Choice B is incorrect because the text doesn't describe any ecological benefits of leafy spurge in North America; instead, the text is focused on using engineered DNA to prevent leafy spurge from reproducing and thereby reduce its numbers. The only ecological effects of leafy spurge in North America that are described in the text are harmful.",
+    "C": "Choice C is incorrect because the text describes the possibility of using engineered DNA to prevent leafy spurge from reproducing; it doesn't offer a way to enable cattle to eat leafy spurge without becoming sick."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "39d1a519",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "To discover which fruit varieties were grown in Italy's Umbria region before the introduction of industrial farming, botanist Isabella Dalla Ragione often turns to centuries-old lists of cooking ingredients. ______ blank she analyzes Renaissance paintings of Umbria, as they can provide accurate representations of fruits that were grown there long ago.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "In sum,",
+    "Instead,",
+    "Thus,",
+    "Additionally,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"Additionally\" logically signals that the painting analysis discussed in this sentence is an additional part of the botany research discussed in the previous sentence. That is, to research which fruits Umbrians grew in the past, the botanist analyzes old paintings in addition to looking at old lists of ingredients.",
+    "A": "Choice A is incorrect because \"in sum\" illogically signals that the painting analysis discussed in this sentence is a concluding summary of the botany research discussed in the previous sentence. Instead, the painting analysis is an additional part of that research.",
+    "B": "Choice B is incorrect because \"instead\" illogically signals that the painting analysis discussed in this sentence is an alternative to the botany research discussed in the previous sentence. Rather, the painting analysis is an additional part of that research.",
+    "C": "Choice C is incorrect because \"thus\" illogically signals that the painting analysis discussed in this sentence is a result of the botany research discussed in the previous sentence. Instead, the painting analysis is an additional part of that research."
+  }
+}

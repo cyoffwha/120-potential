@@ -1,0 +1,22 @@
+{
+  "question_id": "04bcb7a9",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Xin Wang and colleagues have discovered the earliest known example of a flower bud in a 164-million-year-old plant fossil in China. The researchers have named the new species Florigerminis jurassica. They believe that the discovery pushes the emergence of flowering plants, or angiosperms, back to the Jurassic period, which occurred between 145 million and 201 million years ago.",
+  "question_text": "According to the text, how old was the fossil that Wang and colleagues discovered?",
+  "answer_options": [
+    "150 million years old",
+    "145 million years old",
+    "164 million years old",
+    "201 million years old"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it gives the age for the fossil discovered by Wang and colleagues that is directly supported by the text. According to the text, Xin Wang and colleagues discovered a 164-million-year-old plant fossil. This plant fossil included a flower bud, which the researchers believe provides evidence that flowering plants emerged in the Jurassic period, which falls between 145 million and 201 million years ago.",
+    "A": "Choice A is incorrect because the text states that Wang and colleagues discovered a 164-million-year-old flowering plant fossil in China, not one that is 150 million years old. Although 150 million years ago would fall within the Jurassic period, according to the text it isn't the age of the discovered fossil.",
+    "B": "Choice B is incorrect because the text states that Wang and colleagues discovered a 164-million-year-old flowering plant fossil in China, not one that is 145 million years old. Although 145 million years ago would fall at the end of the Jurassic period, according to the text it isn't the age of the discovered fossil.",
+    "D": "Choice D is incorrect because the text states that Wang and colleagues discovered a 164-million-year-old flowering plant fossil in China, not one that is 201 million years old. Although 201 million years ago would fall at the beginning of the Jurassic period, according to the text it isn't the age of the discovered fossil."
+  }
+}

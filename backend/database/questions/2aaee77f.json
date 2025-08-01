@@ -1,0 +1,22 @@
+{
+  "question_id": "2aaee77f",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Some bird species don't raise their own chicks. Instead, adult females lay their eggs in other nests, next to another bird species' own eggs. Female cuckoos have been seen quickly laying eggs in the nests of other bird species when those birds are out looking for food. After the eggs hatch, the noncuckoo parents will typically raise the cuckoo chicks as if they were their own offspring, even if the cuckoos look very different from the other chicks.",
+  "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "answer_options": [
+    "It introduces a physical feature of female cuckoos that is described later in the text.",
+    "It describes the appearance of the cuckoo nests mentioned earlier in the text.",
+    "It offers a detail about how female cuckoos carry out the behavior discussed in the text.",
+    "It explains how other birds react to the female cuckoo behavior discussed in the text."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first two sentences establish that birds of some species don't raise their own young; instead, they lay their eggs in the nests of birds of other species. The underlined sentence then states that female cuckoo birds engage in this behavior, having been observed specifically laying their eggs in other nests while the other birds are out finding food. According to the text, the cuckoo chicks are then raised by the other birds. Thus, the underlined sentence provides a particular detail about how female cuckoos carry out the behavior of laying eggs for other birds to raise.",
+    "A": "Choice A is incorrect. Rather than mentioning a physical feature of female cuckoos, the underlined sentence introduces a specific behavior of female cuckoos: laying eggs in the nests of birds of other species when the other birds are away. The only reference to physical features is the last sentence's general mention of cuckoo chicks looking different from chicks of other species.",
+    "B": "Choice B is incorrect because the underlined sentence refers to the nests of birds other than cuckoos and doesn't describe how any nests look, cuckoo or otherwise. Instead, the sentence addresses how female cuckoos use other birds' nests.",
+    "D": "Choice D is incorrect because the underlined sentence describes only female cuckoo behavior (laying eggs in the nests of birds of other species when the other birds are away); it's the last sentence of the text that addresses the other birds' reaction, indicating that those birds usually raise the cuckoo chicks once they've hatched."
+  }
+}

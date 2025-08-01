@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 2c4cd76d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Researchers studying magnetosensation have determined why some soil-dwelling roundworms in the Southern Hemisphere move in the opposite direction of Earth&rsquo;s magnetic field when searching for <span aria-hidden="true">______</span><span class="sr-only">blank</span> in the Northern Hemisphere, the magnetic field points down, into the ground, but in the Southern Hemisphere, it points up, toward the surface and away from worms&rsquo; food sources.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>food:</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>food,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>food while</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>food</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The convention being tested is colon use within a sentence. A colon used in this way introduces information that illustrates or explains information that has come before it. In this case, the colon introduces the following explanation of why some roundworms in the Southern Hemisphere move in the opposite direction of Earth&rsquo;s magnetic field. </p><p>Choice B is incorrect because&nbsp;it results in a comma splice. A comma can&rsquo;t be used in this way to join two long independent clauses (&ldquo;Researchers&hellip;food&rdquo; and &ldquo;in&hellip;sources&rdquo;) such as these. Choice C is incorrect because it results in a run-on sentence. The two clauses (&ldquo;Researchers&hellip;food&rdquo; and &ldquo;in&hellip;sources&rdquo;) are fused without punctuation. Furthermore, the conjunction &ldquo;while&rdquo; fails to indicate that what follows is an explanation of why some roundworms in the Southern Hemisphere move in the opposite direction of Earth&rsquo;s magnetic field. Choice D is incorrect because&nbsp;it results in a run-on sentence. The two clauses (&ldquo;Researchers&hellip;food&rdquo; and &ldquo;in&hellip;sources&rdquo;) are fused without punctuation and/or a conjunction. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">933 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003efood:\u003c/p\u003e", "id": "f17728c8-e71d-4fb1-9203-da54b637ad60"}, {"content": "\u003cp\u003efood,\u003c/p\u003e", "id": "728aac21-91cc-4258-9cf1-c2cd79373671"}, {"content": "\u003cp\u003efood while\u003c/p\u003e", "id": "ad164911-8187-4ff1-9fab-7680463b5bf7"}, {"content": "\u003cp\u003efood\u003c/p\u003e", "id": "e57ace50-06d4-48d3-98a8-bcf4b03cf89e"}], "correct_answer": ["A"], "externalid": "ff4421fe-618a-4297-8a59-b8563e9330ce", "keys": ["f17728c8-e71d-4fb1-9203-da54b637ad60"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-681-SEC", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The convention being tested is colon use within a sentence. A colon used in this way introduces information that illustrates or explains information that has come before it. In this case, the colon introduces the following explanation of why some roundworms in the Southern Hemisphere move in the opposite direction of Earth\u0026rsquo;s magnetic field. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because\u0026nbsp;it results in a comma splice. A comma can\u0026rsquo;t be used in this way to join two long independent clauses (\u0026ldquo;Researchers\u0026hellip;food\u0026rdquo; and \u0026ldquo;in\u0026hellip;sources\u0026rdquo;) such as these. Choice C is incorrect because it results in a run-on sentence. The two clauses (\u0026ldquo;Researchers\u0026hellip;food\u0026rdquo; and \u0026ldquo;in\u0026hellip;sources\u0026rdquo;) are fused without punctuation. Furthermore, the conjunction \u0026ldquo;while\u0026rdquo; fails to indicate that what follows is an explanation of why some roundworms in the Southern Hemisphere move in the opposite direction of Earth\u0026rsquo;s magnetic field. Choice D is incorrect because\u0026nbsp;it results in a run-on sentence. The two clauses (\u0026ldquo;Researchers\u0026hellip;food\u0026rdquo; and \u0026ldquo;in\u0026hellip;sources\u0026rdquo;) are fused without punctuation and/or a conjunction. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eResearchers studying magnetosensation have determined why some soil-dwelling roundworms in the Southern Hemisphere move in the opposite direction of Earth\u0026rsquo;s magnetic field when searching for \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e in the Northern Hemisphere, the magnetic field points down, into the ground, but in the Southern Hemisphere, it points up, toward the surface and away from worms\u0026rsquo; food sources.\u003c/p\u003e", "templateclusterid": "4716bb66-8527-4a0e-81de-a80f199e0866", "templateclustername": "", "type": "mcq", "vaultid": "d99d86a0-8555-46c9-ac32-95c3400aaa98"}, "createDate": 1691007959346, "difficulty": "H", "external_id": "ff4421fe-618a-4297-8a59-b8563e9330ce", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "2c4cd76d", "score_band_range_cd": 7, "skill_cd": "BOU", "skill_desc": "Boundaries", "uId": "f92239de-e9a8-4b45-81ad-b89141d089c3", "updateDate": 1691007959346};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-2c4cd76d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

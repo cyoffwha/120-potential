@@ -1,0 +1,22 @@
+{
+  "question_id": "25290c8d",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "\"On Virtue\" is a 1766 poem by Phillis Wheatley. Wheatley addresses the poem directly to the quality of virtue, imploring it to assist her in reaching a future goal: ______ blank",
+  "question_text": "Which quotation from &ldquo;On Virtue&rdquo; most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;Attend me,  Virtue , thro&rsquo; my youthful years! / O leave me not to the false joys of time! / But guide my steps to endless life and bliss.&rdquo;",
+    "&ldquo;I cease to wonder, and no more attempt / Thine height t&rsquo;explore, or fathom thy profound.&rdquo;",
+    "&ldquo;O thou bright jewel in my aim I strive / To comprehend thee. Thine own words declare / Wisdom is higher than a fool can reach.&rdquo;",
+    "&ldquo;But, O my soul, sink not into despair, /  Virtue  is near thee, and with gentle hand / Would now embrace thee, hovers o&rsquo;er thine head.&rdquo;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most effectively illustrates the claim that Wheatley addresses her poem \"On Virtue\" to the quality of virtue, imploring it to assist her in reaching a future goal. In the quotation, Wheatley begs virtue to accompany her, or \"attend [her],\" through her youth and to \"guide [her] steps to\" the future goal of \"endless life and bliss.\"",
+    "B": "Choice B is incorrect because this quotation suggests the difficulty of fully comprehending virtue. Rather than asking virtue for help, Wheatley presents it as a quality that is impossible to entirely understand because it is so grand and deep.",
+    "C": "Choice C is incorrect because this quotation describes Wheatley's effort to comprehend virtue despite virtue itself declaring that such wisdom is beyond her grasp, or \"higher than a fool can reach.\"",
+    "D": "Choice D is incorrect because rather than asking virtue for help in this quotation, Wheatley urges herself to \"sink not into despair\" because virtue is always nearby."
+  }
+}

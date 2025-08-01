@@ -1,0 +1,22 @@
+{
+  "question_id": "57998dd3",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Obsidian is a kind of volcanic glass formed when lava cools so quickly that the atoms inside it cannot arrange themselves in a crystalline structure. You ______ blank more about obsidian's structure, which is classified as amorphous, in a later chapter.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "had learned",
+    "had been learning",
+    "will learn",
+    "have learned"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the future tense verb \"will learn,\" used in conjunction with the phrase \"in a later chapter,\" correctly indicates that \"you\" (the reader) are going to learn about obsidian's structure at some point in the future.",
+    "A": "Choice A is incorrect because the past perfect verb \"had learned\" doesn't indicate that the subject is going to learn about obsidian's structure in the future.",
+    "B": "Choice B is incorrect because the past perfect progressive verb \"had been learning\" doesn't indicate that the subject is going to learn about obsidian's structure in the future.",
+    "D": "Choice D is incorrect because the present perfect verb \"have learned\" doesn't indicate that the subject is going to learn about obsidian's structure in the future."
+  }
+}

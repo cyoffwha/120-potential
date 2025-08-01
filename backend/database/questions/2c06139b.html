@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 2c06139b</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Tadpole Body Mass and Toxin Production after Three Weeks in Ponds</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Population density</th><th scope="col" style="text-align: center; vertical-align: bottom;">Average tadpole body mass (milligrams)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Average number of distinct bufadienolide toxins per tadpole</th><th scope="col" style="text-align: center; vertical-align: bottom;">Average amount of bufadienolide per tadpole (nanograms)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Average bufadienolide concentration (nanograms per milligram of tadpole body mass)</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">High</th><td style="text-align: center;">193.87</td><td style="text-align: center;">22.69</td><td style="text-align: center;">5,815.51</td><td style="text-align: center;">374.22</td></tr><tr><th scope="row" style="text-align: left;">Medium</th><td style="text-align: center;">254.56</td><td style="text-align: center;">21.65</td><td style="text-align: center;">5,525.72</td><td style="text-align: center;">230.10</td></tr><tr><th scope="row" style="text-align: left;">Low</th><td style="text-align: center;">258.97</td><td style="text-align: center;">22.08</td><td style="text-align: center;">4,664.99</td><td style="text-align: center;">171.43</td></tr></tbody></table></figure></p>
+<p>Ecologist Veronika B&oacute;kony and colleagues investigated within-species competition among common toads (<em>Bufo bufo</em>), a species that secretes various unpleasant-tasting toxins called bufadienolides in response to threats. The researchers tested <em>B. bufo </em>tadpoles&rsquo; responses to different levels of competition by creating ponds with different tadpole population densities but a fixed amount of food. Based on analysis of the tadpoles after three weeks, the researchers concluded that increased competition drove bufadienolide production at the expense of growth.</p></div>
+
+                        <div class="mt-3"><p>Which choice uses data from the table to most effectively support the researchers&rsquo; conclusion?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The difference in average tadpole body mass was small between the low and medium population density conditions and substantially larger between the low and high population density conditions.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Tadpoles in the low and medium population density conditions had substantially lower average bufadienolide concentrations but had greater average body masses than those in the high population density condition.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Tadpoles in the high population density condition displayed a relatively modest increase in the average amount of bufadienolide but roughly double the average bufadienolide concentration compared to those in the low population density condition.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Tadpoles produced approximately the same number of different bufadienolide toxins per individual across the population density conditions, but average tadpole body mass decreased as population density increased.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. This data shows that the tadpoles in the high-density pond (meaning those with the most competition) didn&rsquo;t grow as big as the other two groups but produced more bufadienolide. </p><p>Choice A is incorrect. This doesn&rsquo;t fully support the conclusion. It doesn&rsquo;t include any data about bufadienolide production. Choice C is incorrect. This doesn&rsquo;t fully support the conclusion. It doesn&rsquo;t include any data about growth. Choice D is incorrect. This doesn&rsquo;t fully support the conclusion. It doesn&rsquo;t demonstrate that the tadpoles in the high-density pond produced more bufadienolide overall. The fact that they didn&rsquo;t produce more kinds of bufadienolide isn&rsquo;t relevant to the conclusion. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">206 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe difference in average tadpole body mass was small between the low and medium population density conditions and substantially larger between the low and high population density conditions.\u003c/p\u003e", "id": "f859fb28-327d-4e2a-8495-eceef19d8e05"}, {"content": "\u003cp\u003eTadpoles in the low and medium population density conditions had substantially lower average bufadienolide concentrations but had greater average body masses than those in the high population density condition.\u003c/p\u003e", "id": "277e8d9a-c51a-4425-aaad-660b7d2b764c"}, {"content": "\u003cp\u003eTadpoles in the high population density condition displayed a relatively modest increase in the average amount of bufadienolide but roughly double the average bufadienolide concentration compared to those in the low population density condition.\u003c/p\u003e", "id": "ba69c18e-7505-4449-b17f-24ff85a4d1ea"}, {"content": "\u003cp\u003eTadpoles produced approximately the same number of different bufadienolide toxins per individual across the population density conditions, but average tadpole body mass decreased as population density increased.\u003c/p\u003e", "id": "4583df59-4afc-48ee-b37c-cb38ddbe6a8e"}], "correct_answer": ["B"], "externalid": "f7ae1a33-b06f-4c83-846e-8d697f444fe0", "keys": ["277e8d9a-c51a-4425-aaad-660b7d2b764c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-H002", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. This data shows that the tadpoles in the high-density pond (meaning those with the most competition) didn\u0026rsquo;t grow as big as the other two groups but produced more bufadienolide. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This doesn\u0026rsquo;t fully support the conclusion. It doesn\u0026rsquo;t include any data about bufadienolide production. Choice C is incorrect. This doesn\u0026rsquo;t fully support the conclusion. It doesn\u0026rsquo;t include any data about growth. Choice D is incorrect. This doesn\u0026rsquo;t fully support the conclusion. It doesn\u0026rsquo;t demonstrate that the tadpoles in the high-density pond produced more bufadienolide overall. The fact that they didn\u0026rsquo;t produce more kinds of bufadienolide isn\u0026rsquo;t relevant to the conclusion. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice uses data from the table to most effectively support the researchers\u0026rsquo; conclusion?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eTadpole Body Mass and Toxin Production after Three Weeks in Ponds\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003ePopulation density\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eAverage tadpole body mass (milligrams)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eAverage number of distinct bufadienolide toxins per tadpole\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eAverage amount of bufadienolide per tadpole (nanograms)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eAverage bufadienolide concentration (nanograms per milligram of tadpole body mass)\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eHigh\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e193.87\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e22.69\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e5,815.51\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e374.22\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eMedium\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e254.56\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e21.65\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e5,525.72\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e230.10\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eLow\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e258.97\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e22.08\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e4,664.99\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e171.43\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eEcologist Veronika B\u0026oacute;kony and colleagues investigated within-species competition among common toads (\u003cem\u003eBufo bufo\u003c/em\u003e), a species that secretes various unpleasant-tasting toxins called bufadienolides in response to threats. The researchers tested \u003cem\u003eB. bufo \u003c/em\u003etadpoles\u0026rsquo; responses to different levels of competition by creating ponds with different tadpole population densities but a fixed amount of food. Based on analysis of the tadpoles after three weeks, the researchers concluded that increased competition drove bufadienolide production at the expense of growth.\u003c/p\u003e", "templateclusterid": "0c63d227-e787-42bb-b3fa-786450d71734", "templateclustername": "", "type": "mcq", "vaultid": "ba32ee0d-3cd3-4981-9cae-dd9d3dd2e5f8"}, "createDate": 1691007959369, "difficulty": "H", "external_id": "f7ae1a33-b06f-4c83-846e-8d697f444fe0", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "2c06139b", "score_band_range_cd": 7, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "ac66d387-5890-45ff-92f6-f4d740ab48f0", "updateDate": 1691007959369};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-2c06139b");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

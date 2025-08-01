@@ -1,0 +1,22 @@
+{
+  "question_id": "493c46bc",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In the South Pacific, New Caledonian crows use two different kinds of stick tools. One tool is complex. The crows shape a stick from a rare plant into a hook. The other tool is basic. The crows find a stick without a hook on the ground. The hooked tool is harder to get but is much better than the basic tool at removing prey from holes. When studying New Caledonian crows, ecologist Barbara Klump found that they hold the hooked tools in their claws when not using them, or they carefully put them in a safe place. The crows don't do the same with the basic tools. This suggests to Klump that the ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "hooked stick tools are more valuable to the crows than the stick tools without hooks.",
+    "hooked stick tools are easier for most of the crows to hold than the stick tools without hooks.",
+    "crows prefer to share their hooked stick tools but don&rsquo;t share the stick tools without hooks.",
+    "crows realize that both kinds of stick tools are less effective than their claws are at removing prey from holes."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of the two types of stick tools used by New Caledonian crows. The text indicates that the more effective type of tool has a hook that the crows make themselves, while the other type of tool is simply a stick without a hook that the crows find and don't shape in any way. According to the text, Klump found that the crows keep hooked tools—but not the tools without hooks—in their grasp or in safe places when they aren't using the tools. If the hooked tools are more effective than the tools without hooks are and the crows are more protective of the hooked tools than they are of the tools without hooks, it's reasonable to conclude that the hooked tools are more valuable to the crows than the tools without hooks are.",
+    "B": "Choice B is incorrect because the text gives no indication of how easy it is for the crows to hold either the hooked tools or the tools without hooks. The text does state that crows hold the hooked tools and not the tools without hooks when the tools aren't in use. However, the text also indicates that the hooked tools require work from the crows to make and are more useful for helping the crows catch prey than the tools without hooks are. This context suggests that the crows hold the hooked tools because they're more valuable to the crows than the tools without hooks are, not because the hooked tools are easier to hold.",
+    "C": "Choice C is incorrect because the text makes no mention of the crows sharing tools. Additionally, the text indicates that when the crows aren't using the hooked tools, they either grasp the tools or store them safely, which suggests that the crows try to maintain possession of the hooked tools, not that crows prefer to share those tools.",
+    "D": "Choice D is incorrect because the text says nothing about the crows using their claws to remove prey from holes, so there's no evidence that the crows perceive the stick tools to be less effective than their claws are."
+  }
+}

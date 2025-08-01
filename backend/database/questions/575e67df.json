@@ -1,0 +1,22 @@
+{
+  "question_id": "575e67df",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "By running computer simulations of the development of our solar system, Andr&eacute; Izidoro, Rajdeep Dasgupta, and colleagues concluded that the Sun may have been surrounded by three giant dust rings before the planets started to form. The researchers suggest that the materials in the innermost ring became the four planets closest to the Sun, the materials in the middle ring produced the rest of the planets, and the materials in the outermost ring created the asteroids and other small bodies in the region beyond Neptune. In one simulation, the researchers delayed the initial formation of the middle ring, causing oversized super-Earths to begin developing from the innermost ring. The researchers therefore hypothesize that ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "the middle ring formed earlier in the solar system&rsquo;s development than the initial simulations suggested.&nbsp;",
+    "the timing of the initial formation of the middle ring played an important role in determining the eventual size of Earth.",
+    "if the formation of the outermost ring had occurred earlier in a simulation, all the planets would have become super-Earths.",
+    "the innermost ring actually formed into all the planets in our solar system, not just the four closest to the Sun."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically follows from the text's discussion of Andr&eacute; Izidoro, Rajdeep Dasgupta, and colleagues' computer simulations of our solar system's development. The text begins by stating that the simulations led the researchers to conclude that the solar system likely formed from three giant dust rings that encircled the Sun. The text explains that the four inner planets, including Earth, formed from the innermost ring and that the remaining planets formed from the middle ring. It then explains that in one simulation, the researchers delayed the formation of the middle ring—that is, they tested to see what would happen if the middle ring had formed later than it actually did. They found that doing so affected the size of the innermost planets, resulting in oversized super-Earths, planets that are much larger than Earth. Since the delayed timing had the effect of changing the size of Earth in the simulation relative to Earth's real size, it's reasonable to conclude that the timing of the middle ring's formation was important in determining Earth's eventual size.",
+    "A": "Choice A is incorrect. Although the text explains that when the researchers delayed the formation of the middle ring in one simulation, the size of the innermost planets was affected (which suggests that the middle ring likely formed earlier than it did in this simulation), the text doesn't indicate that this was an initial simulation—that is, a simulation that was conducted before other simulations. Moreover, the text makes no reference to the specific results of any other simulations; therefore, there is no basis for comparing any conclusions based on the simulation in which the middle ring's formation was delayed with conclusions based on other simulations.",
+    "C": "Choice C is incorrect because the text discusses how altering the timing of the formation of the middle ring, not the outermost ring, affected the four innermost planets' eventual size in the researchers' simulation; therefore, the simulation offers no basis for a conclusion about how the outermost ring's formation affected the size of the planets.",
+    "D": "Choice D is incorrect because there is nothing in the text to suggest that the innermost ring produced all the solar system's planets. Rather, the text states that the simulations showed that the innermost planets formed from the innermost ring and that the remaining planets formed from the middle ring."
+  }
+}

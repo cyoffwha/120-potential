@@ -1,0 +1,22 @@
+{
+  "question_id": "1a8126aa",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 2019, researcher Patricia Jurado Gonzalez and food historian Nawal Nasrallah prepared a stew from a 4,000-year-old recipe found on a Mesopotamian clay tablet. When they tasted the dish, known as pa&scaron;rūtum (\"unwinding\"), they found that it had a mild taste and inspired a sense of calm. ______ blank the researchers, knowing that dishes were sometimes named after their intended effects, theorized that the dish's name, \"unwinding,\" referred to its function: to help ancient diners relax.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Therefore,",
+    "Alternately,",
+    "Nevertheless,",
+    "Likewise,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Therefore\" logically signals that the action described in this sentence—the researchers theorizing that the dish was named for its effect on diners—is a result or consequence of the previous observation that the dish had a calming effect.",
+    "B": "Choice B is incorrect because \"alternately\" illogically signals that the action described in this sentence offers an alternative or contrast to the previous observation that the dish had a calming effect. Instead, the action is a result or consequence of that observation.",
+    "C": "Choice C is incorrect because \"nevertheless\" illogically signals that the action described in this sentence occurs despite the previous observation that the dish had a calming effect. Instead, the action is a result or consequence of that observation.",
+    "D": "Choice D is incorrect because \"likewise\" illogically signals that this sentence merely adds a second, similar detail to the previous observation that the dish had a calming effect. Instead, this sentence describes an action that is a result or consequence of that observation."
+  }
+}

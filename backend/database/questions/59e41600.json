@@ -1,0 +1,22 @@
+{
+  "question_id": "59e41600",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Why are Rome's famous concrete structures, such as the Colosseum, still standing after 2,000-plus years, when modern concrete may not even last for fifty? Scientists ______ blank that the secret to Roman concrete's durability was its unique blend of ingredients, which included volcanic ash and seawater.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "explain",
+    "having explained",
+    "explaining",
+    "to explain"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is the use of verb forms within a sentence. The main clause of a sentence requires a finite (tensed) verb, and this choice supplies the finite present tense verb \"explain\" to indicate what the scientists do.",
+    "B": "Choice B is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"having explained\" doesn't supply the main clause with a finite verb.",
+    "C": "Choice C is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"explaining\" doesn't supply the main clause with a finite verb.",
+    "D": "Choice D is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \"to explain\" doesn't supply the main clause with a finite verb."
+  }
+}

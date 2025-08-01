@@ -1,0 +1,22 @@
+{
+  "question_id": "164a32e7",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Claude McKay (1889–1948) was a Jamaican American writer. Songs of Jamaica (1912) and Constab Ballads (1912) are two acclaimed poetry collections that McKay published while living in Jamaica. McKay moved to Harlem in New York City in 1914. He is best known as a poet and novelist of the Harlem Renaissance, a literary and cultural movement of the 1920s and 1930s. His most famous works include the poetry collection Harlem Shadows (1922) and the novel Home to Harlem (1928). The student wants to emphasize Claude McKay's accomplishments before moving to Harlem. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize Claude McKay&rsquo;s accomplishments before moving to Harlem. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Jamaican American writer Claude McKay is the author of works such as  Songs of Jamaica  (1912),  Constab Ballads  (1912),  Harlem Shadows  (1922), and  Home to Harlem  (1928).",
+    "Although he is best known as a Harlem Renaissance writer, Claude McKay had published two acclaimed poetry collections in 1912 while living in Jamaica:  Songs of Jamaica  and  Constab Ballads .",
+    "In 1914, Claude McKay moved to Harlem, where he would become known as a poet and novelist of the Harlem Renaissance (a literary and cultural movement of the 1920s and 1930s).",
+    "Before moving to Harlem, Claude McKay&mdash;author of the poetry collection  Harlem Shadows  (1922) and the novel  Home to Harlem  (1928)&mdash;lived in Jamaica."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. This choice contrasts McKay's fame as a Harlem Renaissance writer with his earlier achievements as a Jamaican poet, and it names the two collections he published before moving to Harlem.",
+    "A": "Choice A is incorrect. This choice doesn't emphasize McKay's accomplishments before moving to Harlem. It lists some of his works but doesn't distinguish between those he wrote in Jamaica and those he wrote in Harlem.",
+    "C": "Choice C is incorrect. This choice doesn't emphasize McKay's accomplishments before moving to Harlem. It only mentions the year he moved and what he would become known for afterwards.",
+    "D": "Choice D is incorrect. This choice doesn't emphasize McKay's accomplishments before moving to Harlem. It mentions that he lived in Jamaica, but it doesn't name any of the works he published there."
+  }
+}

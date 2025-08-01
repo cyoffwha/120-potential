@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 3f753a8e</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Investigating whether shared false visual memories&mdash;specific but inaccurate and widely held recollections of images such as product logos&mdash;are caused by people&rsquo;s previous <span aria-hidden="true">______</span><span class="sr-only">blank</span> incorrect renditions of the images, researchers Deepasri Prasad and Wilma Bainbridge found that, in fact, such memories are often not explained by familiarity with erroneous versions of the images.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>compliance with</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>exposure to</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>criteria for</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>forfeiture of</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. "Exposure to" means "having contact with." It makes sense that Prasad and Bainbridge were investigating whether seeing false versions of images was a cause of false visual memories. Notice how "exposure to incorrect renditions" matches the idea of "familiarity with erroneous versions," which appears later in the sentence.</p><p>Choice A is incorrect. "Compliance with" means "going along with a command or directive." False versions of images can&rsquo;t give commands or directives, so this doesn&rsquo;t apply. Choice C is incorrect. "Criteria" means "standards by which to judge something." It&rsquo;s not clear how people would come to have standards for the wrong version of an image in the first place, let alone how those standards would cause them to falsely remember the correct version. In other words, this choice would result in a confusing, unclear sentence. Choice D is incorrect. "Forfeiture of" means "a giving up of something." It wouldn&rsquo;t make sense to say that false memories of an image might be caused by giving up the wrong version of the image.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">503 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ecompliance with\u003c/p\u003e", "id": "ab5b2306-bbed-4ba4-93c1-2de83859e439"}, {"content": "\u003cp\u003eexposure to\u003c/p\u003e", "id": "62e13083-bfe9-4339-885a-b3ec0a2b695c"}, {"content": "\u003cp\u003ecriteria for\u003c/p\u003e", "id": "408cc038-a9c5-4016-969d-762fd74d224e"}, {"content": "\u003cp\u003eforfeiture of\u003c/p\u003e", "id": "823b6a7e-597f-4a84-9650-7bcd4a060606"}], "correct_answer": ["B"], "externalid": "24a7d56a-2465-41f9-a568-8027e878431d", "keys": ["62e13083-bfe9-4339-885a-b3ec0a2b695c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-WIC-H009", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. \"Exposure to\" means \"having contact with.\" It makes sense that Prasad and Bainbridge were investigating whether seeing false versions of images was a cause of false visual memories. Notice how \"exposure to incorrect renditions\" matches the idea of \"familiarity with erroneous versions,\" which appears later in the sentence.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. \"Compliance with\" means \"going along with a command or directive.\" False versions of images can\u0026rsquo;t give commands or directives, so this doesn\u0026rsquo;t apply. Choice C is incorrect. \"Criteria\" means \"standards by which to judge something.\" It\u0026rsquo;s not clear how people would come to have standards for the wrong version of an image in the first place, let alone how those standards would cause them to falsely remember the correct version. In other words, this choice would result in a confusing, unclear sentence. Choice D is incorrect. \"Forfeiture of\" means \"a giving up of something.\" It wouldn\u0026rsquo;t make sense to say that false memories of an image might be caused by giving up the wrong version of the image.\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eInvestigating whether shared false visual memories\u0026mdash;specific but inaccurate and widely held recollections of images such as product logos\u0026mdash;are caused by people\u0026rsquo;s previous \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e incorrect renditions of the images, researchers Deepasri Prasad and Wilma Bainbridge found that, in fact, such memories are often not explained by familiarity with erroneous versions of the images.\u003c/p\u003e", "templateclusterid": "63e0e889-8a1f-4703-b36a-d85d7e651c34", "templateclustername": "", "type": "mcq", "vaultid": "7fdbb01f-1012-421d-9d3a-a82e613d4e0f"}, "createDate": 1691007959378, "difficulty": "H", "external_id": "24a7d56a-2465-41f9-a568-8027e878431d", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "3f753a8e", "score_band_range_cd": 6, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "d1fe0c54-b83f-4b46-9a1d-4c167c4ef5e7", "updateDate": 1691007959378};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-3f753a8e");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

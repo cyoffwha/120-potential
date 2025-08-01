@@ -7,11 +7,9 @@ Reading and Writing Section
 
         1.1 Central Ideas and Details
 
-        1.2 Command of Evidence (Textual)
+        1.2 Command of Evidence
 
-        1.3 Command of Evidence (Quantitative)
-
-        1.4 Inferences
+        1.3 Inferences
 
     Craft and Structure
 

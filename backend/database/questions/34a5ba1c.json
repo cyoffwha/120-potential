@@ -1,0 +1,22 @@
+{
+  "question_id": "34a5ba1c",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "By 1936, Spanish Romani dancer Carmen Amaya was known all over Spain for her powerful style of flamenco dancing. However, in July of that year, the outbreak of the Spanish Civil War made it difficult for her to perform in her home country. ______ blank Amaya left Spain to perform abroad, dancing for audiences across North and South America.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "In comparison,",
+    "As a result,",
+    "First of all,",
+    "For example,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"As a result\" logically signals that the information in this sentence about Amaya leaving Spain to perform abroad is a result of the previous information about the Spanish Civil War.",
+    "A": "Choice A is incorrect because \"in comparison\" illogically signals that the information in this sentence is being compared to the previous information about the Spanish Civil War. Instead, Amaya leaving Spain is a result of that war.",
+    "C": "Choice C is incorrect because \"first of all\" illogically signals that the information in this sentence is the beginning of a sequence of events. Instead, Amaya leaving Spain is a result of the event (the outbreak of war) described in the previous sentence.",
+    "D": "Choice D is incorrect because \"for example\" illogically signals that the information in this sentence is an example supporting the previous statement about the Spanish Civil War. Instead, Amaya leaving Spain is a result of that war."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "54c6128b",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "When ancient oak planks were unearthed during subway construction in Rome, Mauro Bernabei and his team examined the growth rings in the wood to determine where these planks came from. By comparing the growth rings on the planks to records of similar rings in oaks from Europe, the team could trace the wood to the Jura region of France, hundreds of kilometers from Rome. Because timber could only have been transported from distant Jura to Rome by boat, the team's findings suggest the complexity of Roman trade routes.",
+  "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "answer_options": [
+    "It presents a conclusion about Roman trade routes based on the team&rsquo;s findings.&nbsp;",
+    "It questions how the team was able to conclude that the planks were used to build a boat.",
+    "It explains why the planks were made from oak rather than a different kind of wood.&nbsp;",
+    "It describes common methods used in Roman subway construction."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The first sentence explains that Bernabei and his team studied growth rings to obtain information about the ancient oak planks found during a construction project in Rome. The next sentence presents what the researchers learned: the wood from the planks came from France's Jura region, which is far from Rome. The underlined sentence then presents the implications of the findings about the planks: the wood must have been brought to Rome by boat, a difficult task that suggests Roman trade routes were complex. Thus, the underlined sentence mainly functions to present a conclusion about Roman trade routes based on the team's findings.",
+    "B": "Choice B is incorrect because the text doesn't suggest that the team thought the ancient planks were used in the construction of a boat, nor does the underlined sentence question that conclusion. Instead, the text states that the wood could only have been transported from Jura to Rome in a boat.",
+    "C": "Choice C is incorrect because the underlined sentence simply offers a conclusion drawn from the team's findings about the likely place of origin of the ancient planks; the text never mentions why oak was chosen for the planks instead of other wood.",
+    "D": "Choice D is incorrect because neither the underlined sentence nor the text as a whole addresses any methods that Romans used in constructing subways. Instead, the underlined sentence offers a conclusion drawn from the team's findings about the likely place of origin of the ancient wooden planks discovered."
+  }
+}

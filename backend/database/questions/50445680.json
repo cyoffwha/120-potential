@@ -1,0 +1,22 @@
+{
+  "question_id": "50445680",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In winter, the diets of Japanese macaques, also known as snow monkeys, are influenced more by food availability than by food preference. Although the monkeys prefer to eat vegetation and land-dwelling invertebrates, those food sources may become unavailable because of extensive snow and ice cover, ______ blank the monkeys to hunt for marine animals in any streams that have not frozen over.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "forces",
+    "to force",
+    "forcing",
+    "forced"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of finite and nonfinite verb forms within a sentence. The nonfinite present participle \"forcing\" is correctly used to form a participial phrase that supplements the main clause \"those...cover,\" describing the effects on monkeys of the lack of food sources.",
+    "A": "Choice A is incorrect because the finite present tense verb \"forces\" can't be used in this way to supplement the main clause (\"those...cover\").",
+    "B": "Choice B is incorrect. While the nonfinite to-infinitive \"to force\" could be used to form a subordinate clause that supplements the main clause (\"those...cover\"), to-infinitives conventionally express purpose, and nothing in the sentence suggests that the food sources become unavailable for the purpose of forcing monkeys to hunt marine animals.",
+    "D": "Choice D is incorrect because the finite past tense verb \"forced\" can't be used in this way to supplement the main clause (\"those...cover\")."
+  }
+}

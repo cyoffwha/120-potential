@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 59e41600</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Why are Rome&rsquo;s famous concrete structures, such as the Colosseum, still standing after 2,000-plus years, when modern concrete may not even last for fifty? Scientists <span aria-hidden="true">______</span><span class="sr-only">blank</span> that the secret to Roman concrete&rsquo;s durability was its unique blend of ingredients, which included volcanic ash and seawater.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>explain</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>having explained</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>explaining</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>to explain</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The convention being tested is the use of verb forms within a sentence. The main clause of a sentence requires a finite (tensed) verb, and this choice supplies the finite present tense verb &ldquo;explain&rdquo; to indicate what the scientists do. </p><p>Choice B is incorrect because it results in an ungrammatical sentence. The nonfinite participle &ldquo;having explained&rdquo; doesn&rsquo;t supply the main clause with a finite verb.&nbsp;Choice C is incorrect because it results in an ungrammatical sentence. The nonfinite participle &ldquo;explaining&rdquo; doesn&rsquo;t supply the main clause with a finite verb.&nbsp;Choice D is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive &ldquo;to explain&rdquo; doesn&rsquo;t supply the main clause with a finite verb. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">921 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eexplain\u003c/p\u003e", "id": "34cb6ecc-5806-4ed5-b19d-95494914ffcb"}, {"content": "\u003cp\u003ehaving explained\u003c/p\u003e", "id": "4fc012d6-fb04-41e8-8366-01cbb76132e4"}, {"content": "\u003cp\u003eexplaining\u003c/p\u003e", "id": "a6285352-af14-4b67-a9bc-9afc9f59af30"}, {"content": "\u003cp\u003eto explain\u003c/p\u003e", "id": "7f4d90f6-ecd4-4ea9-88a9-12a6f7da0c1d"}], "correct_answer": ["A"], "externalid": "b3e7ba8c-d31f-496c-8cd1-b3c29409a807", "keys": ["34cb6ecc-5806-4ed5-b19d-95494914ffcb"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-741-SEC", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The convention being tested is the use of verb forms within a sentence. The main clause of a sentence requires a finite (tensed) verb, and this choice supplies the finite present tense verb \u0026ldquo;explain\u0026rdquo; to indicate what the scientists do. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because it results in an ungrammatical sentence. The nonfinite participle \u0026ldquo;having explained\u0026rdquo; doesn\u0026rsquo;t supply the main clause with a finite verb.\u0026nbsp;Choice C is incorrect because it results in an ungrammatical sentence. The nonfinite participle \u0026ldquo;explaining\u0026rdquo; doesn\u0026rsquo;t supply the main clause with a finite verb.\u0026nbsp;Choice D is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \u0026ldquo;to explain\u0026rdquo; doesn\u0026rsquo;t supply the main clause with a finite verb. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhy are Rome\u0026rsquo;s famous concrete structures, such as the Colosseum, still standing after 2,000-plus years, when modern concrete may not even last for fifty? Scientists \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e that the secret to Roman concrete\u0026rsquo;s durability was its unique blend of ingredients, which included volcanic ash and seawater.\u003c/p\u003e", "templateclusterid": "e15aaa3c-a31b-4c06-9d3d-9e77663ee990", "templateclustername": "", "type": "mcq", "vaultid": "4e610855-bdb9-4e61-82e9-73190e51f738"}, "createDate": 1691007959350, "difficulty": "E", "external_id": "b3e7ba8c-d31f-496c-8cd1-b3c29409a807", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "59e41600", "score_band_range_cd": 1, "skill_cd": "FSS", "skill_desc": "Form, Structure, and Sense", "uId": "e3c2ed31-bd99-438b-af1f-dab0a42e9462", "updateDate": 1691007959350};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-59e41600");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

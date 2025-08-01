@@ -1,0 +1,22 @@
+{
+  "question_id": "2c4cd76d",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Researchers studying magnetosensation have determined why some soil-dwelling roundworms in the Southern Hemisphere move in the opposite direction of Earth's magnetic field when searching for ______ blank in the Northern Hemisphere, the magnetic field points down, into the ground, but in the Southern Hemisphere, it points up, toward the surface and away from worms' food sources.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "food:",
+    "food,",
+    "food while",
+    "food"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is colon use within a sentence. A colon used in this way introduces information that illustrates or explains information that has come before it. In this case, the colon introduces the following explanation of why some roundworms in the Southern Hemisphere move in the opposite direction of Earth's magnetic field.",
+    "B": "Choice B is incorrect because it results in a comma splice. A comma can't be used in this way to join two long independent clauses (\"Researchers&hellip;food\" and \"in&hellip;sources\") such as these.",
+    "C": "Choice C is incorrect because it results in a run-on sentence. The two clauses (\"Researchers&hellip;food\" and \"in&hellip;sources\") are fused without punctuation. Furthermore, the conjunction \"while\" fails to indicate that what follows is an explanation of why some roundworms in the Southern Hemisphere move in the opposite direction of Earth's magnetic field.",
+    "D": "Choice D is incorrect because it results in a run-on sentence. The two clauses (\"Researchers&hellip;food\" and \"in&hellip;sources\") are fused without punctuation and/or a conjunction."
+  }
+}

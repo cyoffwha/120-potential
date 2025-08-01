@@ -1,0 +1,22 @@
+{
+  "question_id": "52b31d7b",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In November 1934, Amrita Sher-Gil was living in what must have seemed like the ideal city for a young artist: Paris. She was studying firsthand the color-saturated style of France's modernist masters and beginning to make a name for herself as a painter. ______ blank Sher-Gil longed to return to her childhood home of India; only there, she believed, could her art truly flourish.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Still,",
+    "Therefore,",
+    "Indeed,",
+    "Furthermore,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Still\" logically signals that the information about Sher-Gil in this sentence—that she longed to leave Paris and return to India—contrasts with what one would expect after reading about Sher-Gil's experiences in Paris in the previous sentences.",
+    "B": "Choice B is incorrect because \"therefore\" illogically signals that the information about Sher-Gil in this sentence is a result or consequence of the descriptions in the previous sentences. Instead, this information contrasts with what one would expect after reading about Sher-Gil's experiences in Paris.",
+    "C": "Choice C is incorrect because \"indeed\" illogically signals that the information about Sher-Gil in this sentence offers additional emphasis in support of the descriptions in the previous sentences. Instead, this information contrasts with what one would expect after reading about Sher-Gil's experiences in Paris.",
+    "D": "Choice D is incorrect because \"furthermore\" illogically signals that the information about Sher-Gil in this sentence offers additional support for or confirmation of the descriptions in the previous sentences. Instead, this information contrasts with what one would expect after reading about Sher-Gil's experiences in Paris."
+  }
+}

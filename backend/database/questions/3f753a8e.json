@@ -1,0 +1,22 @@
+{
+  "question_id": "3f753a8e",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Investigating whether shared false visual memories—specific but inaccurate and widely held recollections of images such as product logos—are caused by people's previous ______ blank incorrect renditions of the images, researchers Deepasri Prasad and Wilma Bainbridge found that, in fact, such memories are often not explained by familiarity with erroneous versions of the images.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "compliance with",
+    "exposure to",
+    "criteria for",
+    "forfeiture of"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Exposure to\" means \"having contact with.\" It makes sense that Prasad and Bainbridge were investigating whether seeing false versions of images was a cause of false visual memories. Notice how \"exposure to incorrect renditions\" matches the idea of \"familiarity with erroneous versions,\" which appears later in the sentence.",
+    "A": "Choice A is incorrect. \"Compliance with\" means \"going along with a command or directive.\" False versions of images can't give commands or directives, so this doesn't apply.",
+    "C": "Choice C is incorrect. \"Criteria\" means \"standards by which to judge something.\" It's not clear how people would come to have standards for the wrong version of an image in the first place, let alone how those standards would cause them to falsely remember the correct version. In other words, this choice would result in a confusing, unclear sentence.",
+    "D": "Choice D is incorrect. \"Forfeiture of\" means \"a giving up of something.\" It wouldn't make sense to say that false memories of an image might be caused by giving up the wrong version of the image."
+  }
+}

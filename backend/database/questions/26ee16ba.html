@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 26ee16ba</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Hip-hop pedagogy is a form of teaching that&rsquo;s gaining popularity across school subjects. It involves incorporating hip-hop and rap music into lessons as well as using hip-hop elements when teaching other subject matters. For example, Quan Neloms&rsquo;s students look for college-level vocabulary and historical events in rap songs. Researchers claim that in addition to developing students&rsquo; social justice awareness, <span role="region" aria-label="Referenced Content"><u>hip-hop pedagogy encourages student success by raising students&rsquo; interest and engagement.</u></span></p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most strongly support the underlined claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Students tend to be more enthusiastic about rap music than they are about hip-hop music.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Students who are highly interested in social justice issues typically don&rsquo;t sign up for courses that incorporate hip-hop and rap music.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Educators report that they enjoy teaching courses that involve hip-hop and rap music more than teaching courses that don&rsquo;t.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Courses that incorporate hip-hop and rap music are among the courses with the highest enrollment and attendance rates.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. Enrollment and attendance are logical ways to measure whether students are interested and engaged. High enrollment and attendance suggests a high level of interest and engagement. </p><p>Choice A is incorrect. This choice doesn&rsquo;t support the claim. Students&rsquo; preferences between hip-hop and rap aren&rsquo;t relevant to the claim, which is focused on whether or not students like classes that use hip-hop pedagogy (which includes the educational use of both hip-hop and rap). Choice B is incorrect. This choice doesn&rsquo;t support the claim. While the first part of the sentence discusses social justice, the underlined claim focuses on student success, which is unrelated. Choice C is incorrect. This choice doesn&rsquo;t support the claim. This tells us about teacher enjoyment, which isn&rsquo;t relevant to a claim about student interest and engagement. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">208 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eStudents tend to be more enthusiastic about rap music than they are about hip-hop music.\u003c/p\u003e", "id": "31fdd656-9d87-4bff-8d42-e429de1500f1"}, {"content": "\u003cp\u003eStudents who are highly interested in social justice issues typically don\u0026rsquo;t sign up for courses that incorporate hip-hop and rap music.\u003c/p\u003e", "id": "399abfdf-3ec2-449c-89c4-9d034919de1f"}, {"content": "\u003cp\u003eEducators report that they enjoy teaching courses that involve hip-hop and rap music more than teaching courses that don\u0026rsquo;t.\u003c/p\u003e", "id": "e100092f-7cee-4507-a268-7b1abecdb81c"}, {"content": "\u003cp\u003eCourses that incorporate hip-hop and rap music are among the courses with the highest enrollment and attendance rates.\u003c/p\u003e", "id": "64628f0c-8f22-4e92-b791-215ed795a395"}], "correct_answer": ["D"], "externalid": "30982148-54fd-485f-99d0-970860d55e39", "keys": ["64628f0c-8f22-4e92-b791-215ed795a395"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TXT-E002", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. Enrollment and attendance are logical ways to measure whether students are interested and engaged. High enrollment and attendance suggests a high level of interest and engagement. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice doesn\u0026rsquo;t support the claim. Students\u0026rsquo; preferences between hip-hop and rap aren\u0026rsquo;t relevant to the claim, which is focused on whether or not students like classes that use hip-hop pedagogy (which includes the educational use of both hip-hop and rap). Choice B is incorrect. This choice doesn\u0026rsquo;t support the claim. While the first part of the sentence discusses social justice, the underlined claim focuses on student success, which is unrelated. Choice C is incorrect. This choice doesn\u0026rsquo;t support the claim. This tells us about teacher enjoyment, which isn\u0026rsquo;t relevant to a claim about student interest and engagement. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most strongly support the underlined claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eHip-hop pedagogy is a form of teaching that\u0026rsquo;s gaining popularity across school subjects. It involves incorporating hip-hop and rap music into lessons as well as using hip-hop elements when teaching other subject matters. For example, Quan Neloms\u0026rsquo;s students look for college-level vocabulary and historical events in rap songs. Researchers claim that in addition to developing students\u0026rsquo; social justice awareness, \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003ehip-hop pedagogy encourages student success by raising students\u0026rsquo; interest and engagement.\u003c/u\u003e\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "38772ebd-3203-4b6c-933f-58b7e5085138", "templateclustername": "", "type": "mcq", "vaultid": "390427e2-8e7c-4ef8-b148-f7f7207887a7"}, "createDate": 1691007959376, "difficulty": "E", "external_id": "30982148-54fd-485f-99d0-970860d55e39", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "26ee16ba", "score_band_range_cd": 1, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "af34bb82-25ed-42a3-8c17-eb8458863b46", "updateDate": 1691007959376};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-26ee16ba");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

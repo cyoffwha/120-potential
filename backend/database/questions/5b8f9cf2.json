@@ -1,0 +1,22 @@
+{
+  "question_id": "5b8f9cf2",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In the canon of North African literature, Moroccan author Driss Chra&iuml;bi's 1954 novel The Simple Past ( Le Pass&eacute; simple ) looms large. A coming-of-age story, a social meditation, and a sober gaze into the dark maw of French colonialism, ______ blank interrogates systemic power with memorable intensity.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Morocco gained its independence two years before the publication of Chra&iuml;bi&rsquo;s debut novel, which",
+    "Chra&iuml;bi&rsquo;s debut novel, published two years before Morocco gained its independence,",
+    "Chra&iuml;bi wrote a debut novel that, published two years before Morocco gained its independence,",
+    "published two years before Morocco gained its independence, Chra&iuml;bi wrote a debut novel that"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. Subject-modifier placement requires a modifier and its subject to be next to each other. The subject of the modifier \"a coming-of-age story&hellip;colonialism\" is Chra&iuml;bi's novel The Simple Past , so the subject \"Chra&iuml;bi's debut novel\" fits perfectly after this introductory modifying phrase.",
+    "A": "Choice A is incorrect. Modifiers and their subjects must go next to each other. The introductory modifier \"a coming-of-age story&hellip;colonialism\" is describing Chra&iuml;bi's novel, not Morocco. However, this choice places Morocco directly next to that modifier.",
+    "C": "Choice C is incorrect. Modifiers and their subjects must go next to each other. The introductory modifier \"a coming-of-age story&hellip;colonialism\" all describes Chra&iuml;bi's novel, not Chra&iuml;bi himself. However, this choice places Chra&iuml;bi directly next to that modifier.",
+    "D": "Choice D is incorrect. Modifiers and their subjects must go next to each other. The modifier \"a coming-of-age story&hellip;\" is describing Chra&iuml;bi's novel, so that needs to be the subject immediately after the modifier. This choice adds another modifier that describes Chra&iuml;bi's novel, but then puts \"Chra&iuml;bi\" himself—not the novel—right after that modifier, which doesn't make sense. Chra&iuml;bi wasn't \"published two years before\" Moroccan independence; his novel The Simple Past was."
+  }
+}

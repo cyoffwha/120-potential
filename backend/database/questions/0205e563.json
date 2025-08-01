@@ -1,0 +1,22 @@
+{
+  "question_id": "0205e563",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "At two weeks old, the time their critical socialization period begins, wolves can smell but cannot yet see or hear. Domesticated dogs, ______ blank can see, hear, and smell by the end of two weeks. This relative lack of sensory input may help explain why wolves behave so differently around humans than dogs do: from a very young age, wolves are more wary and less exploratory.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "in other words,",
+    "for instance,",
+    "by contrast,",
+    "accordingly,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"By contrast\" logically signals that the information in this sentence—that dogs can see, hear, and smell by the end of two weeks—contrasts with the preceding information (that wolves can smell but not see or hear at the same age).",
+    "A": "Choice A is incorrect because \"in other words\" illogically signals that the information about domesticated dogs in this sentence paraphrases the information about wolves in the previous sentence. Instead, the information about dogs contrasts with what came before.",
+    "B": "Choice B is incorrect because \"for instance\" illogically signals that the information about domesticated dogs in this sentence exemplifies the information about wolves in the previous sentence. Instead, the information about dogs contrasts with what came before.",
+    "D": "Choice D is incorrect because \"accordingly\" illogically signals that the information about domesticated dogs in this sentence is in accordance with, or results from, the information about wolves in the previous sentence. Instead, the information about dogs contrasts with what came before."
+  }
+}

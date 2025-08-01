@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 5b8b69a2</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>Archaeologist Jon Erlandson and colleagues argue that humans first arrived in the Americas by sea.</li>
+<li>They propose that humans traveled between Pacific Ocean islands and coastlines from northeast Asia to the Americas.</li>
+<li>Many of these islands and coastal zones were later submerged as glaciers melted and sea levels rose.</li>
+<li>The researchers think that &ldquo;a coastal route, including kelp forests and estuaries, would have provided a rich mix of marine, estuarine, riverine, and terrestrial resources&rdquo; such as seaweeds, fish, and birds.</li>
+<li>This proposed scenario is known as the kelp highway hypothesis.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to summarize the kelp highway hypothesis. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Pacific Ocean islands and coastlines likely contained &ldquo;a rich mix of marine, estuarine, riverine, and terrestrial resources&rdquo; such as seaweeds, fish, and birds, according to researchers.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>One argument about how humans first arrived in the Americas is the kelp highway hypothesis proposed by Jon Erlandson and colleagues.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Humans may have first arrived in the Americas by sea, traveling between Pacific Ocean islands and coastlines and subsisting on a variety of resources.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>As glaciers melted and sea levels rose, many Pacific Ocean islands and coastal zones were submerged.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. This choice summarizes the main idea of the kelp highway hypothesis, providing a high-level overview of how the hypothesis explains human migration to the Americas. </p><p>Choice A is incorrect. This choice describes one aspect of the proposed scenario but doesn&rsquo;t discuss human migration, which is the main focus of the kelp highway hypothesis. Choice B is incorrect. This choice introduces the kelp highway hypothesis but doesn&rsquo;t explain what it entails. Choice D is incorrect. This choice describes one element of the proposed scenario but doesn&rsquo;t discuss human migration, which is the main focus of the kelp highway hypothesis. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">642 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ePacific Ocean islands and coastlines likely contained \u0026ldquo;a rich mix of marine, estuarine, riverine, and terrestrial resources\u0026rdquo; such as seaweeds, fish, and birds, according to researchers.\u003c/p\u003e", "id": "6ae93524-3021-49a0-8d33-5381c2479ebc"}, {"content": "\u003cp\u003eOne argument about how humans first arrived in the Americas is the kelp highway hypothesis proposed by Jon Erlandson and colleagues.\u003c/p\u003e", "id": "8c423133-8246-4e32-b24d-0b167fb4d0a7"}, {"content": "\u003cp\u003eHumans may have first arrived in the Americas by sea, traveling between Pacific Ocean islands and coastlines and subsisting on a variety of resources.\u003c/p\u003e", "id": "707a9318-bc10-4d2f-954e-ed86efff3d06"}, {"content": "\u003cp\u003eAs glaciers melted and sea levels rose, many Pacific Ocean islands and coastal zones were submerged.\u003c/p\u003e", "id": "3de9fa32-a055-481b-bafe-8984f44a8f66"}], "correct_answer": ["C"], "externalid": "b587af2d-a137-4b31-a984-05d6e631b3ed", "keys": ["707a9318-bc10-4d2f-954e-ed86efff3d06"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-SYN-H008", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. This choice summarizes the main idea of the kelp highway hypothesis, providing a high-level overview of how the hypothesis explains human migration to the Americas. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice describes one aspect of the proposed scenario but doesn\u0026rsquo;t discuss human migration, which is the main focus of the kelp highway hypothesis. Choice B is incorrect. This choice introduces the kelp highway hypothesis but doesn\u0026rsquo;t explain what it entails. Choice D is incorrect. This choice describes one element of the proposed scenario but doesn\u0026rsquo;t discuss human migration, which is the main focus of the kelp highway hypothesis. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to summarize the kelp highway hypothesis. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eArchaeologist Jon Erlandson and colleagues argue that humans first arrived in the Americas by sea.\u003c/li\u003e\n\u003cli\u003eThey propose that humans traveled between Pacific Ocean islands and coastlines from northeast Asia to the Americas.\u003c/li\u003e\n\u003cli\u003eMany of these islands and coastal zones were later submerged as glaciers melted and sea levels rose.\u003c/li\u003e\n\u003cli\u003eThe researchers think that \u0026ldquo;a coastal route, including kelp forests and estuaries, would have provided a rich mix of marine, estuarine, riverine, and terrestrial resources\u0026rdquo; such as seaweeds, fish, and birds.\u003c/li\u003e\n\u003cli\u003eThis proposed scenario is known as the kelp highway hypothesis.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "81738406-2224-467d-853f-a05ad1c475ac", "templateclustername": "", "type": "mcq", "vaultid": "19f2ece0-d546-4798-aee0-c8c6e95bde37"}, "createDate": 1691007959372, "difficulty": "H", "external_id": "b587af2d-a137-4b31-a984-05d6e631b3ed", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "5b8b69a2", "score_band_range_cd": 7, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "80b432e1-a5e4-4de0-a1ab-5ae314f216af", "updateDate": 1691007959372};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-5b8b69a2");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

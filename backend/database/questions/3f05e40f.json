@@ -1,0 +1,22 @@
+{
+  "question_id": "3f05e40f",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In many of his sculptures, artist Richard Hunt uses broad forms rather than extreme accuracy to hint at specific people or ideas. In his first major work, Arachne (1956), Hunt constructed the mythical character Arachne, a weaver who was changed into a spider, by welding bits of steel together into something that, although vaguely human, is strange and machine-like. And his large bronze sculpture The Light of Truth (2021) commemorates activist and journalist Ida B. Wells using mainly flowing, curved pieces of metal that create stylized flame.",
+  "question_text": "Which choice best states the text&rsquo;s main idea about Hunt?",
+  "answer_options": [
+    "He often depicts the subjects of his sculptures using an unrealistic style.",
+    "He uses different kinds of materials depending on what kind of sculpture he plans to create.",
+    "He tends to base his art on important historical figures rather than on fictional characters.",
+    "He has altered his approach to sculpture over time, and his works have become increasingly abstract."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately states the main idea of the text. According to the text, many of Richard Hunt's sculptures \"use broad forms rather than extreme accuracy\"—in other words, they are more abstract than realistic. To illustrate Hunt's abstract approach, the text characterizes his sculpture of Arachne as \"vaguely human\" and his work in honor of Ida B. Wells as \"using mainly flowing, curved pieces of metal that create stylized flame.\" Thus, the main idea is that Hunt often depicts the subjects of his sculptures using an unrealistic style.",
+    "B": "Choice B is incorrect. Although the text indicates that one of Hunt's sculptures is made of steel and another of bronze, there is no mention of why he chose these materials.",
+    "C": "Choice C is incorrect because the text says nothing about how Hunt chose the subjects for his sculptures. Furthermore, of the two examples provided in the text, only Ida B. Wells is an important historical figure; Arachne is a \"mythical character.\"",
+    "D": "Choice D is incorrect because the text says nothing about how Hunt's style changed over time. In fact, although the two examples of Hunt's work discussed in the text were created 65 years apart, they are both described as heavily stylized rather than realistic, which may suggest that some aspects of Hunt's style haven't changed over that time."
+  }
+}

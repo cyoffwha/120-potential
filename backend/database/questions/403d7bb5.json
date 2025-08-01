@@ -1,0 +1,22 @@
+{
+  "question_id": "403d7bb5",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "According to Naomi Nakayama of the University of Edinburgh, the reason seeds from a dying dandelion appear to float in the air while ______ blank is that their porous plumes enhance drag, allowing the seeds to stay airborne long enough for the wind to disperse them throughout the surrounding area.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "falling,",
+    "falling:",
+    "falling;",
+    "falling"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The word \"falling\" occurs in the middle of a clause and isn't part of a supplement, so we don't need any punctuation after it. We can see this more clearly if we simplify the rest of the sentence: \"The reason seeds appear to float while falling is that their plumes enhance drag.\" .",
+    "A": "Choice A is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. The word \"falling\" occurs in the middle of a clause and isn't part of a supplement, so we don't need any punctuation after it. We can see this more clearly if we simplify the sentence: \"The reason seeds appear to float while falling is that their plumes enhance drag.\" .",
+    "B": "Choice B is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. The word \"falling\" occurs in the middle of a clause and isn't part of a supplement, so we don't need any punctuation after it. We can see this more clearly if we simplify the sentence: \"The reason seeds appear to float while falling is that their plumes enhance drag.\" .",
+    "C": "Choice C is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. The word \"falling\" occurs in the middle of a clause and isn't part of a supplement, so we don't need any punctuation after it. We can see this more clearly if we simplify the sentence: \"The reason seeds appear to float while falling is that their plumes enhance drag.\" ."
+  }
+}

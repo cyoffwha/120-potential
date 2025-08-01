@@ -1,0 +1,22 @@
+{
+  "question_id": "49bbe4d7",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "For painter Jacob Lawrence, being ______ blank was an important part of the artistic process. Because he paid close attention to all the details of his Harlem neighborhood, Lawrence's artwork captured nuances in the beauty and vitality of the Black experience during the Harlem Renaissance and the Great Migration.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "skeptical",
+    "observant",
+    "critical",
+    "confident"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of Jacob Lawrence's artistic process. In this context, \"observant\" means watchful and perceptive. The text emphasizes that the \"close attention\" Lawrence paid to \"all the details\" of his neighborhood allowed him to reflect subtle elements of \"the beauty and vitality of the Black experience\" in his artwork. This context indicates that being observant of his surroundings was an important part of Lawrence's work as an artist.",
+    "A": "Choice A is incorrect because the text gives no indication that Lawrence was \"skeptical,\" or had an attitude of doubt in general or about particular things, let alone that skepticism was important to him as an artist. Rather than indicating that he was skeptical, the text focuses on how Lawrence paid careful attention to everything around him and reflected his observations in his artwork.",
+    "C": "Choice C is incorrect because the text gives no indication that Lawrence was \"critical,\" which in this context would mean inclined to criticize harshly or unfairly. Rather than indicating that Lawrence found fault in things, the text suggests that he paid careful attention to everything around him and that his artwork reflects this careful attention.",
+    "D": "Choice D is incorrect because the text doesn't suggest that Lawrence was \"confident,\" or self-assured. Rather than addressing how Lawrence felt about himself and how that feeling affected his artistic process, the text emphasizes the careful attention Lawrence paid to everything around him—attention that allowed him to capture subtle elements of a particular place and time in his artwork."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "3daf126e",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "A model created by biologist Luis Valente predicts that the rate of speciation—the rate at which new species form—on an isolated island located approximately 5,000 kilometers from the nearest mainland ______ blank triple the rate of speciation on an island only 500 kilometers from the mainland.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "being",
+    "to be",
+    "to have been",
+    "will be"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is finite and nonfinite verb forms within a sentence. Relative clauses, such as the one beginning with \"that,\" require a finite verb, a verb that can function as the main verb of a clause. This choice correctly supplies the clause with the finite future tense verb \"will be.\"",
+    "A": "Choice A is incorrect because the nonfinite participle \"being\" doesn't supply the clause with a finite verb.",
+    "B": "Choice B is incorrect because the nonfinite to-infinitive \"to be\" doesn't supply the clause with a finite verb.",
+    "C": "Choice C is incorrect because the nonfinite to-infinitive \"to have been\" doesn't supply the clause with a finite verb."
+  }
+}

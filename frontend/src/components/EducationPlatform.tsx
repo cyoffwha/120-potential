@@ -4,6 +4,7 @@ import { ExplanationDialog } from "./ExplanationDialog";
 import { useRandomQuestion } from "../hooks/useRandomQuestion";
 import { Header } from "./Header";
 import { QuestionBank } from "./QuestionBank";
+import { CurrentQuestionInfo } from "./CurrentQuestionInfo";
 import { ReadingPassage } from "./ReadingPassage";
 import { MultipleChoice } from "./MultipleChoice";
 import { QuestionNavigation } from "./QuestionNavigation";
@@ -15,9 +16,16 @@ export const EducationPlatform = () => {
   const chatPopupRef = useRef<HTMLDivElement>(null);
   const chatInputRef = useRef<HTMLInputElement>(null);
 
-  const { current, loading, error, nextRandom, hasQuestions } = useRandomQuestion();
+  const { current, loading, error, nextRandom, hasQuestions, applyFilters, totalQuestions } = useRandomQuestion();
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [feedback, setFeedback] = useState("");
+
+  // Handle filter changes
+  const handleFiltersChange = (filters: { domain: string; skill: string; difficulty: string }) => {
+    console.log('Filters changed:', filters);
+    // Apply filters to backend
+    applyFilters(filters);
+  };
 
   // Chat window state
   const [showChat, setShowChat] = useState(false);
@@ -128,39 +136,58 @@ export const EducationPlatform = () => {
           <div className="text-red-600 font-bold">No questions in the database. Please add some first.</div>
         )}
         {current && (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Text Content - Left Side */}
-            <div className="space-y-6">
-              <ReadingPassage passages={current.passage ? [{ title: "Passage", content: current.passage }] : []} />
-            </div>
-            {/* Question - Right Side */}
-            <div className="space-y-6">
-              <div className="space-y-4">
-                <div className="space-y-2">
-                  <MultipleChoice
-                    question={current.question}
-                    options={[
-                      { id: "A", text: current.choice_a },
-                      { id: "B", text: current.choice_b },
-                      { id: "C", text: current.choice_c },
-                      { id: "D", text: current.choice_d },
-                    ]}
-                    selectedAnswer={selectedAnswer}
-                    onAnswerChange={handleAnswerChange}
-                    onAgain={handleAgain}
-                    onEasy={handleEasy}
-                    passage={current.passage}
-                    answerExplanation={current.rationale_a || ""}
-                    explanations={{
-                      A: current.rationale_a || "",
-                      B: current.rationale_b || "",
-                      C: current.rationale_c || "",
-                      D: current.rationale_d || ""
-                    }}
-                    correctAnswer={current.correct_choice}
-                  />
+          <div className="space-y-6">
+            {/* Full Width Question Filters at the top */}
+            <QuestionBank 
+              questionId={current.question_id || "#unknown"}
+              currentDomain="Any"
+              currentSkill="Any"
+              currentDifficulty="Any"
+              onFiltersChange={handleFiltersChange}
+            />
+            {/* Main Question Interface */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Text Content - Left Side */}
+              <div className="space-y-6">
+                <ReadingPassage passages={current.passage ? [{ title: "Passage", content: current.passage }] : []} />
+                {/* Current Question Details block below passage */}
+                <CurrentQuestionInfo 
+                  questionId={current.question_id || "#unknown"}
+                  currentDomain={current.domain || "Information and Ideas"}
+                  currentSkill={current.skill || "Command of Evidence"}
+                  currentDifficulty={current.difficulty || "Easy"}
+                  totalQuestions={totalQuestions}
+                />
+              </div>
+              {/* Question - Right Side */}
+              <div className="space-y-6">
+                <div className="space-y-4">
+                  <div className="space-y-2">
+                    <MultipleChoice
+                      question={current.question}
+                      options={[
+                        { id: "A", text: current.choice_a },
+                        { id: "B", text: current.choice_b },
+                        { id: "C", text: current.choice_c },
+                        { id: "D", text: current.choice_d },
+                      ]}
+                      selectedAnswer={selectedAnswer}
+                      onAnswerChange={handleAnswerChange}
+                      onAgain={handleAgain}
+                      onEasy={handleEasy}
+                      passage={current.passage}
+                      answerExplanation={current.rationale_a || ""}
+                      explanations={{
+                        A: current.rationale_a || "",
+                        B: current.rationale_b || "",
+                        C: current.rationale_c || "",
+                        D: current.rationale_d || ""
+                      }}
+                      correctAnswer={current.correct_choice}
+                    />
+                  </div>
+                  {feedback && <div>{feedback}</div>}
                 </div>
-                {feedback && <div>{feedback}</div>}
               </div>
             </div>
           </div>

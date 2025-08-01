@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 30c3aa98</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="image"><svg height="456.84" viewbox="0 0 380 456.84" width="380" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 1" id="ed420550-79eb-48d4-af01-cd27cdd08afd"><defs>
+<marker id="marker0" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#000" points="3 0, 0 5.196, 6 5.196"></polygon>
+</marker>
+<marker id="marker1" markerheight="5" markerunits="strokeWidth" markerwidth="5" refx="2.5" refy="2.5">
+<path d="M0,0 L0,5 L5,5 L5,0 z" fill="#BBB" stroke="#000" stroke-width="1.5"></path>
+</marker>
+<marker id="marker2" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<circle cx="3" cy="3" fill="#FFF" r="1.8" stroke="#000" stroke-width=".6"></circle>
+</marker>
+<marker id="marker3" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#999" points="0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3" stroke="#000" stroke-linejoin="round" stroke-width=".5"></polygon>
+</marker>
+</defs><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.83999633789062" x2="365" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.83999633789062" x2="119.83999633789062" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.83999633789062 78)">400</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.83999633789062" x2="365" xmlns="http://www.w3.org/2000/svg" y1="122" y2="122"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.83999633789062" x2="119.83999633789062" xmlns="http://www.w3.org/2000/svg" y1="122" y2="122"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.83999633789062 128)">300</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.83999633789062" x2="365" xmlns="http://www.w3.org/2000/svg" y1="172" y2="172"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.83999633789062" x2="119.83999633789062" xmlns="http://www.w3.org/2000/svg" y1="172" y2="172"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.83999633789062 178)">200</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.83999633789062" x2="365" xmlns="http://www.w3.org/2000/svg" y1="222" y2="222"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.83999633789062" x2="119.83999633789062" xmlns="http://www.w3.org/2000/svg" y1="222" y2="222"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.83999633789062 228)">100</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.83999633789062" x2="365" xmlns="http://www.w3.org/2000/svg" y1="272" y2="272"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.83999633789062" x2="119.83999633789062" xmlns="http://www.w3.org/2000/svg" y1="272" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.83999633789062 278)">0</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(24 172) rotate(-90)">Yearly copper production </text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(48 172) rotate(-90)">(in millions of pounds)</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.83999633789062" x2="113.83999633789062" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="155.6999969482422" x2="155.6999969482422" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(155.6999969482422 291.84)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">1889</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="239.4199981689453" x2="239.4199981689453" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.4199981689453 291.84)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">1902</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="323.13999938964844" x2="323.13999938964844" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(323.13999938964844 291.84)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">1909</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.4199981689453 24)">Copper Production for </text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.4199981689453 48)">Three States, 1889-1909</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.4199981689453 325.67999999999995)">Year</text><rect fill="none" height="103" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="159.11712646484375" x="117.94143676757812" xmlns="http://www.w3.org/2000/svg" y="342.84000000000003"></rect><line marker-end="url(#marker0)" stroke="#000" stroke-width="2.4" x1="124.94143676757812" x2="151.94143676757812" y1="359.84000000000003" y2="359.84000000000003"></line><line marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="151.94143676757812" x2="178.94143676757812" y1="359.84000000000003" y2="359.84000000000003"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(188.94143676757812 366.84000000000003)"> Montana</text><line marker-end="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="124.94143676757812" x2="151.94143676757812" y1="391.84000000000003" y2="391.84000000000003"></line><line marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="151.94143676757812" x2="178.94143676757812" y1="391.84000000000003" y2="391.84000000000003"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(188.94143676757812 398.84000000000003)"> Arizona</text><line marker-end="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="124.94143676757812" x2="151.94143676757812" y1="423.84000000000003" y2="423.84000000000003"></line><line marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="151.94143676757812" x2="178.94143676757812" y1="423.84000000000003" y2="423.84000000000003"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(188.94143676757812 430.84000000000003)"> Michigan</text><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="155.6999969482422" x2="239.4199981689453" y1="220" y2="139"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="155.6999969482422" x2="239.4199981689453" y1="256" y2="212.5"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="155.6999969482422" x2="239.4199981689453" y1="228.5" y2="187"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="239.4199981689453" x2="323.13999938964844" y1="139" y2="115"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="239.4199981689453" x2="323.13999938964844" y1="212.5" y2="126.5"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="239.4199981689453" x2="323.13999938964844" y1="187" y2="156.5"></line></g></svg></figure></p>
+<p>Copper had been mined in the US for thousands of years, but large-scale commercial mining of copper took off starting in the late 1800s. This was due to several factors. Technological advancements in the mining industry led to improvements in the production of copper. This helped the country keep up with the growing number of people wanting to buy copper starting in the 1890s. At the same time, the growth of the railroad system made the transportation of copper in large batches much easier. Several states saw rapid growth in the production of this resource, for example: <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses the data in the graph to complete the example?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The rise in copper production in Michigan slowed from 1902 to 1909.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Montana and Arizona produced more copper than Michigan did in 1909.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Fewer than 100 million pounds of copper were produced in Arizona in 1889.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Copper production rose significantly from 1889 to 1909 for Arizona, Michigan, and Montana.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The text asks us to provide examples of several states that saw rapid growth in copper production from the 1890s onward. The graph depicts Arizona, Michigan, and Montana all experiencing such rapid growth during this time period.</p><p>Choice A is incorrect. The claim is about states experiencing rapid growth in copper production. This statement only discusses one state and does not provide evidence of rapid growth&mdash;in fact, it discusses a slow-down of growth. Choice B is incorrect. The claim is about states experiencing rapid growth in copper production, and this statement provides a comparison of production rates between states, rather than an example of rapid growth. Choice C is incorrect. The claim is about several states experiencing rapid growth in copper production. This statement only discusses one state and does not provide evidence of growth in copper production.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">81 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe rise in copper production in Michigan slowed from 1902 to 1909.\u003c/p\u003e", "id": "895ef46b-1a6c-43af-821a-23fac793c686"}, {"content": "\u003cp\u003eMontana and Arizona produced more copper than Michigan did in 1909.\u003c/p\u003e", "id": "a2430a4d-a674-48c8-9f7b-e40fb5a05240"}, {"content": "\u003cp\u003eFewer than 100 million pounds of copper were produced in Arizona in 1889.\u003c/p\u003e", "id": "b6b6ad63-7fee-4886-9848-7ced2bebd8b1"}, {"content": "\u003cp\u003eCopper production rose significantly from 1889 to 1909 for Arizona, Michigan, and Montana.\u003c/p\u003e", "id": "143fedb4-6072-4fea-8c82-aeca7704dc6f"}], "correct_answer": ["D"], "externalid": "e2059112-1019-48a4-a70a-3b33e18211ca", "keys": ["143fedb4-6072-4fea-8c82-aeca7704dc6f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-E006", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The text asks us to provide examples of several states that saw rapid growth in copper production from the 1890s onward. The graph depicts Arizona, Michigan, and Montana all experiencing such rapid growth during this time period.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. The claim is about states experiencing rapid growth in copper production. This statement only discusses one state and does not provide evidence of rapid growth\u0026mdash;in fact, it discusses a slow-down of growth. Choice B is incorrect. The claim is about states experiencing rapid growth in copper production, and this statement provides a comparison of production rates between states, rather than an example of rapid growth. Choice C is incorrect. The claim is about several states experiencing rapid growth in copper production. This statement only discusses one state and does not provide evidence of growth in copper production.\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses the data in the graph to complete the example?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"image\"\u003e\u003csvg height=\"456.84\" viewbox=\"0 0 380 456.84\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cg data-name=\"Layer 1\" id=\"ed420550-79eb-48d4-af01-cd27cdd08afd\"\u003e\u003cdefs\u003e\n\u003cmarker id=\"marker0\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#000\" points=\"3 0, 0 5.196, 6 5.196\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker1\" markerheight=\"5\" markerunits=\"strokeWidth\" markerwidth=\"5\" refx=\"2.5\" refy=\"2.5\"\u003e\n\u003cpath d=\"M0,0 L0,5 L5,5 L5,0 z\" fill=\"#BBB\" stroke=\"#000\" stroke-width=\"1.5\"\u003e\u003c/path\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker2\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003ccircle cx=\"3\" cy=\"3\" fill=\"#FFF\" r=\"1.8\" stroke=\"#000\" stroke-width=\".6\"\u003e\u003c/circle\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker3\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#999\" points=\"0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\".5\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003c/defs\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.83999633789062\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.83999633789062\" x2=\"119.83999633789062\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.83999633789062 78)\"\u003e400\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.83999633789062\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"122\" y2=\"122\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.83999633789062\" x2=\"119.83999633789062\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"122\" y2=\"122\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.83999633789062 128)\"\u003e300\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.83999633789062\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"172\" y2=\"172\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.83999633789062\" x2=\"119.83999633789062\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"172\" y2=\"172\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.83999633789062 178)\"\u003e200\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.83999633789062\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"222\" y2=\"222\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.83999633789062\" x2=\"119.83999633789062\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"222\" y2=\"222\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.83999633789062 228)\"\u003e100\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.83999633789062\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"272\" y2=\"272\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.83999633789062\" x2=\"119.83999633789062\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"272\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.83999633789062 278)\"\u003e0\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(24 172) rotate(-90)\"\u003eYearly copper production \u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(48 172) rotate(-90)\"\u003e(in millions of pounds)\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.83999633789062\" x2=\"113.83999633789062\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"155.6999969482422\" x2=\"155.6999969482422\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(155.6999969482422 291.84)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e1889\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"239.4199981689453\" x2=\"239.4199981689453\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.4199981689453 291.84)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e1902\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"323.13999938964844\" x2=\"323.13999938964844\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(323.13999938964844 291.84)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e1909\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.4199981689453 24)\"\u003eCopper Production for \u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.4199981689453 48)\"\u003eThree States, 1889-1909\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.4199981689453 325.67999999999995)\"\u003eYear\u003c/text\u003e\u003crect fill=\"none\" height=\"103\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"159.11712646484375\" x=\"117.94143676757812\" xmlns=\"http://www.w3.org/2000/svg\" y=\"342.84000000000003\"\u003e\u003c/rect\u003e\u003cline marker-end=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"124.94143676757812\" x2=\"151.94143676757812\" y1=\"359.84000000000003\" y2=\"359.84000000000003\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"151.94143676757812\" x2=\"178.94143676757812\" y1=\"359.84000000000003\" y2=\"359.84000000000003\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(188.94143676757812 366.84000000000003)\"\u003e Montana\u003c/text\u003e\u003cline marker-end=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"124.94143676757812\" x2=\"151.94143676757812\" y1=\"391.84000000000003\" y2=\"391.84000000000003\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"151.94143676757812\" x2=\"178.94143676757812\" y1=\"391.84000000000003\" y2=\"391.84000000000003\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(188.94143676757812 398.84000000000003)\"\u003e Arizona\u003c/text\u003e\u003cline marker-end=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"124.94143676757812\" x2=\"151.94143676757812\" y1=\"423.84000000000003\" y2=\"423.84000000000003\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"151.94143676757812\" x2=\"178.94143676757812\" y1=\"423.84000000000003\" y2=\"423.84000000000003\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(188.94143676757812 430.84000000000003)\"\u003e Michigan\u003c/text\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"155.6999969482422\" x2=\"239.4199981689453\" y1=\"220\" y2=\"139\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"155.6999969482422\" x2=\"239.4199981689453\" y1=\"256\" y2=\"212.5\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"155.6999969482422\" x2=\"239.4199981689453\" y1=\"228.5\" y2=\"187\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"239.4199981689453\" x2=\"323.13999938964844\" y1=\"139\" y2=\"115\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"239.4199981689453\" x2=\"323.13999938964844\" y1=\"212.5\" y2=\"126.5\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"239.4199981689453\" x2=\"323.13999938964844\" y1=\"187\" y2=\"156.5\"\u003e\u003c/line\u003e\u003c/g\u003e\u003c/svg\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eCopper had been mined in the US for thousands of years, but large-scale commercial mining of copper took off starting in the late 1800s. This was due to several factors. Technological advancements in the mining industry led to improvements in the production of copper. This helped the country keep up with the growing number of people wanting to buy copper starting in the 1890s. At the same time, the growth of the railroad system made the transportation of copper in large batches much easier. Several states saw rapid growth in the production of this resource, for example: \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "f4bec5f7-36e3-49c9-95ed-506b5963cfba", "templateclustername": "", "type": "mcq", "vaultid": "df7d083a-b530-42f4-909a-54e1da4fb7dd"}, "createDate": 1691007959369, "difficulty": "E", "external_id": "e2059112-1019-48a4-a70a-3b33e18211ca", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "30c3aa98", "score_band_range_cd": 2, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "45e487a9-c657-46e8-99f5-77a31dd3df09", "updateDate": 1691007959369};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-30c3aa98");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

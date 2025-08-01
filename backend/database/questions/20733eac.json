@@ -1,0 +1,22 @@
+{
+  "question_id": "20733eac",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "It has long been thought that humans first crossed a land bridge into the Americas approximately 13,000 years ago. ______ blank based on radiocarbon dating of samples uncovered in Mexico, a research team recently suggested that humans may have arrived more than 30,000 years ago—much earlier than previously thought.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "As a result,",
+    "Similarly,",
+    "However,",
+    "In conclusion,&nbsp;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"However\" logically signals that the theory discussed in this sentence—that humans may have arrived in the Americas over 30,000 years ago—contrasts with the previously discussed theory that humans arrived around 13,000 years ago.",
+    "A": "Choice A is incorrect because \"as a result\" illogically signals that the theory in this sentence is the result of the theory discussed in the previous sentence. Instead, this theory contrasts with the previous one.",
+    "B": "Choice B is incorrect because \"similarly\" illogically signals that the theory in this sentence is similar to the theory discussed in the previous sentence. Instead, this theory contrasts with the previous one.",
+    "D": "Choice D is incorrect because \"in conclusion\" illogically signals that the theory in this sentence concludes or summarizes the discussion of the previous theory. Instead, this theory contrasts with the previous one."
+  }
+}

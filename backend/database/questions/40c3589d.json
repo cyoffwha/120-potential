@@ -1,0 +1,22 @@
+{
+  "question_id": "40c3589d",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Luci Tapahonso is the inaugural poet laureate of the Navajo Nation. Her book S&aacute;anii Dahataal/The Women Are Singing —a combination of fiction and memoir, poetry and ______ blank serves as a testament to her versatility as a writer.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "prose;",
+    "prose",
+    "prose,",
+    "prose&mdash;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"A combination of fiction and memoir, poetry and prose\" is a nonessential supplement, so it needs to be set off from the rest of the sentence with a pair of matching punctuation marks. We already have a dash at the beginning of the supplement, so we need to add a dash at the end of the supplement to match.",
+    "A": "Choice A is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. \"A combination of fiction and memoir, poetry and prose\" is a nonessential supplement, so it needs to be set off from the rest of the sentence with a pair of matching punctuation marks. We already have a dash at the beginning of the supplement, so we need to add a dash at the end of the supplement to match.",
+    "B": "Choice B is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. \"A combination of fiction and memoir, poetry and prose\" is a nonessential supplement, so it needs to be set off from the rest of the sentence with a pair of matching punctuation marks. We already have a dash at the beginning of the supplement, so we need to add a dash at the end of the supplement to match.",
+    "C": "Choice C is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. \"A combination of fiction and memoir, poetry and prose\" is a nonessential supplement, so it needs to be set off from the rest of the sentence with a pair of matching punctuation marks. We already have a dash at the beginning of the supplement, so we need to add a dash at the end of the supplement to match."
+  }
+}

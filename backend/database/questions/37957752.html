@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 37957752</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>As biologist Terrie Williams has documented, deep dives present a challenge for seals and other marine mammals. A seal must exert enough energy to propel itself hundreds of meters downward, while keeping its heart rate low enough that it doesn&rsquo;t run out of oxygen while underwater. <span aria-hidden="true">______</span><span class="sr-only">blank</span> a seal moves its flippers as little as possible on a deep dive, gliding to conserve energy.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical transition?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In the first place,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>On the other hand,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For this reason,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In comparison,</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. &ldquo;For this reason&rdquo; logically signals that the behavior described in this sentence is a consequence of the information about seals in the previous sentence. That is, a seal moves its flippers as little as possible during a deep dive because it needs to keep its heart rate low enough that it does not run out of oxygen.&nbsp;</p><p>Choice A is incorrect because &ldquo;in the first place&rdquo; illogically signals that this sentence is the first point in a discussion. Instead, the sentence describes a behavior that is a consequence of the previous information about seals. &nbsp;Choice B is incorrect because &ldquo;on the other hand&rdquo; illogically signals that the behavior described in this sentence contrasts with the previous information about seals. Instead, it is a consequence of that information. Choice D is incorrect because &ldquo;in comparison&rdquo; illogically signals that the behavior described in this sentence is being compared to the previous information about seals. Instead, it is a consequence of that information.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">692 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIn the first place,\u003c/p\u003e", "id": "4b16b08d-614c-46c2-b303-577da3159c8b"}, {"content": "\u003cp\u003eOn the other hand,\u003c/p\u003e", "id": "d0056231-c0fa-4710-8136-5da82dd7a876"}, {"content": "\u003cp\u003eFor this reason,\u003c/p\u003e", "id": "b9ae48ea-673b-413a-9a43-606f4900f6ed"}, {"content": "\u003cp\u003eIn comparison,\u003c/p\u003e", "id": "a82cee71-be79-4ea4-a3b5-0be38cbf3c21"}], "correct_answer": ["C"], "externalid": "6ac65687-dbeb-45fe-9260-d7cbe31177e1", "keys": ["b9ae48ea-673b-413a-9a43-606f4900f6ed"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-255-TRA", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. \u0026ldquo;For this reason\u0026rdquo; logically signals that the behavior described in this sentence is a consequence of the information about seals in the previous sentence. That is, a seal moves its flippers as little as possible during a deep dive because it needs to keep its heart rate low enough that it does not run out of oxygen.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because \u0026ldquo;in the first place\u0026rdquo; illogically signals that this sentence is the first point in a discussion. Instead, the sentence describes a behavior that is a consequence of the previous information about seals. \u0026nbsp;Choice B is incorrect because \u0026ldquo;on the other hand\u0026rdquo; illogically signals that the behavior described in this sentence contrasts with the previous information about seals. Instead, it is a consequence of that information. Choice D is incorrect because \u0026ldquo;in comparison\u0026rdquo; illogically signals that the behavior described in this sentence is being compared to the previous information about seals. Instead, it is a consequence of that information.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical transition?\u003c/p\u003e", "stimulus": "\u003cp\u003eAs biologist Terrie Williams has documented, deep dives present a challenge for seals and other marine mammals. A seal must exert enough energy to propel itself hundreds of meters downward, while keeping its heart rate low enough that it doesn\u0026rsquo;t run out of oxygen while underwater. \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e a seal moves its flippers as little as possible on a deep dive, gliding to conserve energy.\u003c/p\u003e", "templateclusterid": "4cb7065e-e5f6-4e8a-8a92-80e818980b15", "templateclustername": "", "type": "mcq", "vaultid": "5f133cad-84e5-47ea-b320-742f50d6f6a5"}, "createDate": 1691007959333, "difficulty": "E", "external_id": "6ac65687-dbeb-45fe-9260-d7cbe31177e1", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "37957752", "score_band_range_cd": 2, "skill_cd": "TRA", "skill_desc": "Transitions", "uId": "ca0a1384-eb57-4d1a-9e09-112c6c8e1712", "updateDate": 1691007959333};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-37957752");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

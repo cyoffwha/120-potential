@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0b696a0c</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>NASA&rsquo;s <em>Cassini</em> probe has detected an unusual wobble in the rotation of Mimas, Saturn&rsquo;s smallest moon. Using a computer model to study Mimas&rsquo;s gravitational interactions with Saturn and tidal forces, geophysicist Alyssa Rhoden and colleagues have proposed that this wobble could be due to a liquid ocean moving beneath the moon&rsquo;s icy surface. The researchers believe other moons should be examined to see if they too might have oceans hidden beneath their surfaces.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Rhoden and colleagues were the first to confirm that several of Saturn&rsquo;s moons contain hidden oceans.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Research has failed to identify signs that there is an ocean hidden beneath the surface of Mimas.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Rhoden and colleagues created a new computer model that identifies moons with hidden oceans without needing to analyze the moons&rsquo; rotation.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Research has revealed that an oddity in the rotation of Mimas could be explained by an ocean hidden beneath its surface.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The study isn&rsquo;t definitive, but it says that Mimas&rsquo;s wobbly rotation could be explained by the hidden ocean. </p><p>Choice A is incorrect. This choice goes too far beyond the information in the text. Rhoden&rsquo;s team proposed that one moon of Saturn could have a liquid ocean beneath its surface, and that other moons should also be examined, but no one has confirmed anything. Choice B is incorrect. This choice conflicts with the text. Research has &nbsp;identified at least one sign&mdash;the unusual wobble in Mimas&rsquo;s rotation&mdash;that might be due to a hidden ocean beneath its surface.&nbsp;Choice C is incorrect. This choice doesn&rsquo;t reflect the text. The computer model studies &ldquo;gravitational interactions,&rdquo; which seem to account for the wobbly rotation of Mimas. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">215 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eRhoden and colleagues were the first to confirm that several of Saturn\u0026rsquo;s moons contain hidden oceans.\u003c/p\u003e", "id": "47fa43e5-9de0-421b-97cb-3fc70a178699"}, {"content": "\u003cp\u003eResearch has failed to identify signs that there is an ocean hidden beneath the surface of Mimas.\u003c/p\u003e", "id": "12741d28-9263-4e10-8c43-e56705b4b69c"}, {"content": "\u003cp\u003eRhoden and colleagues created a new computer model that identifies moons with hidden oceans without needing to analyze the moons\u0026rsquo; rotation.\u0026nbsp;\u003c/p\u003e", "id": "0dce3f23-856b-4173-b925-b2d3396e5fc5"}, {"content": "\u003cp\u003eResearch has revealed that an oddity in the rotation of Mimas could be explained by an ocean hidden beneath its surface.\u003c/p\u003e", "id": "c1d7ad12-0e0b-4feb-b3d2-1d98e7c2e43c"}], "correct_answer": ["D"], "externalid": "b6c6791d-a741-4cf2-a375-015d06958e65", "keys": ["c1d7ad12-0e0b-4feb-b3d2-1d98e7c2e43c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CID-E004", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The study isn\u0026rsquo;t definitive, but it says that Mimas\u0026rsquo;s wobbly rotation could be explained by the hidden ocean. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice goes too far beyond the information in the text. Rhoden\u0026rsquo;s team proposed that one moon of Saturn could have a liquid ocean beneath its surface, and that other moons should also be examined, but no one has confirmed anything. Choice B is incorrect. This choice conflicts with the text. Research has \u0026nbsp;identified at least one sign\u0026mdash;the unusual wobble in Mimas\u0026rsquo;s rotation\u0026mdash;that might be due to a hidden ocean beneath its surface.\u0026nbsp;Choice C is incorrect. This choice doesn\u0026rsquo;t reflect the text. The computer model studies \u0026ldquo;gravitational interactions,\u0026rdquo; which seem to account for the wobbly rotation of Mimas. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eNASA\u0026rsquo;s \u003cem\u003eCassini\u003c/em\u003e probe has detected an unusual wobble in the rotation of Mimas, Saturn\u0026rsquo;s smallest moon. Using a computer model to study Mimas\u0026rsquo;s gravitational interactions with Saturn and tidal forces, geophysicist Alyssa Rhoden and colleagues have proposed that this wobble could be due to a liquid ocean moving beneath the moon\u0026rsquo;s icy surface. The researchers believe other moons should be examined to see if they too might have oceans hidden beneath their surfaces.\u003c/p\u003e", "templateclusterid": "c7599bd5-f988-473b-8b0b-cdc79574af8a", "templateclustername": "", "type": "mcq", "vaultid": "e283424e-fa7e-4a71-8def-dc0184ef9104"}, "createDate": 1691007959359, "difficulty": "E", "external_id": "b6c6791d-a741-4cf2-a375-015d06958e65", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "0b696a0c", "score_band_range_cd": 2, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "b52d3e4d-d063-4f3b-b9d5-fc5136ad8066", "updateDate": 1691007959359};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0b696a0c");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

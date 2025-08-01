@@ -1,0 +1,22 @@
+{
+  "question_id": "1e85caa9",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is from Edith Nesbit's 1902 novel Five Children and It . Five young siblings have just moved with their parents from London to a house in the countryside that they call the White House. It was not really a pretty house at all; it was quite ordinary, and mother thought it was rather inconvenient, and was quite annoyed at there being no shelves, to speak of, and hardly a cupboard in the place. Father used to say that the ironwork on the roof and coping was like an architect's nightmare. But the house was deep in the country, with no other house in sight, and the children had been in London for two years, without so much as once going to the seaside even for a day by an excursion train, and so the White House seemed to them a sort of Fairy Palace set down in an Earthly Paradise. Which choice best states the main idea of the text?",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Although their parents believe the house has several drawbacks, the children are enchanted by it.",
+    "The children don&rsquo;t like the house nearly as much as their parents do.",
+    "Each member of the family admires a different characteristic of the house.",
+    "The house is beautiful and well built, but the children miss their old home in London."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The text lists complaints about the house made by the mother and father, but then it says that the children thought the house was a \"Fairy Palace\" and \"Earthly Paradise.\"",
+    "B": "Choice B is incorrect. The text states the opposite of this. It describes how the mother and father dislike the house and says the children think the house seems like paradise.",
+    "C": "Choice C is incorrect. This isn't what the text says. Only the children are said to admire the house; mother and father both complain about the house.",
+    "D": "Choice D is incorrect. The text states the opposite of this. It tells us the house was ugly and poorly built (\"an architect's nightmare\") and suggests the children were tired of London."
+  }
+}

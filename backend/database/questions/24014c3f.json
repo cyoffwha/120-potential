@@ -1,0 +1,22 @@
+{
+  "question_id": "24014c3f",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Severo Ochoa discovered the enzyme PNPase in 1955. PNPase is involved in both the creation and degradation of mRNA. Ochoa incorrectly hypothesized that PNPase provides the genetic blueprints for mRNA. The discovery of PNPase proved critical to deciphering the human genetic code. Deciphering the genetic code has led to a better understanding of how genetic variations affect human health. The student wants to emphasize the significance of Ochoa's discovery. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the significance of Ochoa&rsquo;s discovery. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Ochoa&rsquo;s 1955 discovery of PNPase proved critical to deciphering the human genetic code, leading to a better understanding of how genetic variations affect human health.",
+    "Ochoa first discovered PNPase, an enzyme that he hypothesized contained the genetic blueprints for mRNA, in 1955.&nbsp;",
+    "In 1955, Ochoa discovered the PNPase enzyme, which is involved in both the creation and degradation of mRNA.",
+    "Though his discovery of PNPase was critical to deciphering the human genetic code, Ochoa incorrectly hypothesized that the enzyme was the source of mRNA&rsquo;s genetic blueprints."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The sentence emphasizes the significance of Ochoa's discovery, noting that it proved critical to deciphering the human genetic code, which resulted in a better understanding of how genetic variations affect human health.",
+    "B": "Choice B is incorrect. While the sentence explains what Ochoa discovered, it doesn't emphasize the significance of the discovery.",
+    "C": "Choice C is incorrect. While the sentence explains what Ochoa discovered, it doesn't emphasize the significance of the discovery.",
+    "D": "Choice D is incorrect. While the sentence mentions that Ochoa's discovery was crucial, it emphasizes Ochoa's incorrect hypothesis, not the significance of the discovery."
+  }
+}

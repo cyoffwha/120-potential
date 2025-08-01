@@ -1,0 +1,22 @@
+{
+  "question_id": "04bfd364",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The intense pressure found in the deep ocean can affect the structure of proteins in fish's cells, distorting the proteins' shape. The chemical trimethylamine N-oxide (TMAO) counters this effect, ensuring that proteins retain their original ______ blank is found in high concentrations in the cells of the deepest-dwelling fish.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "configurations. TMAO",
+    "configurations TMAO",
+    "configurations, TMAO",
+    "configurations and TMAO"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period after \"configurations\" is used correctly to mark the boundary between one sentence (\"The intense&hellip;configurations\") and another (\"TMAO&hellip;fish\"). The supplementary phrase (\"ensuring&hellip;configurations\") modifies the main clause of the first sentence (\"The chemical&hellip;effect\"), and \"TMAO\" is the subject of the second sentence.",
+    "B": "Choice B is incorrect because it results in a run-on sentence. The sentences (\"The intense&hellip;configurations\" and \"TMAO&hellip;fish\") are fused without punctuation and/or a conjunction.",
+    "C": "Choice C is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences.",
+    "D": "Choice D is incorrect. Without a comma preceding it, the conjunction \"and\" can't be used in this way to join sentences."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "17e49403",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "When, in the 1800s, geologists first realized that much of Earth had once been covered by great sheets of ice, some theorized that the phenomenon was cyclical, occurring at regular intervals. Each Ice Age is so destructive, though, that it largely erases the geological evidence of its predecessor. ______ blank geologists were unable to confirm the theory of cyclical Ice Ages until the 1960s.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Hence,",
+    "Moreover,",
+    "Nevertheless,",
+    "Next,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Hence\" logically signals that the information in this sentence—that geologists couldn't confirm the theory of cyclical Ice Ages until the 1960s—is a consequence of the previous information about the destructiveness of each Ice Age and the erasure of necessary geological evidence.",
+    "B": "Choice B is incorrect because \"moreover\" illogically signals that the information in this sentence is merely additional to the previous information about the destructiveness of each Ice Age. Instead, the sentence identifies a specific consequence of that information.",
+    "C": "Choice C is incorrect because \"nevertheless\" illogically signals that the information in this sentence is true despite the previous information about the destructiveness of each Ice Age. Instead, the sentence identifies a specific consequence of that information.",
+    "D": "Choice D is incorrect because \"next\" illogically signals that the information in this sentence is the next step in a process. Instead, the sentence identifies a specific consequence of the previous information."
+  }
+}

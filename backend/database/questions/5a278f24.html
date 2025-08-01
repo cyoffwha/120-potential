@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 5a278f24</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The work of molecular biophysicist Enrique M. De La Cruz is known for <span aria-hidden="true">______</span><span class="sr-only">blank</span> traditional boundaries between academic disciplines. The university laboratory that De La Cruz runs includes engineers, biologists, chemists, and physicists, and the research the lab produces makes use of insights and techniques from all those fields.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>epitomizing</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>transcending</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>anticipating</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>reinforcing</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. Based on the text, we&rsquo;re looking for a word that means something similar to "mak[ing] use of insights and techniques from all those fields." "Transcending" means "going beyond," so "transcending traditional boundaries" would mean crossing into all those various fields of research, which is exactly the meaning we want.</p><p>Choice A is incorrect. This isn&rsquo;t a logical word choice. Based on the text, we&rsquo;re looking for a word that means something similar to "mak[ing] use of insights and techniques from all those fields." To "epitomize" means to "be a perfect example of," so "epitomizing traditional boundaries" would mean the opposite of what we want: keeping the fields of research separate. Choice C is incorrect. This isn&rsquo;t a logical word choice. Based on the text, we&rsquo;re looking for a word that means something similar to "mak[ing] use of insights and techniques from all those fields." "Anticipating" means "expecting" or "waiting for," and would result in a confusing sentence with an unclear meaning. Choice D is incorrect. This isn&rsquo;t a logical word choice. Based on the text, we&rsquo;re looking for a word that means something similar to "mak[ing] use of insights and techniques from all those fields." "Reinforcing traditional boundaries" would mean the opposite: keeping the fields of research separate.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">345 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eepitomizing\u003c/p\u003e", "id": "b5d36e39-1a21-4f99-a0fa-f72268f80caa"}, {"content": "\u003cp\u003etranscending\u003c/p\u003e", "id": "bfec0fa7-5814-4d8e-8a0a-3b569457e8c4"}, {"content": "\u003cp\u003eanticipating\u003c/p\u003e", "id": "bac47d4e-f4af-4aae-839a-d12ce08635c4"}, {"content": "\u003cp\u003ereinforcing\u003c/p\u003e", "id": "cf0c07b6-179e-49ee-905c-02ec649a79ff"}], "correct_answer": ["B"], "externalid": "0295cfad-2b39-4295-b361-841f00e1c7a6", "keys": ["bfec0fa7-5814-4d8e-8a0a-3b569457e8c4"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-910-WIC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. Based on the text, we\u0026rsquo;re looking for a word that means something similar to \"mak[ing] use of insights and techniques from all those fields.\" \"Transcending\" means \"going beyond,\" so \"transcending traditional boundaries\" would mean crossing into all those various fields of research, which is exactly the meaning we want.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. This isn\u0026rsquo;t a logical word choice. Based on the text, we\u0026rsquo;re looking for a word that means something similar to \"mak[ing] use of insights and techniques from all those fields.\" To \"epitomize\" means to \"be a perfect example of,\" so \"epitomizing traditional boundaries\" would mean the opposite of what we want: keeping the fields of research separate. Choice C is incorrect. This isn\u0026rsquo;t a logical word choice. Based on the text, we\u0026rsquo;re looking for a word that means something similar to \"mak[ing] use of insights and techniques from all those fields.\" \"Anticipating\" means \"expecting\" or \"waiting for,\" and would result in a confusing sentence with an unclear meaning. Choice D is incorrect. This isn\u0026rsquo;t a logical word choice. Based on the text, we\u0026rsquo;re looking for a word that means something similar to \"mak[ing] use of insights and techniques from all those fields.\" \"Reinforcing traditional boundaries\" would mean the opposite: keeping the fields of research separate.\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe work of molecular biophysicist Enrique M. De La Cruz is known for \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e traditional boundaries between academic disciplines. The university laboratory that De La Cruz runs includes engineers, biologists, chemists, and physicists, and the research the lab produces makes use of insights and techniques from all those fields.\u003c/p\u003e", "templateclusterid": "165c05bf-20cb-4196-a1c1-4df9a0891d09", "templateclustername": "", "type": "mcq", "vaultid": "a296c43b-f7d5-4285-92fe-daf648bfa179"}, "createDate": 1691007959354, "difficulty": "M", "external_id": "0295cfad-2b39-4295-b361-841f00e1c7a6", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "5a278f24", "score_band_range_cd": 5, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "3310e10e-da8c-4520-88cb-982b05236c7f", "updateDate": 1691007959354};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-5a278f24");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

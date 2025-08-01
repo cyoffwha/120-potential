@@ -1,0 +1,22 @@
+{
+  "question_id": "5a5e22b5",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Gravitational waves are powerful ripples that originate in deep space and eventually pass through Earth. The Laser Interferometer Gravitational Wave Observatory (LIGO) is a physics study that began in 2002. LIGO's goal is to detect and analyze gravitational waves. LIGO uses a pair of massive gravitational wave detectors called interferometers that are thousands of miles apart. In 2015, for the first time in history, LIGO researchers detected a gravitational wave passing through Earth. The student wants to present LIGO's aim and methodology. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to present LIGO&rsquo;s aim and methodology. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "In 2015, LIGO&rsquo;s massive interferometers detected a powerful ripple that originated in deep space and eventually passed through Earth.",
+    "Though the physics study LIGO began in 2002, its massive interferometers didn&rsquo;t detect a gravitational wave until 2015.",
+    "To achieve its aims, LIGO uses a pair of massive interferometers that are thousands of miles apart.",
+    "A physics study designed to detect and analyze gravitational waves, LIGO uses a pair of massive interferometers that are thousands of miles apart."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence effectively presents the LIGO study's aim, noting that it is designed to detect and analyze gravitational waves, and its methodology (it uses two interferometers to detect the waves).",
+    "A": "Choice A is incorrect. The sentence describes a finding from the LIGO study; it doesn't effectively present the study's aim or its methodology.",
+    "B": "Choice B is incorrect. The sentence provides background information about the LIGO study's timeline; it doesn't effectively present the study's aim or its methodology.",
+    "C": "Choice C is incorrect. The sentence touches on LIGO's methodology, noting that it uses two interferometers, but doesn't indicate what the study's aims are."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "1d971f75",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Photographer Ansel Adams's landscape portraits are iconic pieces of American art. However, many of the ______ blank of landscapes were intended not as art but as marketing; a concessions company at Yosemite National Park had hired Adams to take pictures of the park for restaurant menus and brochures.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "photographer&rsquo;s early photo&rsquo;s",
+    "photographers early photo&rsquo;s",
+    "photographer&rsquo;s early photos",
+    "photographers early photos"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. There's only one photographer (Adams), and the photos are his, so the singular possessive \"photographer's\" is correct. There's more than one photo, and nothing belongs to the photos, so the simple plural \"photos\" is correct.",
+    "A": "Choice A is incorrect. This choice uses the singular possessive \"photo's,\" which isn't correct. There's more than one photo, and they don't possess anything, so the noun should be the simple plural \"photos.\"",
+    "B": "Choice B is incorrect. This choice uses the simple plural \"photographers\" and the singular possessive \"photo's,\" which aren't correct. There's only one photographer (Adams) and there's more than one photo.",
+    "D": "Choice D is incorrect. This choice uses the simple plural \"photographers,\" which isn't correct. There's only one photographer (Adams)."
+  }
+}

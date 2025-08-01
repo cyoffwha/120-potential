@@ -1,0 +1,22 @@
+{
+  "question_id": "430d929a",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "British scientists James Watson and Francis Crick won the Nobel Prize in part for their 1953 paper announcing the double helix structure of DNA, but it is misleading to say that Watson and Crick discovered the double helix. ______ blank findings were based on a famous X-ray image of DNA fibers, \"Photo 51,\" developed by X-ray crystallographer Rosalind Franklin and her graduate student Raymond Gosling.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "They&rsquo;re",
+    "It&rsquo;s",
+    "Their",
+    "Its"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of possessive determiners. The plural possessive determiner \"their\" agrees in number with the plural conjoined noun phrase \"Watson and Crick\" and thus indicates that the findings were those of Watson and Crick.",
+    "A": "Choice A is incorrect because \"they're\" is the contraction for \"they are,\" not a possessive determiner.",
+    "B": "Choice B is incorrect because \"it's\" is the contraction for \"it is\" or \"it has,\" not a possessive determiner.",
+    "D": "Choice D is incorrect because the singular possessive determiner \"its\" doesn't agree in number with the plural conjoined noun phrase \"Watson and Crick.\""
+  }
+}

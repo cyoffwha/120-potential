@@ -1,0 +1,22 @@
+{
+  "question_id": "25176ff8",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "\"Mrs. Spring Fragrance\" is a 1912 short story by Sui Sin Far. In the story, Mrs. Spring Fragrance, a Chinese immigrant living in Seattle, is traveling in California. In letters to her husband and friend, she demonstrates her concern for what's happening at her home in Seattle while she is away: ______ blank",
+  "question_text": "Which quotation from Mrs. Spring Fragrance&rsquo;s letters most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;My honorable cousin is preparing for the Fifth Moon Festival, and wishes me to compound for the occasion some American &lsquo;fudge,&rsquo; for which delectable sweet, made by my clumsy hands, you have sometimes shown a slight prejudice.&rdquo;",
+    "&ldquo;Next week I accompany Ah Oi to the beauteous town of San Jos&eacute;. There will we be met by the son of the Illustrious Teacher.&rdquo;",
+    "&ldquo;Forget not to care for the cat, the birds, and the flowers. Do not eat too quickly nor fan too vigorously now that the weather is warming.&rdquo;",
+    "&ldquo;I am enjoying a most agreeable visit, and American friends, as also our own, strive benevolently for the accomplishment of my pleasure.&rdquo;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it presents a quotation that illustrates the claim that Mrs. Spring Fragrance demonstrates concern for what's happening at home while she's in California. By giving reminders to \"care for the cat, the birds, and the flowers,\" \"not eat too quickly,\" and avoid engaging in strenuous activity in the heat, Mrs. Spring Fragrance shows that she's thinking about what's happening at home and wants to ensure everything is taken care of.",
+    "A": "Choice A is incorrect because the quotation, while it does suggest that Mrs. Spring Fragrance has made fudge at home before, is focused on preparations for an upcoming festival, not on concerns for anything happening at home while Mrs. Spring Fragrance is away.",
+    "B": "Choice B is incorrect because the quotation has to do with an upcoming event during Mrs. Spring Fragrance's trip—visiting San Jos&eacute; and meeting someone new—rather than her concern for what's happening at home.",
+    "D": "Choice D is incorrect because the quotation is focused on how Mrs. Spring Fragrance feels about her trip and the friends she's seeing, not on her concern for what's happening at home."
+  }
+}

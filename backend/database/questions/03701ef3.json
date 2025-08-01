@@ -1,0 +1,22 @@
+{
+  "question_id": "03701ef3",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "To better understand the burrowing habits of Alpheus bellulus (the tiger pistol shrimp), some studies have used resin casting to obtain precise measurements of the shrimps' burrows. Resin casting involves completely filling an empty burrow with a liquid plastic that hardens to create a three-dimensional model; however, recovering the model inevitably requires destroying the burrow. In their 2022 study, Miyu Umehara and colleagues discovered that an x-ray computed tomography (CT) scanner can accurately record a burrow's measurements both at a moment in time and throughout the entire burrow-building process, something that's impossible with resin casting because ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "it can only be used on burrows below a certain size.",
+    "it does not allow for multiple castings of the same burrow over time.",
+    "the casting process takes more time than  A. bellulus  takes to construct a burrow.",
+    "the process of recovering the model distorts the resin&rsquo;s shape."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. Since resin casting \"inevitably requires destroying the burrow,\" it would be impossible to make multiple castings of the same burrow over time.",
+    "A": "Choice A is incorrect. The passage doesn't discuss size requirements for completing resin casting, so there's no basis for this inference.",
+    "C": "Choice C is incorrect. The passage never mentions how long the casting process takes nor how long A. bellulus takes to construct a borrow, so there's no basis for this inference.",
+    "D": "Choice D is incorrect. The passage never states that recovering the model distorts the resin's shape, only that it destroys the burrow. Therefore, there's no basis for this inference."
+  }
+}

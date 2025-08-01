@@ -1,0 +1,22 @@
+{
+  "question_id": "00460c13",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Novelist Willa Cather grew up in Nebraska and attended the University of Nebraska-Lincoln. Some of Cather's best-known novels are set in Nebraska. Two such novels are O Pioneers! (1913) and My &Aacute;ntonia (1918). Cather's novels describe the experiences of immigrants who settled in the Great Plains. The student wants to identify the setting of Cather's novel My &Aacute;ntonia. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to identify the setting of Cather&rsquo;s novel  My &Aacute;ntonia.  &nbsp; Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "My &Aacute;ntonia  is set in Nebraska, where Cather grew up.",
+    "Cather, author of  My &Aacute;ntonia , described the experiences of immigrants in her novels.&nbsp;",
+    "Among Cather&rsquo;s best-known novels are  O Pioneers!  (1913) and  My &Aacute;ntonia &nbsp;(1918).",
+    "Cather attended the University of Nebraska-Lincoln and set some of her novels in Nebraska."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This choice directly identifies the setting of Cather's novel My &Aacute;ntonia as Nebraska.",
+    "B": "Choice B is incorrect. This choice mentions that Cather wrote about immigrants, but it doesn't indicate where they lived.",
+    "C": "Choice C is incorrect. This choice mentions that My &Aacute;ntonia is one of Cather's best-known novels but doesn't state where it takes place.",
+    "D": "Choice D is incorrect. This choice mentions that some of Cather's novels are set in Nebraska, but it doesn't specify which ones, so we can't be certain that My &Aacute;ntonia is one of them. It also includes irrelevant information about Cather's education."
+  }
+}

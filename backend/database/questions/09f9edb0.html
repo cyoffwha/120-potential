@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 09f9edb0</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In the 1980s, many musicians and journalists in the English-speaking world began to draw attention to music from around the globe&mdash;such as mbaqanga from South Africa and quan họ from Vietnam&mdash;that can&rsquo;t be easily categorized according to British or North American popular music genres, typically referring to such music as &ldquo;world music.&rdquo; While some scholars have welcomed this development for bringing diverse musical forms to prominence in countries where they&rsquo;d previously been overlooked, musicologist Su Zheng claims that the concept of world music homogenizes highly distinct traditions by reducing them all to a single category.</p></div>
+
+                        <div class="mt-3"><p>Which finding about mbaqanga and quan họ, if true, would most directly support Zheng&rsquo;s claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Mbaqanga and quan họ developed independently of each other and have little in common musically.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Mbaqanga is significantly more popular in the English-speaking world than quan họ is.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Mbaqanga and quan họ are now performed by a diverse array of musicians with no direct connections to South Africa or Vietnam.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Mbaqanga and quan họ are highly distinct from British and North American popular music genres but similar to each other.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. Zheng&rsquo;s claim is that the idea of world music &ldquo;homogenizes&rdquo; (meaning makes similar) distinct kinds of music by reducing them to one category. In other words, Zheng thinks the concept of world music is a harmful oversimplification of diverse musical forms. To support this claim, we need evidence that these musical traditions are so different from one another that they should not fall into the same category. If it&rsquo;s true that mbaqanga and quan họ developed separately and have little in common musically, then it wouldn&rsquo;t make sense to lump them into the same category. </p><p>Choice B is incorrect. If true, this wouldn&rsquo;t affect the claim. To support the claim, we need evidence that these musical traditions are so different from one another that they should not fall into the same category. A difference in popularity doesn&rsquo;t necessarily mean that the two musical traditions shouldn&rsquo;t be categorized together: instead, we need to know if the music itself is similar or different. Choice C is incorrect. If true, this wouldn&rsquo;t affect the claim. To support the claim, we need evidence that these musical traditions are so different from each other that they should not fall into the same category. This choice doesn&rsquo;t do that. Choice D is incorrect. If true, this would actually weaken the claim. Zheng thinks it&rsquo;s reductive or oversimplifying to put distinct musical traditions into a single category. But if mbaqanga and quan họ are similar to each other, then it would make sense to put them in the same category. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">64 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eMbaqanga and quan h\u1ecd developed independently of each other and have little in common musically.\u003c/p\u003e", "id": "52218b89-2682-40f5-b6ee-c3b33cfdf493"}, {"content": "\u003cp\u003eMbaqanga is significantly more popular in the English-speaking world than quan h\u1ecd is.\u0026nbsp;\u003c/p\u003e", "id": "8bc8efe4-4f14-4144-8ba2-812c6e015598"}, {"content": "\u003cp\u003eMbaqanga and quan h\u1ecd are now performed by a diverse array of musicians with no direct connections to South Africa or Vietnam.\u0026nbsp;\u003c/p\u003e", "id": "bddfe29c-ba48-498f-ad47-542a11ceef11"}, {"content": "\u003cp\u003eMbaqanga and quan h\u1ecd are highly distinct from British and North American popular music genres but similar to each other.\u003c/p\u003e", "id": "2781115c-10b9-4d9a-8d06-037febfbbbb0"}], "correct_answer": ["A"], "externalid": "35e63faf-cd1e-42e6-b544-7bf3b48941eb", "keys": ["52218b89-2682-40f5-b6ee-c3b33cfdf493"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TXT-H002", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. Zheng\u0026rsquo;s claim is that the idea of world music \u0026ldquo;homogenizes\u0026rdquo; (meaning makes similar) distinct kinds of music by reducing them to one category. In other words, Zheng thinks the concept of world music is a harmful oversimplification of diverse musical forms. To support this claim, we need evidence that these musical traditions are so different from one another that they should not fall into the same category. If it\u0026rsquo;s true that mbaqanga and quan h\u1ecd developed separately and have little in common musically, then it wouldn\u0026rsquo;t make sense to lump them into the same category. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. If true, this wouldn\u0026rsquo;t affect the claim. To support the claim, we need evidence that these musical traditions are so different from one another that they should not fall into the same category. A difference in popularity doesn\u0026rsquo;t necessarily mean that the two musical traditions shouldn\u0026rsquo;t be categorized together: instead, we need to know if the music itself is similar or different. Choice C is incorrect. If true, this wouldn\u0026rsquo;t affect the claim. To support the claim, we need evidence that these musical traditions are so different from each other that they should not fall into the same category. This choice doesn\u0026rsquo;t do that. Choice D is incorrect. If true, this would actually weaken the claim. Zheng thinks it\u0026rsquo;s reductive or oversimplifying to put distinct musical traditions into a single category. But if mbaqanga and quan h\u1ecd are similar to each other, then it would make sense to put them in the same category. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding about mbaqanga and quan h\u1ecd, if true, would most directly support Zheng\u0026rsquo;s claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn the 1980s, many musicians and journalists in the English-speaking world began to draw attention to music from around the globe\u0026mdash;such as mbaqanga from South Africa and quan h\u1ecd from Vietnam\u0026mdash;that can\u0026rsquo;t be easily categorized according to British or North American popular music genres, typically referring to such music as \u0026ldquo;world music.\u0026rdquo; While some scholars have welcomed this development for bringing diverse musical forms to prominence in countries where they\u0026rsquo;d previously been overlooked, musicologist Su Zheng claims that the concept of world music homogenizes highly distinct traditions by reducing them all to a single category.\u003c/p\u003e", "templateclusterid": "e5c6fafe-b299-47e1-897e-298c18221f1c", "templateclustername": "", "type": "mcq", "vaultid": "d38b72e5-b606-432e-bd49-de10ee8e4a64"}, "createDate": 1691007959376, "difficulty": "H", "external_id": "35e63faf-cd1e-42e6-b544-7bf3b48941eb", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "09f9edb0", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "333bb4ef-d544-48c9-aea7-1f1133c1d6c7", "updateDate": 1691007959376};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-09f9edb0");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

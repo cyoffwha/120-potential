@@ -1,0 +1,22 @@
+{
+  "question_id": "109d5bbb",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "With some 16,000 in attendance, the Second World Black and African Festival of Arts and ______ blank or FESTAC &lsquo;77, as the event was more commonly known—became the largest pan-African event on record. FESTAC drew people from around the world to Lagos, Nigeria, for a monthlong celebration of Black and African art, scholarship, and activism.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Culture:",
+    "Culture&mdash;",
+    "Culture,",
+    "Culture"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The text uses a dash to introduce a nonessential element that explains the acronym FESTAC. The dash matches the dash that comes after \"known,\" ending the descriptive aside.",
+    "A": "Choice A is incorrect. A colon can only come after an independent clause, which isn't the case here.",
+    "C": "Choice C is incorrect. While punctuation is required to set off \"or FESTAC&hellip;known\" from the rest of the sentence, nonessential elements must be separated from the sentence with matching punctuation. Since a dash appears on the other side of the element, we can't use a comma here.",
+    "D": "Choice D is incorrect. The descriptive aside \"or FESTAC&hellip;known\" is a nonessential element that must be separated with punctuation from the rest of the sentence. This choice fails to add the necessary punctuation before the nonessential element."
+  }
+}

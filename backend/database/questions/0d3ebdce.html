@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0d3ebdce</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Neuroscientist Karen Konkoly wanted to determine whether individuals can understand and respond to questions during REM sleep. She first taught volunteers eye movements they would use to respond to basic math problems while asleep (a single left-right eye movement indicated the number one). <span aria-hidden="true">______</span><span class="sr-only">blank</span> she attached electrodes to the volunteers&rsquo; faces to record their eye movements during sleep.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical transition?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Specifically,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Next,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For instance,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In sum,&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. &ldquo;Next&rdquo; logically signals that the action described in this sentence&mdash;Konkoly recording participants&rsquo; eye movements&mdash;is the next step in Konkoly&rsquo;s experiment. </p><p>Choice A is incorrect because &ldquo;specifically&rdquo; illogically signals that this sentence specifies or elaborates on an aspect of the action described in the previous sentence. Instead, it describes the next step in Konkoly&rsquo;s experiment. Choice C is incorrect because &ldquo;for instance&rdquo; illogically signals that the action described in this sentence is an example of the action described in the previous sentence. Instead, it is the next step in Konkoly&rsquo;s experiment. Choice D is incorrect because &ldquo;in sum&rdquo; illogically signals that this sentence summarizes or concludes the action described in the previous sentence. Instead, it describes the next step in Konkoly&rsquo;s experiment. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">586 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eSpecifically,\u003c/p\u003e", "id": "29be820b-696c-493f-be80-3c349944bede"}, {"content": "\u003cp\u003eNext,\u003c/p\u003e", "id": "372861ce-9b4f-4863-b754-8c70b33e6067"}, {"content": "\u003cp\u003eFor instance,\u003c/p\u003e", "id": "56e90bd6-658b-4d3a-a441-7a5568aa1ce4"}, {"content": "\u003cp\u003eIn sum,\u0026nbsp;\u003c/p\u003e", "id": "02e20c21-c232-4331-a079-138db77d107f"}], "correct_answer": ["B"], "externalid": "673e6351-f5cc-489a-9b61-548486364ffa", "keys": ["372861ce-9b4f-4863-b754-8c70b33e6067"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-218-TRA", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. \u0026ldquo;Next\u0026rdquo; logically signals that the action described in this sentence\u0026mdash;Konkoly recording participants\u0026rsquo; eye movements\u0026mdash;is the next step in Konkoly\u0026rsquo;s experiment. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because \u0026ldquo;specifically\u0026rdquo; illogically signals that this sentence specifies or elaborates on an aspect of the action described in the previous sentence. Instead, it describes the next step in Konkoly\u0026rsquo;s experiment. Choice C is incorrect because \u0026ldquo;for instance\u0026rdquo; illogically signals that the action described in this sentence is an example of the action described in the previous sentence. Instead, it is the next step in Konkoly\u0026rsquo;s experiment. Choice D is incorrect because \u0026ldquo;in sum\u0026rdquo; illogically signals that this sentence summarizes or concludes the action described in the previous sentence. Instead, it describes the next step in Konkoly\u0026rsquo;s experiment. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical transition?\u003c/p\u003e", "stimulus": "\u003cp\u003eNeuroscientist Karen Konkoly wanted to determine whether individuals can understand and respond to questions during REM sleep. She first taught volunteers eye movements they would use to respond to basic math problems while asleep (a single left-right eye movement indicated the number one). \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e she attached electrodes to the volunteers\u0026rsquo; faces to record their eye movements during sleep.\u003c/p\u003e", "templateclusterid": "9872eb65-2d07-46f0-9a8b-29c4c2b1fe10", "templateclustername": "", "type": "mcq", "vaultid": "97da32e0-c2b0-4ab8-aced-884e8a169166"}, "createDate": 1691007959327, "difficulty": "E", "external_id": "673e6351-f5cc-489a-9b61-548486364ffa", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "0d3ebdce", "score_band_range_cd": 3, "skill_cd": "TRA", "skill_desc": "Transitions", "uId": "34eb2e9f-9bc1-450a-838b-7df7def46799", "updateDate": 1691007959327};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0d3ebdce");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

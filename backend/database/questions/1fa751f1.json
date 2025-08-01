@@ -1,0 +1,22 @@
+{
+  "question_id": "1fa751f1",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Handedness, a preferential use of either the right or left hand, typically is easy to observe in humans. Because this trait is present but less ______ blank in many other animals, animal-behavior researchers often employ tasks specially designed to reveal individual animals' preferences for a certain hand or paw.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "recognizable",
+    "intriguing",
+    "significant",
+    "useful"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion about handedness in animals. As used in this context, \"recognizable\" means apparent or identifiable. The text indicates that handedness is \"easy to observe in humans,\" but that animal-behavior researchers use special tasks to determine handedness in other animals. This context and the use of \"less\" before the blank indicate that compared with handedness in humans, handedness in other animals is less recognizable.",
+    "B": "Choice B is incorrect because there's nothing in the text to suggest that handedness is less \"intriguing,\" or fascinating, in nonhuman animals than it is in humans. The text focuses on how easy it is to observe handedness in humans as compared with other animals; the text doesn't suggest that handedness is more fascinating in humans.",
+    "C": "Choice C is incorrect because there's nothing in the text to suggest that handedness is less \"significant,\" or important or meaningful, in nonhuman animals than it is in humans. The text focuses on how easy it is to observe handedness in humans as compared with other animals; the text doesn't suggest that handedness is more significant in humans.",
+    "D": "Choice D is incorrect because \"useful,\" or functional or helpful, wouldn't make sense in context. The text focuses on the ease with which researchers can determine whether an animal or person is right- or left-handed, not on how useful handedness in nonhuman animals is compared with handedness in humans."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "1f3be847",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "\"Loon Point\" is a 1912 poem by Amy Lowell. In the poem, which presents a nighttime scene on a body of water, Lowell describes an element of nature as an active participant in the experience, writing, ______ blank",
+  "question_text": "Which quotation from &ldquo;Loon Point&rdquo; most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;Through the water the moon writes her legends / In light, on the smooth, wet sand.&rdquo;",
+    "&ldquo;Softly the water ripples / Against the canoe&rsquo;s curving side.&rdquo;",
+    "&ldquo;Or like the snow-white petals / Which drop from an overblown rose.&rdquo;",
+    "&ldquo;But the moon in her wayward beauty / Is ever and always the same.&rdquo;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most effectively illustrates the claim that Lowell describes an element of nature as an active participant in the experience of a nighttime scene on a body of water. The quotation presents the image of the moon shining on a body of water. However, instead of describing the moon in passive terms or simply stating that it reflects through the water and onto the sandy shore, the quotation portrays the moon as being engaged in the humanlike action of writing a legend. In other words, the moon is participating actively in the nighttime scene.",
+    "B": "Choice B is incorrect. Although the quotation describes a nighttime scene on a body of water, the element of nature in these lines—the waves—isn't portrayed as an active participant in an experience; instead, the waves merely ripple softly against a canoe, as waves would normally do.",
+    "C": "Choice C is incorrect because the quotation doesn't present a nighttime scene on a body of water; instead, it describes petals falling from a rose.",
+    "D": "Choice D is incorrect. Although the quotation presents an image of an element of nature—the moon—it doesn't mention a body of water; moreover, it portrays the moon not as an active participant in a scene but instead as static or unchanging (\"ever and always the same\")."
+  }
+}

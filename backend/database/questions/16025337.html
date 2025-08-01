@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 16025337</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from William Shakespeare&rsquo;s 1609 poem &ldquo;Sonnet 27.&rdquo; The poem is addressed to a close friend as if he were physically present.</p>
+<div style='padding-left:1em'><p>Weary with toil, I [hurry] to my bed,</p>
+<p>The dear repose for limbs with travel tired;</p>
+<p>But then begins a journey in my head</p>
+<p>To work my mind, when body&rsquo;s work&rsquo;s expired:</p>
+<p>For then my thoughts&mdash;from far where I abide&mdash;</p>
+<p>[Begin] a zealous pilgrimage to thee,</p>
+<p>And keep my drooping eyelids open wide,</p></div></div>
+
+                        <div class="mt-3"><p>What is the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The speaker is asleep and dreaming about traveling to see the friend.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The speaker is planning an upcoming trip to the friend&rsquo;s house.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The speaker is too fatigued to continue a discussion with the friend.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The speaker is thinking about the friend instead of immediately falling asleep.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer it most accurately states the main idea of the text. The speaker describes going to bed for &ldquo;repose&rdquo; (rest) but finding that his thoughts are focused on the friend the speaker is addressing, and the thoughts are keeping the speaker awake. </p><p>Choice A is incorrect because the speaker isn&rsquo;t asleep; the thoughts about the friend are keeping the speaker awake. Choice B is incorrect because the speaker isn&rsquo;t talking about taking a literal trip; rather, the speaker uses the metaphor of a journey to describe internal thoughts. Choice C is incorrect because&nbsp;the speaker isn&rsquo;t having a discussion with the friend. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">169 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe speaker is asleep and dreaming about traveling to see the friend.\u003c/p\u003e", "id": "7611e23c-d1c8-47d9-8732-c3180e93cc7e"}, {"content": "\u003cp\u003eThe speaker is planning an upcoming trip to the friend\u0026rsquo;s house.\u0026nbsp;\u003c/p\u003e", "id": "d5e01828-0c3d-4bcd-b4bc-085ed178f835"}, {"content": "\u003cp\u003eThe speaker is too fatigued to continue a discussion with the friend.\u003c/p\u003e", "id": "b265e57d-adbd-4cd8-8d46-c0b85f48e64b"}, {"content": "\u003cp\u003eThe speaker is thinking about the friend instead of immediately falling asleep.\u003c/p\u003e", "id": "73e9ab53-248e-4e65-bfbe-bed048b98e11"}], "correct_answer": ["D"], "externalid": "b549c4fb-32ff-4538-9eee-d2a99127f351", "keys": ["73e9ab53-248e-4e65-bfbe-bed048b98e11"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-007-CID", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer it most accurately states the main idea of the text. The speaker describes going to bed for \u0026ldquo;repose\u0026rdquo; (rest) but finding that his thoughts are focused on the friend the speaker is addressing, and the thoughts are keeping the speaker awake. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the speaker isn\u0026rsquo;t asleep; the thoughts about the friend are keeping the speaker awake. Choice B is incorrect because the speaker isn\u0026rsquo;t talking about taking a literal trip; rather, the speaker uses the metaphor of a journey to describe internal thoughts. Choice C is incorrect because\u0026nbsp;the speaker isn\u0026rsquo;t having a discussion with the friend. \u003c/p\u003e", "stem": "\u003cp\u003eWhat is the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from William Shakespeare\u0026rsquo;s 1609 poem \u0026ldquo;Sonnet 27.\u0026rdquo; The poem is addressed to a close friend as if he were physically present.\u003c/p\u003e\n\u003cdiv style=\u0027padding-left:1em\u0027\u003e\u003cp\u003eWeary with toil, I [hurry] to my bed,\u003c/p\u003e\n\u003cp\u003eThe dear repose for limbs with travel tired;\u003c/p\u003e\n\u003cp\u003eBut then begins a journey in my head\u003c/p\u003e\n\u003cp\u003eTo work my mind, when body\u0026rsquo;s work\u0026rsquo;s expired:\u003c/p\u003e\n\u003cp\u003eFor then my thoughts\u0026mdash;from far where I abide\u0026mdash;\u003c/p\u003e\n\u003cp\u003e[Begin] a zealous pilgrimage to thee,\u003c/p\u003e\n\u003cp\u003eAnd keep my drooping eyelids open wide,\u003c/p\u003e\u003c/div\u003e", "templateclusterid": "9195c91c-a239-4f4e-91c7-04e0884e8955", "templateclustername": "", "type": "mcq", "vaultid": "7221ad5b-7058-4457-966b-f735c26cb33e"}, "createDate": 1691007959313, "difficulty": "H", "external_id": "b549c4fb-32ff-4538-9eee-d2a99127f351", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "16025337", "score_band_range_cd": 6, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "9017e879-2acf-4c1b-857b-ccdccdfd2f29", "updateDate": 1691007959313};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-16025337");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "question_id": "0f040c50",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is from Yann Martel's 2001 novel Life of Pi . The narrator's family owned a zoo when he was a child. It was a huge zoo, spread over numberless acres, big enough to require a train to explore it, though it seemed to get smaller as I grew older, train included. &copy;2001 by Yann Martel",
+  "question_text": "As used in the text, what does the word &ldquo;spread&rdquo; most nearly mean?",
+  "answer_options": [
+    "Hidden",
+    "Discussed",
+    "Extended",
+    "Coated"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because as used in the text, \"spread\" most nearly means extended. The text states that the zoo is \"huge,\" that it covers \"numberless acres,\" and that it is large enough that a train is needed to explore it. Thus, the text's emphasis on the zoo's size suggests that the zoo extended, or stretched, over a large area of land.",
+    "A": "Choice A is incorrect because if the zoo covers \"numberless acres,\" then it could not reasonably be described as hidden, or concealed from view.",
+    "B": "Choice B is incorrect because there is nothing in the text to suggest that the zoo was discussed, or talked about. Rather, the text focuses on the zoo's large size.",
+    "D": "Choice D is incorrect. Although in some contexts \"spread\" can mean coated, it doesn't have that meaning in this context because to coat something means to apply a thin layer of a liquid substance, such as oil or paint, to a surface. Therefore, it would not be accurate to say that the zoo coated the acres on which it sits."
+  }
+}

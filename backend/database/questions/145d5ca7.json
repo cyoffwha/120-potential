@@ -1,0 +1,22 @@
+{
+  "question_id": "145d5ca7",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Gathering accurate data on water flow in the United States is challenging because of the country's millions of miles of ______ blank the volume and speed of water at any given location can vary drastically over time.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "waterways and the fact that,",
+    "waterways, and the fact that,",
+    "waterways, and, the fact that",
+    "waterways and the fact that"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation within two coordinated noun phrases. When, as in this case, a noun phrase (\"the country's millions of miles of waterways\") is coordinated with another noun phrase (\"the fact\") followed by an integrated relative clause (\"that the volume...time\"), no punctuation is needed.",
+    "A": "Choice A is incorrect because no punctuation is needed.",
+    "B": "Choice B is incorrect because no punctuation is needed.",
+    "C": "Choice C is incorrect because no punctuation is needed."
+  }
+}

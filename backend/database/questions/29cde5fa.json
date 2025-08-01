@@ -1,0 +1,22 @@
+{
+  "question_id": "29cde5fa",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "\"Mr. Cornelius Johnson, Office-Seeker\" is a 1900 short story by Paul Laurence Dunbar. In the story, the narrator describes Mr. Cornelius Johnson's appearance as conveying his exaggerated sense of his importance: ______ blank",
+  "question_text": "Which quotation from &ldquo;Mr. Cornelius Johnson, Office-Seeker&rdquo; most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;He carried himself always as if he were passing under his own triumphal arch.&rdquo;",
+    "&ldquo;The grey Prince Albert was scrupulously buttoned about his form, and a shiny top hat replaced the felt of the afternoon.&rdquo;",
+    "&ldquo;It was a beautiful day in balmy May and the sun shone pleasantly on Mr. Cornelius Johnson&rsquo;s very spruce Prince Albert suit of grey as he alighted from the train in Washington.&rdquo;",
+    "&ldquo;Mr. Cornelius Johnson always spoke in a large and important tone.&rdquo;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This quote most effectively illustrates the claim. The claim is that the narrator describes Mr. Johnson as arrogant and self-important. This basically says that Mr. Johnson always looks like he's congratulating himself for something, which definitely supports the idea that Mr. Johnson is arrogant! .",
+    "B": "Choice B is incorrect. This quote doesn't illustrate the claim. The claim is that the narrator describes Mr. Johnson's appearance as conveying his arrogance. This describes his appearance, but the description doesn't suggest a sense of arrogance.",
+    "C": "Choice C is incorrect. This quote doesn't illustrate the claim. The claim is that the narrator describes Mr. Johnson's appearance as conveying his arrogance. This doesn't describe Mr. Johnson's appearance very much, and it doesn't suggest a sense of arrogance.",
+    "D": "Choice D is incorrect. This quote doesn't effectively illustrate the claim. It describes Mr. Johnson's tone of voice as \"large and important,\" but it doesn't describe his appearance as conveying a sense of self-importance."
+  }
+}

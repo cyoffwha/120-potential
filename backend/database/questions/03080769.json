@@ -1,0 +1,22 @@
+{
+  "question_id": "03080769",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Text 1 Philosopher G.E. Moore's most influential work entails the concept of common sense. He asserts that there are certain beliefs that all people, including philosophers, know instinctively to be true, whether or not they profess otherwise: among them, that they have bodies, or that they exist in a world with other objects that have three dimensions. Moore's careful work on common sense may seem obvious but was in fact groundbreaking. Text 2 External world skepticism is a philosophical stance supposing that we cannot be sure of the existence of anything outside our own minds. During a lecture, G.E. Moore once offered a proof refuting this stance by holding out his hands and saying, \"Here is one hand, and here is another.\" Many philosophers reflexively reject this proof (Annalisa Coliva called it \"an obviously annoying failure\") but have found it a challenge to articulate exactly why the proof fails.",
+  "question_text": "Based on the texts, how would the author of Text 1 most likely respond to proponents of the philosophical stance outlined in Text 2?",
+  "answer_options": [
+    "By agreeing with those proponents that Moore&rsquo;s treatment of positions that contradict his own is fundamentally unserious",
+    "By suggesting that an instinctive distaste for Moore&rsquo;s position is preventing external world skeptics from constructing a sufficiently rigorous refutation of Moore",
+    "By arguing that if it is valid to assert that some facts are true based on instinct, it is also valid to assert that some proofs are inadequate based on instinct",
+    "By pointing out that Moore would assert that external world skepticism is at odds with other beliefs those proponents must unavoidably hold"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. According to the author of Text 1, Moore's definition of common sense—things we instinctively know are true—includes the belief that we all \"exist in a world with other objects.\" The author of Text 1 describes this notion as both \"obvious\" and \"groundbreaking.\" So it's safe to infer that the author would observe that Moore would respond to external world skeptics by arguing that since everyone instinctively knows that things exist outside of their own minds, then external world skepticism must be wrong.",
+    "A": "Choice A is incorrect. We can't infer that the author of Text 1 would respond this way to external world skeptics. If anything, the author of Text 1 seems to agree with Moore.",
+    "B": "Choice B is incorrect. We can't infer that the author of Text 1 would respond this way to external world skeptics. The author of Text 1 never mentions external world skeptics directly, let alone why they have a hard time refuting Moore's position.",
+    "C": "Choice C is incorrect. We can't infer that the author of Text 1 would respond this way to external world skeptics. Text 1's presentation of Moore's concept of common sense only includes the idea that some facts are true based on instinct—it doesn't mention the idea that some proofs are inadequate based on instinct."
+  }
+}

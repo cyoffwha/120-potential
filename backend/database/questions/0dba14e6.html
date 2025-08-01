@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0dba14e6</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The increased integration of digital technologies throughout the process of book creation in the late 20th and early 21st centuries lowered the costs of book production, but those decreased costs have been most significant in the manufacturing and distribution process, which occurs after the authoring, editing, and design of the book are complete. This suggests that in the late 20th and early 21st centuries, <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>digital technologies made it easier than it had been previously for authors to write very long works and get them published.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>customers generally expected the cost of books to decline relative to the cost of other consumer goods.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>publishers increased the variety of their offerings by printing more unique titles but also printed fewer copies of each title.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the costs of writing, editing, and designing a book were less affected by the technologies used than were the costs of manufacturing and distributing a book.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it presents the conclusion that most logically follows from the text&rsquo;s discussion of how digital technologies affected the process of book creation. The text explains that in the late 20th and early 21st centuries digital technologies lowered book production costs most significantly in manufacturing and distribution. The text goes on to point out that authoring, editing, and book design are distinct steps in the process that occur before manufacturing and distribution. Because the savings connected to digital technologies have been most significant in manufacturing and distribution, it&rsquo;s reasonable to infer that those technologies had less of an effect on writing, editing, and designing books.&nbsp;</p><p>Choice A is incorrect because the text focuses on lowered book production costs that occur after authoring has taken place; there&rsquo;s no indication in the text whether digital technologies made writing and publishing lengthy books easier.&nbsp;Choice B is incorrect. Although it&rsquo;s logical to conclude that customers would expect the cost of books to decline if production costs have declined, the text doesn&rsquo;t address customer expectations for the cost of books or any other consumer goods.&nbsp;Choice C is incorrect because the text focuses broadly on how digital technologies have affected the cost of the publishing process; it doesn&rsquo;t address the kinds of books being published or how many copies are printed. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">152 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003edigital technologies made it easier than it had been previously for authors to write very long works and get them published.\u003c/p\u003e", "id": "9bd25604-1b0f-44ce-92a5-77f91d2b6458"}, {"content": "\u003cp\u003ecustomers generally expected the cost of books to decline relative to the cost of other consumer goods.\u003c/p\u003e", "id": "f39c773d-a8fc-4fe4-b20c-81c1fbbd3bbd"}, {"content": "\u003cp\u003epublishers increased the variety of their offerings by printing more unique titles but also printed fewer copies of each title.\u003c/p\u003e", "id": "2aa53fbf-d922-4388-885c-37ce2216f91e"}, {"content": "\u003cp\u003ethe costs of writing, editing, and designing a book were less affected by the technologies used than were the costs of manufacturing and distributing a book.\u003c/p\u003e", "id": "c30c9648-ef51-4211-afaf-facc5382c8aa"}], "correct_answer": ["D"], "externalid": "e6dbeac0-5d8f-4b95-88aa-f9a3718cc8b4", "keys": ["c30c9648-ef51-4211-afaf-facc5382c8aa"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-015-INF", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it presents the conclusion that most logically follows from the text\u0026rsquo;s discussion of how digital technologies affected the process of book creation. The text explains that in the late 20th and early 21st centuries digital technologies lowered book production costs most significantly in manufacturing and distribution. The text goes on to point out that authoring, editing, and book design are distinct steps in the process that occur before manufacturing and distribution. Because the savings connected to digital technologies have been most significant in manufacturing and distribution, it\u0026rsquo;s reasonable to infer that those technologies had less of an effect on writing, editing, and designing books.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text focuses on lowered book production costs that occur after authoring has taken place; there\u0026rsquo;s no indication in the text whether digital technologies made writing and publishing lengthy books easier.\u0026nbsp;Choice B is incorrect. Although it\u0026rsquo;s logical to conclude that customers would expect the cost of books to decline if production costs have declined, the text doesn\u0026rsquo;t address customer expectations for the cost of books or any other consumer goods.\u0026nbsp;Choice C is incorrect because the text focuses broadly on how digital technologies have affected the cost of the publishing process; it doesn\u0026rsquo;t address the kinds of books being published or how many copies are printed. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe increased integration of digital technologies throughout the process of book creation in the late 20th and early 21st centuries lowered the costs of book production, but those decreased costs have been most significant in the manufacturing and distribution process, which occurs after the authoring, editing, and design of the book are complete. This suggests that in the late 20th and early 21st centuries, \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "c6d312d1-9b68-4c5e-aa55-1e14bbba425b", "templateclustername": "", "type": "mcq", "vaultid": "b3998720-da59-4c8d-a1a1-d4a4a1a0cbbf"}, "createDate": 1691007959315, "difficulty": "H", "external_id": "e6dbeac0-5d8f-4b95-88aa-f9a3718cc8b4", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "0dba14e6", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "7d3d2890-811e-4a94-ab4e-74ad3597587c", "updateDate": 1691007959315};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0dba14e6");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 512f0ac9</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Working from an earlier discovery of Charpentier&rsquo;s, chemists Emmanuelle Charpentier and Jennifer Doudna&mdash;winners of the 2020 Nobel Prize in Chemistry&mdash;re-created and then reprogrammed the so-called &ldquo;genetic scissors&rdquo; of a species of DNA-cleaving bacteria <span aria-hidden="true">______</span><span class="sr-only">blank</span> a tool that is revolutionizing the field of gene technology.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>to forge</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>forging</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>forged</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>and forging</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The convention being tested is the use of finite and nonfinite verb forms within a sentence. The nonfinite to-infinitive &ldquo;to forge&rdquo; is correctly used to form a nonfinite (infinitive) clause that explains why the chemists re-created and reprogrammed the DNA-cleaving bacteria. </p><p>Choice B is incorrect. Without a comma separating the main clause (&ldquo;chemists...bacteria&rdquo;) from the participle &ldquo;forging,&rdquo; this choice illogically suggests that the bacteria are forging a tool, which doesn&rsquo;t make sense. Choice C is incorrect. Without a coordinating conjunction such as &ldquo;and&rdquo; placed before it, the finite past tense verb &ldquo;forged&rdquo; can&rsquo;t be used in this way to describe the chemists&rsquo; actions. Choice D is incorrect. If read as a finite verb, the present progressive verb &ldquo;forging&rdquo; isn&rsquo;t consistent with the past tense verbs used in this sentence to describe the actions of the chemists. If read as a nonfinite verb, the participle &ldquo;forging&rdquo; can&rsquo;t be used in this way because there is no following main clause for it to modify.&nbsp;&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">769 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eto forge\u003c/p\u003e", "id": "80796094-ec4e-4816-824a-ac49d98fad77"}, {"content": "\u003cp\u003eforging\u003c/p\u003e", "id": "41707ed0-1b35-47fa-8138-74f173a2a26b"}, {"content": "\u003cp\u003eforged\u003c/p\u003e", "id": "3e7fb366-9834-4958-afe3-2f516fde55f3"}, {"content": "\u003cp\u003eand forging\u003c/p\u003e", "id": "b8252c14-cc15-4c96-b312-722d103273b6"}], "correct_answer": ["A"], "externalid": "d17935b6-fc0c-4512-97c0-74e5f85706b2", "keys": ["80796094-ec4e-4816-824a-ac49d98fad77"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-707-SEC", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The convention being tested is the use of finite and nonfinite verb forms within a sentence. The nonfinite to-infinitive \u0026ldquo;to forge\u0026rdquo; is correctly used to form a nonfinite (infinitive) clause that explains why the chemists re-created and reprogrammed the DNA-cleaving bacteria. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. Without a comma separating the main clause (\u0026ldquo;chemists...bacteria\u0026rdquo;) from the participle \u0026ldquo;forging,\u0026rdquo; this choice illogically suggests that the bacteria are forging a tool, which doesn\u0026rsquo;t make sense. Choice C is incorrect. Without a coordinating conjunction such as \u0026ldquo;and\u0026rdquo; placed before it, the finite past tense verb \u0026ldquo;forged\u0026rdquo; can\u0026rsquo;t be used in this way to describe the chemists\u0026rsquo; actions. Choice D is incorrect. If read as a finite verb, the present progressive verb \u0026ldquo;forging\u0026rdquo; isn\u0026rsquo;t consistent with the past tense verbs used in this sentence to describe the actions of the chemists. If read as a nonfinite verb, the participle \u0026ldquo;forging\u0026rdquo; can\u0026rsquo;t be used in this way because there is no following main clause for it to modify.\u0026nbsp;\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eWorking from an earlier discovery of Charpentier\u0026rsquo;s, chemists Emmanuelle Charpentier and Jennifer Doudna\u0026mdash;winners of the 2020 Nobel Prize in Chemistry\u0026mdash;re-created and then reprogrammed the so-called \u0026ldquo;genetic scissors\u0026rdquo; of a species of DNA-cleaving bacteria \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e a tool that is revolutionizing the field of gene technology.\u003c/p\u003e", "templateclusterid": "0ef772fc-ca93-4c5d-98b9-11cdd7b9717c", "templateclustername": "", "type": "mcq", "vaultid": "cbb65aea-a70c-4a8c-9c3d-a81bebafe9a9"}, "createDate": 1691007959347, "difficulty": "H", "external_id": "d17935b6-fc0c-4512-97c0-74e5f85706b2", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "512f0ac9", "score_band_range_cd": 6, "skill_cd": "FSS", "skill_desc": "Form, Structure, and Sense", "uId": "375ebd8e-4290-445b-ba46-c95d7816092b", "updateDate": 1691007959347};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-512f0ac9");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 194dd448</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>&ldquo;John of God, the Water-Carrier&rdquo; is a 1913 short story by Mar&iacute;a Cristina Mena. In the story, the narrator presents John as being a hard worker who is fully dedicated to his job as water carrier, or <em><span lang='es'>aguador</span></em>: <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which quotation from &ldquo;John of God, the Water-Carrier&rdquo; most effectively illustrates the claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Very happy, he would jog home, the heavy silver pieces in his leather pockets making a discreet and dulcet &lsquo;<em>trink-trak</em>&rsquo; between his jugs and his body.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;He learned that the city <em><span lang='es'>aguador</span></em> may not blow his whistle to halt the traffic while he gravely crosses the street, but must wait for the passing of many vehicles, some with horses and some outlandishly without.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;From early morn to the fall of the afternoon he would go from fountain to fountain and from portal to portal, his lean body so accustomed to bending that he never thought of straightening it, his head bowed as if in prayer.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;When his first jugs had worn out&mdash;the sweet-scented, porous red clay becomes perforated in time&mdash;he had buried them to their necks in the corner where he slept, and they were now his treasury.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most effectively illustrates the claim in the text that John is hard-working and dedicated to his job. In the quotation, John is portrayed as spending &ldquo;early morn to the fall of the afternoon&rdquo; working hard as a water carrier. John is also described as &ldquo;so accustomed to bending&rdquo; while doing his work &ldquo;that he never thought of straightening&rdquo; his body, instead remaining deeply focused on his work. These details portray John as a dedicated worker. </p><p>Choice A is incorrect because this quotation portrays John as happy about heading home after being paid. It doesn&rsquo;t showcase John being hard at work. Choice B is incorrect because this quotation doesn&rsquo;t pertain to John&rsquo;s commitment to his work; it describes difficulties the traffic in the city causes John in the performance of his work. Choice D is incorrect because this quotation doesn&rsquo;t pertain to John&rsquo;s commitment to his work; it discusses what John does with his worn-out water jugs. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">158 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;Very happy, he would jog home, the heavy silver pieces in his leather pockets making a discreet and dulcet \u0026lsquo;\u003cem\u003etrink-trak\u003c/em\u003e\u0026rsquo; between his jugs and his body.\u0026rdquo;\u003c/p\u003e", "id": "dbf71dba-81df-4376-96ec-218017cfd807"}, {"content": "\u003cp\u003e\u0026ldquo;He learned that the city \u003cem\u003e\u003cspan lang=\u0027es\u0027\u003eaguador\u003c/span\u003e\u003c/em\u003e may not blow his whistle to halt the traffic while he gravely crosses the street, but must wait for the passing of many vehicles, some with horses and some outlandishly without.\u0026rdquo;\u003c/p\u003e", "id": "26173e0e-9cb3-4019-a4ae-c8f01f9d8a04"}, {"content": "\u003cp\u003e\u0026ldquo;From early morn to the fall of the afternoon he would go from fountain to fountain and from portal to portal, his lean body so accustomed to bending that he never thought of straightening it, his head bowed as if in prayer.\u0026rdquo;\u003c/p\u003e", "id": "a5728c0b-ede8-44a5-a9ed-3af35edf0338"}, {"content": "\u003cp\u003e\u0026ldquo;When his first jugs had worn out\u0026mdash;the sweet-scented, porous red clay becomes perforated in time\u0026mdash;he had buried them to their necks in the corner where he slept, and they were now his treasury.\u0026rdquo;\u003c/p\u003e", "id": "310069a0-84f1-48e9-b5b8-36d46df74ec1"}], "correct_answer": ["C"], "externalid": "2882f061-3de5-48d0-8c0d-bca74bb2ec3f", "keys": ["a5728c0b-ede8-44a5-a9ed-3af35edf0338"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-408-LIT", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most effectively illustrates the claim in the text that John is hard-working and dedicated to his job. In the quotation, John is portrayed as spending \u0026ldquo;early morn to the fall of the afternoon\u0026rdquo; working hard as a water carrier. John is also described as \u0026ldquo;so accustomed to bending\u0026rdquo; while doing his work \u0026ldquo;that he never thought of straightening\u0026rdquo; his body, instead remaining deeply focused on his work. These details portray John as a dedicated worker. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because this quotation portrays John as happy about heading home after being paid. It doesn\u0026rsquo;t showcase John being hard at work. Choice B is incorrect because this quotation doesn\u0026rsquo;t pertain to John\u0026rsquo;s commitment to his work; it describes difficulties the traffic in the city causes John in the performance of his work. Choice D is incorrect because this quotation doesn\u0026rsquo;t pertain to John\u0026rsquo;s commitment to his work; it discusses what John does with his worn-out water jugs. \u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from \u0026ldquo;John of God, the Water-Carrier\u0026rdquo; most effectively illustrates the claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u0026ldquo;John of God, the Water-Carrier\u0026rdquo; is a 1913 short story by Mar\u0026iacute;a Cristina Mena. In the story, the narrator presents John as being a hard worker who is fully dedicated to his job as water carrier, or \u003cem\u003e\u003cspan lang=\u0027es\u0027\u003eaguador\u003c/span\u003e\u003c/em\u003e: \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "557e93a4-eaa3-4cae-a9d1-7641d592634d", "templateclustername": "", "type": "mcq", "vaultid": "2d032007-7602-4fd4-994c-abf017b22084"}, "createDate": 1691007959336, "difficulty": "M", "external_id": "2882f061-3de5-48d0-8c0d-bca74bb2ec3f", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "194dd448", "score_band_range_cd": 4, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "836f57f6-b89b-4625-b6de-42b7b1aabe06", "updateDate": 1691007959336};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-194dd448");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

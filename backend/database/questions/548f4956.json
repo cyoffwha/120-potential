@@ -1,0 +1,22 @@
+{
+  "question_id": "548f4956",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "It is generally true that technological change is a linear process, in which once-useful technologies are replaced by new and better ______ blank the reawakening of interest in the steam engine (from advocates of carbon-neutral rail travel) reminds us that ostensibly obsolete technologies may be brought back into service to address society's changing needs.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "ones, even so;&nbsp;",
+    "ones even so,&nbsp;",
+    "ones; even so,&nbsp;",
+    "ones, even so,&nbsp;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the coordination of main clauses within a sentence. This choice uses a semicolon in a conventional way to join the first main clause (\"It is&hellip;ones\") and the second main clause (\"even so&hellip;needs\"). Furthermore, the placement of the semicolon after \"ones\" indicates that the supplementary phrase \"even so\" modifies the following clause (\"the reawakening...needs\"), resulting in the most logical and grammatically complete sentence. With this punctuation, the sentence logically indicates that the recent interest in an old technology like steam engines is despite the fact that technological change typically seeks out new technologies.",
+    "A": "Choice A is incorrect because it results in a confusing and illogical sentence. Placing the semicolon after \"so\" indicates that the supplementary element \"even so\" modifies the first clause of the sentence, which doesn't make sense in this context.",
+    "B": "Choice B is incorrect because it results in a run-on sentence. It fails to mark the boundary between the two main clauses with appropriate punctuation.",
+    "D": "Choice D is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join the two main clauses of the sentence."
+  }
+}

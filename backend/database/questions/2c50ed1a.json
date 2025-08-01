@@ -1,0 +1,22 @@
+{
+  "question_id": "2c50ed1a",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Text 1 Literary scholars have struggled with the vastness of Nigerian writer Wole Soyinka's collective works of drama (spanning over 20 plays in total). It is best, however, to understand Soyinka's body of work as a dramatist chronologically. Soyinka's progression as a playwright can be considered to fall into three periods, with each one representing a particular thematic and stylistic cohesion: the 1960s, the two decades between 1970 and 1990, and lastly, from roughly 1990 onwards. Text 2 It is tempting to impose a linear sense of order on the expanse of Wole Soyinka's body of work as a dramatist. However, critics who have considered Soyinka's plays to fit neatly into three phases overlook potential commonalities in Soyinka's work that span across these phases. Additionally, this view may discount significant differences in the styles and content of plays written around the same time.",
+  "question_text": "Which choice best describes a difference in how the author of Text 1 and the author of Text 2 view the study of Soyinka&rsquo;s works of drama?",
+  "answer_options": [
+    "While the author of Text 1 believes that thinking about Soyinka&rsquo;s works of theater in phases is useful, the author of Text 2 views such an approach as limiting.",
+    "Although the author of Text 1 claims that Soyinka&rsquo;s style as a dramatist has evolved over time, the author of Text 2 argues that Soyinka&rsquo;s style has remained consistent throughout his career.",
+    "The author of Text 1 considers Soyinka&rsquo;s plays to showcase his strongest writing, whereas the author of Text 2 believes that Soyinka&rsquo;s poetry is where he is most skilled.",
+    "The author of Text 1 argues that Soyinka&rsquo;s early plays were his most politically charged, whereas the author of Text 2 claims that Soyinka&rsquo;s most recent plays are the most politicized."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The author of Text 1 states that Soyinka's progression as a playwright can be considered to fall into three periods, implying that this is a helpful way to understand his works. The author of Text 2, on the other hand, challenges this view and says that it overlooks potential commonalities and differences in Soyinka's work across what Text 1 calls distinctive stylistic phases.",
+    "B": "Choice B is incorrect. This choice overstates the central claim of Text 2. The author of Text 2 argues against the chronological progression supported in Text 1, but does not go so far as to say that Soyinka's style remained consistent. In fact, Text 2 points out \"significant differences in styles and content\" among Soyinka's plays.",
+    "C": "Choice C is incorrect. Neither of the texts mention Soyinka's poetry, nor do they rank his dramatic writing relative to his other work.",
+    "D": "Choice D is incorrect. Neither text discusses the political aspects of Soyinka's plays, nor do they make any claims about whether they have changed over time."
+  }
+}

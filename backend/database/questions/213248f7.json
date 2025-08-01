@@ -1,0 +1,22 @@
+{
+  "question_id": "213248f7",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is adapted from Lewis Carroll's 1865 novel Alice's Adventures in Wonderland . \"The second thing is to find my way into that lovely garden. I think that will be the best plan.\" It sounded like an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that Alice had not the smallest idea how to set about it. As used in the text, what does the word \"simply\" most nearly mean?",
+  "question_text": "As used in the text, what does the word &ldquo;simply&rdquo; most nearly mean?",
+  "answer_options": [
+    "Faintly",
+    "Hastily",
+    "Easily",
+    "Foolishly"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because as used in the text, \"simply\" most nearly means easily, or involving minimal difficulty or effort. The text first provides Alice's reflections on her plan to gain access to a garden and then offers commentary on her plan by the novel's narrator. The text indicates that a reason Alice likes her plan despite not being fully thought through is that she nonetheless believes it can be efficiently arranged. In other words, the text indicates that one of the supposed benefits of Alice's plan is that it can be easily arranged.",
+    "A": "Choice A is incorrect because the text describes how Alice's plan can be arranged, and it wouldn't make sense to say that it can be arranged \"faintly,\" or with little strength or not strongly. Instead, the text indicates that the plan can be arranged with little difficulty.",
+    "B": "Choice B is incorrect. Although in some contexts \"simply\" can mean quickly, hastily, or hurriedly, the word \"hastily\" indicates that something is done too quickly. Although it may be true that Alice's plan was made in haste, the text doesn't focus on this aspect of her plan. Instead, the text focuses on the plan's seemingly good qualities, saying that Alice thinks of it as \"the best,\" and the narrator refers to it as \"excellent\" and \"neatly,\" or efficiently, arranged.",
+    "D": "Choice D is incorrect. Although in some contexts \"simply\" can mean foolishly, or lacking good sense, it doesn't have this meaning in this context. Although the text says that Alice doesn't know how to go about her plan, it begins by presenting her plan in a positive light: Alice describes her plan as \"the best,\" and the narrator refers to the plan as \"excellent\" and \"neatly,\" or efficiently, arranged."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "31362d2d",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "If simple sugars such as ribose and glycolaldehyde ______ blank Earth from elsewhere and survived impact—a possibility astrophysicist Nicolle Zellner outlined in a 2020 study—the sugars could have reacted with other molecules that were already present on the planet to form the nucleotides that are the structural components of RNA and DNA.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "reach",
+    "had reached",
+    "will reach",
+    "are reaching"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the use of verbs to express tense. In this choice, the past perfect verb \"had reached\" is used correctly to describe a past action that was completed before another action in the past. Specifically, in this hypothetical scenario about the origins of RNA and DNA on Earth, the simple sugars had to have reached Earth before they could react with other molecules on the planet.",
+    "A": "Choice A is incorrect because the present tense verb \"reach\" doesn't indicate that the simple sugars reached Earth before reacting with other molecules on the planet.",
+    "C": "Choice C is incorrect because the future tense verb \"will reach\" doesn't indicate that the simple sugars reached Earth before reacting with other molecules on the planet.",
+    "D": "Choice D is incorrect because the present progressive verb \"are reaching\" doesn't indicate that the simple sugars reached Earth before reacting with other molecules on the planet."
+  }
+}

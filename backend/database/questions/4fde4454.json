@@ -1,0 +1,22 @@
+{
+  "question_id": "4fde4454",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "One poll taken after the first 1960 presidential debate suggested that John Kennedy lost badly: only 21 percent of those who listened on the radio rated him the winner. ______ blank the debate was ultimately considered a victory for the telegenic young senator, who rated higher than his opponent, Vice President Richard Nixon, among those watching on the new medium of television.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "In other words,",
+    "Therefore,",
+    "Likewise,",
+    "Nevertheless,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"Nevertheless\" logically signals that the claim in this sentence—that the telegenic Kennedy was ultimately considered the winner of the debate—is true despite the previous information about the poll of radio listeners.",
+    "A": "Choice A is incorrect because \"in other words\" illogically signals that the claim in this sentence is a paraphrase of the previous information about the poll of radio listeners. Instead, Kennedy was ultimately considered the winner despite what that poll suggested about his performance.",
+    "B": "Choice B is incorrect because \"therefore\" illogically signals that the claim in this sentence is a result of the previous information about the poll of radio listeners. Instead, Kennedy was ultimately considered the winner despite what that poll suggested about his performance.",
+    "C": "Choice C is incorrect because \"likewise\" illogically signals that the claim in this sentence is similar to the previous information about the poll of radio listeners. Instead, Kennedy was ultimately considered the winner despite what that poll suggested about his performance."
+  }
+}

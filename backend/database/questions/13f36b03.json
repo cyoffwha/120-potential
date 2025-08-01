@@ -1,0 +1,22 @@
+{
+  "question_id": "13f36b03",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Jon Ching is a Los Angeles-based painter. He uses the term \"flauna\" to describe the plant-animal hybrids that he depicts in his surreal paintings. \"Flauna\" is a combination of the words \"flora\" and \"fauna.\" His painting Nectar depicts a parrot with leaves for feathers. His painting Primaveral depicts a snow leopard whose fur sprouts flowers. The student wants to provide an explanation and example of \"flauna.\" Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to provide an explanation and example of &ldquo;flauna.&rdquo; Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "The term &ldquo;flauna,&rdquo; used by Los Angeles-based painter Jon Ching, is a combination of the words &ldquo;flora&rdquo; and &ldquo;fauna.&rdquo;",
+    "Jon Ching uses the term &ldquo;flauna,&rdquo; a combination of the words &ldquo;flora&rdquo; and &ldquo;fauna,&rdquo; to describe the subjects of his surreal paintings: plant-animal hybrids such as a parrot with leaves for feathers.",
+    "Jon Ching, who created  Nectar , refers to the subjects of his paintings as &ldquo;flauna.&rdquo;",
+    "The subjects of  Nectar  and  Primaveral  are types of &ldquo;flauna,&rdquo; a term that the paintings&rsquo; creator, Jon Ching, uses when describing his surreal artworks."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it provides both an explanation and an example of \"flauna.\" The sentence explains that flauna, a combination of the words \"flora\" and \"fauna,\" is a term used by Jon Ching to describe the plant-animal hybrids in his paintings. The sentence also mentions an example of Ching's flauna: a parrot with leaves for feathers.",
+    "A": "Choice A is incorrect. While the sentence partially explains what \"flauna\" is, it doesn't provide a full explanation or specific example of Ching's flauna.",
+    "C": "Choice C is incorrect. While the sentence partially explains what \"flauna\" is and includes a title of a Ching painting, it doesn't provide a full explanation or specific example of Ching's flauna.",
+    "D": "Choice D is incorrect. While the sentence partially explains what \"flauna\" is and includes the titles of two Ching paintings, it doesn't provide a full explanation of Ching's flauna."
+  }
+}

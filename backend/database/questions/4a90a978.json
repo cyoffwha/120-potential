@@ -1,0 +1,22 @@
+{
+  "question_id": "4a90a978",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1990, California native and researcher Ellen Ochoa left her position as chief of the Intelligent Systems Technology Branch at a NASA research center ______ blank the space agency's astronaut training program.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "to join",
+    "is joining",
+    "joined",
+    "joins"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is the use of nonfinite verb forms in a sentence. The nonfinite to-infinitive verb \"to join\" is correctly used to form a subordinate clause that expresses why Ochoa left her position (to join the training program).",
+    "B": "Choice B is incorrect because the finite verb \"is joining\" can't be used in this way to indicate Ochoa's action of joining the training program. A conjunction such as \"and\" would be needed to coordinate \"is joining\" with the previous finite verb, \"left.\"",
+    "C": "Choice C is incorrect because the finite verb \"joined\" can't be used in this way to indicate Ochoa's action of joining the training program. A conjunction such as \"and\" would be needed to coordinate \"joined\" with the previous finite verb, \"left.\"",
+    "D": "Choice D is incorrect because the finite verb \"joins\" can't be used in this way to indicate Ochoa's action of joining the training program. A conjunction such as \"and\" would be needed to coordinate \"joins\" with the previous finite verb, \"left.\""
+  }
+}

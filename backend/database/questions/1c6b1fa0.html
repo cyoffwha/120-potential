@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 1c6b1fa0</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In 1801, a Blackfoot chief named Ac Ko Mok Ki drew a finely detailed map of the Upper Missouri region. <span role="region" aria-label="Referenced Content"><u>This work demonstrates a vast amount of topographic knowledge, as the map features specific names of mountains and rivers, as well as the first-known sketch of the drainage network of the Missouri River.</u></span> The map is especially notable because Ac Ko Mok Ki also included details about the numerous tribes that lived in the area.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes the function of the underlined sentence in the text as a whole?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It emphasizes Ac Ko Mok Ki&rsquo;s desire to represent other tribes on the map.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It explains how Ac Ko Mok Ki developed an interest in mapmaking.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It identifies some reasons why the map is impressive.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It details how the map was used for hunting and trading purposes.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The text presents information about a map drawn by Blackfoot chief Ac Ko Mok Ki in 1801. The underlined sentence states that the map "demonstrates a vast amount of topographic knowledge" and mentions that it features the "specific names of mountains and rivers" and includes the first-known sketch of the Missouri River&rsquo;s drainage network. These are all characteristics that indicate that the map was executed with remarkable skill. Thus, the underlined sentence identifies some reasons why the map is impressive.</p><p>Choice A is incorrect. Though the sentence after the underlined sentence in the text mentions that Ac Ko Mok Ki included information about other tribes on his map, the underlined sentence itself does not address this topic. Choice B is incorrect because nothing in the underlined sentence indicates how Ac Ko Mok Ki became interested in mapmaking, only that his mapmaking skills are impressive. Choice D is incorrect because though the underlined sentence describes several features of the map, it does not specifically describe how the map was used.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">489 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt emphasizes Ac Ko Mok Ki\u0026rsquo;s desire to represent other tribes on the map.\u003c/p\u003e", "id": "e75e8079-b757-458e-b8a7-3e4a41158dba"}, {"content": "\u003cp\u003eIt explains how Ac Ko Mok Ki developed an interest in mapmaking.\u003c/p\u003e", "id": "79a03986-d90f-4418-bdd8-8e0c82f67d11"}, {"content": "\u003cp\u003eIt identifies some reasons why the map is impressive.\u003c/p\u003e", "id": "4194f6af-7355-4ddd-a0d6-93ff8b534344"}, {"content": "\u003cp\u003eIt details how the map was used for hunting and trading purposes.\u003c/p\u003e", "id": "20119afb-88cb-4fde-b07d-db95abdc4c08"}], "correct_answer": ["C"], "externalid": "7c89e3ee-faaa-4316-9ca0-e0d2363b46c4", "keys": ["4194f6af-7355-4ddd-a0d6-93ff8b534344"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-039-TSP", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The text presents information about a map drawn by Blackfoot chief Ac Ko Mok Ki in 1801. The underlined sentence states that the map \"demonstrates a vast amount of topographic knowledge\" and mentions that it features the \"specific names of mountains and rivers\" and includes the first-known sketch of the Missouri River\u0026rsquo;s drainage network. These are all characteristics that indicate that the map was executed with remarkable skill. Thus, the underlined sentence identifies some reasons why the map is impressive.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. Though the sentence after the underlined sentence in the text mentions that Ac Ko Mok Ki included information about other tribes on his map, the underlined sentence itself does not address this topic. Choice B is incorrect because nothing in the underlined sentence indicates how Ac Ko Mok Ki became interested in mapmaking, only that his mapmaking skills are impressive. Choice D is incorrect because though the underlined sentence describes several features of the map, it does not specifically describe how the map was used.\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes the function of the underlined sentence in the text as a whole?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn 1801, a Blackfoot chief named Ac Ko Mok Ki drew a finely detailed map of the Upper Missouri region. \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003eThis work demonstrates a vast amount of topographic knowledge, as the map features specific names of mountains and rivers, as well as the first-known sketch of the drainage network of the Missouri River.\u003c/u\u003e\u003c/span\u003e The map is especially notable because Ac Ko Mok Ki also included details about the numerous tribes that lived in the area.\u003c/p\u003e", "templateclusterid": "ee3ae562-3023-4fb8-a3a4-97c7f20f642b", "templateclustername": "", "type": "mcq", "vaultid": "9d1d23fc-e4bd-468e-a820-f9fdd10164ca"}, "createDate": 1691007959321, "difficulty": "E", "external_id": "7c89e3ee-faaa-4316-9ca0-e0d2363b46c4", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "1c6b1fa0", "score_band_range_cd": 3, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "cba2a03d-01c9-484c-8444-e46e790572c1", "updateDate": 1691007959321};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-1c6b1fa0");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

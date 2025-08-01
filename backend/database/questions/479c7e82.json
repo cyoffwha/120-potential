@@ -1,0 +1,22 @@
+{
+  "question_id": "479c7e82",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Although critics believed that customers would never agree to pay to pick their own produce on farms, such concerns didn't ______ blank Booker T. Whatley's efforts to promote the practice. Thanks in part to Whatley's determined advocacy, farms that allow visitors to pick their own apples, pumpkins, and other produce can be found throughout the United States.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "enhance",
+    "hinder",
+    "misrepresent",
+    "aggravate"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of Booker T. Whatley. In this context, \"hinder\" means hold back or obstruct. The text explains that Whatley encouraged farms to allow customers on site to pick their own produce for a fee. He did so despite critics' concerns that the customers would never pay to do so. This context establishes that the critics' concerns didn't hinder Whatley's efforts to promote the practice.",
+    "A": "Choice A is incorrect. The text indicates that critics' skepticism of the idea that customers would pay to pick their own produce didn't have some effect on Whatley's promotion of the practice. The text illustrates this assertion by describing Whatley's \"determined advocacy\" for the practice. This context suggests that critics' concerns didn't obstruct Whatley's efforts, not that critics' concerns didn't \"enhance,\" or increase or improve, Whatley's efforts.",
+    "C": "Choice C is incorrect because in this context, \"misrepresent\" would mean portray inaccurately, and the text includes no information relevant to the issue of how Whatley's efforts were portrayed by critics of the practice of charging customers to pick their own produce.",
+    "D": "Choice D is incorrect. The text indicates that critics' skepticism of the idea that customers would pay to pick their own produce didn't have some effect on Whatley's promotion of the practice. The text illustrates this assertion by describing Whatley's \"determined advocacy\" for the practice. This context suggests that critics' concerns didn't obstruct Whatley's efforts, not that critics' concerns didn't \"aggravate,\" or irritate or make more severe, Whatley's efforts."
+  }
+}

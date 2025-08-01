@@ -1,0 +1,22 @@
+{
+  "question_id": "0f39b19c",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "After a spate of illnesses as a child, Wilma Rudolph was told she might never walk again. Defying all odds, Rudolph didn't just walk, she ______ blank the 1960 Summer Olympics in Rome, she won both the 100- and 200-meter dashes and clinched first place for her team in the 4x100-meter relay, becoming the first US woman to win three gold medals in a single Olympics.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "ran&mdash;fast&mdash;during",
+    "ran&mdash;fast during",
+    "ran&mdash;fast, during",
+    "ran&mdash;fast. During"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (\"Defying&hellip;fast\") and another sentence that begins with a supplementary phrase (\"During&hellip;Olympics\").",
+    "A": "Choice A is incorrect. When a dash is present in a sentence (\"ran—fast\"), it's not conventional to use another dash (\"fast—during\") to mark the boundary between sentences because it creates a potentially confusing sentence. In this context, a period, semicolon, or colon would be clear and more conventional.",
+    "B": "Choice B is incorrect because it results in a run-on sentence. The sentences (\"Defying&hellip;fast\") and (\"during&hellip;Olympics\") are fused without punctuation and/or a conjunction.",
+    "C": "Choice C is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences."
+  }
+}

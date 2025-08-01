@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 2bda9edb</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In 1885, Chinese-born California resident Mary Tape became a hero of the Asian American civil rights movement. In January of that year, she won an antidiscrimination case in the California Supreme Court. <span aria-hidden="true">______</span><span class="sr-only">blank</span> in April, she wrote an open letter criticizing her local board of education for discrimination. Both actions are remembered today as historic stands against racism.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical transition?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Later,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For instance,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In other words,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Rather,</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. &ldquo;Later&rdquo; logically signals that the letter-writing discussed in this sentence occurred later in a chronological sequence of events than did the antidiscrimination case discussed in the previous sentence. </p><p>Choice B is incorrect because &ldquo;for instance&rdquo; illogically signals that the letter-writing discussed in this sentence is an example of the antidiscrimination case discussed in the previous sentence. Instead, the letter-writing is an event that occurred after the court case. Choice C is incorrect because &ldquo;in other words&rdquo; illogically signals that the letter-writing discussed in this sentence is a paraphrase or restatement of the antidiscrimination case discussed in the previous sentence. Instead, the letter-writing is an event that occurred after the court case. Choice D is incorrect because &ldquo;rather&rdquo; illogically signals that the letter-writing discussed in this sentence is an alternative to the antidiscrimination case discussed in the previous sentence. Instead, the letter-writing is an event that occurred after the court case. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">702 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eLater,\u003c/p\u003e", "id": "277e4424-bcf9-4931-82e0-c9164cff7c5e"}, {"content": "\u003cp\u003eFor instance,\u003c/p\u003e", "id": "431a2bb1-2d85-4c42-9b1c-f704cd31fbcd"}, {"content": "\u003cp\u003eIn other words,\u003c/p\u003e", "id": "43ebdc55-565c-4031-9d83-cc025de5ac53"}, {"content": "\u003cp\u003eRather,\u003c/p\u003e", "id": "b15b469a-60ba-423a-875a-a8e93cee5a4e"}], "correct_answer": ["A"], "externalid": "75904fc7-284b-4151-b762-3d901c50d7f8", "keys": ["277e4424-bcf9-4931-82e0-c9164cff7c5e"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-260-TRA", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. \u0026ldquo;Later\u0026rdquo; logically signals that the letter-writing discussed in this sentence occurred later in a chronological sequence of events than did the antidiscrimination case discussed in the previous sentence. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because \u0026ldquo;for instance\u0026rdquo; illogically signals that the letter-writing discussed in this sentence is an example of the antidiscrimination case discussed in the previous sentence. Instead, the letter-writing is an event that occurred after the court case. Choice C is incorrect because \u0026ldquo;in other words\u0026rdquo; illogically signals that the letter-writing discussed in this sentence is a paraphrase or restatement of the antidiscrimination case discussed in the previous sentence. Instead, the letter-writing is an event that occurred after the court case. Choice D is incorrect because \u0026ldquo;rather\u0026rdquo; illogically signals that the letter-writing discussed in this sentence is an alternative to the antidiscrimination case discussed in the previous sentence. Instead, the letter-writing is an event that occurred after the court case. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical transition?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn 1885, Chinese-born California resident Mary Tape became a hero of the Asian American civil rights movement. In January of that year, she won an antidiscrimination case in the California Supreme Court. \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e in April, she wrote an open letter criticizing her local board of education for discrimination. Both actions are remembered today as historic stands against racism.\u003c/p\u003e", "templateclusterid": "49cdf444-e900-4fba-950d-6bd24009e55a", "templateclustername": "", "type": "mcq", "vaultid": "62f32914-e014-4d2e-b5fa-e0eff2dd490a"}, "createDate": 1691007959334, "difficulty": "E", "external_id": "75904fc7-284b-4151-b762-3d901c50d7f8", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "2bda9edb", "score_band_range_cd": 2, "skill_cd": "TRA", "skill_desc": "Transitions", "uId": "dc8834ff-6bc5-4e2c-88dd-09f16c94375c", "updateDate": 1691007959334};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-2bda9edb");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

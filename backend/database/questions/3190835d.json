@@ -1,0 +1,22 @@
+{
+  "question_id": "3190835d",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Some businesses believe that when employees are interrupted while doing their work, they experience a decrease in energy and productivity. However, a team led by Harshad Puranik, who studies management, has found that interruptions by colleagues can have a social component that increases employees' sense of belonging, resulting in greater job satisfaction that benefits employees and employers. Therefore, businesses should recognize that ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "the interpersonal benefits of some interruptions in the workplace may offset the perceived negative effects.",
+    "in order to maximize productivity, employers should be willing to interrupt employees frequently throughout the day.",
+    "most employees avoid interrupting colleagues because they don&rsquo;t appreciate being interrupted themselves.",
+    "in order to cultivate an ideal workplace environment, interruptions of work should be discouraged."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of potential benefits of interruptions in the workplace. The text indicates that a common belief in business is that interruptions to working employees decrease energy and productivity levels. However, the text goes on to explain that a research team led by Harshad Puranik has found that there could be a social benefit to these interruptions. Since the team found that workplace interruptions can increase employees' sense of belonging and job satisfaction, it follows that the interpersonal benefits of some interruptions can offset the perceived negative effects.",
+    "B": "Choice B is incorrect. Although the text presents research findings that suggest some workplace interruptions can have a positive effect on employee job satisfaction, no further information is presented to suggest at what frequency these interruptions are ideal. Furthermore, the text doesn't tie workplace interruptions to increased productivity, but rather links it to social benefits such as sense of belonging.",
+    "C": "Choice C is incorrect because the text doesn't address employees' motives for choosing not to interrupt their colleagues. The text presents research findings that suggest that there are some positive interpersonal effects of workplace interruptions that can increase employee job satisfaction.",
+    "D": "Choice D is incorrect because asking businesses to discourage workplace interruptions doesn't follow from the team's research about the benefits of workplace interruptions, nor does the text describe an ideal work environment. Instead, the text presents research suggesting that there may be positive aspects to workplace interruptions that haven't previously been considered."
+  }
+}

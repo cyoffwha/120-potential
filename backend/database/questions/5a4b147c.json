@@ -1,0 +1,22 @@
+{
+  "question_id": "5a4b147c",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Text 1 On April 26th, 1777, Sybil Ludington rode 40 miles by horse through Putnam County, New York, to gather up local militia. British forces were burning nearby Danbury, Connecticut, and Ludington wanted to rally rebel troops to meet them. Although she was only 16 years old at the time, her brave feat made Ludington one of the heroes of the American Revolution. Since then, Ludington has been widely celebrated, inspiring postage stamps, statues, and even children's TV series. Text 2 Historian Paula D. Hunt researched the life and legacy of Sybil Ludington but found no evidence for her famous ride. Although many articles and books have been written about Ludington, Hunt believes writers may have been inventing details about Ludington as they retold her story. Ludington is revered by Americans today, but there simply isn't a strong historical record of her heroic ride.",
+  "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+  "answer_options": [
+    "Sybil Ludington was crucial to the outcome of the Revolutionary War.",
+    "Historians have confirmed which route Sybil Ludington took.",
+    "Sybil Ludington was likely not a real person.",
+    "Many people have come to admire the story of Sybil Ludington&rsquo;s ride."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. Both authors agree that Ludington's story has been widely celebrated and revered by Americans, even if they disagree on its accuracy. Text 1 states that Ludington has inspired postage stamps, statues, and TV series, and Text 2 states that many articles and books have been written about her. Thus, both authors acknowledge the popularity of Ludington's story.",
+    "A": "Choice A is incorrect. Neither author claims that Ludington had a significant impact on the war. Text 1 doesn't mention how Ludington's ride affected the war overall, and Text 2 suggests that Ludington's ride may have been exaggerated or invented over time.",
+    "B": "Choice B is incorrect. Neither author claims that Ludington's route has been verified by historians. Text 1 claims she rode 40 miles through Putnam County, but doesn't cite any sources for this information, while Text 2 suggests the ride may not have even happened.",
+    "C": "Choice C is incorrect. This choice misreads text 2. Neither author claims that Ludington was not a real person, only that her ride may not have happened. Both authors seem to treat Ludington as a genuine historical figure."
+  }
+}

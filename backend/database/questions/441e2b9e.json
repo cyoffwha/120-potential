@@ -1,0 +1,22 @@
+{
+  "question_id": "441e2b9e",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Researchers and conservationists stress that biodiversity loss due to invasive species is ______ blank . For example, people can take simple steps such as washing their footwear after travel to avoid introducing potentially invasive organisms into new environments.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "preventable",
+    "undeniable",
+    "common",
+    "concerning"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of how biodiversity loss due to invasive species can be avoided. As used in this context, \"preventable\" means able to be stopped or kept from happening. The text indicates that \"people can take simple steps\" to avoid bringing possible invasive species into new environments. It presents these steps as an example of how biodiversity loss due to invasive species is preventable.",
+    "B": "Choice B is incorrect because it wouldn't make sense to say that a simple step like washing your shoes after traveling is an example of biodiversity loss due to invasive species being \"undeniable,\" or something that can't be proved to be wrong. Although the text may suggest that biodiversity loss due to invasive species is something that really happens, the word that completes the text must make the first sentence into an assertion that is illustrated by the second sentence, and the second sentence illustrates the idea that biodiversity loss due to invasive species is preventable, not undeniable.",
+    "C": "Choice C is incorrect because it wouldn't make sense to say that a simple step like washing your shoes after traveling is an example of biodiversity loss due to invasive species being \"common,\" or something that happens regularly. Additionally, the text doesn't provide any information about how frequently invasive species cause biodiversity loss.",
+    "D": "Choice D is incorrect because it wouldn't make sense to say that a simple step like washing your shoes after traveling is an example of biodiversity loss due to invasive species being \"concerning,\" or something that is troubling or causes worry. Although the text implies that the phenomenon of biodiversity loss due to invasive species is itself a concerning phenomenon, the word that completes the text must make the first sentence into an assertion that is illustrated by the second sentence, and the second sentence illustrates the idea that biodiversity loss due to invasive species is preventable, not concerning."
+  }
+}

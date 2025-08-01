@@ -1,0 +1,22 @@
+{
+  "question_id": "42cc9236",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "If you try on one of artist Nick Cave's signature Soundsuits, you can expect to swish, rustle, or clang every time you move. Cave makes his suits out of found objects, everything from ceramic birds to broken record players. He carefully considers the sound an object makes before using ______ blank in a suit.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "this",
+    "that",
+    "these",
+    "it"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested here is pronoun-antecedent agreement. The singular pronoun \"it\" agrees in number with the singular antecedent \"object.\"",
+    "A": "Choice A is incorrect. The singular pronoun \"this\" is used to refer to a specific thing, but here there is no specific object being referred to. Instead, the sentence is referring back to a hypothetical object that Cave might use in a Soundsuit.",
+    "B": "Choice B is incorrect. The singular pronoun \"that\" is used to refer to a specific thing, but here there is no specific object being referred to. Instead, the sentence is referring back to a hypothetical object that Cave might use in a Soundsuit.",
+    "C": "Choice C is incorrect because the plural pronoun \"these\" doesn't agree in number with the singular antecedent \"object.\""
+  }
+}

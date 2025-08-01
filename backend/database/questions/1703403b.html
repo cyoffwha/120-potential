@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 1703403b</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><figure class="image"><svg aria-label="A line graph titled Average Monthly Rainfall in Select Puerto Rican Cities from 1981 to 2010. The horizontal axis is labeled Month. It ranges from May to September. The vertical axis is labeled Average rainfall, in inches. It ranges from 0 to 14 in increments of 2. 4 lines are shown. Refer to long description." height="566.2835693359375" role="img" viewbox="0 0 380 566.2835693359375" width="380" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 1" id="ed420550-79eb-48d4-af01-cd27cdd08afd"><defs>
+<marker id="marker0" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#000" points="3 0, 0 5.196, 6 5.196"></polygon>
+</marker>
+<marker id="marker1" markerheight="5" markerunits="strokeWidth" markerwidth="5" refx="2.5" refy="2.5">
+<path d="M0,0 L0,5 L5,5 L5,0 z" fill="#BBB" stroke="#000" stroke-width="1.5"></path>
+</marker>
+<marker id="marker2" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<circle cx="3" cy="3" fill="#FFF" r="1.8" stroke="#000" stroke-width=".6"></circle>
+</marker>
+<marker id="marker3" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#999" points="0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3" stroke="#000" stroke-linejoin="round" stroke-width=".5"></polygon>
+</marker>
+</defs><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="76.703125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="96" y2="96"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="70.703125" x2="82.703125" xmlns="http://www.w3.org/2000/svg" y1="96" y2="96"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(64.703125 102)">14</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="76.703125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="124.57142857142857" y2="124.57142857142857"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="70.703125" x2="82.703125" xmlns="http://www.w3.org/2000/svg" y1="124.57142857142857" y2="124.57142857142857"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(64.703125 130.57142857142856)">12</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="76.703125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="153.14285714285714" y2="153.14285714285714"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="70.703125" x2="82.703125" xmlns="http://www.w3.org/2000/svg" y1="153.14285714285714" y2="153.14285714285714"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(64.703125 159.14285714285714)">10</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="76.703125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="181.71428571428572" y2="181.71428571428572"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="70.703125" x2="82.703125" xmlns="http://www.w3.org/2000/svg" y1="181.71428571428572" y2="181.71428571428572"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(64.703125 187.71428571428572)">8</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="76.703125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="210.28571428571428" y2="210.28571428571428"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="70.703125" x2="82.703125" xmlns="http://www.w3.org/2000/svg" y1="210.28571428571428" y2="210.28571428571428"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(64.703125 216.28571428571428)">6</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="76.703125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="238.85714285714286" y2="238.85714285714286"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="70.703125" x2="82.703125" xmlns="http://www.w3.org/2000/svg" y1="238.85714285714286" y2="238.85714285714286"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(64.703125 244.85714285714286)">4</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="76.703125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="267.42857142857144" y2="267.42857142857144"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="70.703125" x2="82.703125" xmlns="http://www.w3.org/2000/svg" y1="267.42857142857144" y2="267.42857142857144"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(64.703125 273.42857142857144)">2</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="76.703125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="296" y2="296"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="70.703125" x2="82.703125" xmlns="http://www.w3.org/2000/svg" y1="296" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(64.703125 302)">0</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(24 196) rotate(-90)">Average rainfall (inches)</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="76.703125" x2="76.703125" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="105.5328125" x2="105.5328125" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(115.45281250000001 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">May</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="163.1921875" x2="163.1921875" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(173.11218749999998 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">June</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="220.8515625" x2="220.8515625" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(230.7715625 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">July</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="278.5109375" x2="278.5109375" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(288.4309375 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">August</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="336.1703125" x2="336.1703125" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(346.09031250000004 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">September</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(220.8515625 24)">Average Monthly Rainfall in</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(220.8515625 48)">Select Puerto Rican Cities</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(220.8515625 72)">from 1981 to 2010</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(220.8515625 403.1235693359375)">Month</text><rect fill="none" height="135" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="187.59375" x="103.703125" xmlns="http://www.w3.org/2000/svg" y="420.2835693359375"></rect><line marker-end="url(#marker0)" stroke="#000" stroke-width="2.4" x1="110.703125" x2="137.703125" y1="437.2835693359375" y2="437.2835693359375"></line><line marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="137.703125" x2="164.703125" y1="437.2835693359375" y2="437.2835693359375"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(174.703125 444.2835693359375)"> Rincón</text><line marker-end="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="110.703125" x2="137.703125" y1="469.2835693359375" y2="469.2835693359375"></line><line marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="137.703125" x2="164.703125" y1="469.2835693359375" y2="469.2835693359375"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(174.703125 476.2835693359375)"> Isabela</text><line marker-end="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="110.703125" x2="137.703125" y1="501.2835693359375" y2="501.2835693359375"></line><line marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="137.703125" x2="164.703125" y1="501.2835693359375" y2="501.2835693359375"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(174.703125 508.2835693359375)"> San Sebastián</text><line marker-end="url(#marker3)" stroke="#999" stroke-width="3.5" x1="110.703125" x2="137.703125" y1="533.2835693359375" y2="533.2835693359375"></line><line marker-start="url(#marker3)" stroke="#999" stroke-width="3.5" x1="137.703125" x2="164.703125" y1="533.2835693359375" y2="533.2835693359375"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(174.703125 540.2835693359375)"> Ponce</text><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="105.5328125" x2="163.1921875" y1="206" y2="213.14285714285717"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="105.5328125" x2="163.1921875" y1="187.42857142857144" y2="204.57142857142856"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="105.5328125" x2="163.1921875" y1="111.7142857142857" y2="134.57142857142856"></line><line marker-end="url(#marker3)" marker-start="url(#marker3)" stroke="#999" stroke-width="3.5" x1="105.5328125" x2="163.1921875" y1="238.85714285714286" y2="268.85714285714283"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="163.1921875" x2="220.8515625" y1="213.14285714285717" y2="203.14285714285714"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="163.1921875" x2="220.8515625" y1="204.57142857142856" y2="228.85714285714283"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="163.1921875" x2="220.8515625" y1="134.57142857142856" y2="183.14285714285714"></line><line marker-end="url(#marker3)" marker-start="url(#marker3)" stroke="#999" stroke-width="3.5" x1="163.1921875" x2="220.8515625" y1="268.85714285714283" y2="256"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="220.8515625" x2="278.5109375" y1="203.14285714285714" y2="177.42857142857144"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="220.8515625" x2="278.5109375" y1="228.85714285714283" y2="204.57142857142856"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="220.8515625" x2="278.5109375" y1="183.14285714285714" y2="148.85714285714283"></line><line marker-end="url(#marker3)" marker-start="url(#marker3)" stroke="#999" stroke-width="3.5" x1="220.8515625" x2="278.5109375" y1="256" y2="240.28571428571428"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="278.5109375" x2="336.1703125" y1="177.42857142857144" y2="204.57142857142856"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="278.5109375" x2="336.1703125" y1="204.57142857142856" y2="208.85714285714286"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="278.5109375" x2="336.1703125" y1="148.85714285714283" y2="140.28571428571428"></line><line marker-end="url(#marker3)" marker-start="url(#marker3)" stroke="#999" stroke-width="3.5" x1="278.5109375" x2="336.1703125" y1="240.28571428571428" y2="211.71428571428572"></line></g></svg></figure>
+<p>A student is presenting average monthly rainfall totals in various Puerto Rican cities for a science class. During the presentation, the student notes that in September <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the graph to complete the statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Rinc&oacute;n&rsquo;s average rainfall is greater than that of Isabela, San Sebasti&aacute;n, and Ponce.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Rinc&oacute;n and Ponce have an average rainfall of about 5 inches, and Isabela and San Sebasti&aacute;n have an average rainfall of about 10 inches.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Rinc&oacute;n, Ponce, and Isabela each have an average rainfall below 8 inches, but San Sebasti&aacute;n&rsquo;s average rainfall that month is greater than 8 inches.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Rinc&oacute;n has a similar average rainfall to Isabela, and Ponce has a similar average rainfall to San Sebasti&aacute;n.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most effectively uses data from the graph to complete the statement about average rainfall in September in select Puerto Rican cities. The graph shows that between 1981 and 2010 Rinc&oacute;n, Ponce, and Isabela all had an average rainfall during the month of September of about 6 inches, and San Sebasti&aacute;n had an average rainfall of nearly 11 inches. Describing the average September rainfall of Rinc&oacute;n, Ponce, and Isabela as below 8 inches and the average September rainfall of San Sebasti&aacute;n as greater than 8 inches therefore offers an accurate description of the data in the graph and most effectively completes the statement. </p><p>Choice A is incorrect because it offers an inaccurate interpretation of the data in the graph. The graph shows that in September, Rinc&oacute;n, Isabela, and Ponce all have an average rainfall of about 6 inches, and San Sebasti&aacute;n has an average rainfall of nearly 11 inches. Therefore, Rinc&oacute;n&rsquo;s average rainfall is the same as, not greater than, that of Isabela and Ponce, and it is below, not greater than, that of San Sebasti&aacute;n. Choice B is incorrect because it inaccurately describes the data in the graph. In September, Rinc&oacute;n and Ponce have an average rainfall of about 6 inches, not 5 inches; Isabela has an average rainfall of about 6 inches, not 10 inches; and San Sebasti&aacute;n has an average rainfall of nearly 11 inches, not 10 inches. Choice D is incorrect because although the graph shows a similar average rainfall (about 6 inches) for Rinc&oacute;n and Isabela in September, it doesn&rsquo;t show that Ponce has a similar average rainfall to San Sebasti&aacute;n during this month. In September, Ponce&rsquo;s average rainfall is about 6 inches, whereas San Sebasti&aacute;n&rsquo;s average rainfall is nearly 11 inches. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">147 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eRinc\u0026oacute;n\u0026rsquo;s average rainfall is greater than that of Isabela, San Sebasti\u0026aacute;n, and Ponce.\u003c/p\u003e", "id": "a29a271c-6bbe-4983-bc00-dc0031ae2bc4"}, {"content": "\u003cp\u003eRinc\u0026oacute;n and Ponce have an average rainfall of about 5 inches, and Isabela and San Sebasti\u0026aacute;n have an average rainfall of about 10 inches.\u003c/p\u003e", "id": "9b5d7f0f-8b56-49b9-88c8-333c1f2e28b5"}, {"content": "\u003cp\u003eRinc\u0026oacute;n, Ponce, and Isabela each have an average rainfall below 8 inches, but San Sebasti\u0026aacute;n\u0026rsquo;s average rainfall that month is greater than 8 inches.\u003c/p\u003e", "id": "77b1d0e5-663a-45f5-839c-2b7ea7ac7174"}, {"content": "\u003cp\u003eRinc\u0026oacute;n has a similar average rainfall to Isabela, and Ponce has a similar average rainfall to San Sebasti\u0026aacute;n.\u003c/p\u003e", "id": "5ecb4432-6032-4d4a-aeae-5b4dbeb8bdc9"}], "correct_answer": ["C"], "externalid": "96565fac-602b-42c3-b89a-67a0bcf9c811", "keys": ["77b1d0e5-663a-45f5-839c-2b7ea7ac7174"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-522-QUA", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most effectively uses data from the graph to complete the statement about average rainfall in September in select Puerto Rican cities. The graph shows that between 1981 and 2010 Rinc\u0026oacute;n, Ponce, and Isabela all had an average rainfall during the month of September of about 6 inches, and San Sebasti\u0026aacute;n had an average rainfall of nearly 11 inches. Describing the average September rainfall of Rinc\u0026oacute;n, Ponce, and Isabela as below 8 inches and the average September rainfall of San Sebasti\u0026aacute;n as greater than 8 inches therefore offers an accurate description of the data in the graph and most effectively completes the statement. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because it offers an inaccurate interpretation of the data in the graph. The graph shows that in September, Rinc\u0026oacute;n, Isabela, and Ponce all have an average rainfall of about 6 inches, and San Sebasti\u0026aacute;n has an average rainfall of nearly 11 inches. Therefore, Rinc\u0026oacute;n\u0026rsquo;s average rainfall is the same as, not greater than, that of Isabela and Ponce, and it is below, not greater than, that of San Sebasti\u0026aacute;n. Choice B is incorrect because it inaccurately describes the data in the graph. In September, Rinc\u0026oacute;n and Ponce have an average rainfall of about 6 inches, not 5 inches; Isabela has an average rainfall of about 6 inches, not 10 inches; and San Sebasti\u0026aacute;n has an average rainfall of nearly 11 inches, not 10 inches. Choice D is incorrect because although the graph shows a similar average rainfall (about 6 inches) for Rinc\u0026oacute;n and Isabela in September, it doesn\u0026rsquo;t show that Ponce has a similar average rainfall to San Sebasti\u0026aacute;n during this month. In September, Ponce\u0026rsquo;s average rainfall is about 6 inches, whereas San Sebasti\u0026aacute;n\u0026rsquo;s average rainfall is nearly 11 inches. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the graph to complete the statement?\u003c/p\u003e", "stimulus": "\u003cfigure class=\"image\"\u003e\u003csvg aria-label=\"A line graph titled Average Monthly Rainfall in Select Puerto Rican Cities from 1981 to 2010. The horizontal axis is labeled Month. It ranges from May to September. The vertical axis is labeled Average rainfall, in inches. It ranges from 0 to 14 in increments of 2. 4 lines are shown. Refer to long description.\" height=\"566.2835693359375\" role=\"img\" viewbox=\"0 0 380 566.2835693359375\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cg data-name=\"Layer 1\" id=\"ed420550-79eb-48d4-af01-cd27cdd08afd\"\u003e\u003cdefs\u003e\n\u003cmarker id=\"marker0\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#000\" points=\"3 0, 0 5.196, 6 5.196\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker1\" markerheight=\"5\" markerunits=\"strokeWidth\" markerwidth=\"5\" refx=\"2.5\" refy=\"2.5\"\u003e\n\u003cpath d=\"M0,0 L0,5 L5,5 L5,0 z\" fill=\"#BBB\" stroke=\"#000\" stroke-width=\"1.5\"\u003e\u003c/path\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker2\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003ccircle cx=\"3\" cy=\"3\" fill=\"#FFF\" r=\"1.8\" stroke=\"#000\" stroke-width=\".6\"\u003e\u003c/circle\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker3\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#999\" points=\"0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\".5\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003c/defs\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"76.703125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"96\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"70.703125\" x2=\"82.703125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"96\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(64.703125 102)\"\u003e14\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"76.703125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"124.57142857142857\" y2=\"124.57142857142857\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"70.703125\" x2=\"82.703125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"124.57142857142857\" y2=\"124.57142857142857\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(64.703125 130.57142857142856)\"\u003e12\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"76.703125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"153.14285714285714\" y2=\"153.14285714285714\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"70.703125\" x2=\"82.703125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"153.14285714285714\" y2=\"153.14285714285714\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(64.703125 159.14285714285714)\"\u003e10\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"76.703125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"181.71428571428572\" y2=\"181.71428571428572\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"70.703125\" x2=\"82.703125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"181.71428571428572\" y2=\"181.71428571428572\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(64.703125 187.71428571428572)\"\u003e8\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"76.703125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"210.28571428571428\" y2=\"210.28571428571428\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"70.703125\" x2=\"82.703125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"210.28571428571428\" y2=\"210.28571428571428\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(64.703125 216.28571428571428)\"\u003e6\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"76.703125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"238.85714285714286\" y2=\"238.85714285714286\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"70.703125\" x2=\"82.703125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"238.85714285714286\" y2=\"238.85714285714286\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(64.703125 244.85714285714286)\"\u003e4\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"76.703125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"267.42857142857144\" y2=\"267.42857142857144\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"70.703125\" x2=\"82.703125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"267.42857142857144\" y2=\"267.42857142857144\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(64.703125 273.42857142857144)\"\u003e2\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"76.703125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"296\" y2=\"296\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"70.703125\" x2=\"82.703125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"296\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(64.703125 302)\"\u003e0\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(24 196) rotate(-90)\"\u003eAverage rainfall (inches)\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"76.703125\" x2=\"76.703125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"105.5328125\" x2=\"105.5328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(115.45281250000001 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eMay\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"163.1921875\" x2=\"163.1921875\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(173.11218749999998 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eJune\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"220.8515625\" x2=\"220.8515625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(230.7715625 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eJuly\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"278.5109375\" x2=\"278.5109375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(288.4309375 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eAugust\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"336.1703125\" x2=\"336.1703125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(346.09031250000004 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eSeptember\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(220.8515625 24)\"\u003eAverage Monthly Rainfall in\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(220.8515625 48)\"\u003eSelect Puerto Rican Cities\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(220.8515625 72)\"\u003efrom 1981 to 2010\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(220.8515625 403.1235693359375)\"\u003eMonth\u003c/text\u003e\u003crect fill=\"none\" height=\"135\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"187.59375\" x=\"103.703125\" xmlns=\"http://www.w3.org/2000/svg\" y=\"420.2835693359375\"\u003e\u003c/rect\u003e\u003cline marker-end=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"110.703125\" x2=\"137.703125\" y1=\"437.2835693359375\" y2=\"437.2835693359375\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"137.703125\" x2=\"164.703125\" y1=\"437.2835693359375\" y2=\"437.2835693359375\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(174.703125 444.2835693359375)\"\u003e Rinc\u00f3n\u003c/text\u003e\u003cline marker-end=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"110.703125\" x2=\"137.703125\" y1=\"469.2835693359375\" y2=\"469.2835693359375\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"137.703125\" x2=\"164.703125\" y1=\"469.2835693359375\" y2=\"469.2835693359375\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(174.703125 476.2835693359375)\"\u003e Isabela\u003c/text\u003e\u003cline marker-end=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"110.703125\" x2=\"137.703125\" y1=\"501.2835693359375\" y2=\"501.2835693359375\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"137.703125\" x2=\"164.703125\" y1=\"501.2835693359375\" y2=\"501.2835693359375\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(174.703125 508.2835693359375)\"\u003e San Sebasti\u00e1n\u003c/text\u003e\u003cline marker-end=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"110.703125\" x2=\"137.703125\" y1=\"533.2835693359375\" y2=\"533.2835693359375\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"137.703125\" x2=\"164.703125\" y1=\"533.2835693359375\" y2=\"533.2835693359375\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(174.703125 540.2835693359375)\"\u003e Ponce\u003c/text\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"105.5328125\" x2=\"163.1921875\" y1=\"206\" y2=\"213.14285714285717\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"105.5328125\" x2=\"163.1921875\" y1=\"187.42857142857144\" y2=\"204.57142857142856\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"105.5328125\" x2=\"163.1921875\" y1=\"111.7142857142857\" y2=\"134.57142857142856\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker3)\" marker-start=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"105.5328125\" x2=\"163.1921875\" y1=\"238.85714285714286\" y2=\"268.85714285714283\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"163.1921875\" x2=\"220.8515625\" y1=\"213.14285714285717\" y2=\"203.14285714285714\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"163.1921875\" x2=\"220.8515625\" y1=\"204.57142857142856\" y2=\"228.85714285714283\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"163.1921875\" x2=\"220.8515625\" y1=\"134.57142857142856\" y2=\"183.14285714285714\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker3)\" marker-start=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"163.1921875\" x2=\"220.8515625\" y1=\"268.85714285714283\" y2=\"256\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"220.8515625\" x2=\"278.5109375\" y1=\"203.14285714285714\" y2=\"177.42857142857144\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"220.8515625\" x2=\"278.5109375\" y1=\"228.85714285714283\" y2=\"204.57142857142856\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"220.8515625\" x2=\"278.5109375\" y1=\"183.14285714285714\" y2=\"148.85714285714283\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker3)\" marker-start=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"220.8515625\" x2=\"278.5109375\" y1=\"256\" y2=\"240.28571428571428\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"278.5109375\" x2=\"336.1703125\" y1=\"177.42857142857144\" y2=\"204.57142857142856\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"278.5109375\" x2=\"336.1703125\" y1=\"204.57142857142856\" y2=\"208.85714285714286\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"278.5109375\" x2=\"336.1703125\" y1=\"148.85714285714283\" y2=\"140.28571428571428\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker3)\" marker-start=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"278.5109375\" x2=\"336.1703125\" y1=\"240.28571428571428\" y2=\"211.71428571428572\"\u003e\u003c/line\u003e\u003c/g\u003e\u003c/svg\u003e\u003c/figure\u003e\u003cdiv aria-label=\"Long description for line graph titled Average Monthly Rainfall in Select Puerto Rican Cities from 1981 to 2010\" class=\"sr-only\" role=\"region\"\u003e\u003cul\u003e\n\u003cli\u003eThe following 4 lines are shown:\n\u003cul\u003e\n\u003cli\u003eRinc\u00f3n\u003c/li\u003e\n\u003cli\u003eIsabela\u003c/li\u003e\n\u003cli\u003eSan Sebasti\u00e1n\u003c/li\u003e\n\u003cli\u003ePonce\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe Rinc\u00f3n line:\n\u003cul\u003e\n\u003cli\u003eBegins at May, 6.3 inches\u003c/li\u003e\n\u003cli\u003eFalls gradually to June, 5.8 inches\u003c/li\u003e\n\u003cli\u003eRises gradually to July, 6.5 inches\u003c/li\u003e\n\u003cli\u003eRises sharply to August, 8.3 inches\u003c/li\u003e\n\u003cli\u003eFalls sharply to September, 6.4 inches\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe Isabela line:\n\u003cul\u003e\n\u003cli\u003eBegins at May, 7.6 inches\u003c/li\u003e\n\u003cli\u003eFalls gradually to June, 6.4 inches\u003c/li\u003e\n\u003cli\u003eFalls gradually to July, 4.7 inches\u003c/li\u003e\n\u003cli\u003eRises gradually to August, 6.4 inches\u003c/li\u003e\n\u003cli\u003eFalls gradually to September, 6.1 inches\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe San Sebasti\u00e1n line:\n\u003cul\u003e\n\u003cli\u003eBegins at May, 12.9 inches\u003c/li\u003e\n\u003cli\u003eFalls gradually to June, 11.3 inches\u003c/li\u003e\n\u003cli\u003eFalls sharply to July, 7.9 inches\u003c/li\u003e\n\u003cli\u003eRises sharply to August, 10.3 inches\u003c/li\u003e\n\u003cli\u003eRises gradually to September, 10.9 inches\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe Ponce line:\n\u003cul\u003e\n\u003cli\u003eBegins at May, 4 inches\u003c/li\u003e\n\u003cli\u003eFalls sharply to June, 1.9 inches\u003c/li\u003e\n\u003cli\u003eRises gradually to July, 2.8 inches\u003c/li\u003e\n\u003cli\u003eRises gradually to August, 3.9 inches\u003c/li\u003e\n\u003cli\u003eRises gradually to September, 5.9 inches\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n\u003cp\u003eA student is presenting average monthly rainfall totals in various Puerto Rican cities for a science class. During the presentation, the student notes that in September \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "8e4b0355-b927-4f3f-892a-48074a914e10", "templateclustername": "", "type": "mcq", "vaultid": "87b85a71-dd3c-44c0-a33b-22041109b63a"}, "createDate": 1691007959337, "difficulty": "E", "external_id": "96565fac-602b-42c3-b89a-67a0bcf9c811", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "1703403b", "score_band_range_cd": 3, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "79663d11-74b8-4d74-8186-1c67b1691616", "updateDate": 1691007959337};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-1703403b");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

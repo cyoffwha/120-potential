@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 4f9f8ea6</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Birds of many species ingest foods containing carotenoids, pigmented molecules that are converted into feather coloration. Coloration tends to be especially saturated in male birds&rsquo; feathers, and because carotenoids also confer health benefits, the deeply saturated colors generally serve to communicate what is known as an honest signal of a bird&rsquo;s overall fitness to potential mates. However, ornithologist Allison J. Shultz and others have found that males in several species of the tanager genus <em>Ramphocelus</em> use microstructures in their feathers to manipulate light, creating the appearance of deeper saturation without the birds necessarily having to maintain a carotenoid-rich diet. These findings suggest that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>individual male tanagers can engage in honest signaling without relying on carotenoid consumption.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>feather microstructures may be less effective than deeply saturated feathers for signaling overall fitness.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>scientists have yet to determine why tanagers have a preference for mates with colorful appearances.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>a male tanager&rsquo;s appearance may function as a dishonest signal of the individual&rsquo;s overall fitness.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it most logically completes the text&rsquo;s discussion of Shultz&rsquo;s finding about male tanagers. The text explains that because carotenoids both contribute to deeply saturated feathers and offer health benefits, having deeply saturated feathers is usually &ldquo;an honest signal&rdquo; (a true indication) that a bird is generally fit. However, Shultz and others have found that certain male tanagers can appear to have deeply saturated feathers even if they haven&rsquo;t consumed a diet rich in carotenoids, thanks to microstructures in their feathers that manipulate light. If those birds aren&rsquo;t necessarily eating carotenoid-rich diets, they may actually be less fit than other birds that appear to have similarly saturated feathers; this suggests that a male tanager&rsquo;s appearance may function as a dishonest signal, or a false indication, of the bird&rsquo;s overall fitness.&nbsp;</p><p>Choice A is incorrect because Shultz&rsquo;s finding suggests that some tanagers can signal fitness without consuming the carotenoids that contribute to fitness, thereby making those signals dishonest, not that tanagers can give honest signals of their fitness without consuming carotenoids.&nbsp;Choice B is incorrect because Shultz&rsquo;s finding suggests that the microstructures in certain tanagers&rsquo; feathers can give a dishonest signal of fitness, not that the microstructures are less effective than actual pigmentation for signaling fitness. Whether the signal of fitness is honest or dishonest has no bearing on how effective the signal is: a signal is effective if potential mates behave as though it&rsquo;s true, regardless of whether it&rsquo;s actually true. Since there&rsquo;s no information in the text about how potential mates respond to the dishonest signals of some tanagers, there&rsquo;s no support for the idea that the dishonest signals are less effective than the honest signals.&nbsp;Choice C is incorrect because Shultz&rsquo;s finding suggests that certain male tanagers may appear to be fitter than they actually are, not that scientists haven&rsquo;t determined why tanagers prefer mates with colorful appearances.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">205 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eindividual male tanagers can engage in honest signaling without relying on carotenoid consumption.\u003c/p\u003e", "id": "20ca5293-d545-45f9-80e6-c5b41a6b5dfb"}, {"content": "\u003cp\u003efeather microstructures may be less effective than deeply saturated feathers for signaling overall fitness.\u003c/p\u003e", "id": "98fab16b-1e41-4374-b614-2f492e3309b3"}, {"content": "\u003cp\u003escientists have yet to determine why tanagers have a preference for mates with colorful appearances.\u003c/p\u003e", "id": "2eb9adbc-0804-4aed-9e93-58a42346a361"}, {"content": "\u003cp\u003ea male tanager\u0026rsquo;s appearance may function as a dishonest signal of the individual\u0026rsquo;s overall fitness.\u003c/p\u003e", "id": "bc8b90d3-0f86-466f-934e-24ee2896efa1"}], "correct_answer": ["D"], "externalid": "591eb366-0d71-42a1-b86b-8b17f03a42c2", "keys": ["bc8b90d3-0f86-466f-934e-24ee2896efa1"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-020-INF", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it most logically completes the text\u0026rsquo;s discussion of Shultz\u0026rsquo;s finding about male tanagers. The text explains that because carotenoids both contribute to deeply saturated feathers and offer health benefits, having deeply saturated feathers is usually \u0026ldquo;an honest signal\u0026rdquo; (a true indication) that a bird is generally fit. However, Shultz and others have found that certain male tanagers can appear to have deeply saturated feathers even if they haven\u0026rsquo;t consumed a diet rich in carotenoids, thanks to microstructures in their feathers that manipulate light. If those birds aren\u0026rsquo;t necessarily eating carotenoid-rich diets, they may actually be less fit than other birds that appear to have similarly saturated feathers; this suggests that a male tanager\u0026rsquo;s appearance may function as a dishonest signal, or a false indication, of the bird\u0026rsquo;s overall fitness.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because Shultz\u0026rsquo;s finding suggests that some tanagers can signal fitness without consuming the carotenoids that contribute to fitness, thereby making those signals dishonest, not that tanagers can give honest signals of their fitness without consuming carotenoids.\u0026nbsp;Choice B is incorrect because Shultz\u0026rsquo;s finding suggests that the microstructures in certain tanagers\u0026rsquo; feathers can give a dishonest signal of fitness, not that the microstructures are less effective than actual pigmentation for signaling fitness. Whether the signal of fitness is honest or dishonest has no bearing on how effective the signal is: a signal is effective if potential mates behave as though it\u0026rsquo;s true, regardless of whether it\u0026rsquo;s actually true. Since there\u0026rsquo;s no information in the text about how potential mates respond to the dishonest signals of some tanagers, there\u0026rsquo;s no support for the idea that the dishonest signals are less effective than the honest signals.\u0026nbsp;Choice C is incorrect because Shultz\u0026rsquo;s finding suggests that certain male tanagers may appear to be fitter than they actually are, not that scientists haven\u0026rsquo;t determined why tanagers prefer mates with colorful appearances.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eBirds of many species ingest foods containing carotenoids, pigmented molecules that are converted into feather coloration. Coloration tends to be especially saturated in male birds\u0026rsquo; feathers, and because carotenoids also confer health benefits, the deeply saturated colors generally serve to communicate what is known as an honest signal of a bird\u0026rsquo;s overall fitness to potential mates. However, ornithologist Allison J. Shultz and others have found that males in several species of the tanager genus \u003cem\u003eRamphocelus\u003c/em\u003e use microstructures in their feathers to manipulate light, creating the appearance of deeper saturation without the birds necessarily having to maintain a carotenoid-rich diet. These findings suggest that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "ae799a7b-47fa-4b0d-ab5a-9289e2e27224", "templateclustername": "", "type": "mcq", "vaultid": "9245b365-09d2-4dba-b095-36e5aa415580"}, "createDate": 1691007959317, "difficulty": "H", "external_id": "591eb366-0d71-42a1-b86b-8b17f03a42c2", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "4f9f8ea6", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "ab85e6a3-2be9-45ad-96cb-71003a157f2b", "updateDate": 1691007959317};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-4f9f8ea6");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

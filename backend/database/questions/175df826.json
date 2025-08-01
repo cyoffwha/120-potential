@@ -1,0 +1,22 @@
+{
+  "question_id": "175df826",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In the 2011 documentary The Barber of Birmingham , civil rights activist James Armstrong recounts how his barbershop in Birmingham, Alabama, ______ blank as a political hub for members of the Black community during the 1950s.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "serving",
+    "having served",
+    "served",
+    "to serve"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of verb forms within a sentence. Relative clauses, such as the one beginning with \"how,\" require a finite (tensed) verb, a verb that can function as the main verb of a clause. This choice correctly supplies the clause with the finite past tense verb \"served.\"",
+    "A": "Choice A is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"serving\" doesn't supply the clause with a finite verb.",
+    "B": "Choice B is incorrect because it results in an ungrammatical sentence. The nonfinite participle \"having served\" doesn't supply the clause with a finite verb.",
+    "D": "Choice D is incorrect because it results in an ungrammatical sentence. The nonfinite to-infinitive \"to serve\" doesn't supply the clause with a finite verb."
+  }
+}

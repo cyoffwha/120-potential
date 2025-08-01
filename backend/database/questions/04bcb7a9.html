@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 04bcb7a9</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Xin Wang and colleagues have discovered the earliest known example of a flower bud in a 164-million-year-old plant fossil in China. The researchers have named the new species <em>Florigerminis jurassica. </em>They believe that the discovery pushes the emergence of flowering plants, or angiosperms, back to the Jurassic period, which occurred between 145 million and 201 million years ago.</p></div>
+
+                        <div class="mt-3"><p>According to the text, how old was the fossil that Wang and colleagues discovered?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>150 million years old</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>145 million years old</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>164 million years old</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>201 million years old</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it gives the age for the fossil discovered by Wang and colleagues that is directly supported by the text. According to the text, Xin Wang and colleagues discovered a 164-million-year-old plant fossil. This plant fossil included a flower bud, which the researchers believe provides evidence that flowering plants emerged in the Jurassic period, which falls between 145 million and 201 million years ago. </p><p>Choice A is incorrect because the text states that Wang and colleagues discovered a 164-million-year-old flowering plant fossil in China, not one that is 150 million years old. Although 150 million years ago would fall within the Jurassic period, according to the text it isn&rsquo;t the age of the discovered fossil. Choice B is incorrect because the text states that Wang and colleagues discovered a 164-million-year-old flowering plant fossil in China, not one that is 145 million years old. Although 145 million years ago would fall at the end of the Jurassic period, according to the text it isn&rsquo;t the age of the discovered fossil. Choice D is incorrect because the text states that Wang and colleagues discovered a 164-million-year-old flowering plant fossil in China, not one that is 201 million years old. Although 201 million years ago would fall at the beginning of the Jurassic period, according to the text it isn&rsquo;t the age of the discovered fossil. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">154 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e150 million years old\u003c/p\u003e", "id": "ef320bdf-412c-4e76-ae68-397d46457de1"}, {"content": "\u003cp\u003e145 million years old\u003c/p\u003e", "id": "07f9cedf-45f2-416a-9da0-d14d08321ed8"}, {"content": "\u003cp\u003e164 million years old\u003c/p\u003e", "id": "014cc17f-7a4e-46b5-8851-713494c6e198"}, {"content": "\u003cp\u003e201 million years old\u003c/p\u003e", "id": "af5c4eba-bed6-4abe-83b2-f1c67b18d2f9"}], "correct_answer": ["C"], "externalid": "ddcb39de-3d58-4bc6-a2a2-0acfe8437055", "keys": ["014cc17f-7a4e-46b5-8851-713494c6e198"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-031-CID", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it gives the age for the fossil discovered by Wang and colleagues that is directly supported by the text. According to the text, Xin Wang and colleagues discovered a 164-million-year-old plant fossil. This plant fossil included a flower bud, which the researchers believe provides evidence that flowering plants emerged in the Jurassic period, which falls between 145 million and 201 million years ago. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text states that Wang and colleagues discovered a 164-million-year-old flowering plant fossil in China, not one that is 150 million years old. Although 150 million years ago would fall within the Jurassic period, according to the text it isn\u0026rsquo;t the age of the discovered fossil. Choice B is incorrect because the text states that Wang and colleagues discovered a 164-million-year-old flowering plant fossil in China, not one that is 145 million years old. Although 145 million years ago would fall at the end of the Jurassic period, according to the text it isn\u0026rsquo;t the age of the discovered fossil. Choice D is incorrect because the text states that Wang and colleagues discovered a 164-million-year-old flowering plant fossil in China, not one that is 201 million years old. Although 201 million years ago would fall at the beginning of the Jurassic period, according to the text it isn\u0026rsquo;t the age of the discovered fossil. \u003c/p\u003e", "stem": "\u003cp\u003eAccording to the text, how old was the fossil that Wang and colleagues discovered?\u003c/p\u003e", "stimulus": "\u003cp\u003eXin Wang and colleagues have discovered the earliest known example of a flower bud in a 164-million-year-old plant fossil in China. The researchers have named the new species \u003cem\u003eFlorigerminis jurassica. \u003c/em\u003eThey believe that the discovery pushes the emergence of flowering plants, or angiosperms, back to the Jurassic period, which occurred between 145 million and 201 million years ago.\u003c/p\u003e", "templateclusterid": "f346a3c6-5dfa-4bdc-b107-8099c5576a7e", "templateclustername": "", "type": "mcq", "vaultid": "70f7b390-f24a-425b-925e-490a866e9cef"}, "createDate": 1691007959319, "difficulty": "E", "external_id": "ddcb39de-3d58-4bc6-a2a2-0acfe8437055", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "04bcb7a9", "score_band_range_cd": 2, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "7f20984b-2207-46b2-ad82-b9cac1b190fc", "updateDate": 1691007959319};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-04bcb7a9");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

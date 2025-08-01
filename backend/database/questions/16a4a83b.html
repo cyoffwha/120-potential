@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 16a4a83b</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><em>An Ideal Husband</em> is an 1895 play by Oscar Wilde. In the play, which is a satire, Wilde suggests that a character named Lady Gertrude Chiltern is perceived as both extremely virtuous and unforgiving, as is evident when another character says <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which quotation from <em>An Ideal Husband</em> most effectively illustrates the claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Lady Chiltern is a woman of the very highest principles, I am glad to say. I am a little too old now, myself, to trouble about setting a good example, but I always admire people who do.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Do you know, [Lady Chiltern], I don&rsquo;t mind your talking morality a bit. Morality is simply the attitude we adopt towards people whom we personally dislike.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;[Lady Chiltern] does not know what weakness or temptation is. I am of clay like other men. She stands apart as good women do&mdash;pitiless in her perfection&mdash;cold and stern and without mercy.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Lady Chiltern, you are a sensible woman, the most sensible woman in London, the most sensible woman I know.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most effectively uses a quotation to illustrate the claim that Lady Gertrude Chiltern is perceived as &ldquo;both extremely virtuous and unforgiving.&rdquo; In the quotation, a man describes Lady Chiltern as someone who &ldquo;does not know what weakness or temptation is.&rdquo; In other words, the man regards her as someone who is strong and adheres to a strict definition of moral perfection. However, he ironically suggests that this definition excludes mercy and forgiveness&mdash;qualities that are also thought of as virtues; according to him, Lady Chiltern is &ldquo;pitiless in her perfection&mdash;cold and stern and without mercy.&rdquo; This description supports the idea that Lady Chiltern is perceived by others as virtuous as well as unforgiving. </p><p>Choice A is incorrect. The quotation supports the claim that Lady Chiltern is perceived as virtuous, in that it describes her as &ldquo;a woman of the very highest principles.&rdquo; However, it doesn&rsquo;t characterize her as unforgiving or being perceived as such. Choice B is incorrect. The quotation suggests that Lady Chiltern is concerned with morality, but it suggests that her interest in discussing it is fundamentally hypocritical and functions as a means by which to judge others. However, the quotation doesn&rsquo;t address the question of whether Lady Chiltern is unmerciful to those who seek forgiveness for harm they have caused. Choice D is incorrect because it doesn&rsquo;t address either Lady Chiltern&rsquo;s perceived virtuousness or her perceived lack of forgiveness; instead, it expresses the belief that she is sensible. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">214 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;Lady Chiltern is a woman of the very highest principles, I am glad to say. I am a little too old now, myself, to trouble about setting a good example, but I always admire people who do.\u0026rdquo;\u003c/p\u003e", "id": "84b3cc18-577a-4044-986a-41be78906e09"}, {"content": "\u003cp\u003e\u0026ldquo;Do you know, [Lady Chiltern], I don\u0026rsquo;t mind your talking morality a bit. Morality is simply the attitude we adopt towards people whom we personally dislike.\u0026rdquo;\u003c/p\u003e", "id": "e5ae2bc3-1a70-44fe-ae8c-6635eb55dea6"}, {"content": "\u003cp\u003e\u0026ldquo;[Lady Chiltern] does not know what weakness or temptation is. I am of clay like other men. She stands apart as good women do\u0026mdash;pitiless in her perfection\u0026mdash;cold and stern and without mercy.\u0026rdquo;\u003c/p\u003e", "id": "d7813110-e842-41c1-b7ed-a227328c6c97"}, {"content": "\u003cp\u003e\u0026ldquo;Lady Chiltern, you are a sensible woman, the most sensible woman in London, the most sensible woman I know.\u0026rdquo;\u003c/p\u003e", "id": "7eb16fd8-6985-4f7f-9d5b-0d92c9b2585a"}], "correct_answer": ["C"], "externalid": "d8fe6696-8c72-4aef-ab66-1dbe2b5ac66c", "keys": ["d7813110-e842-41c1-b7ed-a227328c6c97"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-416-LIT", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most effectively uses a quotation to illustrate the claim that Lady Gertrude Chiltern is perceived as \u0026ldquo;both extremely virtuous and unforgiving.\u0026rdquo; In the quotation, a man describes Lady Chiltern as someone who \u0026ldquo;does not know what weakness or temptation is.\u0026rdquo; In other words, the man regards her as someone who is strong and adheres to a strict definition of moral perfection. However, he ironically suggests that this definition excludes mercy and forgiveness\u0026mdash;qualities that are also thought of as virtues; according to him, Lady Chiltern is \u0026ldquo;pitiless in her perfection\u0026mdash;cold and stern and without mercy.\u0026rdquo; This description supports the idea that Lady Chiltern is perceived by others as virtuous as well as unforgiving. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The quotation supports the claim that Lady Chiltern is perceived as virtuous, in that it describes her as \u0026ldquo;a woman of the very highest principles.\u0026rdquo; However, it doesn\u0026rsquo;t characterize her as unforgiving or being perceived as such. Choice B is incorrect. The quotation suggests that Lady Chiltern is concerned with morality, but it suggests that her interest in discussing it is fundamentally hypocritical and functions as a means by which to judge others. However, the quotation doesn\u0026rsquo;t address the question of whether Lady Chiltern is unmerciful to those who seek forgiveness for harm they have caused. Choice D is incorrect because it doesn\u0026rsquo;t address either Lady Chiltern\u0026rsquo;s perceived virtuousness or her perceived lack of forgiveness; instead, it expresses the belief that she is sensible. \u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from \u003cem\u003eAn Ideal Husband\u003c/em\u003e most effectively illustrates the claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cem\u003eAn Ideal Husband\u003c/em\u003e is an 1895 play by Oscar Wilde. In the play, which is a satire, Wilde suggests that a character named Lady Gertrude Chiltern is perceived as both extremely virtuous and unforgiving, as is evident when another character says \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "c733a649-6c78-44c1-8802-0bbd7bce2ad1", "templateclustername": "", "type": "mcq", "vaultid": "08446fa4-0deb-4e72-822a-5c614a609acd"}, "createDate": 1691007959336, "difficulty": "M", "external_id": "d8fe6696-8c72-4aef-ab66-1dbe2b5ac66c", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "16a4a83b", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "b4aac181-6e50-4b28-858a-ee1feaf85914", "updateDate": 1691007959336};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-16a4a83b");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

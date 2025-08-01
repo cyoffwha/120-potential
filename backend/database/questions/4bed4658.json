@@ -1,0 +1,22 @@
+{
+  "question_id": "4bed4658",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In order to prevent nonnative fish species from moving freely between the Mediterranean and Red Seas, marine biologist Bella Galil has proposed that a saline lock system be installed along the Suez Canal in Egypt's Great Bitter Lakes. The lock would increase the salinity of the lakes and ______ blank a natural barrier of water most marine creatures would be unable to cross.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "creates",
+    "create",
+    "creating",
+    "created"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the use of non-finite (untensed) verb forms in a sentence. The modal \"would,\" which indicates the future from a perspective in the past, should be accompanied by a non-finite plain form verb. In this choice, the non-finite plain form verb \"create\" is used correctly in conjunction with the non-finite plain form verb \"increase\" to describe what the lock would do.",
+    "A": "Choice A is incorrect because the finite present tense verb \"creates\" can't be used in this way with the modal \"would\" to describe what the lock would do.",
+    "C": "Choice C is incorrect because the present participle \"creating\" can't be used in this way with the modal \"would\" to describe what the lock would do.",
+    "D": "Choice D is incorrect because the finite past tense verb \"created\" can't be used in this way with the modal \"would\" to describe what the lock would do."
+  }
+}

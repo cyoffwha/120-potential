@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 02fd3da7</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><span role="heading" aria-level="2"><strong>Text 1</strong></span></p>
+<p>Public policy researcher Anthony Fowler studied the history of elections in Australia, a country that requires citizens to vote. Fowler argues that requiring citizens to vote leads to a significant increase in voters who would otherwise not have the time or motivation to vote. Thus, election results in countries that require citizens to vote better reflect the preferences of the country as a whole.&nbsp;</p>
+<p>&nbsp;</p>
+<p><span role="heading" aria-level="2"><strong>Text 2</strong></span></p>
+<p>Governments in democratic countries function better when more people vote. However, forcing people to vote may have negative consequences. Shane P. Singh and Jason Roy studied what happens when a country requires its citizens to vote. They found that when people feel forced to vote, they tend to spend less time looking for information about their choices when voting. As a result, votes from these voters may not reflect their actual preferences.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, how would Singh and Roy (Text 2) most likely respond to the research discussed in Text 1?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Only countries of a certain population size should implement mandatory voting.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>People who are forced to vote are likely to become politically engaged in other ways, such as volunteering or running for office.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Requiring people to vote does not necessarily lead to election outcomes that better represent the preferences of the country as a whole.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Countries that require voting must also make the process of voting easier for their citizens.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. Text 1 claims that mandatory voting results in elections that "better reflect the preferences of the country." Singh and Roy disagree. They claim that more voters doesn&rsquo;t equal more quality votes&mdash;instead, they argue that forced voting may lead to less-informed votes that "may not reflect [voters&rsquo;] actual preferences."</p><p>Choice A is incorrect. Neither text mentions the population size of countries that require voting, or how that might affect election outcomes. Choice B is incorrect. Neither text discusses the effects of mandatory voting on other forms of political engagement. Choice D is incorrect. Neither text discusses the ease or difficulty of the voting process in countries that require voting.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">310 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eOnly countries of a certain population size should implement mandatory voting.\u003c/p\u003e", "id": "75f17114-1947-46c0-af46-b3a14063eca5"}, {"content": "\u003cp\u003ePeople who are forced to vote are likely to become politically engaged in other ways, such as volunteering or running for office.\u003c/p\u003e", "id": "8cf40bb7-f7d8-4c01-ade2-8fbc004bfe5e"}, {"content": "\u003cp\u003eRequiring people to vote does not necessarily lead to election outcomes that better represent the preferences of the country as a whole.\u003c/p\u003e", "id": "7af6b177-53ad-4d9f-972c-9a5c178539a9"}, {"content": "\u003cp\u003eCountries that require voting must also make the process of voting easier for their citizens.\u003c/p\u003e", "id": "6488417e-d87d-476a-86e4-62e30b74b5c1"}], "correct_answer": ["C"], "externalid": "f952519c-47b4-4050-b3b8-3934f05c1835", "keys": ["7af6b177-53ad-4d9f-972c-9a5c178539a9"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-E007", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. Text 1 claims that mandatory voting results in elections that \"better reflect the preferences of the country.\" Singh and Roy disagree. They claim that more voters doesn\u0026rsquo;t equal more quality votes\u0026mdash;instead, they argue that forced voting may lead to less-informed votes that \"may not reflect [voters\u0026rsquo;] actual preferences.\"\u003c/p\u003e\u003cp\u003eChoice A is incorrect. Neither text mentions the population size of countries that require voting, or how that might affect election outcomes. Choice B is incorrect. Neither text discusses the effects of mandatory voting on other forms of political engagement. Choice D is incorrect. Neither text discusses the ease or difficulty of the voting process in countries that require voting.\u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, how would Singh and Roy (Text 2) most likely respond to the research discussed in Text 1?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cspan role=\"heading\" aria-level=\"2\"\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003ePublic policy researcher Anthony Fowler studied the history of elections in Australia, a country that requires citizens to vote. Fowler argues that requiring citizens to vote leads to a significant increase in voters who would otherwise not have the time or motivation to vote. Thus, election results in countries that require citizens to vote better reflect the preferences of the country as a whole.\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u003cspan role=\"heading\" aria-level=\"2\"\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eGovernments in democratic countries function better when more people vote. However, forcing people to vote may have negative consequences. Shane P. Singh and Jason Roy studied what happens when a country requires its citizens to vote. They found that when people feel forced to vote, they tend to spend less time looking for information about their choices when voting. As a result, votes from these voters may not reflect their actual preferences.\u003c/p\u003e", "templateclusterid": "b8e1421f-decd-4d64-aca2-301e5ef9902f", "templateclustername": "", "type": "mcq", "vaultid": "35922aea-c514-40f0-a7dc-0910aa8df5a5"}, "createDate": 1691007959361, "difficulty": "E", "external_id": "f952519c-47b4-4050-b3b8-3934f05c1835", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "02fd3da7", "score_band_range_cd": 2, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "0db9d53f-cee0-463f-8433-36a1731ce5cc", "updateDate": 1691007959361};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-02fd3da7");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

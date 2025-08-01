@@ -1,0 +1,22 @@
+{
+  "question_id": "590f0ad2",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Industrial activity is often assumed to be a threat to wildlife, but that isn't always so. Consider the silver-studded blue butterfly ( Plebejus argus ) : as forest growth has reduced grasslands in northern Germany, many of these butterflies have left meadow habitats and are now thriving in active limestone quarries. In a survey of multiple active quarries and patches of maintained grassland, an ecologist found silver-studded blue butterflies in 100% of the quarries but only 57% of the grassland patches. Moreover, butterfly populations in the quarries were four times larger than those in the meadows.",
+  "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+  "answer_options": [
+    "It challenges a common assumption about the species under investigation in the research referred to in the text.",
+    "It introduces discussion of a specific example that supports the general claim made in the previous sentence.",
+    "It suggests that a certain species should be included in additional studies like the one mentioned later in the text.",
+    "It provides a definition for an unfamiliar term that is central to the main argument in the text."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The first sentence presents the general claim that industrial activity is not always a threat to wildlife. The underlined portion of the sentence that follows suggests that the silver-studded blue butterfly is an example of wildlife thriving in areas of industrial activity: active limestone quarries. Thus, the function of the underlined portion is to introduce a specific example in support of the general claim in the previous sentence.",
+    "A": "Choice A is incorrect. Although the first sentence indicates that \"industrial activity is often assumed\" to harm wildlife, in the case of the silver-studded blue butterfly the text mentions neither an assumption about this species nor any challenge to such an assumption.",
+    "C": "Choice C is incorrect because the text mentions only one study: the \"survey.\" Additional studies are not mentioned in the text.",
+    "D": "Choice D is incorrect because neither the underlined portion nor any other portion of the text provides a definition for any of the terms used in the text's argument."
+  }
+}

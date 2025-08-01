@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 4042ff0b</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Comfort Ratings and Temperature-Adjustment Preferences from One Survey</p></caption><thead><tr><th scope="col" style="text-align: center;vertical-align: bottom;">Participant</th><th scope="col" style="text-align: center;vertical-align: bottom;">Comfort rating</th><th scope="col" style="text-align: center;vertical-align: bottom;">Preferred temperature adjustment</th></tr></thead><tbody><tr><th scope="row" style="text-align: center;">20</th><td><span aria-hidden="true">&minus;2</span><span class="sr-only">negative 2</span></td><td>Cooler</td></tr><tr><th scope="row" style="text-align: center;">1</th><td style="text-align: center;">1</td><td>Cooler</td></tr><tr><th scope="row" style="text-align: center;">21</th><td style="text-align: center;">1</td><td>Cooler</td></tr></tbody></table></figure></p>
+<p>Nan Gao and her team conducted multiple surveys to determine participants&rsquo; levels of comfort in a room where the temperature was regulated by a commercial climate control system. Participants filled out surveys several times a day to indicate their level of comfort on a scale from <span aria-hidden="true">&minus;3</span><span class="sr-only">negative 3</span> (very cold) to <span aria-hidden="true">+3</span><span class="sr-only">positive 3</span> (very hot), with 0 indicating neutral (neither warm nor cool), and to indicate how they would prefer the temperature to be adjusted. The table shows three participants&rsquo; responses in one of the surveys. According to the table, all three participants wanted the room to be cooler, <span aria-hidden="true">______</span><span class="sr-only">blank</span>&nbsp;</p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the table to complete the statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>and they each reported the same level of comfort.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>even though each participant&rsquo;s ratings varied throughout the day.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>but participant 20 reported feeling significantly colder than the other two participants did.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>but participant 1 reported feeling warmer than the other two participants did.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The text describes the comfort rating scale: from &minus;3 (very cold) to +3 (very hot), with 0 being neutral. Participant 20 gave a &minus;2 comfort rating, a full three points colder on the scale than the other two participants. </p><p>Choice A is incorrect. This choice misreads the table. Participant 1 and participant 21 reported the same level of comfort, but participant 20&rsquo;s comfort level was three points lower. Choice B is incorrect. This choice doesn&rsquo;t use data from the table. The table only shows us one survey, so we don&rsquo;t know if the participants&rsquo; ratings varied throughout the day. Choice D is incorrect. This choice misreads the table. Participant 1 and participant 21 reported the same level of comfort. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">90 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eand they each reported the same level of comfort.\u003c/p\u003e", "id": "e2c80d2d-13bc-425a-b8ac-6dfe08ef2ab7"}, {"content": "\u003cp\u003eeven though each participant\u0026rsquo;s ratings varied throughout the day.\u003c/p\u003e", "id": "c5fca121-f52c-4f21-ad16-5079c10c8627"}, {"content": "\u003cp\u003ebut participant 20 reported feeling significantly colder than the other two participants did.\u003c/p\u003e", "id": "62f00223-3986-4954-a865-d304c527f429"}, {"content": "\u003cp\u003ebut participant 1 reported feeling warmer than the other two participants did.\u003c/p\u003e", "id": "4379f250-723a-4703-8d87-1a9f796b7781"}], "correct_answer": ["C"], "externalid": "facbe7d8-dfa7-4d45-9add-841fbd562a70", "keys": ["62f00223-3986-4954-a865-d304c527f429"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-E003", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The text describes the comfort rating scale: from \u0026minus;3 (very cold) to +3 (very hot), with 0 being neutral. Participant 20 gave a \u0026minus;2 comfort rating, a full three points colder on the scale than the other two participants. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice misreads the table. Participant 1 and participant 21 reported the same level of comfort, but participant 20\u0026rsquo;s comfort level was three points lower. Choice B is incorrect. This choice doesn\u0026rsquo;t use data from the table. The table only shows us one survey, so we don\u0026rsquo;t know if the participants\u0026rsquo; ratings varied throughout the day. Choice D is incorrect. This choice misreads the table. Participant 1 and participant 21 reported the same level of comfort. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the table to complete the statement?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eComfort Ratings and Temperature-Adjustment Preferences from One Survey\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eParticipant\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eComfort rating\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003ePreferred temperature adjustment\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: center;\"\u003e20\u003c/th\u003e\u003ctd\u003e\u003cspan aria-hidden=\"true\"\u003e\u0026minus;2\u003c/span\u003e\u003cspan class=\"sr-only\"\u003enegative 2\u003c/span\u003e\u003c/td\u003e\u003ctd\u003eCooler\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: center;\"\u003e1\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e1\u003c/td\u003e\u003ctd\u003eCooler\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: center;\"\u003e21\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e1\u003c/td\u003e\u003ctd\u003eCooler\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eNan Gao and her team conducted multiple surveys to determine participants\u0026rsquo; levels of comfort in a room where the temperature was regulated by a commercial climate control system. Participants filled out surveys several times a day to indicate their level of comfort on a scale from \u003cspan aria-hidden=\"true\"\u003e\u0026minus;3\u003c/span\u003e\u003cspan class=\"sr-only\"\u003enegative 3\u003c/span\u003e (very cold) to \u003cspan aria-hidden=\"true\"\u003e+3\u003c/span\u003e\u003cspan class=\"sr-only\"\u003epositive 3\u003c/span\u003e (very hot), with 0 indicating neutral (neither warm nor cool), and to indicate how they would prefer the temperature to be adjusted. The table shows three participants\u0026rsquo; responses in one of the surveys. According to the table, all three participants wanted the room to be cooler, \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u0026nbsp;\u003c/p\u003e", "templateclusterid": "0397c5f8-d8d8-4895-864d-aa21b0d02634", "templateclustername": "", "type": "mcq", "vaultid": "710d3f19-4beb-491e-9ec5-f658999ae4a4"}, "createDate": 1691007959369, "difficulty": "E", "external_id": "facbe7d8-dfa7-4d45-9add-841fbd562a70", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "4042ff0b", "score_band_range_cd": 3, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "4b4d82a7-3904-462e-a28e-b8154c286611", "updateDate": 1691007959369};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-4042ff0b");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

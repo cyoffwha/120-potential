@@ -1,0 +1,22 @@
+{
+  "question_id": "2903a041",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Using NASA's powerful James Webb Space Telescope (JWST), Mercedes L&oacute;pez-Morales and colleagues measured the wavelengths of light traveling through the atmosphere of WASP-39b, an exoplanet, or planet outside our solar system. Different molecules absorb different wavelengths of light, and the wavelength measurements showed the presence of carbon dioxide (CO₂) in WASP-39b's atmosphere. This finding not only offers the first decisive evidence of CO₂ in the atmosphere of an exoplanet but also illustrates the potential for future scientific breakthroughs held by the JWST.",
+  "question_text": "Which choice best describes the overall structure of the text?",
+  "answer_options": [
+    "It discusses a method used by some researchers, then states why an alternative method is superior to it.",
+    "It describes how researchers made a scientific discovery, then explains the importance of that discovery.",
+    "It outlines the steps taken in a scientific study, then presents a hypothesis based on that study.",
+    "It examines how a group of scientists reached a conclusion, then shows how other scientists have challenged that conclusion."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The text begins by describing how the researchers used the JWST to detect CO₂ in WASP-39b's atmosphere. Then the text discusses the significance of this finding, both as the first evidence of CO₂ in an exoplanet's atmosphere and as an illustration of the JWST's potential for making new discoveries in general.",
+    "A": "Choice A is incorrect. The text doesn't compare two different methods, but rather focuses on one study that used the JWST.",
+    "C": "Choice C is incorrect. The text doesn't present a hypothesis, but rather reports on the findings of a study.",
+    "D": "Choice D is incorrect. The text doesn't mention any scientists challenging the conclusion reached by L&oacute;pez-Morales and colleagues."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "428cd2c1",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Some people have speculated that two helmets with attached horns discovered in Denmark in 1942 belonged to Vikings, but scholars have long been skeptical. Archaeologist Helle Vandkilde and colleagues recently provided radiocarbon dates for the helmets, and their findings ______ blank scholars' skepticism: the helmets date to the Nordic Bronze Age, centuries before the Vikings existed.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "anticipate",
+    "inspect",
+    "reveal",
+    "justify"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of the helmets found in Denmark. In this context, \"justify\" means confirm or give reasons for. The text indicates that scholars have long been skeptical about the supposed Viking origin of two helmets found in Denmark. The radiocarbon dating of the helmets conducted by Vandkilde and colleagues demonstrates that the helmets date from the Nordic Bronze Age, making the helmets too old to have belonged to Vikings. This context supports the idea that the scholars' skepticism is justified.",
+    "A": "Choice A is incorrect because \"anticipate\" means expect or come before, neither of which would make sense in context. The text indicates that scholars have long been skeptical of the idea that the helmets belonged to Vikings. Because the skepticism has existed for a long time, Vandkilde and colleagues' research couldn't be said to anticipate it. Instead, the radiocarbon dating results justify or confirm the scholar's skepticism.",
+    "B": "Choice B is incorrect because \"inspect\" means examine or review, which wouldn't make sense in this context. Research findings are inanimate and therefore unable to inspect scholars' skepticism. The text focuses on the origin of two helmets, which some people believe belonged to Vikings. Vandkilde and colleagues found that the helmets are from the Nordic Bronze Age and therefore much older than the Vikings. This context suggests that the researchers' findings justify, not inspect, the scholars' skepticism.",
+    "C": "Choice C is incorrect because \"reveal\" means uncover or report, which wouldn't make sense in context. The text focuses on the origin of two helmets, which some people believe belonged to Vikings. Vandkilde and colleagues tested the helmets and found that they date to the Nordic Bronze Age and therefore are much older than the Vikings. This context suggests that the researchers' findings confirm or justify the scholars' skepticism, which was already known so didn't need to be revealed."
+  }
+}

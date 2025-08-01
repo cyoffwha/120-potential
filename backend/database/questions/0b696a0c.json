@@ -1,0 +1,22 @@
+{
+  "question_id": "0b696a0c",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "NASA's Cassini probe has detected an unusual wobble in the rotation of Mimas, Saturn's smallest moon. Using a computer model to study Mimas's gravitational interactions with Saturn and tidal forces, geophysicist Alyssa Rhoden and colleagues have proposed that this wobble could be due to a liquid ocean moving beneath the moon's icy surface. The researchers believe other moons should be examined to see if they too might have oceans hidden beneath their surfaces.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Rhoden and colleagues were the first to confirm that several of Saturn&rsquo;s moons contain hidden oceans.",
+    "Research has failed to identify signs that there is an ocean hidden beneath the surface of Mimas.",
+    "Rhoden and colleagues created a new computer model that identifies moons with hidden oceans without needing to analyze the moons&rsquo; rotation.&nbsp;",
+    "Research has revealed that an oddity in the rotation of Mimas could be explained by an ocean hidden beneath its surface."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The study isn't definitive, but it says that Mimas's wobbly rotation could be explained by the hidden ocean.",
+    "A": "Choice A is incorrect. This choice goes too far beyond the information in the text. Rhoden's team proposed that one moon of Saturn could have a liquid ocean beneath its surface, and that other moons should also be examined, but no one has confirmed anything.",
+    "B": "Choice B is incorrect. This choice conflicts with the text. Research has identified at least one sign—the unusual wobble in Mimas's rotation—that might be due to a hidden ocean beneath its surface.",
+    "C": "Choice C is incorrect. This choice doesn't reflect the text. The computer model studies \"gravitational interactions,\" which seem to account for the wobbly rotation of Mimas."
+  }
+}

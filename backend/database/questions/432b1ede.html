@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 432b1ede</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The forty-seven geothermal springs of Arkansas&rsquo; Hot Springs National Park are sourced via a process known as natural groundwater recharge, in which rainwater percolates downward through the earth&mdash;in this case, the porous rocks of the hills around Hot <span aria-hidden="true">______</span><span class="sr-only">blank</span> collect in a subterranean basin.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Springs to</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Springs: to</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Springs&mdash;to</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Springs, to</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. The dash after &ldquo;Springs&rdquo; pairs with the dash after &ldquo;earth&rdquo; to separate the supplementary element &ldquo;in this case, the porous rocks of the hills around Hot Springs&rdquo; from the rest of the sentence. </p><p>Choice A is incorrect because it fails to use appropriate punctuation to separate the supplementary element from the rest of the sentence. Choice B is incorrect because a colon can&rsquo;t be paired with a dash in this way to separate the supplementary element from the rest of the sentence. Choice D is incorrect because a comma can&rsquo;t be paired with a dash in this way to separate the supplementary element from the rest of the sentence. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">835 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eSprings to\u003c/p\u003e", "id": "133fe346-c482-49fc-bd04-0f3484b879d0"}, {"content": "\u003cp\u003eSprings: to\u003c/p\u003e", "id": "ba81b3b9-9814-4ea1-a0de-35a199488baa"}, {"content": "\u003cp\u003eSprings\u0026mdash;to\u003c/p\u003e", "id": "ecbcd903-1ae8-4610-bfee-d6aee50a7a2c"}, {"content": "\u003cp\u003eSprings, to\u003c/p\u003e", "id": "0d6d7834-4656-4a3d-bfdb-4aa4c16402a3"}], "correct_answer": ["C"], "externalid": "e0b53c52-f897-4582-b7de-f6e211e87ff7", "keys": ["ecbcd903-1ae8-4610-bfee-d6aee50a7a2c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-705-SEC", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. The dash after \u0026ldquo;Springs\u0026rdquo; pairs with the dash after \u0026ldquo;earth\u0026rdquo; to separate the supplementary element \u0026ldquo;in this case, the porous rocks of the hills around Hot Springs\u0026rdquo; from the rest of the sentence. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because it fails to use appropriate punctuation to separate the supplementary element from the rest of the sentence. Choice B is incorrect because a colon can\u0026rsquo;t be paired with a dash in this way to separate the supplementary element from the rest of the sentence. Choice D is incorrect because a comma can\u0026rsquo;t be paired with a dash in this way to separate the supplementary element from the rest of the sentence. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe forty-seven geothermal springs of Arkansas\u0026rsquo; Hot Springs National Park are sourced via a process known as natural groundwater recharge, in which rainwater percolates downward through the earth\u0026mdash;in this case, the porous rocks of the hills around Hot \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e collect in a subterranean basin.\u003c/p\u003e", "templateclusterid": "c059cab8-190c-4565-baf2-f72dec249405", "templateclustername": "", "type": "mcq", "vaultid": "07401630-a4f5-47e0-9270-dcff80c003d0"}, "createDate": 1691007959347, "difficulty": "M", "external_id": "e0b53c52-f897-4582-b7de-f6e211e87ff7", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "432b1ede", "score_band_range_cd": 5, "skill_cd": "BOU", "skill_desc": "Boundaries", "uId": "817426e0-a390-4f88-a582-87a7373dd64c", "updateDate": 1691007959347};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-432b1ede");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

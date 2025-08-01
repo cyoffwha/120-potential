@@ -1,0 +1,22 @@
+{
+  "question_id": "01c8c433",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Before the 1847 introduction of the US postage stamp, the cost of postage was usually paid by the recipient of a letter rather than the sender, and recipients were not always able or willing to pay promptly. ______ blank collecting this fee could be slow and arduous, and heaps of unpaid-for, undeliverable mail piled up in post offices.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Regardless,",
+    "On the contrary,",
+    "Consequently,",
+    "For example,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Consequently\" logically signals that the postal problems described in this sentence (slow fee collection, heaps of undeliverable mail) were a consequence of the fee system described in the previous sentence.",
+    "A": "Choice A is incorrect because \"regardless\" illogically signals that the postal problems described in this sentence occurred despite the fee system described in the previous sentence. Instead, they were a consequence of that system.",
+    "B": "Choice B is incorrect because \"on the contrary\" illogically signals that the postal problems described in this sentence contrast with the fee system described in the previous sentence. Instead, they were a consequence of that system.",
+    "D": "Choice D is incorrect because \"for example\" illogically signals that the postal problems described in this sentence are an example of the fee system described in the previous sentence. Instead, they were a consequence of that system."
+  }
+}

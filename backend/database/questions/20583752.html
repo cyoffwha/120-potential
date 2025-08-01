@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 20583752</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>&ldquo;The Poet Walt Whitman&rdquo; is an 1887 essay by Jos&eacute; Mart&iacute;, a Cuban author and political activist, originally written in Spanish. In the essay, Mart&iacute; explores the value of literature, arguing that a society&rsquo;s spiritual well-being depends on the character of its literary culture: <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which quotation from a translation of &ldquo;The Poet Walt Whitman&rdquo; most effectively illustrates the claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Poetry, which brings together or separates, which fortifies or brings anguish, which shores up or demolishes souls, which gives or robs men of faith and vigor, is more necessary to a people than industry itself, for industry provides them with a means of subsistence, while literature gives them the desire and strength for life.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Every society brings to literature its own form of expression, and the history of the nations can be told with greater truth by the stages of literature than by chronicles and decades.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Where will a race of men go when they have lost the habit of thinking with faith about the scope and meaning of their actions? The best among them, those who consecrate Nature with their sacred desire for the future, will lose, in a sordid and painful annihilation, all stimulus to alleviate the ugliness of humanity.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Listen to the song of this hardworking and satisfied nation; listen to Walt Whitman. The exercise of himself exalts him to majesty, tolerance exalts him to justice, and order to joy.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most effectively illustrates the claim that Mart&iacute; argues that a society&rsquo;s spiritual well-being depends on the character of its literary culture. In the quotation, Mart&iacute; asserts that poetry is &ldquo;more necessary to a people than industry itself&rdquo; and that it has the power to provide people with &ldquo;faith and vigor.&rdquo; He also adds that literature gives people &ldquo;the desire and strength for life.&rdquo; Therefore, this quotation shows that Mart&iacute; believes that literature is a societal necessity because it uplifts people and nourishes their spiritual well-being. </p><p>Choice B is incorrect. Although this quotation emphasizes the importance of literature, it focuses on how the nature of a society is reflected in that society&rsquo;s literature rather than on literature&rsquo;s value for people&rsquo;s spiritual well-being. Choice C is incorrect. Although this quotation involves an element of spirituality, it doesn&rsquo;t discuss literature. The quotation instead focuses on humanity&rsquo;s actions. Choice D is incorrect because this quotation mainly focuses on the importance of Walt Whitman rather than on the value of literature in general. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">170 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;Poetry, which brings together or separates, which fortifies or brings anguish, which shores up or demolishes souls, which gives or robs men of faith and vigor, is more necessary to a people than industry itself, for industry provides them with a means of subsistence, while literature gives them the desire and strength for life.\u0026rdquo;\u003c/p\u003e", "id": "dc7db18f-19ed-451c-911f-ea2ad7c66e74"}, {"content": "\u003cp\u003e\u0026ldquo;Every society brings to literature its own form of expression, and the history of the nations can be told with greater truth by the stages of literature than by chronicles and decades.\u0026rdquo;\u003c/p\u003e", "id": "110e2860-258b-4710-84d0-53debef8ecd7"}, {"content": "\u003cp\u003e\u0026ldquo;Where will a race of men go when they have lost the habit of thinking with faith about the scope and meaning of their actions? The best among them, those who consecrate Nature with their sacred desire for the future, will lose, in a sordid and painful annihilation, all stimulus to alleviate the ugliness of humanity.\u0026rdquo;\u003c/p\u003e", "id": "71013c7d-f641-491f-a908-6e59ad7b686a"}, {"content": "\u003cp\u003e\u0026ldquo;Listen to the song of this hardworking and satisfied nation; listen to Walt Whitman. The exercise of himself exalts him to majesty, tolerance exalts him to justice, and order to joy.\u0026rdquo;\u003c/p\u003e", "id": "09cea4fa-d2e8-4a15-a05d-306136f735d2"}], "correct_answer": ["A"], "externalid": "74ac6d75-993e-42c6-95ac-056e55a93a5e", "keys": ["dc7db18f-19ed-451c-911f-ea2ad7c66e74"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-411-LIT", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most effectively illustrates the claim that Mart\u0026iacute; argues that a society\u0026rsquo;s spiritual well-being depends on the character of its literary culture. In the quotation, Mart\u0026iacute; asserts that poetry is \u0026ldquo;more necessary to a people than industry itself\u0026rdquo; and that it has the power to provide people with \u0026ldquo;faith and vigor.\u0026rdquo; He also adds that literature gives people \u0026ldquo;the desire and strength for life.\u0026rdquo; Therefore, this quotation shows that Mart\u0026iacute; believes that literature is a societal necessity because it uplifts people and nourishes their spiritual well-being. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. Although this quotation emphasizes the importance of literature, it focuses on how the nature of a society is reflected in that society\u0026rsquo;s literature rather than on literature\u0026rsquo;s value for people\u0026rsquo;s spiritual well-being. Choice C is incorrect. Although this quotation involves an element of spirituality, it doesn\u0026rsquo;t discuss literature. The quotation instead focuses on humanity\u0026rsquo;s actions. Choice D is incorrect because this quotation mainly focuses on the importance of Walt Whitman rather than on the value of literature in general. \u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from a translation of \u0026ldquo;The Poet Walt Whitman\u0026rdquo; most effectively illustrates the claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u0026ldquo;The Poet Walt Whitman\u0026rdquo; is an 1887 essay by Jos\u0026eacute; Mart\u0026iacute;, a Cuban author and political activist, originally written in Spanish. In the essay, Mart\u0026iacute; explores the value of literature, arguing that a society\u0026rsquo;s spiritual well-being depends on the character of its literary culture: \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "68bab97f-073d-4295-9c39-b420417bd5cd", "templateclustername": "", "type": "mcq", "vaultid": "e79fa876-c63e-46b3-bb1e-ce87077a7c15"}, "createDate": 1691007959336, "difficulty": "H", "external_id": "74ac6d75-993e-42c6-95ac-056e55a93a5e", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "20583752", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "90c96281-1c62-4d15-9204-69957624ee5f", "updateDate": 1691007959336};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-20583752");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

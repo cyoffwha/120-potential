@@ -1,0 +1,22 @@
+{
+  "question_id": "56770dda",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In his 1963 exhibition Exposition of Music—Electronic Television , Korean American artist Nam June Paik showed how television images could be manipulated to express an artist's perspective. Today, Paik ______ blank considered the first video artist.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "will be",
+    "had been",
+    "was",
+    "is"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the use of verbs to express tense. In this choice, the present tense verb \"is,\" used in conjunction with the word \"today,\" correctly indicates that Paik is currently considered the first video artist.",
+    "A": "Choice A is incorrect because the future-indicating verb \"will be\" doesn't indicate that Paik is currently considered the first video artist.",
+    "B": "Choice B is incorrect because the past perfect tense verb \"had been\" doesn't indicate that Paik is currently considered the first video artist.",
+    "C": "Choice C is incorrect because the past tense verb \"was\" doesn't indicate that Paik is currently considered the first video artist."
+  }
+}

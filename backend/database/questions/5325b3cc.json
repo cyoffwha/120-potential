@@ -1,0 +1,22 @@
+{
+  "question_id": "5325b3cc",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Philadelphia's Black Pearl Chamber Orchestra, founded by Jeri Lynne Johnson, performs classical music, from well-known compositions by Beethoven to contemporary works by Jessie Montgomery. For the orchestra's iConduct! program, Johnson invites community members to learn some basic elements of conducting and then experience conducting the Black Pearl orchestra themselves.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "The Black Pearl orchestra performs music from all over the world but mostly performs music composed by Philadelphians.",
+    "Johnson founded the Black Pearl orchestra to perform classical music by contemporary artist Jessie Montgomery.&nbsp;",
+    "The Black Pearl orchestra gives community members the chance to both listen to and participate in classical music performance.&nbsp;",
+    "Johnson has community members conduct an orchestra to demonstrate how difficult the task is."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most accurately states the main idea of the text. The text begins by stating that the Black Pearl orchestra performs classical music, and then goes on to explain that the orchestra offers an iConduct! program. According to the text, this program offers community members the opportunity to learn some basics about conducting and then apply what they learn by conducting the orchestra themselves. Thus, the main idea of the text is that community members can both listen to and participate in a classical music performance.",
+    "A": "Choice A is incorrect. Although the text states that the Black Pearl orchestra is based in Philadelphia, it doesn't indicate that most of the music it plays was composed by Philadelphians.",
+    "B": "Choice B is incorrect. Although the text does state that Johnson founded the Black Pearl orchestra, this is just a detail and not the main focus of the text. Moreover, while the text does say that the orchestra sometimes plays music by Montgomery, it doesn't assert that the orchestra was founded solely for the purpose of performing Montgomery's work.",
+    "D": "Choice D is incorrect. Although the text explains that community members are invited to conduct the Black Pearl orchestra after participating in the iConduct! program, the text doesn't indicate that Johnson allows community members to do this for the specific purpose of showing how difficult the task is."
+  }
+}

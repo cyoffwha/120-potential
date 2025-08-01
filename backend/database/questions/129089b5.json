@@ -1,0 +1,22 @@
+{
+  "question_id": "129089b5",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 1933, the Twentieth Amendment to the US Constitution was ratified. The amendment mandates that presidential inaugurations be held on January 20, approximately ten weeks after the November election. ______ blank this amendment requires newly elected US senators and representatives to be sworn into their respective offices on January 3.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Instead,",
+    "For instance,",
+    "Specifically,",
+    "In addition,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"In addition\" logically signals that the information in this sentence—that the Twentieth Amendment requires newly elected US senators and representatives to be sworn in on January 3—is separate from and additional to the amendment's mandate concerning presidential inaugurations.",
+    "A": "Choice A is incorrect because \"instead\" illogically signals that the information in the sentence presents an alternative to or substitute for the Twentieth Amendment's mandate concerning presidential inaugurations. Rather, the sentence presents a separate requirement in addition to that one.",
+    "B": "Choice B is incorrect because \"for instance\" illogically signals that the information in the sentence exemplifies the Twentieth Amendment's mandate concerning presidential inaugurations. Instead, the sentence presents a separate requirement in addition to that one.",
+    "C": "Choice C is incorrect because \"specifically\" illogically signals that the sentence provides specific, precise details elaborating on the Twentieth Amendment's mandate concerning presidential inaugurations. Instead, the sentence presents a separate requirement in addition to that one."
+  }
+}

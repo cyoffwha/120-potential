@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 16631d34</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>The Million Song Dataset (MSD) includes main audio features and descriptive tags for popular songs.</li>
+<li>Audio features include acoustic traits such as loudness and pitch intervals.</li>
+<li>Many algorithms use these audio features to predict a new song&rsquo;s popularity.</li>
+<li>These algorithms may fail to accurately identify main audio features of a song with varying acoustic traits.</li>
+<li>Algorithms based on descriptive tags that describe fixed traits such as genre are more reliable predictors of song popularity.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to explain a disadvantage of relying on audio features to predict a song&rsquo;s popularity. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Many popularity-predicting algorithms are based on a song&rsquo;s audio features, such as loudness and pitch intervals.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Algorithms based on audio features may misidentify the main features of a song with varying acoustic traits, making such algorithms less reliable predictors of popularity than those based on fixed traits.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Audio features describe acoustic traits such as pitch intervals, which may vary within a song, whereas descriptive tags describe fixed traits such as genre, which are reliable predictors of popularity.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The MSD&rsquo;s descriptive tags are reliable predictors of a song&rsquo;s popularity, as the traits they describe are fixed.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. This choice uses relevant information from the notes to explain a disadvantage of relying on audio features to predict a song&rsquo;s popularity&mdash;namely, that it may misidentify features of certain songs. It also contrasts audio features with descriptive tags, which are more reliable predictors. </p><p>Choice A is incorrect. This choice only states a fact about the algorithms without evaluating their reliability or accuracy. Choice C is incorrect. This choice only describes the difference between audio features and descriptive tags without indicating why this difference matters for predicting popularity. Choice D is incorrect. This choice only mentions descriptive tags, which are not the focus of the student&rsquo;s rhetorical goal. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">551 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eMany popularity-predicting algorithms are based on a song\u0026rsquo;s audio features, such as loudness and pitch intervals.\u003c/p\u003e", "id": "bbc21e6b-5a27-4fcc-a39c-8b8040321067"}, {"content": "\u003cp\u003eAlgorithms based on audio features may misidentify the main features of a song with varying acoustic traits, making such algorithms less reliable predictors of popularity than those based on fixed traits.\u003c/p\u003e", "id": "6b98382a-ffca-46a4-9e48-0043f166c531"}, {"content": "\u003cp\u003eAudio features describe acoustic traits such as pitch intervals, which may vary within a song, whereas descriptive tags describe fixed traits such as genre, which are reliable predictors of popularity.\u003c/p\u003e", "id": "0c5b3ceb-ea9c-4c6d-97b5-69029cced36d"}, {"content": "\u003cp\u003eThe MSD\u0026rsquo;s descriptive tags are reliable predictors of a song\u0026rsquo;s popularity, as the traits they describe are fixed.\u003c/p\u003e", "id": "492a1512-cfc8-480f-9d25-5fc4c72f592a"}], "correct_answer": ["B"], "externalid": "66c2a748-013a-438c-a079-b62142b6633d", "keys": ["6b98382a-ffca-46a4-9e48-0043f166c531"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-SYN-H006", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. This choice uses relevant information from the notes to explain a disadvantage of relying on audio features to predict a song\u0026rsquo;s popularity\u0026mdash;namely, that it may misidentify features of certain songs. It also contrasts audio features with descriptive tags, which are more reliable predictors. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice only states a fact about the algorithms without evaluating their reliability or accuracy. Choice C is incorrect. This choice only describes the difference between audio features and descriptive tags without indicating why this difference matters for predicting popularity. Choice D is incorrect. This choice only mentions descriptive tags, which are not the focus of the student\u0026rsquo;s rhetorical goal. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to explain a disadvantage of relying on audio features to predict a song\u0026rsquo;s popularity. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eThe Million Song Dataset (MSD) includes main audio features and descriptive tags for popular songs.\u003c/li\u003e\n\u003cli\u003eAudio features include acoustic traits such as loudness and pitch intervals.\u003c/li\u003e\n\u003cli\u003eMany algorithms use these audio features to predict a new song\u0026rsquo;s popularity.\u003c/li\u003e\n\u003cli\u003eThese algorithms may fail to accurately identify main audio features of a song with varying acoustic traits.\u003c/li\u003e\n\u003cli\u003eAlgorithms based on descriptive tags that describe fixed traits such as genre are more reliable predictors of song popularity.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "853062e6-05a9-40e3-a765-0ca76dbffb3e", "templateclustername": "", "type": "mcq", "vaultid": "a8a80919-32fd-4b89-9b13-e5be26f0256c"}, "createDate": 1691007959372, "difficulty": "H", "external_id": "66c2a748-013a-438c-a079-b62142b6633d", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "16631d34", "score_band_range_cd": 7, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "0ea7fff8-ff71-4e5d-a2b2-4c295723ef62", "updateDate": 1691007959372};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-16631d34");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

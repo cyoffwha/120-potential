@@ -1,0 +1,22 @@
+{
+  "question_id": "333b2b65",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While one requires oxygen and one does ______ blank and anaerobic respiration are both forms of cellular respiration—that is, they are processes by which cells break down glucose to use as energy.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "not aerobic",
+    "&nbsp;not. Aerobic",
+    "not, aerobic",
+    "&nbsp;not; aerobic"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. A comma is the appropriate way to link the dependent clause \"While...not\" and the independent clause that follows.",
+    "A": "Choice A is incorrect. This choice creates a run-on sentence error. \"While...not\" is a dependent clause, which must be separated from the independent clause that follows with some sort of punctuation.",
+    "B": "Choice B is incorrect. This choice creates a sentence fragment. \"While one requires oxygen and one does not\" isn't an independent clause, so it can't stand alone as a complete sentence.",
+    "D": "Choice D is incorrect. This choice creates a punctuation error. \"While one requires oxygen and one does not\" isn't an independent clause, so it can't be linked to the clause that follows with a semicolon."
+  }
+}

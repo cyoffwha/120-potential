@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 01c1d9ee</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Swahili Speakers in Three African Countries</p></caption><thead><tr><th scope="col" style="text-align: center;vertical-align: bottom;">Country</th><th scope="col" style="text-align: center;vertical-align: bottom;">Approximate number of speakers (in millions)</th><th scope="col" style="text-align: center;vertical-align: bottom;">Estimated % of population</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">Democratic Republic of the Congo</th><td style="text-align: center;">22</td><td style="text-align: center;">25</td></tr><tr><th scope="row" style="text-align: left;">Kenya</th><td style="text-align: center;">55</td><td style="text-align: center;">100</td></tr><tr><th scope="row" style="text-align: left;">Tanzania</th><td style="text-align: center;">61</td><td style="text-align: center;">100</td></tr></tbody></table></figure></p>
+<p>Swahili is estimated to be the first language of up to 15 million people worldwide. It&rsquo;s also an officially recognized language in Tanzania, Kenya, and the Democratic Republic of the Congo, which means these countries use Swahili in government documents and proceedings. <span role="region" aria-label="Referenced Content"><u>But even in countries where almost everyone speaks Swahili, for many it isn&rsquo;t their first language but is instead their second, third, or even fourth language.</u></span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the table to support the underlined claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Tanzania has approximately 61 million Swahili speakers, which is much more than the estimated total number of people worldwide for whom Swahili is their first language.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Tanzania is estimated to have at most 15 million Swahili speakers, while the country&rsquo;s total population is approximately 61 million people.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Approximately 100 percent of the people who speak Swahili as their first language live in Kenya, which has a total population of approximately 55 million people.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Approximately 100 percent of Kenya&rsquo;s population speaks Swahili, while only about 25 percent of the Democratic Republic of the Congo&rsquo;s population speaks Swahili.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most effectively uses data from the table to support the underlined claim. The text indicates that Swahili is the first language of up to 15 million people worldwide. The text goes on to claim, in the underlined portion, that even in countries where nearly everyone speaks Swahili, many of the language&rsquo;s speakers don&rsquo;t have Swahili as their first language. The table indicates that 61 million people in Tanzania, which amounts to 100 percent of the population, speak Swahili. If 61 million people in Tanzania speak Swahili, but only 15 million people worldwide have Swahili as their first language, that means there are many people in Tanzania who speak Swahili as a language other than their first language. This information about Swahili speakers in Tanzania therefore supports the claim that many Swahili speakers in countries where nearly everyone speaks Swahili speak it as a language other than their first language (such as their second, third, or fourth language).&nbsp;</p><p>Choice B is incorrect because it doesn&rsquo;t accurately describe information in the table. According to the table, Tanzania has 61 million Swahili speakers, not at most 15 million Swahili speakers. Additionally, the table indicates that 100 percent of Tanzania&rsquo;s population speak Swahili, which means that the number of Swahili speakers in the country and the country&rsquo;s total population should be the same, not that they should differ by such a large amount. Choice C is incorrect because there&rsquo;s no information in the table or the text that indicates where people who speak Swahili as their first language live. Although Kenya&rsquo;s total population can be inferred from the table&mdash;if Kenya has 55 million Swahili speakers and 100% of Kenya&rsquo;s population speak Swahili, then Kenya must have a population of 55 million people&mdash;nothing suggests that all the people who speak Swahili as their first language live in a single country, let alone that they all live in Kenya.&nbsp;Choice D is incorrect. Although the table does indicate that 100 percent of Kenya&rsquo;s population and 25 percent of the Democratic Republic of the Congo&rsquo;s population speak Swahili, this comparison is irrelevant to the claim that Swahili isn&rsquo;t the first language of many of its speakers even in countries where almost everyone speaks Swahili. On its own, a difference in the proportions of the population who speak Swahili cannot reveal whether those Swahili speakers have Swahili as their first language or a subsequent language.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">207 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eTanzania has approximately 61 million Swahili speakers, which is much more than the estimated total number of people worldwide for whom Swahili is their first language.\u003c/p\u003e", "id": "f06e2141-334e-45fc-acf4-f6cf73ae1e06"}, {"content": "\u003cp\u003eTanzania is estimated to have at most 15 million Swahili speakers, while the country\u0026rsquo;s total population is approximately 61 million people.\u003c/p\u003e", "id": "3571b88f-0ede-4e7e-9581-3ef18a4d0222"}, {"content": "\u003cp\u003eApproximately 100 percent of the people who speak Swahili as their first language live in Kenya, which has a total population of approximately 55 million people.\u003c/p\u003e", "id": "bb88ede0-5458-44a8-9af5-9b9e03f69f65"}, {"content": "\u003cp\u003eApproximately 100 percent of Kenya\u0026rsquo;s population speaks Swahili, while only about 25 percent of the Democratic Republic of the Congo\u0026rsquo;s population speaks Swahili.\u003c/p\u003e", "id": "33b83177-937d-4160-8dcb-bc8a58120c43"}], "correct_answer": ["A"], "externalid": "15eb5d10-e935-4161-bec5-d9798b5f47e3", "keys": ["f06e2141-334e-45fc-acf4-f6cf73ae1e06"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-541-QUA", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most effectively uses data from the table to support the underlined claim. The text indicates that Swahili is the first language of up to 15 million people worldwide. The text goes on to claim, in the underlined portion, that even in countries where nearly everyone speaks Swahili, many of the language\u0026rsquo;s speakers don\u0026rsquo;t have Swahili as their first language. The table indicates that 61 million people in Tanzania, which amounts to 100 percent of the population, speak Swahili. If 61 million people in Tanzania speak Swahili, but only 15 million people worldwide have Swahili as their first language, that means there are many people in Tanzania who speak Swahili as a language other than their first language. This information about Swahili speakers in Tanzania therefore supports the claim that many Swahili speakers in countries where nearly everyone speaks Swahili speak it as a language other than their first language (such as their second, third, or fourth language).\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice B is incorrect because it doesn\u0026rsquo;t accurately describe information in the table. According to the table, Tanzania has 61 million Swahili speakers, not at most 15 million Swahili speakers. Additionally, the table indicates that 100 percent of Tanzania\u0026rsquo;s population speak Swahili, which means that the number of Swahili speakers in the country and the country\u0026rsquo;s total population should be the same, not that they should differ by such a large amount. Choice C is incorrect because there\u0026rsquo;s no information in the table or the text that indicates where people who speak Swahili as their first language live. Although Kenya\u0026rsquo;s total population can be inferred from the table\u0026mdash;if Kenya has 55 million Swahili speakers and 100% of Kenya\u0026rsquo;s population speak Swahili, then Kenya must have a population of 55 million people\u0026mdash;nothing suggests that all the people who speak Swahili as their first language live in a single country, let alone that they all live in Kenya.\u0026nbsp;Choice D is incorrect. Although the table does indicate that 100 percent of Kenya\u0026rsquo;s population and 25 percent of the Democratic Republic of the Congo\u0026rsquo;s population speak Swahili, this comparison is irrelevant to the claim that Swahili isn\u0026rsquo;t the first language of many of its speakers even in countries where almost everyone speaks Swahili. On its own, a difference in the proportions of the population who speak Swahili cannot reveal whether those Swahili speakers have Swahili as their first language or a subsequent language.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the table to support the underlined claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eSwahili Speakers in Three African Countries\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eCountry\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eApproximate number of speakers (in millions)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eEstimated % of population\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eDemocratic Republic of the Congo\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e22\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e25\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eKenya\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e55\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e100\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eTanzania\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e61\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e100\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eSwahili is estimated to be the first language of up to 15 million people worldwide. It\u0026rsquo;s also an officially recognized language in Tanzania, Kenya, and the Democratic Republic of the Congo, which means these countries use Swahili in government documents and proceedings. \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003eBut even in countries where almost everyone speaks Swahili, for many it isn\u0026rsquo;t their first language but is instead their second, third, or even fourth language.\u003c/u\u003e\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "0180544d-d259-4a2d-bed8-e59cec7caa55", "templateclustername": "", "type": "mcq", "vaultid": "178c6d02-3637-498d-ace3-0029c5c6d40e"}, "createDate": 1691007959338, "difficulty": "H", "external_id": "15eb5d10-e935-4161-bec5-d9798b5f47e3", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "01c1d9ee", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "ad981f6b-3380-41b2-a2dc-cc0911b04df2", "updateDate": 1691007959338};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-01c1d9ee");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

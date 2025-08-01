@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0c622cfb</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Although it&rsquo;s clear that Mars once had liquid water on its surface, astronomers have debated whether the evidence of ancient water reflects a prolonged phase of warm, wet conditions&mdash;the so-called wet and warm scenario&mdash;or a brief period of melting in an otherwise consistently frozen environment. Researchers Benjamin T. Cardenas and Michael P. Lamb recently added to this debate by using data from NASA and the Mars Orbiter Laser Altimeter to map the topography of what is now a large basin in Mars&rsquo;s northern hemisphere. Cardenas and Lamb concluded that the wet and warm scenario is likely correct.&nbsp;&nbsp;</p></div>
+
+                        <div class="mt-3"><p>Which finding about the basin, if true, would most directly support Cardenas and Lamb&rsquo;s conclusion?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Its dimensions and shape indicate that it is unlikely to have formed as the result of an asteroid or comet impact.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It has features suggesting that it once held an ocean that underwent gradual sea-level changes over an extended time.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Its physical characteristics are most consistent with it having formed as a result of a massive but short-lived influx of liquid water.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It is surrounded by channels that could have been formed either by running water or by flowing lava.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. This choice provides direct support for the researchers&rsquo; conclusion. If the basin once held an ocean of liquid water for "an extended time," that supports the "wet and warm scenario" on Mars, which involved a "prolonged" period of temperate conditions (and not just a "brief period of melting").</p><p>Choice A is incorrect. This choice doesn&rsquo;t provide support for the researchers&rsquo; conclusions. The dimensions of the basin have little bearing on whether or not it was filled with liquid water, and for how long, and that&rsquo;s the evidence that would support the "wet and warm" theory. Similarly, whether or not the basin was formed by an asteroid or a comet is irrelevant to the question of whether or not there was water in the basin for a long period. Choice C is incorrect. This choice does not provide support for the researchers&rsquo; conclusions, but rather the opposite. A "massive but short lived influx" of liquid water is not the same as a "prolonged phase of warm, wet conditions." It more reflects the opposing theory, a "brief period of melting." Choice D is incorrect. This choice does not support Cardenas and Lamb&rsquo;s conclusion. Both theories about liquid water on Mars ("wet and warm" and "brief period of melting") involve flowing water, but lava isn&rsquo;t mentioned at all in the text. Therefore, this choice doesn&rsquo;t provide exclusive support for either theory.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">59 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIts dimensions and shape indicate that it is unlikely to have formed as the result of an asteroid or comet impact.\u0026nbsp;\u003c/p\u003e", "id": "64a55b65-d712-4f4a-addb-fbf1d4ce05e3"}, {"content": "\u003cp\u003eIt has features suggesting that it once held an ocean that underwent gradual sea-level changes over an extended time.\u003c/p\u003e", "id": "2d8e62e9-4ca6-4fc0-8504-fc0f6e6d89d6"}, {"content": "\u003cp\u003eIts physical characteristics are most consistent with it having formed as a result of a massive but short-lived influx of liquid water.\u003c/p\u003e", "id": "c5cce04f-c527-4b49-80fa-d4687dce21de"}, {"content": "\u003cp\u003eIt is surrounded by channels that could have been formed either by running water or by flowing lava.\u0026nbsp;\u003c/p\u003e", "id": "3fc94333-6d5d-43ce-8ff1-58117f4c987a"}], "correct_answer": ["B"], "externalid": "a7544373-0f0e-48ad-bf64-b636aa0c867e", "keys": ["2d8e62e9-4ca6-4fc0-8504-fc0f6e6d89d6"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TXT-M010", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. This choice provides direct support for the researchers\u0026rsquo; conclusion. If the basin once held an ocean of liquid water for \"an extended time,\" that supports the \"wet and warm scenario\" on Mars, which involved a \"prolonged\" period of temperate conditions (and not just a \"brief period of melting\").\u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice doesn\u0026rsquo;t provide support for the researchers\u0026rsquo; conclusions. The dimensions of the basin have little bearing on whether or not it was filled with liquid water, and for how long, and that\u0026rsquo;s the evidence that would support the \"wet and warm\" theory. Similarly, whether or not the basin was formed by an asteroid or a comet is irrelevant to the question of whether or not there was water in the basin for a long period. Choice C is incorrect. This choice does not provide support for the researchers\u0026rsquo; conclusions, but rather the opposite. A \"massive but short lived influx\" of liquid water is not the same as a \"prolonged phase of warm, wet conditions.\" It more reflects the opposing theory, a \"brief period of melting.\" Choice D is incorrect. This choice does not support Cardenas and Lamb\u0026rsquo;s conclusion. Both theories about liquid water on Mars (\"wet and warm\" and \"brief period of melting\") involve flowing water, but lava isn\u0026rsquo;t mentioned at all in the text. Therefore, this choice doesn\u0026rsquo;t provide exclusive support for either theory.\u003c/p\u003e", "stem": "\u003cp\u003eWhich finding about the basin, if true, would most directly support Cardenas and Lamb\u0026rsquo;s conclusion?\u003c/p\u003e", "stimulus": "\u003cp\u003eAlthough it\u0026rsquo;s clear that Mars once had liquid water on its surface, astronomers have debated whether the evidence of ancient water reflects a prolonged phase of warm, wet conditions\u0026mdash;the so-called wet and warm scenario\u0026mdash;or a brief period of melting in an otherwise consistently frozen environment. Researchers Benjamin T. Cardenas and Michael P. Lamb recently added to this debate by using data from NASA and the Mars Orbiter Laser Altimeter to map the topography of what is now a large basin in Mars\u0026rsquo;s northern hemisphere. Cardenas and Lamb concluded that the wet and warm scenario is likely correct.\u0026nbsp;\u0026nbsp;\u003c/p\u003e", "templateclusterid": "eeb37224-9bbc-4504-95a0-0fd596bf9c2c", "templateclustername": "", "type": "mcq", "vaultid": "46fe6879-e39d-4674-8285-0281c7000244"}, "createDate": 1691007959377, "difficulty": "M", "external_id": "a7544373-0f0e-48ad-bf64-b636aa0c867e", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "0c622cfb", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "2eaffe66-66a1-4561-9009-3150c3ff7212", "updateDate": 1691007959377};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0c622cfb");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

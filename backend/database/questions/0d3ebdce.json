@@ -1,0 +1,22 @@
+{
+  "question_id": "0d3ebdce",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Neuroscientist Karen Konkoly wanted to determine whether individuals can understand and respond to questions during REM sleep. She first taught volunteers eye movements they would use to respond to basic math problems while asleep (a single left-right eye movement indicated the number one). ______ blank she attached electrodes to the volunteers' faces to record their eye movements during sleep.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Specifically,",
+    "Next,",
+    "For instance,",
+    "In sum,&nbsp;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Next\" logically signals that the action described in this sentence—Konkoly recording participants' eye movements—is the next step in Konkoly's experiment.",
+    "A": "Choice A is incorrect because \"specifically\" illogically signals that this sentence specifies or elaborates on an aspect of the action described in the previous sentence. Instead, it describes the next step in Konkoly's experiment.",
+    "C": "Choice C is incorrect because \"for instance\" illogically signals that the action described in this sentence is an example of the action described in the previous sentence. Instead, it is the next step in Konkoly's experiment.",
+    "D": "Choice D is incorrect because \"in sum\" illogically signals that this sentence summarizes or concludes the action described in the previous sentence. Instead, it describes the next step in Konkoly's experiment."
+  }
+}

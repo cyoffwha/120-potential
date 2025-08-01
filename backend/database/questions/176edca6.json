@@ -1,0 +1,22 @@
+{
+  "question_id": "176edca6",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "A 2017 study of sign language learners tested the role of iconicity—the similarity of a sign to the thing it represents—in language acquisition. The study found that the greater the iconicity of a sign, the more likely it was to have been learned. ______ blank the correlation between acquisition and iconicity was lower than that between acquisition and another factor studied: sign frequency.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "In fact,",
+    "In other words,",
+    "Granted,",
+    "As a result,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Granted\" logically signals that the following information—that iconicity is not as highly correlated with acquisition as sign frequency—is true in spite of the information about the correlation between iconicity and acquisition in the previous sentence.",
+    "A": "Choice A is incorrect because \"in fact\" illogically signals that the sentence that follows either emphasizes or refutes the information in the previous sentence regarding the correlation between iconicity and acquisition. Instead, the sentence that follows provides additional information that is true in spite of the preceding information; it neither emphasizes nor refutes that information.",
+    "B": "Choice B is incorrect because \"in other words\" illogically signals that the sentence that follows is a restatement of the information in the previous sentence; instead, the sentence that follows provides additional information that is true in spite of the preceding information.",
+    "D": "Choice D is incorrect because \"as a result\" illogically signals that the sentence that follows is a result of the information in the previous sentence regarding the correlation between iconicity and acquisition; instead, the sentence that follows is true in spite of the preceding information."
+  }
+}

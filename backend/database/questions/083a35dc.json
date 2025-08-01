@@ -1,0 +1,22 @@
+{
+  "question_id": "083a35dc",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Po'Pay was a Tewa leader from Ohkay Owingeh, a pueblo located about twenty-five miles north of present-day Santa Fe, New Mexico. He was instrumental in organizing the Pueblo Revolt of ______ blank as a result of his leadership, the Spanish colonizers were expelled from the region for a time.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "1680",
+    "1680 and",
+    "1680,",
+    "1680, and"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the coordination of main clauses within a sentence. This choice correctly uses a comma and the coordinating conjunction \"and\" to join the first main clause (\"He&hellip;1680\") and the second main clause (\"as&hellip;time\").",
+    "A": "Choice A is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction.",
+    "B": "Choice B is incorrect because when coordinating two longer main clauses such as these, it's conventional to use a comma before the coordinating conjunction.",
+    "C": "Choice C is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses."
+  }
+}

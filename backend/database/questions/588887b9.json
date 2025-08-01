@@ -1,0 +1,22 @@
+{
+  "question_id": "588887b9",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1881, French chemist Camille Faure redesigned the rechargeable lead-acid battery. Faure's design greatly increased the amount of electricity that the original battery, which the French physicist Gaston Plant&eacute; ______ blank fifteen years earlier, could hold.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "is inventing",
+    "will invent",
+    "invents",
+    "had invented"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. Faure redesigned the battery in 1881, and the original battery was invented \"fifteen years earlier.\" Notice that this is the only choice in the past tense. To indicate that a past occurrence took place before another past occurrence, we need to use \"had\" + the past tense form of the verb. This is called the \"past perfect\" tense.",
+    "A": "Choice A is incorrect. This choice creates a tense error. Plant&eacute; invented the original battery in the past, so we shouldn't use the present tense \"is inventing.\"",
+    "B": "Choice B is incorrect. This choice creates a tense error. Plant&eacute; invented the original battery in the past, so we shouldn't use the future tense \"will invent.\"",
+    "C": "Choice C is incorrect. This choice creates a tense error. Plant&eacute; invented the original battery in the past, so we shouldn't use the present tense \"invents.\""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "31d0bd9a",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The parasitic dodder plant increases its reproductive success by flowering at the same time as the host plant it has latched onto. In 2020, Jianqiang Wu and his colleagues determined that the tiny dodder achieves this ______ blank with its host by absorbing and utilizing a protein the host produces when it is about to flower.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "synchronization",
+    "hibernation",
+    "prediction",
+    "moderation"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of a relationship between the dodder plant and its host plant. As used in this context, \"synchronization\" means the act of things happening at the same time. The text indicates that the dodder and its host plant flower in unison and that this synchronization occurs because the dodder makes use of a protein produced by the host shortly before flowering.",
+    "B": "Choice B is incorrect because referring to \"hibernation,\" or the state of being dormant or inactive, wouldn't make sense in context. The text focuses on something the dodder plant actively engages in—making use of a protein and producing flowers.",
+    "C": "Choice C is incorrect because stating that the dodder plant and its host engage together in \"prediction,\" or the act of declaring or indicating something in advance, wouldn't make sense in context. Rather than indicating that the dodder plant and its host plant make a prediction about flowering activity, the text suggests that the host produces a protein as part of its regular flowering process and that the dodder then absorbs and uses that protein to flower at the same time.",
+    "D": "Choice D is incorrect because referring to \"moderation,\" or the act of causing something to become less intense or extreme, wouldn't make sense in context. Although the text states that the dodder plant absorbs and uses a protein made by its host plant, it doesn't suggest that the dodder lessens the host plant's flowering activity; the two plants simply flower in unison."
+  }
+}

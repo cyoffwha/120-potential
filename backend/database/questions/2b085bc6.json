@@ -1,0 +1,22 @@
+{
+  "question_id": "2b085bc6",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Paul Laurence Dunbar's 1902 novel The Sport of the Gods . Joe and some of his family members have recently moved to New York City. [Joe] was wild with enthusiasm and with a desire to be a part of all that the metropolis meant. In the evening he saw the young fellows passing by dressed in their spruce clothes, and he wondered with a sort of envy where they could be going. Back home there had been no place much worth going to, except church and one or two people's houses. Which choice best states the main purpose of the text?",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "It illustrates a character&rsquo;s reaction to a new environment.",
+    "It explains why a character has traveled to a city.",
+    "It compares a character&rsquo;s thoughts about an event at two different times of day.",
+    "It presents a character feeling regret over leaving home."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately describes the main purpose of the text. The narrator describes how Joe responds to being in \"the metropolis\": he's excited and \"wild with enthusiasm.\" He also envies the young fellows who walk by because, dressed as they are, they look as if they have somewhere special to go. The text contrasts this new place with the place Joe comes from, where apparently there wasn't as much to do. Thus, the main purpose of the text is to illustrate Joe's reaction to a new environment.",
+    "B": "Choice B is incorrect because the text makes no reference to why Joe has moved. The narrator indicates that Joe is enthusiastic about being in a city, but there's no explanation provided for the move.",
+    "C": "Choice C is incorrect because the text makes no reference to how Joe thinks about an event. The narrator describes young men passing by in the evening and then recalls places worth going to at home—church and a few people's houses—but there's no explicit comparison made nor is a time of day mentioned for these events back home.",
+    "D": "Choice D is incorrect because the text doesn't support the idea that Joe feels regret over leaving home. Instead, Joe is described as \"wild with enthusiasm\" at being in the city. Joe's home is mentioned, but only to compare it unfavorably with the city."
+  }
+}

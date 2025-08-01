@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 1b9b29f1</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>A team of biologists led by Jae-Hoon Jung, Antonio D. Barbosa, and Stephanie Hutin investigated the mechanism that allows <em>Arabidopsis thaliana</em> (thale cress) plants to accelerate flowering at high temperatures. They replaced the protein ELF3 in the plants with a similar protein found in another species (stiff brome) that, unlike <em>A. thaliana</em>, displays no acceleration in flowering with increased temperature. A comparison of unmodified <em>A. thaliana</em> plants with the altered plants showed no difference in flowering at 22&deg; Celsius, but at 27&deg; Celsius, the unmodified plants exhibited accelerated flowering while the altered ones did not, which suggests that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>temperature-sensitive accelerated flowering is unique to <em>A. thaliana</em>.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p><em>A. thaliana&nbsp;</em>increases ELF3 production as temperatures rise.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>ELF3 enables <em>A. thaliana&nbsp;</em>to respond to increased temperatures.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>temperatures of at least 22&deg; Celsius are required for <em>A. thaliana</em> to flower.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most logically completes the text&rsquo;s discussion of accelerated flowering in <em>A. thaliana</em> plants. The text indicates that <em>A. thaliana</em> plants show accelerated flowering at high temperatures. To investigate the mechanism for this accelerated flowering, biologists replaced the ELF3 protein in one group of <em>A. thaliana</em> plants with a similar protein found in another plant species that doesn&rsquo;t show accelerated flowering. The team then compared these modified plants to <em>A. thaliana</em> plants that retained their original ELF3 protein. The text states that the two samples of plants showed no difference in flowering at 22&deg; Celsius, but at 27&deg; Celsius the unaltered plants with ELF3 showed accelerated flowering while the plants without ELF3 didn&rsquo;t. If accelerated flowering at the higher temperature occurred in the <em>A. thaliana</em> plants with ELF3 but not in the plants without the protein, then ELF3 likely enables <em>A. thaliana</em> to respond to increased temperatures. </p><p>Choice A is incorrect because the text doesn&rsquo;t mention whether any plants other than <em>A. thaliana</em> and stiff brome show temperature-sensitive flowering, so there is no support for the idea that this type of flowering is unique to <em>A. thaliana</em>. Choice B is incorrect because the text discusses the effects of ELF3 and not the production of it. There&rsquo;s nothing in the text to suggest that the amount of ELF3 in <em>A. thaliana</em>&nbsp;varies with temperature. Choice D is incorrect. While the text states that there was no difference in the flowering of modified and unmodified <em>A. thaliana</em> plants at 22&deg; Celsius, there&rsquo;s no suggestion that <em>A. thaliana</em> only begins to flower at 22&deg; Celsius; the text doesn&rsquo;t mention a specific temperature threshold required for <em>A. thaliana </em>flowering. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">189 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003etemperature-sensitive accelerated flowering is unique to \u003cem\u003eA. thaliana\u003c/em\u003e.\u003c/p\u003e", "id": "5583c367-4907-4254-9567-fc107e6175ad"}, {"content": "\u003cp\u003e\u003cem\u003eA. thaliana\u0026nbsp;\u003c/em\u003eincreases ELF3 production as temperatures rise.\u003c/p\u003e", "id": "9e1022a1-c2f0-4797-bf21-70e4c89a3f84"}, {"content": "\u003cp\u003eELF3 enables \u003cem\u003eA. thaliana\u0026nbsp;\u003c/em\u003eto respond to increased temperatures.\u003c/p\u003e", "id": "c24e7af8-d274-4bbc-b08d-41aa813ff5ef"}, {"content": "\u003cp\u003etemperatures of at least 22\u0026deg; Celsius are required for \u003cem\u003eA. thaliana\u003c/em\u003e to flower.\u003c/p\u003e", "id": "1614f08f-ac56-4d17-9a1d-bf2ab2541a2b"}], "correct_answer": ["C"], "externalid": "c3302651-c023-44bf-953c-6999ac7fcd51", "keys": ["c24e7af8-d274-4bbc-b08d-41aa813ff5ef"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-009-INF", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most logically completes the text\u0026rsquo;s discussion of accelerated flowering in \u003cem\u003eA. thaliana\u003c/em\u003e plants. The text indicates that \u003cem\u003eA. thaliana\u003c/em\u003e plants show accelerated flowering at high temperatures. To investigate the mechanism for this accelerated flowering, biologists replaced the ELF3 protein in one group of \u003cem\u003eA. thaliana\u003c/em\u003e plants with a similar protein found in another plant species that doesn\u0026rsquo;t show accelerated flowering. The team then compared these modified plants to \u003cem\u003eA. thaliana\u003c/em\u003e plants that retained their original ELF3 protein. The text states that the two samples of plants showed no difference in flowering at 22\u0026deg; Celsius, but at 27\u0026deg; Celsius the unaltered plants with ELF3 showed accelerated flowering while the plants without ELF3 didn\u0026rsquo;t. If accelerated flowering at the higher temperature occurred in the \u003cem\u003eA. thaliana\u003c/em\u003e plants with ELF3 but not in the plants without the protein, then ELF3 likely enables \u003cem\u003eA. thaliana\u003c/em\u003e to respond to increased temperatures. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text doesn\u0026rsquo;t mention whether any plants other than \u003cem\u003eA. thaliana\u003c/em\u003e and stiff brome show temperature-sensitive flowering, so there is no support for the idea that this type of flowering is unique to \u003cem\u003eA. thaliana\u003c/em\u003e. Choice B is incorrect because the text discusses the effects of ELF3 and not the production of it. There\u0026rsquo;s nothing in the text to suggest that the amount of ELF3 in \u003cem\u003eA. thaliana\u003c/em\u003e\u0026nbsp;varies with temperature. Choice D is incorrect. While the text states that there was no difference in the flowering of modified and unmodified \u003cem\u003eA. thaliana\u003c/em\u003e plants at 22\u0026deg; Celsius, there\u0026rsquo;s no suggestion that \u003cem\u003eA. thaliana\u003c/em\u003e only begins to flower at 22\u0026deg; Celsius; the text doesn\u0026rsquo;t mention a specific temperature threshold required for \u003cem\u003eA. thaliana \u003c/em\u003eflowering. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eA team of biologists led by Jae-Hoon Jung, Antonio D. Barbosa, and Stephanie Hutin investigated the mechanism that allows \u003cem\u003eArabidopsis thaliana\u003c/em\u003e (thale cress) plants to accelerate flowering at high temperatures. They replaced the protein ELF3 in the plants with a similar protein found in another species (stiff brome) that, unlike \u003cem\u003eA. thaliana\u003c/em\u003e, displays no acceleration in flowering with increased temperature. A comparison of unmodified \u003cem\u003eA. thaliana\u003c/em\u003e plants with the altered plants showed no difference in flowering at 22\u0026deg; Celsius, but at 27\u0026deg; Celsius, the unmodified plants exhibited accelerated flowering while the altered ones did not, which suggests that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "6fd67e95-7ebb-4f94-b397-c3d9a78c4732", "templateclustername": "", "type": "mcq", "vaultid": "44b2ea80-78fa-480d-8a0e-f562236f7932"}, "createDate": 1691007959314, "difficulty": "H", "external_id": "c3302651-c023-44bf-953c-6999ac7fcd51", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "1b9b29f1", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "9c096f82-ab4e-48e7-80eb-3e3a6cc6f294", "updateDate": 1691007959314};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-1b9b29f1");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

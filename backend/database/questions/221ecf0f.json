@@ -1,0 +1,22 @@
+{
+  "question_id": "221ecf0f",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Alexander Lawrence Posey (1873–1908) varied his focus and tone depending on the genre in which he was writing. In his poetry, he used heartfelt language to evoke the beauty and peacefulness of his natural surroundings; in his journalism, ______ blank he employed humor and satire to comment on political issues affecting his Muskogee Creek community.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "that is,",
+    "granted,",
+    "similarly,",
+    "by contrast,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. This sentence compares two examples of Posey's tone: the \"heartfelt language\" he used in his poetry versus the \"humor and satire\" he used in his journalism. We know from these descriptions and from the claim in the previous sentence that the two tones are very different from each other. So the transition \"by contrast\" fits the context perfectly.",
+    "A": "Choice A is incorrect. This choice uses a transition that indicates a restatement of the same idea in other words. But the text isn't restating the first example here. Instead, it's offering a second, totally different example.",
+    "B": "Choice B is incorrect. This choice uses a transition that means \"admittedly.\" But the text isn't admitting or conceding anything here. Instead, these two examples work together to support the claim made in the first sentence.",
+    "C": "Choice C is incorrect. This choice uses a transition that indicates the addition of an agreeing idea. But these two examples are intentionally very different from each other, so \"similarly\" doesn't make sense here."
+  }
+}

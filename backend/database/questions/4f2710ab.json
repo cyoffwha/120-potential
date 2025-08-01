@@ -1,0 +1,22 @@
+{
+  "question_id": "4f2710ab",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Organisms have evolved a number of surprising adaptations to ensure their survival in adverse conditions. Tadpole shrimp ( Triops longicaudatus ) embryos, ______ blank can pause development for over ten years during extended periods of drought.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "in contrast,",
+    "for example,",
+    "meanwhile,",
+    "consequently,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"For example\" logically signals that the information in this sentence—that tadpole shrimp embryos can pause development during extended periods of drought—exemplifies the previous sentence's claim that organisms have evolved surprising adaptations to survive in adverse conditions.",
+    "A": "Choice A is incorrect because \"in contrast\" illogically signals that the information in this sentence contrasts with the claim about organisms in the previous sentence. Instead, it exemplifies this claim.",
+    "C": "Choice C is incorrect because \"meanwhile\" illogically signals that the information in this sentence is separate from (while occurring simultaneously with) the claim about organisms in the previous sentence. Instead, it exemplifies this claim.",
+    "D": "Choice D is incorrect because \"consequently\" illogically signals that the information in this sentence is a consequence, or result, of the claim about organisms in the previous sentence. Instead, it exemplifies this claim."
+  }
+}

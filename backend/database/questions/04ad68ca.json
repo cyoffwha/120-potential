@@ -1,0 +1,22 @@
+{
+  "question_id": "04ad68ca",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In Gothic architecture, flying buttresses are large arches that help support a building's exterior walls. Before the Gothic era, cathedrals' heavy ceilings had to be supported by thick, short walls, but the invention of flying buttresses eliminated this need. ______ blank Gothic cathedrals could be built with thinner, higher walls.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Similarly,",
+    "For instance,",
+    "Nevertheless,",
+    "As a result,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"As a result\" logically signals that the thinner, higher walls in this sentence were a result of the invention of flying buttresses in the previous sentence.",
+    "A": "Choice A is incorrect because \"similarly\" illogically signals that the thinner, higher walls in this sentence are similar to the invention of flying buttresses in the previous sentence. Instead, the walls were a result of that invention.",
+    "B": "Choice B is incorrect because \"for instance\" illogically signals that the thinner, higher walls in this sentence are an example supporting the statement about the invention of flying buttresses in the previous sentence. Instead, the walls were a result of that invention.",
+    "C": "Choice C is incorrect because \"nevertheless\" illogically signals that the thinner, higher walls in this sentence occurred despite the invention of flying buttresses in the previous sentence. Instead, the walls were a result of that invention."
+  }
+}

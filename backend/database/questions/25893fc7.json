@@ -1,0 +1,22 @@
+{
+  "question_id": "25893fc7",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In many cultures, a handshake can create trust between people. Engineer Jo&atilde;o Avelino and his team are designing a robot to shake hands with a human in order to improve human-robot interactions. The robot hand adjusts its movements and pressure to better imitate the feel of a human hand. The researchers want the robot's handshake to feel realistic because ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "lifelike handshakes may make people more comfortable interacting with robots.",
+    "it&rsquo;s easier to program a robot to perform handshakes than it is to program a robot to perform some other types of greetings.",
+    "people are less likely to interact with robots that don&rsquo;t look like humans.",
+    "the robot in the researchers&rsquo; study may have uses other than interacting with humans."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The text says that handshakes create trust, and that the engineers' goal is to \"improve human-robot interactions.\" This suggests that they want the robot's handshake to feel real because they want humans to trust the robot.",
+    "B": "Choice B is incorrect. This inference isn't supported. The text never discusses any other types of greetings, so there is no basis to make this inference.",
+    "C": "Choice C is incorrect. This inference isn't supported. The text never discusses the appearance of this robot or any other robots, so there is no basis to make this inference.",
+    "D": "Choice D is incorrect. This inference isn't supported. The text never discusses any uses for the robot other than interacting with humans, so there is no basis to make this inference."
+  }
+}

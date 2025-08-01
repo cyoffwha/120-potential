@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 4fa7e50e</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>According to a US tax policy expert, state taxes are <span aria-hidden="true">______</span><span class="sr-only">blank</span> other factors when considering an interstate move. Even significant differences in state taxation have almost no effect on most people&rsquo;s decisions, while differences in employment opportunities, housing availability, and climate are strong influences.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>consistent with</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>representative of</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>overshadowed by</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>irrelevant to</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most logically completes the text&rsquo;s discussion of the factors that influence peoples&rsquo; decisions to move to a different state. As used in this context, &ldquo;overshadowed by&rdquo; means to be surpassed by or caused to seem less important than other factors affecting a move. The text indicates that, according to a US tax policy expert, when people think about an interstate move, state taxes have little effect on their decisions, while employment opportunities, housing availability, and climate have a very strong effect. This context suggests that people consider these other factors to be more important than state taxes.&nbsp;</p><p>Choice A is incorrect because the text indicates that state taxes aren&rsquo;t as important a consideration as other factors when people are thinking of moving to another state. The context doesn&rsquo;t suggest that state taxes are &ldquo;consistent with,&rdquo; or in agreement with these other factors.&nbsp;Choice B is incorrect because it wouldn&rsquo;t make sense in context to say that state taxes are &ldquo;representative of,&rdquo; or typical of, other factors. Taxes aren&rsquo;t an example of employment opportunities, housing availability, and climate, which are the other factors listed in the text. Choice D is incorrect because it wouldn&rsquo;t make sense in context to say that state taxes are &ldquo;irrelevant to,&rdquo; or unconnected or unimportant to other factors. State taxes are irrelevant to peoples&rsquo; decisions, not to other factors. In other words, although the text suggests that state taxes may be irrelevant to people considering a move to another state, the other factors mentioned in the text, such as employment opportunities, are unable to have an opinion about state taxes. Furthermore, the text indicates that significant differences in state taxes have almost no effect on peoples&rsquo; choices to move, but they aren&rsquo;t completely unimportant. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">511 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003econsistent with\u003c/p\u003e", "id": "cf955199-bc58-45fb-a033-ca4b18f2e4a3"}, {"content": "\u003cp\u003erepresentative of\u003c/p\u003e", "id": "af44b441-b650-4563-9dd5-4551cdf9ce18"}, {"content": "\u003cp\u003eovershadowed by\u003c/p\u003e", "id": "1d608fa4-eaca-43ed-85c1-906b9c5c143c"}, {"content": "\u003cp\u003eirrelevant to\u003c/p\u003e", "id": "12afdf07-84e5-4f7a-b81d-f29846b9ee90"}], "correct_answer": ["C"], "externalid": "b5fa3821-faa3-4b0d-96c4-c13f51f9c305", "keys": ["1d608fa4-eaca-43ed-85c1-906b9c5c143c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-970-WIC", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most logically completes the text\u0026rsquo;s discussion of the factors that influence peoples\u0026rsquo; decisions to move to a different state. As used in this context, \u0026ldquo;overshadowed by\u0026rdquo; means to be surpassed by or caused to seem less important than other factors affecting a move. The text indicates that, according to a US tax policy expert, when people think about an interstate move, state taxes have little effect on their decisions, while employment opportunities, housing availability, and climate have a very strong effect. This context suggests that people consider these other factors to be more important than state taxes.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text indicates that state taxes aren\u0026rsquo;t as important a consideration as other factors when people are thinking of moving to another state. The context doesn\u0026rsquo;t suggest that state taxes are \u0026ldquo;consistent with,\u0026rdquo; or in agreement with these other factors.\u0026nbsp;Choice B is incorrect because it wouldn\u0026rsquo;t make sense in context to say that state taxes are \u0026ldquo;representative of,\u0026rdquo; or typical of, other factors. Taxes aren\u0026rsquo;t an example of employment opportunities, housing availability, and climate, which are the other factors listed in the text. Choice D is incorrect because it wouldn\u0026rsquo;t make sense in context to say that state taxes are \u0026ldquo;irrelevant to,\u0026rdquo; or unconnected or unimportant to other factors. State taxes are irrelevant to peoples\u0026rsquo; decisions, not to other factors. In other words, although the text suggests that state taxes may be irrelevant to people considering a move to another state, the other factors mentioned in the text, such as employment opportunities, are unable to have an opinion about state taxes. Furthermore, the text indicates that significant differences in state taxes have almost no effect on peoples\u0026rsquo; choices to move, but they aren\u0026rsquo;t completely unimportant. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eAccording to a US tax policy expert, state taxes are \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e other factors when considering an interstate move. Even significant differences in state taxation have almost no effect on most people\u0026rsquo;s decisions, while differences in employment opportunities, housing availability, and climate are strong influences.\u003c/p\u003e", "templateclusterid": "eec73283-9402-4cb0-b188-25f95ac5c8c5", "templateclustername": "", "type": "mcq", "vaultid": "93c9ba9e-58fb-4fe3-b9a1-011dd3e66894"}, "createDate": 1691007959357, "difficulty": "H", "external_id": "b5fa3821-faa3-4b0d-96c4-c13f51f9c305", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "4fa7e50e", "score_band_range_cd": 6, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "dabab923-98f7-4c75-a8ec-cc4b978406b3", "updateDate": 1691007959357};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-4fa7e50e");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "question_id": "48e4021d",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is from Holly Goldberg Sloan's 2017 novel Short . More than two years ago my parents bought a piano from some people who were moving to Utah. Mom and Dad gave it to my brothers and me for Christmas. I had to act really happy because it was such a big present, but I pretty much hated the thing from the second it was carried into the hallway upstairs, which is right next to my bedroom. The piano glared at me. It was like a songbird in a cage. It wanted to be set free. &copy;2017 by Holly Goldberg Sloan",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "It explains why the narrator always wanted a piano close to her bedroom.&nbsp;",
+    "It establishes how the narrator feels about the piano.",
+    "It suggests that the narrator&rsquo;s brothers are talented piano players.",
+    "It describes the event that led the narrator&rsquo;s parents to buy a piano."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it best states the main purpose of the text, which is to establish the narrator's feelings about the piano. The narrator reveals that she \"had to act really happy\" about the piano even though she \"pretty much hated the thing\" as soon as it was placed upstairs near her bedroom. The narrator also describes the piano as glaring at her and compares it to a caged bird that wants to be set free. These details establish the narrator's feelings about the piano, suggesting that it makes her uneasy.",
+    "A": "Choice A is incorrect because the text indicates that the narrator hated having the piano upstairs right next to her bedroom, not that she wanted a piano to be close to her bedroom.",
+    "C": "Choice C is incorrect because the only information provided in the text about the narrator's brothers is that they were given the piano along with the narrator.",
+    "D": "Choice D is incorrect because the text does not describe the event that led the narrator's parents to buy the piano from the people moving to Utah. Instead, the text focuses on the narrator's feelings about the piano after it was given to her and her brothers."
+  }
+}

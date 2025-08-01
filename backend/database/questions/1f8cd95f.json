@@ -1,0 +1,22 @@
+{
+  "question_id": "1f8cd95f",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In the 1950s, a man named Joseph McVicker was struggling to keep his business afloat when his sister-in-law Kay Zufall advised him to repurpose the company's product, a nontoxic, clay-like substance for removing soot from wallpaper, as a modeling putty for kids. In addition, Zufall ______ blank selling the product under a child-friendly name: Play-Doh.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "suggested",
+    "suggests",
+    "had suggested",
+    "was suggesting"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is the use of verbs to express tense. In this choice, the simple past tense verb \"suggested\" properly indicates that Zufall offered her suggestion for the product's name in the past. This verb tense is consistent with the previous sentence's use of a simple past tense verb (\"advised\") to describe Zufall's advice to McVicker in the 1950s.",
+    "B": "Choice B is incorrect because the present tense verb \"suggests\" doesn't indicate that Zufall offered her suggestion in the past.",
+    "C": "Choice C is incorrect because the past perfect verb \"had suggested\" isn't consistent with the previous sentence's use of the simple past tense verb \"advised\" to describe Zufall's advice to McVicker.",
+    "D": "Choice D is incorrect because the past progressive verb \"was suggesting\" isn't consistent with the previous sentence's use of the simple past tense verb \"advised\" to describe Zufall's advice to McVicker."
+  }
+}

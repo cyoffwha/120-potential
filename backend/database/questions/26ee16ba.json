@@ -1,0 +1,22 @@
+{
+  "question_id": "26ee16ba",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Hip-hop pedagogy is a form of teaching that's gaining popularity across school subjects. It involves incorporating hip-hop and rap music into lessons as well as using hip-hop elements when teaching other subject matters. For example, Quan Neloms's students look for college-level vocabulary and historical events in rap songs. Researchers claim that in addition to developing students' social justice awareness, hip-hop pedagogy encourages student success by raising students' interest and engagement.",
+  "question_text": "Which finding, if true, would most strongly support the underlined claim?",
+  "answer_options": [
+    "Students tend to be more enthusiastic about rap music than they are about hip-hop music.",
+    "Students who are highly interested in social justice issues typically don&rsquo;t sign up for courses that incorporate hip-hop and rap music.",
+    "Educators report that they enjoy teaching courses that involve hip-hop and rap music more than teaching courses that don&rsquo;t.",
+    "Courses that incorporate hip-hop and rap music are among the courses with the highest enrollment and attendance rates."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. Enrollment and attendance are logical ways to measure whether students are interested and engaged. High enrollment and attendance suggests a high level of interest and engagement.",
+    "A": "Choice A is incorrect. This choice doesn't support the claim. Students' preferences between hip-hop and rap aren't relevant to the claim, which is focused on whether or not students like classes that use hip-hop pedagogy (which includes the educational use of both hip-hop and rap).",
+    "B": "Choice B is incorrect. This choice doesn't support the claim. While the first part of the sentence discusses social justice, the underlined claim focuses on student success, which is unrelated.",
+    "C": "Choice C is incorrect. This choice doesn't support the claim. This tells us about teacher enjoyment, which isn't relevant to a claim about student interest and engagement."
+  }
+}

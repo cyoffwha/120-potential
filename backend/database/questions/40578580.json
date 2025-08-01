@@ -1,0 +1,22 @@
+{
+  "question_id": "40578580",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Many scientists have believed that giraffes are solitary creatures, preferring to spend their time alone instead of with others. But observations of giraffes and their behavior in recent years has suggested that these animals may be more social than we once thought. For example, scientists Zoe Muller and Stephen Harris claim that giraffes may even help each other care for one another's newborns.",
+  "question_text": "Which finding, if true, would most directly support Muller and Harris&rsquo;s &nbsp;conclusion?",
+  "answer_options": [
+    "Female giraffes have been observed feeding young giraffes that aren&rsquo;t their direct offspring.",
+    "Confrontations between a younger and an older male giraffe are frequently observed.",
+    "Some female giraffes have been observed sniffing and licking their newborn offspring.",
+    "Giraffes are able to make sounds but are rarely observed communicating with others."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. If female giraffes feed nonoffspring young, that's direct evidence that \"giraffes may even help each other care for one another's newborns.\"",
+    "B": "Choice B is incorrect. Confrontations between males doesn't tell us anything about whether giraffes help each other care for newborns.",
+    "C": "Choice C is incorrect. While this option does mention newborn offspring, it only discusses a mother's behavior toward her own child, not another giraffe's child.",
+    "D": "Choice D is incorrect. Whether or not giraffes are observed communicating with each other doesn't tell us anything about whether they help each other care for newborns."
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 299c5303</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>As the name suggests, dramaturges originated in theater, where they continue to serve a variety of functions: conducting historical research for directors, compiling character biographies for actors, and perhaps most importantly, helping writers of plays and musicals to hone the works&rsquo; stories and characters. Performance scholar Susan Manning observes that many choreographers, like playwrights and musical theater writers, are concerned with storytelling and characterization. In fact, some choreographers describe the dances they create as expressions of narrative through movement; it is therefore unsurprising that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>dramaturges can have a profound impact on the artistic direction of plays and musicals.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>choreographers developing dances with narrative elements frequently engage dramaturges to assist in refining those elements.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>dances by choreographers who incorporate narrative elements are more accessible to audiences than dances by choreographers who do not.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>some directors and actors rely too heavily on dramaturges to complete certain research tasks.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. Dramaturges help playwrights with storytelling and characterization. Choreographers often tell stories through dance, so they are also concerned with storytelling and characterization. This suggests that the fact that choreographers seek the help of dramaturges with the storytelling aspects of their dances should be &ldquo;unsurprising.&rdquo; </p><p>Choice A is incorrect. This inference isn&rsquo;t supported. The beginning of the text does imply that this is true, but the end is leading to a conclusion about how choreographers use dramaturges. Choice C is incorrect. This inference isn&rsquo;t supported. The text never mentions dances by choreographers who don&rsquo;t incorporate narrative elements. Choice D is incorrect. This inference isn&rsquo;t supported. The text mentions in passing that directors use dramaturges to conduct research, but it never suggests that directors and actors are too reliant on them. Also, the text is leading to a conclusion about how choreographers use dramaturges. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">259 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003edramaturges can have a profound impact on the artistic direction of plays and musicals.\u003c/p\u003e", "id": "6b9906dc-ae24-4544-accb-ccc804770251"}, {"content": "\u003cp\u003echoreographers developing dances with narrative elements frequently engage dramaturges to assist in refining those elements.\u003c/p\u003e", "id": "a82bfbb4-65b0-4d64-a98b-97c226b17187"}, {"content": "\u003cp\u003edances by choreographers who incorporate narrative elements are more accessible to audiences than dances by choreographers who do not.\u003c/p\u003e", "id": "c1b95aa4-e028-46bd-a72f-968c66236b71"}, {"content": "\u003cp\u003esome directors and actors rely too heavily on dramaturges to complete certain research tasks.\u003c/p\u003e", "id": "abf5770e-75cb-4087-a256-bee189359018"}], "correct_answer": ["B"], "externalid": "931e76fd-1342-4591-9731-061725598a3d", "keys": ["a82bfbb4-65b0-4d64-a98b-97c226b17187"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-INF-M003", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. Dramaturges help playwrights with storytelling and characterization. Choreographers often tell stories through dance, so they are also concerned with storytelling and characterization. This suggests that the fact that choreographers seek the help of dramaturges with the storytelling aspects of their dances should be \u0026ldquo;unsurprising.\u0026rdquo; \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This inference isn\u0026rsquo;t supported. The beginning of the text does imply that this is true, but the end is leading to a conclusion about how choreographers use dramaturges. Choice C is incorrect. This inference isn\u0026rsquo;t supported. The text never mentions dances by choreographers who don\u0026rsquo;t incorporate narrative elements. Choice D is incorrect. This inference isn\u0026rsquo;t supported. The text mentions in passing that directors use dramaturges to conduct research, but it never suggests that directors and actors are too reliant on them. Also, the text is leading to a conclusion about how choreographers use dramaturges. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eAs the name suggests, dramaturges originated in theater, where they continue to serve a variety of functions: conducting historical research for directors, compiling character biographies for actors, and perhaps most importantly, helping writers of plays and musicals to hone the works\u0026rsquo; stories and characters. Performance scholar Susan Manning observes that many choreographers, like playwrights and musical theater writers, are concerned with storytelling and characterization. In fact, some choreographers describe the dances they create as expressions of narrative through movement; it is therefore unsurprising that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "695ebb2d-63cc-4f80-92ec-d59d1eb88f50", "templateclustername": "", "type": "mcq", "vaultid": "27bc2d1c-3ab4-4a12-981a-66e6c8805e0f"}, "createDate": 1691007959368, "difficulty": "M", "external_id": "931e76fd-1342-4591-9731-061725598a3d", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "299c5303", "score_band_range_cd": 4, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "e025add7-49a8-4632-ad7a-7463b11022be", "updateDate": 1691007959368};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-299c5303");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

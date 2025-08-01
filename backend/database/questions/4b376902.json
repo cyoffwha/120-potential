@@ -1,0 +1,22 @@
+{
+  "question_id": "4b376902",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: NASA uses rovers, large remote vehicles with wheels, to explore the surface of Mars. NASA's rovers can't explore regions inaccessible to wheeled vehicles. Rovers are also heavy, making them difficult to land on the planet's surface. Microprobes, robotic probes that weigh as little as 50 milligrams, could be deployed virtually anywhere on the surface of Mars. Microprobes have been proposed as an alternative to rovers. The student wants to explain an advantage of microprobes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to explain an advantage of microprobes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Despite being heavy, NASA&rsquo;s rovers can land successfully on the surface of Mars.",
+    "Microprobes, which weigh as little as 50 milligrams, could explore areas of Mars that are inaccessible to NASA&rsquo;s heavy, wheeled rovers.",
+    "NASA currently uses its rovers on Mars, but microprobes have been proposed as an alternative.",
+    "Though they are different sizes, both microprobes and rovers can be used to explore the surface of Mars."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The sentence explains an advantage of microprobes, noting that because microprobes weigh as little as 50 milligrams, they can explore areas inaccessible to rovers.",
+    "A": "Choice A is incorrect. The sentence indicates that rovers can land successfully on Mars despite their weight; it doesn't explain an advantage of microprobes.",
+    "C": "Choice C is incorrect. While the sentence mentions that microprobes have been proposed as an alternative to rovers, it doesn't explain an advantage of microprobes.",
+    "D": "Choice D is incorrect. The sentence emphasizes a similarity between microprobes and rovers; it doesn't explain an advantage of microprobes."
+  }
+}

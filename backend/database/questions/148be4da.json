@@ -1,0 +1,22 @@
+{
+  "question_id": "148be4da",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Human-made (synthetic) fibers used in clothes and many other consumer products are more durable than most natural plant ______ blank the manufacture of synthetic fibers requires toxic chemical solvents that can pollute air and water.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "fibers,",
+    "fibers but",
+    "fibers",
+    "fibers, but"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the coordination of main clauses within a sentence. This choice correctly uses a comma and the coordinating conjunction \"but\" to join the first main clause (\"Human-made...fibers\") and the second main clause (\"the manufacture...water\").",
+    "A": "Choice A is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses.",
+    "B": "Choice B is incorrect because when coordinating two longer main clauses such as these, it's conventional to use a comma before the coordinating conjunction.",
+    "C": "Choice C is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction."
+  }
+}

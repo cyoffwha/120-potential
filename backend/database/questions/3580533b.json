@@ -1,0 +1,22 @@
+{
+  "question_id": "3580533b",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In recent years, economists around the world have created new tools that quantify the overall well-being of a country's citizens. Economists in India, for example, use an Ease of Living Index. This tool ______ blank economic potential, sustainability, and citizens' quality of life.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "measures",
+    "had measured",
+    "would have measured",
+    "will have been measuring"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The previous sentence tells us how economists in India \"use\" a certain tool, while this sentence describes general facts about that tool. To express general facts (and also to match the simple present tense of \"use\"), we should use the simple present tense form \"measures.\"",
+    "B": "Choice B is incorrect. This choice uses the past perfect tense, but the previous sentence tells us that the tool is currently used to measure things, so the past tense doesn't make sense for this verb.",
+    "C": "Choice C is incorrect. This choice uses the future perfect conditional tense, but the previous sentence tells us that the tool is currently used to measure things, so the future tense doesn't make sense for this verb.",
+    "D": "Choice D is incorrect. This choice uses the future perfect continuous tense, but the previous sentence tells us that the tool is currently used to measure things, so the future tense doesn't make sense for this verb."
+  }
+}

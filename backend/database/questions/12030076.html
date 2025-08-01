@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 12030076</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>NASA&rsquo;s Aspera mission, led by Carlos Vargas, will investigate the circumgalactic medium (CGM), the huge swaths of low-density gas that fill and surround galaxies. Specifically, the team will focus on portions of the gas that exist in a &ldquo;warm-hot&rdquo; phase: these portions haven&rsquo;t previously been observable but are thought to fuel new star formation and hold most of the mass that makes up a galaxy. Using a telescope capable of revealing these parts of the CGM, the Aspera mission should help answer long-standing questions about how galaxies emerge, change, and even interact.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>As the leader of NASA&rsquo;s Aspera mission, Vargas will be the first person to investigate the makeup of the CGM.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Although galaxies that are surrounded by the CGM have been studied, researchers have been unable to directly observe low-density gas in the CGM in the &ldquo;warm-hot&rdquo; phase.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Researchers don&rsquo;t yet have a complete understanding of the process of galaxy evolution but have raised the possibility that galaxies interact with each other at times.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The Aspera mission is expected to produce the first direct observations of CGM gas in the &ldquo;warm-hot&rdquo; phase, which likely has an important role in the evolution of galaxies.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it most accurately states the main idea of the text. The text begins by mentioning NASA&rsquo;s Aspera mission, which will investigate the low-density gas that makes up the circumgalactic medium (CGM). According to the text, this mission will focus on a portion of the CGM&rsquo;s gas that exists in a &ldquo;warm-hot&rdquo; phase; this &ldquo;warm-hot&rdquo; gas has not been previously observed, but it is thought to make up most of the mass of galaxies and play a part in star formation. Finally, the text mentions a telescope capable of examining this previously unobservable &ldquo;warm-hot&rdquo; gas: the Aspera mission will use this telescope in the hope of answering questions about galaxy formation and change. Therefore, the main idea of the text is that the Aspera mission is likely to produce the first direct observations of CGM gas in the &ldquo;warm-hot&rdquo; phase, which likely has an important role in the evolution of galaxies. </p><p>Choice A is incorrect. Although this choice mentions the Aspera mission, names its leader, and generally states the mission&rsquo;s purpose, it does not reference the &ldquo;warm-hot&rdquo; gas or fully convey the reason why the Aspera mission is significant. Choice B is incorrect. Although this choice mentions the &ldquo;warm-hot&rdquo; gas that makes up a portion of the CGM, it does not reference the Aspera mission or describe its importance. The text also does not mention that galaxies surrounded by the CGM have been studied. Choice C is incorrect. Although this choice describes a problem related to the CGM that researchers have been attempting to solve and presents the speculation of those researchers, it does not mention the Aspera mission or describe its purpose. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">155 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eAs the leader of NASA\u0026rsquo;s Aspera mission, Vargas will be the first person to investigate the makeup of the CGM.\u003c/p\u003e", "id": "c292bff8-d758-41dc-b95f-714e4fa3deb5"}, {"content": "\u003cp\u003eAlthough galaxies that are surrounded by the CGM have been studied, researchers have been unable to directly observe low-density gas in the CGM in the \u0026ldquo;warm-hot\u0026rdquo; phase.\u003c/p\u003e", "id": "80ed03ec-bec2-4d25-bb8f-4db5dfce2d96"}, {"content": "\u003cp\u003eResearchers don\u0026rsquo;t yet have a complete understanding of the process of galaxy evolution but have raised the possibility that galaxies interact with each other at times.\u003c/p\u003e", "id": "2819abef-530c-43f8-944a-eaeb6fbc5fc6"}, {"content": "\u003cp\u003eThe Aspera mission is expected to produce the first direct observations of CGM gas in the \u0026ldquo;warm-hot\u0026rdquo; phase, which likely has an important role in the evolution of galaxies.\u003c/p\u003e", "id": "6f4b881c-655c-47cb-b13e-016bb367947b"}], "correct_answer": ["D"], "externalid": "70a3b3f6-b02a-4d56-93e8-aec50bc76eca", "keys": ["6f4b881c-655c-47cb-b13e-016bb367947b"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-037-CID", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it most accurately states the main idea of the text. The text begins by mentioning NASA\u0026rsquo;s Aspera mission, which will investigate the low-density gas that makes up the circumgalactic medium (CGM). According to the text, this mission will focus on a portion of the CGM\u0026rsquo;s gas that exists in a \u0026ldquo;warm-hot\u0026rdquo; phase; this \u0026ldquo;warm-hot\u0026rdquo; gas has not been previously observed, but it is thought to make up most of the mass of galaxies and play a part in star formation. Finally, the text mentions a telescope capable of examining this previously unobservable \u0026ldquo;warm-hot\u0026rdquo; gas: the Aspera mission will use this telescope in the hope of answering questions about galaxy formation and change. Therefore, the main idea of the text is that the Aspera mission is likely to produce the first direct observations of CGM gas in the \u0026ldquo;warm-hot\u0026rdquo; phase, which likely has an important role in the evolution of galaxies. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although this choice mentions the Aspera mission, names its leader, and generally states the mission\u0026rsquo;s purpose, it does not reference the \u0026ldquo;warm-hot\u0026rdquo; gas or fully convey the reason why the Aspera mission is significant. Choice B is incorrect. Although this choice mentions the \u0026ldquo;warm-hot\u0026rdquo; gas that makes up a portion of the CGM, it does not reference the Aspera mission or describe its importance. The text also does not mention that galaxies surrounded by the CGM have been studied. Choice C is incorrect. Although this choice describes a problem related to the CGM that researchers have been attempting to solve and presents the speculation of those researchers, it does not mention the Aspera mission or describe its purpose. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eNASA\u0026rsquo;s Aspera mission, led by Carlos Vargas, will investigate the circumgalactic medium (CGM), the huge swaths of low-density gas that fill and surround galaxies. Specifically, the team will focus on portions of the gas that exist in a \u0026ldquo;warm-hot\u0026rdquo; phase: these portions haven\u0026rsquo;t previously been observable but are thought to fuel new star formation and hold most of the mass that makes up a galaxy. Using a telescope capable of revealing these parts of the CGM, the Aspera mission should help answer long-standing questions about how galaxies emerge, change, and even interact.\u003c/p\u003e", "templateclusterid": "9c11766f-cefe-4eae-b94a-777f06b09562", "templateclustername": "", "type": "mcq", "vaultid": "fd4675b3-6c3f-43c3-9016-a4dedb5fa3d0"}, "createDate": 1691007959320, "difficulty": "M", "external_id": "70a3b3f6-b02a-4d56-93e8-aec50bc76eca", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "12030076", "score_band_range_cd": 5, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "7f32d9dd-647e-4562-9d34-b16b097f55ea", "updateDate": 1691007959320};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-12030076");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

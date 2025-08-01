@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0113152f</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>American fashion designer Patrick Kelly was known for his love of colorful buttons. Many of his signature dresses feature bold assortments of buttons throughout the garment. In a paper, a fashion design student claims that Kelly&rsquo;s use of buttons as decoration was inspired by his childhood observations of the styles and actions of the women in his family.</p></div>
+
+                        <div class="mt-3"><p>Which quotation from a work by a historian would be the most effective evidence for the student to include in support of this claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Although some of the assortments of buttons appear to be mismatched pieces scattered randomly throughout Kelly&rsquo;s dresses, his most famous designs feature carefully crafted patterns of matching buttons.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Many of Kelly&rsquo;s contemporaries were inspired by his designs to incorporate buttons, as well as zippers and snaps, as decorative items in their work.&rdquo;&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Kelly&rsquo;s grandmother, who would repair clothing when he was a child, frequently added mismatched buttons to the clothes to draw attention away from any flaws in the garments.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Kelly was destined to be a designer from a young age: he learned how to sew clothing from his aunt Bertha, and his love of drawing was developed by his mother.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. This quotation draws a direct connection between the use of buttons and Kelly&rsquo;s stylish female relatives.</p><p>Choice A is incorrect. This choice mentions Kelly&rsquo;s use of buttons, but it doesn&rsquo;t connect that design choice to the influence of women in Kelly&rsquo;s family. Choice B is incorrect. This choice discusses how other designers were inspired by Kelly, which doesn&rsquo;t provide evidence that Kelly was inspired by his family. Choice D is incorrect. While this choice does refer to fashionable women in Kelly&rsquo;s family, it doesn&rsquo;t connect their influence to Kelly&rsquo;s use of buttons.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">217 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;Although some of the assortments of buttons appear to be mismatched pieces scattered randomly throughout Kelly\u0026rsquo;s dresses, his most famous designs feature carefully crafted patterns of matching buttons.\u0026rdquo;\u003c/p\u003e", "id": "9d14761c-6d62-4588-87f9-c4f976844b84"}, {"content": "\u003cp\u003e\u0026ldquo;Many of Kelly\u0026rsquo;s contemporaries were inspired by his designs to incorporate buttons, as well as zippers and snaps, as decorative items in their work.\u0026rdquo;\u0026nbsp;\u003c/p\u003e", "id": "252d5118-3c99-4187-920d-e5bb17042236"}, {"content": "\u003cp\u003e\u0026ldquo;Kelly\u0026rsquo;s grandmother, who would repair clothing when he was a child, frequently added mismatched buttons to the clothes to draw attention away from any flaws in the garments.\u0026rdquo;\u003c/p\u003e", "id": "cdf39c1f-6e6a-439d-b7ec-ea775435cf89"}, {"content": "\u003cp\u003e\u0026ldquo;Kelly was destined to be a designer from a young age: he learned how to sew clothing from his aunt Bertha, and his love of drawing was developed by his mother.\u0026rdquo;\u003c/p\u003e", "id": "b5d2ed3a-dca9-4feb-b138-1f44cc27d06c"}], "correct_answer": ["C"], "externalid": "a42ee406-d532-4af6-bce0-53b4aaf2ec41", "keys": ["cdf39c1f-6e6a-439d-b7ec-ea775435cf89"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TXT-E006", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. This quotation draws a direct connection between the use of buttons and Kelly\u0026rsquo;s stylish female relatives.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice mentions Kelly\u0026rsquo;s use of buttons, but it doesn\u0026rsquo;t connect that design choice to the influence of women in Kelly\u0026rsquo;s family. Choice B is incorrect. This choice discusses how other designers were inspired by Kelly, which doesn\u0026rsquo;t provide evidence that Kelly was inspired by his family. Choice D is incorrect. While this choice does refer to fashionable women in Kelly\u0026rsquo;s family, it doesn\u0026rsquo;t connect their influence to Kelly\u0026rsquo;s use of buttons.\u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from a work by a historian would be the most effective evidence for the student to include in support of this claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eAmerican fashion designer Patrick Kelly was known for his love of colorful buttons. Many of his signature dresses feature bold assortments of buttons throughout the garment. In a paper, a fashion design student claims that Kelly\u0026rsquo;s use of buttons as decoration was inspired by his childhood observations of the styles and actions of the women in his family.\u003c/p\u003e", "templateclusterid": "a67631c5-7adf-48f6-b649-cacc9efaafeb", "templateclustername": "", "type": "mcq", "vaultid": "5110cc72-2c4a-416b-b498-fba6bab19753"}, "createDate": 1691007959376, "difficulty": "E", "external_id": "a42ee406-d532-4af6-bce0-53b4aaf2ec41", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "0113152f", "score_band_range_cd": 2, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "b579a415-96d3-4c74-a42b-e18c7514cca1", "updateDate": 1691007959376};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0113152f");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

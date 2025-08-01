@@ -1,0 +1,22 @@
+{
+  "question_id": "34e1124f",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In geology, an Aeolian landform is one that has been created by the wind. In Greek mythology, Aeolus is the keeper of the winds. Aeolian landforms are created when the wind erodes, transports, or deposits material. A mushroom rock is a rock formation in which the top is wider than the base. A mushroom rock can be formed when the wind erodes the base and the top at different rates. The student wants to provide an explanation and an example of Aeolian landforms. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to provide an explanation and an example of Aeolian landforms. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Aeolian landforms are created by different wind-based processes; for example, some are created by wind erosion.",
+    "Aeolian landforms&mdash;landforms created by the wind&mdash;include the mushroom rock, a rock formation in which the wind erodes the base of the rock faster than the top.",
+    "Erosion, transportation, and deposition are three examples of how the wind can create Aeolian landforms and mushroom rocks.",
+    "A mushroom rock is a rock formation that owes its shape to the wind, a natural force associated with Aeolus in Greek mythology."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The sentence provides an explanation and an example of Aeolian landforms, explaining that they are landforms created by wind and offering the mushroom rock as an example.",
+    "A": "Choice A is incorrect. The sentence explains that Aeolian landforms are created by wind but does not provide an example of any specific Aeolian landforms. Rather, the example it provides is of a wind-based process.",
+    "C": "Choice C is incorrect. While the sentence provides a partial explanation of Aeolian landforms, noting that they are created by the wind, it does not effectively provide an example. The sentence seems to indicate that mushroom rocks, rather than being an example of Aeolian landforms, are distinct from them.",
+    "D": "Choice D is incorrect. While the sentence provides an explanation of a mushroom rock, which is a specific example of an Aeolian landform, it doesn't provide an explanation of Aeolian landforms in general."
+  }
+}

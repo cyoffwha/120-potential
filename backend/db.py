@@ -29,7 +29,8 @@ class User(Base):
 # New Question table for SAT questions
 class Question(Base):
     __tablename__ = "questions"
-    id = Column(Integer, primary_key=True, index=True)
+    id = Column(Integer, primary_key=True, index=True)  # Auto-increment: 1, 2, 3, 4...
+    question_id = Column(String, unique=True, index=True, nullable=False)  # SAT question ID: "5aae2475"
     image = Column(String, nullable=True)  # URL or path to image, may be empty
     passage = Column(String, nullable=True)
     question = Column(String, nullable=False)

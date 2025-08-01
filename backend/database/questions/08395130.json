@@ -1,0 +1,22 @@
+{
+  "question_id": "08395130",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "The Hubble Space Telescope (HST) is projected to maintain operation until at least 2030, but it has already revolutionized high-resolution imaging of solar-system bodies in visible and ultraviolet (UV) light wavelengths, notwithstanding that only about 6% of the bodies imaged by the HST are within the solar system. NASA researcher Cindy L. Young and colleagues assert that a new space telescope dedicated exclusively to solar-system observations would permit an extensive survey of minor solar-system bodies and long-term UV observation to discern how solar-system bodies change over time. Young and colleagues' recommendation therefore implies that the HST ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "will likely continue to be used primarily to observe objects outside the solar system.&nbsp;",
+    "will no longer be used to observe solar system objects if the telescope recommended by Young and colleagues is deployed.&nbsp;",
+    "can be modified to observe the features of solar system objects that are of interest to Young and colleagues.",
+    "lacks the sensors to observe the wavelengths of light needed to discern how solar system bodies change over time."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The HST will operate until at least 2030, but it's only observing stuff inside our solar system 6% of the time. If we could get a different telescope to observe stuff inside our solar system 100% of the time and take more extensive images of certain things, then the HST could continue to be used mainly for observing stuff outside the solar system.",
+    "B": "Choice B is incorrect. This inference is too strong to be supported by the text. Even if the new telescope is deployed, the HST might still be used as it's being used now. Based on the text, the new telescope would just be used for more extensive and long-term imaging of solar system bodies, which doesn't necessarily overlap with the HST.",
+    "C": "Choice C is incorrect. This inference isn't supported. The text never mentions the possibility of modifying the HST, so there is no basis to make this inference. Rather, the researchers suggest using a different telescope to more closely observe certain objects.",
+    "D": "Choice D is incorrect. This inference is too strong to be supported. The text doesn't give us enough info to assume that the HST lacks any particular sensors."
+  }
+}

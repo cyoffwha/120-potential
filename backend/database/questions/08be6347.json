@@ -1,0 +1,22 @@
+{
+  "question_id": "08be6347",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In his 1925 book The Morphology of Landscape , US geographer Carl Sauer challenged prevailing views about how natural landscapes influence human cultures. ______ blank Sauer argued that instead of being shaped entirely by their natural surroundings, cultures play an active role in their own development by virtue of their interactions with the environment.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Similarly,",
+    "Finally,",
+    "Therefore,",
+    "Specifically,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"Specifically\" logically signals that the information in this sentence about Sauer's argument—that, according to Sauer, cultures play a role in their own development, as opposed to being shaped solely by natural surroundings—provides specific, precise details elaborating on the more general information in the previous sentence about how Sauer challenged prevailing views about how natural landscapes influence human cultures.",
+    "A": "Choice A is incorrect because \"similarly\" illogically signals that the information in this sentence about Sauer's argument is similar to, but separate from, the more general information in the previous sentence. Instead, it provides specific, precise details elaborating on that information.",
+    "B": "Choice B is incorrect because \"finally\" illogically signals that the information in this sentence about Sauer's argument indicates a last step in a process or a concluding summary. Instead, it provides specific, precise details elaborating on the general information in the previous sentence.",
+    "C": "Choice C is incorrect because \"therefore\" illogically signals that the information in this sentence about Sauer's argument is a result of the more general information in the previous sentence. Instead, it provides specific, precise details elaborating on that information."
+  }
+}

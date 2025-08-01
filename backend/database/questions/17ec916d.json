@@ -1,0 +1,22 @@
+{
+  "question_id": "17ec916d",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Bharati Mukherjee was an Indian-born author of novels and short stories. She published the novel The Holder of the World in 1993. A central character in the novel is a woman living in twentieth-century United States. Another central character is a woman living in seventeenth-century India. The student wants to introduce the novel The Holder of the World to an audience already familiar with Bharati Mukherjee. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to introduce the novel  The Holder of the World  to an audience already familiar with Bharati Mukherjee. Which choice most effectively uses relevant information from the notes to accomplish this goal?&nbsp;",
+  "answer_options": [
+    "Bharati Mukherjee&rsquo;s settings include both twentieth-century United States and seventeenth-century India.",
+    "In addition to her novel  The Holder of the World,  which was published in 1993, Indian-born author Bharati Mukherjee wrote other novels and short stories.",
+    "Bharati Mukherjee&rsquo;s novel  The Holder of the World  centers around two women, one living in twentieth-century United States and the other in seventeenth-century India.",
+    "The Holder of the World  was not the only novel written by Indian-born author Bharati Mukherjee."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The sentence effectively introduces The Holder of the World to an audience already familiar with Mukherjee, explaining that the novel centers around two women and mentioning the author without providing any other identifying information.",
+    "A": "Choice A is incorrect. The sentence provides a detail about Mukherjee's settings; it doesn't introduce, or even mention, the novel.",
+    "B": "Choice B is incorrect. The sentence provides introductory information about Mukherjee; it doesn't effectively introduce her novel to an audience already familiar with the author.",
+    "D": "Choice D is incorrect. The sentence provides introductory information about Mukherjee; it doesn't effectively introduce her novel to an audience already familiar with the author."
+  }
+}

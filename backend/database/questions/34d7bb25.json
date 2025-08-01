@@ -1,0 +1,22 @@
+{
+  "question_id": "34d7bb25",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "According to Indian economist and sociologist Radhakamal Mukerjee (1889–1968), the Eurocentric concepts that informed early twentieth-century social scientific methods—for example, the idea that all social relations are reducible to struggles between individuals—had little relevance for India. Making the social sciences more responsive to Indians' needs, Mukerjee argued, required constructing analytical categories informed by India's cultural and ecological circumstances. Mukerjee thus proposed the communalist \"Indian village\" as the ideal model on which to base Indian economic and social policy.",
+  "question_text": "Which choice best describes the overall structure of the text?",
+  "answer_options": [
+    "The text recounts Mukerjee&rsquo;s early training in the social scientific disciplines and then lists social policies whose implementation Mukerjee oversaw.&nbsp;",
+    "The text mentions some of Mukerjee&rsquo;s economic theories and then traces their impact on other Indian social scientists of the twentieth century.",
+    "The text presents Mukerjee&rsquo;s critique of the social sciences and then provides an example of his attempts to address issues he identified in his critique.",
+    "The text explains an influential economic theory and then demonstrates how that theory was more important to Mukerjee&rsquo;s work than other social scientists have acknowledged. &nbsp;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The text does indeed present Mukerjee's critique of the social sciences—that they were too Eurocentric—and then provides an example of how he attempted to address the issues he identified: by suggesting a social science model based on the Indian village.",
+    "A": "Choice A is incorrect. The text doesn't discuss Mukerjee's early training or his oversight of the implementation of social policies at all.",
+    "B": "Choice B is incorrect. The text never discusses any other Indian social scientists.",
+    "D": "Choice D is incorrect. The text never mentions other social scientists' responses to Mukerjee's work."
+  }
+}

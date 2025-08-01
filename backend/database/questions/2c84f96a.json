@@ -1,0 +1,22 @@
+{
+  "question_id": "2c84f96a",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 2017, artists Isabel and Ruben Toledo redesigned the costumes and sets for The Miami City Ballet's production of The ______ blank to reviewers, the Toledos' designs helped infuse the production with elements of Miami's Latin American culture.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Nutcracker  according,&nbsp;",
+    "Nutcracker , according&nbsp;",
+    "Nutcracker  according&nbsp;",
+    "Nutcracker . According&nbsp;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (\"In 2017... Nutcracker \") and another (\"According...culture\"). The supplementary element \"according to reviewers\" modifies the main clause of the second sentence (\"the Toledos'...culture\").",
+    "A": "Choice A is incorrect because it results in a run-on sentence. The sentences are fused without punctuation and/or a conjunction. Furthermore, no punctuation is needed within the supplementary element \"according to reviewers.\"",
+    "B": "Choice B is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences.",
+    "C": "Choice C is incorrect because it results in a run-on sentence. The sentences are fused without punctuation and/or a conjunction."
+  }
+}

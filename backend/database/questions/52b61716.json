@@ -1,0 +1,22 @@
+{
+  "question_id": "52b61716",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Formed in 1967 to foster political and economic stability within the Asia-Pacific region, the Association of Southeast Asian Nations was originally made up of five members: Thailand, the Philippines, Singapore, Malaysia, and Indonesia. By the end of the 1990s, the organization ______ blank its initial membership.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "has doubled",
+    "had doubled",
+    "doubles",
+    "will double"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the use of verbs to express tense. In this choice, the past perfect verb \"had doubled\" properly indicates that the doubling of the organization's initial membership occurred during a specific period before the present (between the organization's founding in 1967 and the end of the 1990s).",
+    "A": "Choice A is incorrect because the present perfect verb \"has doubled\" doesn't indicate that the organization's doubling of its initial membership occurred during a specific period in the past.",
+    "C": "Choice C is incorrect because the present tense verb \"doubles\" doesn't indicate that the organization's doubling of its initial membership occurred during a specific period in the past.",
+    "D": "Choice D is incorrect because the future tense verb \"will double\" doesn't indicate that the organization's doubling of its initial membership occurred during a specific period in the past."
+  }
+}

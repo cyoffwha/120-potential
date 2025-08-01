@@ -1,0 +1,22 @@
+{
+  "question_id": "1fbf276a",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Interruptions in the supply chain for microchips used in personal electronics have challenged an economist's assertion that retailers can expect robust growth in sales of those devices in the coming months. The delays are unlikely to ______ blank her projection entirely but will almost certainly extend its time frame.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "dispute",
+    "withdraw",
+    "underscore",
+    "invalidate"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of the economist's claim about sales of personal electronic devices. In this context, \"invalidate\" most nearly means nullify or make invalid. The text indicates that interruptions in the supply of microchips for personal electronics \"have challenged\" the economist's claim that sales of personal electronics will show strong growth in the coming months. The text goes on to clarify the effect of the delays on the economist's projection, stating that the delays are very likely to extend the time frame over which the projected growth in sales will occur. This context suggests that the delays are unlikely to invalidate the economist's projection entirely—the delays will probably alter the time frame of the projection, not nullify it or make it invalid.",
+    "A": "Choice A is incorrect because saying that the delays are unlikely to \"dispute,\" or argue against, the economist's projection wouldn't make sense. Since the delays are an inanimate circumstance, they couldn't argue against a prediction about the sales of personal electronics.",
+    "B": "Choice B is incorrect because saying that the delays are unlikely to \"withdraw,\" or remove from consideration, the economist's projection wouldn't make sense. Although the economist could withdraw her projection because of the delays, the delays themselves couldn't withdraw her projection since they're an inanimate circumstance and thus can't choose to remove something from consideration.",
+    "C": "Choice C is incorrect because there's nothing in the text to suggest that the delays will \"underscore,\" or emphasize, the economist's projection. Instead, the text suggests that the delays are likely to extend the time frame of the economist's projection but not to undermine the projection entirely."
+  }
+}

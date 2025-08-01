@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 4fc9a13a</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The novelist Toni Morrison was the first Black woman to work as an editor at the publishing company Random House, from 1967 to 1983. A scholar asserts that one of Morrison&rsquo;s likely aims during her time as an editor was to strengthen the presence of Black writers on the list of Random House&rsquo;s published authors.</p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most strongly support the scholar&rsquo;s claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The percentage of authors published by Random House who were Black rose in the early 1970s and stabilized throughout the decade.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Black authors who were interviewed in the 1980s and 1990s were highly likely to cite Toni Morrison&rsquo;s novels as a principal influence on their work.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The novels written by Toni Morrison that were published after 1983 sold significantly more copies and received wider critical acclaim than the novels she wrote that were published before 1983.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Works that were edited by Toni Morrison during her time at Random House displayed stylistic characteristics that distinguished them from works that were not edited by Morrison.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it presents a finding that, if true, would support the scholar&rsquo;s claim about Toni Morrison&rsquo;s likely goal of strengthening the presence of Black writers on Random House&rsquo;s list of published authors. The text explains that Morrison was the first Black woman to be an editor for Random House and that she was an editor there from 1967 to 1983. If it were true that Random House published a higher percentage of works by Black authors throughout the 1970s&mdash;during most of Morrison&rsquo;s time working there&mdash;than it had previously published, that would suggest that Morrison may have made a deliberate effort to strengthen the presence of Black authors on the list of Random House&rsquo;s published authors, thus supporting the scholar&rsquo;s claim. </p><p>Choice B is incorrect because the scholar&rsquo;s claim is about Morrison&rsquo;s work as an editor at a publishing company and her likely effort to strengthen the presence of Black writers on that company&rsquo;s list of published authors. It might be true that Black authors interviewed in the 1980s and 1990s often cited Morrison&rsquo;s novels as an influence on their work, but that finding would simply suggest something about how those authors approached their work; it wouldn&rsquo;t show that Morrison intended to increase the number of Black writers among the published authors specifically at Random House. Choice C is incorrect because the scholar&rsquo;s claim is about Morrison&rsquo;s work as an editor at a publishing company, not about her work as a novelist. Therefore, a finding that Morrison&rsquo;s novels published after 1983 sold more copies and were more widely acclaimed than her earlier novels would have no bearing on the claim that as an editor Morrison made an effort to ensure that more Black writers were present on Random House&rsquo;s list of published authors. Choice D is incorrect. Although the text discusses Morrison&rsquo;s work as an editor at Random House, the scholar&rsquo;s claim focuses on Morrison&rsquo;s likely effort in that role to increase the number of Black writers present on Random House&rsquo;s list of published authors, not on the influence she may have had on the content of the works she edited. Without knowing whether Morrison&rsquo;s stylistic influence led to more publications or if Morrison applied her influence specifically to works by Black writers, the finding that works edited by Morrison could be identified by stylistic characteristics would have no bearing on the claim that Morrison intended to strengthen the presence of Black writers among the published authors at Random House. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">280 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe percentage of authors published by Random House who were Black rose in the early 1970s and stabilized throughout the decade.\u003c/p\u003e", "id": "864dba93-55cf-470a-be4c-c0b10f1f4795"}, {"content": "\u003cp\u003eBlack authors who were interviewed in the 1980s and 1990s were highly likely to cite Toni Morrison\u0026rsquo;s novels as a principal influence on their work.\u003c/p\u003e", "id": "ab5cebbc-646d-45b0-9631-315922fe0182"}, {"content": "\u003cp\u003eThe novels written by Toni Morrison that were published after 1983 sold significantly more copies and received wider critical acclaim than the novels she wrote that were published before 1983.\u003c/p\u003e", "id": "d436dcdb-be45-4e7d-8b05-c2a5c1a86b92"}, {"content": "\u003cp\u003eWorks that were edited by Toni Morrison during her time at Random House displayed stylistic characteristics that distinguished them from works that were not edited by Morrison.\u003c/p\u003e", "id": "fa51c530-b09f-4cbf-84d6-a1e987ae6bc8"}], "correct_answer": ["A"], "externalid": "35ba1503-3ca4-4444-aa35-a1bfdee283cf", "keys": ["864dba93-55cf-470a-be4c-c0b10f1f4795"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-305-TXT", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it presents a finding that, if true, would support the scholar\u0026rsquo;s claim about Toni Morrison\u0026rsquo;s likely goal of strengthening the presence of Black writers on Random House\u0026rsquo;s list of published authors. The text explains that Morrison was the first Black woman to be an editor for Random House and that she was an editor there from 1967 to 1983. If it were true that Random House published a higher percentage of works by Black authors throughout the 1970s\u0026mdash;during most of Morrison\u0026rsquo;s time working there\u0026mdash;than it had previously published, that would suggest that Morrison may have made a deliberate effort to strengthen the presence of Black authors on the list of Random House\u0026rsquo;s published authors, thus supporting the scholar\u0026rsquo;s claim. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because the scholar\u0026rsquo;s claim is about Morrison\u0026rsquo;s work as an editor at a publishing company and her likely effort to strengthen the presence of Black writers on that company\u0026rsquo;s list of published authors. It might be true that Black authors interviewed in the 1980s and 1990s often cited Morrison\u0026rsquo;s novels as an influence on their work, but that finding would simply suggest something about how those authors approached their work; it wouldn\u0026rsquo;t show that Morrison intended to increase the number of Black writers among the published authors specifically at Random House. Choice C is incorrect because the scholar\u0026rsquo;s claim is about Morrison\u0026rsquo;s work as an editor at a publishing company, not about her work as a novelist. Therefore, a finding that Morrison\u0026rsquo;s novels published after 1983 sold more copies and were more widely acclaimed than her earlier novels would have no bearing on the claim that as an editor Morrison made an effort to ensure that more Black writers were present on Random House\u0026rsquo;s list of published authors. Choice D is incorrect. Although the text discusses Morrison\u0026rsquo;s work as an editor at Random House, the scholar\u0026rsquo;s claim focuses on Morrison\u0026rsquo;s likely effort in that role to increase the number of Black writers present on Random House\u0026rsquo;s list of published authors, not on the influence she may have had on the content of the works she edited. Without knowing whether Morrison\u0026rsquo;s stylistic influence led to more publications or if Morrison applied her influence specifically to works by Black writers, the finding that works edited by Morrison could be identified by stylistic characteristics would have no bearing on the claim that Morrison intended to strengthen the presence of Black writers among the published authors at Random House. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most strongly support the scholar\u0026rsquo;s claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe novelist Toni Morrison was the first Black woman to work as an editor at the publishing company Random House, from 1967 to 1983. A scholar asserts that one of Morrison\u0026rsquo;s likely aims during her time as an editor was to strengthen the presence of Black writers on the list of Random House\u0026rsquo;s published authors.\u003c/p\u003e", "templateclusterid": "381adcbe-d7f9-4229-b83f-e74a945aef5f", "templateclustername": "", "type": "mcq", "vaultid": "05015490-c8d3-4998-90fb-7cb172705c99"}, "createDate": 1691007959335, "difficulty": "H", "external_id": "35ba1503-3ca4-4444-aa35-a1bfdee283cf", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "4fc9a13a", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "f63f0724-93e0-4e0b-91f2-e1965c712e86", "updateDate": 1691007959335};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-4fc9a13a");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

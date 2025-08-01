@@ -1,0 +1,22 @@
+{
+  "question_id": "5bb7dc03",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Started in 1925, the Scripps National Spelling Bee is a US-based spelling competition. The words used in the competition have diverse linguistic origins. In 2008, Sameer Mishra won by correctly spelling the word \"guerdon.\" \"Guerdon\" derives from the Anglo-French word \"guerdun.\" In 2009, Kavya Shivashankar won by correctly spelling the word \"Laodicean.\" \"Laodicean\" derives from the ancient Greek word \" Laod&iacute;keia. \" The student wants to emphasize a difference in the origins of the two words. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize a difference in the origins of the two words. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "&ldquo;Guerdon,&rdquo; the final word of the 2008 Scripps National Spelling Bee, is of Anglo-French origin, while the following year&rsquo;s final word, &ldquo;Laodicean,&rdquo; derives from ancient Greek.",
+    "In 2008, Sameer Mishra won the Scripps National Spelling Bee by correctly spelling the word &ldquo;guerdon&rdquo;; however, the following year, Kavya Shivashankar won based on spelling the word &ldquo;Laodicean.&rdquo;",
+    "Kavya Shivashankar won the 2009 Scripps National Spelling Bee by correctly spelling &ldquo;Laodicean,&rdquo; which derives from the ancient Greek word &ldquo; Laod&iacute;keia. &rdquo;",
+    "The Scripps National Spelling Bee uses words from diverse linguistic origins, such as &ldquo;guerdon&rdquo; and &ldquo;Laodicean.&rdquo;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. Noting that \"guerdon\" is of Anglo-French origin and \"Laodicean\" is of ancient Greek origin, the sentence uses \"while\" to emphasize a difference in the origins of the two words.",
+    "B": "Choice B is incorrect. While the sentence emphasizes two words used in the Scripps National Spelling Bee, it doesn't emphasize (or mention) the words' linguistic origins.",
+    "C": "Choice C is incorrect. While the sentence specifies the linguistic origin of one word used in the Scripps National Spelling Bee, it doesn't mention the other word or emphasize a difference in the two words' origins.",
+    "D": "Choice D is incorrect. While the sentence makes a generalization about words used in the Scripps National Spelling Bee, it doesn't emphasize a difference in the words' origins."
+  }
+}

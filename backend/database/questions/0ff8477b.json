@@ -1,0 +1,22 @@
+{
+  "question_id": "0ff8477b",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Food and the sensation of taste are central to Monique Truong's novels. In The Book of Salt , for example, the exiled character of B&igrave;nh connects to his native Saigon through the food he prepares, while in Bitter in the Mouth , the character of Linda ______ blank a form of synesthesia whereby the words she hears evoke tastes.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "experienced",
+    "had experienced",
+    "experiences",
+    "will be experiencing"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of verbs to express tense. In this choice, the present tense verb \"experiences\" is consistent with the other present tense verbs (e.g., \"connects\" and \"prepares\") used to describe the events in Truong's novels. Furthermore, it's conventional to use the present tense when discussing a literary work.",
+    "A": "Choice A is incorrect because the past tense verb \"experienced\" isn't consistent with the other present tense verbs used to describe the events in Truong's novels.",
+    "B": "Choice B is incorrect because the past perfect tense verb \"had experienced\" isn't consistent with the other present tense verbs used to describe the events in Truong's novels.",
+    "D": "Choice D is incorrect because the future progressive tense verb \"will be experiencing\" isn't consistent with the other present tense verbs used to describe the events in Truong's novels."
+  }
+}

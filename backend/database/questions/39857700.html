@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 39857700</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is from Edith Wharton&rsquo;s 1905 novel <em>The House of Mirth</em>. Lily Bart and a companion are walking through a park.</p>
+<p style='padding-left: 1em;'>Lily had no real intimacy with nature, but she had a passion for the appropriate and could be keenly sensitive to a scene which was the fitting background of her own sensations. <span role="region" aria-label="Referenced Content"><u>The landscape outspread below her seemed an enlargement of her present mood, and she found something of herself in its calmness, its breadth, its long free reaches.</u></span> On the nearer slopes the sugar-maples wavered like pyres of light; lower down was a massing of grey orchards, and here and there the lingering green of an oak-grove.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes the function of the underlined sentence in the text as a whole?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It creates a detailed image of the physical setting of the scene.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It establishes that a character is experiencing an internal conflict.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It makes an assertion that the next sentence then expands on.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It illustrates an idea that is introduced in the previous sentence.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first sentence of the text establishes that Lily can be &ldquo;keenly sensitive to&rdquo; scenes that serve as a &ldquo;fitting background&rdquo; for her feelings&mdash;that is, she&rsquo;s very aware of when a setting seems to reflect her mood. The next sentence, which is underlined, then demonstrates this awareness: Lily views the landscape she&rsquo;s in as a large-scale reflection of her current mood, identifying with elements such as its calmness. Thus, the function of the underlined sentence is to illustrate an idea introduced in the previous sentence. </p><p>Choice A is incorrect because the underlined sentence describes the scene only in very general terms, referring to its calmness, breadth, and long stretches of land. It&rsquo;s the next sentence that adds specific details about colors, light, and various trees nearby. Choice B is incorrect because nothing in the underlined sentence suggests that Lily is experiencing an internal conflict. In fact, the sentence indicates that Lily thinks the landscape reflects her own feeling of calmness. Choice C is incorrect because the only assertion in the underlined sentence is that Lily feels that broad aspects of the landscape, such as its calmness, reflect her current mood, and that assertion isn&rsquo;t expanded on in the next sentence. Instead, the next sentence describes specific details of the scene without connecting them to Lily&rsquo;s feelings. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">363 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt creates a detailed image of the physical setting of the scene.\u003c/p\u003e", "id": "bbcb4318-71f8-40c0-9c53-2b0b807f37e3"}, {"content": "\u003cp\u003eIt establishes that a character is experiencing an internal conflict.\u003c/p\u003e", "id": "ada4602d-0e18-442b-924f-1635ccc9676f"}, {"content": "\u003cp\u003eIt makes an assertion that the next sentence then expands on.\u003c/p\u003e", "id": "4c7131d0-6a00-4207-88ea-15ccc54e4ea9"}, {"content": "\u003cp\u003eIt illustrates an idea that is introduced in the previous sentence.\u003c/p\u003e", "id": "8f6f9acd-3864-422c-b318-5128508f6076"}], "correct_answer": ["D"], "externalid": "db577fba-f840-47e8-adf4-84d7e79e8c3e", "keys": ["8f6f9acd-3864-422c-b318-5128508f6076"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-018-TSP", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first sentence of the text establishes that Lily can be \u0026ldquo;keenly sensitive to\u0026rdquo; scenes that serve as a \u0026ldquo;fitting background\u0026rdquo; for her feelings\u0026mdash;that is, she\u0026rsquo;s very aware of when a setting seems to reflect her mood. The next sentence, which is underlined, then demonstrates this awareness: Lily views the landscape she\u0026rsquo;s in as a large-scale reflection of her current mood, identifying with elements such as its calmness. Thus, the function of the underlined sentence is to illustrate an idea introduced in the previous sentence. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the underlined sentence describes the scene only in very general terms, referring to its calmness, breadth, and long stretches of land. It\u0026rsquo;s the next sentence that adds specific details about colors, light, and various trees nearby. Choice B is incorrect because nothing in the underlined sentence suggests that Lily is experiencing an internal conflict. In fact, the sentence indicates that Lily thinks the landscape reflects her own feeling of calmness. Choice C is incorrect because the only assertion in the underlined sentence is that Lily feels that broad aspects of the landscape, such as its calmness, reflect her current mood, and that assertion isn\u0026rsquo;t expanded on in the next sentence. Instead, the next sentence describes specific details of the scene without connecting them to Lily\u0026rsquo;s feelings. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes the function of the underlined sentence in the text as a whole?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is from Edith Wharton\u0026rsquo;s 1905 novel \u003cem\u003eThe House of Mirth\u003c/em\u003e. Lily Bart and a companion are walking through a park.\u003c/p\u003e\n\u003cp style=\u0027padding-left: 1em;\u0027\u003eLily had no real intimacy with nature, but she had a passion for the appropriate and could be keenly sensitive to a scene which was the fitting background of her own sensations. \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003eThe landscape outspread below her seemed an enlargement of her present mood, and she found something of herself in its calmness, its breadth, its long free reaches.\u003c/u\u003e\u003c/span\u003e On the nearer slopes the sugar-maples wavered like pyres of light; lower down was a massing of grey orchards, and here and there the lingering green of an oak-grove.\u003c/p\u003e", "templateclusterid": "962967a0-9967-4494-ac20-0b0191792957", "templateclustername": "", "type": "mcq", "vaultid": "a10b638a-8d68-401d-b034-f95888da115c"}, "createDate": 1691007959316, "difficulty": "H", "external_id": "db577fba-f840-47e8-adf4-84d7e79e8c3e", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "39857700", "score_band_range_cd": 6, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "494abf7a-ebf2-4532-baa3-9a1a31df2d9f", "updateDate": 1691007959316};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-39857700");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

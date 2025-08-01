@@ -1,0 +1,22 @@
+{
+  "question_id": "12bd5b75",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "With its towering, six-spired exterior of granitelike quartz monzonite, the Salt Lake Temple is one of the most instantly recognizable structures in the state of Utah. However, many people do not know that ______ blank built over the course of forty years, with construction beginning in 1853 and ending in 1893.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "it was",
+    "one was",
+    "they were",
+    "both were"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is pronoun-antecedent agreement. The singular pronoun \"it\" agrees in number with the singular antecedent \"the Salt Lake Temple.\"",
+    "B": "Choice B is incorrect because the singular pronoun \"one\" is ambiguous in this context; the resulting sentence leaves unclear whether there is only one Salt Lake temple or multiple.",
+    "C": "Choice C is incorrect because the plural pronoun \"they\" doesn't agree in number with the singular antecedent \"the Salt Lake Temple.\"",
+    "D": "Choice D is incorrect because the plural pronoun \"both\" doesn't agree in number with the singular antecedent \"the Salt Lake Temple.\""
+  }
+}

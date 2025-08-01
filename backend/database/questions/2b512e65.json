@@ -1,0 +1,22 @@
+{
+  "question_id": "2b512e65",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Eli Eisenberg, a genetics expert at Tel Aviv University in Israel, recently discovered that ______ blank have a special genetic ability called RNA editing that confers evolutionary advantages.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "cephalopods, ocean dwellers that include the squid, the octopus, and the cuttlefish",
+    "cephalopods&mdash;ocean dwellers&mdash;that include the squid, the octopus, and the cuttlefish,",
+    "cephalopods, ocean dwellers that include: the squid, the octopus, and the cuttlefish,",
+    "cephalopods&mdash;ocean dwellers that include the squid, the octopus, and the cuttlefish&mdash;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. In this choice, the dash after \"cephalopods\" pairs with the dash after \"cuttlefish\" to clearly separate the supplementary element \"ocean dwellers that include the squid, the octopus, and the cuttlefish\" from the rest of the sentence. This supplementary element functions to explain what cephalopds are, and the pair of dashes indicates that this element could be removed without affecting the grammatical coherence of the sentence.",
+    "A": "Choice A is incorrect because it fails to use appropriate punctuation to separate the supplementary element that explains what cephalopods are from the rest of the sentence.",
+    "B": "Choice B is incorrect because it fails to use appropriate punctuation to separate the supplementary element that explains what cephalopods are from the rest of the sentence.",
+    "C": "Choice C is incorrect because it fails to use appropriate punctuation to separate the supplementary element that explains what cephalopods are from the rest of the sentence."
+  }
+}

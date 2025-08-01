@@ -1,0 +1,22 @@
+{
+  "question_id": "44cc5f75",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Artificially delivering biomolecules to plant cells is an important component of protecting plants from pathogens, but it is difficult to transmit biomolecules through the layers of the plant cell wall. Markita del Carpio Landry and her colleagues have shown that it may be possible to ______ blank this problem by transmitting molecules through carbon nanotubes, which can cross cell walls.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "conceptualize",
+    "neglect",
+    "illustrate",
+    "overcome"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of delivering biomolecules to plant cells. In this context, \"overcome\" means to succeed in dealing with an obstacle. The text suggests that although it's difficult to move biomolecules through plant cell walls, Landry and her colleagues have shown that carbon nanotubes may be useful, since they can cross cell walls. This context conveys that Landry and her colleagues think it's possible, using carbon nanotubes, to succeed in dealing with the obstacle of transmitting biomolecules to plant cells.",
+    "A": "Choice A is incorrect because it wouldn't make sense in context to say that Landry and her colleagues have shown that it may be possible to \"conceptualize,\" or form an idea of, the difficulty of transmitting biomolecules through the walls of plant cells. The text presents this difficulty as a known problem that Landry and her colleagues think they may have solved, not as a mysterious occurrence that they have yet to form ideas about.",
+    "B": "Choice B is incorrect because the text suggests that Landry and her colleagues think it may be possible to successfully deal with the problem of transmitting biomolecules through the walls of plant cells, not that Landry and her colleagues think it may be possible to \"neglect,\" or simply to disregard and ignore the problem.",
+    "C": "Choice C is incorrect because it wouldn't make sense in context to say that Landry and her colleagues have shown that it may be possible to \"illustrate,\" or demonstrate, the difficulty of transmitting biomolecules through the walls of plant cells by using carbon nanotubes. According to the text, carbon nanotubes allow molecules to be transmitted to plant cells—something that is otherwise difficult to do. The text therefore presents carbon nanotubes as a way of possibly solving a problem, not as a means of demonstrating the problem."
+  }
+}

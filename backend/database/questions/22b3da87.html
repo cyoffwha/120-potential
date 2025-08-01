@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 22b3da87</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>During the Bourbon Restoration in France (1814&ndash;1830), the right to vote required in part that a person paid at least 300 francs in direct taxes to the government. The four most common taxes (the <em>quatre vieilles</em>) were levied on real estate (both land and buildings); the doors and windows in taxpayer homes; the rental values of homes; and the businesses of artisans and merchants. (Foreign investments were either exempt from taxation or taxed lightly.) Although relatively few people paid the tax on real estate, it was the main means of voter qualification and accounted for over two-thirds of government receipts during this period, suggesting that during the Bourbon Restoration <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>those people who had the right to vote most likely had substantial holdings of French real estate.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the voting habits of French artisans and merchants were effective in reducing tax burdens on businesses.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the number of doors and windows in French residences was kept to a minimum but increased after 1830.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>French people with significant foreign investments were unlikely to have the right to vote.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. We&rsquo;re told that people needed to pay &ldquo;at least 300 francs in direct taxes&rdquo; to be able to vote. We&rsquo;re also told that, while &ldquo;relatively few people paid the tax on real estate,&rdquo; real estate taxes were both the main way people qualified to vote and the main source of revenue for the government. Based on this, we can infer that those who did qualify to vote likely had significant French real estate holdings. </p><p>Choice B is incorrect. The passage doesn&rsquo;t mention the voting habits of artisans and merchants nor any reduction in tax burdens on businesses, so there&rsquo;s no basis for this inference. Choice C is incorrect. Although we know that doors and windows were taxed during the Bourbon Restoration, we don&rsquo;t have enough information to infer if doors and windows increased after this time. Choice D is incorrect. Although we know that foreign investments were only minimally taxed, we don&rsquo;t have enough information to determine if those with significant foreign investments were unlikely to have voting rights. For example, it&rsquo;s possible that those with significant foreign investments were likely to also be people with significant domestic investments which they did pay taxes on, so we don&rsquo;t have the information necessary to make this inference. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">265 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ethose people who had the right to vote most likely had substantial holdings of French real estate.\u003c/p\u003e", "id": "cfb7570b-012f-47b5-8e23-0491aa085114"}, {"content": "\u003cp\u003ethe voting habits of French artisans and merchants were effective in reducing tax burdens on businesses.\u003c/p\u003e", "id": "d64c0f10-e86e-49c3-8ef9-77d4ad799683"}, {"content": "\u003cp\u003ethe number of doors and windows in French residences was kept to a minimum but increased after 1830.\u003c/p\u003e", "id": "97a799f8-9018-488c-a7e2-16fb1581a621"}, {"content": "\u003cp\u003eFrench people with significant foreign investments were unlikely to have the right to vote.\u003c/p\u003e", "id": "674e554c-1928-4bde-825c-24b4fe21f0db"}], "correct_answer": ["A"], "externalid": "1b36342b-8a0a-476b-9948-ea851a951a4e", "keys": ["cfb7570b-012f-47b5-8e23-0491aa085114"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-INF-H007", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. We\u0026rsquo;re told that people needed to pay \u0026ldquo;at least 300 francs in direct taxes\u0026rdquo; to be able to vote. We\u0026rsquo;re also told that, while \u0026ldquo;relatively few people paid the tax on real estate,\u0026rdquo; real estate taxes were both the main way people qualified to vote and the main source of revenue for the government. Based on this, we can infer that those who did qualify to vote likely had significant French real estate holdings. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. The passage doesn\u0026rsquo;t mention the voting habits of artisans and merchants nor any reduction in tax burdens on businesses, so there\u0026rsquo;s no basis for this inference. Choice C is incorrect. Although we know that doors and windows were taxed during the Bourbon Restoration, we don\u0026rsquo;t have enough information to infer if doors and windows increased after this time. Choice D is incorrect. Although we know that foreign investments were only minimally taxed, we don\u0026rsquo;t have enough information to determine if those with significant foreign investments were unlikely to have voting rights. For example, it\u0026rsquo;s possible that those with significant foreign investments were likely to also be people with significant domestic investments which they did pay taxes on, so we don\u0026rsquo;t have the information necessary to make this inference. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eDuring the Bourbon Restoration in France (1814\u0026ndash;1830), the right to vote required in part that a person paid at least 300 francs in direct taxes to the government. The four most common taxes (the \u003cem\u003equatre vieilles\u003c/em\u003e) were levied on real estate (both land and buildings); the doors and windows in taxpayer homes; the rental values of homes; and the businesses of artisans and merchants. (Foreign investments were either exempt from taxation or taxed lightly.) Although relatively few people paid the tax on real estate, it was the main means of voter qualification and accounted for over two-thirds of government receipts during this period, suggesting that during the Bourbon Restoration \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "c45d3961-b983-4502-925c-3b8389365131", "templateclustername": "", "type": "mcq", "vaultid": "6faae3cd-18fb-40c6-a2ee-6dcd48ef1a3e"}, "createDate": 1691007959368, "difficulty": "H", "external_id": "1b36342b-8a0a-476b-9948-ea851a951a4e", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "22b3da87", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "e4545382-4171-4e16-92b7-984abaf01130", "updateDate": 1691007959368};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-22b3da87");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

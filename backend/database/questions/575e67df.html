@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 575e67df</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>By running computer simulations of the development of our solar system, Andr&eacute; Izidoro, Rajdeep Dasgupta, and colleagues concluded that the Sun may have been surrounded by three giant dust rings before the planets started to form. The researchers suggest that the materials in the innermost ring became the four planets closest to the Sun, the materials in the middle ring produced the rest of the planets, and the materials in the outermost ring created the asteroids and other small bodies in the region beyond Neptune. In one simulation, the researchers delayed the initial formation of the middle ring, causing oversized super-Earths to begin developing from the innermost ring. The researchers therefore hypothesize that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the middle ring formed earlier in the solar system&rsquo;s development than the initial simulations suggested.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the timing of the initial formation of the middle ring played an important role in determining the eventual size of Earth.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>if the formation of the outermost ring had occurred earlier in a simulation, all the planets would have become super-Earths.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the innermost ring actually formed into all the planets in our solar system, not just the four closest to the Sun.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it most logically follows from the text&rsquo;s discussion of Andr&eacute; Izidoro, Rajdeep Dasgupta, and colleagues&rsquo; computer simulations of our solar system&rsquo;s development. The text begins by stating that the simulations led the researchers to conclude that the solar system likely formed from three giant dust rings that encircled the Sun. The text explains that the four inner planets, including Earth, formed from the innermost ring and that the remaining planets formed from the middle ring. It then explains that in one simulation, the researchers delayed the formation of the middle ring&mdash;that is, they tested to see what would happen if the middle ring had formed later than it actually did. They found that doing so affected the size of the innermost planets, resulting in oversized super-Earths, planets that are much larger than Earth. Since the delayed timing had the effect of changing the size of Earth in the simulation relative to Earth&rsquo;s real size, it&rsquo;s reasonable to conclude that the timing of the middle ring&rsquo;s formation was important in determining Earth&rsquo;s eventual size.&nbsp;</p><p>Choice A is incorrect. Although the text explains that when the researchers delayed the formation of the middle ring in one simulation, the size of the innermost planets was affected (which suggests that the middle ring likely formed earlier than it did in this simulation), the text doesn&rsquo;t indicate that this was an initial simulation&mdash;that is, a simulation that was conducted before other simulations. Moreover, the text makes no reference to the specific results of any other simulations; therefore, there is no basis for comparing any conclusions based on the simulation in which the middle ring&rsquo;s formation was delayed with conclusions based on other simulations. Choice C is incorrect because the text discusses how altering the timing of the formation of the middle ring, not the outermost ring, affected the four innermost planets&rsquo; eventual size in the researchers&rsquo; simulation; therefore, the simulation offers no basis for a conclusion about how the outermost ring&rsquo;s formation affected the size of the planets. Choice D is incorrect because there is nothing in the text to suggest that the innermost ring produced all the solar system&rsquo;s planets. Rather, the text states that the simulations showed that the innermost planets formed from the innermost ring and that the remaining planets formed from the middle ring. &nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">195 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ethe middle ring formed earlier in the solar system\u0026rsquo;s development than the initial simulations suggested.\u0026nbsp;\u003c/p\u003e", "id": "03bc501b-4768-4366-92a1-01a96b1cfc01"}, {"content": "\u003cp\u003ethe timing of the initial formation of the middle ring played an important role in determining the eventual size of Earth.\u003c/p\u003e", "id": "2790165b-78e1-47f5-ba46-9c41eff362e8"}, {"content": "\u003cp\u003eif the formation of the outermost ring had occurred earlier in a simulation, all the planets would have become super-Earths.\u003c/p\u003e", "id": "e8abefe9-5d57-40c8-916f-1c48b5781e27"}, {"content": "\u003cp\u003ethe innermost ring actually formed into all the planets in our solar system, not just the four closest to the Sun.\u003c/p\u003e", "id": "a5e5addf-8caf-4ffd-b958-581f5302e577"}], "correct_answer": ["B"], "externalid": "5818e783-6bbc-430f-8003-9f3967e542b2", "keys": ["2790165b-78e1-47f5-ba46-9c41eff362e8"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-046-INF", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it most logically follows from the text\u0026rsquo;s discussion of Andr\u0026eacute; Izidoro, Rajdeep Dasgupta, and colleagues\u0026rsquo; computer simulations of our solar system\u0026rsquo;s development. The text begins by stating that the simulations led the researchers to conclude that the solar system likely formed from three giant dust rings that encircled the Sun. The text explains that the four inner planets, including Earth, formed from the innermost ring and that the remaining planets formed from the middle ring. It then explains that in one simulation, the researchers delayed the formation of the middle ring\u0026mdash;that is, they tested to see what would happen if the middle ring had formed later than it actually did. They found that doing so affected the size of the innermost planets, resulting in oversized super-Earths, planets that are much larger than Earth. Since the delayed timing had the effect of changing the size of Earth in the simulation relative to Earth\u0026rsquo;s real size, it\u0026rsquo;s reasonable to conclude that the timing of the middle ring\u0026rsquo;s formation was important in determining Earth\u0026rsquo;s eventual size.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although the text explains that when the researchers delayed the formation of the middle ring in one simulation, the size of the innermost planets was affected (which suggests that the middle ring likely formed earlier than it did in this simulation), the text doesn\u0026rsquo;t indicate that this was an initial simulation\u0026mdash;that is, a simulation that was conducted before other simulations. Moreover, the text makes no reference to the specific results of any other simulations; therefore, there is no basis for comparing any conclusions based on the simulation in which the middle ring\u0026rsquo;s formation was delayed with conclusions based on other simulations. Choice C is incorrect because the text discusses how altering the timing of the formation of the middle ring, not the outermost ring, affected the four innermost planets\u0026rsquo; eventual size in the researchers\u0026rsquo; simulation; therefore, the simulation offers no basis for a conclusion about how the outermost ring\u0026rsquo;s formation affected the size of the planets. Choice D is incorrect because there is nothing in the text to suggest that the innermost ring produced all the solar system\u0026rsquo;s planets. Rather, the text states that the simulations showed that the innermost planets formed from the innermost ring and that the remaining planets formed from the middle ring. \u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eBy running computer simulations of the development of our solar system, Andr\u0026eacute; Izidoro, Rajdeep Dasgupta, and colleagues concluded that the Sun may have been surrounded by three giant dust rings before the planets started to form. The researchers suggest that the materials in the innermost ring became the four planets closest to the Sun, the materials in the middle ring produced the rest of the planets, and the materials in the outermost ring created the asteroids and other small bodies in the region beyond Neptune. In one simulation, the researchers delayed the initial formation of the middle ring, causing oversized super-Earths to begin developing from the innermost ring. The researchers therefore hypothesize that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "d1a4a0ab-5ad5-402d-8a62-64f16cce64c1", "templateclustername": "", "type": "mcq", "vaultid": "fbf015e1-b047-4cce-ba91-f0005fc0f4b2"}, "createDate": 1691007959323, "difficulty": "M", "external_id": "5818e783-6bbc-430f-8003-9f3967e542b2", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "575e67df", "score_band_range_cd": 5, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "9fee1bb7-22ca-4019-bb6a-56f7deef2031", "updateDate": 1691007959323};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-575e67df");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 5325b3cc</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Philadelphia&rsquo;s Black Pearl Chamber Orchestra, founded by Jeri Lynne Johnson, performs classical music, from well-known compositions by Beethoven to contemporary works by Jessie Montgomery. For the orchestra&rsquo;s iConduct! program, Johnson invites community members to learn some basic elements of conducting and then experience conducting the Black Pearl orchestra themselves.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The Black Pearl orchestra performs music from all over the world but mostly performs music composed by Philadelphians.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Johnson founded the Black Pearl orchestra to perform classical music by contemporary artist Jessie Montgomery.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The Black Pearl orchestra gives community members the chance to both listen to and participate in classical music performance.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Johnson has community members conduct an orchestra to demonstrate how difficult the task is.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most accurately states the main idea of the text. The text begins by stating that the Black Pearl orchestra performs classical music, and then goes on to explain that the orchestra offers an iConduct! program. According to the text, this program offers community members the opportunity to learn some basics about conducting and then apply what they learn by conducting the orchestra themselves. Thus, the main idea of the text is that community members can both listen to and participate in a classical music performance. </p><p>Choice A is incorrect. Although the text states that the Black Pearl orchestra is based in Philadelphia, it doesn&rsquo;t indicate that most of the music it plays was composed by Philadelphians. Choice B is incorrect. Although the text does state that Johnson founded the Black Pearl orchestra, this is just a detail and not the main focus of the text. Moreover, while the text does say that the orchestra sometimes plays music by Montgomery, it doesn&rsquo;t assert that the orchestra was founded solely for the purpose of performing Montgomery&rsquo;s work. Choice D is incorrect. Although the text explains that community members are invited to conduct the Black Pearl orchestra after participating in the iConduct! program, the text doesn&rsquo;t indicate that Johnson allows community members to do this for the specific purpose of showing how difficult the task is. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">66 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe Black Pearl orchestra performs music from all over the world but mostly performs music composed by Philadelphians.\u003c/p\u003e", "id": "bd5302a1-b0e4-40f7-a7ca-bd575db2e8ed"}, {"content": "\u003cp\u003eJohnson founded the Black Pearl orchestra to perform classical music by contemporary artist Jessie Montgomery.\u0026nbsp;\u003c/p\u003e", "id": "c5e0f0f1-94be-4f90-955b-c9c0083453e7"}, {"content": "\u003cp\u003eThe Black Pearl orchestra gives community members the chance to both listen to and participate in classical music performance.\u0026nbsp;\u003c/p\u003e", "id": "62f7c04b-2d40-453a-b45b-270f538d7d17"}, {"content": "\u003cp\u003eJohnson has community members conduct an orchestra to demonstrate how difficult the task is.\u003c/p\u003e", "id": "ff13b1cf-8a2a-4515-96c3-494b770c76ec"}], "correct_answer": ["C"], "externalid": "50a97041-1bb7-41a5-ad91-9edb332c7d6b", "keys": ["62f7c04b-2d40-453a-b45b-270f538d7d17"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-032-CID", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most accurately states the main idea of the text. The text begins by stating that the Black Pearl orchestra performs classical music, and then goes on to explain that the orchestra offers an iConduct! program. According to the text, this program offers community members the opportunity to learn some basics about conducting and then apply what they learn by conducting the orchestra themselves. Thus, the main idea of the text is that community members can both listen to and participate in a classical music performance. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although the text states that the Black Pearl orchestra is based in Philadelphia, it doesn\u0026rsquo;t indicate that most of the music it plays was composed by Philadelphians. Choice B is incorrect. Although the text does state that Johnson founded the Black Pearl orchestra, this is just a detail and not the main focus of the text. Moreover, while the text does say that the orchestra sometimes plays music by Montgomery, it doesn\u0026rsquo;t assert that the orchestra was founded solely for the purpose of performing Montgomery\u0026rsquo;s work. Choice D is incorrect. Although the text explains that community members are invited to conduct the Black Pearl orchestra after participating in the iConduct! program, the text doesn\u0026rsquo;t indicate that Johnson allows community members to do this for the specific purpose of showing how difficult the task is. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003ePhiladelphia\u0026rsquo;s Black Pearl Chamber Orchestra, founded by Jeri Lynne Johnson, performs classical music, from well-known compositions by Beethoven to contemporary works by Jessie Montgomery. For the orchestra\u0026rsquo;s iConduct! program, Johnson invites community members to learn some basic elements of conducting and then experience conducting the Black Pearl orchestra themselves.\u003c/p\u003e", "templateclusterid": "1dfd6c5e-8a2c-4934-b935-7e85a0fcb84d", "templateclustername": "", "type": "mcq", "vaultid": "5ced755b-6122-45a1-addd-60159296a8c7"}, "createDate": 1691007959319, "difficulty": "M", "external_id": "50a97041-1bb7-41a5-ad91-9edb332c7d6b", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "5325b3cc", "score_band_range_cd": 4, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "34dc3d14-ed11-4eed-94bb-312509705709", "updateDate": 1691007959319};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-5325b3cc");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

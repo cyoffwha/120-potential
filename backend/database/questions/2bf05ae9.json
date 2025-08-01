@@ -1,0 +1,22 @@
+{
+  "question_id": "2bf05ae9",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In the midst of the US Civil War, Susie Taylor escaped slavery and fled to Union-army-occupied St. Simons Island off the Georgia coast. She began working for an all-Black army regiment as a nurse and teacher. In 1902, she published a book about the time she spent with the regiment. Her book was the only Civil War memoir to be published by a Black woman. It is still available to readers in print and online. The student wants to emphasize the uniqueness of Taylor's accomplishment. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the uniqueness of Taylor&rsquo;s accomplishment. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Taylor fled to St. Simons Island, which was then occupied by the Union army, for whom she began working.",
+    "After escaping slavery, Taylor began working for an all-Black army regiment as a nurse and teacher.",
+    "The book Taylor wrote about the time she spent with the regiment is still available to readers in print and online.",
+    "Taylor was the only Black woman to publish a Civil War memoir."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. By indicating that Taylor's book was the only Civil War memoir published by a Black woman, this sentence emphasizes the uniqueness, or one-of-a-kind nature, of Taylor's accomplishment.",
+    "A": "Choice A is incorrect. While the sentence describes some of Taylor's accomplishments, it doesn't emphasize the uniqueness of them.",
+    "B": "Choice B is incorrect. While the sentence describes some of Taylor's accomplishments, it doesn't emphasize that they were unique.",
+    "C": "Choice C is incorrect. While the sentence provides information about Taylor's book, it doesn't emphasize what made the book unique."
+  }
+}

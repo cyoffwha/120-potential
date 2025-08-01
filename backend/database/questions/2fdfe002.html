@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 2fdfe002</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Countee Cullen&rsquo;s 1926 poem &ldquo;Thoughts in a Zoo.&rdquo;&nbsp;</p>
+<blockquote class="dap_poemexcerpt">
+<p>They in their cruel traps, and we in ours,&nbsp;&nbsp;</p>
+<p>Survey each other&rsquo;s rage, and pass the hours&nbsp;&nbsp;</p>
+<p>Commiserating each the other&rsquo;s woe,&nbsp;&nbsp;</p>
+<p>To mitigate his own pain&rsquo;s fiery glow.&nbsp;&nbsp;</p>
+<p>Man could but little proffer in exchange&nbsp;&nbsp;</p>
+<p>Save that his cages have a larger range.&nbsp;&nbsp;</p>
+<p>That lion with his lordly, untamed heart&nbsp;&nbsp;</p>
+<p>Has in some man his human counterpart,</p>
+<p>Some lofty soul in dreams and visions wrapped,&nbsp;&nbsp;</p>
+<p>But in the stifling flesh securely trapped.</p>
+</blockquote></div>
+
+                        <div class="mt-3"><p>Based on the text, what challenge do humans sometimes experience?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They cannot effectively tame certain wild animals because of a lack of compassion.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They cannot focus on setting attainable goals because of a lack of motivation.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They quickly become frustrated when faced with difficult tasks because of a lack of self-control.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They have aspirations that cannot be fulfilled because of certain limitations.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The text metaphorically likens humans to animals in a zoo, suggesting that humans have dreams that they cannot fulfill because they are trapped. </p><p>Choice A is incorrect. The speaker says that the lion has an &ldquo;untamed heart,&rdquo; but the speaker doesn&rsquo;t actually mention anything about humans taming wild animals or a lack of compassion. Choice B is incorrect. The speaker doesn&rsquo;t suggest that humans lack motivation. Rather, the speaker thinks that humans are &ldquo;trapped&rdquo; and prevented from achieving their dreams. Choice C is incorrect. The speaker doesn&rsquo;t mention anything about humans becoming frustrated or lacking self-control. Rather, the speaker thinks that humans are &ldquo;trapped&rdquo; and prevented from achieving their dreams. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">34 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThey cannot effectively tame certain wild animals because of a lack of compassion.\u003c/p\u003e", "id": "54beed80-7eb8-41ed-abf5-8ebeb0fc3048"}, {"content": "\u003cp\u003eThey cannot focus on setting attainable goals because of a lack of motivation.\u003c/p\u003e", "id": "eb6a2cd0-eff3-4d03-8d99-c7423c96b439"}, {"content": "\u003cp\u003eThey quickly become frustrated when faced with difficult tasks because of a lack of self-control.\u003c/p\u003e", "id": "eaa4379a-1060-4ba9-b8a9-b56013f2042f"}, {"content": "\u003cp\u003eThey have aspirations that cannot be fulfilled because of certain limitations.\u003c/p\u003e", "id": "85aef49b-35cd-471c-a3fd-dff8ed5a71f3"}], "correct_answer": ["D"], "externalid": "2feba5ee-68da-40e5-9ac9-a2d6595ea46b", "keys": ["85aef49b-35cd-471c-a3fd-dff8ed5a71f3"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CID-H005", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The text metaphorically likens humans to animals in a zoo, suggesting that humans have dreams that they cannot fulfill because they are trapped. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The speaker says that the lion has an \u0026ldquo;untamed heart,\u0026rdquo; but the speaker doesn\u0026rsquo;t actually mention anything about humans taming wild animals or a lack of compassion. Choice B is incorrect. The speaker doesn\u0026rsquo;t suggest that humans lack motivation. Rather, the speaker thinks that humans are \u0026ldquo;trapped\u0026rdquo; and prevented from achieving their dreams. Choice C is incorrect. The speaker doesn\u0026rsquo;t mention anything about humans becoming frustrated or lacking self-control. Rather, the speaker thinks that humans are \u0026ldquo;trapped\u0026rdquo; and prevented from achieving their dreams. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the text, what challenge do humans sometimes experience?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Countee Cullen\u0026rsquo;s 1926 poem \u0026ldquo;Thoughts in a Zoo.\u0026rdquo;\u0026nbsp;\u003c/p\u003e\n\u003cblockquote class=\"dap_poemexcerpt\"\u003e\n\u003cp\u003eThey in their cruel traps, and we in ours,\u0026nbsp;\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eSurvey each other\u0026rsquo;s rage, and pass the hours\u0026nbsp;\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eCommiserating each the other\u0026rsquo;s woe,\u0026nbsp;\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eTo mitigate his own pain\u0026rsquo;s fiery glow.\u0026nbsp;\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eMan could but little proffer in exchange\u0026nbsp;\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eSave that his cages have a larger range.\u0026nbsp;\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eThat lion with his lordly, untamed heart\u0026nbsp;\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eHas in some man his human counterpart,\u003c/p\u003e\n\u003cp\u003eSome lofty soul in dreams and visions wrapped,\u0026nbsp;\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eBut in the stifling flesh securely trapped.\u003c/p\u003e\n\u003c/blockquote\u003e", "templateclusterid": "8170e58d-ca33-4ef4-a5d0-2de024ba6fb7", "templateclustername": "", "type": "mcq", "vaultid": "4760d20a-02bb-4946-9130-050ae362003f"}, "createDate": 1691007959360, "difficulty": "H", "external_id": "2feba5ee-68da-40e5-9ac9-a2d6595ea46b", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "2fdfe002", "score_band_range_cd": 6, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "18d89553-8cb9-4392-8bc5-752be2b6f755", "updateDate": 1691007959360};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-2fdfe002");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

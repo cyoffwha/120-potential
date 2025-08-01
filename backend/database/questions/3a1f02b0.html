@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 3a1f02b0</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Frances Hodgson Burnett&rsquo;s 1911 novel <em>The Secret Garden</em>. Mary, a young girl, recently found an overgrown hidden garden.</p>
+<p style='padding-left: 1em;'>Mary was an odd, determined little person, and now she had something interesting to be determined about, she was very much absorbed, indeed. She worked and dug and pulled up weeds steadily, only becoming more pleased with her work every hour instead of tiring of it. It seemed to her like a fascinating sort of play.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Mary hides in the garden to avoid doing her chores.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Mary is getting bored with pulling up so many weeds in the garden.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Mary is clearing out the garden to create a space to play.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Mary feels very satisfied when she&rsquo;s taking care of the garden.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it most accurately states the main idea of the text. The text describes Mary&rsquo;s activities in an overgrown hidden garden, saying that she was &ldquo;very much absorbed&rdquo; and was &ldquo;only becoming more pleased with her work every hour&rdquo; rather than getting tired of it. She also thinks of garden activities as a &ldquo;fascinating sort of play.&rdquo; Thus, the main idea of the text is that Mary feels very satisfied when taking care of the garden. </p><p>Choice A is incorrect because the text never makes any mention of Mary&rsquo;s chores. Choice B is incorrect because the text indicates that Mary finds pulling up weeds to be fascinating, not boring. Choice C is incorrect because Mary thinks of garden activities in and of themselves as play, not as something necessary to do to create a space to play. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">218 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eMary hides in the garden to avoid doing her chores.\u003c/p\u003e", "id": "020b2e3e-ba89-467c-a8aa-dd80fe9707a3"}, {"content": "\u003cp\u003eMary is getting bored with pulling up so many weeds in the garden.\u003c/p\u003e", "id": "b2deb843-d28f-4bb2-84d3-072d5634039d"}, {"content": "\u003cp\u003eMary is clearing out the garden to create a space to play.\u003c/p\u003e", "id": "53bd8681-53cb-4890-b6d4-b4585c86c4c2"}, {"content": "\u003cp\u003eMary feels very satisfied when she\u0026rsquo;s taking care of the garden.\u003c/p\u003e", "id": "c56b72de-4587-4a02-ad13-72f92e33ebee"}], "correct_answer": ["D"], "externalid": "c0a0b3da-d759-43c9-8b98-ede924bab5da", "keys": ["c56b72de-4587-4a02-ad13-72f92e33ebee"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-015-CID", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it most accurately states the main idea of the text. The text describes Mary\u0026rsquo;s activities in an overgrown hidden garden, saying that she was \u0026ldquo;very much absorbed\u0026rdquo; and was \u0026ldquo;only becoming more pleased with her work every hour\u0026rdquo; rather than getting tired of it. She also thinks of garden activities as a \u0026ldquo;fascinating sort of play.\u0026rdquo; Thus, the main idea of the text is that Mary feels very satisfied when taking care of the garden. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text never makes any mention of Mary\u0026rsquo;s chores. Choice B is incorrect because the text indicates that Mary finds pulling up weeds to be fascinating, not boring. Choice C is incorrect because Mary thinks of garden activities in and of themselves as play, not as something necessary to do to create a space to play. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Frances Hodgson Burnett\u0026rsquo;s 1911 novel \u003cem\u003eThe Secret Garden\u003c/em\u003e. Mary, a young girl, recently found an overgrown hidden garden.\u003c/p\u003e\n\u003cp style=\u0027padding-left: 1em;\u0027\u003eMary was an odd, determined little person, and now she had something interesting to be determined about, she was very much absorbed, indeed. She worked and dug and pulled up weeds steadily, only becoming more pleased with her work every hour instead of tiring of it. It seemed to her like a fascinating sort of play.\u003c/p\u003e", "templateclusterid": "66e44e5f-5d37-4ea7-8c7c-a9b37bf9613f", "templateclustername": "", "type": "mcq", "vaultid": "5899abda-1951-4db1-8d2a-61c19917cbff"}, "createDate": 1691007959315, "difficulty": "E", "external_id": "c0a0b3da-d759-43c9-8b98-ede924bab5da", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "3a1f02b0", "score_band_range_cd": 3, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "b5b0cc68-7759-4c00-8692-cf353518733a", "updateDate": 1691007959315};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-3a1f02b0");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

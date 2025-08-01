@@ -1,0 +1,22 @@
+{
+  "question_id": "4ba99a6f",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Seneca sculptor Marie Watt's blanket art comes in a range of shapes and sizes. In 2004, Watt sewed strips of blankets together to craft a 10-by-13-inch ______ blank in 2014, she arranged folded blankets into two large stacks and then cast them in bronze, creating two curving 18-foot-tall blue-bronze pillars.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "sampler later,",
+    "sampler;&nbsp;",
+    "sampler,&nbsp;",
+    "sampler, later,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the coordination of main clauses within a sentence. This choice uses a semicolon in a conventional way to join the first main clause (\"In 2004&hellip;sampler\") and the second main clause (\"in 2014&hellip;pillars\").",
+    "A": "Choice A is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. The word \"later\" is an adverb and cannot be used to join two main clauses unless it is preceded by a conjunction.",
+    "C": "Choice C is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses.",
+    "D": "Choice D is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. The word \"later\" is an adverb and cannot be used to join two main clauses unless it is preceded by a conjunction."
+  }
+}

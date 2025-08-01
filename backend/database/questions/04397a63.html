@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 04397a63</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>The Haudenosaunee Confederacy is a nearly 1,000-year-old alliance of six Native nations in the northeastern US.  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li>The members are bound by a centuries-old agreement known as the Great Law of Peace.</li>
+<li>Historian Bruce Johansen is one of several scholars who believe that the principles of the Great Law of Peace influenced the US Constitution.</li>
+<li>This theory is called the influence theory.</li>
+<li>Johansen cites the fact that Benjamin Franklin and Thomas Jefferson both studied the Haudenosaunee Confederacy.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to present the influence theory to an audience unfamiliar with the Haudenosaunee Confederacy. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Historian Bruce Johansen believes that the Great Law of Peace was very influential.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The influence theory is supported by the fact that Benjamin Franklin and Thomas Jefferson both studied the Haudenosaunee Confederacy.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The influence theory holds that the principles of the Great Law of Peace, a centuries-old agreement binding six Native nations in the northeastern US, influenced the US Constitution.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Native people, including the members of the Haudenosaunee Confederacy, influenced the founding of the US in many different ways.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The sentence effectively presents the influence theory to an audience unfamiliar with the Haudenosaunee Confederacy, explaining the theory&rsquo;s position that the Great Law of Peace influenced the US Constitution while avoiding mention of the Haudenosaunee Confederacy itself. </p><p>Choice A is incorrect. The sentence broadly emphasizes Johansen&rsquo;s ideas about the Great Law of Peace; it doesn&rsquo;t identify the influence theory or effectively present it. Choice B is incorrect. The sentence emphasizes one fact that supports the influence theory; it doesn&rsquo;t effectively present the theory to an audience unfamiliar with the Haudenosaunee Confederacy. Choice D is incorrect. The sentence makes a broad generalization about Native people&rsquo;s influence on the founding of the US; it doesn&rsquo;t effectively present the influence theory. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">648 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eHistorian Bruce Johansen believes that the Great Law of Peace was very influential.\u003c/p\u003e", "id": "bb7d79c8-2d01-4447-bafb-1bccdb221cb9"}, {"content": "\u003cp\u003eThe influence theory is supported by the fact that Benjamin Franklin and Thomas Jefferson both studied the Haudenosaunee Confederacy.\u003c/p\u003e", "id": "fc0bd0f3-7d1f-4413-9256-5ea20794d3f9"}, {"content": "\u003cp\u003eThe influence theory holds that the principles of the Great Law of Peace, a centuries-old agreement binding six Native nations in the northeastern US, influenced the US Constitution.\u003c/p\u003e", "id": "b5a38d01-4730-4555-bbc6-0b3894ccd946"}, {"content": "\u003cp\u003eNative people, including the members of the Haudenosaunee Confederacy, influenced the founding of the US in many different ways.\u003c/p\u003e", "id": "a937cd66-1964-42a2-850e-5d2b7a1ba033"}], "correct_answer": ["C"], "externalid": "b0070e01-03e6-4c54-846c-6a22403d3c3b", "keys": ["b5a38d01-4730-4555-bbc6-0b3894ccd946"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-728-SYN", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The sentence effectively presents the influence theory to an audience unfamiliar with the Haudenosaunee Confederacy, explaining the theory\u0026rsquo;s position that the Great Law of Peace influenced the US Constitution while avoiding mention of the Haudenosaunee Confederacy itself. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The sentence broadly emphasizes Johansen\u0026rsquo;s ideas about the Great Law of Peace; it doesn\u0026rsquo;t identify the influence theory or effectively present it. Choice B is incorrect. The sentence emphasizes one fact that supports the influence theory; it doesn\u0026rsquo;t effectively present the theory to an audience unfamiliar with the Haudenosaunee Confederacy. Choice D is incorrect. The sentence makes a broad generalization about Native people\u0026rsquo;s influence on the founding of the US; it doesn\u0026rsquo;t effectively present the influence theory. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to present the influence theory to an audience unfamiliar with the Haudenosaunee Confederacy. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eThe Haudenosaunee Confederacy is a nearly 1,000-year-old alliance of six Native nations in the northeastern US.  \u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u003c/li\u003e\n\u003cli\u003eThe members are bound by a centuries-old agreement known as the Great Law of Peace.\u003c/li\u003e\n\u003cli\u003eHistorian Bruce Johansen is one of several scholars who believe that the principles of the Great Law of Peace influenced the US Constitution.\u003c/li\u003e\n\u003cli\u003eThis theory is called the influence theory.\u003c/li\u003e\n\u003cli\u003eJohansen cites the fact that Benjamin Franklin and Thomas Jefferson both studied the Haudenosaunee Confederacy.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "ece2a7bf-740a-4965-ab79-ca35c0c9ace7", "templateclustername": "", "type": "mcq", "vaultid": "4f29c058-efb7-4e59-bd03-cdfabf4618ff"}, "createDate": 1691007959349, "difficulty": "M", "external_id": "b0070e01-03e6-4c54-846c-6a22403d3c3b", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "04397a63", "score_band_range_cd": 4, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "85341849-165e-49e3-b77f-7c0b9cf3d96d", "updateDate": 1691007959349};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-04397a63");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

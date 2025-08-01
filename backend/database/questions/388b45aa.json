@@ -1,0 +1,22 @@
+{
+  "question_id": "388b45aa",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Establishing Coordinated Universal Time (UTC) is no easy task. Each month, readings of a single second from atomic clocks around the world are taken and sent to the International Bureau of Weights and Measures (BIPM) in France. ______ blank BIPM metrologists perform the meticulous work of assembling these minutely disparate readings into a globally shared time standard.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "There,",
+    "In particular,",
+    "For example,",
+    "Conversely,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"There\" indicates that the work of calculating Coordinated Universal Time takes place at the International Bureau of Weights and Measures in France. Because \"there\" indicates a location, it fits the context perfectly.",
+    "B": "Choice B is incorrect. This choice uses an exemplification transition, which doesn't make sense here. This sentence is describing where the work of coordinating Coordinated Universal Time takes place, not giving an example of the work described in the previous sentence.",
+    "C": "Choice C is incorrect. This choice uses an exemplification transition, which doesn't make sense here. This sentence is describing where the work of coordinating Coordinated Universal Time takes place, not giving an example of the work described in the previous sentence.",
+    "D": "Choice D is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous sentence. They both describe the work involved in calculating Coordinated Universal Time."
+  }
+}

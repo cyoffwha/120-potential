@@ -1,0 +1,22 @@
+{
+  "question_id": "1c36e3e1",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The number of dark spots that appear on the Sun, known as sunspots, can vary greatly. For example, there were about 180 sunspots in November 2001. ______ blank there were only about 2 sunspots in December 2008.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "&nbsp;In other words,",
+    "Similarly,",
+    "Therefore,",
+    "By comparison,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The first sentence claims that the number of sunspots can vary greatly. To support this claim, the next two sentences compare two examples: one time when there were 180 sunspots and one time when there were only 2 sunspots. So the transition \"by comparison\" fits perfectly.",
+    "A": "Choice A is incorrect. This choice uses a transition that indicates a restatement of the same idea, which doesn't make sense here. This sentence doesn't restate the first example—it describes a totally different example.",
+    "B": "Choice B is incorrect. This choice uses a transition that indicates the addition of a similar idea, which doesn't make sense here. This sentence describes a second example that is very different from the first example.",
+    "C": "Choice C is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense here. The first example didn't result in the second example."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "01989d77",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Microbes that live in shallow lakes and ponds produce methane, a harmful greenhouse gas. Ecologist Ralf Aben and his team wanted to see how different types of shallow-water plants might affect the amount of methane that escapes into the atmosphere. Aben's team set up some water tanks with soil and microbes from local ponds. Some tanks had a type of underwater plant that grows in the soil called watermilfoil. Other tanks had either duckweed, a type of plant that floats on the water's surface, or algae. Aben and his team found that tanks with duckweed and algae released higher levels of methane than tanks with watermilfoil did. This finding suggests that ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "the presence of some kinds of underwater plants like watermilfoil helps prevent methane from escaping shallow lakes and ponds.",
+    "shallow lakes and ponds release more methane than deeper bodies of water because shallow bodies of water usually have more plants than deep bodies of water do. &nbsp;&nbsp;&nbsp;",
+    "shallow lakes and ponds are more likely to contain algae than to contain either watermilfoil or duckweed.",
+    "having a mix of algae, underwater plants, and floating plants is the best way to reduce the amount of methane in shallow lakes and ponds.&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The passage tells us that \"tanks with duckweed (a floating plant) and algae released higher levels of methane than tanks with watermilfoil (an underwater plant) did.\" This suggests that the presence of some kinds of underwater plants like watermilfoil may help prevent methane from escaping shallow lakes and ponds.",
+    "B": "Choice B is incorrect. The passage doesn't mention deeper bodies of water at all, so there's no basis for this inference.",
+    "C": "Choice C is incorrect. The passage doesn't compare the likelihood of shallow lakes and ponds containing algae, watermilfoil, or duckweed.",
+    "D": "Choice D is incorrect. The study didn't include any tanks with a mix of plants, so there's no basis for this inference."
+  }
+}

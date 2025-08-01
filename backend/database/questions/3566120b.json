@@ -1,0 +1,22 @@
+{
+  "question_id": "3566120b",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "The following text is adapted from Oscar Wilde's 1895 play The Importance of Being Earnest . CECILY: Have we got to part? ALGERNON: I am afraid so. It's a very painful parting. CECILY: It is always painful to part from people whom one has known for a very brief space of time. The absence of old friends one can endure with equanimity. But even a momentary separation from anyone to whom one has just been introduced is almost unbearable.",
+  "question_text": "As used in the text, what does the word &ldquo;endure&rdquo; most nearly mean?",
+  "answer_options": [
+    "Regret",
+    "Persist",
+    "Tolerate",
+    "Encourage"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because as used in the text, \"endure\" most nearly means tolerate. In the text, Cecily and Algernon discuss parting, or saying goodbye. Cecily remarks on the deep pain of saying goodbye to people whom one has only known briefly and then comments on the equanimity, or calm steadiness, one experiences when separated from old friends. The text sets up an ironic contrast: one can easily tolerate, or put up with, the absence of close friends, but even a very short separation from a new acquaintance is unbearable.",
+    "A": "Choice A is incorrect. Nothing in the text suggests that Cecily associates regret, or a feeling of sorrow, with the absence of old friends. Rather, the text sets up an ironic contrast between the feeling of calm steadiness one feels when separated from old friends and the unbearable pain of being separated from new acquaintances.",
+    "B": "Choice B is incorrect. Although in some contexts \"endure\" can mean persist, or proceed stubbornly, it doesn't have that meaning in this context because what is being endured is the absence of old friends. Whereas one can persist despite the absence of someone else, one can't persist the absence itself.",
+    "D": "Choice D is incorrect because the text doesn't convey that Cecily encourages, or urges, old friends to be absent. Although it may be that Cecily prefers new acquaintances to friends she has known for a long time, the text focuses on her feelings as a result of others' absences, not on her treatment of others."
+  }
+}

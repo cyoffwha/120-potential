@@ -1,0 +1,22 @@
+{
+  "question_id": "0113152f",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "American fashion designer Patrick Kelly was known for his love of colorful buttons. Many of his signature dresses feature bold assortments of buttons throughout the garment. In a paper, a fashion design student claims that Kelly's use of buttons as decoration was inspired by his childhood observations of the styles and actions of the women in his family.",
+  "question_text": "Which quotation from a work by a historian would be the most effective evidence for the student to include in support of this claim?",
+  "answer_options": [
+    "&ldquo;Although some of the assortments of buttons appear to be mismatched pieces scattered randomly throughout Kelly&rsquo;s dresses, his most famous designs feature carefully crafted patterns of matching buttons.&rdquo;",
+    "&ldquo;Many of Kelly&rsquo;s contemporaries were inspired by his designs to incorporate buttons, as well as zippers and snaps, as decorative items in their work.&rdquo;&nbsp;",
+    "&ldquo;Kelly&rsquo;s grandmother, who would repair clothing when he was a child, frequently added mismatched buttons to the clothes to draw attention away from any flaws in the garments.&rdquo;",
+    "&ldquo;Kelly was destined to be a designer from a young age: he learned how to sew clothing from his aunt Bertha, and his love of drawing was developed by his mother.&rdquo;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. This quotation draws a direct connection between the use of buttons and Kelly's stylish female relatives.",
+    "A": "Choice A is incorrect. This choice mentions Kelly's use of buttons, but it doesn't connect that design choice to the influence of women in Kelly's family.",
+    "B": "Choice B is incorrect. This choice discusses how other designers were inspired by Kelly, which doesn't provide evidence that Kelly was inspired by his family.",
+    "D": "Choice D is incorrect. While this choice does refer to fashionable women in Kelly's family, it doesn't connect their influence to Kelly's use of buttons."
+  }
+}

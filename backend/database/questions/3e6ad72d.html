@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 3e6ad72d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>A study by a team including finance professor Madhu Veeraraghavan suggests that exposure to sunshine during the workday can lead to overly optimistic behavior. <span role="region" aria-label="Referenced Content"><u>Using data spanning from 1994 to 2010 for a set of US companies, the team compared over 29,000 annual earnings forecasts to the actual earnings later reported by those companies.</u></span> The team found that the greater the exposure to sunshine at work in the two weeks before a manager submitted an earnings forecast, the more the manager&rsquo;s forecast exceeded what the company actually earned that year.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the function of the underlined sentence in the overall structure of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To summarize the results of the team&rsquo;s analysis</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To present a specific example that illustrates the study&rsquo;s findings</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To explain part of the methodology used in the team&rsquo;s study</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To call out a challenge the team faced in conducting its analysis</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first sentence presents the implications of Veeraraghavan&rsquo;s team&rsquo;s study: sunshine exposure during work hours can cause overly optimistic behavior. The underlined sentence then describes the data the team consulted and how they were used (comparing predictions about earnings to what the companies actually earned), and the final sentence presents what the team found in their examination of the data. Thus, the underlined sentence mainly functions to explain part of the methodology used in the team&rsquo;s study. </p><p>Choice A is incorrect because the underlined sentence explains in part how the team conducted their analysis of the effect of sunshine but doesn&rsquo;t address what the team found; a broad summary is instead given in the other two sentences. Choice B is incorrect because the underlined sentence doesn&rsquo;t present any specific examples from the team&rsquo;s comparisons of 29,000 earnings predictions to actual earnings; it simply explains in part how the team conducted their analysis.&nbsp;Choice D is incorrect because the underlined sentence simply explains in part how the team conducted their analysis; the text never mentions any challenges that the team encountered in their study. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">375 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eTo summarize the results of the team\u0026rsquo;s analysis\u003c/p\u003e", "id": "37fe9c63-64a6-46e1-bf28-a5e75c4d6bac"}, {"content": "\u003cp\u003eTo present a specific example that illustrates the study\u0026rsquo;s findings\u003c/p\u003e", "id": "d50015f7-b196-4a0a-a9cd-af459c056b35"}, {"content": "\u003cp\u003eTo explain part of the methodology used in the team\u0026rsquo;s study\u003c/p\u003e", "id": "5d06ba6b-4fad-4bd2-9272-9bab6f3449db"}, {"content": "\u003cp\u003eTo call out a challenge the team faced in conducting its analysis\u003c/p\u003e", "id": "2468c244-cfb0-4a9f-9e87-28557746f197"}], "correct_answer": ["C"], "externalid": "27ab244a-eb2e-4ba2-a8c8-76ef13c5e2fb", "keys": ["5d06ba6b-4fad-4bd2-9272-9bab6f3449db"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-011-TSP", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first sentence presents the implications of Veeraraghavan\u0026rsquo;s team\u0026rsquo;s study: sunshine exposure during work hours can cause overly optimistic behavior. The underlined sentence then describes the data the team consulted and how they were used (comparing predictions about earnings to what the companies actually earned), and the final sentence presents what the team found in their examination of the data. Thus, the underlined sentence mainly functions to explain part of the methodology used in the team\u0026rsquo;s study. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the underlined sentence explains in part how the team conducted their analysis of the effect of sunshine but doesn\u0026rsquo;t address what the team found; a broad summary is instead given in the other two sentences. Choice B is incorrect because the underlined sentence doesn\u0026rsquo;t present any specific examples from the team\u0026rsquo;s comparisons of 29,000 earnings predictions to actual earnings; it simply explains in part how the team conducted their analysis.\u0026nbsp;Choice D is incorrect because the underlined sentence simply explains in part how the team conducted their analysis; the text never mentions any challenges that the team encountered in their study. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the function of the underlined sentence in the overall structure of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eA study by a team including finance professor Madhu Veeraraghavan suggests that exposure to sunshine during the workday can lead to overly optimistic behavior. \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003eUsing data spanning from 1994 to 2010 for a set of US companies, the team compared over 29,000 annual earnings forecasts to the actual earnings later reported by those companies.\u003c/u\u003e\u003c/span\u003e The team found that the greater the exposure to sunshine at work in the two weeks before a manager submitted an earnings forecast, the more the manager\u0026rsquo;s forecast exceeded what the company actually earned that year.\u003c/p\u003e", "templateclusterid": "01a0c315-8350-4690-9c23-96dba6a58e9c", "templateclustername": "", "type": "mcq", "vaultid": "8416dfb9-931f-49e9-ad35-07ec1b0ec6c5"}, "createDate": 1691007959314, "difficulty": "H", "external_id": "27ab244a-eb2e-4ba2-a8c8-76ef13c5e2fb", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "3e6ad72d", "score_band_range_cd": 6, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "5b1fdc2d-15c8-4a59-a9c1-283120066d2e", "updateDate": 1691007959314};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-3e6ad72d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

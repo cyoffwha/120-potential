@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0a114526</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In 1937, Chinese American screen actor Anna May Wong, who had portrayed numerous villains and secondary characters but never a heroine, finally got a starring role in Paramount Pictures&rsquo; <em>Daughter of Shanghai</em>, a film that <span aria-hidden="true">______</span><span class="sr-only">blank</span> &ldquo;expanded the range of possibilities for Asian images on screen.&rdquo;</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>critic, Stina Chyn, claims</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>critic, Stina Chyn, claims,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>critic Stina Chyn claims</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>critic Stina Chyn, claims,</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The conventions being tested are punctuation use between titles and proper nouns and between verbs and integrated quotations. No punctuation is needed to set off the proper noun &ldquo;Stina Chyn&rdquo; from the title that describes Chyn, &ldquo;critic.&rdquo; Because &ldquo;Stina Chyn&rdquo; is essential information identifying the &ldquo;critic,&rdquo; no punctuation is necessary. Further, no punctuation is needed between the verb &ldquo;claims&rdquo; and the following quotation because the quotation is integrated into the structure of the sentence. </p><p>Choice A is incorrect because no punctuation is needed before or after the proper noun &ldquo;Stina Chyn.&rdquo; Setting the critic&rsquo;s name off with commas suggests that it could be removed without affecting the coherence of the sentence, which isn&rsquo;t the case. Choice B is incorrect because no punctuation is needed before or after the proper noun &ldquo;Stina Chyn.&rdquo; Setting the critic&rsquo;s name off with commas suggests that it could be removed without affecting the coherence of the sentence, which isn&rsquo;t the case. Additionally, no punctuation is needed between &ldquo;claims&rdquo; and the integrated quotation. Choice D is incorrect because no punctuation is needed between the verb &ldquo;claims&rdquo; and its subject, &ldquo;critic Stina Chyn.&rdquo; Additionally, no punctuation is needed between the verb &ldquo;claims&rdquo; and the integrated quotation. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">902 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ecritic, Stina Chyn, claims\u003c/p\u003e", "id": "cfb3da2c-e201-44bc-8f39-db4b16ee8d1c"}, {"content": "\u003cp\u003ecritic, Stina Chyn, claims,\u003c/p\u003e", "id": "341afd2c-88d2-4b45-bfd0-ebf1bdcdf496"}, {"content": "\u003cp\u003ecritic Stina Chyn claims\u003c/p\u003e", "id": "45e23f62-a1fe-43a5-bec3-b7c6b843738c"}, {"content": "\u003cp\u003ecritic Stina Chyn, claims,\u003c/p\u003e", "id": "ca7ce00d-16ed-4d89-ab07-c033d04fe858"}], "correct_answer": ["C"], "externalid": "194d3a74-1fe8-40f1-9cf1-f2ea63dfa463", "keys": ["45e23f62-a1fe-43a5-bec3-b7c6b843738c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-680-SEC", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The conventions being tested are punctuation use between titles and proper nouns and between verbs and integrated quotations. No punctuation is needed to set off the proper noun \u0026ldquo;Stina Chyn\u0026rdquo; from the title that describes Chyn, \u0026ldquo;critic.\u0026rdquo; Because \u0026ldquo;Stina Chyn\u0026rdquo; is essential information identifying the \u0026ldquo;critic,\u0026rdquo; no punctuation is necessary. Further, no punctuation is needed between the verb \u0026ldquo;claims\u0026rdquo; and the following quotation because the quotation is integrated into the structure of the sentence. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because no punctuation is needed before or after the proper noun \u0026ldquo;Stina Chyn.\u0026rdquo; Setting the critic\u0026rsquo;s name off with commas suggests that it could be removed without affecting the coherence of the sentence, which isn\u0026rsquo;t the case. Choice B is incorrect because no punctuation is needed before or after the proper noun \u0026ldquo;Stina Chyn.\u0026rdquo; Setting the critic\u0026rsquo;s name off with commas suggests that it could be removed without affecting the coherence of the sentence, which isn\u0026rsquo;t the case. Additionally, no punctuation is needed between \u0026ldquo;claims\u0026rdquo; and the integrated quotation. Choice D is incorrect because no punctuation is needed between the verb \u0026ldquo;claims\u0026rdquo; and its subject, \u0026ldquo;critic Stina Chyn.\u0026rdquo; Additionally, no punctuation is needed between the verb \u0026ldquo;claims\u0026rdquo; and the integrated quotation. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn 1937, Chinese American screen actor Anna May Wong, who had portrayed numerous villains and secondary characters but never a heroine, finally got a starring role in Paramount Pictures\u0026rsquo; \u003cem\u003eDaughter of Shanghai\u003c/em\u003e, a film that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e \u0026ldquo;expanded the range of possibilities for Asian images on screen.\u0026rdquo;\u003c/p\u003e", "templateclusterid": "e5fedede-b23e-492b-a68a-3d5aa896a62d", "templateclustername": "", "type": "mcq", "vaultid": "7ad0ec02-1860-4667-98e7-b741531f4a82"}, "createDate": 1691007959346, "difficulty": "H", "external_id": "194d3a74-1fe8-40f1-9cf1-f2ea63dfa463", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "0a114526", "score_band_range_cd": 7, "skill_cd": "BOU", "skill_desc": "Boundaries", "uId": "c985b544-14d7-40a4-b0d3-878c844ff306", "updateDate": 1691007959346};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0a114526");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

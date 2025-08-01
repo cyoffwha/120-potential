@@ -1,0 +1,22 @@
+{
+  "question_id": "1ee4485c",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Journalists have dubbed Gil Scott-Heron the \"godfather of rap,\" a title that has appeared in hundreds of articles about him since the 1990s. Scott-Heron himself resisted the godfather ______ blank feeling that it didn't encapsulate his devotion to the broader African American blues music tradition as well as \"bluesologist,\" the moniker he preferred.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "nickname, however",
+    "nickname, however;",
+    "nickname, however,",
+    "nickname; however,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is punctuation use between a main clause and two supplementary elements. In this choice, the commas after \"nickname\" and \"however\" are correctly used to separate the supplementary adverb \"however\" from the main clause (\"Scott-Heron&hellip;nickname\") on one side and the supplementary participial phrase (\"feeling&hellip;bluesologist\") on the other.",
+    "A": "Choice A is incorrect because it fails to mark the boundary between the supplementary adverb \"however\" and the supplementary phrase (\"feeling&hellip;bluesologist\").",
+    "B": "Choice B is incorrect because a semicolon can't be used in this way to join the supplementary adverb \"however\" and the supplementary phrase (\"feeling&hellip;bluesologist\").",
+    "D": "Choice D is incorrect because a semicolon can't be used in this way to join the main clause (\"Scott-Heron&hellip;nickname\") and the supplementary word and phrase (\"however\" and \"feeling&hellip;bluesologist\"). Moreover, placing the semicolon after \"nickname\" illogically signals that the following information (Scott-Heron's feeling that the nickname didn't encapsulate his devotion to the blues tradition) is contrary to the information in the previous clause (Scott-Heron's resistance to the nickname)."
+  }
+}

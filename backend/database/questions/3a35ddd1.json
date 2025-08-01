@@ -1,0 +1,22 @@
+{
+  "question_id": "3a35ddd1",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Like other amphibians, the wood frog ( Rana sylvatica ) is unable to generate its own heat, so during periods of subfreezing temperatures, it ______ blank by producing large amounts of glucose, a sugar that helps prevent damaging ice from forming inside its cells.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "had survived",
+    "survived",
+    "would survive",
+    "survives"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the use of verbs to express tense. In this choice, the present tense verb \"survives\" correctly indicates that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.",
+    "A": "Choice A is incorrect because the past perfect verb \"had survived\" doesn't indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.",
+    "B": "Choice B is incorrect because the past tense verb \"survived\" doesn't indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.",
+    "C": "Choice C is incorrect because the conditional verb \"would survive\" doesn't indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "39e440e4",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Archaeologists have held that the Casarabe culture, which emerged in the southwestern Amazon basin in the first millennium CE, was characterized by a sparse, widely distributed population and little intervention in the surrounding wilderness. Recently, however, archaeologist Heiko Pr&uuml;mers and colleagues conducted a study of the region using remote-sensing technology that enabled them to create three-dimensional images of the jungle-covered landscape from above, and the researchers concluded that the Casarabe people developed a form of urbanism in the Amazon basin.",
+  "question_text": "Which finding about the remote-sensing images, if true, would most directly support Pr&uuml;mers and colleagues&rsquo; conclusion?",
+  "answer_options": [
+    "They show shapes consistent with widely separated settlements of roughly equal small size surrounded by uncultivated jungle.",
+    "They show shapes consistent with long-distance footpaths running from Casarabe territories to large cities outside the region inhabited by the Casarabe people.",
+    "&nbsp;They show shapes consistent with scattered small farms created by clearing jungle areas near sources of fresh water.",
+    "They show shapes consistent with monumental platforms and dense central settlements linked to smaller settlements by a system of canals and roadways."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. This finding, if true, would support the archaeologists' conclusion. Dense central settlements linked to smaller ones would provide evidence of cities and suburbs—in other words, \"a form of urbanism.\"",
+    "A": "Choice A is incorrect. This finding, if true, would weaken the archaeologists' conclusion. Widely separated, small settlements with jungle in between would support the long-held belief that the Casarabe culture \"was characterized by a sparse, widely distributed population and little intervention in the surrounding wilderness.\"",
+    "B": "Choice B is incorrect. This choice wouldn't support the researchers' conclusion. These large cities are located outside Casarabe territory, which doesn't show evidence of Casarabe urbanism.",
+    "C": "Choice C is incorrect. This finding wouldn't support the archaeologists' conclusion. Scattered small farms in jungle clearings are not good evidence to support the existence of cities (\"a form of urbanism\")."
+  }
+}

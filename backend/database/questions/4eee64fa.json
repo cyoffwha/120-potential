@@ -1,0 +1,22 @@
+{
+  "question_id": "4eee64fa",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Space scientists Anna-Lisa Paul, Stephen M. Elardo, and Robert Ferl planted seeds of Arabidopsis thaliana in samples of lunar regolith—the surface material of the Moon—and, serving as a control group, in terrestrial soil. They found that while all the seeds germinated, the roots of the regolith-grown plants were stunted compared with those in the control group. Moreover, unlike the plants in the control group, the regolith-grown plants exhibited red pigmentation, reduced leaf size, and inhibited growth rates—indicators of stress that were corroborated by postharvest molecular analysis.",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "It describes an experiment that addressed an unresolved question about the extent to which lunar regolith resembles terrestrial soils.",
+    "It compares two distinct methods of assessing indicators of stress in plants grown in a simulated lunar environment.",
+    "It presents evidence in support of the hypothesis that seed germination in lunar habitats is an unattainable goal.",
+    "It discusses the findings of a study that evaluated the effects of exposing a plant species to lunar soil conditions."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text describes an experiment wherein space scientists compared plant growth in terrestrial and lunar soil conditions. It then discusses the findings of the study, including the fact that all the seeds germinated but that the plants grown in lunar soil exhibited signs of stress.",
+    "A": "Choice A is incorrect. The text doesn't address this question, and never describes any specific characteristics of either soil. It merely describes the outcome of an experiment that exposed a plant species to lunar soil conditions.",
+    "B": "Choice B is incorrect. The text never compares methods of assessing indicators of stress—instead, it simply mentions several stress indicators observed in the study (red pigmentation, reduced leaf size, and inhibited growth rates).",
+    "C": "Choice C is incorrect. The text doesn't present any evidence that we could never achieve seed germination in lunar habitats, and in fact states that the seeds in the lunar soil did germinate."
+  }
+}

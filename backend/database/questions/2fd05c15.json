@@ -1,0 +1,22 @@
+{
+  "question_id": "2fd05c15",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In crafting her fantasy fiction, Nigerian-born British author Helen Oyeyemi has drawn inspiration from the classic nineteenth-century fairy tales of the Brothers Grimm. Her 2014 novel Boy, Snow, Bird , for instance, is a complex retelling of the story of Snow White, while her 2019 novel ______ blank offers a delicious twist on the classic tale of Hansel and Gretel.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "&shy;&shy;Gingerbread &mdash;",
+    "&shy;&shy;Gingerbread,",
+    "Gingerbread",
+    "&shy;&shy;Gingerbread:"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is punctuation between a subject and a verb. When, as in this case, a subject (\"her 2019 novel Gingerbread \") is immediately followed by a verb (\"offers\"), no punctuation is needed.",
+    "A": "Choice A is incorrect because no punctuation is needed between the subject and the verb.",
+    "B": "Choice B is incorrect because no punctuation is needed between the subject and the verb.",
+    "D": "Choice D is incorrect because no punctuation is needed between the subject and the verb."
+  }
+}

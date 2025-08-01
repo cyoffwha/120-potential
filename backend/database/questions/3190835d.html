@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 3190835d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Some businesses believe that when employees are interrupted while doing their work, they experience a decrease in energy and productivity. However, a team led by Harshad Puranik, who studies management, has found that interruptions by colleagues can have a social component that increases employees&rsquo; sense of belonging, resulting in greater job satisfaction that benefits employees and employers. Therefore, businesses should recognize that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the interpersonal benefits of some interruptions in the workplace may offset the perceived negative effects.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>in order to maximize productivity, employers should be willing to interrupt employees frequently throughout the day.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>most employees avoid interrupting colleagues because they don&rsquo;t appreciate being interrupted themselves.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>in order to cultivate an ideal workplace environment, interruptions of work should be discouraged.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most logically completes the text&rsquo;s discussion of potential benefits of interruptions in the workplace. The text indicates that a common belief in business is that interruptions to working employees decrease energy and productivity levels. However, the text goes on to explain that a research team led by Harshad Puranik has found that there could be a social benefit to these interruptions. &nbsp;Since the team found that workplace interruptions can increase employees&rsquo; sense of belonging and job satisfaction, it follows that the interpersonal benefits of some interruptions can offset the perceived negative effects.&nbsp;</p><p>Choice B is incorrect. Although the text presents research findings that suggest some workplace interruptions can have a positive effect on employee job satisfaction, no further information is presented to suggest at what frequency these interruptions are ideal. Furthermore, the text doesn&rsquo;t tie workplace interruptions to increased productivity, but rather links it to social benefits such as sense of belonging. Choice C is incorrect because the text doesn&rsquo;t address employees&rsquo; motives for choosing not to interrupt their colleagues. The text presents research findings that suggest that there are some positive interpersonal effects of workplace interruptions that can increase employee job satisfaction. Choice D is incorrect because asking businesses to discourage workplace interruptions doesn&rsquo;t follow from the team&rsquo;s research about the benefits of workplace interruptions, nor does the text describe an ideal work environment. Instead, the text presents research suggesting that there may be positive aspects to workplace interruptions that haven&rsquo;t previously been considered. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">31 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ethe interpersonal benefits of some interruptions in the workplace may offset the perceived negative effects.\u003c/p\u003e", "id": "df1817d4-56aa-4455-aaea-aef5e38e60ce"}, {"content": "\u003cp\u003ein order to maximize productivity, employers should be willing to interrupt employees frequently throughout the day.\u003c/p\u003e", "id": "3e6cc259-25b8-4548-8cad-7eda7a7c03d7"}, {"content": "\u003cp\u003emost employees avoid interrupting colleagues because they don\u0026rsquo;t appreciate being interrupted themselves.\u003c/p\u003e", "id": "413e9611-2f8a-4020-aae6-2d7247e1ff4a"}, {"content": "\u003cp\u003ein order to cultivate an ideal workplace environment, interruptions of work should be discouraged.\u003c/p\u003e", "id": "b5f4430e-ac4e-40d4-a216-277b293e3c0f"}], "correct_answer": ["A"], "externalid": "06476963-3fd5-40fe-8c6a-77a4b0609df1", "keys": ["df1817d4-56aa-4455-aaea-aef5e38e60ce"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-031-INF", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most logically completes the text\u0026rsquo;s discussion of potential benefits of interruptions in the workplace. The text indicates that a common belief in business is that interruptions to working employees decrease energy and productivity levels. However, the text goes on to explain that a research team led by Harshad Puranik has found that there could be a social benefit to these interruptions. \u0026nbsp;Since the team found that workplace interruptions can increase employees\u0026rsquo; sense of belonging and job satisfaction, it follows that the interpersonal benefits of some interruptions can offset the perceived negative effects.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice B is incorrect. Although the text presents research findings that suggest some workplace interruptions can have a positive effect on employee job satisfaction, no further information is presented to suggest at what frequency these interruptions are ideal. Furthermore, the text doesn\u0026rsquo;t tie workplace interruptions to increased productivity, but rather links it to social benefits such as sense of belonging. Choice C is incorrect because the text doesn\u0026rsquo;t address employees\u0026rsquo; motives for choosing not to interrupt their colleagues. The text presents research findings that suggest that there are some positive interpersonal effects of workplace interruptions that can increase employee job satisfaction. Choice D is incorrect because asking businesses to discourage workplace interruptions doesn\u0026rsquo;t follow from the team\u0026rsquo;s research about the benefits of workplace interruptions, nor does the text describe an ideal work environment. Instead, the text presents research suggesting that there may be positive aspects to workplace interruptions that haven\u0026rsquo;t previously been considered. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eSome businesses believe that when employees are interrupted while doing their work, they experience a decrease in energy and productivity. However, a team led by Harshad Puranik, who studies management, has found that interruptions by colleagues can have a social component that increases employees\u0026rsquo; sense of belonging, resulting in greater job satisfaction that benefits employees and employers. Therefore, businesses should recognize that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "ebfdaffb-33c0-4ba2-a938-d1ca3e596846", "templateclustername": "", "type": "mcq", "vaultid": "c82f0093-541f-41a0-ad21-82847ec66672"}, "createDate": 1691007959319, "difficulty": "M", "external_id": "06476963-3fd5-40fe-8c6a-77a4b0609df1", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "3190835d", "score_band_range_cd": 4, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "1747a6fb-ada6-4a3b-be53-63e3c272009c", "updateDate": 1691007959319};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-3190835d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

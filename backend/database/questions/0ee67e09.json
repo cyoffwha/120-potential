@@ -1,0 +1,22 @@
+{
+  "question_id": "0ee67e09",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Anthropologist Kristian J. Carlson and colleagues examined the fossilized clavicle and shoulder bones of a 3.6-million-year-old early hominin known as \"Little Foot.\" They found that these bones were ______ blank the clavicle and shoulder bones of modern apes that are frequent climbers, such as gorillas and chimpanzees, suggesting that Little Foot had adapted to life in the trees.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "surpassed by",
+    "comparable to",
+    "independent of",
+    "obtained from"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of the fossilized bones of the hominin known as Little Foot. As used in this context, \"comparable to\" would mean similar to. The text indicates that the relationship between the fossilized clavicle and shoulder bones of Little Foot and the clavicle and shoulder bones of \"frequent climbers,\" such as chimpanzees and gorillas, suggests that Little Foot had adapted to moving around in trees. This context suggests that the relationship between the fossilized bones of Little Foot and the bones of chimpanzees and gorillas is one of similarity—the Little Foot fossils are likely comparable to the modern ape bones.",
+    "A": "Choice A is incorrect because if the fossilized bones of Little Foot were \"surpassed by,\" or exceeded by or made inferior to, the bones of modern apes that are frequent climbers, it wouldn't suggest, as the text says, that Little Foot was adapted to moving around in trees. If anything, learning that Little Foot's clavicle and shoulder bones were surpassed by those of chimpanzees and gorillas would suggest that Little Foot was poorly adapted to climbing.",
+    "C": "Choice C is incorrect because if Little Foot's fossilized clavicle and shoulder bones were \"independent of,\" or not influenced by or affiliated with, the bones of modern apes that climb often, it wouldn't suggest, as the text says, that Little Foot was adapted to moving around in trees.",
+    "D": "Choice D is incorrect because the text indicates that Little Foot's fossilized bones date to 3.6 million years ago, so they couldn't have been \"obtained from,\" or acquired from, the bones of modern apes."
+  }
+}

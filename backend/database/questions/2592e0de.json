@@ -1,0 +1,22 @@
+{
+  "question_id": "2592e0de",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Bicycles were first mass-produced in the late nineteenth century throughout Europe and North America, allowing individuals remarkable freedom to travel longer distances quickly and comfortably. This freedom, coupled with the affordability of the vehicle, made the bicycle immensely popular. Individuals were able to live farther from their workplaces, easily visit neighboring towns, and participate in new leisure and sport activities. Bicycling quickly became a popular social endeavor, with enthusiasts forming local cycling clubs to enjoy these newfound activities with others.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "The widespread adoption of the bicycle in the late nineteenth century provided new opportunities for people.&nbsp;",
+    "The affordability of the bicycle in the late nineteenth century made it the preferred way to travel.",
+    "The popularity of the bicycle in the late nineteenth century gave rise to the first cycling clubs.",
+    "The mass production of the bicycle in the late nineteenth century made it safer for people to use.&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The text discusses how the mass production of bicycles in the late nineteenth century allowed people to travel longer distances, live farther from their workplaces, visit neighboring towns, and participate in new activities and social clubs. All of these are new opportunities that were provided by the widespread adoption of the bicycle.",
+    "B": "Choice B is incorrect. The text never says this. It does say that the bicycle was \"affordable,\" and that the \"freedom to travel longer distances quickly and comfortably\" made the bicycle \"popular,\" but it never says that the bicycle was more popular than any other way of traveling (like cars or trains or horses).",
+    "C": "Choice C is incorrect. This is a detail mentioned in the text, but not the main idea. Cycling clubs are only one of the new opportunities that arose from the popularity of the mass-produced bicycle. A \"main idea\" should capture more of the information in the text.",
+    "D": "Choice D is incorrect. The text never says this. It doesn't mention the safety of the mass-produced bicycle at all."
+  }
+}

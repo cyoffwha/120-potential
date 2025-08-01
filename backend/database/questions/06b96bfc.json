@@ -1,0 +1,22 @@
+{
+  "question_id": "06b96bfc",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "A musician and member of the Quechua of Peru, Renata Flores Rivera was eager to promote the Quechua language in her music, but she was ______ blank speaking it. She met this challenge by asking her grandmother, a native speaker of Quechua, to help her pronounce words in her song lyrics and also by taking classes in the language.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "prepared for",
+    "inexperienced with",
+    "skilled in",
+    "excited about"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of Renata Flores Rivera's use of Quechua in her music. In this context, \"inexperienced with\" means not accustomed to. The text indicates that Flores Rivera wanted to promote the Quechua language in her music and overcame a challenge by seeking help with pronunciation from her grandmother and by taking language classes. This context conveys the idea that Flores Rivera was not sufficiently familiar with Quechua to use it in her music without help. Thus, she was inexperienced with speaking the language, which she addressed by seeking help.",
+    "A": "Choice A is incorrect because describing Flores Rivera as \"prepared for\"—or ready for—speaking Quechua wouldn't make sense in context. The text indicates that speaking Quechua presented a challenge, but if she were ready to speak the language, then there would be no challenge.",
+    "C": "Choice C is incorrect because describing Flores Rivera as \"skilled in\"—meaning good at or capable of—speaking Quechua wouldn't make sense in context. The text indicates that speaking Quechua presented a challenge, but if she were capable of speaking the language, then there would be no challenge.",
+    "D": "Choice D is incorrect. Flores Rivera was likely \"excited about\"—or thrilled or delighted with—speaking Quechua, but this wouldn't make sense in context. The text indicates that speaking Quechua presented a challenge, but if she were delighted with speaking the language, then there would be no challenge."
+  }
+}

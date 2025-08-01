@@ -1,0 +1,22 @@
+{
+  "question_id": "1ee7b429",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Bonnie Buratti of NASA's Jet Propulsion Laboratory ______ blank data about Saturn's rings collected by the Cassini spacecraft when she made an interesting discovery: the tiny moons embedded between and within Saturn's rings are shaped by the buildup of ring material on the moons' surfaces.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "studies&nbsp;",
+    "has been studying",
+    "will study",
+    "was studying"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the past progressive tense verb \"was studying\" is consistent with the other past tense verbs (e.g., \"made\" and \"collected\") used to describe Buratti's discovery. Further, the past progressive tense correctly indicates that an ongoing action in the past was occurring (she was studying) at the same time that another event occurred in the past (she made an interesting discovery).",
+    "A": "Choice A is incorrect because the present tense verb \"studies\" isn't consistent with the past tense verbs used to describe Buratti's discovery.",
+    "B": "Choice B is incorrect because the present perfect progressive tense verb \"has been studying\" isn't consistent with the past tense verbs used to describe Buratti's discovery.",
+    "C": "Choice C is incorrect because the future tense verb \"will study\" isn't consistent with the past tense verbs used to describe Buratti's discovery."
+  }
+}

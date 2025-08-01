@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 23e2421a</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="image"><svg height="588.89208984375" viewbox="0 0 380 588.89208984375" width="380" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 1" id="ed420550-79eb-48d4-af01-cd27cdd08afd"><defs>
+<pattern height="100" id="bar4" patterntransform="rotate(50)" patternunits="userSpaceOnUse" width="10" x="0" y="0">
+<rect fill="#CDCDCD" height="100" width="5" x="0" y="0"></rect>
+<rect fill="#444444" height="100" width="5" x="5" y="0"></rect>
+</pattern>
+</defs><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 78)">600</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="92.83333333333333" y2="92.83333333333333"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="92.83333333333333" y2="92.83333333333333"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 98.83333333333333)">550</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="113.66666666666666" y2="113.66666666666666"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="113.66666666666666" y2="113.66666666666666"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 119.66666666666666)">500</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="134.5" y2="134.5"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="134.5" y2="134.5"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 140.5)">450</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="155.33333333333331" y2="155.33333333333331"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="155.33333333333331" y2="155.33333333333331"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 161.33333333333331)">400</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="176.16666666666666" y2="176.16666666666666"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="176.16666666666666" y2="176.16666666666666"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 182.16666666666666)">350</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="197" y2="197"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="197" y2="197"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 203)">300</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="217.83333333333331" y2="217.83333333333331"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="217.83333333333331" y2="217.83333333333331"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 223.83333333333331)">250</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="238.66666666666666" y2="238.66666666666666"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="238.66666666666666" y2="238.66666666666666"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 244.66666666666666)">200</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="259.5" y2="259.5"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="259.5" y2="259.5"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 265.5)">150</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="280.3333333333333" y2="280.3333333333333"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="280.3333333333333" y2="280.3333333333333"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 286.3333333333333)">100</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="301.16666666666663" y2="301.16666666666663"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="301.16666666666663" y2="301.16666666666663"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 307.16666666666663)">50</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="322" y2="322"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.375" x2="95.375" xmlns="http://www.w3.org/2000/svg" y1="322" y2="322"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.375 328)">0</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(24 197) rotate(-90)">Number of suggestions</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.375" x2="89.375" xmlns="http://www.w3.org/2000/svg" y1="72" y2="322"></line><rect fill="#B3B3B3" height="242.08333333333334" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="30.625" x="120" xmlns="http://www.w3.org/2000/svg" y="79.91666666666666"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(145.2325 341.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">additive</text><rect fill="#B3B3B3" height="73.33333333333333" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="30.625" x="181.25" xmlns="http://www.w3.org/2000/svg" y="248.66666666666669"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(206.4825 341.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">neither additive nor subtractive</text><rect fill="#B3B3B3" height="29.166666666666668" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="30.625" x="242.5" xmlns="http://www.w3.org/2000/svg" y="292.8333333333333"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(267.7325 341.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">subtractive</text><rect fill="#B3B3B3" height="155.83333333333331" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="30.625" x="303.75" xmlns="http://www.w3.org/2000/svg" y="166.16666666666669"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(328.9825 341.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">invalid</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(227.1875 24)">Suggestions for Improving a </text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(227.1875 48)">University</text><rect fill="none" height="26.84" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="160.79364013671875" x="146.79067993164062" xmlns="http://www.w3.org/2000/svg" y="551.052001953125"></rect><rect fill="#B3B3B3" height="12" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="12" x="153.79067993164062" xmlns="http://www.w3.org/2000/svg" y="558.052001953125"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(172.79067993164062 570.052001953125)">suggestion type</text></g></svg></figure></p>
+<p>Gabrielle Adams and colleagues reviewed suggestions for improving a university that had been submitted to the university’s president. They coded each suggestion as additive (the idea suggested adding something new to the university), subtractive (the idea suggested removing something from the university), neither additive nor subtractive, or invalid (the idea was not comprehensible). The data illustrated people’s tendency to overlook the possibility of removing things to achieve improvements: <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data in the graph to complete the statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>around 175 suggestions were coded as neither additive nor subtractive, whereas around 575 suggestions were coded as additive.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>more than 350 suggestions were coded as invalid, whereas fewer than 100 suggestions were coded as subtractive.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>fewer than 100 suggestions were coded as subtractive, whereas more than 550 suggestions were coded as additive.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>around 575 suggestions were coded as additive, whereas around 175 suggestions were coded as subtractive.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. This choice shows that people suggested removing things to achieve improvements a lot less often than they suggested adding things, which supports the claim that people tend not to think of removing things as a likely way to improve the university. </p><p>Choice A is incorrect. This choice doesn&rsquo;t support the claim. We are looking to prove that people suggested subtractive means of achieving improvements less often than other means, but this choice doesn&rsquo;t address how often people made subtractive suggestions. Choice B is incorrect. This choice doesn&rsquo;t support the claim. Invalid responses were incomprehensible, so we can&rsquo;t compare what they were suggesting to what was being suggested in subtractive responses. Choice D is incorrect. This choice misreads the graph. Fewer than 100 suggestions were coded as subtractive. 175 is the approximate number of suggestions coded as &ldquo;neither additive or subtractive.&rdquo; </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">250 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003earound 175 suggestions were coded as neither additive nor subtractive, whereas around 575 suggestions were coded as additive.\u0026nbsp;\u003c/p\u003e", "id": "039e2d56-dd8d-4ed9-9948-de137181a4d7"}, {"content": "\u003cp\u003emore than 350 suggestions were coded as invalid, whereas fewer than 100 suggestions were coded as subtractive.\u0026nbsp;\u003c/p\u003e", "id": "21b0ac51-939d-4dc7-a284-b4289d46fa3f"}, {"content": "\u003cp\u003efewer than 100 suggestions were coded as subtractive, whereas more than 550 suggestions were coded as additive.\u0026nbsp;\u003c/p\u003e", "id": "1e8c6f14-25c1-49b5-8903-1996bf4a5533"}, {"content": "\u003cp\u003earound 575 suggestions were coded as additive, whereas around 175 suggestions were coded as subtractive.\u0026nbsp;\u003c/p\u003e", "id": "673b84c5-520c-46a9-9da1-b54564a7265b"}], "correct_answer": ["C"], "externalid": "277f8cd7-a3ac-4c88-ba07-bad5090de61f", "keys": ["1e8c6f14-25c1-49b5-8903-1996bf4a5533"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-M006", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. This choice shows that people suggested removing things to achieve improvements a lot less often than they suggested adding things, which supports the claim that people tend not to think of removing things as a likely way to improve the university. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice doesn\u0026rsquo;t support the claim. We are looking to prove that people suggested subtractive means of achieving improvements less often than other means, but this choice doesn\u0026rsquo;t address how often people made subtractive suggestions. Choice B is incorrect. This choice doesn\u0026rsquo;t support the claim. Invalid responses were incomprehensible, so we can\u0026rsquo;t compare what they were suggesting to what was being suggested in subtractive responses. Choice D is incorrect. This choice misreads the graph. Fewer than 100 suggestions were coded as subtractive. 175 is the approximate number of suggestions coded as \u0026ldquo;neither additive or subtractive.\u0026rdquo; \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data in the graph to complete the statement?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"image\"\u003e\u003csvg height=\"588.89208984375\" viewbox=\"0 0 380 588.89208984375\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cg data-name=\"Layer 1\" id=\"ed420550-79eb-48d4-af01-cd27cdd08afd\"\u003e\u003cdefs\u003e\n\u003cpattern height=\"100\" id=\"bar4\" patterntransform=\"rotate(50)\" patternunits=\"userSpaceOnUse\" width=\"10\" x=\"0\" y=\"0\"\u003e\n\u003crect fill=\"#CDCDCD\" height=\"100\" width=\"5\" x=\"0\" y=\"0\"\u003e\u003c/rect\u003e\n\u003crect fill=\"#444444\" height=\"100\" width=\"5\" x=\"5\" y=\"0\"\u003e\u003c/rect\u003e\n\u003c/pattern\u003e\n\u003c/defs\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 78)\"\u003e600\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"92.83333333333333\" y2=\"92.83333333333333\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"92.83333333333333\" y2=\"92.83333333333333\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 98.83333333333333)\"\u003e550\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"113.66666666666666\" y2=\"113.66666666666666\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"113.66666666666666\" y2=\"113.66666666666666\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 119.66666666666666)\"\u003e500\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"134.5\" y2=\"134.5\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"134.5\" y2=\"134.5\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 140.5)\"\u003e450\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"155.33333333333331\" y2=\"155.33333333333331\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"155.33333333333331\" y2=\"155.33333333333331\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 161.33333333333331)\"\u003e400\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"176.16666666666666\" y2=\"176.16666666666666\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"176.16666666666666\" y2=\"176.16666666666666\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 182.16666666666666)\"\u003e350\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"197\" y2=\"197\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"197\" y2=\"197\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 203)\"\u003e300\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"217.83333333333331\" y2=\"217.83333333333331\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"217.83333333333331\" y2=\"217.83333333333331\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 223.83333333333331)\"\u003e250\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"238.66666666666666\" y2=\"238.66666666666666\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"238.66666666666666\" y2=\"238.66666666666666\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 244.66666666666666)\"\u003e200\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"259.5\" y2=\"259.5\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"259.5\" y2=\"259.5\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 265.5)\"\u003e150\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"280.3333333333333\" y2=\"280.3333333333333\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"280.3333333333333\" y2=\"280.3333333333333\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 286.3333333333333)\"\u003e100\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"301.16666666666663\" y2=\"301.16666666666663\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"301.16666666666663\" y2=\"301.16666666666663\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 307.16666666666663)\"\u003e50\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"322\" y2=\"322\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.375\" x2=\"95.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"322\" y2=\"322\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.375 328)\"\u003e0\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(24 197) rotate(-90)\"\u003eNumber of suggestions\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.375\" x2=\"89.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"322\"\u003e\u003c/line\u003e\u003crect fill=\"#B3B3B3\" height=\"242.08333333333334\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"30.625\" x=\"120\" xmlns=\"http://www.w3.org/2000/svg\" y=\"79.91666666666666\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(145.2325 341.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eadditive\u003c/text\u003e\u003crect fill=\"#B3B3B3\" height=\"73.33333333333333\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"30.625\" x=\"181.25\" xmlns=\"http://www.w3.org/2000/svg\" y=\"248.66666666666669\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(206.4825 341.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eneither additive nor subtractive\u003c/text\u003e\u003crect fill=\"#B3B3B3\" height=\"29.166666666666668\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"30.625\" x=\"242.5\" xmlns=\"http://www.w3.org/2000/svg\" y=\"292.8333333333333\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(267.7325 341.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003esubtractive\u003c/text\u003e\u003crect fill=\"#B3B3B3\" height=\"155.83333333333331\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"30.625\" x=\"303.75\" xmlns=\"http://www.w3.org/2000/svg\" y=\"166.16666666666669\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(328.9825 341.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003einvalid\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(227.1875 24)\"\u003eSuggestions for Improving a \u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(227.1875 48)\"\u003eUniversity\u003c/text\u003e\u003crect fill=\"none\" height=\"26.84\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"160.79364013671875\" x=\"146.79067993164062\" xmlns=\"http://www.w3.org/2000/svg\" y=\"551.052001953125\"\u003e\u003c/rect\u003e\u003crect fill=\"#B3B3B3\" height=\"12\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"12\" x=\"153.79067993164062\" xmlns=\"http://www.w3.org/2000/svg\" y=\"558.052001953125\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(172.79067993164062 570.052001953125)\"\u003esuggestion type\u003c/text\u003e\u003c/g\u003e\u003c/svg\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eGabrielle Adams and colleagues reviewed suggestions for improving a university that had been submitted to the university\u2019s president. They coded each suggestion as additive (the idea suggested adding something new to the university), subtractive (the idea suggested removing something from the university), neither additive nor subtractive, or invalid (the idea was not comprehensible). The data illustrated people\u2019s tendency to overlook the possibility of removing things to achieve improvements: \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "b57accbb-888b-40ba-ba68-2ab861e6846d", "templateclustername": "", "type": "mcq", "vaultid": "310f79c6-ef4b-4db9-aca5-2763e68c5ca0"}, "createDate": 1691007959371, "difficulty": "M", "external_id": "277f8cd7-a3ac-4c88-ba07-bad5090de61f", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "23e2421a", "score_band_range_cd": 4, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "d172144c-b7b7-4b39-b5f0-f966facbb709", "updateDate": 1691007959371};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-23e2421a");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

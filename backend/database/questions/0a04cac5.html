@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0a04cac5</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Jane Austen&rsquo;s 1814 novel <em>Mansfield Park</em>. The speaker, Tom, is considering staging a play at home with a group of his friends and family.</p>
+<p style="padding-left:1em;">We mean nothing but a little amusement among ourselves, just to vary the scene, and exercise our powers in something new. We want no audience, no publicity. We may be trusted, I think, in choosing some play most perfectly unexceptionable; and I can conceive no greater harm or danger to any of us in conversing in the elegant written language of some respectable author than in chattering in words of our own.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main purpose of the text? </p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To offer Tom&rsquo;s assurance that the play will be inoffensive and involve only a small number of people</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To clarify that the play will not be performed in the manner Tom had originally intended</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To elaborate on the idea that the people around Tom lack the skills to successfully stage a play</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To assert that Tom believes the group performing the play will be able to successfully promote it</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most accurately portrays the main purpose of the text. At the beginning of the text, Tom asserts that he and the other people staging the play are doing so only for &ldquo;a little amusement among ourselves&rdquo; and aren&rsquo;t interested in attracting an audience or any attention with the production. Then, Tom promises that the play they chose is modest and appropriate, and he further reasons that using the well-written prose of &ldquo;some respectable author&rdquo; is better than using their own words. Overall, the main purpose of the text is to convey Tom&rsquo;s promise that the play will be inoffensive and involve only a few people. </p><p>Choice B is incorrect because the text doesn&rsquo;t indicate that Tom had earlier intentions for the play&rsquo;s performance or that anything has changed since the group first decided to stage a play. Instead, the text focuses on how harmless the entire endeavor will be.&nbsp;Choice C is incorrect. Although Tom mentions that using the words of a &ldquo;respectable author&rdquo; will be better than using their own words, he never addresses the idea that the people around him generally aren&rsquo;t skilled enough to stage a play. Choice D is incorrect because in the text Tom specifically says that they &ldquo;want no audience, no publicity,&rdquo; which indicates that they don&rsquo;t plan on promoting the play at all.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">456 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eTo offer Tom\u0026rsquo;s assurance that the play will be inoffensive and involve only a small number of people\u003c/p\u003e", "id": "a2a014b0-d081-46d6-a856-cadaa40b356d"}, {"content": "\u003cp\u003eTo clarify that the play will not be performed in the manner Tom had originally intended\u003c/p\u003e", "id": "aafc5629-3b8e-428c-854b-642d99f81170"}, {"content": "\u003cp\u003eTo elaborate on the idea that the people around Tom lack the skills to successfully stage a play\u003c/p\u003e", "id": "04bf1884-67f1-475a-81b5-0009d1d6a861"}, {"content": "\u003cp\u003eTo assert that Tom believes the group performing the play will be able to successfully promote it\u003c/p\u003e", "id": "e30eea8d-c1af-453c-9c5e-2b5ccee8a8f0"}], "correct_answer": ["A"], "externalid": "5a6b4fb8-c7e5-4ce9-84ba-1d44b4be1dda", "keys": ["a2a014b0-d081-46d6-a856-cadaa40b356d"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-033-TSP", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most accurately portrays the main purpose of the text. At the beginning of the text, Tom asserts that he and the other people staging the play are doing so only for \u0026ldquo;a little amusement among ourselves\u0026rdquo; and aren\u0026rsquo;t interested in attracting an audience or any attention with the production. Then, Tom promises that the play they chose is modest and appropriate, and he further reasons that using the well-written prose of \u0026ldquo;some respectable author\u0026rdquo; is better than using their own words. Overall, the main purpose of the text is to convey Tom\u0026rsquo;s promise that the play will be inoffensive and involve only a few people. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because the text doesn\u0026rsquo;t indicate that Tom had earlier intentions for the play\u0026rsquo;s performance or that anything has changed since the group first decided to stage a play. Instead, the text focuses on how harmless the entire endeavor will be.\u0026nbsp;Choice C is incorrect. Although Tom mentions that using the words of a \u0026ldquo;respectable author\u0026rdquo; will be better than using their own words, he never addresses the idea that the people around him generally aren\u0026rsquo;t skilled enough to stage a play. Choice D is incorrect because in the text Tom specifically says that they \u0026ldquo;want no audience, no publicity,\u0026rdquo; which indicates that they don\u0026rsquo;t plan on promoting the play at all.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main purpose of the text? \u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Jane Austen\u0026rsquo;s 1814 novel \u003cem\u003eMansfield Park\u003c/em\u003e. The speaker, Tom, is considering staging a play at home with a group of his friends and family.\u003c/p\u003e\n\u003cp style=\"padding-left:1em;\"\u003eWe mean nothing but a little amusement among ourselves, just to vary the scene, and exercise our powers in something new. We want no audience, no publicity. We may be trusted, I think, in choosing some play most perfectly unexceptionable; and I can conceive no greater harm or danger to any of us in conversing in the elegant written language of some respectable author than in chattering in words of our own.\u003c/p\u003e", "templateclusterid": "b83d57e5-bbce-46f8-8de3-f0c0f83e28c1", "templateclustername": "", "type": "mcq", "vaultid": "e7101ddd-b6ba-4981-a282-28432cfb348f"}, "createDate": 1691007959319, "difficulty": "H", "external_id": "5a6b4fb8-c7e5-4ce9-84ba-1d44b4be1dda", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "0a04cac5", "score_band_range_cd": 6, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "aff6e638-9bf2-42d9-b22c-e7d9483b72ce", "updateDate": 1691007959319};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0a04cac5");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

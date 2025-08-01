@@ -1,0 +1,22 @@
+{
+  "question_id": "01a32c84",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The first computerized spreadsheet, Dan Bricklin's VisiCalc , improved financial recordkeeping not only by providing users with an easy means of adjusting data in spreadsheets but also by automatically updating all calculations that were dependent on these ______ blank to VisiCalc's release, changing a paper spreadsheet often required redoing the entire sheet by hand, a process that could take days.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "adjustments prior",
+    "adjustments, prior&nbsp;",
+    "adjustments. Prior",
+    "adjustments and prior"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between the first sentence (\"The...adjustments\") and the second sentence (\"Prior...days\"). Because the adverbial phrase beginning with \"prior\" indicates when changing a spreadsheet required redoing the sheet by hand, that phrase belongs with the second sentence.",
+    "A": "Choice A is incorrect because it results in a run-on sentence. Two sentences are fused without punctuation and/or a conjunction.",
+    "B": "Choice B is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences.",
+    "D": "Choice D is incorrect. Without a comma preceding it, the conjunction \"and\" can't be used in this way to join the sentences."
+  }
+}

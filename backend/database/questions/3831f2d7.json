@@ -1,0 +1,22 @@
+{
+  "question_id": "3831f2d7",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Arkansas aviator Louise Thaden was already a record breaker when she won the inaugural National Women's Air Derby, a race from California to Ohio, in August of 1929. ______ blank in December of 1928, Thaden had set an aviation record when she reached an altitude of 20,269 feet in a Travel Air biplane.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Earlier,",
+    "However,",
+    "Next,",
+    "As a result,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This choice uses a transition that indicates a shift back in time. Since the first sentence talks about Thaden's race win in 1929 and the second shifts back to talking about her record in 1928, this makes the most sense here.",
+    "B": "Choice B is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with and expands on the previous sentence by describing the earlier record that Thaden had \"already\" held.",
+    "C": "Choice C is incorrect. This choice uses a transition that indicates a shift forward in time, which doesn't make sense here. A record in 1928 didn't come after Thaden's race win in 1929.",
+    "D": "Choice D is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense in this context—an event in 1929 can't cause something in 1928."
+  }
+}

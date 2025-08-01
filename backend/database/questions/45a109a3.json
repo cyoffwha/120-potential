@@ -1,0 +1,22 @@
+{
+  "question_id": "45a109a3",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is from Bram Stoker's 1897 novel Dracula . The narrator is being driven in a carriage through a remote region at night. The baying of the wolves sounded nearer and nearer, as though they were closing round on us from every side. I grew dreadfully afraid, and the horses shared my fear. The driver, however, was not in the least disturbed ; he kept turning his head to left and right, but I could not see anything through the darkness. As used in the text, what does the word \"disturbed\" most nearly mean?",
+  "question_text": "As used in the text, what does the word &ldquo;disturbed&rdquo; most nearly mean?",
+  "answer_options": [
+    "Disorganized",
+    "Alarmed",
+    "Offended",
+    "Interrupted"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because as used in the text, \"disturbed\" most nearly means alarmed. The text portrays the narrator traveling in a carriage as wolves howl in the surrounding darkness. The text contrasts the reaction of both the narrator and the horses pulling the carriage with that of the driver of the carriage: the narrator and horses are \"dreadfully afraid,\" but the driver is \"not in the least disturbed.\" In other words, the driver is not alarmed by the wolves nearby.",
+    "A": "Choice A is incorrect. Although in some contexts, \"disturbed\" can mean disorganized, the text doesn't portray a character acting in a disorganized manner; instead, the driver continues to drive the carriage, even though the horses pulling it are alarmed.",
+    "C": "Choice C is incorrect. Although in some contexts, \"disturbed\" can mean offended, the text doesn't portray one character feeling offended, or upset, by another's actions; instead, it contrasts the fear felt by the narrator with another character's lack of fear.",
+    "D": "Choice D is incorrect. Although in some contexts, \"disturbed\" can mean interrupted, the text doesn't portray an action being interrupted; indeed, the travel depicted in the scene continues despite the threat of the wolves outside the carriage."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "57bcd0d6",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Etched into Peru's Nazca Desert are line drawings so large that they can only be fully seen from high above. Archaeologists have known of the lines since the 1920s, when a researcher spotted some from a nearby foothill, and they have been studying the markings ever since. ______ blank archaeologists' efforts are aided by drones that capture high-resolution aerial photographs of the lines.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Currently,",
+    "In comparison,",
+    "Still,",
+    "However,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Currently\" logically signals that the archaeologists' use of drones (a current technology) to photograph the lines is the present-day continuation of the ongoing archaeological research described in the previous sentence.",
+    "B": "Choice B is incorrect because \"in comparison\" illogically signals that the action described in this sentence offers a comparison to the ongoing archaeological research described in the previous sentence. Instead, the use of drones is the present-day continuation of that research.",
+    "C": "Choice C is incorrect because \"still\" illogically signals that the action described in this sentence occurs despite the ongoing archaeological research described in the previous sentence. Instead, the use of drones is the present-day continuation of that research.",
+    "D": "Choice D is incorrect because \"however\" illogically signals that the action described in this sentence occurs either despite or in contrast to the ongoing archaeological research described in the previous sentence. Instead, the use of drones is the present-day continuation of that research."
+  }
+}

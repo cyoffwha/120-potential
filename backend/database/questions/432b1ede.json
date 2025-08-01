@@ -1,0 +1,22 @@
+{
+  "question_id": "432b1ede",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The forty-seven geothermal springs of Arkansas' Hot Springs National Park are sourced via a process known as natural groundwater recharge, in which rainwater percolates downward through the earth—in this case, the porous rocks of the hills around Hot ______ blank collect in a subterranean basin.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Springs to",
+    "Springs: to",
+    "Springs&mdash;to",
+    "Springs, to"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. The dash after \"Springs\" pairs with the dash after \"earth\" to separate the supplementary element \"in this case, the porous rocks of the hills around Hot Springs\" from the rest of the sentence.",
+    "A": "Choice A is incorrect because it fails to use appropriate punctuation to separate the supplementary element from the rest of the sentence.",
+    "B": "Choice B is incorrect because a colon can't be paired with a dash in this way to separate the supplementary element from the rest of the sentence.",
+    "D": "Choice D is incorrect because a comma can't be paired with a dash in this way to separate the supplementary element from the rest of the sentence."
+  }
+}

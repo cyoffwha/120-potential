@@ -1,0 +1,22 @@
+{
+  "question_id": "188f7e3c",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In 2016, engineer Vanessa Galvez oversaw the installation of 164 bioswales, vegetated channels designed to absorb and divert stormwater, along the streets of Queens, New York. By reducing the runoff flowing into city sewers, ______ blank",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "the mitigation of both street flooding and the resulting pollution of nearby waterways has been achieved by bioswales.",
+    "the bioswales have mitigated both street flooding and the resulting pollution of nearby waterways.",
+    "the bioswales&rsquo; mitigation of both street flooding and the resulting pollution of nearby waterways has been achieved.",
+    "both street flooding and the resulting pollution of nearby waterways have been mitigated by bioswales."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase \"the bioswales\" the subject of the sentence and places it immediately after the modifying phrase \"By reducing&hellip;sewers.\" In doing so, this choice clearly establishes that the bioswales—and not another noun in the sentence—are reducing runoff flowing into city sewers.",
+    "A": "Choice A is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the mitigation&hellip;waterways\" immediately after the modifying phrase results in unclear modification. The resulting sentence makes it hard to determine what is responsible for \"reducing the runoff\": the bioswales or some other noun in the sentence.",
+    "C": "Choice C is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the bioswales' mitigation&hellip;waterways\" immediately after the modifying phrase results in unclear modification. The resulting sentence makes it hard to determine what is responsible for \"reducing the runoff\": the bioswales or some other noun in the sentence.",
+    "D": "Choice D is incorrect because it results in a dangling modifier. The placement of the noun phrase \"street flooding and the resulting pollution\" immediately after the modifying phrase illogically suggests that the \"flooding and pollution\" are reducing runoff flowing into city sewers."
+  }
+}

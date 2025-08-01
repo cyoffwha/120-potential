@@ -1,0 +1,22 @@
+{
+  "question_id": "4154a7a3",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1891, dancer and choreographer Loie Fuller first performed her celebrated Serpentine Dance, artfully twirling her long, flowing skirt to create striking visual effects. ______ blank in 1896, cinema pioneers Auguste and Louis Lumi&egrave;re made a groundbreaking short film of Fuller's dance.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "However,",
+    "In conclusion,",
+    "Later,",
+    "In other words,&nbsp;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Later\" logically signals that the event discussed in this sentence—the creation of the short film featuring Fuller's dance—is a related event that occurred after the event discussed in the previous sentence (the 1891 debut of the dance).",
+    "A": "Choice A is incorrect because \"however\" illogically signals that the information in this sentence contrasts with the information in the previous sentence. Instead, the creation of the short film is a related event that followed the event discussed in the previous sentence.",
+    "B": "Choice B is incorrect because \"in conclusion\" illogically signals that the information in this sentence concludes or summarizes the information in the previous sentence. Instead, the creation of the short film is a related event that followed the event discussed in the previous sentence.",
+    "D": "Choice D is incorrect because \"in other words\" illogically signals that the information in this sentence is a paraphrase or restatement of the information in the previous sentence. Instead, the creation of the short film is a related event that followed the event discussed in the previous sentence."
+  }
+}

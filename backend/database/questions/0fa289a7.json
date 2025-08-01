@@ -1,0 +1,22 @@
+{
+  "question_id": "0fa289a7",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In 1955, Indian Bengali filmmaker Satyajit Ray released his first movie, Pather ______ blank quiet black-and-white drama about a family in rural India, Ray's film was quite different from the loud, colorful action-romance movies that were popular at the time.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Panchali &nbsp;a",
+    "Panchali , which was a",
+    "Panchali , a",
+    "Panchali . A"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (\"In&hellip; Panchali \") and another (\"A quiet&hellip;time\"). The phrase beginning with \"a quiet\" modifies the subject of the next sentence, \"Ray's film.\"",
+    "A": "Choice A is incorrect because it results in a run-on sentence. The sentences are fused without punctuation and/or a conjunction.",
+    "B": "Choice B is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences.",
+    "C": "Choice C is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences."
+  }
+}

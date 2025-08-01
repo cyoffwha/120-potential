@@ -1,0 +1,22 @@
+{
+  "question_id": "264e7415",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: The Philadelphia and Lancaster Turnpike was a road built between 1792 and 1794. It was the first private turnpike in the United States. It connected the cities of Philadelphia and Lancaster in the state of Pennsylvania. It was sixty-two miles long. The student wants to emphasize the distance covered by the Philadelphia and Lancaster Turnpike. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the distance covered by the Philadelphia and Lancaster Turnpike. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "The sixty-two-mile-long Philadelphia and Lancaster Turnpike connected the Pennsylvania cities of Philadelphia and Lancaster.",
+    "The Philadelphia and Lancaster Turnpike was the first private turnpike in the United States.",
+    "The Philadelphia and Lancaster Turnpike, which connected two Pennsylvania cities, was built between 1792 and 1794.",
+    "A historic Pennsylvania road, the Philadelphia and Lancaster Turnpike was completed in 1794."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The sentence emphasizes the distance covered by the Philadelphia and Lancaster Turnpike, noting that the turnpike, which connected the two Pennsylvania cities in its name, was sixty-two miles long.",
+    "B": "Choice B is incorrect. The sentence emphasizes the significance of the turnpike; it doesn't emphasize the distance that the turnpike covered.",
+    "C": "Choice C is incorrect. While the sentence mentions that the turnpike connected two Pennsylvania cities, it doesn't emphasize the specific distance covered by the turnpike.",
+    "D": "Choice D is incorrect. The sentence emphasizes when the turnpike was built; it doesn't emphasize the distance that the turnpike covered."
+  }
+}

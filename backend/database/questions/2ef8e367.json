@@ -1,0 +1,22 @@
+{
+  "question_id": "2ef8e367",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "\"To You\" is an 1856 poem by Walt Whitman. In the poem, Whitman suggests that he deeply understands the reader, whom he addresses directly, writing, ______ blank",
+  "question_text": "Which quotation from &ldquo;To You&rdquo; most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;Your true soul and body appear before me.&rdquo;",
+    "&ldquo;Whoever you are, now I place my hand upon you, that you be my poem.&rdquo;",
+    "&ldquo;I should have made my way straight to you long ago.&rdquo;",
+    "&ldquo;Whoever you are, I fear you are walking the walks of dreams.&rdquo;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most directly illustrates the text's claim about Whitman's poem, \"To You.\" The text says that in this poem, Whitman suggests that he deeply understands the poem's reader. This quotation says that the reader's \"true soul and body appear before\" Whitman, thereby asserting that he can see the reader as the reader truly is, suggesting that he deeply understands the reader.",
+    "B": "Choice B is incorrect because this quotation describes Whitman making the reader the subject of the poem (\"you be my poem\"), not Whitman deeply understanding the reader.",
+    "C": "Choice C is incorrect because instead of suggesting that Whitman deeply understands the reader, it emphasizes Whitman's regret at not having addressed the reader sooner.",
+    "D": "Choice D is incorrect. Although this quotation shows Whitman directly addressing the reader and expressing concern about the reader, it doesn't illustrate the idea that Whitman suggests that he deeply understands the reader. The quotation is simply expressing concern about the reader, which doesn't necessarily imply deep understanding of the reader."
+  }
+}

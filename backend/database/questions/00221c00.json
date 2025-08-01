@@ -1,0 +1,22 @@
+{
+  "question_id": "00221c00",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In 1815, while in exile in Jamaica, Venezuelan revolutionary Sim&oacute;n Bol&iacute;var penned a letter praising England's republican government and expressing hope that Latin American nations seeking independence from Spain might achieve something similar. The letter was addressed to a local merchant, Henry Cullen; ______ blank though, Bol&iacute;var's goal was to persuade political leaders from England and Europe to support his cause.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "additionally,",
+    "ultimately,",
+    "accordingly,",
+    "consequently,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Ultimately\" means \"in the long run\" or \"at the highest level.\" Although Bol&iacute;var wrote to a local merchant, his ultimate goal was to send a message to political leaders in Europe. Therefore, \"ultimately\" fits perfectly in this context.",
+    "A": "Choice A is incorrect. This choice uses a transition that indicates the addition of an agreeing idea. However, the second part of the sentence actually disagrees with the first part. Bol&iacute;var addressed the letter to Cullen, but he was really sending a message to someone else. Notice how the contrast word \"though\" also acts as a transition between these ideas.",
+    "C": "Choice C is incorrect. This choice uses a cause-and-effect transition. Bol&iacute;var's writing of the letter to Cullen would not cause him to have a goal of persuading European powers to support him.",
+    "D": "Choice D is incorrect. This choice uses a cause-and-effect transition. Bol&iacute;var's writing of the letter to Cullen would not cause him to have a goal of persuading European powers to support him."
+  }
+}

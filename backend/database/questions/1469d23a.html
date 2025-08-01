@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 1469d23a</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>Etel Adnan was a Lebanese American poet and artist known for making many leporellos.</li>
+<li>A leporello is an artist&rsquo;s book that is folded accordion style.</li>
+<li>When the book is expanded, the artist&rsquo;s work is revealed, and its zigzag shape allows it to stand on its own.</li>
+<li>Her leporello <em>December from My Window </em>(1993) features a panoramic landscape.</li>
+<li>It is painted using ink and watercolor.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to describe Adnan&rsquo;s <em>December from My Window</em> to an audience already familiar with leporellos. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Featuring a panoramic landscape, the 1993 work is one of Adnan&rsquo;s many leporellos, which are accordion-style folded books that when expanded reveal the artist&rsquo;s work.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>When expanded, Adnan&rsquo;s 1993 leporello <em>December from My Window</em> reveals a panoramic landscape painted in ink and watercolor.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Known for making many other accordion-style folded books called leporellos, Adnan created <em>December from My Window</em> in 1993.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>A leporello, such as Adnan&rsquo;s <em>December from My Window</em>, is folded accordion style, and due to its zigzag shape it is able to stand on its own when fully expanded.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. This choice describes Adnan&rsquo;s <em>December from My Window</em> in a way that assumes the audience is already familiar with leporellos and focuses on the specific features of the work&mdash;its content and medium. </p><p>Choice A is incorrect. This choice isn&rsquo;t suited for an audience already familiar with leporellos. A familiar audience wouldn&rsquo;t need to have the term defined or explained. Choice C is incorrect. This choice doesn&rsquo;t describe Adnan&rsquo;s <em>December from My Window</em>. It mentions the year and the type of work but not the content or the medium. In addition, it provides a simple definition of leporellos, making this an inappropriate choice for an audience already familiar with leporellos. Choice D is incorrect. This choice isn&rsquo;t suited for an audience already familiar with leporellos. A familiar audience wouldn&rsquo;t need to have the term defined. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">680 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eFeaturing a panoramic landscape, the 1993 work is one of Adnan\u0026rsquo;s many leporellos, which are accordion-style folded books that when expanded reveal the artist\u0026rsquo;s work.\u003c/p\u003e", "id": "d5e48463-1e4f-43b2-8b9c-9a1725c279a2"}, {"content": "\u003cp\u003eWhen expanded, Adnan\u0026rsquo;s 1993 leporello \u003cem\u003eDecember from My Window\u003c/em\u003e reveals a panoramic landscape painted in ink and watercolor.\u003c/p\u003e", "id": "b8bddfbb-53e9-4222-b7fa-235f59dea767"}, {"content": "\u003cp\u003eKnown for making many other accordion-style folded books called leporellos, Adnan created \u003cem\u003eDecember from My Window\u003c/em\u003e in 1993.\u003c/p\u003e", "id": "4e5f65a4-2a27-498f-8e73-e637c481592c"}, {"content": "\u003cp\u003eA leporello, such as Adnan\u0026rsquo;s \u003cem\u003eDecember from My Window\u003c/em\u003e, is folded accordion style, and due to its zigzag shape it is able to stand on its own when fully expanded.\u0026nbsp;\u003c/p\u003e", "id": "6678a26f-a5a0-4387-8ae6-234f1ad1e5d5"}], "correct_answer": ["B"], "externalid": "97dd449e-ce8b-4a14-8699-2fe5bb0768fe", "keys": ["b8bddfbb-53e9-4222-b7fa-235f59dea767"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-SYN-M005", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. This choice describes Adnan\u0026rsquo;s \u003cem\u003eDecember from My Window\u003c/em\u003e in a way that assumes the audience is already familiar with leporellos and focuses on the specific features of the work\u0026mdash;its content and medium. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice isn\u0026rsquo;t suited for an audience already familiar with leporellos. A familiar audience wouldn\u0026rsquo;t need to have the term defined or explained. Choice C is incorrect. This choice doesn\u0026rsquo;t describe Adnan\u0026rsquo;s \u003cem\u003eDecember from My Window\u003c/em\u003e. It mentions the year and the type of work but not the content or the medium. In addition, it provides a simple definition of leporellos, making this an inappropriate choice for an audience already familiar with leporellos. Choice D is incorrect. This choice isn\u0026rsquo;t suited for an audience already familiar with leporellos. A familiar audience wouldn\u0026rsquo;t need to have the term defined. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to describe Adnan\u0026rsquo;s \u003cem\u003eDecember from My Window\u003c/em\u003e to an audience already familiar with leporellos. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eEtel Adnan was a Lebanese American poet and artist known for making many leporellos.\u003c/li\u003e\n\u003cli\u003eA leporello is an artist\u0026rsquo;s book that is folded accordion style.\u003c/li\u003e\n\u003cli\u003eWhen the book is expanded, the artist\u0026rsquo;s work is revealed, and its zigzag shape allows it to stand on its own.\u003c/li\u003e\n\u003cli\u003eHer leporello \u003cem\u003eDecember from My Window \u003c/em\u003e(1993) features a panoramic landscape.\u003c/li\u003e\n\u003cli\u003eIt is painted using ink and watercolor.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "c48408ee-0d91-4cc6-accb-40244c2c9005", "templateclustername": "", "type": "mcq", "vaultid": "113e5b27-9fe2-44b1-85b3-7c7d7181af1e"}, "createDate": 1691007959372, "difficulty": "M", "external_id": "97dd449e-ce8b-4a14-8699-2fe5bb0768fe", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "1469d23a", "score_band_range_cd": 4, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "b9ce0161-313e-4c31-9873-f094af82d32a", "updateDate": 1691007959372};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-1469d23a");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

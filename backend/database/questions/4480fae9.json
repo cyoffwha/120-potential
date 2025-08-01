@@ -1,0 +1,22 @@
+{
+  "question_id": "4480fae9",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is adapted from Sui Sin Far's 1912 short story \"Mrs. Spring Fragrance.\" Mr. and Mrs. Spring Fragrance immigrated to the United States from China. Mrs. Spring Fragrance was unaware that Mr. Spring Fragrance, tired with the day's business, had thrown himself down on the bamboo settee on the veranda, and that although his eyes were engaged in scanning the pages of the Chinese World , his ears could not help receiving the words which were borne to him through the open window. As used in the text, what does the word \"receiving\" most nearly mean?",
+  "question_text": "As used in the text, what does the word &ldquo;receiving&rdquo; most nearly mean?",
+  "answer_options": [
+    "Denying",
+    "Entering",
+    "Carrying",
+    "Hearing"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because as used in the text, \"receiving\" most nearly means hearing, or perceiving sound. The text describes Mr. Spring Fragrance as he reads a newspaper, focusing on his eyes and ears. While his eyes look at the newspaper, he is unwillingly distracted by words coming through a nearby open window (that is, \"his ears could not help receiving the words\"). The words are being perceived specifically by his ears and not his eyes, and ears are the organs of sense with which one hears, so therefore Mr. Spring Fragrance is hearing the words through the open window.",
+    "A": "Choice A is incorrect because there is no indication in the text that Mr. Spring Fragrance is denying, or refusing the truth of, the words coming to him through the window. He is merely distracted by them.",
+    "B": "Choice B is incorrect because it wouldn't make sense to say that Mr. Spring Fragrance's ears couldn't help entering, or coming into, the words coming to him through the window. Instead, the text indicates that the opposite occurs: that is, when Mr. Spring Fragrance hears the words, they enter his ears, but his ears don't enter the words.",
+    "C": "Choice C is incorrect because it doesn't make sense in this context to think of Mr. Spring Fragrance as carrying the words coming to him through the window, even though the word \"carry\" can have a number of different meanings depending on context: for example, he is not lifting them, he is not supporting them, and he is not accepting blame for them (as one \"carries the blame\" for a mistake)."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "409058ee",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "To protect themselves when being attacked, hagfish—jawless marine animals that resemble eels—will release large quantities of slimy, mucus-like threads. Because these threads are unusually strong and elastic, scientist Atsuko Negishi and her colleagues have been trying to recreate them in a lab as an eco-friendly alternative to petroleum-based fibers that are often used in fabrics. The researchers want to reproduce the threads in the lab because farming hagfish for their slime would be expensive and potentially harmful to the hagfish.",
+  "question_text": "Which choice best states the text&rsquo;s main idea?",
+  "answer_options": [
+    "The slimy threads that hagfish release might help researchers create a new kind of fabric.",
+    "Hagfish have inspired researchers to develop a new petroleum-based fabric.",
+    "Hagfish are not well suited to being raised in captivity.",
+    "The ability of hagfish to slime their attackers compensates for their being jawless."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The text first describes hagfish slime and its properties, then it transitions to talking about the possibilities of using lab-made equivalents to use in eco-friendly fabrics.",
+    "B": "Choice B is incorrect. The text says the opposite of this choice. The researchers are developing an alternative to petroleum-based fabric.",
+    "C": "Choice C is incorrect. This choice is too narrow to be the main point of the text. Only one line describes how farming would be \"potentially harmful\" to the hagfish.",
+    "D": "Choice D is incorrect. This choice isn't supported by the text. We don't know from the text whether being jawless makes the hagfish more vulnerable."
+  }
+}

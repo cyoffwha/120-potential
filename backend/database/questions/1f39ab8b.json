@@ -1,0 +1,22 @@
+{
+  "question_id": "1f39ab8b",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In the novel Things Fall Apart by Chinua Achebe, Okonkwo is a leader of Umuofia (a fictional Nigerian clan) and takes pride in his culture's traditions. However, when the arrival of European missionaries brings changes to Umuofia, the novel asks a central question: How ______ blank",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Umuofia&rsquo;s traditions will be affected.",
+    "will Umuofia&rsquo;s traditions be affected.",
+    "Umuofia&rsquo;s traditions will be affected?",
+    "will Umuofia&rsquo;s traditions be affected?"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The clause before the colon tells us that the novel \"asks a question,\" so the clause after the colon should be in the conventional form of a question: with the verb before the subject, and a question mark at the end.",
+    "A": "Choice A is incorrect. This choice ends the sentence with a period, which isn't right. The clause before the colon tells us that the novel \"asks a question,\" so the clause after the colon should be that question.",
+    "B": "Choice B is incorrect. This choice ends the sentence with a period, which isn't right. The clause before the colon tells us that the novel \"asks a question,\" so the clause after the colon should be that question. In Standard English, questions place the verb before the subject and end with a question mark.",
+    "C": "Choice C is incorrect. This choice doesn't conform to the conventions of Standard English. In Standard English, questions place the verb before the subject."
+  }
+}

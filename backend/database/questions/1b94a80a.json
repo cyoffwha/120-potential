@@ -1,0 +1,22 @@
+{
+  "question_id": "1b94a80a",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Wool is a natural—and economically important—fiber that is obtained from animals like sheep. Australia is a leading producer of wool. The thickness of wool fibers varies across sheep breeds. Merino sheep produce fine wool that is used for apparel. Rambouillet sheep produce fine wool that is used for apparel. Romney sheep produce thick wool that is used for rugs and blankets. The student wants to emphasize how Romney wool differs from Merino and Rambouillet wool. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize how Romney wool differs from Merino and Rambouillet wool. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Romney wool is just one of the many kinds of wools, each originating from a different breed of sheep.",
+    "Sheep wool varies from breed to breed, so Romney wool will be different than other kinds of wool.",
+    "The fine wool produced by Merino and Rambouillet sheep is used for apparel, whereas the thicker wool of Romney sheep is used in rugs and blankets.",
+    "Wool is an economically important fiber&mdash;especially in Australia&mdash;that can be used to make apparel or even rugs and blankets."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. This choice most effectively emphasizes how Romney wool differs from Merino and Rambouillet wool. It describes the difference in thickness and the difference in what they're used for.",
+    "A": "Choice A is incorrect. This choice doesn't emphasize how Romney wool differs from Merino and Rambouillet wool. It doesn't mention Merino or Rambouillet wool at all.",
+    "B": "Choice B is incorrect. This choice doesn't emphasize how Romney wool differs from Merino and Rambouillet wool. It doesn't mention Merino or Rambouillet wool at all.",
+    "D": "Choice D is incorrect. This choice doesn't emphasize how Romney wool differs from Merino and Rambouillet wool. It doesn't mention Romney, Merino or Rambouillet wool at all."
+  }
+}

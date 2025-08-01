@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 2a075bd1</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Indigenous cultures possess unique knowledge of the medicinal uses of plants. According to a 2021 study, 73 percent of the medicinal uses of plants native to North America are reflected in the vocabulary of a single Indigenous language. However, as more and more Indigenous people exclusively speak a globally dominant language, such as English, their ancestral languages fade from daily use. These facts lend added importance to tribal nations&rsquo; efforts to preserve their languages. By ensuring the continued use of Cherokee, Ojibwe, and the hundreds of other Indigenous languages in what is now the United States, tribal nations are also <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>increasing the number of medicinal plants represented in the vocabularies of Indigenous languages.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>transmitting terms for medicinal plants from Indigenous languages to globally dominant languages.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>preserving knowledge about the medicinal value of plants native to the tribal nations&rsquo; lands.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>ensuring that citizens of tribal nations have physical access to medicinal plants.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most logically completes the text&rsquo;s discussion of the relationship between Indigenous languages and knowledge of the medicinal uses of plants. The text states that Indigenous cultures possess special knowledge of the medicinal uses of plants, which is reflected in their vocabulary. The text then discusses how tribal nations are working to preserve their languages, whose daily use is declining as globally dominant languages become increasingly dominant in Indigenous communities. Given that the languages of tribal nations in what is now the United States function as repositories of knowledge about plants&rsquo; medicinal uses, it logically follows that continued use of those languages will assist with passing on knowledge about the medicinal value of plants native to the tribal nations&rsquo; lands. </p><p>Choice A is incorrect because the text states that preserving Indigenous languages will increase the knowledge, not the number, of medicinal plants.&nbsp;Choice B is incorrect because the text is concerned with how vocabulary about the medicinal value of plants can be preserved through the continued daily use of Indigenous languages, not with how such vocabulary can be incorporated into globally dominant, non-Indigenous languages. Moreover, the text explains that the exclusive use of globally dominant languages in Indigenous communities comes at an expense to the continued daily use of those communities&rsquo; languages. Given this relationship, it is unlikely globally dominant languages would borrow Indigenous vocabulary pertaining to &nbsp;plants&rsquo; medicinal uses. Choice D is incorrect because the text doesn&rsquo;t discuss physical access to medicinal plants, instead focusing on Indigenous knowledge and language surrounding the medicinal uses of plants. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">122 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eincreasing the number of medicinal plants represented in the vocabularies of Indigenous languages.\u003c/p\u003e", "id": "aeee2152-a91b-4ac4-b6e6-1078c3cd8b2e"}, {"content": "\u003cp\u003etransmitting terms for medicinal plants from Indigenous languages to globally dominant languages.\u003c/p\u003e", "id": "0ca2adf7-6cf9-48f8-b3bc-975ff3a4ac10"}, {"content": "\u003cp\u003epreserving knowledge about the medicinal value of plants native to the tribal nations\u0026rsquo; lands.\u003c/p\u003e", "id": "9d862104-9bfb-47f0-a2a9-b0fb6ff88e7f"}, {"content": "\u003cp\u003eensuring that citizens of tribal nations have physical access to medicinal plants.\u003c/p\u003e", "id": "ffdd7e23-8d44-4f6c-b7d3-4668d4fa3e2b"}], "correct_answer": ["C"], "externalid": "3b0983c4-74f7-4e1b-9ab8-6394960e6596", "keys": ["9d862104-9bfb-47f0-a2a9-b0fb6ff88e7f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-048-INF", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most logically completes the text\u0026rsquo;s discussion of the relationship between Indigenous languages and knowledge of the medicinal uses of plants. The text states that Indigenous cultures possess special knowledge of the medicinal uses of plants, which is reflected in their vocabulary. The text then discusses how tribal nations are working to preserve their languages, whose daily use is declining as globally dominant languages become increasingly dominant in Indigenous communities. Given that the languages of tribal nations in what is now the United States function as repositories of knowledge about plants\u0026rsquo; medicinal uses, it logically follows that continued use of those languages will assist with passing on knowledge about the medicinal value of plants native to the tribal nations\u0026rsquo; lands. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text states that preserving Indigenous languages will increase the knowledge, not the number, of medicinal plants.\u0026nbsp;Choice B is incorrect because the text is concerned with how vocabulary about the medicinal value of plants can be preserved through the continued daily use of Indigenous languages, not with how such vocabulary can be incorporated into globally dominant, non-Indigenous languages. Moreover, the text explains that the exclusive use of globally dominant languages in Indigenous communities comes at an expense to the continued daily use of those communities\u0026rsquo; languages. Given this relationship, it is unlikely globally dominant languages would borrow Indigenous vocabulary pertaining to \u0026nbsp;plants\u0026rsquo; medicinal uses. Choice D is incorrect because the text doesn\u0026rsquo;t discuss physical access to medicinal plants, instead focusing on Indigenous knowledge and language surrounding the medicinal uses of plants. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eIndigenous cultures possess unique knowledge of the medicinal uses of plants. According to a 2021 study, 73 percent of the medicinal uses of plants native to North America are reflected in the vocabulary of a single Indigenous language. However, as more and more Indigenous people exclusively speak a globally dominant language, such as English, their ancestral languages fade from daily use. These facts lend added importance to tribal nations\u0026rsquo; efforts to preserve their languages. By ensuring the continued use of Cherokee, Ojibwe, and the hundreds of other Indigenous languages in what is now the United States, tribal nations are also \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "9e14969a-db18-463c-adcb-45649109f6bb", "templateclustername": "", "type": "mcq", "vaultid": "0b210f11-90bb-4aa5-9791-c332800bc9c5"}, "createDate": 1691007959323, "difficulty": "H", "external_id": "3b0983c4-74f7-4e1b-9ab8-6394960e6596", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "2a075bd1", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "649eaa64-ea44-494e-843c-b6801a283ad7", "updateDate": 1691007959323};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-2a075bd1");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

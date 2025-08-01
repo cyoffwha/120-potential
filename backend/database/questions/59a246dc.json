@@ -1,0 +1,22 @@
+{
+  "question_id": "59a246dc",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "When external forces are applied to common glass made from silicates, energy builds up around minuscule defects in the material, resulting in fractures. Recently, engineer Erkka Frankberg of Tampere University in Finland used the chemical ______ blank to make a glassy solid that can withstand higher strain than silicate glass can before fracturing.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "compound, aluminum oxide",
+    "compound aluminum oxide,",
+    "compound, aluminum oxide,",
+    "compound aluminum oxide"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the use of punctuation around noun phrases. No punctuation is needed because the noun phrase \"aluminum oxide\" is a restrictive appositive, meaning that it provides essential identifying information about the noun phrase before it, \"the chemical compound,\" and thus doesn't require punctuation around it.",
+    "A": "Choice A is incorrect because no punctuation is needed.",
+    "B": "Choice B is incorrect because no punctuation is needed.",
+    "C": "Choice C is incorrect because the noun phrase \"aluminum oxide\" is a restrictive appositive. Setting the phrase off with punctuation suggests that it could be removed without affecting the coherence of the sentence, which isn't the case."
+  }
+}

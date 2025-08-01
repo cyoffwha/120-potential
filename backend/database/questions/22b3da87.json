@@ -1,0 +1,22 @@
+{
+  "question_id": "22b3da87",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "During the Bourbon Restoration in France (1814–1830), the right to vote required in part that a person paid at least 300 francs in direct taxes to the government. The four most common taxes (the quatre vieilles ) were levied on real estate (both land and buildings); the doors and windows in taxpayer homes; the rental values of homes; and the businesses of artisans and merchants. (Foreign investments were either exempt from taxation or taxed lightly.) Although relatively few people paid the tax on real estate, it was the main means of voter qualification and accounted for over two-thirds of government receipts during this period, suggesting that during the Bourbon Restoration ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "those people who had the right to vote most likely had substantial holdings of French real estate.",
+    "the voting habits of French artisans and merchants were effective in reducing tax burdens on businesses.",
+    "the number of doors and windows in French residences was kept to a minimum but increased after 1830.",
+    "French people with significant foreign investments were unlikely to have the right to vote."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. We're told that people needed to pay \"at least 300 francs in direct taxes\" to be able to vote. We're also told that, while \"relatively few people paid the tax on real estate,\" real estate taxes were both the main way people qualified to vote and the main source of revenue for the government. Based on this, we can infer that those who did qualify to vote likely had significant French real estate holdings.",
+    "B": "Choice B is incorrect. The passage doesn't mention the voting habits of artisans and merchants nor any reduction in tax burdens on businesses, so there's no basis for this inference.",
+    "C": "Choice C is incorrect. Although we know that doors and windows were taxed during the Bourbon Restoration, we don't have enough information to infer if doors and windows increased after this time.",
+    "D": "Choice D is incorrect. Although we know that foreign investments were only minimally taxed, we don't have enough information to determine if those with significant foreign investments were unlikely to have voting rights. For example, it's possible that those with significant foreign investments were likely to also be people with significant domestic investments which they did pay taxes on, so we don't have the information necessary to make this inference."
+  }
+}

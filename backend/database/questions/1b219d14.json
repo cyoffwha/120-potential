@@ -1,0 +1,22 @@
+{
+  "question_id": "1b219d14",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "As a young historian in the 1950s, Alixa Naff began interviewing fellow Arab American immigrants about their experiences straddling two cultures. Over the next few decades, Naff conducted more than 450 such interviews, also known as oral histories. ______ blank she collected photographs and other artifacts that represented her subjects' experiences.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "In other words,",
+    "On the contrary,",
+    "In addition,",
+    "Today,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"In addition\" logically signals that Naff's artifact collecting was separate from, and in addition to, her interviewing.",
+    "A": "Choice A is incorrect because \"in other words\" illogically signals that the information about Naff's artifact collecting restates the previous information about her interviewing. Instead, Naff collected artifacts in addition to conducting interviews.",
+    "B": "Choice B is incorrect because \"on the contrary\" illogically signals that Naff's artifact collecting was contrary to her interviewing. Instead, Naff collected artifacts in addition to conducting interviews.",
+    "D": "Choice D is incorrect because \"today\" illogically signals that Naff's artifact collecting is occurring in the present day. Instead, this activity occurred in the past, as indicated by the past tense verb \"collected.\""
+  }
+}

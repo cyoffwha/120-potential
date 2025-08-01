@@ -1,0 +1,22 @@
+{
+  "question_id": "1c6b1fa0",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1801, a Blackfoot chief named Ac Ko Mok Ki drew a finely detailed map of the Upper Missouri region. This work demonstrates a vast amount of topographic knowledge, as the map features specific names of mountains and rivers, as well as the first-known sketch of the drainage network of the Missouri River. The map is especially notable because Ac Ko Mok Ki also included details about the numerous tribes that lived in the area.",
+  "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "answer_options": [
+    "It emphasizes Ac Ko Mok Ki&rsquo;s desire to represent other tribes on the map.",
+    "It explains how Ac Ko Mok Ki developed an interest in mapmaking.",
+    "It identifies some reasons why the map is impressive.",
+    "It details how the map was used for hunting and trading purposes."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The text presents information about a map drawn by Blackfoot chief Ac Ko Mok Ki in 1801. The underlined sentence states that the map \"demonstrates a vast amount of topographic knowledge\" and mentions that it features the \"specific names of mountains and rivers\" and includes the first-known sketch of the Missouri River's drainage network. These are all characteristics that indicate that the map was executed with remarkable skill. Thus, the underlined sentence identifies some reasons why the map is impressive.",
+    "A": "Choice A is incorrect. Though the sentence after the underlined sentence in the text mentions that Ac Ko Mok Ki included information about other tribes on his map, the underlined sentence itself does not address this topic.",
+    "B": "Choice B is incorrect because nothing in the underlined sentence indicates how Ac Ko Mok Ki became interested in mapmaking, only that his mapmaking skills are impressive.",
+    "D": "Choice D is incorrect because though the underlined sentence describes several features of the map, it does not specifically describe how the map was used."
+  }
+}

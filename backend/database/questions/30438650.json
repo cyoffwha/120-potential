@@ -1,0 +1,22 @@
+{
+  "question_id": "30438650",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Jhumpa Lahiri's story collection Interpreter of Maladies features multiple stories about romantic relationships. In \"This Blessed House,\" newlyweds argue over whether to replace items left by the previous owners of their new home. ______ blank in \"A Temporary Matter,\" a husband and wife attempt to rekindle their relationship during a four-night blackout.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Granted,",
+    "For example,",
+    "Likewise,",
+    "Hence,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Likewise\" is a transition that indicates the addition of a new but related idea. In this sentence, the author is providing another similar example to that discussed in the previous sentence. Therefore, \"likewise\" works best in this context.",
+    "A": "Choice A is incorrect. This choice uses a transition that means \"admittedly.\" But the text isn't admitting or conceding anything here. Instead, these two examples work together to support the claim made in the first sentence.",
+    "B": "Choice B is incorrect. This choice uses an exemplification transition, which doesn't make sense here. The second story is not an example of the story in the previous sentence—it's another, similar story. And while both stories exemplify the first sentence in the text, the transition we're looking for isn't actually connected to that sentence.",
+    "D": "Choice D is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense here. The first story didn't result in the events of the second story."
+  }
+}

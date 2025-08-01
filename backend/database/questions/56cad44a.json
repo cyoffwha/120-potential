@@ -1,0 +1,22 @@
+{
+  "question_id": "56cad44a",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Mexican tetras are a fish species with two distinct populations. Surface-dwelling tetras live on the surface and are able to see. Cave-dwelling tetras live in total darkness and have lost the ability to see. Cave-dwelling tetras have asymmetrical skulls with more sensory receptors on one side than the other. These receptors help cave-dwelling tetras navigate in darkness. The student wants to emphasize a difference between surface-dwelling and cave-dwelling tetras. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize a difference between surface-dwelling and cave-dwelling tetras. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Surface-dwelling and cave-dwelling tetras may belong to the same species, but they are quite different.",
+    "Cave-dwelling tetras can no longer see but use sensory receptors on their skulls to navigate.",
+    "Mexican tetras are a fish species with two distinct populations: surface-dwelling tetras and cave-dwelling tetras.",
+    "Surface-dwelling tetras can see, whereas cave-dwelling tetras cannot."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence emphasizes a difference between surface-dwelling and cave-dwelling tetras, noting that while surface-dwelling tetras can see, cave-dwelling tetras can't.",
+    "A": "Choice A is incorrect. While the sentence notes that surface-dwelling and cave-dwelling tetras are different, it doesn't emphasize any difference between the two populations of tetras.",
+    "B": "Choice B is incorrect because the sentence explains that cave-dwelling tetras use sensory receptors on their skulls to navigate; it doesn't emphasize a difference between surface-dwelling and cave-dwelling tetras.",
+    "C": "Choice C is incorrect. While the sentence notes that there are two different populations of Mexican tetras, it doesn't emphasize any difference between the two populations."
+  }
+}

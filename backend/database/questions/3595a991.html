@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 3595a991</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In 1930, Japanese American artist Chiura Obata depicted the natural beauty of Yosemite National Park in two memorable woodcuts: <em>Evening at Carl Inn </em>and <em>Lake Basin in the High Sierra</em>. In 2019, <span aria-hidden="true">______</span><span class="sr-only">blank</span> exhibited alongside 150 of Obata&rsquo;s other works in a single-artist show at the Smithsonian American Art Museum.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>it was</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>they were</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>this was</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>some were</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The convention being tested is pronoun&ndash;antecedent agreement. The plural pronoun &ldquo;they&rdquo; agrees in number with the plural antecedent &ldquo;woodcuts&rdquo; and clearly identifies what was exhibited at the Smithsonian American Art Museum. </p><p>Choice A is incorrect because the singular pronoun &ldquo;it&rdquo; doesn&rsquo;t agree in number with the plural antecedent &ldquo;woodcuts.&rdquo; Choice C is incorrect because the singular pronoun &ldquo;this&rdquo; doesn&rsquo;t agree in number with the plural antecedent &ldquo;woodcuts.&rdquo; Choice D is incorrect because the plural pronoun &ldquo;some&rdquo; is illogical in this context (referring to &ldquo;some&rdquo; of two woodcuts). </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">883 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eit was\u003c/p\u003e", "id": "59070ee6-c2cc-4f25-aafb-7ccbcf1b2c89"}, {"content": "\u003cp\u003ethey were\u003c/p\u003e", "id": "8497c915-57e8-4664-9f9b-da7577eb5ead"}, {"content": "\u003cp\u003ethis was\u003c/p\u003e", "id": "bd0073d9-1e43-4575-90ee-a2e03945a0f9"}, {"content": "\u003cp\u003esome were\u003c/p\u003e", "id": "05de797b-5951-4445-835d-b92ac1d8ff23"}], "correct_answer": ["B"], "externalid": "bf69cb89-2c0b-45b8-b5bc-df6d238c3f33", "keys": ["8497c915-57e8-4664-9f9b-da7577eb5ead"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-637-SEC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The convention being tested is pronoun\u0026ndash;antecedent agreement. The plural pronoun \u0026ldquo;they\u0026rdquo; agrees in number with the plural antecedent \u0026ldquo;woodcuts\u0026rdquo; and clearly identifies what was exhibited at the Smithsonian American Art Museum. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the singular pronoun \u0026ldquo;it\u0026rdquo; doesn\u0026rsquo;t agree in number with the plural antecedent \u0026ldquo;woodcuts.\u0026rdquo; Choice C is incorrect because the singular pronoun \u0026ldquo;this\u0026rdquo; doesn\u0026rsquo;t agree in number with the plural antecedent \u0026ldquo;woodcuts.\u0026rdquo; Choice D is incorrect because the plural pronoun \u0026ldquo;some\u0026rdquo; is illogical in this context (referring to \u0026ldquo;some\u0026rdquo; of two woodcuts). \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn 1930, Japanese American artist Chiura Obata depicted the natural beauty of Yosemite National Park in two memorable woodcuts: \u003cem\u003eEvening at Carl Inn \u003c/em\u003eand \u003cem\u003eLake Basin in the High Sierra\u003c/em\u003e. In 2019, \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e exhibited alongside 150 of Obata\u0026rsquo;s other works in a single-artist show at the Smithsonian American Art Museum.\u003c/p\u003e", "templateclusterid": "93d853aa-332b-4110-a0ca-75c0f589df3f", "templateclustername": "", "type": "mcq", "vaultid": "cd6b4a0f-0a13-4c13-b2af-ab000e5e5777"}, "createDate": 1691007959340, "difficulty": "M", "external_id": "bf69cb89-2c0b-45b8-b5bc-df6d238c3f33", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "3595a991", "score_band_range_cd": 4, "skill_cd": "FSS", "skill_desc": "Form, Structure, and Sense", "uId": "b7a39dcd-e49e-492f-92d8-e313c351fdbb", "updateDate": 1691007959340};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-3595a991");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

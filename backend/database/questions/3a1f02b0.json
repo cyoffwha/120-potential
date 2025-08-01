@@ -1,0 +1,22 @@
+{
+  "question_id": "3a1f02b0",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is adapted from Frances Hodgson Burnett's 1911 novel The Secret Garden . Mary, a young girl, recently found an overgrown hidden garden. Mary was an odd, determined little person, and now she had something interesting to be determined about, she was very much absorbed, indeed. She worked and dug and pulled up weeds steadily, only becoming more pleased with her work every hour instead of tiring of it. It seemed to her like a fascinating sort of play.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Mary hides in the garden to avoid doing her chores.",
+    "Mary is getting bored with pulling up so many weeds in the garden.",
+    "Mary is clearing out the garden to create a space to play.",
+    "Mary feels very satisfied when she&rsquo;s taking care of the garden."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most accurately states the main idea of the text. The text describes Mary's activities in an overgrown hidden garden, saying that she was \"very much absorbed\" and was \"only becoming more pleased with her work every hour\" rather than getting tired of it. She also thinks of garden activities as a \"fascinating sort of play.\" Thus, the main idea of the text is that Mary feels very satisfied when taking care of the garden.",
+    "A": "Choice A is incorrect because the text never makes any mention of Mary's chores.",
+    "B": "Choice B is incorrect because the text indicates that Mary finds pulling up weeds to be fascinating, not boring.",
+    "C": "Choice C is incorrect because Mary thinks of garden activities in and of themselves as play, not as something necessary to do to create a space to play."
+  }
+}

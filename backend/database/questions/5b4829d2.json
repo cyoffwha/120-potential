@@ -1,0 +1,22 @@
+{
+  "question_id": "5b4829d2",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Researchers wanted to study how consumers' reactions to an ad may be affected by other ads. The researchers began by showing study participants an ad for a product, with some seeing a less detailed ad and others seeing a more detailed one. Then, all participants viewed the same second ad for a store and shared their opinion of the store based on this second ad. Participants who had first seen an ad less detailed than the second ad had a higher opinion of the store than the participants who had first seen a more detailed ad. The researchers concluded that reactions to an ad may be affected by ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "the number of people who viewed the ad.",
+    "the length of time viewing previous ads.&nbsp;",
+    "the amount of detail viewed in previous ads.",
+    "the time of day that the ad is viewed."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The passage tells us that participants who had seen a less detailed ad for a product beforehand had a higher opinion of the store than those who had seen a more detailed ad. This suggests that reactions to an ad may be affected by the amount of detail viewed in previous ads.",
+    "A": "Choice A is incorrect. The passage doesn't mention the number of people who viewed the ad, so there's no basis for this inference.",
+    "B": "Choice B is incorrect. The passage doesn't mention the length of time viewing previous ads, so there's no basis for this inference.",
+    "D": "Choice D is incorrect. The passage doesn't mention the time of day that the ad is viewed, so there's no basis for this inference."
+  }
+}

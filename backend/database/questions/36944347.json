@@ -1,0 +1,22 @@
+{
+  "question_id": "36944347",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Official measurements of the Mississippi River's length vary: according to the US Geologic Survey, the river is 2,300 miles long, whereas the Environmental Protection Agency records its length as 2,320 miles. This disparity can be explained in part by the fact that rivers such as the Mississippi expand and contract as ______ blank sediment.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "they accumulate",
+    "one accumulates",
+    "it accumulates",
+    "we accumulate"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The noun that goes with \"expand and contract\" is \"rivers,\" a plural noun. \"They\" is a third-person plural pronoun, so it can correctly stand in for \"rivers.\"",
+    "B": "Choice B is incorrect. This choice creates a pronoun-antecedent agreement error. \"One\" is a singular pronoun, but the noun that goes with \"expand and contract\" is \"rivers,\" a plural noun.",
+    "C": "Choice C is incorrect. This choice creates a pronoun-antecedent agreement error. \"It\" is a singular pronoun, but the noun that goes with \"expand and contract\" is \"rivers,\" a plural noun.",
+    "D": "Choice D is incorrect. This choice creates a pronoun-antecedent agreement error. The noun that goes with \"expand and contract\" is the plural noun \"rivers.\" Rivers are not people, so \"we\" can't be used to stand in for it."
+  }
+}

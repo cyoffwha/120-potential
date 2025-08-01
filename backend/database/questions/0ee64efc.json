@@ -1,0 +1,22 @@
+{
+  "question_id": "0ee64efc",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In the 1850s, William Still was instrumental in helping nearly 1,000 people escape from slavery, earning him the moniker \"the Father of the Underground Railroad.\" ______ blank despite the fame of his contributions during his lifetime, Still is discussed far less today than other prominent Black abolitionists from his era, such as Frederick Douglass and Harriet Tubman.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "For example,",
+    "However,",
+    "Specifically,",
+    "Similarly,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"However\" is used to indicate a contrast between two ideas. The first sentence describes how Still used to be famous. This sentence describes how Still is not very famous today, so the transition \"however\" fits perfectly.",
+    "A": "Choice A is incorrect. This choice uses a transition that introduces an example. But the second sentence doesn't provide a specific example of Still's famous contributions to the Underground Railroad. Instead, it changes the subject to how his fame has faded over time.",
+    "C": "Choice C is incorrect. This choice uses a transition that introduces an example or continuation of a previous idea. But the second sentence doesn't provide a specific example of Still's famous contributions to the Underground Railroad. Instead, it changes the subject to how his fame has faded over time.",
+    "D": "Choice D is incorrect. This choice uses a transition that indicates the agreement between two ideas. But this sentence shows a contrast with the first sentence—namely, that Still used to be very famous but now isn't very famous."
+  }
+}

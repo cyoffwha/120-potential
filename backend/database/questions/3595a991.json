@@ -1,0 +1,22 @@
+{
+  "question_id": "3595a991",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 1930, Japanese American artist Chiura Obata depicted the natural beauty of Yosemite National Park in two memorable woodcuts: Evening at Carl Inn and Lake Basin in the High Sierra . In 2019, ______ blank exhibited alongside 150 of Obata's other works in a single-artist show at the Smithsonian American Art Museum.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "it was",
+    "they were",
+    "this was",
+    "some were"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is pronoun&ndash;antecedent agreement. The plural pronoun \"they\" agrees in number with the plural antecedent \"woodcuts\" and clearly identifies what was exhibited at the Smithsonian American Art Museum.",
+    "A": "Choice A is incorrect because the singular pronoun \"it\" doesn't agree in number with the plural antecedent \"woodcuts.\"",
+    "C": "Choice C is incorrect because the singular pronoun \"this\" doesn't agree in number with the plural antecedent \"woodcuts.\"",
+    "D": "Choice D is incorrect because the plural pronoun \"some\" is illogical in this context (referring to \"some\" of two woodcuts)."
+  }
+}

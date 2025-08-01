@@ -1,0 +1,22 @@
+{
+  "question_id": "50801257",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In 1994, almost 200 years after the death of Wang Zhenyi, the International Astronomical ______ blank the contributions of the barrier-breaking 18th-century astronomer and author of \"Dispute of the Procession of the Equinoxes,\" naming a crater on Venus after her.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Union would finally acknowledge",
+    "Union to finally acknowledge",
+    "Union, having finally acknowledged",
+    "Union, finally acknowledging"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. It's the only choice that offers a form of the verb \"acknowledge\" that can go with the subject \"International Astronomical Union\" to make a complete sentence. This might seem like an odd use of \"would,\" but when speaking from a point of view in the past, we can actually use \"would\" to express something that happened later. That's the case here: 200 years after Wang Zhenyi's death, the IAU would finally acknowledge her contributions.",
+    "B": "Choice B is incorrect. This choice creates a sentence fragment. There's no main verb elsewhere in the sentence, so we need a form of the verb \"acknowledge\" that can go with the subject \"the International Astronomical Union\" and serve as that main verb. \"To acknowledge\" can't do that.",
+    "C": "Choice C is incorrect. This choice creates a sentence fragment. There's no main verb elsewhere in the sentence, so we need a form of the verb \"acknowledge\" that can go with the subject \"the International Astronomical Union\" and serve as that main verb. \"Having acknowledged\" can't do that.",
+    "D": "Choice D is incorrect. This choice creates a sentence fragment. There's no main verb elsewhere in the sentence, so we need a form of the verb \"acknowledge\" that can go with the subject \"the International Astronomical Union\" and serve as that main verb. The \"-ing\" form can't do that."
+  }
+}

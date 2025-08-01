@@ -1,0 +1,22 @@
+{
+  "question_id": "577b09fa",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Robin Wall Kimmerer of the Citizen Potawatomi Nation is a bryologist, a plant scientist who specializes in mosses. To Kimmerer, mosses are Earth's most adaptable plants: they can clone ______ blank enter a dormant state in times of drought, and grow in areas that don't have soil.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "themselves;",
+    "themselves,",
+    "themselves. And",
+    "themselves"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the punctuation of items in a series. The comma after \"themselves\" is used conventionally to separate the first item (\"they can clone themselves\") and the second item (\"enter a dormant state in times of drought\") in the series of things mosses can do.",
+    "A": "Choice A is incorrect because a semicolon can't be used in this way to separate items in a simple series such as this.",
+    "C": "Choice C is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"And enter.\"",
+    "D": "Choice D is incorrect because it fails to use appropriate punctuation to separate the first and second items in the series."
+  }
+}

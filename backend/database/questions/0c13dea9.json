@@ -1,0 +1,22 @@
+{
+  "question_id": "0c13dea9",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The chemical trimethylamine N-oxide not only gives fish their fishy smell but also protects them from crushing hydrostatic pressure in deep waters. Trimethylamine N-oxide strengthens the bonds between water molecules in a fish's body. ______ blank these water molecules maintain their linked structure at extreme depths, thus preventing pressure-related damage.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Nevertheless,",
+    "As a result,",
+    "However,",
+    "For instance,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"As a result\" indicates that water molecules maintaining their linked structure at high pressures is caused by the strengthening of these water molecules by trimethylamine N-oxide. So the transition \"as a result\" fits the context perfectly.",
+    "A": "Choice A is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous one—rather, it's describing an effect of the phenomenon described in the previous sentence.",
+    "C": "Choice C is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous one; it actually expands on the previous sentence by describing an effect of the strengthened molecules.",
+    "D": "Choice D is incorrect. This choice uses an exemplification transition, which doesn't make sense here. The second sentence doesn't provide an example or instance of the idea in the previous sentence. Instead, it explores the effects of the previous idea in more depth."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "35360da9",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The US Geological Survey wants to map every human-made structure in the United States, and it is asking volunteers to help. Cassie Tammy Wang and Ashish D'Souza are just two of the many volunteer map editors who ______ blank to the project since it began in 2012.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "contribute",
+    "will contribute",
+    "have contributed",
+    "will be contributing"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the present perfect tense verb \"have contributed,\" used in conjunction with the phrase \"since it began in 2012,\" correctly indicates that map editors have contributed in the past and continue to do so in the present.",
+    "A": "Choice A is incorrect because the present tense verb \"contribute\" is inconsistent with the phrase \"since it began in 2012,\" which suggests that the contributions occurred in the past and continue into the present.",
+    "B": "Choice B is incorrect because the future tense verb \"will contribute\" is inconsistent with the phrase \"since it began in 2012,\" which suggests that the contributions occurred in the past and continue into the present.",
+    "D": "Choice D is incorrect because the future tense verb \"will be contributing\" is inconsistent with the phrase \"since it began in 2012,\" which suggests that the contributions occurred in the past and continue into the present."
+  }
+}

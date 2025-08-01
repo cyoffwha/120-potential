@@ -1,0 +1,22 @@
+{
+  "question_id": "3cc2eacc",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In a study of the mechanisms underlying associative memory—or the ability to learn and remember connections between inherently unrelated things—neuroscientists Kei Igarashi, Jasmine Chavez, and others presented mice with memory tests. The team discovered that fan cells, a type of cell found in the medial temporal lobe of the brain, are necessary for the acquisition of new associative memories. They also found that fan cell activity requires dopamine, a chemical the brain produces in response to pleasure and rewards. Consequently, receiving a reward should likely help to ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "decrease an individual&rsquo;s capacity to utilize dopamine.",
+    "increase an individual&rsquo;s capacity to recognize differences between unrelated things.",
+    "increase an individual&rsquo;s capacity to form associative memories.",
+    "decrease an individual&rsquo;s capacity to create fan cells."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most logically completes the text's discussion of the mechanisms underlying associative memory. The text explains that fan cells—a type of brain cell—are necessary for the acquisition of new associative memories, and that activity among these cells requires a chemical known as dopamine, which the brain produces in response to rewards. Since the brain cells that enable the formation of associative memories require dopamine in order to function, and since the brain produces dopamine in response to rewards, it can be inferred that receiving a reward should likely help to increase an individual's capacity to form associative memories.",
+    "A": "Choice A is incorrect because the relationship between rewards and dopamine sketched by the text is that rewards result in the production of dopamine, not that they cause an individual's capacity to utilize dopamine to decrease.",
+    "B": "Choice B is incorrect. The text suggests that receiving a reward would produce dopamine and thereby assist with associative memory formation. However, the text never suggests that associative memory involves the capacity to recognize differences between unrelated things, indicating only that associative memory involves remembering what connects those things.",
+    "D": "Choice D is incorrect because the text never discusses how fan cells are initially created and therefore provides no evidence for a conclusion about how receiving a reward would affect their creation."
+  }
+}

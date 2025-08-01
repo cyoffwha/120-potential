@@ -1,0 +1,22 @@
+{
+  "question_id": "2b5e0731",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "With darkness falling, a mother elephant loses sight of her calf and wants to make sure it is safe. ______ blank she releases an infrasonic call for the calf to hear. Infrasonic sound is below the range of human hearing, but many animals can hear these sounds from several miles away.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "For example,",
+    "For this reason,",
+    "Nowadays,",
+    "Similarly,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"For this reason\" is a cause-and-effect transition. The cause in this case is that the mother elephant wants to know that her calf is safe, so the effect is that she lets out an infrasonic call for the calf to hear. Therefore, \"for this reason\" fits perfectly in this context.",
+    "A": "Choice A is incorrect. This choice uses a transition that introduces an example of a previous idea. But the second sentence doesn't provide an example of the events described in the first sentence. Instead, it describes what happens next: the mother elephant calls for her calf.",
+    "C": "Choice C is incorrect. This choice uses a transition that indicates a shift from the past to the current time, which doesn't make sense here. Both sentences use the present tense, as they're describing the same time period.",
+    "D": "Choice D is incorrect. This choice uses a transition that indicates commonality or agreement between two ideas. But this sentence isn't similar to the events in the first sentence. Instead, it describes the events that happen next."
+  }
+}

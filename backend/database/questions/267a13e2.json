@@ -1,0 +1,22 @@
+{
+  "question_id": "267a13e2",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 2010, archaeologist Noel Hidalgo Tan was visiting the twelfth-century temple of Angkor Wat in Cambodia when he noticed markings of red paint on the temple ______ blank the help of digital imaging techniques, he discovered the markings to be part of an elaborate mural containing over 200 paintings.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "walls, with",
+    "walls with&nbsp;",
+    "walls so with&nbsp;",
+    "walls. With"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period after \"walls\" is used correctly to mark the boundary between the first sentence (\"In...walls\") and the second sentence (\"With&hellip;techniques\"), which starts with a supplementary phrase.",
+    "A": "Choice A is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences.",
+    "B": "Choice B is incorrect because it results in a run-on sentence. The sentences (\"In...walls\" and \"with...paintings\") are fused without punctuation and/or a conjunction.",
+    "C": "Choice C is incorrect. Without a comma preceding it, the conjunction \"so\" can't be used in this way to join sentences."
+  }
+}

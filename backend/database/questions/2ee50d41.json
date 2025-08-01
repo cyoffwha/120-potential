@@ -1,0 +1,22 @@
+{
+  "question_id": "2ee50d41",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The classic children's board game Chutes and Ladders is a version of an ancient Nepalese game, Paramapada Sopanapata . In both games, players encounter \"good\" or \"bad\" spaces while traveling along a path; landing on one of the good spaces ______ blank a player to skip ahead and arrive closer to the end goal.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "allows",
+    "are allowing",
+    "have allowed",
+    "allow"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is subject&ndash;verb agreement. The singular verb \"allows\" agrees in number with the singular subject \"landing.\"",
+    "B": "Choice B is incorrect because the plural verb \"are allowing\" doesn't agree in number with the singular subject \"landing.\"",
+    "C": "Choice C is incorrect because the plural verb \"have allowed\" doesn't agree in number with the singular subject \"landing.\"",
+    "D": "Choice D is incorrect because the plural verb \"allow\" doesn't agree in number with the singular subject \"landing.\""
+  }
+}

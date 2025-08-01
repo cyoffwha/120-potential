@@ -1,0 +1,22 @@
+{
+  "question_id": "47f2cddd",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "\"The Rock and the Sea\" is an 1893 poem by Charlotte Perkins Gilman. In the poem, a rock is portrayed as intending to confront and restrain the sea: ______ blank",
+  "question_text": "Which quotation from &ldquo;The Rock and the Sea&rdquo; most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;I am the Rock. Black midnight falls; / The terrible breakers rise like walls; / With curling lips and gleaming teeth / They plunge and tear at my bones beneath.&rdquo;",
+    "&ldquo;I am the Sea. I hold the land / As one holds an apple in his hand, / Hold it fast with sleepless eyes, / Watching the continents sink and rise.&rdquo;",
+    "&ldquo;I am the Rock, presumptuous Sea! / I am set to encounter thee. / Angry and loud or gentle and still, / I am set here to limit thy power, and I will!&rdquo;",
+    "&ldquo;I am the Sea. The earth I sway; / Granite to me is potter&rsquo;s clay; / Under the touch of my careless waves / It rises in turrets and sinks in caves.&rdquo;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. This quotation focuses on the rock, which yells at the sea and announces its intent to \"limit [the sea's] power.\" This matches the idea of confrontation and restraint in the claim we're trying to support.",
+    "A": "Choice A is incorrect. This choice doesn't illustrate the claim. While this quotation does focus on the rock, it suggests that the rock fears the sea. It lacks the sense of boldness and strength implied by the phrase \"confront and restrain the sea.\"",
+    "B": "Choice B is incorrect. This choice doesn't illustrate the claim. This quotation focuses on the sea, not the rock.",
+    "D": "Choice D is incorrect. This choice doesn't illustrate the claim. This quotation focuses on the sea, not the rock."
+  }
+}

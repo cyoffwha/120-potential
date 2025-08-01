@@ -1,0 +1,22 @@
+{
+  "question_id": "2fdfe002",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "The following text is adapted from Countee Cullen's 1926 poem \"Thoughts in a Zoo.\" They in their cruel traps, and we in ours, Survey each other's rage, and pass the hours Commiserating each the other's woe, To mitigate his own pain's fiery glow. Man could but little proffer in exchange Save that his cages have a larger range. That lion with his lordly, untamed heart Has in some man his human counterpart, Some lofty soul in dreams and visions wrapped, But in the stifling flesh securely trapped. Based on the text, what challenge do humans sometimes experience?",
+  "question_text": "Based on the text, what challenge do humans sometimes experience?",
+  "answer_options": [
+    "They cannot effectively tame certain wild animals because of a lack of compassion.",
+    "They cannot focus on setting attainable goals because of a lack of motivation.",
+    "They quickly become frustrated when faced with difficult tasks because of a lack of self-control.",
+    "They have aspirations that cannot be fulfilled because of certain limitations."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text metaphorically likens humans to animals in a zoo, suggesting that humans have dreams that they cannot fulfill because they are trapped.",
+    "A": "Choice A is incorrect. The speaker says that the lion has an \"untamed heart,\" but the speaker doesn't actually mention anything about humans taming wild animals or a lack of compassion.",
+    "B": "Choice B is incorrect. The speaker doesn't suggest that humans lack motivation. Rather, the speaker thinks that humans are \"trapped\" and prevented from achieving their dreams.",
+    "C": "Choice C is incorrect. The speaker doesn't mention anything about humans becoming frustrated or lacking self-control. Rather, the speaker thinks that humans are \"trapped\" and prevented from achieving their dreams."
+  }
+}

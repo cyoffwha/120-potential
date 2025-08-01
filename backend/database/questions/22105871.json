@@ -1,0 +1,22 @@
+{
+  "question_id": "22105871",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Text 1 In a study of insect behavior, Samadi Galpayage and colleagues presented bumblebees with small wooden balls and observed many of the bees clinging to, rolling, and dragging the objects. The researchers provided no external rewards (such as food) to encourage these interactions. The bees simply appeared to be playing—and for no other reason than because they were having fun . Text 2 Insects do not have cortexes or other brain areas associated with emotions in humans. Still, Galpayage and her team have shown that bumblebees may engage in play, possibly experiencing some kind of positive emotional state. Other studies have suggested that bees experience negative emotional states (for example, stress), but as Galpayage and her team have acknowledged, emotions in insects, if they do indeed exist, are likely very rudimentary.",
+  "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined portion of Text 1?",
+  "answer_options": [
+    "By objecting that the bees were actually experiencing a negative feeling akin to stress rather than a positive feeling",
+    "By arguing that some insects other than bumblebees may be capable of experiencing complex emotional states",
+    "By pointing out that even humans sometimes struggle to have fun while engaging in play",
+    "By noting that if the bees were truly playing, any positive feelings they may have experienced were probably quite basic"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The author of Text 2 agrees with the author of Text 1 that bumblebees may engage in play and possibly experience some kind of positive emotional state. However, the author of Text 2 also qualifies this claim by stating that emotions in insects, if they do exist, are \"likely very rudimentary.\"",
+    "A": "Choice A is incorrect. While Text 2 states that other studies might indicate \"negative emotional states\" in bees, it does not contradict the findings from the Galpayage study—that the bees might have been having fun.",
+    "B": "Choice B is incorrect. The author of Text 2 does not mention or imply that any insects, including bumblebees, are capable of experiencing complex emotional states. The author of Text 2 states that if insects do feel emotions, those emotions are \"likely very rudimentary.\"",
+    "C": "Choice C is incorrect. The author of Text 2 does not compare or contrast the behavior or emotions of insects and humans, and neither does the author of Text 1."
+  }
+}

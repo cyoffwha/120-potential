@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 46e45728</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Daily Distance Traveled by Adult Mountain Lions in Three Seasons</p></caption><thead><tr><th scope="col" style="text-align: center;vertical-align: bottom;">Season</th><th scope="col" style="text-align: center;vertical-align: bottom;">Kilometers per day traveled by adult females</th><th scope="col" style="text-align: center;vertical-align: bottom;">Kilometers per day traveled by adult males</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">cold-dry</th><td style="text-align: center;">9.28</td><td style="text-align: center;">15.81</td></tr><tr><th scope="row" style="text-align: left;">monsoon</th><td style="text-align: center;">12.64</td><td style="text-align: center;">18.93</td></tr><tr><th scope="row" style="text-align: left;">hot-dry</th><td style="text-align: center;">12.48</td><td style="text-align: center;">18.87</td></tr></tbody></table></figure></p>
+<p>Wildlife researcher Dana L. Karelus and her colleagues tracked the movements of female and male adult mountain lions over three seasons: the cold-dry season, the hot-dry season, and the monsoon season. They found that the least amount of travel per day occurred in <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the table to complete the statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the cold-dry season for both females and males.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the cold-dry season for females and the hot-dry season for males.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the hot-dry season for females and the monsoon season for males.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the monsoon season for both females and males.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. Females only traveled 9.28 km per day in the cold-dry season, versus 12.64 and 12.48 km per day in the monsoon and hot-dry seasons, respectively. Males only traveled 15.81 km per day per day in the cold-dry season, versus 18.93 and 18.87 km per day in the monsoon and hot-dry seasons, respectively. So, the cold-dry season was the season where both males and females had the least daily travel. </p><p>Choice B is incorrect. Although females traveled least in the cold-dry season, males didn&rsquo;t travel least in the hot-dry season. Instead, they traveled less per day in the cold-dry season as well. Choice C is incorrect. Females had less daily travel in the cold-dry season than in the hot-dry season (9.28 versus 12.48 km per day), and males had less daily travel in the cold-dry season than in the monsoon season (15.81 versus 18.93 km per day). Choice D is incorrect. In fact, both females and males traveled the most kilometers per day in the monsoon season. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">233 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ethe cold-dry season for both females and males.\u003c/p\u003e", "id": "878e9dc0-c6dc-47be-af6d-734805bbed6c"}, {"content": "\u003cp\u003ethe cold-dry season for females and the hot-dry season for males.\u003c/p\u003e", "id": "599f9cdc-ee2e-46db-ae09-5806fc14d3d6"}, {"content": "\u003cp\u003ethe hot-dry season for females and the monsoon season for males.\u003c/p\u003e", "id": "0bc011a8-1e2d-4a74-86ca-fe001d3edfa7"}, {"content": "\u003cp\u003ethe monsoon season for both females and males.\u0026nbsp;\u003c/p\u003e", "id": "4986fb94-ef23-40f2-8ed5-9ad8c7062c1c"}], "correct_answer": ["A"], "externalid": "a05eaacd-e68b-4293-9cd7-26992ec8deb2", "keys": ["878e9dc0-c6dc-47be-af6d-734805bbed6c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-E010", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. Females only traveled 9.28 km per day in the cold-dry season, versus 12.64 and 12.48 km per day in the monsoon and hot-dry seasons, respectively. Males only traveled 15.81 km per day per day in the cold-dry season, versus 18.93 and 18.87 km per day in the monsoon and hot-dry seasons, respectively. So, the cold-dry season was the season where both males and females had the least daily travel. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. Although females traveled least in the cold-dry season, males didn\u0026rsquo;t travel least in the hot-dry season. Instead, they traveled less per day in the cold-dry season as well. Choice C is incorrect. Females had less daily travel in the cold-dry season than in the hot-dry season (9.28 versus 12.48 km per day), and males had less daily travel in the cold-dry season than in the monsoon season (15.81 versus 18.93 km per day). Choice D is incorrect. In fact, both females and males traveled the most kilometers per day in the monsoon season. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the table to complete the statement?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eDaily Distance Traveled by Adult Mountain Lions in Three Seasons\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eSeason\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eKilometers per day traveled by adult females\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eKilometers per day traveled by adult males\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003ecold-dry\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e9.28\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e15.81\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003emonsoon\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e12.64\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e18.93\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003ehot-dry\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e12.48\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e18.87\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eWildlife researcher Dana L. Karelus and her colleagues tracked the movements of female and male adult mountain lions over three seasons: the cold-dry season, the hot-dry season, and the monsoon season. They found that the least amount of travel per day occurred in \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "b1aec3fe-874e-4e80-8a62-baf7a2f21826", "templateclustername": "", "type": "mcq", "vaultid": "8b8d7a1e-6a0d-4fc5-ab39-4b25813e9f37"}, "createDate": 1691007959369, "difficulty": "E", "external_id": "a05eaacd-e68b-4293-9cd7-26992ec8deb2", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "46e45728", "score_band_range_cd": 1, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "c82af931-cf29-4ade-ba14-df048a028516", "updateDate": 1691007959369};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-46e45728");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

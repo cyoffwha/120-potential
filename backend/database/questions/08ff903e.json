@@ -1,0 +1,22 @@
+{
+  "question_id": "08ff903e",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "A museum curator is writing a biographical statement about Trinidadian-born Chinese dancer, choreographer, and teacher Dai Ailian for a new exhibit on Chinese dance. The curator claims that some of the pieces Dai created shortly after arriving in mainland China in 1941, such as the solo dance Yao Drum , reflect a desire to represent the dances of local communities Dai visited during her travels through China.",
+  "question_text": "Which quotation from a work by a dance historian would be the most effective evidence for the curator to include in support of this claim?",
+  "answer_options": [
+    "&ldquo;There is no sound or music accompanying Dai&rsquo;s movements in  Yao Drum , aside from the sounds of drumsticks beating against a drum and against each other.&rdquo;",
+    "&ldquo;Unlike some of the works Dai created in the early 1940s,  Yao Drum  does not feature a narrative structure, humorous elements, or references to real-life events.&rdquo;",
+    "&ldquo; Yao Drum  was inspired by a ceremonial dance Dai witnessed during her time performing field research among the Yao people in the province of Guizhou in 1941 or 1942.&rdquo;&nbsp;",
+    "&ldquo; Yao Drum  is notable for its intense physicality, with Dai performing sharp jumps, swift turns, and dramatic sweeps of her legs through the air as she moves in circles on the stage.&rdquo;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. This choice clearly states that Yao Drum was inspired by a ceremonial dance of the Yao people. This directly supports the curator's claim that some of Dai's pieces \"represent the dances of local communities\" she visited.",
+    "A": "Choice A is incorrect. This choice discusses the sound and music in Yao Drum , but it doesn't connect these elements to \"the dances of local communities,\" which is the focus of the claim.",
+    "B": "Choice B is incorrect. This choice doesn't mention the dances of local communities, but instead discusses how Yao Drum is different from some of Dai's earlier works.",
+    "D": "Choice D is incorrect. This choice describes the choreography of Yao Drum , but it doesn't connect these elements to \"the dances of local communities,\" which is the focus of the claim."
+  }
+}

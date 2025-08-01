@@ -1,31 +1,61 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 
 import { BACKEND_URL } from "../config";
+
+interface FilterOptions {
+  domain?: string;
+  skill?: string;
+  difficulty?: string;
+}
 
 export function useRandomQuestion() {
   const [questions, setQuestions] = useState<any[]>([]);
   const [current, setCurrent] = useState<any | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [currentFilters, setCurrentFilters] = useState<FilterOptions>({});
 
-  useEffect(() => {
+  const fetchQuestions = useCallback(async (filters: FilterOptions = {}) => {
     setLoading(true);
-    fetch(`${BACKEND_URL}/questions`)
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to fetch questions");
-        return res.json();
-      })
-      .then((data) => {
-        setQuestions(data.questions || []);
-        if (data.questions && data.questions.length > 0) {
-          setCurrent(data.questions[Math.floor(Math.random() * data.questions.length)]);
-        } else {
-          setCurrent(null);
-        }
-      })
-      .catch((e) => setError(e.message))
-      .finally(() => setLoading(false));
+    try {
+      // Build query parameters
+      const params = new URLSearchParams();
+      if (filters.domain && filters.domain !== "Any") {
+        params.append("domain", filters.domain);
+      }
+      if (filters.skill && filters.skill !== "Any") {
+        params.append("skill", filters.skill);
+      }
+      if (filters.difficulty && filters.difficulty !== "Any") {
+        params.append("difficulty", filters.difficulty);
+      }
+
+      const url = `${BACKEND_URL}/questions${params.toString() ? `?${params.toString()}` : ''}`;
+      const res = await fetch(url);
+      
+      if (!res.ok) throw new Error("Failed to fetch questions");
+      
+      const data = await res.json();
+      setQuestions(data.questions || []);
+      setCurrentFilters(filters);
+      
+      // Set random current question from filtered results
+      if (data.questions && data.questions.length > 0) {
+        setCurrent(data.questions[Math.floor(Math.random() * data.questions.length)]);
+      } else {
+        setCurrent(null);
+      }
+    } catch (e: any) {
+      setError(e.message);
+    } finally {
+      setLoading(false);
+    }
   }, []);
+
+  // Initial load with no filters
+  useEffect(() => {
+    fetchQuestions();
+  }, [fetchQuestions]);
 
   const nextRandom = () => {
     if (questions.length === 0) return;
@@ -36,5 +66,18 @@ export function useRandomQuestion() {
     setCurrent(next);
   };
 
-  return { current, loading, error, nextRandom, hasQuestions: questions.length > 0 };
+  const applyFilters = (filters: FilterOptions) => {
+    fetchQuestions(filters);
+  };
+
+  return { 
+    current, 
+    loading, 
+    error, 
+    nextRandom, 
+    hasQuestions: questions.length > 0,
+    applyFilters,
+    currentFilters,
+    totalQuestions: questions.length
+  };
 }

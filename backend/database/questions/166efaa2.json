@@ -1,0 +1,22 @@
+{
+  "question_id": "166efaa2",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Public-awareness campaigns about the need to reduce single-use plastics can be successful, says researcher Kim Borg of Monash University in Australia, when these campaigns give consumers a choice: for example, Japan achieved a 40 percent reduction in plastic-bag use after cashiers were instructed to ask customers whether ______ blank wanted a bag.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "they",
+    "one",
+    "you",
+    "it"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is pronoun&ndash;antecedent agreement. The plural pronoun \"they\" agrees in number with the plural antecedent \"customers.\"",
+    "B": "Choice B is incorrect because the singular pronoun \"one\" doesn't agree in number with the plural antecedent \"customers.\"",
+    "C": "Choice C is incorrect because the second person pronoun \"you\" isn't conventional as a substitute for \"customers.\" It suggests that the audience (\"you\") is the customer.",
+    "D": "Choice D is incorrect because the singular pronoun \"it\" doesn't agree in number with the plural antecedent \"customers.\""
+  }
+}

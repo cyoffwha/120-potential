@@ -1,0 +1,22 @@
+{
+  "question_id": "2bb7416a",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In paleontology, the term \"Elvis taxon\" gets applied to a newly identified living species that was once presumed to be extinct. Like an Elvis impersonator who might bear a striking resemblance to the late musical icon Elvis Presley himself, an Elvis taxon is not the real thing, ______ blank is a misidentified look-alike.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "however but it",
+    "however it",
+    "however, it",
+    "however. It"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The clause \"Like an Elvis impersonator&hellip;real thing\" and the clause \"it is&hellip;look-alike\" are both independent clauses, so making them into two separate sentences is grammatically correct.",
+    "A": "Choice A is incorrect. This choice creates a run-on sentence error. The clause \"Like an Elvis impersonator&hellip;real thing\" and the clause \"it is&hellip;look-alike\" are both independent clauses, so they need to be separated with at least a comma + a coordinating conjunction. This choice provides the coordinating conjunction \"but,\" but it's missing a comma.",
+    "B": "Choice B is incorrect. This choice creates a run-on sentence error. The clause \"Like an Elvis impersonator&hellip;real thing\" and the clause \"it is&hellip;look-alike\" are both independent clauses, so they need to be separated with a semicolon, a colon, a dash, a period, or a comma + a coordinating conjunction.",
+    "C": "Choice C is incorrect. This choice creates a run-on sentence error. The clause \"Like an Elvis impersonator&hellip;real thing\" and the clause \"it is&hellip;look-alike\" are both independent clauses, so they need to be separated with at least a comma + a coordinating conjunction. This choice provides a comma, but it's missing a coordinating conjunction."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "08b28c1a",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "A researcher conducted an experiment inspired by studies suggesting that people may benefit from feeling frightened in certain circumstances, such as when watching scary movies or visiting haunted attractions. The researcher recruited several participants and had them walk through a local haunted house attraction. Immediately after exiting the attraction, each participant completed a survey about their experience. Based on the survey responses, the researcher claims that feeling frightened in controlled situations can boost a person's mood and confidence.",
+  "question_text": "Which quotation from a participant would best illustrate the researcher&rsquo;s claim?",
+  "answer_options": [
+    "&ldquo;After I came out of the haunted house, I felt very accomplished and less stressed.&rdquo;",
+    "&ldquo;My friends kept laughing as we were walking through the haunted house.&rdquo;",
+    "&ldquo;The haunted house was scary at first, but I knew everyone was just acting, so I felt less scared after a few minutes.&rdquo;",
+    "&ldquo;The sense of relief I felt at the end of the haunted house was similar to the feelings I have when I finish a scary movie.&rdquo;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This choice illustrates both \"feeling frightened in controlled situations\" (the haunted house) and the benefit of a boosted mood (\"less stressed\") and confidence (\"very accomplished\").",
+    "B": "Choice B is incorrect. This choice isn't the best illustration of the claim. While laughing may indicate a good mood, this choice provides no evidence of \"feeling frightened\" or boosted confidence. Another choice provides better evidence.",
+    "C": "Choice C is incorrect. This choice isn't the best illustration of the claim. This choice demonstrates \"feeling frightened\" in a controlled environment, but it doesn't provide strong evidence of boosted mood or confidence. Another choice provides better evidence.",
+    "D": "Choice D is incorrect. This choice isn't the best illustration of the claim. While a \"sense of relief\" could be interpreted as a boosted mood, this choice doesn't provide direct evidence of \"feeling frightened\" or of increased confidence. This choice simply suggests that haunted houses and scary movies have a similar effect. Another choice provides better evidence for the researcher's claim."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "326017ce",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "For years, biologists have experimented with using grime-eating bacteria rather than harsh chemicals to clean artworks, and results have been impressive overall. ______ blank these bacterial strains—which can metabolize centuries' worth of oil, glue, dirt, and other surface impurities without creating harmful byproducts—have proven more effective than traditional chemical cleaning methods.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "However,",
+    "In many cases,",
+    "As a result,",
+    "Additionally,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The first sentence makes the claim that using grime-eating bacteria has led to \"impressive results.\" This sentence supports that claim by describing the specific findings of the biologists' experimentation. The transition \"in many cases\" fits the context perfectly.",
+    "A": "Choice A is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with the previous sentence. Both claim that grime-eating bacteria are better at cleaning artworks than chemicals.",
+    "C": "Choice C is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense in context. The fact that the results of the experimentation have been impressive overall doesn't cause the bacteria to have proven more effective.",
+    "D": "Choice D is incorrect. This choice uses a transition that indicates the addition of a new idea. But this sentence doesn't introduce a new idea. Instead, it elaborates on the same idea laid out in the previous sentence by describing the \"impressive results\" in more detail."
+  }
+}

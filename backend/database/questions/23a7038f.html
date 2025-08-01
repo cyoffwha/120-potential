@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 23a7038f</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Shimmering is a collective defense behavior that researchers have observed in giant honeybee colonies. When shimmering, different groups of bees flip their bodies up and down in what looks like waves. This defense is initiated when hornets hover near a colony, serving to deter the hornets from approaching the bees. Researchers hypothesize that this behavior is a specialized defense response to hornets, as it is not observed when other, larger predators approach the colony.&nbsp;</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Researchers are unsure how giant honeybees defend against predators larger than hornets.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Researchers think that shimmering in giant honeybees is a specific defense against hornets.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Hornets are known to be the main predator of giant honeybees.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Several different species of insects use shimmering to defend against hornets.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The text describes a study about how giant honeybees use shimmering to defend against hornets, but not other predators. The researchers conclude that shimmering could be a specialized defense response to hornets. </p><p>Choice A is incorrect. The text says that giant honeybees don&rsquo;t appear to use shimmering against other, larger predators. However, it never suggests that researchers don&rsquo;t know which other defenses giant honeybees do use for those predators. Choice C is incorrect. The text says that hornets are one predator of giant honeybees, but it doesn&rsquo;t say that hornets are the main predator of giant honeybees. This choice also fails to mention &ldquo;shimmering,&rdquo; which is a major focus of the text. Choice D is incorrect. The text only discusses the shimmering of giant honeybees&mdash;it doesn&rsquo;t discuss other insects&rsquo; defense responses at all. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">223 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eResearchers are unsure how giant honeybees defend against predators larger than hornets.\u0026nbsp;\u003c/p\u003e", "id": "7238571c-4a6b-4cdd-b2d2-7af73c726aaf"}, {"content": "\u003cp\u003eResearchers think that shimmering in giant honeybees is a specific defense against hornets.\u0026nbsp;\u003c/p\u003e", "id": "a6a2bdf8-c464-409e-b5ec-a73aa3c4cbdc"}, {"content": "\u003cp\u003eHornets are known to be the main predator of giant honeybees.\u0026nbsp;\u003c/p\u003e", "id": "09ebed01-efe3-4221-ad1b-d60645f5cf85"}, {"content": "\u003cp\u003eSeveral different species of insects use shimmering to defend against hornets.\u0026nbsp;\u003c/p\u003e", "id": "cac1bb64-8101-4f4a-8346-6beae5ae78d2"}], "correct_answer": ["B"], "externalid": "5a912020-242d-4bc0-96dd-c00c12736562", "keys": ["a6a2bdf8-c464-409e-b5ec-a73aa3c4cbdc"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CID-E010", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The text describes a study about how giant honeybees use shimmering to defend against hornets, but not other predators. The researchers conclude that shimmering could be a specialized defense response to hornets. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The text says that giant honeybees don\u0026rsquo;t appear to use shimmering against other, larger predators. However, it never suggests that researchers don\u0026rsquo;t know which other defenses giant honeybees do use for those predators. Choice C is incorrect. The text says that hornets are one predator of giant honeybees, but it doesn\u0026rsquo;t say that hornets are the main predator of giant honeybees. This choice also fails to mention \u0026ldquo;shimmering,\u0026rdquo; which is a major focus of the text. Choice D is incorrect. The text only discusses the shimmering of giant honeybees\u0026mdash;it doesn\u0026rsquo;t discuss other insects\u0026rsquo; defense responses at all. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eShimmering is a collective defense behavior that researchers have observed in giant honeybee colonies. When shimmering, different groups of bees flip their bodies up and down in what looks like waves. This defense is initiated when hornets hover near a colony, serving to deter the hornets from approaching the bees. Researchers hypothesize that this behavior is a specialized defense response to hornets, as it is not observed when other, larger predators approach the colony.\u0026nbsp;\u003c/p\u003e", "templateclusterid": "53b0f7c7-ece1-460f-a604-0f76510b80f4", "templateclustername": "", "type": "mcq", "vaultid": "4658a564-1792-494d-9fdf-a8f541d02efd"}, "createDate": 1691007959360, "difficulty": "E", "external_id": "5a912020-242d-4bc0-96dd-c00c12736562", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "23a7038f", "score_band_range_cd": 3, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "bb790814-9eeb-462d-9d08-c9fa0f2742c6", "updateDate": 1691007959360};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-23a7038f");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

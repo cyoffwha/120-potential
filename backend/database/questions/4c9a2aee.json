@@ -1,0 +1,22 @@
+{
+  "question_id": "4c9a2aee",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Wanda Diaz-Merced is an astrophysicist who lost her sight when she was young. Diaz-Merced's condition inspired her to develop software that can translate scientific data into sound. Sound-based tools ______ blank scientists to detect subtle patterns in data. Such patterns may not be evident in traditional graphs.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "has enabled",
+    "enable",
+    "is enabling&nbsp;&nbsp;",
+    "enables"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is subject-verb agreement. The plural verb \"enable\" agrees in number with the plural subject \"sound-based tools.\"",
+    "A": "Choice A is incorrect because the singular verb \"has enabled\" doesn't agree in number with the plural subject \"sound-based tools.\"",
+    "C": "Choice C is incorrect because the singular verb \"is enabling\" doesn't agree in number with the plural subject \"sound-based tools.\"",
+    "D": "Choice D is incorrect because the singular verb \"enables\" doesn't agree in number with the plural subject \"sound-based tools.\""
+  }
+}

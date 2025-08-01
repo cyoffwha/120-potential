@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 34e1124f</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>In geology, an Aeolian landform is one that has been created by the wind.</li>
+<li>In Greek mythology, Aeolus is the keeper of the winds.</li>
+<li>Aeolian landforms are created when the wind erodes, transports, or deposits material.</li>
+<li>A mushroom rock is a rock formation in which the top is wider than the base.</li>
+<li>A mushroom rock can be formed when the wind erodes the base and the top at different rates.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to provide an explanation and an example of Aeolian landforms. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Aeolian landforms are created by different wind-based processes; for example, some are created by wind erosion.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Aeolian landforms&mdash;landforms created by the wind&mdash;include the mushroom rock, a rock formation in which the wind erodes the base of the rock faster than the top.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Erosion, transportation, and deposition are three examples of how the wind can create Aeolian landforms and mushroom rocks.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>A mushroom rock is a rock formation that owes its shape to the wind, a natural force associated with Aeolus in Greek mythology.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The sentence provides an explanation and an example of Aeolian landforms, explaining that they are landforms created by wind and offering the mushroom rock as an example. </p><p>Choice A is incorrect. The sentence explains that Aeolian landforms are created by wind but does not provide an example of any specific Aeolian landforms. Rather, the example it provides is of a wind-based process. Choice C is incorrect. While the sentence provides a partial explanation of Aeolian landforms, noting that they are created by the wind, it does not effectively provide an example. The sentence seems to indicate that mushroom rocks, rather than being an example of Aeolian landforms, are distinct from them. Choice D is incorrect. While the sentence provides an explanation of a mushroom rock, which is a specific example of an Aeolian landform, it doesn&rsquo;t provide an explanation of Aeolian landforms in general. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">665 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eAeolian landforms are created by different wind-based processes; for example, some are created by wind erosion.\u003c/p\u003e", "id": "cab186b8-b8a4-4526-8173-ba72af9ee938"}, {"content": "\u003cp\u003eAeolian landforms\u0026mdash;landforms created by the wind\u0026mdash;include the mushroom rock, a rock formation in which the wind erodes the base of the rock faster than the top.\u003c/p\u003e", "id": "39468365-49e3-4a92-a5c1-1be26e4c31c8"}, {"content": "\u003cp\u003eErosion, transportation, and deposition are three examples of how the wind can create Aeolian landforms and mushroom rocks.\u003c/p\u003e", "id": "8b7f8d78-cff1-484b-8349-b0dd12b33a99"}, {"content": "\u003cp\u003eA mushroom rock is a rock formation that owes its shape to the wind, a natural force associated with Aeolus in Greek mythology.\u003c/p\u003e", "id": "95c268ec-184a-4d7c-b6e6-ce7df8bdaac4"}], "correct_answer": ["B"], "externalid": "65ead50b-41d4-4ae3-b8d9-a0e3cbd6111c", "keys": ["39468365-49e3-4a92-a5c1-1be26e4c31c8"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-722-SYN", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The sentence provides an explanation and an example of Aeolian landforms, explaining that they are landforms created by wind and offering the mushroom rock as an example. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The sentence explains that Aeolian landforms are created by wind but does not provide an example of any specific Aeolian landforms. Rather, the example it provides is of a wind-based process. Choice C is incorrect. While the sentence provides a partial explanation of Aeolian landforms, noting that they are created by the wind, it does not effectively provide an example. The sentence seems to indicate that mushroom rocks, rather than being an example of Aeolian landforms, are distinct from them. Choice D is incorrect. While the sentence provides an explanation of a mushroom rock, which is a specific example of an Aeolian landform, it doesn\u0026rsquo;t provide an explanation of Aeolian landforms in general. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to provide an explanation and an example of Aeolian landforms. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIn geology, an Aeolian landform is one that has been created by the wind.\u003c/li\u003e\n\u003cli\u003eIn Greek mythology, Aeolus is the keeper of the winds.\u003c/li\u003e\n\u003cli\u003eAeolian landforms are created when the wind erodes, transports, or deposits material.\u003c/li\u003e\n\u003cli\u003eA mushroom rock is a rock formation in which the top is wider than the base.\u003c/li\u003e\n\u003cli\u003eA mushroom rock can be formed when the wind erodes the base and the top at different rates.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "1caf3540-8a4d-4418-af0c-ad788b1de1c9", "templateclustername": "", "type": "mcq", "vaultid": "e148244c-29cb-43ad-b605-c77f0d1e09e6"}, "createDate": 1691007959348, "difficulty": "M", "external_id": "65ead50b-41d4-4ae3-b8d9-a0e3cbd6111c", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "34e1124f", "score_band_range_cd": 5, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "a78c15ea-5ea3-4b06-b317-d67d8c704e40", "updateDate": 1691007959348};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-34e1124f");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

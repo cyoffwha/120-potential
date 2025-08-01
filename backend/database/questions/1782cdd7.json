@@ -1,0 +1,22 @@
+{
+  "question_id": "1782cdd7",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In many agricultural environments, the banks of streams are kept forested to protect water quality, but it's been unclear what effects these forests may have on stream biodiversity. To investigate the issue, biologist Xingli Giam and colleagues studied an Indonesian oil palm plantation, comparing the species richness of forested streams with that of nonforested streams. Giam and colleagues found that species richness was significantly higher in forested streams, a finding the researchers attribute to the role leaf litter plays in sheltering fish from predators and providing food resources.",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "It discusses research intended to settle a debate about how agricultural yields can be increased without negative effects on water quality. &nbsp;&nbsp;",
+    "It explains the differences between stream-protection strategies used in oil palm plantations and stream-protection strategies used in other kinds of agricultural environments.",
+    "It describes findings that challenge a previously held view about how fish that inhabit streams in agricultural environments attempt to avoid predators.&nbsp;",
+    "It presents a study that addresses an unresolved question about the presence of forests along streams in agricultural environments."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The author first describes an unresolved question: what effect do bank forests have on stream biodiversity? Then the author presents a study that answers the question: bank forests increase stream biodiversity.",
+    "A": "Choice A is incorrect. This isn't the main purpose of the text. The text never mentions agricultural yields.",
+    "B": "Choice B is incorrect. This isn't the main purpose of the text. The text never mentions other kinds of agricultural environments.",
+    "C": "Choice C is incorrect. This isn't the main purpose of the text. The text never mentions any previously held view about how fish in these streams try to avoid predators."
+  }
+}

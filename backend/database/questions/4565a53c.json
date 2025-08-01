@@ -1,0 +1,22 @@
+{
+  "question_id": "4565a53c",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Luc&iacute;a Michel of the University of Chile observed that alkaline soils contain an insoluble form of iron that blueberry plants cannot absorb, thus inhibiting blueberry growth. If these plants were grown in alkaline soil alongside grasses that aid in iron solubilization, ______ blank Michel was determined to find out.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "could the blueberries thrive.&nbsp;",
+    "the blueberries could thrive.&nbsp;",
+    "the blueberries could thrive?",
+    "could the blueberries thrive?"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is end-of-sentence punctuation. This choice correctly uses a question mark to punctuate the interrogative clause \"could the blueberries thrive,\" which asks a direct question at the end of the sentence.",
+    "A": "Choice A is incorrect because a period can't be used in this way to punctuate an interrogative clause, such as \"could the blueberries thrive,\" at the end of a sentence.",
+    "B": "Choice B is incorrect because the context requires an interrogative clause. The declarative clause \"the blueberries could thrive\" incorrectly indicates that it was known that the blueberries could thrive in alkaline soil, whereas Michel had yet to find this out.",
+    "C": "Choice C is incorrect because a question mark can't be used in this way to punctuate a declarative clause, such as \"the blueberries could thrive,\" at the end of a sentence."
+  }
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 14037904</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li><em>The Heartbeat of Wounded Knee: Native America from 1890 to the Present</em> is a history book by Ojibwe author David Treuer.</li>
+<li>In a review, a critic for <em>The Economist</em> noted that &ldquo;Treuer&rsquo;s storytelling skills shine&rdquo; and that the book is an &ldquo;elegant handling of [a] complex narrative.&rdquo;</li>
+<li>A critic for<em> O, The Oprah Magazine </em>called it &ldquo;a marvel of research and storytelling.&rdquo;</li>
+<li>A critic for<em> </em>the<em> Missoulian</em> dubbed it &ldquo;a monumental achievement.&rdquo;</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to emphasize a similarity in how critics responded to Treuer&rsquo;s book. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Treuer&rsquo;s book, which was widely reviewed, focuses on Native American history from 1890 to the present.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Dubbed &ldquo;a monumental achievement&rdquo; by the<em> Missoulian</em>, Treuer&rsquo;s book documents over a century of Native American history.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Critics praised Treuer&rsquo;s book for its compelling narrative, with <em>O, The Oprah Magazine </em>calling it &ldquo;a marvel of research and storytelling&rdquo; and <em>The Economist</em> likewise writing that &ldquo;Treuer&rsquo;s storytelling skills shine&rdquo; and that the book is an &ldquo;elegant handling of [a] complex narrative.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>While the<em> Missoulian</em> focused on the book&rsquo;s broader achievement, <em>The Economist</em> zeroed in on Treuer&rsquo;s storytelling skills.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The sentence emphasizes a similarity in how critics responded to Treuer&rsquo;s book, noting that the critics for <em>O, The Oprah Magazine</em>&nbsp;and&nbsp;<em>The Economist</em> both praised the book&rsquo;s storytelling. </p><p>Choice A is incorrect. The sentence provides background information about Treuer&rsquo;s book; it doesn&rsquo;t emphasize a similarity in how critics responded to it. Choice B is incorrect. The sentence cites a single critic&rsquo;s response to Treuer&rsquo;s book; it doesn&rsquo;t emphasize a similarity in the responses of multiple critics. Choice D is incorrect. The sentence emphasizes a difference, not a similarity, in how two critics responded to Treuer&rsquo;s book. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">597 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eTreuer\u0026rsquo;s book, which was widely reviewed, focuses on Native American history from 1890 to the present.\u003c/p\u003e", "id": "5783715b-b52d-46e2-9956-e89a3c404620"}, {"content": "\u003cp\u003eDubbed \u0026ldquo;a monumental achievement\u0026rdquo; by the\u003cem\u003e Missoulian\u003c/em\u003e, Treuer\u0026rsquo;s book documents over a century of Native American history.\u003c/p\u003e", "id": "fc5a1099-a796-4835-87cd-8f0acd5783cb"}, {"content": "\u003cp\u003eCritics praised Treuer\u0026rsquo;s book for its compelling narrative, with \u003cem\u003eO, The Oprah Magazine \u003c/em\u003ecalling it \u0026ldquo;a marvel of research and storytelling\u0026rdquo; and \u003cem\u003eThe Economist\u003c/em\u003e likewise writing that \u0026ldquo;Treuer\u0026rsquo;s storytelling skills shine\u0026rdquo; and that the book is an \u0026ldquo;elegant handling of [a] complex narrative.\u0026rdquo;\u003c/p\u003e", "id": "685c5529-a06c-4b48-8660-1fac226d7d2a"}, {"content": "\u003cp\u003eWhile the\u003cem\u003e Missoulian\u003c/em\u003e focused on the book\u0026rsquo;s broader achievement, \u003cem\u003eThe Economist\u003c/em\u003e zeroed in on Treuer\u0026rsquo;s storytelling skills.\u003c/p\u003e", "id": "95e55327-efdd-4c0e-b619-702e675469eb"}], "correct_answer": ["C"], "externalid": "de2230bc-eaa2-456f-89fd-f7fa5b5e0a65", "keys": ["685c5529-a06c-4b48-8660-1fac226d7d2a"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-710-SYN", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The sentence emphasizes a similarity in how critics responded to Treuer\u0026rsquo;s book, noting that the critics for \u003cem\u003eO, The Oprah Magazine\u003c/em\u003e\u0026nbsp;and\u0026nbsp;\u003cem\u003eThe Economist\u003c/em\u003e both praised the book\u0026rsquo;s storytelling. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The sentence provides background information about Treuer\u0026rsquo;s book; it doesn\u0026rsquo;t emphasize a similarity in how critics responded to it. Choice B is incorrect. The sentence cites a single critic\u0026rsquo;s response to Treuer\u0026rsquo;s book; it doesn\u0026rsquo;t emphasize a similarity in the responses of multiple critics. Choice D is incorrect. The sentence emphasizes a difference, not a similarity, in how two critics responded to Treuer\u0026rsquo;s book. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to emphasize a similarity in how critics responded to Treuer\u0026rsquo;s book. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cem\u003eThe Heartbeat of Wounded Knee: Native America from 1890 to the Present\u003c/em\u003e is a history book by Ojibwe author David Treuer.\u003c/li\u003e\n\u003cli\u003eIn a review, a critic for \u003cem\u003eThe Economist\u003c/em\u003e noted that \u0026ldquo;Treuer\u0026rsquo;s storytelling skills shine\u0026rdquo; and that the book is an \u0026ldquo;elegant handling of [a] complex narrative.\u0026rdquo;\u003c/li\u003e\n\u003cli\u003eA critic for\u003cem\u003e O, The Oprah Magazine \u003c/em\u003ecalled it \u0026ldquo;a marvel of research and storytelling.\u0026rdquo;\u003c/li\u003e\n\u003cli\u003eA critic for\u003cem\u003e \u003c/em\u003ethe\u003cem\u003e Missoulian\u003c/em\u003e dubbed it \u0026ldquo;a monumental achievement.\u0026rdquo;\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "e351d661-04a9-43bf-b982-a909b4ce23fa", "templateclustername": "", "type": "mcq", "vaultid": "31928d17-0f75-4bb6-9af7-6cc790d1546c"}, "createDate": 1691007959348, "difficulty": "M", "external_id": "de2230bc-eaa2-456f-89fd-f7fa5b5e0a65", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "14037904", "score_band_range_cd": 4, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "4b933eb0-2d8b-4600-8eb8-130819378a00", "updateDate": 1691007959348};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-14037904");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

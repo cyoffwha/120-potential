@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0b96fa93</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Maximum Height of Maple Trees When Fully Grown</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Tree type</th><th scope="col" style="text-align: center; vertical-align: bottom;">Maximum height (feet)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Native to North America</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">Sugar maple</th><td style="text-align: center;">75</td><td>yes</td></tr><tr><th scope="row" style="text-align: left;">Silver maple</th><td style="text-align: center;">70</td><td>yes</td></tr><tr><th scope="row" style="text-align: left;">Red maple</th><td style="text-align: center;">60</td><td>yes</td></tr><tr><th scope="row" style="text-align: left;">Japanese maple</th><td style="text-align: center;">25</td><td>no</td></tr><tr><th scope="row" style="text-align: left;">Norway maple</th><td style="text-align: center;">50</td><td>no</td></tr></tbody></table></figure></p>
+<p>For a school project, a forestry student needs to recommend a maple tree that is native to North America and won&rsquo;t grow more than 60 feet in height. Based on the characteristics of five common maple trees, she has decided to select a <span aria-hidden="true">______</span><span class="sr-only">blank</span> </p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the table to complete the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>silver maple.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>sugar maple.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>red maple.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Norway maple.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most effectively uses data from the table to complete the statement about the forestry student&rsquo;s project. The table shows five types of maple trees, each tree&rsquo;s maximum height, and whether each tree is native to North America. The text indicates that the student needs to recommend a maple tree that&rsquo;s native to North America and won&rsquo;t reach a height greater than 60 feet. The red maple is the only tree listed in the table that meets these criteria: its maximum height is 60 feet&mdash;meaning that it won&rsquo;t grow higher than 60 feet&mdash;and it&rsquo;s native to North America. </p><p>Choice A is incorrect because the text states that the student needs to recommend a tree that&rsquo;s native to North America and won&rsquo;t grow higher than 60 feet, but the table shows that the maximum height of the silver maple is 70 feet.&nbsp;Choice B is incorrect because the text states that the student needs to recommend a tree that&rsquo;s native to North America and won&rsquo;t grow higher than 60 feet, but the table shows that the maximum height of the sugar maple is 75 feet.&nbsp;Choice D is incorrect because the text states that the student needs to recommend a tree that&rsquo;s native to North America and won&rsquo;t grow higher than 60 feet, but the table shows that the Norway maple isn&rsquo;t native to North America.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">210 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003esilver maple.\u003c/p\u003e", "id": "3265ec1e-9dee-4f24-a16f-c61f587f7132"}, {"content": "\u003cp\u003esugar maple.\u003c/p\u003e", "id": "46f027ba-b5a4-4529-b824-8bbb36be44ff"}, {"content": "\u003cp\u003ered maple.\u003c/p\u003e", "id": "51e78b2a-4f75-4a32-9884-92a5c9797a6c"}, {"content": "\u003cp\u003eNorway maple.\u003c/p\u003e", "id": "8da758e4-32d6-414f-b491-ad82b9e71c1e"}], "correct_answer": ["C"], "externalid": "0a101d3f-287a-4888-8521-b280f7b9fb5e", "keys": ["51e78b2a-4f75-4a32-9884-92a5c9797a6c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-523-QUA", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most effectively uses data from the table to complete the statement about the forestry student\u0026rsquo;s project. The table shows five types of maple trees, each tree\u0026rsquo;s maximum height, and whether each tree is native to North America. The text indicates that the student needs to recommend a maple tree that\u0026rsquo;s native to North America and won\u0026rsquo;t reach a height greater than 60 feet. The red maple is the only tree listed in the table that meets these criteria: its maximum height is 60 feet\u0026mdash;meaning that it won\u0026rsquo;t grow higher than 60 feet\u0026mdash;and it\u0026rsquo;s native to North America. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text states that the student needs to recommend a tree that\u0026rsquo;s native to North America and won\u0026rsquo;t grow higher than 60 feet, but the table shows that the maximum height of the silver maple is 70 feet.\u0026nbsp;Choice B is incorrect because the text states that the student needs to recommend a tree that\u0026rsquo;s native to North America and won\u0026rsquo;t grow higher than 60 feet, but the table shows that the maximum height of the sugar maple is 75 feet.\u0026nbsp;Choice D is incorrect because the text states that the student needs to recommend a tree that\u0026rsquo;s native to North America and won\u0026rsquo;t grow higher than 60 feet, but the table shows that the Norway maple isn\u0026rsquo;t native to North America.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the table to complete the text?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eMaximum Height of Maple Trees When Fully Grown\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eTree type\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eMaximum height (feet)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eNative to North America\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eSugar maple\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e75\u003c/td\u003e\u003ctd\u003eyes\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eSilver maple\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e70\u003c/td\u003e\u003ctd\u003eyes\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eRed maple\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e60\u003c/td\u003e\u003ctd\u003eyes\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eJapanese maple\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e25\u003c/td\u003e\u003ctd\u003eno\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eNorway maple\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e50\u003c/td\u003e\u003ctd\u003eno\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eFor a school project, a forestry student needs to recommend a maple tree that is native to North America and won\u0026rsquo;t grow more than 60 feet in height. Based on the characteristics of five common maple trees, she has decided to select a \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e \u003c/p\u003e", "templateclusterid": "bea36b1f-91ce-4260-bab9-cd47f76991bc", "templateclustername": "", "type": "mcq", "vaultid": "7b342941-df67-4729-82c9-919b4f6b419a"}, "createDate": 1691007959337, "difficulty": "E", "external_id": "0a101d3f-287a-4888-8521-b280f7b9fb5e", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "0b96fa93", "score_band_range_cd": 3, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "b2366221-d8f9-475d-b091-c04111c7fed5", "updateDate": 1691007959337};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0b96fa93");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

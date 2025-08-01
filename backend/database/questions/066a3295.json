@@ -1,0 +1,22 @@
+{
+  "question_id": "066a3295",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Researchers have found a nearly 164,000-year-old molar from a member of the archaic human species known as Denisovans in a cave in Laos, suggesting that Denisovans lived in a wider range of environments than indicated by earlier evidence. Before the discovery, Denisovans were thought to have lived only at high altitudes in relatively cold climates in what are now Russia and China , but the discovery of the tooth in Laos suggests that they may have lived at low altitudes in relatively warm climates in Southeast Asia as well.",
+  "question_text": "Which choice best states the function of the underlined portion in the text as a whole?",
+  "answer_options": [
+    "It dismisses as untrue the research presented in the previous sentence.",
+    "It defines a term used in the description that follows in the rest of the sentence.",
+    "It emphasizes the main goal of the research introduced in the previous sentence.",
+    "It provides context that clarifies the significance of the information that follows in the rest of the sentence."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text describes how a new discovery expands our understanding of Denisovans. The underlined portion describes what we used to believe about Denisovans, which helps the reader understand the significance of the discovery of the molar: it suggests that they lived in more places than we'd previously thought.",
+    "A": "Choice A is incorrect. The underlined portion doesn't do this. Instead, it explains what we used to believe about Denisovans before the discovery—it doesn't dismiss the new discovery as false.",
+    "B": "Choice B is incorrect. The underlined portion doesn't do this. No term is defined here.",
+    "C": "Choice C is incorrect. The underlined portion doesn't do this. The text never tells us what the \"goal\" of the research was, just what its discovery was."
+  }
+}

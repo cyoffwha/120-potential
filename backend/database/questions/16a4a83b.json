@@ -1,0 +1,22 @@
+{
+  "question_id": "16a4a83b",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "An Ideal Husband is an 1895 play by Oscar Wilde. In the play, which is a satire, Wilde suggests that a character named Lady Gertrude Chiltern is perceived as both extremely virtuous and unforgiving, as is evident when another character says ______ blank",
+  "question_text": "Which quotation from  An Ideal Husband  most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;Lady Chiltern is a woman of the very highest principles, I am glad to say. I am a little too old now, myself, to trouble about setting a good example, but I always admire people who do.&rdquo;",
+    "&ldquo;Do you know, [Lady Chiltern], I don&rsquo;t mind your talking morality a bit. Morality is simply the attitude we adopt towards people whom we personally dislike.&rdquo;",
+    "&ldquo;[Lady Chiltern] does not know what weakness or temptation is. I am of clay like other men. She stands apart as good women do&mdash;pitiless in her perfection&mdash;cold and stern and without mercy.&rdquo;",
+    "&ldquo;Lady Chiltern, you are a sensible woman, the most sensible woman in London, the most sensible woman I know.&rdquo;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most effectively uses a quotation to illustrate the claim that Lady Gertrude Chiltern is perceived as \"both extremely virtuous and unforgiving.\" In the quotation, a man describes Lady Chiltern as someone who \"does not know what weakness or temptation is.\" In other words, the man regards her as someone who is strong and adheres to a strict definition of moral perfection. However, he ironically suggests that this definition excludes mercy and forgiveness—qualities that are also thought of as virtues; according to him, Lady Chiltern is \"pitiless in her perfection—cold and stern and without mercy.\" This description supports the idea that Lady Chiltern is perceived by others as virtuous as well as unforgiving.",
+    "A": "Choice A is incorrect. The quotation supports the claim that Lady Chiltern is perceived as virtuous, in that it describes her as \"a woman of the very highest principles.\" However, it doesn't characterize her as unforgiving or being perceived as such.",
+    "B": "Choice B is incorrect. The quotation suggests that Lady Chiltern is concerned with morality, but it suggests that her interest in discussing it is fundamentally hypocritical and functions as a means by which to judge others. However, the quotation doesn't address the question of whether Lady Chiltern is unmerciful to those who seek forgiveness for harm they have caused.",
+    "D": "Choice D is incorrect because it doesn't address either Lady Chiltern's perceived virtuousness or her perceived lack of forgiveness; instead, it expresses the belief that she is sensible."
+  }
+}

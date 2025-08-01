@@ -1,0 +1,22 @@
+{
+  "question_id": "359902ae",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Nathaniel Hawthorne's 1837 story \"Dr. Heidegger's Experiment.\" The main character, a physician, is experimenting with rehydrating a dried flower. At first [the rose] lay lightly on the surface of the fluid, appearing to imbibe none of its moisture. Soon, however, a singular change began to be visible. The crushed and dried petals stirred and assumed a deepening tinge of crimson, as if the flower were reviving from a deathlike slumber. As used in the text, what does the phrase \"a singular\" most nearly mean?",
+  "question_text": "As used in the text, what does the phrase &ldquo;a singular&rdquo; most nearly mean?",
+  "answer_options": [
+    "A lonely",
+    "A disagreeable",
+    "An acceptable",
+    "An extraordinary"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because as used in the text, \"singular\" most nearly means extraordinary. The text portrays an experiment in which a character rehydrates a dried rose by infusing it with moisture. After prolonged contact with the liquid, the rose begins to absorb it, undergoing an exceptional transformation: its color deepens, its previously \"crushed and dried\" petals shift, and the entire flower revives \"from a deathlike slumber.\" In other words, an extraordinary change is visible in the flower.",
+    "A": "Choice A is incorrect. Although in some contexts \"singular\" can mean of or relating to an individual or to a single instance of something, this usage doesn't imply loneliness or an otherwise unsatisfactory condition of isolation. Moreover, the text doesn't attribute such a condition to the rose.",
+    "B": "Choice B is incorrect. Although \"singular\" has several related meanings, none of them relate to being disagreeable or unpleasant. Moreover, the text doesn't portray the change undergone by the rose as necessarily disagreeable.",
+    "C": "Choice C is incorrect because \"singular\" means extraordinary, not acceptable. The change is portrayed as striking, not barely satisfactory."
+  }
+}

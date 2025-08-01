@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 3f236877</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Ratified by more than 90 countries, the Nagoya Protocol is an international agreement ensuring that Indigenous communities are compensated when their agricultural resources and knowledge of wild plants and animals are utilized by agricultural corporations. However, the protocol has shortcomings. For example, it allows corporations to insist that their agreements with communities to conduct research on the commercial uses of the communities&rsquo; resources and knowledge remain confidential. Therefore, some Indigenous advocates express concern that the protocol may have the unintended effect of <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>diminishing the monetary reward that corporations might derive from their agreements with Indigenous communities.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>limiting the research that corporations conduct on the resources of the Indigenous communities with which they have signed agreements.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>preventing independent observers from determining whether the agreements guarantee equitable compensation for Indigenous communities.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>discouraging Indigenous communities from learning new methods for harvesting plants and animals from their corporate partners.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most logically completes the argument about an unintended effect of the Nagoya Protocol. The text explains that the Nagoya Protocol is an agreement ensuring that Indigenous communities are compensated when their agricultural resources and knowledge are used by corporations. The text then states that the protocol allows corporations to keep their agreements with Indigenous communities confidential, about which some Indigenous advocates express concern. Choice C, when inserted into the blank, gives a good justification for the advocates&rsquo; concern: such secrecy could mean that the public is unable to determine whether participating Indigenous communities were properly compensated under these agreements.&nbsp;</p><p>Choice A is incorrect. The text suggests that because corporations can keep their agreements with Indigenous communities confidential, Indigenous communities, not corporations, might not be compensated fairly.&nbsp;Choice B is incorrect because the text doesn&rsquo;t suggest that the ability of corporations to keep their agreements with Indigenous communities confidential would place limits on how much research corporations can undertake.&nbsp;Choice D is incorrect because the text doesn&rsquo;t indicate that Indigenous communities aim to learn new harvesting methods from their corporate partners. Rather, the text suggests that corporations use the knowledge of Indigenous communities for their research. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">134 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ediminishing the monetary reward that corporations might derive from their agreements with Indigenous communities.\u003c/p\u003e", "id": "85c9e71d-8f84-4ae2-b487-68e5a1cc7828"}, {"content": "\u003cp\u003elimiting the research that corporations conduct on the resources of the Indigenous communities with which they have signed agreements.\u003c/p\u003e", "id": "094252ba-bf6f-4a55-a2df-ee1242e6bbd1"}, {"content": "\u003cp\u003epreventing independent observers from determining whether the agreements guarantee equitable compensation for Indigenous communities.\u003c/p\u003e", "id": "0f838d65-af28-4590-bb5e-903e022620e3"}, {"content": "\u003cp\u003ediscouraging Indigenous communities from learning new methods for harvesting plants and animals from their corporate partners.\u003c/p\u003e", "id": "699c1560-5aae-451c-8277-b066920076a5"}], "correct_answer": ["C"], "externalid": "280e894c-bee8-4e44-8ecc-445ed3d14286", "keys": ["0f838d65-af28-4590-bb5e-903e022620e3"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-033-INF", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most logically completes the argument about an unintended effect of the Nagoya Protocol. The text explains that the Nagoya Protocol is an agreement ensuring that Indigenous communities are compensated when their agricultural resources and knowledge are used by corporations. The text then states that the protocol allows corporations to keep their agreements with Indigenous communities confidential, about which some Indigenous advocates express concern. Choice C, when inserted into the blank, gives a good justification for the advocates\u0026rsquo; concern: such secrecy could mean that the public is unable to determine whether participating Indigenous communities were properly compensated under these agreements.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect. The text suggests that because corporations can keep their agreements with Indigenous communities confidential, Indigenous communities, not corporations, might not be compensated fairly.\u0026nbsp;Choice B is incorrect because the text doesn\u0026rsquo;t suggest that the ability of corporations to keep their agreements with Indigenous communities confidential would place limits on how much research corporations can undertake.\u0026nbsp;Choice D is incorrect because the text doesn\u0026rsquo;t indicate that Indigenous communities aim to learn new harvesting methods from their corporate partners. Rather, the text suggests that corporations use the knowledge of Indigenous communities for their research. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eRatified by more than 90 countries, the Nagoya Protocol is an international agreement ensuring that Indigenous communities are compensated when their agricultural resources and knowledge of wild plants and animals are utilized by agricultural corporations. However, the protocol has shortcomings. For example, it allows corporations to insist that their agreements with communities to conduct research on the commercial uses of the communities\u0026rsquo; resources and knowledge remain confidential. Therefore, some Indigenous advocates express concern that the protocol may have the unintended effect of \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "cc8cae73-2886-487f-b37e-c63d85bed2b5", "templateclustername": "", "type": "mcq", "vaultid": "a1ddc5b3-0f71-4c14-850a-3540355234d1"}, "createDate": 1691007959319, "difficulty": "H", "external_id": "280e894c-bee8-4e44-8ecc-445ed3d14286", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "3f236877", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "73032803-1f3f-479f-97f9-0d7aa2305354", "updateDate": 1691007959319};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-3f236877");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

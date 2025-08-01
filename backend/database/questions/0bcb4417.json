@@ -1,0 +1,22 @@
+{
+  "question_id": "0bcb4417",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Oglala Lakota poet Layli Long Soldier's star quilt poems offer an unusually open-ended reading experience. With ______ blank eight panels of text stitched together in the shape of a traditional eight-pointed Lakota star quilt, the poems present viewers with a seemingly infinite number of ways to read them.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "their",
+    "it&rsquo;s",
+    "they&rsquo;re",
+    "its"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is the use of possessive determiners. The plural possessive determiner \"their\" agrees in number with the plural noun \"the poems,\" thus indicating that the poems had eight panels of text stitched together in the shape of a traditional eight-pointed Lakota star quilt.",
+    "B": "Choice B is incorrect because \"it's\" is the contraction for \"it is\" or \"it has,\" not a possessive determiner.",
+    "C": "Choice C is incorrect because \"they're\" is the contraction for \"they are,\" not a possessive determiner.",
+    "D": "Choice D is incorrect because the singular possessive determiner \"its\" doesn't agree in number with the plural noun \"the poems.\""
+  }
+}

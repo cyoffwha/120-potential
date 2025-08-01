@@ -1,0 +1,22 @@
+{
+  "question_id": "39857700",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "The following text is from Edith Wharton's 1905 novel The House of Mirth . Lily Bart and a companion are walking through a park. Lily had no real intimacy with nature, but she had a passion for the appropriate and could be keenly sensitive to a scene which was the fitting background of her own sensations. The landscape outspread below her seemed an enlargement of her present mood, and she found something of herself in its calmness, its breadth, its long free reaches. On the nearer slopes the sugar-maples wavered like pyres of light; lower down was a massing of grey orchards, and here and there the lingering green of an oak-grove.",
+  "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "answer_options": [
+    "It creates a detailed image of the physical setting of the scene.",
+    "It establishes that a character is experiencing an internal conflict.",
+    "It makes an assertion that the next sentence then expands on.",
+    "It illustrates an idea that is introduced in the previous sentence."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first sentence of the text establishes that Lily can be \"keenly sensitive to\" scenes that serve as a \"fitting background\" for her feelings—that is, she's very aware of when a setting seems to reflect her mood. The next sentence, which is underlined, then demonstrates this awareness: Lily views the landscape she's in as a large-scale reflection of her current mood, identifying with elements such as its calmness. Thus, the function of the underlined sentence is to illustrate an idea introduced in the previous sentence.",
+    "A": "Choice A is incorrect because the underlined sentence describes the scene only in very general terms, referring to its calmness, breadth, and long stretches of land. It's the next sentence that adds specific details about colors, light, and various trees nearby.",
+    "B": "Choice B is incorrect because nothing in the underlined sentence suggests that Lily is experiencing an internal conflict. In fact, the sentence indicates that Lily thinks the landscape reflects her own feeling of calmness.",
+    "C": "Choice C is incorrect because the only assertion in the underlined sentence is that Lily feels that broad aspects of the landscape, such as its calmness, reflect her current mood, and that assertion isn't expanded on in the next sentence. Instead, the next sentence describes specific details of the scene without connecting them to Lily's feelings."
+  }
+}

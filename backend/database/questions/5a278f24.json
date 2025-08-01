@@ -1,0 +1,22 @@
+{
+  "question_id": "5a278f24",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The work of molecular biophysicist Enrique M. De La Cruz is known for ______ blank traditional boundaries between academic disciplines. The university laboratory that De La Cruz runs includes engineers, biologists, chemists, and physicists, and the research the lab produces makes use of insights and techniques from all those fields.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "epitomizing",
+    "transcending",
+    "anticipating",
+    "reinforcing"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. Based on the text, we're looking for a word that means something similar to \"mak[ing] use of insights and techniques from all those fields.\" \"Transcending\" means \"going beyond,\" so \"transcending traditional boundaries\" would mean crossing into all those various fields of research, which is exactly the meaning we want.",
+    "A": "Choice A is incorrect. This isn't a logical word choice. Based on the text, we're looking for a word that means something similar to \"mak[ing] use of insights and techniques from all those fields.\" To \"epitomize\" means to \"be a perfect example of,\" so \"epitomizing traditional boundaries\" would mean the opposite of what we want: keeping the fields of research separate.",
+    "C": "Choice C is incorrect. This isn't a logical word choice. Based on the text, we're looking for a word that means something similar to \"mak[ing] use of insights and techniques from all those fields.\" \"Anticipating\" means \"expecting\" or \"waiting for,\" and would result in a confusing sentence with an unclear meaning.",
+    "D": "Choice D is incorrect. This isn't a logical word choice. Based on the text, we're looking for a word that means something similar to \"mak[ing] use of insights and techniques from all those fields.\" \"Reinforcing traditional boundaries\" would mean the opposite: keeping the fields of research separate."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "54c1b2dd",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In 1851, German American artist Emanuel Leutze painted Washington Crossing the Delaware . His huge painting (149 &times; 255 inches) depicts the first US president crossing a river with soldiers in the Revolutionary War. In 2019, Cree artist Kent Monkman painted mistik&ocirc;siwak (Wooden Boat People): Resurgence of the People . Monkman's huge painting (132 &times; 264 inches) was inspired by Leutze's. It portrays Indigenous people in a boat rescuing refugees. The student wants to emphasize a similarity between the two paintings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize a similarity between the two paintings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Monkman, a Cree artist, finished his painting in 2019; Leutze, a German American artist, completed his in 1851.&nbsp;",
+    "Although Monkman&rsquo;s painting was inspired by Leutze&rsquo;s, the people and actions the two paintings portray are very different.",
+    "Leutze&rsquo;s and Monkman&rsquo;s paintings are both huge, measuring 149 &times; 255 inches and 132 &times; 264 inches, respectively.",
+    "Leutze&rsquo;s painting depicts Revolutionary War soldiers, while Monkman&rsquo;s depicts Indigenous people and refugees."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The sentence emphasizes a similarity between the two paintings, noting that Leutze's painting (which measures 149 &times; 255 inches) and Monkman's painting (which measures 132 &times; 264 inches) are both very large.",
+    "A": "Choice A is incorrect. The sentence mentions that Monkman's painting was completed in 2019 and Leutze's was completed in 1851; it doesn't emphasize a similarity between the two paintings.",
+    "B": "Choice B is incorrect. While the sentence acknowledges that one painting was inspired by the other, it emphasizes differences between the two paintings; it doesn't emphasize a similarity between them.",
+    "D": "Choice D is incorrect. The sentence mentions a difference between the two paintings; it doesn't emphasize a similarity between them."
+  }
+}

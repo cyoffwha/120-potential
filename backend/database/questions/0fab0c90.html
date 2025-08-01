@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 0fab0c90</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>The Gullah are a group of African Americans who have lived in parts of the southeastern United States since the 18th century.</li>
+<li>Gullah culture is influenced by West African and Central African traditions.</li>
+<li>Louise Miller Cohen is a Gullah historian, storyteller, and preservationist.</li>
+<li>She founded the Gullah Museum of Hilton Head Island, South Carolina, in 2003.</li>
+<li>Vermelle Rodrigues is a Gullah historian, artist, and preservationist.</li>
+<li>She founded the Gullah Museum of Georgetown, South Carolina, in 2003.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to emphasize the duration and purpose of Cohen&rsquo;s and Rodrigues&rsquo;s work. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>At the Gullah Museums in Hilton Head Island and Georgetown, South Carolina, visitors can learn more about the Gullah people who have lived in the region for centuries.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Louise Miller Cohen and Vermelle Rodrigues have worked to preserve the culture of the Gullah people, who have lived in the United States since the 18th century.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Since 2003, Louise Miller Cohen and Vermelle Rodrigues have worked to preserve Gullah culture through their museums.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Influenced by the traditions of West and Central Africa, Gullah culture developed in parts of the southeastern United States in the 18th century.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The sentence emphasizes both the duration (the length of time) and the purpose of Cohen&rsquo;s and Rodrigues&rsquo;s work by noting that the women have been working since 2003 to preserve Gullah culture.&nbsp;</p><p>Choice A is incorrect. While the sentence emphasizes what visitors to Cohen&rsquo;s and Rodrigues&rsquo;s museums can learn, it doesn&rsquo;t mention the duration or purpose of the women&rsquo;s work. Choice B is incorrect. While the sentence emphasizes the purpose of Cohen&rsquo;s and Rodrigues&rsquo;s work, it doesn&rsquo;t mention the duration of that work (the length of time the women have been working to preserve Gullah culture).&nbsp;Choice D is incorrect. While the sentence emphasizes where and when Gullah culture developed, it doesn&rsquo;t mention the duration or purpose of Cohen&rsquo;s and Rodrigues&rsquo;s work. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">630 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eAt the Gullah Museums in Hilton Head Island and Georgetown, South Carolina, visitors can learn more about the Gullah people who have lived in the region for centuries.\u003c/p\u003e", "id": "407e51f8-9343-4cf4-bdab-53c8154a98f5"}, {"content": "\u003cp\u003eLouise Miller Cohen and Vermelle Rodrigues have worked to preserve the culture of the Gullah people, who have lived in the United States since the 18th century.\u003c/p\u003e", "id": "2e4c1232-9256-4dee-98d3-c9797079affb"}, {"content": "\u003cp\u003eSince 2003, Louise Miller Cohen and Vermelle Rodrigues have worked to preserve Gullah culture through their museums.\u003c/p\u003e", "id": "6e97d429-2a09-4d4d-8594-9dbeddf666b2"}, {"content": "\u003cp\u003eInfluenced by the traditions of West and Central Africa, Gullah culture developed in parts of the southeastern United States in the 18th century.\u003c/p\u003e", "id": "531b4a30-781a-41c8-8ae3-a5fc204030b5"}], "correct_answer": ["C"], "externalid": "d245bdf2-d209-40aa-a94a-fd9d8eac1fd6", "keys": ["6e97d429-2a09-4d4d-8594-9dbeddf666b2"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-709-SYN", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The sentence emphasizes both the duration (the length of time) and the purpose of Cohen\u0026rsquo;s and Rodrigues\u0026rsquo;s work by noting that the women have been working since 2003 to preserve Gullah culture.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect. While the sentence emphasizes what visitors to Cohen\u0026rsquo;s and Rodrigues\u0026rsquo;s museums can learn, it doesn\u0026rsquo;t mention the duration or purpose of the women\u0026rsquo;s work. Choice B is incorrect. While the sentence emphasizes the purpose of Cohen\u0026rsquo;s and Rodrigues\u0026rsquo;s work, it doesn\u0026rsquo;t mention the duration of that work (the length of time the women have been working to preserve Gullah culture).\u0026nbsp;Choice D is incorrect. While the sentence emphasizes where and when Gullah culture developed, it doesn\u0026rsquo;t mention the duration or purpose of Cohen\u0026rsquo;s and Rodrigues\u0026rsquo;s work. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to emphasize the duration and purpose of Cohen\u0026rsquo;s and Rodrigues\u0026rsquo;s work. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eThe Gullah are a group of African Americans who have lived in parts of the southeastern United States since the 18th century.\u003c/li\u003e\n\u003cli\u003eGullah culture is influenced by West African and Central African traditions.\u003c/li\u003e\n\u003cli\u003eLouise Miller Cohen is a Gullah historian, storyteller, and preservationist.\u003c/li\u003e\n\u003cli\u003eShe founded the Gullah Museum of Hilton Head Island, South Carolina, in 2003.\u003c/li\u003e\n\u003cli\u003eVermelle Rodrigues is a Gullah historian, artist, and preservationist.\u003c/li\u003e\n\u003cli\u003eShe founded the Gullah Museum of Georgetown, South Carolina, in 2003.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "c86121d5-5b81-4ebc-9975-7c2683665879", "templateclustername": "", "type": "mcq", "vaultid": "bee4d55f-256e-4004-a547-6516049f6177"}, "createDate": 1691007959348, "difficulty": "H", "external_id": "d245bdf2-d209-40aa-a94a-fd9d8eac1fd6", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "0fab0c90", "score_band_range_cd": 6, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "780e53df-e0b6-4419-b5f1-9acc54b1709d", "updateDate": 1691007959348};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-0fab0c90");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

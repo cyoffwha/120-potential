@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 3d91c973</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Mosasaurs were large marine reptiles that lived in the Late Cretaceous period, approximately 100 million to 66 million years ago. Celina Suarez, Alberto P&eacute;rez-Huerta, and T. Lynn Harrell Jr. examined oxygen-18 isotopes in mosasaur tooth enamel in order to calculate likely mosasaur body temperatures and determined that mosasaurs were endothermic&mdash;that is, they used internal metabolic processes to maintain a stable body temperature in a variety of ambient temperatures. Suarez, P&eacute;rez-Huerta, and Harrell claim that endothermy would have enabled mosasaurs to include relatively cold polar waters in their range.</p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most directly support Suarez, P&eacute;rez-Huerta, and Harrell&rsquo;s claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Mosasaurs&rsquo; likely body temperatures are easier to determine from tooth enamel oxygen-18 isotope data than the body temperatures of nonendothermic Late Cretaceous marine reptiles are.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Fossils of both mosasaurs and nonendothermic marine reptiles have been found in roughly equal numbers in regions known to be near the poles during the Late Cretaceous, though in lower concentrations than elsewhere.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Several mosasaur fossils have been found in regions known to be near the poles during the Late Cretaceous, while relatively few fossils of nonendothermic marine reptiles have been found in those locations.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>During the Late Cretaceous, seawater temperatures were likely higher throughout mosasaurs&rsquo; range, including near the poles, than seawater temperatures at those same latitudes are today.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it presents the finding that, if true, would best support Suarez, P&eacute;rez-Huerta, and Harrell&rsquo;s claim about mosasaurs. The text states that Suarez, P&eacute;rez-Huerta, and Harrell&rsquo;s research on mosasaur tooth enamel led them to conclude that mosasaurs were endothermic, which means that they could live in waters at many different temperatures and still maintain a stable body temperature. The researchers claim that endothermy enabled mosasaurs to live in relatively cold waters near the poles. If several mosasaur fossils have been found in areas that were near the poles during the period when mosasaurs were alive and fossils of nonendothermic marine reptiles are rare in such locations, that would support the researchers&rsquo; claim: it would show that mosasaurs inhabited polar waters but nonendothermic marine mammals tended not to, suggesting that endothermy may have been the characteristic that enabled mosasaurs to include polar waters in their range. </p><p>Choice A is incorrect because finding that it&rsquo;s easier to determine mosasaur body temperatures from tooth enamel data than it is to determine nonendothermic reptile body temperatures wouldn&rsquo;t support the researchers&rsquo; claim. Whether one research process is more difficult than another indicates nothing about the results of those processes and therefore is irrelevant to the issue of where mosasaurs lived and what enabled them to live in those locations.&nbsp;
+&nbsp;Choice B is incorrect because finding roughly equal numbers of mosasaur and nonendothermic marine reptile fossils in areas that were near the poles in the Late Cretaceous would suggest that endothermy didn&rsquo;t give mosasaurs any particular advantage when it came to expanding their range to include relatively cold polar waters, thereby weakening the researchers&rsquo; claim rather than supporting it. Choice D is incorrect because finding that the temperature of seawater in the Late Cretaceous was warmer than seawater today wouldn&rsquo;t weaken the researchers&rsquo; claim. Seawater in the Late Cretaceous could have been warmer than seawater today but still cold enough for endothermy to be advantageous to mosasaurs, so this finding wouldn&rsquo;t provide enough information to either support or weaken the researchers&rsquo; claim. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">23 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eMosasaurs\u0026rsquo; likely body temperatures are easier to determine from tooth enamel oxygen-18 isotope data than the body temperatures of nonendothermic Late Cretaceous marine reptiles are.\u003c/p\u003e", "id": "7131ae0e-67cf-4bf7-8e11-e3b11f8d8108"}, {"content": "\u003cp\u003eFossils of both mosasaurs and nonendothermic marine reptiles have been found in roughly equal numbers in regions known to be near the poles during the Late Cretaceous, though in lower concentrations than elsewhere.\u003c/p\u003e", "id": "ef14ca93-169a-4a44-bf1a-d1a85b1596d0"}, {"content": "\u003cp\u003eSeveral mosasaur fossils have been found in regions known to be near the poles during the Late Cretaceous, while relatively few fossils of nonendothermic marine reptiles have been found in those locations.\u0026nbsp;\u003c/p\u003e", "id": "c79b3f8a-9989-472c-bc2b-95a5b7eb2617"}, {"content": "\u003cp\u003eDuring the Late Cretaceous, seawater temperatures were likely higher throughout mosasaurs\u0026rsquo; range, including near the poles, than seawater temperatures at those same latitudes are today.\u0026nbsp;\u003c/p\u003e", "id": "1bef58db-8fc0-42ec-b481-2439dcbba94e"}], "correct_answer": ["C"], "externalid": "f445072c-007e-485c-a469-b2b4bee641b3", "keys": ["c79b3f8a-9989-472c-bc2b-95a5b7eb2617"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-311-TXT", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it presents the finding that, if true, would best support Suarez, P\u0026eacute;rez-Huerta, and Harrell\u0026rsquo;s claim about mosasaurs. The text states that Suarez, P\u0026eacute;rez-Huerta, and Harrell\u0026rsquo;s research on mosasaur tooth enamel led them to conclude that mosasaurs were endothermic, which means that they could live in waters at many different temperatures and still maintain a stable body temperature. The researchers claim that endothermy enabled mosasaurs to live in relatively cold waters near the poles. If several mosasaur fossils have been found in areas that were near the poles during the period when mosasaurs were alive and fossils of nonendothermic marine reptiles are rare in such locations, that would support the researchers\u0026rsquo; claim: it would show that mosasaurs inhabited polar waters but nonendothermic marine mammals tended not to, suggesting that endothermy may have been the characteristic that enabled mosasaurs to include polar waters in their range. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because finding that it\u0026rsquo;s easier to determine mosasaur body temperatures from tooth enamel data than it is to determine nonendothermic reptile body temperatures wouldn\u0026rsquo;t support the researchers\u0026rsquo; claim. Whether one research process is more difficult than another indicates nothing about the results of those processes and therefore is irrelevant to the issue of where mosasaurs lived and what enabled them to live in those locations.\u0026nbsp;\n\u0026nbsp;Choice B is incorrect because finding roughly equal numbers of mosasaur and nonendothermic marine reptile fossils in areas that were near the poles in the Late Cretaceous would suggest that endothermy didn\u0026rsquo;t give mosasaurs any particular advantage when it came to expanding their range to include relatively cold polar waters, thereby weakening the researchers\u0026rsquo; claim rather than supporting it. Choice D is incorrect because finding that the temperature of seawater in the Late Cretaceous was warmer than seawater today wouldn\u0026rsquo;t weaken the researchers\u0026rsquo; claim. Seawater in the Late Cretaceous could have been warmer than seawater today but still cold enough for endothermy to be advantageous to mosasaurs, so this finding wouldn\u0026rsquo;t provide enough information to either support or weaken the researchers\u0026rsquo; claim. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most directly support Suarez, P\u0026eacute;rez-Huerta, and Harrell\u0026rsquo;s claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eMosasaurs were large marine reptiles that lived in the Late Cretaceous period, approximately 100 million to 66 million years ago. Celina Suarez, Alberto P\u0026eacute;rez-Huerta, and T. Lynn Harrell Jr. examined oxygen-18 isotopes in mosasaur tooth enamel in order to calculate likely mosasaur body temperatures and determined that mosasaurs were endothermic\u0026mdash;that is, they used internal metabolic processes to maintain a stable body temperature in a variety of ambient temperatures. Suarez, P\u0026eacute;rez-Huerta, and Harrell claim that endothermy would have enabled mosasaurs to include relatively cold polar waters in their range.\u003c/p\u003e", "templateclusterid": "babb6095-3b3c-4dda-986e-620490c204d1", "templateclustername": "", "type": "mcq", "vaultid": "5568d3fc-cafd-4223-948f-df6f11e51500"}, "createDate": 1691007959335, "difficulty": "H", "external_id": "f445072c-007e-485c-a469-b2b4bee641b3", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "3d91c973", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "1299a1b8-11f3-457d-a6e1-0b81596c5a1f", "updateDate": 1691007959335};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-3d91c973");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

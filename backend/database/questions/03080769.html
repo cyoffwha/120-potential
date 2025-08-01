@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 03080769</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><strong><span role="heading" aria-level="2">Text 1</span></strong></p>
+<p>Philosopher G.E. Moore&rsquo;s most influential work entails the concept of common sense. He asserts that there are certain beliefs that all people, including philosophers, know instinctively to be true, whether or not they profess otherwise: among them, that they have bodies, or that they exist in a world with other objects that have three dimensions. Moore&rsquo;s careful work on common sense may seem obvious but was in fact groundbreaking.</p>
+<p>&nbsp;</p>
+<p><strong><span role="heading" aria-level="2">Text 2</span></strong></p>
+<p>External world skepticism is a philosophical stance supposing that we cannot be sure of the existence of anything outside our own minds. During a lecture, G.E. Moore once offered a proof refuting this stance by holding out his hands and saying, &ldquo;Here is one hand, and here is another.&rdquo; Many philosophers reflexively reject this proof (Annalisa Coliva called it &ldquo;an obviously annoying failure&rdquo;) but have found it a challenge to articulate exactly why the proof fails.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, how would the author of Text 1 most likely respond to proponents of the philosophical stance outlined in Text 2?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By agreeing with those proponents that Moore&rsquo;s treatment of positions that contradict his own is fundamentally unserious</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By suggesting that an instinctive distaste for Moore&rsquo;s position is preventing external world skeptics from constructing a sufficiently rigorous refutation of Moore</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By arguing that if it is valid to assert that some facts are true based on instinct, it is also valid to assert that some proofs are inadequate based on instinct</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By pointing out that Moore would assert that external world skepticism is at odds with other beliefs those proponents must unavoidably hold</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. According to the author of Text 1, Moore&rsquo;s definition of common sense&mdash;things we instinctively know are true&mdash;includes the belief that we all &ldquo;exist in a world with other objects.&rdquo; The author of Text 1 describes this notion as both &ldquo;obvious&rdquo; and &ldquo;groundbreaking.&rdquo; &nbsp;So it&rsquo;s safe to infer that the author would observe that Moore would respond to external world skeptics by arguing that since everyone instinctively knows that things exist outside of their own minds, then external world skepticism must be wrong. </p><p>Choice A is incorrect. We can&rsquo;t infer that the author of Text 1 would respond this way to external world skeptics. If anything, the author of Text 1 seems to agree with Moore. Choice B is incorrect. We can&rsquo;t infer that the author of Text 1 would respond this way to external world skeptics. The author of Text 1 never mentions external world skeptics directly, let alone why they have a hard time refuting Moore&rsquo;s position. Choice C is incorrect. We can&rsquo;t infer that the author of Text 1 would respond this way to external world skeptics. Text 1&rsquo;s presentation of Moore&rsquo;s concept of common sense only includes the idea that some facts are true based on instinct&mdash;it doesn&rsquo;t mention the idea that some proofs are inadequate based on instinct. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">434 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eBy agreeing with those proponents that Moore\u0026rsquo;s treatment of positions that contradict his own is fundamentally unserious\u003c/p\u003e", "id": "2ea4b998-90ce-4ceb-be59-9166d28a7ece"}, {"content": "\u003cp\u003eBy suggesting that an instinctive distaste for Moore\u0026rsquo;s position is preventing external world skeptics from constructing a sufficiently rigorous refutation of Moore\u003c/p\u003e", "id": "599bcd5b-6824-4400-a274-c949734d947c"}, {"content": "\u003cp\u003eBy arguing that if it is valid to assert that some facts are true based on instinct, it is also valid to assert that some proofs are inadequate based on instinct\u003c/p\u003e", "id": "4e04833a-e3cc-4c39-96ed-72c2921c02c4"}, {"content": "\u003cp\u003eBy pointing out that Moore would assert that external world skepticism is at odds with other beliefs those proponents must unavoidably hold\u003c/p\u003e", "id": "157f737c-18f9-4708-84ed-f020dea22959"}], "correct_answer": ["D"], "externalid": "c232aa2c-2e8a-487c-9daa-505a57ba1aab", "keys": ["157f737c-18f9-4708-84ed-f020dea22959"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-H002", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. According to the author of Text 1, Moore\u0026rsquo;s definition of common sense\u0026mdash;things we instinctively know are true\u0026mdash;includes the belief that we all \u0026ldquo;exist in a world with other objects.\u0026rdquo; The author of Text 1 describes this notion as both \u0026ldquo;obvious\u0026rdquo; and \u0026ldquo;groundbreaking.\u0026rdquo; \u0026nbsp;So it\u0026rsquo;s safe to infer that the author would observe that Moore would respond to external world skeptics by arguing that since everyone instinctively knows that things exist outside of their own minds, then external world skepticism must be wrong. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. We can\u0026rsquo;t infer that the author of Text 1 would respond this way to external world skeptics. If anything, the author of Text 1 seems to agree with Moore. Choice B is incorrect. We can\u0026rsquo;t infer that the author of Text 1 would respond this way to external world skeptics. The author of Text 1 never mentions external world skeptics directly, let alone why they have a hard time refuting Moore\u0026rsquo;s position. Choice C is incorrect. We can\u0026rsquo;t infer that the author of Text 1 would respond this way to external world skeptics. Text 1\u0026rsquo;s presentation of Moore\u0026rsquo;s concept of common sense only includes the idea that some facts are true based on instinct\u0026mdash;it doesn\u0026rsquo;t mention the idea that some proofs are inadequate based on instinct. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, how would the author of Text 1 most likely respond to proponents of the philosophical stance outlined in Text 2?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cstrong\u003e\u003cspan role=\"heading\" aria-level=\"2\"\u003eText 1\u003c/span\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003ePhilosopher G.E. Moore\u0026rsquo;s most influential work entails the concept of common sense. He asserts that there are certain beliefs that all people, including philosophers, know instinctively to be true, whether or not they profess otherwise: among them, that they have bodies, or that they exist in a world with other objects that have three dimensions. Moore\u0026rsquo;s careful work on common sense may seem obvious but was in fact groundbreaking.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e\u003cspan role=\"heading\" aria-level=\"2\"\u003eText 2\u003c/span\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eExternal world skepticism is a philosophical stance supposing that we cannot be sure of the existence of anything outside our own minds. During a lecture, G.E. Moore once offered a proof refuting this stance by holding out his hands and saying, \u0026ldquo;Here is one hand, and here is another.\u0026rdquo; Many philosophers reflexively reject this proof (Annalisa Coliva called it \u0026ldquo;an obviously annoying failure\u0026rdquo;) but have found it a challenge to articulate exactly why the proof fails.\u003c/p\u003e", "templateclusterid": "6e6128b9-e855-498a-9e58-91fa6fbf9a71", "templateclustername": "", "type": "mcq", "vaultid": "f9ad26c4-6d32-4052-a8be-afa81411f387"}, "createDate": 1691007959365, "difficulty": "M", "external_id": "c232aa2c-2e8a-487c-9daa-505a57ba1aab", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "03080769", "score_band_range_cd": 5, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "9b42bfd5-b42d-408e-9328-d7f4540e32ab", "updateDate": 1691007959365};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-03080769");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

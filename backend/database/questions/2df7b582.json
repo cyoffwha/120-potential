@@ -1,0 +1,22 @@
+{
+  "question_id": "2df7b582",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Plato believed material objects to be crude representations of unseen ideal forms. In his view, such abstract, nonmaterial forms are the ultimate source of knowledge. Aristotle disagreed, positing that knowledge is best obtained through direct engagement with the material world; ______ blank sensory experience of the material is the ultimate source of knowledge.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "regardless,",
+    "admittedly,",
+    "in other words,",
+    "meanwhile,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"In other words\" logically signals that the claim about sensory experience that follows—that sensory experience is the source of knowledge—is a restatement of Aristotle's theory from earlier in the sentence.",
+    "A": "Choice A is incorrect because \"regardless\" illogically signals that the claim about sensory experience that follows is true in spite of Aristotle's theory from earlier in the sentence. Instead, this claim is a restatement of his theory.",
+    "B": "Choice B is incorrect because \"admittedly\" illogically signals that the claim about sensory experience that follows is an exception to Aristotle's theory from earlier in the sentence. Instead, this claim is a restatement of his theory.",
+    "D": "Choice D is incorrect because \"meanwhile\" illogically signals that the claim about sensory experience that follows is separate from (while occurring simultaneously with) Aristotle's theory from earlier in the sentence. Instead, this claim is a restatement of his theory."
+  }
+}

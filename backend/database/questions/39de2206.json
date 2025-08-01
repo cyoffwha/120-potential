@@ -1,0 +1,22 @@
+{
+  "question_id": "39de2206",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The Post Office is a 1912 play by Rabindranath Tagore, originally written in Bengali. The character Amal is a young boy who imagines that the people he sees passing the window of his home are carefree even when engaged in work or chores, as is evident when he says to the daughter of a flower seller, ______ blank",
+  "question_text": "Which quotation from  The Post Office  most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;I see, you don&rsquo;t wish to stop; I don&rsquo;t care to stay on here either.&rdquo;",
+    "&ldquo;Oh, flower gathering? That is why your feet seem so glad and your anklets jingle so merrily as you walk.&rdquo;",
+    "&ldquo;I&rsquo;ll pay when I grow up&mdash;before I leave to look for work out on the other side of that stream there.&rdquo;",
+    "&ldquo;Wish I could be out too. Then I would pick some flowers for you from the very topmost branches right out of sight.&rdquo;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most effectively illustrates the claim that Amal imagines the people he sees are carefree even when engaged in work. In the quotation, Amal observes that the flower seller's daughter is \"flower gathering,\" or working, as the text indicates. Moreover, Amal notes that the daughter's feet \"seem so glad\" and her \"anklets jingle so merrily,\" suggesting that Amal believes that the flower seller's daughter is cheerful.",
+    "A": "Choice A is incorrect because the quotation makes no observation about the cheerful mood of the flower seller's daughter.",
+    "C": "Choice C is incorrect because the quotation discusses how Amal envisions his future, not the feelings of the flower seller's daughter.",
+    "D": "Choice D is incorrect because the quotation discusses Amal's wishes, not the feelings of the flower seller's daughter."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "5cc85f01",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "A conceptual artist and designer embraced by both the art world and the fashion ______ blank Mary Ping was chosen to curate the exhibition Front Row: Chinese American Designers for the Museum of Chinese in America.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "world",
+    "world:",
+    "world;",
+    "world,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation between a supplementary phrase and a main clause. This choice correctly uses a comma to mark the boundary between the supplementary phrase (\"A conceptual artist&hellip;world\"), which describes Mary Ping, and the main clause (\"Mary&hellip;America\").",
+    "A": "Choice A is incorrect because it fails to mark the boundary between the supplementary phrase (\"A conceptual artist&hellip;world\") and the main clause (\"Mary&hellip;America\") with appropriate punctuation.",
+    "B": "Choice B is incorrect because a colon can't be used in this way to join the supplementary phrase (\"A conceptual artist&hellip;world\") and the main clause (\"Mary&hellip;America\"). In this context, the colon incorrectly suggests that the information in the supplementary phrase is an explanation or amplification of the information in the main clause (Mary Ping being chosen to curate the exhibition), which isn't the case.",
+    "C": "Choice C is incorrect because a semicolon can't be used in this way to join the supplementary phrase (\"A conceptual artist&hellip;world\") and the main clause (\"Mary&hellip;America\"). Semicolons are conventionally used to separate two main clauses or to separate items in a complex series."
+  }
+}

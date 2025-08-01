@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 5632ffb4</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In a study of the cognitive abilities of white-faced capuchin monkeys (<em>Cebus imitator</em>), researchers neglected to control for the physical difficulty of the tasks they used to evaluate the monkeys. The cognitive abilities of monkeys given problems requiring little dexterity, such as sliding a panel to retrieve food, were judged by the same criteria as were those of monkeys given physically demanding problems, such as unscrewing a bottle and inserting a straw. The results of the study, therefore, <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>could suggest that there are differences in cognitive ability among the monkeys even though such differences may not actually exist.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>are useful for identifying tasks that the monkeys lack the cognitive capacity to perform but not for identifying tasks that the monkeys can perform.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>should not be taken as indicative of the cognitive abilities of any monkey species other than <em>C. imitator</em>.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>reveal more about the monkeys&rsquo; cognitive abilities when solving artificial problems than when solving problems encountered in the wild.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it presents the conclusion that most logically follows from the text&rsquo;s discussion of the study of capuchin monkeys&rsquo; cognitive abilities. The text explains that the study failed to distinguish between outcomes for the tasks performed by the capuchin monkeys, such that simpler tasks requiring less dexterity, or skill, were judged by the same criteria as tasks that demanded more dexterity. Because the study didn&rsquo;t account for this discrepancy, the researchers might have assumed that observed differences in performance were due to the abilities of the monkeys rather than the complexity of the tasks. In other words, the results may suggest cognitive differences among the monkeys even though such differences may not really exist. </p><p>Choice B is incorrect because the text focuses on the fact that the tasks assigned to the capuchin monkeys in the study varied in difficulty and that the variety wasn&rsquo;t taken into consideration. The text doesn&rsquo;t suggest that the capuchin monkeys couldn&rsquo;t perform certain tasks, just that some tasks were more difficult to do. Choice C is incorrect because the text doesn&rsquo;t suggest that the study&rsquo;s results are indicative of the abilities of capuchin monkeys but not of other monkey species; in fact, the text suggests that the results may not even be an accurate reflection of capuchin monkeys&rsquo; abilities.&nbsp;Choice D is incorrect because the text doesn&rsquo;t indicate that the researchers compared results for artificial tasks with those for tasks encountered in the wild, although the tasks described in the text&mdash;sliding a panel and putting a straw in a bottle&mdash;are presumably artificial. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">184 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ecould suggest that there are differences in cognitive ability among the monkeys even though such differences may not actually exist.\u003c/p\u003e", "id": "8265ee70-5ae7-4047-bc96-737065e0c7bc"}, {"content": "\u003cp\u003eare useful for identifying tasks that the monkeys lack the cognitive capacity to perform but not for identifying tasks that the monkeys can perform.\u0026nbsp;\u003c/p\u003e", "id": "f16c5577-f94d-4fab-af05-fff7c259ec17"}, {"content": "\u003cp\u003eshould not be taken as indicative of the cognitive abilities of any monkey species other than \u003cem\u003eC. imitator\u003c/em\u003e.\u003c/p\u003e", "id": "1de2a19a-5ff6-41bd-8a61-9f9ffca96203"}, {"content": "\u003cp\u003ereveal more about the monkeys\u0026rsquo; cognitive abilities when solving artificial problems than when solving problems encountered in the wild.\u003c/p\u003e", "id": "1fbcdc2f-19d5-4c5f-b1fb-a3f34cc8dff6"}], "correct_answer": ["A"], "externalid": "f0e2a006-14c8-4c8a-948b-c193476d843a", "keys": ["8265ee70-5ae7-4047-bc96-737065e0c7bc"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-002-INF", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it presents the conclusion that most logically follows from the text\u0026rsquo;s discussion of the study of capuchin monkeys\u0026rsquo; cognitive abilities. The text explains that the study failed to distinguish between outcomes for the tasks performed by the capuchin monkeys, such that simpler tasks requiring less dexterity, or skill, were judged by the same criteria as tasks that demanded more dexterity. Because the study didn\u0026rsquo;t account for this discrepancy, the researchers might have assumed that observed differences in performance were due to the abilities of the monkeys rather than the complexity of the tasks. In other words, the results may suggest cognitive differences among the monkeys even though such differences may not really exist. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because the text focuses on the fact that the tasks assigned to the capuchin monkeys in the study varied in difficulty and that the variety wasn\u0026rsquo;t taken into consideration. The text doesn\u0026rsquo;t suggest that the capuchin monkeys couldn\u0026rsquo;t perform certain tasks, just that some tasks were more difficult to do. Choice C is incorrect because the text doesn\u0026rsquo;t suggest that the study\u0026rsquo;s results are indicative of the abilities of capuchin monkeys but not of other monkey species; in fact, the text suggests that the results may not even be an accurate reflection of capuchin monkeys\u0026rsquo; abilities.\u0026nbsp;Choice D is incorrect because the text doesn\u0026rsquo;t indicate that the researchers compared results for artificial tasks with those for tasks encountered in the wild, although the tasks described in the text\u0026mdash;sliding a panel and putting a straw in a bottle\u0026mdash;are presumably artificial. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn a study of the cognitive abilities of white-faced capuchin monkeys (\u003cem\u003eCebus imitator\u003c/em\u003e), researchers neglected to control for the physical difficulty of the tasks they used to evaluate the monkeys. The cognitive abilities of monkeys given problems requiring little dexterity, such as sliding a panel to retrieve food, were judged by the same criteria as were those of monkeys given physically demanding problems, such as unscrewing a bottle and inserting a straw. The results of the study, therefore, \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "8704a615-4a30-483a-86fc-2d4ffafa6d61", "templateclustername": "", "type": "mcq", "vaultid": "171d3f94-ce35-4de4-82a9-c4b91eb2e087"}, "createDate": 1691007959311, "difficulty": "H", "external_id": "f0e2a006-14c8-4c8a-948b-c193476d843a", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "5632ffb4", "score_band_range_cd": 7, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "988cb511-3d68-453b-9c85-bfe16c86c04c", "updateDate": 1691007959311};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-5632ffb4");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

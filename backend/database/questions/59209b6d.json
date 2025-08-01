@@ -1,0 +1,22 @@
+{
+  "question_id": "59209b6d",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Based on genetic evidence, archaeologists have generally agreed that reindeer domestication began in the eleventh century CE. However, since uncovering fragments of a 2,000-year-old reindeer training harness in northern Siberia, ______ blank may have begun much earlier.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "researcher Robert Losey has argued that domestication&nbsp;",
+    "researcher Robert Losey&rsquo;s argument is that domestication",
+    "domestication, researcher Robert Losey has argued,",
+    "the argument researcher Robert Losey has made is that domestication"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase \"researcher Robert Losey\" the subject of the sentence and places it immediately after the modifying phrase \"since&hellip;Siberia.\" In doing so, this choice clearly establishes that researcher Robert Losey—and not another noun in the sentence—is who uncovered fragments of a 2,000-year-old reindeer training harness in northern Siberia.",
+    "B": "Choice B is incorrect because it results in a dangling modifier. The placement of the noun phrase \"researcher Robert Losey's argument\" immediately after the modifying phrase illogically suggests that the \"argument\" is what uncovered fragments of a 2,000-year-old reindeer training harness in northern Siberia.",
+    "C": "Choice C is incorrect because it results in a dangling modifier. The placement of the noun \"domestication\" immediately after the modifying phrase illogically suggests that \"domestication\" is what uncovered fragments of a 2,000-year-old reindeer training harness in northern Siberia.",
+    "D": "Choice D is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the argument\" immediately after the modifying phrase illogically suggests that the \"argument\" is what uncovered fragments of a 2,000-year-old reindeer training harness in northern Siberia."
+  }
+}

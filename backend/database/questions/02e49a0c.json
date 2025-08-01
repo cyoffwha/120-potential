@@ -1,0 +1,22 @@
+{
+  "question_id": "02e49a0c",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Genetic studies have led researchers to suggest that turtles are most closely related to the group that includes modern crocodiles. But studies of fossils have suggested instead that turtles are most closely related to other groups, such as the one that contains modern snakes. However, many of the fossil studies have relied on incomplete data sets. For a 2022 investigation, biologist Tiago R. Sim&otilde;es and colleagues examined more than 1,000 reptile fossils collected worldwide. From this large data set, they found clear agreement with the results of the genetic studies.",
+  "question_text": "Which choice best describes the function of the underlined sentence?",
+  "answer_options": [
+    "It offers an overview of the tools scientists use to examine fossils.",
+    "It describes a limitation of some studies about the origin of turtles.",
+    "It summarizes previous research on the evolution of crocodiles.",
+    "It criticizes a widely held belief about genetic studies of reptiles."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The sentence mentions that some fossil studies have relied on incomplete data sets, suggesting that these studies are limited in what they can tell us about turtles' origins.",
+    "A": "Choice A is incorrect. While the sentence mentions the incompleteness of the data sets studied, it doesn't mention any tools or techniques used to examine fossils.",
+    "C": "Choice C is incorrect. The sentence doesn't mention anything about the evolution of crocodiles.",
+    "D": "Choice D is incorrect. This sentence doesn't directly mention or criticize any \"widely held belief,\" and it focuses on a limitation of fossil studies of reptiles, not genetic studies."
+  }
+}

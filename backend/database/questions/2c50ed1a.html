@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 2c50ed1a</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><strong>Text 1</strong></p>
+<p>Literary scholars have struggled with the vastness of Nigerian writer Wole Soyinka&rsquo;s collective works of drama (spanning over 20 plays in total). It is best, however, to understand Soyinka&rsquo;s body of work as a dramatist chronologically. Soyinka&rsquo;s progression as a playwright can be considered to fall into three periods, with each one representing a particular thematic and stylistic cohesion: the 1960s, the two decades between 1970 and 1990, and lastly, from roughly 1990 onwards.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Text 2</strong>&nbsp;</p>
+<p>It is tempting to impose a linear sense of order on the expanse of Wole Soyinka&rsquo;s body of work as a dramatist. However, critics who have considered Soyinka&rsquo;s plays to fit neatly into three phases overlook potential commonalities in Soyinka&rsquo;s work that span across these phases. Additionally, this view may discount significant differences in the styles and content of plays written around the same time.&nbsp;</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes a difference in how the author of Text 1 and the author of Text 2 view the study of Soyinka&rsquo;s works of drama?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>While the author of Text 1 believes that thinking about Soyinka&rsquo;s works of theater in phases is useful, the author of Text 2 views such an approach as limiting.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Although the author of Text 1 claims that Soyinka&rsquo;s style as a dramatist has evolved over time, the author of Text 2 argues that Soyinka&rsquo;s style has remained consistent throughout his career.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The author of Text 1 considers Soyinka&rsquo;s plays to showcase his strongest writing, whereas the author of Text 2 believes that Soyinka&rsquo;s poetry is where he is most skilled.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The author of Text 1 argues that Soyinka&rsquo;s early plays were his most politically charged, whereas the author of Text 2 claims that Soyinka&rsquo;s most recent plays are the most politicized.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The author of Text 1 states that Soyinka&rsquo;s progression as a playwright can be considered to fall into three periods, implying that this is a helpful way to understand his works. The author of Text 2, on the other hand, challenges this view and says that it overlooks potential commonalities and differences in Soyinka&rsquo;s work across what Text 1 calls distinctive stylistic phases. </p><p>Choice B is incorrect. This choice overstates the central claim of Text 2. The author of Text 2 argues against the chronological progression supported in Text 1, but does not go so far as to say that Soyinka&rsquo;s style remained consistent. In fact, Text 2 points out &ldquo;significant differences in styles and content&rdquo; among Soyinka&rsquo;s plays. Choice C is incorrect. Neither of the texts mention Soyinka&rsquo;s poetry, nor do they rank his dramatic writing relative to his other work. Choice D is incorrect. Neither text discusses the political aspects of Soyinka&rsquo;s plays, nor do they make any claims about whether they have changed over time. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">453 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eWhile the author of Text 1 believes that thinking about Soyinka\u0026rsquo;s works of theater in phases is useful, the author of Text 2 views such an approach as limiting.\u003c/p\u003e", "id": "24dcc6b8-25c4-42b7-a68a-23f2af953123"}, {"content": "\u003cp\u003eAlthough the author of Text 1 claims that Soyinka\u0026rsquo;s style as a dramatist has evolved over time, the author of Text 2 argues that Soyinka\u0026rsquo;s style has remained consistent throughout his career.\u003c/p\u003e", "id": "91936ec9-09b7-4d6a-85c7-18447bdfc0d7"}, {"content": "\u003cp\u003eThe author of Text 1 considers Soyinka\u0026rsquo;s plays to showcase his strongest writing, whereas the author of Text 2 believes that Soyinka\u0026rsquo;s poetry is where he is most skilled.\u003c/p\u003e", "id": "86944d90-276f-4462-b9f4-0c468342a2e7"}, {"content": "\u003cp\u003eThe author of Text 1 argues that Soyinka\u0026rsquo;s early plays were his most politically charged, whereas the author of Text 2 claims that Soyinka\u0026rsquo;s most recent plays are the most politicized.\u003c/p\u003e", "id": "680cc798-ab81-4812-af52-4c16507edc89"}], "correct_answer": ["A"], "externalid": "1c5a0f46-361b-4d1f-9fd8-82df4dc8295a", "keys": ["24dcc6b8-25c4-42b7-a68a-23f2af953123"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-M005", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The author of Text 1 states that Soyinka\u0026rsquo;s progression as a playwright can be considered to fall into three periods, implying that this is a helpful way to understand his works. The author of Text 2, on the other hand, challenges this view and says that it overlooks potential commonalities and differences in Soyinka\u0026rsquo;s work across what Text 1 calls distinctive stylistic phases. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. This choice overstates the central claim of Text 2. The author of Text 2 argues against the chronological progression supported in Text 1, but does not go so far as to say that Soyinka\u0026rsquo;s style remained consistent. In fact, Text 2 points out \u0026ldquo;significant differences in styles and content\u0026rdquo; among Soyinka\u0026rsquo;s plays. Choice C is incorrect. Neither of the texts mention Soyinka\u0026rsquo;s poetry, nor do they rank his dramatic writing relative to his other work. Choice D is incorrect. Neither text discusses the political aspects of Soyinka\u0026rsquo;s plays, nor do they make any claims about whether they have changed over time. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes a difference in how the author of Text 1 and the author of Text 2 view the study of Soyinka\u0026rsquo;s works of drama?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eLiterary scholars have struggled with the vastness of Nigerian writer Wole Soyinka\u0026rsquo;s collective works of drama (spanning over 20 plays in total). It is best, however, to understand Soyinka\u0026rsquo;s body of work as a dramatist chronologically. Soyinka\u0026rsquo;s progression as a playwright can be considered to fall into three periods, with each one representing a particular thematic and stylistic cohesion: the 1960s, the two decades between 1970 and 1990, and lastly, from roughly 1990 onwards.\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eIt is tempting to impose a linear sense of order on the expanse of Wole Soyinka\u0026rsquo;s body of work as a dramatist. However, critics who have considered Soyinka\u0026rsquo;s plays to fit neatly into three phases overlook potential commonalities in Soyinka\u0026rsquo;s work that span across these phases. Additionally, this view may discount significant differences in the styles and content of plays written around the same time.\u0026nbsp;\u003c/p\u003e", "templateclusterid": "389bb76c-c4cf-45b7-a0d1-c2535357dc21", "templateclustername": "", "type": "mcq", "vaultid": "fc46b40b-1ff8-4364-87ac-74c4b388fb5e"}, "createDate": 1691007959366, "difficulty": "E", "external_id": "1c5a0f46-361b-4d1f-9fd8-82df4dc8295a", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "2c50ed1a", "score_band_range_cd": 3, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "ac8263c5-f0f6-4da3-9091-87cbce8aecb4", "updateDate": 1691007959366};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-2c50ed1a");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

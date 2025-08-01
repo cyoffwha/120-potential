@@ -1,0 +1,22 @@
+{
+  "question_id": "1469d23a",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Etel Adnan was a Lebanese American poet and artist known for making many leporellos. A leporello is an artist's book that is folded accordion style. When the book is expanded, the artist's work is revealed, and its zigzag shape allows it to stand on its own. Her leporello December from My Window (1993) features a panoramic landscape. It is painted using ink and watercolor. The student wants to describe Adnan's December from My Window to an audience already familiar with leporellos. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to describe Adnan&rsquo;s  December from My Window  to an audience already familiar with leporellos. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Featuring a panoramic landscape, the 1993 work is one of Adnan&rsquo;s many leporellos, which are accordion-style folded books that when expanded reveal the artist&rsquo;s work.",
+    "When expanded, Adnan&rsquo;s 1993 leporello  December from My Window  reveals a panoramic landscape painted in ink and watercolor.",
+    "Known for making many other accordion-style folded books called leporellos, Adnan created  December from My Window  in 1993.",
+    "A leporello, such as Adnan&rsquo;s  December from My Window , is folded accordion style, and due to its zigzag shape it is able to stand on its own when fully expanded.&nbsp;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. This choice describes Adnan's December from My Window in a way that assumes the audience is already familiar with leporellos and focuses on the specific features of the work—its content and medium.",
+    "A": "Choice A is incorrect. This choice isn't suited for an audience already familiar with leporellos. A familiar audience wouldn't need to have the term defined or explained.",
+    "C": "Choice C is incorrect. This choice doesn't describe Adnan's December from My Window . It mentions the year and the type of work but not the content or the medium. In addition, it provides a simple definition of leporellos, making this an inappropriate choice for an audience already familiar with leporellos.",
+    "D": "Choice D is incorrect. This choice isn't suited for an audience already familiar with leporellos. A familiar audience wouldn't need to have the term defined."
+  }
+}

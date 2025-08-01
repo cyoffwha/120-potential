@@ -1,0 +1,22 @@
+{
+  "question_id": "2b5f4bdc",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In the early 1900s, Jovita Id&aacute;r fought injustice on both sides of the Mexico–United States border. As a reporter for the Texas newspaper La Cr&oacute;nica, she voiced support for the Mexican people's revolt against authoritarian rule. ______ blank she founded the League of Mexican Women, a group that advocated for the rights of Mexican Americans.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Additionally,",
+    "In conclusion,",
+    "For example,",
+    "Rather,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because \"additionally\" logically signals that the information in this sentence—that Id&aacute;r founded the League of Mexican Women—is another instance of Id&aacute;r fighting injustice, this time advocating for the rights of Mexican Americans.",
+    "B": "Choice B is incorrect because \"in conclusion\" illogically signals that the information in this sentence sums up or concludes the discussion of Id&aacute;r's support for the Mexican people's revolt. Instead, the founding of the League of Mexican Women is a separate instance of Id&aacute;r fighting injustice.",
+    "C": "Choice C is incorrect because \"for example\" illogically signals that the information in this sentence is an example of how, as a newspaper reporter, Id&aacute;r voiced support for the Mexican people's revolt. Instead, the founding of the League of Mexican Women is a separate instance of Id&aacute;r fighting injustice, this time in support of Mexican Americans.",
+    "D": "Choice D is incorrect because \"rather\" illogically signals that the information in this sentence offers a contrast or exception to the previous information about Id&aacute;r's support for the Mexican people's revolt. Instead, the founding of the League of Mexican Women is a separate instance of Id&aacute;r fighting injustice."
+  }
+}

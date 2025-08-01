@@ -1,0 +1,22 @@
+{
+  "question_id": "26c8c88c",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "About 70,000 meteorites have been found on Earth. Although most meteorites are fragments of ______ blank hundred have been identified as being from the Moon or Mars.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "asteroids. Several",
+    "asteroids, several",
+    "asteroids; several",
+    "asteroids: several"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. This choice uses a comma to correctly separate the dependent clause \"although&hellip;asteroids\" from the independent clause \"several hundred have been&hellip;Mars.\"",
+    "A": "Choice A is incorrect. This choice results in a sentence fragment. \"Although&hellip;asteroids\" is a dependent clause. It can't stand on its own as a sentence, which means it can't end in a period.",
+    "C": "Choice C is incorrect. This choice results in a punctuation error. \"Although&hellip;asteroids\" is a dependent clause and can't be joined to the independent clause \"several hundred have been&hellip;Mars\" with a semicolon. A semicolon can only join two independent clauses.",
+    "D": "Choice D is incorrect. This choice creates a punctuation error. A colon can only come after an independent clause, but \"although&hellip;asteroids\" is a dependent clause."
+  }
+}

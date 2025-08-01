@@ -1,0 +1,22 @@
+{
+  "question_id": "00e0170f",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Magnetic levitation (maglev) trains are suspended above a track by powerful electromagnets, reducing friction and thus allowing for much faster speeds. Though maglev advocates in the US have long imagined these trains crisscrossing the country, their dream remains unrealized. ______ blank of the handful of maglev trains currently in operation, all are in Asia.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "In fact,",
+    "To that end,",
+    "Nevertheless,",
+    "That said,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This sentence emphasizes just how far maglev advocates' dreams are from coming true. \"In fact\" is a transition used to emphasize the truth of a statement that modifies the previous statement and therefore fits perfectly in this context.",
+    "B": "Choice B is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense here. Maglev advocates' dream remaining unrealized would not cause there to be only a few maglev trains, all located in Asia.",
+    "C": "Choice C is incorrect. This choice uses a disagreement transition, which doesn't make sense here. In fact, this sentence agrees with the previous sentence—both talk about how maglev trains are far from becoming common in the US.",
+    "D": "Choice D is incorrect. This choice uses a disagreement transition, which doesn't make sense here. In fact, this sentence agrees with the previous sentence—both talk about how maglev trains are far from becoming common in the US."
+  }
+}

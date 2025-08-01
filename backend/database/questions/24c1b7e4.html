@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 24c1b7e4</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Percentage Point Changes in US Federal Outlays Relative to GDP by Congressional Status</p></caption><thead><tr><th scope="col" style="text-align: center;vertical-align: bottom;">Period</th><th scope="col" style="text-align: center;vertical-align: bottom;">Congressional status</th><th scope="col" style="text-align: center;vertical-align: bottom;">Change in total outlays</th><th scope="col" style="text-align: center;vertical-align: bottom;">Change in nondefense outlays</th><th scope="col" style="text-align: center;vertical-align: bottom;">Change in defense outlays</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">1981&ndash;1988</th><td>divided</td><td style="text-align: center;">&minus;0.4</td><td style="text-align: center;">&minus;1.3</td><td style="text-align: center;">0.9</td></tr><tr><th scope="row" style="text-align: left;">1975&ndash;1976</th><td>divided</td><td style="text-align: center;">2.7</td><td style="text-align: center;">3.0</td><td style="text-align: center;">&minus;0.3</td></tr><tr><th scope="row" style="text-align: left;">1977&ndash;1980</th><td>undivided</td><td style="text-align: center;">0.3</td><td style="text-align: center;">0.6</td><td style="text-align: center;">&minus;0.3</td></tr><tr><th scope="row" style="text-align: left;">1964&ndash;1968</th><td>undivided</td><td style="text-align: center;">1.9</td><td style="text-align: center;">1.4</td><td style="text-align: center;">0.5</td></tr><tr><th scope="row" style="text-align: left;">1969&ndash;1974</th><td>divided</td><td style="text-align: center;">&minus;1.8</td><td style="text-align: center;">2.1</td><td style="text-align: center;">&minus;3.9</td></tr></tbody></table></figure></p>
+<p>Economist Steve H. Hanke has shown that divided US Congresses&mdash;which occur when one party holds the majority in the House of Representatives and another holds the majority in the Senate&mdash;tend to accompany reductions in total federal outlays (spending) relative to gross domestic product (GDP), which Hanke interprets to reflect decreases in government size. Hanke calculated the percentage point change in total outlays (encompassing nondefense and defense outlays) for consecutive US Congresses. Hanke has pointed to his calculations as evidence that <u>a divided Congress may be a &ldquo;necessary but not sufficient condition&rdquo; for a decrease in government size to occur</u>.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes data from the table that support the underlined claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The periods of undivided Congresses were associated with increases in nondefense outlays, whereas all the periods of divided Congresses except one were associated with reductions in defense outlays.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>All the periods of divided Congresses were associated with reductions in total outlays, although two periods were also associated with increases in nondefense outlays.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The periods of undivided Congresses were associated with increases in total outlays, whereas all the periods of divided Congresses were associated with reductions in either nondefense outlays or defense outlays.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>All the periods of divided Congresses except one were associated with reductions in total outlays, whereas the periods of undivided Congresses were associated with increases in total outlays.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The claim is that divided Congresses are necessary but insufficient&mdash;that is, we need divide Congresses, but they are not enough&mdash;to decrease government size, as measured by total federal outlays. This choice accurately expresses the supporting data from the &ldquo;change in total outlays&rdquo; part of the graph. Within the data set, divided Congresses sometimes decreased total outlays, but undivided ones never did. </p><p>Choice A is incorrect. The claim is only about government size, as measured by total federal outlays&mdash;defense and nondefense outlays aren&rsquo;t relevant. Choice B is incorrect. The claim is only about government size as measured by total federal outlays&mdash;nondefense outlays aren&rsquo;t relevant. Choice C is incorrect. The claim is only about government size as measured by total federal outlays&mdash;specific information about defense or nondefense outlays isn&rsquo;t relevant. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">270 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe periods of undivided Congresses were associated with increases in nondefense outlays, whereas all the periods of divided Congresses except one were associated with reductions in defense outlays.\u003c/p\u003e", "id": "c4b1da15-9f2c-4881-94e3-ff3d1748e3b1"}, {"content": "\u003cp\u003eAll the periods of divided Congresses were associated with reductions in total outlays, although two periods were also associated with increases in nondefense outlays.\u003c/p\u003e", "id": "bafb0b0e-8f19-45a8-95a1-227b2aebb029"}, {"content": "\u003cp\u003eThe periods of undivided Congresses were associated with increases in total outlays, whereas all the periods of divided Congresses were associated with reductions in either nondefense outlays or defense outlays.\u003c/p\u003e", "id": "1a7eb3db-0fe8-4c78-b4f9-ea4f0210e7b6"}, {"content": "\u003cp\u003eAll the periods of divided Congresses except one were associated with reductions in total outlays, whereas the periods of undivided Congresses were associated with increases in total outlays.\u003c/p\u003e", "id": "b8f9d611-4b72-483b-9685-4c556a869402"}], "correct_answer": ["D"], "externalid": "403a3013-0690-457d-bd78-5aba11ff4960", "keys": ["b8f9d611-4b72-483b-9685-4c556a869402"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-H005", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The claim is that divided Congresses are necessary but insufficient\u0026mdash;that is, we need divide Congresses, but they are not enough\u0026mdash;to decrease government size, as measured by total federal outlays. This choice accurately expresses the supporting data from the \u0026ldquo;change in total outlays\u0026rdquo; part of the graph. Within the data set, divided Congresses sometimes decreased total outlays, but undivided ones never did. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The claim is only about government size, as measured by total federal outlays\u0026mdash;defense and nondefense outlays aren\u0026rsquo;t relevant. Choice B is incorrect. The claim is only about government size as measured by total federal outlays\u0026mdash;nondefense outlays aren\u0026rsquo;t relevant. Choice C is incorrect. The claim is only about government size as measured by total federal outlays\u0026mdash;specific information about defense or nondefense outlays isn\u0026rsquo;t relevant. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes data from the table that support the underlined claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003ePercentage Point Changes in US Federal Outlays Relative to GDP by Congressional Status\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003ePeriod\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eCongressional status\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eChange in total outlays\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eChange in nondefense outlays\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center;vertical-align: bottom;\"\u003eChange in defense outlays\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e1981\u0026ndash;1988\u003c/th\u003e\u003ctd\u003edivided\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e\u0026minus;0.4\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e\u0026minus;1.3\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0.9\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e1975\u0026ndash;1976\u003c/th\u003e\u003ctd\u003edivided\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e2.7\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e3.0\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e\u0026minus;0.3\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e1977\u0026ndash;1980\u003c/th\u003e\u003ctd\u003eundivided\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0.3\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0.6\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e\u0026minus;0.3\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e1964\u0026ndash;1968\u003c/th\u003e\u003ctd\u003eundivided\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e1.9\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e1.4\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0.5\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e1969\u0026ndash;1974\u003c/th\u003e\u003ctd\u003edivided\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e\u0026minus;1.8\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e2.1\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e\u0026minus;3.9\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eEconomist Steve H. Hanke has shown that divided US Congresses\u0026mdash;which occur when one party holds the majority in the House of Representatives and another holds the majority in the Senate\u0026mdash;tend to accompany reductions in total federal outlays (spending) relative to gross domestic product (GDP), which Hanke interprets to reflect decreases in government size. Hanke calculated the percentage point change in total outlays (encompassing nondefense and defense outlays) for consecutive US Congresses. Hanke has pointed to his calculations as evidence that \u003cu\u003ea divided Congress may be a \u0026ldquo;necessary but not sufficient condition\u0026rdquo; for a decrease in government size to occur\u003c/u\u003e.\u003c/p\u003e", "templateclusterid": "7d0e1363-85e2-4ec9-be7a-ac0dae486935", "templateclustername": "", "type": "mcq", "vaultid": "48858465-66e6-4adf-a794-5041bf342b60"}, "createDate": 1691007959369, "difficulty": "H", "external_id": "403a3013-0690-457d-bd78-5aba11ff4960", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "24c1b7e4", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "e7dd0278-7234-4881-b399-9e34aab18408", "updateDate": 1691007959369};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-24c1b7e4");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

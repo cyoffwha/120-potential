@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 156ff681</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Many governments that regularly transfer money to individuals&mdash;to provide supplemental incomes for senior citizens, for example&mdash;have long done so electronically, but other countries typically have distributed physical money and have only recently developed electronic transfer infrastructure. Researchers studied the introduction of an electronic transfer system in one such location and found that recipients of electronic transfers consumed a different array of foods than recipients of physical transfers of the same amount did. One potential explanation for this result is that individuals conceive of and allocate funds in physical money differently than they conceive of and allocate funds in electronic form.&nbsp;</p></div>
+
+                        <div class="mt-3"><p>Which finding from the study, if true, would most directly weaken the potential explanation?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Recipients of electronic transfers typically spent their funds at a slower rate than recipients of physical transfers did.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Nearly every recipient of an electronic transfer withdrew the entire amount in physical money shortly after receiving the transfer.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Recipients of physical transfers tended to purchase food about as frequently as recipients of electronic transfers did.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Some recipients of physical transfers received small amounts of money relatively frequently, while others received large amounts relatively infrequently.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. This would weaken the explanation. If the recipients of electronic money immediately withdrew it all as physical money, then both kinds of recipients ended up spending physical money on food. So there must be some other explanation why those who initially received electronic money ate different kinds of food. </p><p>Choice A is incorrect. This wouldn&rsquo;t weaken the explanation. If anything, it actually supports it: it demonstrates that recipients of electronic money and recipients of physical money have different spending habits. Choice C is incorrect. This wouldn&rsquo;t weaken the explanation. The explanation we&rsquo;re testing this choice against is about the way that people might &ldquo;conceive of and allocate&rdquo; physical and electronic funds differently. This choice only focuses on the timing, not what they spend the money on. Choice D is incorrect. This would have no impact on the explanation. It doesn&rsquo;t tell us anything about possible differences between the spending habits of those who spend physical money and those who spend money electronically. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">103 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eRecipients of electronic transfers typically spent their funds at a slower rate than recipients of physical transfers did.\u0026nbsp;\u003c/p\u003e", "id": "663d1545-60f7-44a0-b9fa-070a976eaf9a"}, {"content": "\u003cp\u003eNearly every recipient of an electronic transfer withdrew the entire amount in physical money shortly after receiving the transfer.\u003c/p\u003e", "id": "3b7b5e46-cdef-4f6f-aa14-68b02bff86b4"}, {"content": "\u003cp\u003eRecipients of physical transfers tended to purchase food about as frequently as recipients of electronic transfers did.\u0026nbsp;\u003c/p\u003e", "id": "b46d4d63-1f63-4619-9d59-bd4f12ac3005"}, {"content": "\u003cp\u003eSome recipients of physical transfers received small amounts of money relatively frequently, while others received large amounts relatively infrequently.\u003c/p\u003e", "id": "ac7906a4-7c2a-4500-a9eb-f4161e07db75"}], "correct_answer": ["B"], "externalid": "f88c0e77-479a-4c8d-996f-c9b7d9e730d3", "keys": ["3b7b5e46-cdef-4f6f-aa14-68b02bff86b4"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TXT-H003", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. This would weaken the explanation. If the recipients of electronic money immediately withdrew it all as physical money, then both kinds of recipients ended up spending physical money on food. So there must be some other explanation why those who initially received electronic money ate different kinds of food. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This wouldn\u0026rsquo;t weaken the explanation. If anything, it actually supports it: it demonstrates that recipients of electronic money and recipients of physical money have different spending habits. Choice C is incorrect. This wouldn\u0026rsquo;t weaken the explanation. The explanation we\u0026rsquo;re testing this choice against is about the way that people might \u0026ldquo;conceive of and allocate\u0026rdquo; physical and electronic funds differently. This choice only focuses on the timing, not what they spend the money on. Choice D is incorrect. This would have no impact on the explanation. It doesn\u0026rsquo;t tell us anything about possible differences between the spending habits of those who spend physical money and those who spend money electronically. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding from the study, if true, would most directly weaken the potential explanation?\u003c/p\u003e", "stimulus": "\u003cp\u003eMany governments that regularly transfer money to individuals\u0026mdash;to provide supplemental incomes for senior citizens, for example\u0026mdash;have long done so electronically, but other countries typically have distributed physical money and have only recently developed electronic transfer infrastructure. Researchers studied the introduction of an electronic transfer system in one such location and found that recipients of electronic transfers consumed a different array of foods than recipients of physical transfers of the same amount did. One potential explanation for this result is that individuals conceive of and allocate funds in physical money differently than they conceive of and allocate funds in electronic form.\u0026nbsp;\u003c/p\u003e", "templateclusterid": "97b87aa2-ca19-417b-9ec2-24713880dbd6", "templateclustername": "", "type": "mcq", "vaultid": "9426a738-9d8c-47c7-a9a2-4c6b05562b8e"}, "createDate": 1691007959376, "difficulty": "H", "external_id": "f88c0e77-479a-4c8d-996f-c9b7d9e730d3", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "156ff681", "score_band_range_cd": 7, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "528bee5c-eda6-4ee5-89c4-767405256b1f", "updateDate": 1691007959376};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-156ff681");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

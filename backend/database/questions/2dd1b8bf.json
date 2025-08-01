@@ -1,0 +1,22 @@
+{
+  "question_id": "2dd1b8bf",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Compared to that of alumina glass, ______ blank silica glass atoms are so far apart that they are unable to re-form bonds after being separated.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "silica glass is at a significant disadvantage due to its more dispersed atomic arrangement:",
+    "silica glass has a more dispersed atomic arrangement, resulting in a significant disadvantage:",
+    "a significant disadvantage of silica glass is that its atomic arrangement is more dispersed:",
+    "silica glass&rsquo;s atomic arrangement is more dispersed, resulting in a significant disadvantage:"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is subject-modifier placement. This choice makes \"silica glass's atomic arrangement\" the subject of the sentence and places it immediately after the modifying phrase \"compared to that of alumina glass.\" In doing so, this choice clearly establishes that silica glass's atomic arrangement—and not another noun in the sentence—is being compared to the atomic arrangement (\"that\") of alumina glass.",
+    "A": "Choice A is incorrect because it results in a dangling modifier. The placement of the noun phrase \"silica glass\" immediately after the modifying phrase illogically suggests that silica glass itself (rather than its atomic arrangement) is being compared to alumina glass's atomic arrangement.",
+    "B": "Choice B is incorrect because it results in a dangling modifier. The placement of the noun phrase \"silica glass\" immediately after the modifying phrase illogically suggests that silica glass itself (rather than its atomic arrangement) is being compared to alumina glass's atomic arrangement.",
+    "C": "Choice C is incorrect because it results in a dangling modifier. The placement of the noun phrase \"a significant disadvantage\" immediately after the modifying phrase illogically suggests that \"a significant disadvantage\" is being compared to alumina glass's atomic arrangement."
+  }
+}

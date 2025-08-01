@@ -1,0 +1,22 @@
+{
+  "question_id": "4603d1f7",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In their book Smart Pricing , Jagmohan Raju and Z. John Zhang consider musicians' use of the nontraditional \"pay as you wish\" pricing model. This model generally offers listeners the choice to pay more or less than a suggested price for a song or album—or even to pay nothing at all. As the authors note, that's the option most listeners chose for an album by the band Harvey Danger. Only about 1% opted to pay for the album, resulting in earnings below the band's expectations. But the authors also discuss musician Jane Siberry, who saw significant earnings from her \"pay as you wish\" online music store as a result of many listeners choosing to pay more than the store's suggested prices. Hence, the \"pay as you wish\" model may ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "prove financially successful for some musicians but disappointing for others.",
+    "hold greater financial appeal for bands than for individual musicians.",
+    "cause most musicians who use the model to lower the suggested prices of their songs and albums over time.",
+    "more strongly reflect differences in certain musicians&rsquo; popularity than traditional pricing models do."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. In one example, musicians made less money than expected by using the \"pay as you wish\" model. In the other example, a musician made more money than expected. This suggests that some musicians may have more success than others using the \"pay as you wish\" model.",
+    "B": "Choice B is incorrect. This inference isn't supported. In the examples provided, the individual musician was more successful with the \"pay as you wish\" model than the band was.",
+    "C": "Choice C is incorrect. This inference isn't supported. The passage provides no instances in which musicians changed the suggested prices of their songs or albums, nor does it mention this as a possibility.",
+    "D": "Choice D is incorrect. This inference isn't supported. The text never discusses the differences in popularity of different musicians, so there is no basis to make this inference."
+  }
+}

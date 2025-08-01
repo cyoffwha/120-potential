@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 4d1a9c0d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Following the principles of community-based participatory research, tribal nations and research institutions are equal partners in health studies conducted on reservations. A collaboration between the Crow Tribe and Montana State University &shy;&shy;&shy;&shy;<span aria-hidden="true">______</span><span class="sr-only">blank</span> this model: tribal citizens worked alongside scientists to design the methodology and continue to assist in data collection.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>circumvents</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>eclipses</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>fabricates</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>exemplifies</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it most logically completes the text&rsquo;s discussion of the collaboration between the Crow Tribe and Montana State University. As used in this context, &ldquo;exemplifies&rdquo; means demonstrates. The text conveys how the Crow Tribe&ndash;Montana State University collaboration serves to illustrate the model of community-based participatory research introduced earlier in the text and expanded on later in the text.&nbsp;</p><p>Choice A is incorrect because referring to &ldquo;circumvents,&rdquo; or avoids, wouldn&rsquo;t make sense in context. The text suggests that the Crow Tribe&ndash;Montana State University collaboration serves as an example of the principles of community-based participatory research, not that the collaboration evades this model.&nbsp;Choice B is incorrect because referring to &ldquo;eclipses,&rdquo; or overshadows, wouldn&rsquo;t make sense in context. The text describes the Crow Tribe&ndash;Montana State University collaboration as an equal partnership, which indicates that it&rsquo;s an example of the community-based participatory research model, not that it overshadows the model.&nbsp;Choice C is incorrect because saying that the collaboration &ldquo;fabricates,&rdquo; or creates, the model wouldn&rsquo;t make sense in context. The text indicates that the Crow Tribe&ndash;Montana State University collaboration serves as an example of the model, not that it created the model.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">339 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ecircumvents\u003c/p\u003e", "id": "7e27cf1d-6d7d-445f-9850-f3943b875e39"}, {"content": "\u003cp\u003eeclipses\u003c/p\u003e", "id": "30cda760-1abe-46cd-aa48-ea5a96d3bc44"}, {"content": "\u003cp\u003efabricates\u003c/p\u003e", "id": "c7f7c635-2557-4e71-9481-cbb5f32c6554"}, {"content": "\u003cp\u003eexemplifies\u003c/p\u003e", "id": "eb4664ce-d514-418b-b63e-80565c67f9c0"}], "correct_answer": ["D"], "externalid": "138cb6f2-d4f1-430b-9a21-b645929a5d0b", "keys": ["eb4664ce-d514-418b-b63e-80565c67f9c0"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-929-WIC", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it most logically completes the text\u0026rsquo;s discussion of the collaboration between the Crow Tribe and Montana State University. As used in this context, \u0026ldquo;exemplifies\u0026rdquo; means demonstrates. The text conveys how the Crow Tribe\u0026ndash;Montana State University collaboration serves to illustrate the model of community-based participatory research introduced earlier in the text and expanded on later in the text.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because referring to \u0026ldquo;circumvents,\u0026rdquo; or avoids, wouldn\u0026rsquo;t make sense in context. The text suggests that the Crow Tribe\u0026ndash;Montana State University collaboration serves as an example of the principles of community-based participatory research, not that the collaboration evades this model.\u0026nbsp;Choice B is incorrect because referring to \u0026ldquo;eclipses,\u0026rdquo; or overshadows, wouldn\u0026rsquo;t make sense in context. The text describes the Crow Tribe\u0026ndash;Montana State University collaboration as an equal partnership, which indicates that it\u0026rsquo;s an example of the community-based participatory research model, not that it overshadows the model.\u0026nbsp;Choice C is incorrect because saying that the collaboration \u0026ldquo;fabricates,\u0026rdquo; or creates, the model wouldn\u0026rsquo;t make sense in context. The text indicates that the Crow Tribe\u0026ndash;Montana State University collaboration serves as an example of the model, not that it created the model.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eFollowing the principles of community-based participatory research, tribal nations and research institutions are equal partners in health studies conducted on reservations. A collaboration between the Crow Tribe and Montana State University \u0026shy;\u0026shy;\u0026shy;\u0026shy;\u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e this model: tribal citizens worked alongside scientists to design the methodology and continue to assist in data collection.\u003c/p\u003e", "templateclusterid": "6ed7495c-d5e8-4baf-8d16-de3d130593b3", "templateclustername": "", "type": "mcq", "vaultid": "d018ce7e-fb3c-48b5-8b1d-35a021c1ea82"}, "createDate": 1691007959356, "difficulty": "E", "external_id": "138cb6f2-d4f1-430b-9a21-b645929a5d0b", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "4d1a9c0d", "score_band_range_cd": 3, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "2f2b895e-e198-4d4f-b3d5-7124f1917f50", "updateDate": 1691007959356};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-4d1a9c0d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>
