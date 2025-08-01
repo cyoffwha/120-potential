@@ -1,0 +1,22 @@
+{
+  "question_id": "637d0878",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The Appalachian Trail is a hiking path in the eastern United States. Much of the 2,000 mile trail passes through wilderness areas. In order to ______ blank those areas, the United States Congress passed the National Trails System Act in 1968, ensuring that the trail would not be sold or commercially developed.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "borrow",
+    "postpone",
+    "protect",
+    "decorate"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Protect\" means \"preserve\" or \"keep safe from.\" By ensuring that the wilderness areas along the Appalachian Trail can't be sold or developed, the National Trails System Act protects them.",
+    "A": "Choice A is incorrect. \"Borrow\" means \"to take something with intent to return it.\" The text doesn't say anything about taking and returning the wilderness that surrounds the Appalachian Trail.",
+    "B": "Choice B is incorrect. \"Postpone\" means \"to put off until later.\" Nothing in the passage suggests that Congress wants to \"postpone\" the wilderness areas (and that doesn't make sense anyway—they can postpone doing something to the wilderness areas, but they can't postpone the areas themselves).",
+    "D": "Choice D is incorrect. \"Decorate\" means \"to adorn\" or \"add extra items or pictures to make more attractive.\" No details in the text suggest that Congress wishes to make the trail fancier or more attractive."
+  }
+}

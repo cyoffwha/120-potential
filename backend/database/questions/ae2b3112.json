@@ -1,0 +1,22 @@
+{
+  "question_id": "ae2b3112",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "By combining Indigenous and classical music, Cree composer and cellist Cris Derksen creates works that reflect the diverse cultural landscape of Canada. For her album Orchestral Powwow , Derksen composed new songs in the style of traditional powwow music that were accompanied by classical arrangements played by an orchestra. But where an orchestra would normally follow the directions of a conductor, the musicians on Orchestral Powwow are led by the beat of a powwow drum.",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To examine how Derksen&rsquo;s musical compositions blend cultures",
+    "To argue that Derksen should be recognized for creating a new style of music",
+    "To describe the difficulties Derksen encountered when producing her album",
+    "To establish a contrast between Derksen&rsquo;s classical training and her Cree heritage&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately describes the main purpose of the text, which is to discuss how Derksen's compositions incorporate elements from both Indigenous and classical music. After introducing Derksen, the text describes how the songs Derksen composed for her album Orchestral Powwow feature aspects of the two musical traditions. Specifically, the text notes that Derksen wrote songs in the style of traditional powwow music but accompanied them with classical arrangements played by an orchestra that followed the beat of a powwow drum rather than the directions of a conductor. In this way, Derksen's compositions blend different cultures.",
+    "B": "Choice B is incorrect because although the text suggests that Derksen's songs contain innovative elements since they blend styles from two different musical traditions, it doesn't discuss whether her compositions constitute a new style of music, let alone whether Derksen should be recognized for creating a new style of music.",
+    "C": "Choice C is incorrect because the text doesn't mention any difficulties Derksen encountered when producing her album. Rather, the text describes how the songs on the album exemplify how Derksen combines music from two different cultures.",
+    "D": "Choice D is incorrect because although the text mentions Derksen's Cree heritage and suggests that she relies on knowledge of both Indigenous and classical music when she composes her songs, it doesn't discuss her musical training. Additionally, the text is primarily focused on how Derksen combines different cultural traditions, not on contrasting Derksen's training with her heritage."
+  }
+}

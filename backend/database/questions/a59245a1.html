@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question a59245a1</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The painter Mar&iacute;a Izquierdo played an important role in the development of twentieth-century Mexican art, but her work has never been well-known in the United States except among art historians. One reason for Izquierdo&rsquo;s relative obscurity is the enormous popularity of some of her peers. In particular, the painters Frida Kahlo and Diego Rivera have so captivated the interest of US audiences that Izquierdo and other Mexican artists from the period often get overlooked, despite the high quality of their work.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Izquierdo&rsquo;s work is not as well-known in the United States as it should be because Kahlo and Rivera draw so much of the public&rsquo;s attention.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>During Izquierdo&rsquo;s lifetime, her paintings were displayed in galleries in the United States much more frequently than paintings by Kahlo and Rivera were.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Izquierdo painted some of the same subjects that Kahlo and Rivera painted but used different techniques than they used.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Few of Izquierdo&rsquo;s works are in galleries today because she produced only a small number of paintings.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most accurately states the main idea of the text. The text begins by stating that Mar&iacute;a Izquierdo was an important figure in the history of twentieth-century Mexican art, but despite her importance, her work hasn&rsquo;t received widespread recognition in the United States. According to the text, one reason for this is that Frida Kahlo and Diego Rivera are so famous in the US that they overshadow other important Mexican artists, including Izquierdo. Thus, the main idea of the text is that Izquierdo&rsquo;s work is less well known in the US than it should be because Kahlo and Rivera draw most of the public&rsquo;s attention. </p><p>Choice B is incorrect because the text doesn&rsquo;t discuss the appearance of Izquierdo&rsquo;s paintings in galleries in the US during her lifetime, nor does it suggest that her paintings were displayed more frequently than paintings by Kahlo or Rivera were. Instead, the text focuses on the fact that Izquierdo has been overlooked in the US because of Kahlo&rsquo;s and Rivera&rsquo;s greater popularity. Choice C is incorrect because the text doesn&rsquo;t discuss either the subject matter of Izquierdo&rsquo;s paintings or the techniques she used, nor does it compare these aspects of her paintings with those of Kahlo&rsquo;s and Rivera&rsquo;s paintings. Choice D is incorrect because the text doesn&rsquo;t mention how many of Izquierdo&rsquo;s paintings appear in galleries today, nor does it state that she produced only a small number of paintings. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">132 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIzquierdo\u0026rsquo;s work is not as well-known in the United States as it should be because Kahlo and Rivera draw so much of the public\u0026rsquo;s attention.\u003c/p\u003e", "id": "df066ebe-6027-4a07-a2db-05de68de9d06"}, {"content": "\u003cp\u003eDuring Izquierdo\u0026rsquo;s lifetime, her paintings were displayed in galleries in the United States much more frequently than paintings by Kahlo and Rivera were.\u003c/p\u003e", "id": "88aaf18a-a1de-4fa5-8f1f-6ad0fbd27bb7"}, {"content": "\u003cp\u003eIzquierdo painted some of the same subjects that Kahlo and Rivera painted but used different techniques than they used.\u0026nbsp;\u003c/p\u003e", "id": "9b3cb0a0-b2a8-4fd7-8610-883443bff8a4"}, {"content": "\u003cp\u003eFew of Izquierdo\u0026rsquo;s works are in galleries today because she produced only a small number of paintings.\u0026nbsp;\u003c/p\u003e", "id": "0e451720-66d2-4b44-a496-415601b7ac8c"}], "correct_answer": ["A"], "externalid": "2be296a8-a297-4cb0-9d75-002f50e1111e", "keys": ["df066ebe-6027-4a07-a2db-05de68de9d06"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-045-CID", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most accurately states the main idea of the text. The text begins by stating that Mar\u0026iacute;a Izquierdo was an important figure in the history of twentieth-century Mexican art, but despite her importance, her work hasn\u0026rsquo;t received widespread recognition in the United States. According to the text, one reason for this is that Frida Kahlo and Diego Rivera are so famous in the US that they overshadow other important Mexican artists, including Izquierdo. Thus, the main idea of the text is that Izquierdo\u0026rsquo;s work is less well known in the US than it should be because Kahlo and Rivera draw most of the public\u0026rsquo;s attention. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because the text doesn\u0026rsquo;t discuss the appearance of Izquierdo\u0026rsquo;s paintings in galleries in the US during her lifetime, nor does it suggest that her paintings were displayed more frequently than paintings by Kahlo or Rivera were. Instead, the text focuses on the fact that Izquierdo has been overlooked in the US because of Kahlo\u0026rsquo;s and Rivera\u0026rsquo;s greater popularity. Choice C is incorrect because the text doesn\u0026rsquo;t discuss either the subject matter of Izquierdo\u0026rsquo;s paintings or the techniques she used, nor does it compare these aspects of her paintings with those of Kahlo\u0026rsquo;s and Rivera\u0026rsquo;s paintings. Choice D is incorrect because the text doesn\u0026rsquo;t mention how many of Izquierdo\u0026rsquo;s paintings appear in galleries today, nor does it state that she produced only a small number of paintings. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe painter Mar\u0026iacute;a Izquierdo played an important role in the development of twentieth-century Mexican art, but her work has never been well-known in the United States except among art historians. One reason for Izquierdo\u0026rsquo;s relative obscurity is the enormous popularity of some of her peers. In particular, the painters Frida Kahlo and Diego Rivera have so captivated the interest of US audiences that Izquierdo and other Mexican artists from the period often get overlooked, despite the high quality of their work.\u003c/p\u003e", "templateclusterid": "9f21c323-3ec8-4fd9-9053-e3da39eb246a", "templateclustername": "", "type": "mcq", "vaultid": "26208638-2254-44c6-8eae-140e489d5da8"}, "createDate": 1691007959322, "difficulty": "M", "external_id": "2be296a8-a297-4cb0-9d75-002f50e1111e", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "a59245a1", "score_band_range_cd": 4, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "7197fbc1-f166-409e-8aa2-f9464f4e21f1", "updateDate": 1691007959322};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-a59245a1");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "question_id": "6081831f",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "When Chinese director Chlo&eacute; Zhao accepted the Oscar in 2021 for her film Nomadland , she made Academy Award history. ______ blank only one other woman, Kathryn Bigelow of the United States, had been named best director at the Oscars, making Zhao the second woman and the first Asian woman to win the award.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "As a result,",
+    "Previously,",
+    "However,",
+    "Likewise,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Previously\" logically signals that the event described in this sentence—Bigelow being named best director—occurred before Zhao's win. The fact that only one other woman had won the award before puts Zhao's win in perspective.",
+    "A": "Choice A is incorrect because \"as a result\" illogically signals that the event described in this sentence occurred as a result or consequence of Zhao's win. Instead, it occurred before Zhao was named best director and puts Zhao's win in perspective.",
+    "C": "Choice C is incorrect because \"however\" illogically signals that the event described in this sentence occurred in spite of or in contrast to Zhao's win. Instead, it occurred before Zhao was named best director and puts Zhao's win in perspective.",
+    "D": "Choice D is incorrect because \"likewise\" illogically signals that this sentence merely adds a second, similar piece of information to the information about Zhao's win. Instead, the fact that only one other woman had won the award before puts Zhao's win in perspective."
+  }
+}

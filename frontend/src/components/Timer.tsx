@@ -1,7 +1,18 @@
-import { useState, useEffect } from "react";
-export const Timer = () => {
+import { useState, useEffect, useImperativeHandle, forwardRef } from "react";
+
+export interface TimerRef {
+  getElapsedSeconds: () => number;
+  reset: () => void;
+}
+
+export const Timer = forwardRef<TimerRef>((_, ref) => {
   const [seconds, setSeconds] = useState(0);
   const [running, setRunning] = useState(true);
+
+  useImperativeHandle(ref, () => ({
+    getElapsedSeconds: () => seconds,
+    reset: () => setSeconds(0)
+  }));
 
   useEffect(() => {
     if (!running) return;
@@ -33,4 +44,4 @@ export const Timer = () => {
       </button>
     </div>
   );
-};
+});

@@ -1,0 +1,22 @@
+{
+  "question_id": "856b495d",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In the early twentieth century, Joseph Kekuku and other Hawaiian ______ blank in the mainland United States to the bright and lilting sound of the kīkā kila , or Hawaiian steel guitar. The instrument soon became a fixture in American blues and country music.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "musicians introduced audiences",
+    "musicians&rsquo; introduced audiences&rsquo;",
+    "musician&rsquo;s introduced audience&rsquo;s",
+    "musicians&rsquo; introduced audiences"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is the use of plural nouns. The plural nouns \"musicians\" and \"audiences\" correctly indicate that there were multiple musicians introducing the music to multiple audiences.",
+    "B": "Choice B is incorrect because the context requires the plural nouns \"musicians\" and \"audiences,\" not the plural possessive nouns \"musicians'\" and \"audiences'.\"",
+    "C": "Choice C is incorrect because the context requires the plural nouns \"musicians\" and \"audiences,\" not the singular possessive nouns \"musician's\" and \"audience's.\"",
+    "D": "Choice D is incorrect because the context requires the plural noun \"musicians,\" not the plural possessive noun \"musicians'.\""
+  }
+}

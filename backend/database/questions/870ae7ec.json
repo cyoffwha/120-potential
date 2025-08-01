@@ -1,0 +1,22 @@
+{
+  "question_id": "870ae7ec",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Detroit natives Timothy Paule and Nicole Lindsey have combined their two passions, Detroit and beekeeping, to improve the health of their city's flowers and other vegetation. In 2017, the couple converted a vacant lot in the city into an ______ blank in the years that followed they acquired nine additional lots and established more than 35 hives.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "apiary,",
+    "apiary, and",
+    "apiary and",
+    "apiary&nbsp;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. Both clauses in this sentence could stand alone as complete sentences, which means they are both independent clauses. This choice uses a comma plus a coordinating conjunction to link them together, which is one of the correct ways to link two independent clauses.",
+    "A": "Choice A is incorrect. This choice results in a run-on sentence error. Both clauses in this sentence could stand alone as complete sentences, which means they are both independent clauses. A comma by itself is not enough punctuation to link two independent clauses.",
+    "C": "Choice C is incorrect. This choice results in a run-on sentence error. Both clauses in this sentence could stand alone as complete sentences, which means they are both independent clauses. Independent clauses can only be linked in a few ways, including with a comma plus a coordinating conjunction. This choice uses the coordinating conjunction \"and,\" but it is missing the comma beforehand.",
+    "D": "Choice D is incorrect. This choice results in a run-on sentence error. Both clauses in this sentence could stand alone as complete sentences, which means they are both independent clauses. Independent clauses need to have certain kinds of punctuation marks between them. This choice doesn't use any punctuation between the two clauses."
+  }
+}

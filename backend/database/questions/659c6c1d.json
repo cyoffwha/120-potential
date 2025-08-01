@@ -1,0 +1,22 @@
+{
+  "question_id": "659c6c1d",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Robert Louis Stevenson's 1883 novel Treasure Island . Bill is a sailor staying at the Admiral Benbow, an inn run by the narrator's parents. Every day when [Bill] came back from his stroll he would ask if any seafaring men had gone by along the road. At first we thought it was the want of company of his own kind that made him ask this question, but at last we began to see he was desirous to avoid them. When a seaman did [stay] at the Admiral Benbow (as now and then some did) he would look in at him through the curtained door before he entered the parlour; and he was always sure to be as silent as a mouse when any such was present.",
+  "question_text": "According to the text, why does Bill regularly ask about &ldquo;seafaring men&rdquo;?",
+  "answer_options": [
+    "He&rsquo;s hoping to find an old friend and fellow sailor.",
+    "He&rsquo;s trying to secure a job as part of the crew on a new ship.",
+    "He isn&rsquo;t sure that other guests at the inn will be welcoming of sailors.",
+    "He doesn&rsquo;t want to encounter any other sailor unexpectedly."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The narrator says that, at first, they thought Bill asked regularly about other seafarers because he wanted their company, but eventually they realized that Bill actually wanted to avoid them.",
+    "A": "Choice A is incorrect. This isn't the reason the text gives for why Bill regularly asks about \"seafaring men.\" The narrator says that, at first, they thought Bill asked regularly about other seafarers because he wanted their company, but eventually they realized that Bill wanted to avoid them.",
+    "B": "Choice B is incorrect. This isn't the reason the text gives for why Bill regularly asks about \"seafaring men.\" The narrator says that, at first, they thought Bill asked regularly about other seafarers because he wanted their company, but eventually they realized that Bill wanted to avoid them.",
+    "C": "Choice C is incorrect. This isn't the reason the text gives for why Bill regularly asks about \"seafaring men.\" The narrator says that, at first, they thought Bill asked regularly about other seafarers because he wanted their company, but eventually they realized that Bill wanted to avoid them."
+  }
+}

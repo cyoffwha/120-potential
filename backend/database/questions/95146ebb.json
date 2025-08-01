@@ -1,0 +1,22 @@
+{
+  "question_id": "95146ebb",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The ice melted on a Norwegian mountain during a particularly warm summer in 2019, revealing a 1,700-year-old sandal to a mountaineer looking for artifacts. The sandal would normally have degraded quickly, but it was instead well preserved for centuries by the surrounding ice. According to archaeologist Espen Finstad and his team, the sandal, like those worn by imperial Romans, wouldn't have offered any protection from the cold in the mountains, so some kind of insulation, like fabric or animal skin, would have needed to be worn on the feet with the sandal.",
+  "question_text": "What does the text indicate about the discovery of the sandal?",
+  "answer_options": [
+    "Temperatures contributed to both protecting and revealing the sandal.",
+    "The discovery revealed that the Roman Empire had more influence on Norway than archaeologists previously assumed.",
+    "Archaeologists would have found the sandal eventually without help from the general public.",
+    "The sandal would have degraded if it hadn&rsquo;t been removed from the ice."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. A \"particularly warm summer\" revealed the sandal, and centuries of ice kept it \"well preserved.\"",
+    "B": "Choice B is incorrect. This choice doesn't reflect the information in the text. The sandal is similar to Roman sandals, but there is no indication that it was a result of Roman influence.",
+    "C": "Choice C is incorrect. The text doesn't support this choice. We don't have enough information to know whether or not archaeologists would have found the sandal without people like the treasure-hunting mountaineer.",
+    "D": "Choice D is incorrect. The text says the opposite of this choice. The sandal was preserved by the ice for centuries."
+  }
+}

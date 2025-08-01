@@ -1,0 +1,22 @@
+{
+  "question_id": "c5d39bc7",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Scientists believe that, unlike most other species of barnacle, turtle barnacles ( Chelonibia testudinari ) can dissolve the cement-like secretions they use to attach ______ blank to a sea turtle shell, enabling the barnacles to move short distances across the shell's surface.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "it",
+    "themselves",
+    "&nbsp;them",
+    "itself"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is pronoun-antecedent agreement. The plural reflexive pronoun \"themselves\" agrees in number with the plural antecedent \"turtle barnacles,\" correctly indicating what is attached to a sea turtle shell.",
+    "A": "Choice A is incorrect because the singular pronoun \"it\" doesn't agree in number with the plural antecedent \"turtle barnacles.\"",
+    "C": "Choice C is incorrect because it results in an unclear and confusing sentence. In this context, it's unclear what the plural pronoun \"them\" refers to.",
+    "D": "Choice D is incorrect because the singular reflexive pronoun \"itself\" doesn't agree in number with the plural antecedent \"turtle barnacles.\""
+  }
+}

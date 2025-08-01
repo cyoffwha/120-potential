@@ -1,0 +1,22 @@
+{
+  "question_id": "975eda7c",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "For thousands of years, people in the Americas ______ blank the bottle gourd, a large bitter fruit with a thick rind, to make bottles, other types of containers, and even musical instruments. Oddly, there is no evidence that any type of bottle gourd is native to the Western Hemisphere; either the fruit or its seeds must have somehow been carried from Asia or Africa.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "to use",
+    "have used",
+    "having used",
+    "using"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is finite and nonfinite verb forms within a sentence. A main clause requires a finite verb to perform the action of the subject (in this case, \"people in the Americas\"), and this choice supplies the finite past perfect tense verb \"have used\" to indicate what people in the Americas used the gourd for.",
+    "A": "Choice A is incorrect because the nonfinite to-infinitive \"to use\" doesn't supply the main clause with a finite verb.",
+    "C": "Choice C is incorrect because the nonfinite participle \"having used\" doesn't supply the main clause with a finite verb.",
+    "D": "Choice D is incorrect because the nonfinite participle \"using\" doesn't supply the main clause with a finite verb."
+  }
+}

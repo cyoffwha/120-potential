@@ -1,0 +1,22 @@
+{
+  "question_id": "d46ac7e7",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "A second-generation Japanese American, Wataru Misaka ______ blank in World War II (1941-45) and won two amateur national basketball championships at the University of Utah when he joined the New York Knicks for the 1947-48 season, becoming the first non-white basketball player in the US's top professional league.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "already served",
+    "was already serving",
+    "already serves",
+    "had already served"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. Misaka served in World War II before he joined the New York Knicks in 1947. To show that a past occurrence took place before another past occurrence, we need to use \"had\" + the past tense form of the verb. This is called the past perfect tense.",
+    "A": "Choice A is incorrect. Misaka served in World War II before he joined the Knicks. Both events are in the past, but his service in World War II happened earlier, so we need a verb that makes it clear that his service (and the two national championships) had ended by the time he joined the Knicks.",
+    "B": "Choice B is incorrect. \"Was already serving\" forms the continuous past tense, which we use when we're showing a past action that was ongoing. Misaka served in World War II before he joined the Knicks. Both events are in the past, but they're not happening at the same time, so we shouldn't use the continuous past tense here.",
+    "C": "Choice C is incorrect. Misaka served in World War II in the past, so we shouldn't use the present tense \"serves.\""
+  }
+}

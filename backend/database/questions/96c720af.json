@@ -1,0 +1,22 @@
+{
+  "question_id": "96c720af",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Atoms in a synchrotron, a type of circular particle accelerator, travel faster and faster until they ______ blank a desired energy level, at which point they are diverted to collide with a target, smashing the atoms.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "will reach",
+    "reach",
+    "had reached",
+    "are reaching"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the present tense verb \"reach\" is consistent with the present tense verbs \"travel\" and \"are diverted\" used to describe how atoms move through the synchrotron.",
+    "A": "Choice A is incorrect because the future tense verb \"will reach\" is inconsistent with the present tense verbs used to describe how atoms move through the synchrotron. Though the atoms' movement is a recurring action and \"will reach\" can also be used to indicate a habitual or recurring action, it creates a logical inconsistency in this sentence when paired with the present tense verbs \"travel\" and \"are diverted.\"",
+    "C": "Choice C is incorrect because the past perfect tense verb \"had reached\" is inconsistent with the present tense verbs used to describe how atoms move through the synchrotron.",
+    "D": "Choice D is incorrect because the present progressive tense verb \"are reaching\" is inconsistent with the present tense verbs used to describe how atoms move through the synchrotron. While both verbs occur in the present, the present progressive tense suggests that the action is currently in progress. This creates a logical inconsistency when paired with the present tense verbs \"travel\" and \"are diverted,\" which offer a general description of the tendencies of the atoms' movement, rather than a description of an action that is currently in progress."
+  }
+}

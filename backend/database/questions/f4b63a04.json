@@ -1,0 +1,22 @@
+{
+  "question_id": "f4b63a04",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In 2013, paleontology professor Hesham Sallam and his students from Mansoura University in Egypt made a discovery. The team found a partial dinosaur skeleton at a site in Egypt's Dakhla Oasis. The skeleton belonged to a dinosaur species that lived approximately 80 million years ago. The new species was named Mansourasaurus to recognize the team that discovered it. The student wants to explain the origin of the species' name. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to explain the origin of the species&rsquo; name. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Mansourasaurus,  a new species discovered in Egypt in 2013, lived   approximately 80 million years ago.",
+    "A partial dinosaur skeleton found in Egypt&rsquo;s Dakhla Oasis belonged to a species named  Mansourasaurus .",
+    "Mansourasaurus,  a species that&nbsp;lived approximately 80 million years ago, was discovered in 2013 by Egyptian paleontologist Hesham Sallam and a team of university students.",
+    "The new species was named  Mansourasaurus  to recognize the team that discovered it, a professor and students from Mansoura University."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. It explains where the dinosaur's name came from.",
+    "A": "Choice A is incorrect. This choice does not explain the origin of the dinosaur's name.",
+    "B": "Choice B is incorrect. This choice does not explain the origin of the dinosaur's name.",
+    "C": "Choice C is incorrect. This choice does not explain the origin of the dinosaur's name."
+  }
+}

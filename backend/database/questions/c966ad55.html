@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question c966ad55</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is from Srimati Svarna Kumari Devi&rsquo;s 1894 novel <em>The Fatal Garland</em>&nbsp;(translated by A. Christina Albers in 1910). Shakti is walking near a riverbank that she visited frequently during her childhood.</p>
+<blockquote>
+<p>She crossed the woods she knew so well. <span role="region" aria-label="Referenced Content"><u>The trees seemed to extend their branches like welcoming arms.</u></span> They greeted her as an old friend. Soon she reached the river-side.</p>
+</blockquote></div>
+
+                        <div class="mt-3"><p>Which choice best describes the function of the underlined portion in the text as a whole?&nbsp;</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It suggests that Shakti feels uncomfortable near the river.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It indicates that Shakti has lost her sense of direction in the woods.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It emphasizes Shakti&rsquo;s sense of belonging in the landscape.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It conveys Shakti&rsquo;s appreciation for her long-term friendships.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The first sentence of the text states that Shakti knows the woods she is walking in well. The next sentence, which is underlined, emphasizes Shakti&rsquo;s familiarity with, and sense of security within, the woods by describing how the tree branches are friendly and &ldquo;welcoming,&rdquo; as they are depicted as extending open arms to her. The remainder of the text also shows that Shakti is comfortable and content in the woods by describing her as &ldquo;an old friend&rdquo; of the trees. Thus, the function of the underlined portion is to emphasize Shakti&rsquo;s sense of belonging in the wooded landscape that she visits. </p><p>Choice A is incorrect because the text and underlined portion suggest that Shakti is comfortable, not uncomfortable, in her surroundings: the trees around her are described as welcoming and reassuring. Moreover, the underlined portion discusses Shakti&rsquo;s feelings in the forest, not the river, since she hasn&rsquo;t reached the river yet. Choice B is incorrect because the text and underlined portion emphasize Shakti&rsquo;s familiarity with the woods. The trees are inviting, and she feels like &ldquo;an old friend&rdquo; to the woods, so she isn&rsquo;t lost or confused there. Choice D is incorrect because the third sentence uses the phrase &ldquo;as an old friend&rdquo; figuratively in reference to Shakti&rsquo;s sense of familiarity with the landscape, not in reference to her long-standing friendships with other people, and the text and underlined portion never discuss her feelings about such friendships. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">300 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt suggests that Shakti feels uncomfortable near the river.\u003c/p\u003e", "id": "f51c2a3b-9d75-4f37-bce0-049b0db8c393"}, {"content": "\u003cp\u003eIt indicates that Shakti has lost her sense of direction in the woods.\u003c/p\u003e", "id": "cd362bab-1b3d-4016-a708-40760bb5f4ee"}, {"content": "\u003cp\u003eIt emphasizes Shakti\u0026rsquo;s sense of belonging in the landscape.\u003c/p\u003e", "id": "eb046b89-d141-4d4e-8b70-5eb8713a95f8"}, {"content": "\u003cp\u003eIt conveys Shakti\u0026rsquo;s appreciation for her long-term friendships.\u0026nbsp;\u003c/p\u003e", "id": "a28acc86-c2a4-491d-9e81-9a350b8be338"}], "correct_answer": ["C"], "externalid": "e90c65ad-7cc3-420a-a585-fcc04aabdc94", "keys": ["eb046b89-d141-4d4e-8b70-5eb8713a95f8"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TSP-E001", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The first sentence of the text states that Shakti knows the woods she is walking in well. The next sentence, which is underlined, emphasizes Shakti\u0026rsquo;s familiarity with, and sense of security within, the woods by describing how the tree branches are friendly and \u0026ldquo;welcoming,\u0026rdquo; as they are depicted as extending open arms to her. The remainder of the text also shows that Shakti is comfortable and content in the woods by describing her as \u0026ldquo;an old friend\u0026rdquo; of the trees. Thus, the function of the underlined portion is to emphasize Shakti\u0026rsquo;s sense of belonging in the wooded landscape that she visits. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text and underlined portion suggest that Shakti is comfortable, not uncomfortable, in her surroundings: the trees around her are described as welcoming and reassuring. Moreover, the underlined portion discusses Shakti\u0026rsquo;s feelings in the forest, not the river, since she hasn\u0026rsquo;t reached the river yet. Choice B is incorrect because the text and underlined portion emphasize Shakti\u0026rsquo;s familiarity with the woods. The trees are inviting, and she feels like \u0026ldquo;an old friend\u0026rdquo; to the woods, so she isn\u0026rsquo;t lost or confused there. Choice D is incorrect because the third sentence uses the phrase \u0026ldquo;as an old friend\u0026rdquo; figuratively in reference to Shakti\u0026rsquo;s sense of familiarity with the landscape, not in reference to her long-standing friendships with other people, and the text and underlined portion never discuss her feelings about such friendships. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes the function of the underlined portion in the text as a whole?\u0026nbsp;\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is from Srimati Svarna Kumari Devi\u0026rsquo;s 1894 novel \u003cem\u003eThe Fatal Garland\u003c/em\u003e\u0026nbsp;(translated by A. Christina Albers in 1910). Shakti is walking near a riverbank that she visited frequently during her childhood.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eShe crossed the woods she knew so well. \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003eThe trees seemed to extend their branches like welcoming arms.\u003c/u\u003e\u003c/span\u003e They greeted her as an old friend. Soon she reached the river-side.\u003c/p\u003e\n\u003c/blockquote\u003e", "templateclusterid": "3f3a02a3-4c9c-4eb3-b433-c462edb3080f", "templateclustername": "", "type": "mcq", "vaultid": "ef20ef5d-dc8c-48c7-a533-e79cbb760b6a"}, "createDate": 1691007959374, "difficulty": "E", "external_id": "e90c65ad-7cc3-420a-a585-fcc04aabdc94", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "c966ad55", "score_band_range_cd": 1, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "08889d3e-5844-4d9c-b199-8872759e78e9", "updateDate": 1691007959374};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-c966ad55");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

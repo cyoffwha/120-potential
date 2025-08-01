@@ -1,0 +1,22 @@
+{
+  "question_id": "9c759a09",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is from Georgia Douglas Johnson's 1922 poem \"Benediction.\" Go forth, my son, Winged by my heart's desire! Great reaches, yet unknown, Await For your possession. I may not, if I would, Retrace the way with you, My pilgrimage is through, But life is calling you!",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To express hope that a child will have the same accomplishments as his parent did",
+    "To suggest that raising a child involves many struggles",
+    "To warn a child that he will face many challenges throughout his life",
+    "To encourage a child to embrace the experiences life will offer"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it accurately states the text's main purpose. The poem begins with the speaker urging a child to \"go forth\" with her encouragement (\"my heart's desire\"). The speaker goes on to suggest that new experiences (\"Great reaches, yet unknown\") lie ahead for the son that \"life is calling\" him to seek out. Thus, the main purpose is to encourage a child to embrace the experiences available to him in his life.",
+    "A": "Choice A is incorrect because the speaker encourages the child to pursue new experiences (\"Great reaches\") without knowing exactly what those experiences will be (\"yet unknown\") or suggesting that they should match the speaker's own accomplishments.",
+    "B": "Choice B is incorrect because the speaker focuses on positive possibilities for her son (\"Great reaches, yet unknown\") and her enthusiastic encouragement to embrace those possibilities (\"life is calling you!\"), while there is no mention of raising a child or associated struggles.",
+    "C": "Choice C is incorrect because the speaker frames the possibilities for her son in a positive light when she says that \"great reaches, yet unknown\" are waiting for him, and this positive outlook for the son is consistent throughout the text."
+  }
+}

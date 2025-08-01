@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e8fb0744</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>As an undergraduate researcher in anthropology, Jennifer C. Chen contributed to a groundbreaking study challenging the accepted view that among prehistoric peoples, female participation in hunting was <span aria-hidden="true">______</span><span class="sr-only">blank</span>. The research team&rsquo;s review of data from late Pleistocene and early Holocene burials in the Americas revealed that, in fact, as many as half of the hunters in those populations were female.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>inevitable</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>satisfactory</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>negligible</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>commonplace</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most logically completes the text&rsquo;s discussion of the study of female participation in hunting among prehistoric peoples. In this context, &ldquo;negligible&rdquo; means not significant enough to be worth considering. The text says that the study challenged the accepted view of female participation in hunting among prehistoric peoples. The text goes on to say that the researchers found that &ldquo;in fact, as many as half&rdquo; the hunters in the groups studied were female. The phrase &ldquo;in fact&rdquo; establishes a contrast indicating that the finding that as many as half the hunters were female differs from the accepted view. This context suggests, then, that the accepted view is that female participation in hunting was negligible.&nbsp;</p><p>Choice A is incorrect because the text indicates that the study challenged the accepted view by showing that as many as half of hunters among prehistoric peoples were female, which suggests that the accepted view is that female participation was low, not that female participation was &ldquo;inevitable,&rdquo; or unavoidable. Nothing in the text suggests that the accepted view is that prehistoric peoples could not avoid female participation in hunting.&nbsp;Choice B is incorrect because nothing in the text suggests that the accepted view of female participation in hunting among prehistoric peoples is that such participation was &ldquo;satisfactory,&rdquo; or sufficient to meet a requirement or demand. There is no information in the text about any demands or requirements regarding female participation in hunting, let alone any information about how much female participation in hunting would be enough to satisfy those demands or requirements. Instead, the text indicates that the study challenged the accepted view by showing that as many as half the hunters in the groups studied were female, suggesting that the accepted view is that female participation in hunting was low.&nbsp;Choice D is incorrect because the text indicates that the study challenged the accepted view by showing that as many as half of hunters among the prehistoric peoples studied were female, which suggests that the accepted view is that female participation was low, not that female participation was &ldquo;commonplace,&rdquo; or ordinary or unremarkable. Although the study under discussion suggests that female participation may have been commonplace, that study is presented as challenging the accepted view, not as reinforcing the accepted view.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">537 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003einevitable\u003c/p\u003e", "id": "12f28168-2891-42eb-b405-9a34f4209fde"}, {"content": "\u003cp\u003esatisfactory\u003c/p\u003e", "id": "5166d705-73e6-4127-9bb5-6d911981fc26"}, {"content": "\u003cp\u003enegligible\u003c/p\u003e", "id": "c6e57e15-5332-4923-a95b-eaf7014f8024"}, {"content": "\u003cp\u003ecommonplace\u003c/p\u003e", "id": "6e8f2478-010f-4e8d-aa5c-7ab499772d0e"}], "correct_answer": ["C"], "externalid": "283479b2-e229-4d1d-b4f5-b22b6711cc09", "keys": ["c6e57e15-5332-4923-a95b-eaf7014f8024"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-930-WIC", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most logically completes the text\u0026rsquo;s discussion of the study of female participation in hunting among prehistoric peoples. In this context, \u0026ldquo;negligible\u0026rdquo; means not significant enough to be worth considering. The text says that the study challenged the accepted view of female participation in hunting among prehistoric peoples. The text goes on to say that the researchers found that \u0026ldquo;in fact, as many as half\u0026rdquo; the hunters in the groups studied were female. The phrase \u0026ldquo;in fact\u0026rdquo; establishes a contrast indicating that the finding that as many as half the hunters were female differs from the accepted view. This context suggests, then, that the accepted view is that female participation in hunting was negligible.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text indicates that the study challenged the accepted view by showing that as many as half of hunters among prehistoric peoples were female, which suggests that the accepted view is that female participation was low, not that female participation was \u0026ldquo;inevitable,\u0026rdquo; or unavoidable. Nothing in the text suggests that the accepted view is that prehistoric peoples could not avoid female participation in hunting.\u0026nbsp;Choice B is incorrect because nothing in the text suggests that the accepted view of female participation in hunting among prehistoric peoples is that such participation was \u0026ldquo;satisfactory,\u0026rdquo; or sufficient to meet a requirement or demand. There is no information in the text about any demands or requirements regarding female participation in hunting, let alone any information about how much female participation in hunting would be enough to satisfy those demands or requirements. Instead, the text indicates that the study challenged the accepted view by showing that as many as half the hunters in the groups studied were female, suggesting that the accepted view is that female participation in hunting was low.\u0026nbsp;Choice D is incorrect because the text indicates that the study challenged the accepted view by showing that as many as half of hunters among the prehistoric peoples studied were female, which suggests that the accepted view is that female participation was low, not that female participation was \u0026ldquo;commonplace,\u0026rdquo; or ordinary or unremarkable. Although the study under discussion suggests that female participation may have been commonplace, that study is presented as challenging the accepted view, not as reinforcing the accepted view.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eAs an undergraduate researcher in anthropology, Jennifer C. Chen contributed to a groundbreaking study challenging the accepted view that among prehistoric peoples, female participation in hunting was \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e. The research team\u0026rsquo;s review of data from late Pleistocene and early Holocene burials in the Americas revealed that, in fact, as many as half of the hunters in those populations were female.\u003c/p\u003e", "templateclusterid": "4950aee1-dd85-49f4-ae77-5ee0ae5cedc5", "templateclustername": "", "type": "mcq", "vaultid": "035f9cb0-835a-4339-8d61-514d6c505a1e"}, "createDate": 1691007959356, "difficulty": "H", "external_id": "283479b2-e229-4d1d-b4f5-b22b6711cc09", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "e8fb0744", "score_band_range_cd": 7, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "fd56688d-8a60-43ce-b826-491924820729", "updateDate": 1691007959356};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e8fb0744");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e1befb41</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>&nbsp;</p><p><span aria-level="2" role="heading"><strong>Text 1</strong></span></p>
+<p>In a study of the benefits of having free time, Marissa Sharif found that the reported sense of life satisfaction tended to plateau when participants had two hours of free time per day and actually began to fall when they had five hours of free time per day. After further research, Sharif concluded that this dip in life satisfaction mainly occurred when individuals spent all their free time unproductively, such as by watching TV or playing games.</p>
+<p>&nbsp;</p><p><span aria-level="2" role="heading"><strong>Text 2</strong></span></p>
+<p>Psychologist James Maddux cautions against suggesting an ideal amount of free time. The human desire for both free time and productivity is universal, but Maddux asserts that individuals have unique needs for life satisfaction. Furthermore, he points out that there is no objective definition for what constitutes productivity; reading a book might be considered a productive activity by some, but idleness by others.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, how would Maddux (Text 2) most likely respond to the conclusion Sharif (Text 1) reached after her further research?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By acknowledging that free time is more likely to enhance life satisfaction when it is spent productively than when it is spent unproductively</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By challenging the reasoning in Text 1, as it has not been proved that productivity commonly contributes to individuals&rsquo; life satisfaction</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By warning against making an overly broad assumption, as there is no clear consensus in distinguishing between productive and unproductive activities</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By claiming that the specific activities named in Text 1 are actually examples of productive activities rather than unproductive ones</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it characterizes how Maddux would most likely respond to the conclusion Sharif reached after her research. Text 1 describes Sharif&rsquo;s study of the benefits of free time, saying that the reported sense of satisfaction plateaued at two hours per day and began to decline at five hours per day. Further research led Sharif to conclude that time spent doing tasks she defines as unproductive, such as watching TV or playing games, correlated with a drop in life satisfaction. &nbsp;However, in Text 2 Maddux says that there is no objective definition of what constitutes productive behavior, giving the example that reading a book might be considered productive by some but unproductive by others. It can be inferred that Maddux would also assert that whether watching TV or playing games is productive or unproductive is a matter of subjective judgment. Thus, Maddux would most likely caution against making an overly broad assumption, as there is no clear consensus in distinguishing between productive and unproductive activities. </p><p>Choice A is incorrect because Maddux asserts that individuals have unique needs for life satisfaction: some may want to spend that time productively, others unproductively, and what counts as productive is subjective. Therefore, Maddux would likely not consider it universally true that free time is more likely to enhance life satisfaction when it is spent productively. Choice B is incorrect because the study described in Text 1 concerns whether free time contributes to life satisfaction, not whether productivity contributes to life satisfaction. The dip in life satisfaction that Sharif claims to observe in Text 1 happens only after five hours, and mainly if the time is spent unproductively&mdash;that is, two hours of free time spent productively might increase life satisfaction just as much as two hours spent unproductively. Choice D is incorrect because Maddux holds the opinion that whether an activity is productive or unproductive is subjective and depends on the individual; therefore, he would most likely claim that watching TV or playing games might be productive for some and unproductive for others. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">370 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eBy acknowledging that free time is more likely to enhance life satisfaction when it is spent productively than when it is spent unproductively\u003c/p\u003e", "id": "c8a40848-6b94-4538-9011-536faeb13b1e"}, {"content": "\u003cp\u003eBy challenging the reasoning in Text 1, as it has not been proved that productivity commonly contributes to individuals\u0026rsquo; life satisfaction\u003c/p\u003e", "id": "c470d641-3ee6-42c1-ba2a-c82dbb166a6f"}, {"content": "\u003cp\u003eBy warning against making an overly broad assumption, as there is no clear consensus in distinguishing between productive and unproductive activities\u003c/p\u003e", "id": "9351899c-b712-421f-8cbe-7686dc7f3ac7"}, {"content": "\u003cp\u003eBy claiming that the specific activities named in Text 1 are actually examples of productive activities rather than unproductive ones\u003c/p\u003e", "id": "dbe23c03-3d3c-406a-ba82-4eeb17a05b73"}], "correct_answer": ["C"], "externalid": "4cdb7643-8ee1-4dc5-b7f3-5d6e6ce61444", "keys": ["9351899c-b712-421f-8cbe-7686dc7f3ac7"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-010-CTC", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it characterizes how Maddux would most likely respond to the conclusion Sharif reached after her research. Text 1 describes Sharif\u0026rsquo;s study of the benefits of free time, saying that the reported sense of satisfaction plateaued at two hours per day and began to decline at five hours per day. Further research led Sharif to conclude that time spent doing tasks she defines as unproductive, such as watching TV or playing games, correlated with a drop in life satisfaction. \u0026nbsp;However, in Text 2 Maddux says that there is no objective definition of what constitutes productive behavior, giving the example that reading a book might be considered productive by some but unproductive by others. It can be inferred that Maddux would also assert that whether watching TV or playing games is productive or unproductive is a matter of subjective judgment. Thus, Maddux would most likely caution against making an overly broad assumption, as there is no clear consensus in distinguishing between productive and unproductive activities. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because Maddux asserts that individuals have unique needs for life satisfaction: some may want to spend that time productively, others unproductively, and what counts as productive is subjective. Therefore, Maddux would likely not consider it universally true that free time is more likely to enhance life satisfaction when it is spent productively. Choice B is incorrect because the study described in Text 1 concerns whether free time contributes to life satisfaction, not whether productivity contributes to life satisfaction. The dip in life satisfaction that Sharif claims to observe in Text 1 happens only after five hours, and mainly if the time is spent unproductively\u0026mdash;that is, two hours of free time spent productively might increase life satisfaction just as much as two hours spent unproductively. Choice D is incorrect because Maddux holds the opinion that whether an activity is productive or unproductive is subjective and depends on the individual; therefore, he would most likely claim that watching TV or playing games might be productive for some and unproductive for others. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, how would Maddux (Text 2) most likely respond to the conclusion Sharif (Text 1) reached after her further research?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003cspan aria-level=\"2\" role=\"heading\"\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eIn a study of the benefits of having free time, Marissa Sharif found that the reported sense of life satisfaction tended to plateau when participants had two hours of free time per day and actually began to fall when they had five hours of free time per day. After further research, Sharif concluded that this dip in life satisfaction mainly occurred when individuals spent all their free time unproductively, such as by watching TV or playing games.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003cspan aria-level=\"2\" role=\"heading\"\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003ePsychologist James Maddux cautions against suggesting an ideal amount of free time. The human desire for both free time and productivity is universal, but Maddux asserts that individuals have unique needs for life satisfaction. Furthermore, he points out that there is no objective definition for what constitutes productivity; reading a book might be considered a productive activity by some, but idleness by others.\u003c/p\u003e", "templateclusterid": "faca7399-ae96-422b-a17d-a427f707465f", "templateclustername": "", "type": "mcq", "vaultid": "f22a069e-1e86-43a7-a1b3-da74154dcccc"}, "createDate": 1691007959314, "difficulty": "M", "external_id": "4cdb7643-8ee1-4dc5-b7f3-5d6e6ce61444", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "e1befb41", "score_band_range_cd": 5, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "551a021b-0569-4db4-9a33-d777667696f9", "updateDate": 1691007959314};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e1befb41");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

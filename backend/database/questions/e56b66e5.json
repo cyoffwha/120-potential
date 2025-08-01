@@ -1,0 +1,22 @@
+{
+  "question_id": "e56b66e5",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Set in a world where science fiction tropes exist as everyday realities, Charles Yu's 2010 novel How to Live Safely in a Science Fictional Universe traces a time traveler's quest to find his father. Because the journey at the novel's center is so ______ blank , with the protagonist ricocheting chaotically across time, the reader often wonders whether the pair will ever be reunited.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "haphazard",
+    "premeditated",
+    "inspirational",
+    "fruitless"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of Yu's novel. In this context, \"haphazard\" means marked by a lack of plan or order. The text indicates that the quest featured in the novel, which involves the protagonist bouncing across time, is chaotic and causes the reader to often wonder what will happen. This context suggests that the protagonist's journey seems to be marked by a lack of order.",
+    "B": "Choice B is incorrect because the text indicates that the journey featured in Yu's novel involves a character \"ricocheting chaotically,\" or bouncing in a disordered way, across time and causes the reader to often wonder what will happen. It wouldn't make sense to say that a chaotic journey seems \"premeditated,\" or characterized by forethought and planning.",
+    "C": "Choice C is incorrect because the text doesn't give any indication that readers regard the journey in Yu's novel as \"inspirational,\" or as causing extraordinarily creative or brilliant thoughts or actions; instead, the text focuses on the idea that the protagonist's journey is chaotic, or disordered, and doesn't give readers a clear sense of what will happen.",
+    "D": "Choice D is incorrect. Rather than suggesting that the journey featured in Yu's novel is \"fruitless,\" or has an unsuccessful outcome, the text focuses on the idea that while reading about the protagonist's chaotic movements across time, readers are often unsure of what will happen—that is, they don't know whether the protagonist will be successful in finding his father."
+  }
+}

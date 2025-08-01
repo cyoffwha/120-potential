@@ -1,0 +1,22 @@
+{
+  "question_id": "89ab0d46",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "After the printing press was introduced in 1440, handwritten manuscripts from Europe's medieval period were often destroyed and the paper used for other purposes. In one instance, pages ______ blank a collection of Norse tales dating to 1270 were discovered lining a bishop's miter (hat).",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "from:",
+    "from,",
+    "from",
+    "from&mdash;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The word \"from\" introduces a prepositional phrase that modifies the noun \"pages\" and provides essential information about their origin. No additional punctuation is needed after \"from\" in this context.",
+    "A": "Choice A is incorrect. This choice results in a punctuation error, illogically separating the preposition \"from\" from the rest of the prepositional phrase with a colon. Also, a colon can only follow an independent clause, but what comes before the blank could not stand on its own as a complete sentence.",
+    "B": "Choice B is incorrect. This choice results in a punctuation error, illogically separating the preposition \"from\" from the rest of the prepositional phrase with a comma.",
+    "D": "Choice D is incorrect. This choice results in a punctuation error, illogically separating the preposition \"from\" from the rest of the prepositional phrase with a dash."
+  }
+}

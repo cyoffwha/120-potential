@@ -1,0 +1,22 @@
+{
+  "question_id": "a2be625e",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is from Sarah Orne Jewett's 1899 short story \"Martha's Lady.\" Martha is employed by Miss Pyne as a maid. Miss Pyne sat by the window watching, in her best dress, looking stately and calm; she seldom went out now, and it was almost time for the carriage. Martha was just coming in from the garden with the strawberries, and with more flowers in her apron. It was a bright cool evening in June, the golden robins sang in the elms, and the sun was going down behind the apple-trees at the foot of the garden. The beautiful old house stood wide open to the long-expected guest.",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To convey the worries brought about by a new guest",
+    "To describe how the characters have changed over time",
+    "To contrast the activity indoors with the stillness outside",
+    "To depict the setting as the characters await a visitor&rsquo;s arrival&nbsp;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most accurately reflects the main purpose of the text. The text portrays Miss Pyne as awaiting the arrival of a carriage while Martha brings strawberries and flowers from the garden into the house. The text also describes the surroundings of the scene, stating that Miss Pyne looks \"stately and calm,\" the evening is bright and cool, and birds are singing in the garden as the sun sets. Then the last sentence states that the house was \"wide open to the long-expected guest,\" which strongly suggests that Miss Pyne's anticipation and Martha's activities were in preparation for the guest who is expected to arrive in the carriage. Thus, the text depicts the setting and conveys what these characters are doing as they await the arrival of their visitor.",
+    "A": "Choice A is incorrect because there is nothing in the text to indicate that the characters feel any worry about the guest's arrival. The text indicates that the guest was \"long-expected,\" but characterizing Miss Pyne as \"stately and calm\" conflicts with the idea that the characters are worried about the guest.",
+    "B": "Choice B is incorrect because the text describes a moment in time when two characters are awaiting the arrival of a visitor rather than an extended period over which characters could be seen changing.",
+    "C": "Choice C is incorrect. Although the text describes the activity indoors (Miss Pyne sitting calmly), it describes a higher level of activity, not stillness, outside (Martha bringing fruit and flowers and birds singing)."
+  }
+}

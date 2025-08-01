@@ -1,0 +1,22 @@
+{
+  "question_id": "6916c8e5",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Laetitia Ky's hair is her art. Inspired by hairstyles from various African tribes, the Ivorian artist uses wire and thread to sculpt her hair into all kinds of shapes. ______ blank she once made her hair into the shape of the continent of Africa—including the island of Madagascar!",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Soon,",
+    "Elsewhere,",
+    "For example,",
+    "However,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"For example\" logically signals that the following information about Ky—that she once shaped her hair to look like Africa—is an example supporting the previous statement that she makes different shapes with her hair.",
+    "A": "Choice A is incorrect because \"soon\" illogically signals that the event described in this sentence occurred soon after the statement about Ky making different shapes with her hair. Instead, the sentence provides an example of one of these shapes.",
+    "B": "Choice B is incorrect because \"elsewhere\" illogically signals that the event described in this sentence occurred in a different place than the statement about Ky making different shapes with her hair. Instead, the sentence provides an example of one of these shapes.",
+    "D": "Choice D is incorrect because \"however\" illogically signals that the information in this sentence contrasts with the statement that Ky makes different shapes with her hair. Instead, the sentence provides an example of one of these shapes."
+  }
+}

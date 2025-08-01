@@ -1,0 +1,22 @@
+{
+  "question_id": "62a18353",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Zora Neale Hurston's 1921 short story \"John Redding Goes to Sea.\" John wants to travel far beyond the village where he lives near his mother, Matty. [John] had on several occasions attempted to reconcile his mother to the notion, but found it a difficult task. Matty always took refuge in self-pity and tears. Her son's desires were incomprehensible to her, that was all. As used in the text, what does the phrase \"reconcile his mother to\" most nearly mean?",
+  "question_text": "As used in the text, what does the phrase &ldquo;reconcile his mother to&rdquo; most nearly mean?",
+  "answer_options": [
+    "Get his mother to accept",
+    "Get his mother to apologize for",
+    "Get his mother to match",
+    "Get his mother to reunite with"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The expression \"reconcile to\" means \"to cause (a person) to accept something difficult or disagreeable.\" The text suggests that John wants his mother to accept his desire to travel, even though she doesn't like that idea.",
+    "B": "Choice B is incorrect. This doesn't make sense. John doesn't want his mother to apologize for his own desire to travel—he wants her to accept his desire to travel.",
+    "C": "Choice C is incorrect. The text doesn't suggest that John wants his mother to match his desire to travel. Rather, he wants her to accept his desire to travel even though she doesn't like it.",
+    "D": "Choice D is incorrect. This is tempting, because it seems to pick up on the idea of people \"reconciling\" after a fight, but it actually doesn't make sense. The text never suggests that John's mother was \"united with\" the idea of him traveling in the past—if anything, it seems like she's always been against it. Besides, it would be strange to say that a person \"reunites with\" a notion."
+  }
+}

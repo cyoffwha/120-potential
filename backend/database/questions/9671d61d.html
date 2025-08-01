@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 9671d61d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is from Claude McKay&rsquo;s 1922 poem &ldquo;Morning Joy.&rdquo; The speaker is looking out a window and observing a wold, or large area of land.</p>
+<p>&nbsp;</p>
+<blockquote class="dap_poemexcerpt">
+<p>At night the wide and level stretch of wold,</p>
+<p>Which at high noon had basked in quiet gold,</p>
+<p>Far as the eye could see was ghostly white;</p>
+<p>Dark was the night save for the snow&rsquo;s weird light.</p>
+<p>&nbsp;</p>
+<p>I <span role="region" aria-label="Referenced Content"><u>drew</u></span> the shades far down, crept into bed;</p>
+<p>Hearing the cold wind moaning overhead</p>
+<p>Through the sad pines, my soul, catching its pain,</p>
+<p>Went sorrowing with it across the plain.</p>
+</blockquote></div>
+
+                        <div class="mt-3"><p>As used in the text, what does the word &ldquo;drew&rdquo; most nearly mean?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Pulled</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Drained</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Inspired</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Sketched</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because as used in the text, &ldquo;drew&rdquo; most nearly means pulled. In the text, the speaker stands at a window, looking out on a landscape at night. The speaker then &ldquo;drew the shades far down, crept into bed.&rdquo; That is, the speaker pulled down, or lowered, the shades until they were completely shut before going to sleep.&nbsp;</p><p>Choice B is incorrect. Although in some contexts, &ldquo;drew&rdquo; can refer to draining or removing liquid, especially water, as when someone draws water from a well, in this context it refers to the speaker pulling down window shades for the night. Choice C is incorrect. In some contexts, &ldquo;drew&rdquo; can be used to describe how a person or thing inspires, or elicits, a response from someone, as when a performer draws applause from an audience. But in this context it refers to the speaker pulling down window shades for the night.&nbsp;Choice D is incorrect. Although &ldquo;drew&rdquo; has several meanings, including sketched, or illustrated with a pen or pencil, in this context it refers to the speaker pulling down window shades for the night. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">394 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ePulled\u003c/p\u003e", "id": "6e65b5cc-17c2-4a42-80e7-abf49c22dd0f"}, {"content": "\u003cp\u003eDrained\u003c/p\u003e", "id": "d36ffbb2-b51c-4d50-a4bf-873e6f7b7d8e"}, {"content": "\u003cp\u003eInspired\u003c/p\u003e", "id": "cf7bc2d4-de4a-4bd7-a2d3-3b132e05b037"}, {"content": "\u003cp\u003eSketched\u003c/p\u003e", "id": "fa6924db-2411-449f-a8f7-f9ef73683834"}], "correct_answer": ["A"], "externalid": "625f5ce2-ea7f-47ab-bc02-5689c89e0902", "keys": ["6e65b5cc-17c2-4a42-80e7-abf49c22dd0f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-039-WIC", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because as used in the text, \u0026ldquo;drew\u0026rdquo; most nearly means pulled. In the text, the speaker stands at a window, looking out on a landscape at night. The speaker then \u0026ldquo;drew the shades far down, crept into bed.\u0026rdquo; That is, the speaker pulled down, or lowered, the shades until they were completely shut before going to sleep.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice B is incorrect. Although in some contexts, \u0026ldquo;drew\u0026rdquo; can refer to draining or removing liquid, especially water, as when someone draws water from a well, in this context it refers to the speaker pulling down window shades for the night. Choice C is incorrect. In some contexts, \u0026ldquo;drew\u0026rdquo; can be used to describe how a person or thing inspires, or elicits, a response from someone, as when a performer draws applause from an audience. But in this context it refers to the speaker pulling down window shades for the night.\u0026nbsp;Choice D is incorrect. Although \u0026ldquo;drew\u0026rdquo; has several meanings, including sketched, or illustrated with a pen or pencil, in this context it refers to the speaker pulling down window shades for the night. \u003c/p\u003e", "stem": "\u003cp\u003eAs used in the text, what does the word \u0026ldquo;drew\u0026rdquo; most nearly mean?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is from Claude McKay\u0026rsquo;s 1922 poem \u0026ldquo;Morning Joy.\u0026rdquo; The speaker is looking out a window and observing a wold, or large area of land.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cblockquote class=\"dap_poemexcerpt\"\u003e\n\u003cp\u003eAt night the wide and level stretch of wold,\u003c/p\u003e\n\u003cp\u003eWhich at high noon had basked in quiet gold,\u003c/p\u003e\n\u003cp\u003eFar as the eye could see was ghostly white;\u003c/p\u003e\n\u003cp\u003eDark was the night save for the snow\u0026rsquo;s weird light.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eI \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003edrew\u003c/u\u003e\u003c/span\u003e the shades far down, crept into bed;\u003c/p\u003e\n\u003cp\u003eHearing the cold wind moaning overhead\u003c/p\u003e\n\u003cp\u003eThrough the sad pines, my soul, catching its pain,\u003c/p\u003e\n\u003cp\u003eWent sorrowing with it across the plain.\u003c/p\u003e\n\u003c/blockquote\u003e", "templateclusterid": "572fb30a-de4c-4766-865e-a0a138644b1e", "templateclustername": "", "type": "mcq", "vaultid": "5345d912-40f4-480d-a4de-cd8c15f6de2f"}, "createDate": 1691007959321, "difficulty": "E", "external_id": "625f5ce2-ea7f-47ab-bc02-5689c89e0902", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "9671d61d", "score_band_range_cd": 2, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "6dc03a2b-22f7-44c6-a4c7-e4909b64483f", "updateDate": 1691007959321};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-9671d61d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

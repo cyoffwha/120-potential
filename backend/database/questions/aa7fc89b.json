@@ -1,0 +1,22 @@
+{
+  "question_id": "aa7fc89b",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Susan Glaspell's 1912 short story \"&lsquo;Out There.'\" An elderly shop owner is looking at a picture that he recently acquired and hopes to sell. It did seem that the picture failed to fit in with the rest of the shop. A persuasive young fellow who claimed he was closing out his stock let the old man have it for what he called a song. It was only a little out-of-the-way store which subsisted chiefly on the framing of pictures. The old man looked around at his views of the city, his pictures of cats and dogs, his flaming bits of landscape. \"Don't belong in here,\" he fumed. And yet the old man was secretly proud of his acquisition. There was a hidden dignity in his scowling as he shuffled about pondering the least ridiculous place for the picture.",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To reveal the shop owner&rsquo;s conflicted feelings about the new picture",
+    "To convey the shop owner&rsquo;s resentment of the person he got the new picture from",
+    "To describe the items that the shop owner most highly prizes",
+    "To explain differences between the new picture and other pictures in the shop"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately describes the main purpose of the text. The text begins by stating that the new picture \"failed to fit in\" with the other items that the shop owner has. The text goes on to illustrate that point by describing the other pictures the shop owner has, indicating that the shop owner is fuming because he doesn't think the new picture belongs in the store. In the second paragraph, however, the text indicates that the shop owner is \"secretly proud of his acquisition.\" The main purpose of the text is thus to reveal the shop owner's conflicted feelings about the new picture.",
+    "B": "Choice B is incorrect because the text doesn't suggest that the shop owner resents the young man who sold him the new picture; in fact, the text gives no indication of the owner's feelings about the young man at all.",
+    "C": "Choice C is incorrect. Although the text indicates that the new picture is different from the other items in the shop, there's no suggestion that the shop owner prizes either the new picture or the pictures of the city, pets, and landscapes more than he prizes any other items.",
+    "D": "Choice D is incorrect because the text doesn't describe what the new picture looks like; rather, the text identifies some of the other kinds of images that the shop owner has and states that they're different from the new picture without explaining how they're different."
+  }
+}

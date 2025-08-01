@@ -1,0 +1,22 @@
+{
+  "question_id": "66c47028",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 1934 physicist Eugene Wigner posited the existence of a crystal consisting entirely of electrons in a honeycomb-like structure. The so-called Wigner crystal remained largely conjecture, however, until Feng Wang and colleagues announced in 2021 that they had captured an image of one. The researchers trapped electrons between two semiconductors and then cooled the apparatus, causing the electrons to settle into a crystalline structure. By inserting an ultrathin sheet of graphene above the crystal, the researchers obtained an impression—the first visual confirmation of the Wigner crystal.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Researchers have obtained the most definitive evidence to date of the existence of the Wigner crystal.",
+    "Researchers have identified an innovative new method for working with unusual crystalline structures.",
+    "Graphene is the most important of the components required to capture an image of a Wigner crystal.",
+    "&nbsp;It&rsquo;s difficult to acquire an image of a Wigner crystal because of the crystal&rsquo;s honeycomb structure."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately states the main idea of the text. According to the text, Eugene Wigner hypothesized that a crystal could exist that would be composed of electrons and have a honeycomb-like shape. The text goes on to say that the existence of the Wigner crystal remained unconfirmed until Feng Wang and colleagues were able to make an impression of one using two semiconductors and an ultrathin sheet of graphene. Thus, the main idea is that researchers have obtained the most definitive evidence to date of the existence of the Wigner crystal.",
+    "B": "Choice B is incorrect because the text focuses on one kind of crystal—the Wigner crystal— and doesn't discuss crystalline structures in general. And although the text conveys that Wang and colleagues figured out a way to capture an image of a Wigner crystal, it doesn't address the idea of applying this approach to other types of crystals.",
+    "C": "Choice C is incorrect because the text describes in general the process Wang and colleagues followed to obtain an impression of the Wigner crystal; it doesn't address the relative importance of each component in that process.",
+    "D": "Choice D is incorrect because the text doesn't state that researchers had a hard time getting an impression of the Wigner crystal because of its honeycomb structure. Nothing in the text indicates why it took so long to prove the existence of this crystal or take an impression of it."
+  }
+}

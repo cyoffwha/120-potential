@@ -1,0 +1,22 @@
+{
+  "question_id": "bd11fe93",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Dr. Roc&iacute;o Paola Caballero-Gill is a paleoceanographer. This means that Dr. Caballero-Gill doesn't just study oceans as they are today. She uses chemistry and fossil evidence ______ blank oceans as they were in the past.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "has studied",
+    "to study",
+    "studied",
+    "studies"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the use of verb forms within a sentence. The nonfinite to-infinitive verb \"to study\" is correctly used to form a subordinate clause that indicates what Dr. Caballero-Gill uses chemistry and fossil evidence for (to study oceans as they were in the past).",
+    "A": "Choice A is incorrect because it results in an ungrammatical sentence. The finite verb \"has studied\" can't be used in this way to form a subordinate clause that indicates what Dr. Caballero-Gill uses the evidence for.",
+    "C": "Choice C is incorrect because it results in an ungrammatical sentence. The finite verb \"studied\" can't be used in this way to form a subordinate clause that indicates what Dr. Caballero-Gill uses the evidence for.",
+    "D": "Choice D is incorrect because it results in an ungrammatical sentence. The finite verb \"studies\" can't be used in this way to form a subordinate clause that indicates what Dr. Caballero-Gill uses the evidence for."
+  }
+}

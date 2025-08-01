@@ -1,0 +1,22 @@
+{
+  "question_id": "7b419faf",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1903, environmentalist John Muir guided President Theodore Roosevelt on a scenic, sprawling trip through California's Yosemite Valley. Upon returning from the three-day excursion, Roosevelt ______ blank to conserve the nation's wilderness areas, a vow he upheld for his remaining six years in office.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "is vowing",
+    "vowed",
+    "will vow",
+    "vows"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the past tense verb \"vowed\" is consistent with the other past tense verbs (\"guided\" and \"upheld\") used to narrate the events surrounding President Roosevelt's decision to conserve the nation's wilderness areas.",
+    "A": "Choice A is incorrect because the present progressive tense verb \"is vowing\" isn't consistent with the past tense verbs used to narrate the events surrounding President Roosevelt's decision to conserve the nation's wilderness areas.",
+    "C": "Choice C is incorrect because the future tense verb \"will vow\" isn't consistent with the past tense verbs used to narrate the events surrounding President Roosevelt's decision to conserve the nation's wilderness areas.",
+    "D": "Choice D is incorrect because the simple present tense verb \"vows\" isn't consistent with the past tense verbs used to narrate the events surrounding President Roosevelt's decision to conserve the nation's wilderness areas."
+  }
+}

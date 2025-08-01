@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question d748c3fd</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In her 2021 article &ldquo;Throwaway History: Towards a Historiography of Ephemera,&rdquo; scholar Anne Garner discusses John Johnson (1882&ndash;1956), a devoted collector of items intended to be discarded, including bus tickets and campaign pamphlets. Johnson recognized that scholarly institutions considered his expansive collection of ephemera to be worthless&mdash;indeed, it wasn&rsquo;t until 1968, after Johnson&rsquo;s death, that Oxford University&rsquo;s Bodleian Library acquired the collection, having grasped the items&rsquo; potential value to historians and other researchers. Hence, the example of Johnson serves to <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>demonstrate the difficulties faced by contemporary historians in conducting research at the Bodleian Library without access to ephemera.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>represent the challenge of incorporating examples of ephemera into the collections of libraries and other scholarly institutions.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>lend support to arguments by historians and other researchers who continue to assert that ephemera holds no value for scholars.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>illustrate both the relatively low scholarly regard in which ephemera was once held and the later recognition of ephemera&rsquo;s possible utility.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. Johnson collected &ldquo;ephemera,&rdquo; or things that are meant to be thrown away. Scholars thought his collection was worthless to them, then later realized that it was potentially valuable. This suggests that scholars went from disregarding ephemera to recognizing their usefulness. </p><p>Choice A is incorrect. This inference isn&rsquo;t supported. The text tells us that the Bodleian Library acquired Johnson&rsquo;s large collection of ephemera back in 1968, so we can assume that contemporary historians conducting research there do have access to that collection. Choice B is incorrect. This inference isn&rsquo;t supported. The text tells us that &ldquo;Oxford University&rsquo;s Bodleian Library acquired the collection,&rdquo; but it never suggests that it was a challenge to do so. Choice C is incorrect. This inference isn&rsquo;t supported. The text actually suggests the opposite: the example of Johnson&rsquo;s collection lends support to arguments that ephemera does hold value for scholars. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">4 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003edemonstrate the difficulties faced by contemporary historians in conducting research at the Bodleian Library without access to ephemera.\u003c/p\u003e", "id": "08e2c122-85fd-460a-92d9-d7bd107f856b"}, {"content": "\u003cp\u003erepresent the challenge of incorporating examples of ephemera into the collections of libraries and other scholarly institutions.\u003c/p\u003e", "id": "f37780c5-a1ab-459a-bee5-f46d00e773e0"}, {"content": "\u003cp\u003elend support to arguments by historians and other researchers who continue to assert that ephemera holds no value for scholars.\u003c/p\u003e", "id": "90d7b9ba-a375-4393-857e-c81ec566a961"}, {"content": "\u003cp\u003eillustrate both the relatively low scholarly regard in which ephemera was once held and the later recognition of ephemera\u0026rsquo;s possible utility.\u003c/p\u003e", "id": "370c5787-591b-49c5-a83b-4343a5ec8c5d"}], "correct_answer": ["D"], "externalid": "34993994-d6c5-4708-a99e-263ff6b8b604", "keys": ["370c5787-591b-49c5-a83b-4343a5ec8c5d"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-INF-M004", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. Johnson collected \u0026ldquo;ephemera,\u0026rdquo; or things that are meant to be thrown away. Scholars thought his collection was worthless to them, then later realized that it was potentially valuable. This suggests that scholars went from disregarding ephemera to recognizing their usefulness. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This inference isn\u0026rsquo;t supported. The text tells us that the Bodleian Library acquired Johnson\u0026rsquo;s large collection of ephemera back in 1968, so we can assume that contemporary historians conducting research there do have access to that collection. Choice B is incorrect. This inference isn\u0026rsquo;t supported. The text tells us that \u0026ldquo;Oxford University\u0026rsquo;s Bodleian Library acquired the collection,\u0026rdquo; but it never suggests that it was a challenge to do so. Choice C is incorrect. This inference isn\u0026rsquo;t supported. The text actually suggests the opposite: the example of Johnson\u0026rsquo;s collection lends support to arguments that ephemera does hold value for scholars. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn her 2021 article \u0026ldquo;Throwaway History: Towards a Historiography of Ephemera,\u0026rdquo; scholar Anne Garner discusses John Johnson (1882\u0026ndash;1956), a devoted collector of items intended to be discarded, including bus tickets and campaign pamphlets. Johnson recognized that scholarly institutions considered his expansive collection of ephemera to be worthless\u0026mdash;indeed, it wasn\u0026rsquo;t until 1968, after Johnson\u0026rsquo;s death, that Oxford University\u0026rsquo;s Bodleian Library acquired the collection, having grasped the items\u0026rsquo; potential value to historians and other researchers. Hence, the example of Johnson serves to \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "537d7387-6a93-49ae-8851-d8eee13257f1", "templateclustername": "", "type": "mcq", "vaultid": "bcce0fc1-12b1-4001-a095-635d8eb467a5"}, "createDate": 1691007959368, "difficulty": "M", "external_id": "34993994-d6c5-4708-a99e-263ff6b8b604", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "d748c3fd", "score_band_range_cd": 5, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "01576a15-f795-428d-9950-396548d2af5e", "updateDate": 1691007959368};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-d748c3fd");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

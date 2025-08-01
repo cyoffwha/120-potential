@@ -1,0 +1,22 @@
+{
+  "question_id": "d3ca5d59",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Stephen Hannock's luminous landscape paintings are appealing to viewers but have elicited little commentary from contemporary critics, a phenomenon that may be due to the very fact that the paintings seem so ______ blank . Many critics focus their attention on art that is cryptic or overtly challenging.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "innovative",
+    "subversive",
+    "profound",
+    "accessible"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. When talking about a thing, \"accessible\" means \"easy to understand.\" This sets up the contrast in the next sentence, which tells us that critics mostly focus on art that is \"cryptic or challenging\" (meaning not easy to understand).",
+    "A": "Choice A is incorrect. This doesn't fit the logic of the text. The next sentence tells us that critics focus on art that is mysterious and challenging. If Hannock's paintings are \"innovative\" (meaning advanced and original), then critics probably would comment on them.",
+    "B": "Choice B is incorrect. This doesn't fit the logic of the text. The next sentence tells us that critics focus on art that is mysterious and challenging. If Hannock's paintings are \"subversive\" (meaning disruptive and revolutionary), then critics probably would comment on them.",
+    "C": "Choice C is incorrect. This doesn't fit the logic of the text. The next sentence tells us that critics focus on art that is mysterious and challenging. If Hannock's paintings are \"profound\" (meaning very deep and insightful), then critics probably would comment on them."
+  }
+}

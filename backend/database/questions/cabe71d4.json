@@ -1,0 +1,22 @@
+{
+  "question_id": "cabe71d4",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Both Sona Charaipotra, an Indian American, and Dhonielle Clayton, an African American, grew up frustrated by the lack of diverse characters in books for young people. In 2011, these two writers joined forces to found CAKE Literary, a book packaging ______ blank specializes in the creation and promotion of stories told from diverse perspectives for children and young adults.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "company,",
+    "company that",
+    "company",
+    "company, that"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the use and punctuation of an integrated relative clause. This choice correctly uses the relative pronoun \"that\" and no punctuation to create an integrated relative clause that provides essential information about the noun phrase (\"a book packaging company\") that it modifies.",
+    "A": "Choice A is incorrect because it doesn't use a relative pronoun to link the verb phrase beginning with \"specializes\" to the noun phrase that it modifies (\"a book packaging company\").",
+    "C": "Choice C is incorrect because it doesn't use a relative pronoun to link the verb phrase beginning with \"specializes\" to the noun phrase that it modifies (\"a book packaging company\").",
+    "D": "Choice D is incorrect because no punctuation is needed between the integrated relative clause beginning with \"that specializes\" and the noun phrase that it modifies (\"a book packaging company\")."
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question bcbcc43f</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The ancient Sumerian civilization formed around 4000 BCE between two large rivers in an area that is now Iraq and Syria. The extremely hot and sunny weather in that area helped crops grow very quickly, but it also made it hard to keep the crops from drying up and dying. So, the Sumerians used water from the rivers in their farming. That method worked so well that they often could harvest even more crops than they needed in a season. As a result, the Sumerians <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>harvested crops only on the hottest days of each season.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>found ways to shield their crops from the sun.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>did not begin farming until long after 4000 BCE.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>were able to store extra crops for later use.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it presents the conclusion that most logically completes the text&rsquo;s discussion of Sumerian civilization and crop growth. The text mentions the hot, sunny weather in the area where the Sumerians lived, which made crops grow quickly but also made it difficult to keep them alive. The Sumerians solved this problem by using river water for their farming&mdash;as a result, they often harvested more crops than were needed in a season. It follows that the Sumerians must have needed to find something to do with the surplus crops&mdash;that is, they stored the extra crops for later use. </p><p>Choice A is incorrect because it doesn&rsquo;t logically follow that a surplus in crops would lead the Sumerians to choose only certain days of the season to harvest. Nor is there any indication in the text that the Sumerians improved their farming methods with the goal of reducing the time spent farming. Choice B is incorrect because the text doesn&rsquo;t suggest that the Sumerians tried to shield their crops from the sun: in fact, the text indicates that the sunny weather helped crops grow very quickly and that the Sumerians used river water to allow crops to be exposed to the sun without dying. Choice C is incorrect. Having a surplus of crops wouldn&rsquo;t have caused the Sumerians to begin farming until long after 4000 BCE: in fact, since the text indicates that the Sumerian civilization formed around 4000 BCE and farming was a part of that civilization, the statement that Sumerians only began farming long after 4000 BCE isn&rsquo;t supported by the text. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">247 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eharvested crops only on the hottest days of each season.\u003c/p\u003e", "id": "6acb4530-7faa-4ea9-9d00-063b8834471a"}, {"content": "\u003cp\u003efound ways to shield their crops from the sun.\u003c/p\u003e", "id": "9589d3f7-3141-42a1-8cb5-27549374656d"}, {"content": "\u003cp\u003edid not begin farming until long after 4000 BCE.\u003c/p\u003e", "id": "2d99e3c9-2f55-4585-9464-406276798e0f"}, {"content": "\u003cp\u003ewere able to store extra crops for later use.\u003c/p\u003e", "id": "3d2b0be2-2d40-4684-8a01-b019f4ef55f2"}], "correct_answer": ["D"], "externalid": "7321ec71-5cd9-4eb9-93f9-7e268cefccba", "keys": ["3d2b0be2-2d40-4684-8a01-b019f4ef55f2"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-030-INF", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it presents the conclusion that most logically completes the text\u0026rsquo;s discussion of Sumerian civilization and crop growth. The text mentions the hot, sunny weather in the area where the Sumerians lived, which made crops grow quickly but also made it difficult to keep them alive. The Sumerians solved this problem by using river water for their farming\u0026mdash;as a result, they often harvested more crops than were needed in a season. It follows that the Sumerians must have needed to find something to do with the surplus crops\u0026mdash;that is, they stored the extra crops for later use. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because it doesn\u0026rsquo;t logically follow that a surplus in crops would lead the Sumerians to choose only certain days of the season to harvest. Nor is there any indication in the text that the Sumerians improved their farming methods with the goal of reducing the time spent farming. Choice B is incorrect because the text doesn\u0026rsquo;t suggest that the Sumerians tried to shield their crops from the sun: in fact, the text indicates that the sunny weather helped crops grow very quickly and that the Sumerians used river water to allow crops to be exposed to the sun without dying. Choice C is incorrect. Having a surplus of crops wouldn\u0026rsquo;t have caused the Sumerians to begin farming until long after 4000 BCE: in fact, since the text indicates that the Sumerian civilization formed around 4000 BCE and farming was a part of that civilization, the statement that Sumerians only began farming long after 4000 BCE isn\u0026rsquo;t supported by the text. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe ancient Sumerian civilization formed around 4000 BCE between two large rivers in an area that is now Iraq and Syria. The extremely hot and sunny weather in that area helped crops grow very quickly, but it also made it hard to keep the crops from drying up and dying. So, the Sumerians used water from the rivers in their farming. That method worked so well that they often could harvest even more crops than they needed in a season. As a result, the Sumerians \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "3af72bf5-ebb6-4d81-8146-00e69a1a3735", "templateclustername": "", "type": "mcq", "vaultid": "f8d66f9c-e54a-4963-b234-eeacdab21b81"}, "createDate": 1691007959318, "difficulty": "M", "external_id": "7321ec71-5cd9-4eb9-93f9-7e268cefccba", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "bcbcc43f", "score_band_range_cd": 4, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "cf3346f3-60e5-4a2b-90dc-56231951013f", "updateDate": 1691007959318};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-bcbcc43f");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "question_id": "94cb8720",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In 2020, theater students at Radford and Virginia Tech chose an interactive, online format to present a play about woman suffrage activists. Their \"Women and the Vote\" website featured an interactive digital drawing of a Victorian-style house. Audiences were asked to focus on a room of their choice and select from that room an artifact related to the suffrage movement. One click took them to video clips, songs, artwork, and texts associated with the artifact. The play was popular with audiences because the format allowed them to control the experience. The student wants to explain an advantage of the \"Women and the Vote\" format. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to explain an advantage of the &ldquo;Women and the Vote&rdquo; format. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "&ldquo;Women and the Vote&rdquo; featured a drawing of a Victorian-style house with several rooms, each containing suffrage artifacts.",
+    "To access video clips, songs, artwork, and texts, audiences had to first click on an artifact.",
+    "The &ldquo;Women and the Vote&rdquo; format appealed to audiences because it allowed them to control the experience. &nbsp;&nbsp;",
+    "Using an interactive format, theater students at Radford and Virginia Tech created &ldquo;Women and the Vote,&rdquo; a play about woman suffrage activists.&nbsp;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The sentence explains an advantage of the \"Women and the Vote\" format, noting that the format appealed to audiences because it allowed them to control the experience.",
+    "A": "Choice A is incorrect. The sentence describes a digital drawing on the \"Women and the Vote\" website; it doesn't explain an advantage of the play's format.",
+    "B": "Choice B is incorrect. The sentence explains how audiences interacted with the \"Women and the Vote\" website; it doesn't explain an advantage of the play's format.",
+    "D": "Choice D is incorrect. While the sentence mentions that \"Women and the Vote\" had an interactive format, it doesn't explain what advantage this format might have."
+  }
+}

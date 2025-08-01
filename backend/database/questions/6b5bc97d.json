@@ -1,0 +1,22 @@
+{
+  "question_id": "6b5bc97d",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: The Sasanian Empire lasted about 400 years (AD 224 to AD 651). The Sasanians controlled an area spanning 1.4 million square miles. This area included present-day Iran and Iraq. The empire's capital was the ancient city of Ctesiphon. Ctesiphon was located near present-day Baghdad, Iraq. The student wants to specify the location of Ctesiphon. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to specify the location of Ctesiphon. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "The Sasanian Empire began in AD 224 and ended in AD 651.",
+    "The capital of the Sasanian Empire, which spanned 1.4 million square miles, was Ctesiphon.",
+    "The Sasanians controlled an area of 1.4 million square miles, including present-day Iran and Iraq.",
+    "Ctesiphon, the capital of the Sasanian Empire, was located near present-day Baghdad, Iraq."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence specifies the location of Ctesiphon, noting that it was located near present-day Baghdad, Iraq.",
+    "A": "Choice A is incorrect because the sentence explains when the Sasanian Empire began and ended; it doesn't specify the location of Ctesiphon.",
+    "B": "Choice B is incorrect because the sentence emphasizes that Ctesiphon was the capital of the Sasanian Empire; it doesn't specify Ctesiphon's location.",
+    "C": "Choice C is incorrect because it emphasizes the size of the Sasanian Empire; it doesn't specify the location of Ctesiphon."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "c68ceeff",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Text 1 Today the starchy root cassava is found in many dishes across West Africa, but its rise to popularity was slow. Portuguese traders brought cassava from Brazil to the West African coast in the 1500s. But at this time, people living in the capitals further inland had little contact with coastal communities. Thus, cassava remained relatively unknown to most of the region's inhabitants until the 1800s. Text 2 Cassava's slow adoption into the diet of West Africans is mainly due to the nature of the crop itself. If not cooked properly, cassava can be toxic. Knowledge of how to properly prepare cassava needed to spread before the food could grow in popularity. The arrival of formerly enslaved people from Brazil in the 1800s, who brought their knowledge of cassava and its preparation with them, thus directly fueled the spread of this crop.",
+  "question_text": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely agree with which statement?",
+  "answer_options": [
+    "Cassava did not become a significant crop in West Africa until long after it was first introduced.",
+    "Several of the most commonly grown crops in West Africa are originally from Brazil.",
+    "The climate of the West African coast in the 1500s prevented cassava&rsquo;s spread in the region.&nbsp;",
+    "The most commonly used methods to cook cassava today date to the 1500s."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. Text 1 states that cassava's \"rise to popularity was slow\" in West Africa. Text 2 also describes cassava's \"slow adoption into the diet of West Africans.\" While the two texts identify different causes for this slow adoption, both agree that cassava took a long time to catch on.",
+    "B": "Choice B is incorrect. This isn't something that either text claims. Cassava is the only crop discussed in the passages, so we have no basis to draw conclusions about what the authors might say about \"several\" crops.",
+    "C": "Choice C is incorrect. This isn't something that either text claims. Neither text mentions the \"climate of the West African coast,\" so we have no evidence that either author would agree with this.",
+    "D": "Choice D is incorrect. This isn't something that either text claims. The 1500s were when cassava was brought to West Africa, but neither text describes how cassava is cooked, nor do they make any claims about when cooking methods were developed."
+  }
+}

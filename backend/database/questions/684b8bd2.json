@@ -1,0 +1,22 @@
+{
+  "question_id": "684b8bd2",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Far from being modern inventions, ______ blank more than 5,000 years ago.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Sumerians in ancient Mesopotamia used drinking straws",
+    "drinking straws were used by Sumerians in ancient Mesopotamia",
+    "the use of drinking straws by Sumerians in ancient Mesopotamia happened",
+    "ancient Mesopotamia was home to Sumerians who used drinking straws"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. Modifiers and their subjects must go next to each other. The modifier \"far from being modern inventions\" must be describing \"drinking straws,\" because those are the only possible inventions in this sentence.",
+    "A": "Choice A is incorrect. Modifiers and their subjects must go next to each other. The modifier \"far from being modern inventions\" can't be describing \"Sumerians,\" because they are a group of people, not an invention.",
+    "C": "Choice C is incorrect. Modifiers and their subjects must go next to each other. The modifier \"far from being modern inventions\" can't be describing \"the use of drinking straws,\" because it is not \"the use\" of drinking straws that is an invention—it is the drinking straws themselves.",
+    "D": "Choice D is incorrect. Modifiers and their subjects must go next to each other. The modifier \"far from being modern inventions\" can't be describing \"Ancient Mesopotamia,\" because that is a place, not an invention."
+  }
+}

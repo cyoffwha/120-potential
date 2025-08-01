@@ -1,0 +1,22 @@
+{
+  "question_id": "e37b9e34",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Some researchers believe that the genes that enable groundhogs and certain other mammals to hibernate through the winter by slowing their breathing and heart rates and lowering their body temperature may be ______ blank in humans: present yet having essentially no effect on our bodily processes.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "decisive",
+    "lacking",
+    "variable",
+    "dormant"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it logically completes the text's discussion about genes related to hibernation. In this context, \"dormant\" means inactive. The text explains that the same genes that enable certain nonhuman mammal species to hibernate during the winter by altering their bodily processes are also found in our species but have \"essentially no effect\" on humans' bodily processes. In other words, these genes don't function in humans.",
+    "A": "Choice A is incorrect because in this context, \"decisive\" means has the power to affect the outcome of something, but the text states that genes related to hibernation are instead inactive in humans—that is, the genes don't affect humans' bodily processes, although they are present in their bodies.",
+    "B": "Choice B is incorrect because in this context, \"lacking\" means missing, but the text states that the genes are present in humans, though inactive.",
+    "C": "Choice C is incorrect because \"variable\" means characterized by the potential to change, but the text indicates that these genes don't change in their effect on humans' bodily processes; instead, the genes are consistently inactive in humans."
+  }
+}

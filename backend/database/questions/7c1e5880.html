@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 7c1e5880</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Scholars have noted that F. Scott Fitzgerald&rsquo;s writings were likely influenced in part by his marriage to Zelda Fitzgerald, but many don&rsquo;t recognize Zelda as a writer in her own right. Indeed, Zelda authored several works herself, such as the novel <em>Save Me the Waltz</em> and numerous short stories. Thus, those who primarily view Zelda as an inspiration for F. Scott&rsquo;s writings <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>overlook the many other factors that motivated F. Scott to write.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>risk misrepresenting the full range of Zelda&rsquo;s contributions to literature.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>may draw inaccurate conclusions about how F. Scott and Zelda viewed each other&rsquo;s works.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>tend to read the works of F. Scott and Zelda in an overly autobiographical light.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it most logically completes the text&rsquo;s discussion of Zelda Fitzgerald&rsquo;s contributions to literature. The text begins by saying that many scholars view Zelda mainly in terms of her marriage to F. Scott Fitzgerald and &ldquo;don&rsquo;t recognize Zelda as a writer in her own right.&rdquo; The text then mentions a novel and &ldquo;numerous short stories&rdquo; that she wrote and that such scholars tend to ignore. Therefore, those scholars who focus on Zelda only as an inspiration for F. Scott&rsquo;s writings risk misrepresenting the full range of Zelda&rsquo;s contributions to literature. </p><p>Choice A is incorrect. Although the text does mention that Zelda Fitzgerald &ldquo;likely influenced&rdquo; her husband&rsquo;s literary work, its focus is on Zelda&rsquo;s own writing, not on her husband&rsquo;s writing or factors that might have influenced it. Choice C is incorrect because the text does not discuss F. Scott and Zelda Fitzgerald&rsquo;s opinions of each other&rsquo;s works. Choice D is incorrect. Although the text does suggest that F. Scott Fitzgerald&rsquo;s works were &ldquo;likely influenced in part&rdquo; by his marriage to Zelda, it does not discuss autobiographical interpretations of the works of either F. Scott or Zelda. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">48 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eoverlook the many other factors that motivated F. Scott to write.\u003c/p\u003e", "id": "8a228aeb-5a82-4cd0-8e53-0d80323a1bc6"}, {"content": "\u003cp\u003erisk misrepresenting the full range of Zelda\u0026rsquo;s contributions to literature.\u003c/p\u003e", "id": "e44cfa39-053e-4655-a61e-69339ccfb8b4"}, {"content": "\u003cp\u003emay draw inaccurate conclusions about how F. Scott and Zelda viewed each other\u0026rsquo;s works.\u003c/p\u003e", "id": "a72261cf-6b92-4b1a-a6fc-d12a38bc6655"}, {"content": "\u003cp\u003etend to read the works of F. Scott and Zelda in an overly autobiographical light.\u003c/p\u003e", "id": "ce8b6877-1e7b-4ee5-bfbb-314b75490ced"}], "correct_answer": ["B"], "externalid": "8cfcf0a4-fcdd-4de7-8cb5-5b319becb374", "keys": ["e44cfa39-053e-4655-a61e-69339ccfb8b4"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-038-INF", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it most logically completes the text\u0026rsquo;s discussion of Zelda Fitzgerald\u0026rsquo;s contributions to literature. The text begins by saying that many scholars view Zelda mainly in terms of her marriage to F. Scott Fitzgerald and \u0026ldquo;don\u0026rsquo;t recognize Zelda as a writer in her own right.\u0026rdquo; The text then mentions a novel and \u0026ldquo;numerous short stories\u0026rdquo; that she wrote and that such scholars tend to ignore. Therefore, those scholars who focus on Zelda only as an inspiration for F. Scott\u0026rsquo;s writings risk misrepresenting the full range of Zelda\u0026rsquo;s contributions to literature. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although the text does mention that Zelda Fitzgerald \u0026ldquo;likely influenced\u0026rdquo; her husband\u0026rsquo;s literary work, its focus is on Zelda\u0026rsquo;s own writing, not on her husband\u0026rsquo;s writing or factors that might have influenced it. Choice C is incorrect because the text does not discuss F. Scott and Zelda Fitzgerald\u0026rsquo;s opinions of each other\u0026rsquo;s works. Choice D is incorrect. Although the text does suggest that F. Scott Fitzgerald\u0026rsquo;s works were \u0026ldquo;likely influenced in part\u0026rdquo; by his marriage to Zelda, it does not discuss autobiographical interpretations of the works of either F. Scott or Zelda. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eScholars have noted that F. Scott Fitzgerald\u0026rsquo;s writings were likely influenced in part by his marriage to Zelda Fitzgerald, but many don\u0026rsquo;t recognize Zelda as a writer in her own right. Indeed, Zelda authored several works herself, such as the novel \u003cem\u003eSave Me the Waltz\u003c/em\u003e and numerous short stories. Thus, those who primarily view Zelda as an inspiration for F. Scott\u0026rsquo;s writings \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "df8fb9fc-e4e3-4fca-b5ba-045271103b7e", "templateclustername": "", "type": "mcq", "vaultid": "903ce1d0-b6ae-4f69-8a9f-d388b7406d91"}, "createDate": 1691007959321, "difficulty": "M", "external_id": "8cfcf0a4-fcdd-4de7-8cb5-5b319becb374", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "7c1e5880", "score_band_range_cd": 5, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "260e6a1e-361e-4eb3-947c-82d66f9ac6fd", "updateDate": 1691007959321};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-7c1e5880");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

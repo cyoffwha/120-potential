@@ -1,0 +1,22 @@
+{
+  "question_id": "afec1a70",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: As engineered structures, many bird nests are uniquely flexible yet cohesive. A research team led by Yashraj Bhosale wanted to better understand the mechanics behind these structural properties. Bhosale's team used laboratory models that simulated the arrangement of flexible sticks into nest-like structures. The researchers analyzed the points where sticks touched one another. When pressure was applied to the model nests, the number of contact points between the sticks increased, making the structures stiffer. The student wants to present the primary aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to present the primary aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Bhosale&rsquo;s team wanted to better understand the mechanics behind bird nests&rsquo; uniquely flexible yet cohesive structural properties.",
+    "The researchers used laboratory models that simulated the arrangement of flexible sticks and analyzed the points where sticks touched one another.",
+    "After analyzing the points where sticks touched, the researchers found that the structures became stiffer when pressure was applied.",
+    "As analyzed by Bhosale&rsquo;s team, bird nests are uniquely flexible yet cohesive engineered structures."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. It describes the reason Bhosale's team wanted to study the structures of bird nests—that is to say, the study's primary aim.",
+    "B": "Choice B is incorrect. This choice doesn't present the primary aim of the research study. It describes how the study worked, but not why it was done.",
+    "C": "Choice C is incorrect. This choice doesn't present the primary aim of the research study. It describes a result of the experiment, but not why it was carried out.",
+    "D": "Choice D is incorrect. This choice doesn't present the primary aim of the research study."
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 825dc766</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><em>King Lear</em> is a circa 1606 play by William Shakespeare. In the play, the character of King Lear attempts to test his three daughters&rsquo; devotion to him. He later expresses regret for his actions, as is evident when he <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses a quotation from <em>King Lear </em>to illustrate the claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>says of himself, &ldquo;I am a man / more sinned against than sinning.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>says during a growing storm, &ldquo;This tempest will not give me leave to ponder / On things would hurt me more.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>says to himself while striking his head, &ldquo;Beat at this gate that let thy folly in / And thy dear judgement out!&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>says of himself, &ldquo;I will do such things&mdash; / What they are yet, I know not; but they shall be / The terrors of the earth!&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most effectively uses a quotation from <em>King Lear</em> to illustrate the claim that King Lear expresses regret for his actions. In the quotation, Lear describes striking himself on the head&mdash;the same act he&rsquo;s engaged in as he speaks, and one that suggests he&rsquo;s deeply upset with himself. Referring to himself in the second person (with &ldquo;thy&rdquo;), the character exclaims &ldquo;Beat at this gate that let thy folly in / And thy dear judgement out!&rdquo; Lear refers metaphorically to his own mind as a gate that has allowed folly, or poor judgement, to enter and good judgement to escape. This suggests that Lear regrets his attempts to test his three daughters&rsquo; devotion to him, regarding those attempts as examples of the folly that has entered the gate of his mind. </p><p>Choice A is incorrect because this quotation doesn&rsquo;t express King Lear&rsquo;s sense of regret over his own actions; instead, it expresses his belief that the harm that others have done to him (or the extent to which they have &ldquo;sinned against&rdquo; him) outweighs whatever harm he himself has caused by &ldquo;sinning.&rdquo; Choice B is incorrect because this quotation doesn&rsquo;t express King Lear&rsquo;s sense of regret over his own actions; instead, it expresses his thoughts about an approaching storm (&ldquo;this tempest&rdquo;), which he believes &ldquo;will not give [him] leave to ponder,&rdquo; or time to consider, the harm that he will continue to experience (&ldquo;things&rdquo; that &ldquo;would hurt [him] more&rdquo;). Choice D is incorrect because this quotation expresses King Lear&rsquo;s vow to commit terrible actions (or &ldquo;things&rdquo; that &ldquo;shall be / The terrors of the earth&rdquo;) in the future, not his regret over actions that he&rsquo;s already taken. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">138 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003esays of himself, \u0026ldquo;I am a man / more sinned against than sinning.\u0026rdquo;\u003c/p\u003e", "id": "124dc025-3c73-4db3-9019-93cd095e344c"}, {"content": "\u003cp\u003esays during a growing storm, \u0026ldquo;This tempest will not give me leave to ponder / On things would hurt me more.\u0026rdquo;\u003c/p\u003e", "id": "a6dfe277-1be8-41ee-94b1-784d36a9c117"}, {"content": "\u003cp\u003esays to himself while striking his head, \u0026ldquo;Beat at this gate that let thy folly in / And thy dear judgement out!\u0026rdquo;\u003c/p\u003e", "id": "803eebed-f638-43d8-a5b2-f017e3477879"}, {"content": "\u003cp\u003esays of himself, \u0026ldquo;I will do such things\u0026mdash; / What they are yet, I know not; but they shall be / The terrors of the earth!\u0026rdquo;\u003c/p\u003e", "id": "a3713d75-aaec-44f8-90b1-f7b9bf95f7e7"}], "correct_answer": ["C"], "externalid": "ecf8fb3a-a8a8-4251-9424-048c185cf125", "keys": ["803eebed-f638-43d8-a5b2-f017e3477879"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-400-LIT", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most effectively uses a quotation from \u003cem\u003eKing Lear\u003c/em\u003e to illustrate the claim that King Lear expresses regret for his actions. In the quotation, Lear describes striking himself on the head\u0026mdash;the same act he\u0026rsquo;s engaged in as he speaks, and one that suggests he\u0026rsquo;s deeply upset with himself. Referring to himself in the second person (with \u0026ldquo;thy\u0026rdquo;), the character exclaims \u0026ldquo;Beat at this gate that let thy folly in / And thy dear judgement out!\u0026rdquo; Lear refers metaphorically to his own mind as a gate that has allowed folly, or poor judgement, to enter and good judgement to escape. This suggests that Lear regrets his attempts to test his three daughters\u0026rsquo; devotion to him, regarding those attempts as examples of the folly that has entered the gate of his mind. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because this quotation doesn\u0026rsquo;t express King Lear\u0026rsquo;s sense of regret over his own actions; instead, it expresses his belief that the harm that others have done to him (or the extent to which they have \u0026ldquo;sinned against\u0026rdquo; him) outweighs whatever harm he himself has caused by \u0026ldquo;sinning.\u0026rdquo; Choice B is incorrect because this quotation doesn\u0026rsquo;t express King Lear\u0026rsquo;s sense of regret over his own actions; instead, it expresses his thoughts about an approaching storm (\u0026ldquo;this tempest\u0026rdquo;), which he believes \u0026ldquo;will not give [him] leave to ponder,\u0026rdquo; or time to consider, the harm that he will continue to experience (\u0026ldquo;things\u0026rdquo; that \u0026ldquo;would hurt [him] more\u0026rdquo;). Choice D is incorrect because this quotation expresses King Lear\u0026rsquo;s vow to commit terrible actions (or \u0026ldquo;things\u0026rdquo; that \u0026ldquo;shall be / The terrors of the earth\u0026rdquo;) in the future, not his regret over actions that he\u0026rsquo;s already taken. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses a quotation from \u003cem\u003eKing Lear \u003c/em\u003eto illustrate the claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cem\u003eKing Lear\u003c/em\u003e is a circa 1606 play by William Shakespeare. In the play, the character of King Lear attempts to test his three daughters\u0026rsquo; devotion to him. He later expresses regret for his actions, as is evident when he \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "bf296b72-1323-4dae-ab5f-3246692b4839", "templateclustername": "", "type": "mcq", "vaultid": "833c1aa3-d9a7-4220-8a43-a36f6f988f27"}, "createDate": 1691007959336, "difficulty": "H", "external_id": "ecf8fb3a-a8a8-4251-9424-048c185cf125", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "825dc766", "score_band_range_cd": 7, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "75505639-a013-4849-be1f-74696b08577a", "updateDate": 1691007959336};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-825dc766");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

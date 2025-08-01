@@ -1,0 +1,22 @@
+{
+  "question_id": "a4f50d30",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Scientists previously thought that all electric eels belong to a single species , but a team of researchers led by zoologist C. David de Santana proved this idea wrong by ______ blank that there are in fact three distinct species of electric eels.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "pretending",
+    "complaining",
+    "requiring",
+    "demonstrating"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"Demonstrating\" means \"showing,\" and the text describes how de Santana disproved a previous belief in only one species of electric eel by showing that three electric eel species actually exist.",
+    "A": "Choice A is incorrect. Pretending that there are three species of electric eel might be a fun game for marine biologists, but it wouldn't prove the existence of more than one species.",
+    "B": "Choice B is incorrect. Complaining won't prove anything about eels, so de Santana could not have proved wrong the idea of only one species of electric eel by complaining about it.",
+    "C": "Choice C is incorrect. \"Requiring\" means \"needing.\" It wouldn't make sense to say that de Santana \"needed\" there to be three distinct species of electric eel."
+  }
+}

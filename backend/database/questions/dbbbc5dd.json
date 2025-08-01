@@ -1,0 +1,22 @@
+{
+  "question_id": "dbbbc5dd",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Off-off-Broadway theaters emerged in the late 1950s as a rebellion against mainstream Broadway theaters in New York, freeing artists to create productions that were more experimental than typical Broadway shows. One such artist was playwright Mar&iacute;a Irene Forn&eacute;s. Working with off-off Broadway theaters enabled Forn&eacute;s not only to direct her own plays but also to direct them exactly as she intended them to be staged, regardless of how strange the results might have seemed to audiences accustomed to Broadway shows. In this way, Forn&eacute;s ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "wrote plays that would have been too expensive to produce if someone else had directed the production.",
+    "recognized that staging an off-off-Broadway play was more complicated than staging a Broadway play.",
+    "would have been more famous if she had created plays that were mainstream instead of experimental.",
+    "illustrates the artistic opportunity offered by off-off Broadway theaters."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text says that off-off-Broadway theaters allowed artists to create more experimental shows, and then discusses how Forn&eacute;s was free to direct her own \"strange\" plays however she wanted. This suggests that Forn&eacute;s exemplifies the artistic freedom of off-off Broadway theaters.",
+    "A": "Choice A is incorrect. This inference isn't supported. The text never discusses the costs of production, so we can't logically make this claim.",
+    "B": "Choice B is incorrect. This inference isn't supported. The text never discusses the complexity of staging plays either on Broadway or off-off Broadway, so there's no basis to make this inference.",
+    "C": "Choice C is incorrect. This inference isn't supported. The text never discusses fame at all, so there's no basis to make this inference."
+  }
+}

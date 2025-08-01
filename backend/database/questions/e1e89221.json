@@ -1,0 +1,22 @@
+{
+  "question_id": "e1e89221",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is from Frances Hodgson Burnett's 1911 novel The Secret Garden . Mary, a young girl, is outside trying her new jump rope. The sun was shining and a little wind was blowing—not a rough wind, but one which came in delightful little gusts and brought a fresh scent of newly turned earth with it. She skipped round the fountain garden, and up one walk and down another. As used in the text, what does the word \"rough\" most nearly mean?",
+  "question_text": "As used in the text, what does the word &ldquo;rough&rdquo; most nearly mean?",
+  "answer_options": [
+    "Harsh",
+    "Scratchy",
+    "Basic",
+    "Vague"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because as used in the text, \"rough\" most nearly means harsh, or forceful and unpleasant. The text describes Mary's surroundings as she plays: the sun is out and there's \"a little wind.\" To further illustrate the wind, the narrator contrasts the word \"rough\" with a description of the wind blowing in \"delightful little gusts,\" suggesting that the wind is not unpleasant or harsh at all.",
+    "B": "Choice B is incorrect. Although in some contexts \"rough\" objects, or objects with irregular surfaces, can sometimes be scratchy, rough doesn't mean scratchy in this context. The text explains that the wind is not rough but rather gentle, \"delightful little gusts,\" which suggests that the use of \"rough\" here is referring to the degree of force of the wind.",
+    "C": "Choice C is incorrect because there's nothing in the text to suggest that the wind wasn't \"basic,\" or simple and uncomplicated. Instead, the text describes the wind as blowing not roughly or harshly but in \"delightful little gusts.\"",
+    "D": "Choice D is incorrect because the word \"vague\" means not clearly expressed or seen. Nothing in the text indicates that the wind was barely noticeable to Mary as she played outside, but rather the text states that it was delightful."
+  }
+}

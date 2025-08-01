@@ -1,0 +1,22 @@
+{
+  "question_id": "5fa165f7",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In the 1960s, Sam Gilliam, a Black painter from the southern United States, became the first artist to drape painted canvases into flowing shapes. He later explored a different style, ______ blank quilt-like paintings inspired by the patchwork quilting tradition of Black communities in the South.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "predicting",
+    "refusing",
+    "hiding",
+    "creating"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of Sam Gilliam's artworks. As used in this context, \"creating\" means producing or bringing something into existence. The text indicates that Gilliam is an artist who made draped canvases and, later, quilt-like paintings. This context supports the idea that Gilliam explored different styles in his art by creating special types of paintings.",
+    "A": "Choice A is incorrect because the text indicates that Gilliam actually explored and pursued the creation of quilt-like paintings; he wasn't just \"predicting,\" or declaring in advance, the existence of these paintings.",
+    "B": "Choice B is incorrect because in this context \"refusing\" would mean rejecting, and there is nothing in the text to suggest that Gilliam rejected his quilt-like paintings. Instead, the text indicates that he was exploring and pursuing a new art style in these paintings.",
+    "C": "Choice C is incorrect because in this context \"hiding\" would mean concealing from view, and there is nothing in the text to suggest that Gilliam attempted to conceal his quilt-like paintings. Instead, the text indicates that he was exploring and pursuing a new art style in these paintings."
+  }
+}

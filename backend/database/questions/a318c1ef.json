@@ -1,0 +1,22 @@
+{
+  "question_id": "a318c1ef",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The Cambrian explosion gets its name from the sudden appearance and rapid diversification of animal remains in the fossil record about 541 million years ago, during the Cambrian period. Some scientists argue that this ______ blank change in the fossil record might be because of a shift in many organisms to body types that were more likely to be preserved.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "catastrophic",
+    "elusive",
+    "abrupt",
+    "imminent"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most logically and precisely completes the text's discussion of the fossil record from the Cambrian period. In this context, \"abrupt\" means sudden. The text explains that the fossil record reflects the unexpected appearance and rapid diversification, or increase in variety, of animal remains during the Cambrian period. This context establishes that these remains' entry into the fossil record was sudden.",
+    "A": "Choice A is incorrect. Although the word \"explosion\" appears in the name of the event marked by the fossil record change, the text never suggests that the change was \"catastrophic,\" or disastrous. In context, \"explosion\" refers to the rapid diversification, or the swift increase in variety, of animal remains in the fossil record—a phenomenon that the text presents in a relatively neutral manner, without commenting on whether it was negative or positive.",
+    "B": "Choice B is incorrect because the text never suggests that the change toward greater diversification is \"elusive,\" or difficult to locate, in the fossil record. Rather, the text notes that the change occurred about 541 million years ago, suggesting that scientists have indeed been able to locate it.",
+    "D": "Choice D is incorrect because it wouldn't make sense in context to describe the change in the fossil record as \"imminent,\" or about to occur, since the text indicates that the change already occurred millions of years ago."
+  }
+}

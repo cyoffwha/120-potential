@@ -1,0 +1,22 @@
+{
+  "question_id": "ac5536c1",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Beatrix Potter is perhaps best known for writing and illustrating children's books such as The Tale of Peter Rabbit (1902), but she also dedicated herself to mycology, the study of ______ blank more than 350 paintings of the fungal species she observed in nature and submitting her research on spore germination to the Linnean Society of London.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "fungi; producing",
+    "fungi. Producing",
+    "fungi producing",
+    "fungi, producing"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation use between two supplementary phrases following the coordinate clause (\"but she&hellip;mycology\"). This choice correctly uses a comma to mark the boundary between the supplementary noun phrase (\"the study of fungi\") that defines the term \"mycology\" and the supplementary participial phrase (\"producing...London\") that provides additional information about the extent to which Potter dedicated herself to mycology.",
+    "A": "Choice A is incorrect because a semicolon can't be used in this way to join two supplementary phrases following a coordinate clause.",
+    "B": "Choice B is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"producing.\"",
+    "C": "Choice C is incorrect. The lack of punctuation results in a sentence that illogically suggests that the study of fungi is producing more than 350 paintings."
+  }
+}

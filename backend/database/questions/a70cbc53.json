@@ -1,0 +1,22 @@
+{
+  "question_id": "a70cbc53",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Raymond Antrobus, an accomplished poet and writer of prose, recently released his debut spoken word poetry album, The First Time I Wore Hearing Aids , in collaboration with producer Ian Brennan. The album contains both autobiographical and reflective pieces combining Antrobus's spoken words with Brennan's fragmented audio elements and pieces of music to convey how people who are deaf may experience sound, both its presence and absence. Some critics suggest that the album questions the function of sound in the world, highlighting that the experience of sound is multifaceted.",
+  "question_text": "Which choice best describes the overall structure of the text?",
+  "answer_options": [
+    "It introduces a collaborative spoken word poetry project, details the approach taken to produce the work, and then provides an example of critique the album received upon release.&nbsp;",
+    "It mentions a collection of spoken word poems, distinguishes one poem as being an exemplar on the album, and then offers a summary of the subject matter of the whole collection.",
+    "It summarizes the efforts to produce a collection of spoken word poems, presents biographies of two people who worked on the album, and speculates about the meaning behind the poetry.",
+    "It connects two artists to the same spoken word poetry project, explains the extent of their collaboration on each poem, and then provides an overview of the technique used to produce the work."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The text first introduces the album as being a collaboration between Antrobus and Brennan, then describes the approach taken to produce it, then mentions how critics have said that it calls into question the function of sound.",
+    "B": "Choice B is incorrect. While the text does mention a collection of spoken word poems, it doesn't single out one poem as being particularly noteworthy. Additionally, the text doesn't simply summarize the subject matter—it goes into detail about the content and production of the album.",
+    "C": "Choice C is incorrect. The text doesn't provide biographical information about the two artists, and the text doesn't speculate about the meaning behind the poetry—instead, it relays what some critics have said about the album.",
+    "D": "Choice D is incorrect. The text doesn't provide just an overview of the production techniques used but instead goes into more detail about the content and audio elements of the album, as well as critical response to the album."
+  }
+}

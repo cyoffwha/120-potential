@@ -1,0 +1,22 @@
+{
+  "question_id": "a427a52c",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The Lion Light system, developed by Kenyan inventor Richard Turere, consists of LED lights installed around the perimeter of livestock pastures. Powered with ______ blank the blinking LEDs keep lions away at night, thus protecting the livestock without risking harm to the endangered lions.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "energy collected, by solar panels, during the day",
+    "energy collected by solar panels during the day",
+    "energy collected by solar panels during the day,",
+    "energy, collected by solar panels during the day,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is punctuation between a supplementary phrase and a main clause. This choice correctly uses a comma to mark the boundary between the supplementary phrase (\"powered&hellip;day\"), which describes how the LEDs are powered, and the main clause (\"the blinking&hellip;night\").",
+    "A": "Choice A is incorrect because it fails to mark the boundary between the supplementary phrase and the main clause with appropriate punctuation. Furthermore, placing commas around the phrase \"by solar panels\" suggests that it could be removed without affecting the coherence of the sentence, which isn't the case.",
+    "B": "Choice B is incorrect because it fails to mark the boundary between the supplementary phrase and the main clause with appropriate punctuation.",
+    "D": "Choice D is incorrect. Placing commas around the phrase \"collected by solar panels during the day&Prime; suggests that it could be removed without affecting the coherence of the sentence, which isn't the case."
+  }
+}

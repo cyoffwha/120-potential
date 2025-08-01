@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 6e0e0de1</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Aerogels are highly porous foams consisting mainly of tiny air pockets within a solidified gel. These lightweight materials are often applied to spacecraft and other equipment required to withstand extreme conditions, as they provide excellent insulation despite typically being brittle and eventually fracturing due to degradation from repeated exposure to high heat. Now, Xiangfeng Duan of the University of California, Los Angeles, and colleagues have developed an aerogel with uniquely flexible properties. Unlike earlier aerogels, Duan&rsquo;s team&rsquo;s material contracts rather than expands when heated and fully recovers after compressing to just 5% of its original volume, suggesting that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the aerogel&rsquo;s remarkable flexibility results from its higher proportion of air pockets to solidified gel as compared to other aerogels.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the aerogel&rsquo;s overall strength is greater than that of other insulators but its ability to withstand exposure to intense heat is lower.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the aerogel will be more effective as an insulator for uses that involve gradual temperature shifts than for those that involve rapid heat increases.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the aerogel will be less prone to the structural weakness that ultimately causes most other aerogels to break down with use.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it most logically completes the text&rsquo;s discussion of aerogels. The text states that aerogels&mdash;highly porous foams&mdash;offer "excellent insulation" but typically break down after prolonged exposure to high heat. However, according to the text, Duan and colleagues developed an aerogel that "contracts rather than expands when heated" and recovers its original volume after this contraction. Thus, it is logical to conclude that Duan&rsquo;s team&rsquo;s aerogel material will be less prone to the structural weakness that caused earlier aerogels to break down.</p><p>Choice A is incorrect. Although the text indicates that aerogels consist "mainly of tiny air pockets within a solidified gel," it doesn&rsquo;t mention the number or proportion of air pockets to solidified gel in typical aerogels or in the aerogel developed by Duan&rsquo;s team. Choice B is incorrect because the text suggests that the aerogel developed by Duan&rsquo;s team has a higher, not a lower, ability to withstand exposure to intense heat due to its contraction and subsequent recovery. Choice C is incorrect. Although the text discusses temperature tolerances of aerogels and says that they offer "excellent insulation despite typically being brittle and eventually fracturing," it doesn&rsquo;t discuss how different rates of temperature change can affect aerogels.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">211 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ethe aerogel\u0026rsquo;s remarkable flexibility results from its higher proportion of air pockets to solidified gel as compared to other aerogels.\u003c/p\u003e", "id": "9d0ed868-8d5c-4aeb-9ccf-4067f5c8b703"}, {"content": "\u003cp\u003ethe aerogel\u0026rsquo;s overall strength is greater than that of other insulators but its ability to withstand exposure to intense heat is lower.\u003c/p\u003e", "id": "293ae07e-bd75-428e-8efa-67fb53ec8104"}, {"content": "\u003cp\u003ethe aerogel will be more effective as an insulator for uses that involve gradual temperature shifts than for those that involve rapid heat increases.\u003c/p\u003e", "id": "a9a0f9ea-9b18-4a68-8994-6f451f534e3a"}, {"content": "\u003cp\u003ethe aerogel will be less prone to the structural weakness that ultimately causes most other aerogels to break down with use.\u003c/p\u003e", "id": "0e385f0f-986a-4243-aa8e-b2c9d1f5463f"}], "correct_answer": ["D"], "externalid": "dd2f579c-787f-4760-a6c3-d9cf6f9de19e", "keys": ["0e385f0f-986a-4243-aa8e-b2c9d1f5463f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-060-INF", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it most logically completes the text\u0026rsquo;s discussion of aerogels. The text states that aerogels\u0026mdash;highly porous foams\u0026mdash;offer \"excellent insulation\" but typically break down after prolonged exposure to high heat. However, according to the text, Duan and colleagues developed an aerogel that \"contracts rather than expands when heated\" and recovers its original volume after this contraction. Thus, it is logical to conclude that Duan\u0026rsquo;s team\u0026rsquo;s aerogel material will be less prone to the structural weakness that caused earlier aerogels to break down.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although the text indicates that aerogels consist \"mainly of tiny air pockets within a solidified gel,\" it doesn\u0026rsquo;t mention the number or proportion of air pockets to solidified gel in typical aerogels or in the aerogel developed by Duan\u0026rsquo;s team. Choice B is incorrect because the text suggests that the aerogel developed by Duan\u0026rsquo;s team has a higher, not a lower, ability to withstand exposure to intense heat due to its contraction and subsequent recovery. Choice C is incorrect. Although the text discusses temperature tolerances of aerogels and says that they offer \"excellent insulation despite typically being brittle and eventually fracturing,\" it doesn\u0026rsquo;t discuss how different rates of temperature change can affect aerogels.\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eAerogels are highly porous foams consisting mainly of tiny air pockets within a solidified gel. These lightweight materials are often applied to spacecraft and other equipment required to withstand extreme conditions, as they provide excellent insulation despite typically being brittle and eventually fracturing due to degradation from repeated exposure to high heat. Now, Xiangfeng Duan of the University of California, Los Angeles, and colleagues have developed an aerogel with uniquely flexible properties. Unlike earlier aerogels, Duan\u0026rsquo;s team\u0026rsquo;s material contracts rather than expands when heated and fully recovers after compressing to just 5% of its original volume, suggesting that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "d3da4584-9a31-42dc-bbe2-3b8a5a0ad736", "templateclustername": "", "type": "mcq", "vaultid": "c193b65e-7b9c-490d-a952-d0763df7d858"}, "createDate": 1691007959325, "difficulty": "H", "external_id": "dd2f579c-787f-4760-a6c3-d9cf6f9de19e", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "6e0e0de1", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "b2fd6519-a045-4410-b6c4-13857b794eb2", "updateDate": 1691007959325};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-6e0e0de1");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

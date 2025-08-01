@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question ca50de52</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><span role="region" aria-label="Referenced Content"><u>&ldquo;How lifelike are they?&rdquo;</u></span> Many computer animators prioritize this question as they strive to create ever more realistic environments and lighting. Generally, while characters in computer-animated films appear highly exaggerated, environments and lighting are carefully engineered to mimic reality. But some animators, such as Pixar&rsquo;s Sanjay Patel, are focused on a different question. Rather than asking first whether the environments and lighting they&rsquo;re creating are convincingly lifelike, Patel and others are asking whether these elements reflect their films&rsquo; unique stories.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes the function of the underlined question in the text as a whole?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It reflects a primary goal that many computer animators have for certain components of the animations they produce.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It represents a concern of computer animators who are more interested in creating unique backgrounds and lighting effects than realistic ones.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It conveys the uncertainty among many computer animators about how to create realistic animations using current technology.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It illustrates a reaction that audiences typically have to the appearance of characters created by computer animators.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most accurately describes the function of the underlined question in the text as a whole. The text begins with the underlined question, &ldquo;How lifelike are they?&rdquo; The text then explains that many computer animators pose this question about the environments and lighting that they create for animated films, striving for realistic animation of those components even if the characters themselves aren&rsquo;t portrayed in realistic terms. The focus of the text then shifts to describe how some animators strive to create environments and lighting that reflect the film&rsquo;s unique stories rather than making them appear realistic. Therefore, the function of the underlined question is to reflect a primary goal that many computer animators have for certain components of the animations they produce. </p><p>Choice B is incorrect because, as the text makes clear, the underlined question is one posed by computer animators who wish to create realistic backgrounds and lighting effects, not by those who, instead, wish to create effects that reflect films&rsquo; unique stories and aren&rsquo;t necessarily realistic; this latter group of animators is discussed later in the text. Choice C is incorrect. As the text explains, many computer animators strive for realistic environments and lighting, while others do not; this difference of approach relates to whether these components should be realistic, not to how realism can be achieved using current technology, and the text never suggests that animators are uncertain how to achieve it. Choice D is incorrect because the underlined question pertains to the perspective of computer animators, not the audience, and the text never considers audience&rsquo;s reactions to characters in animated films. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">295 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt reflects a primary goal that many computer animators have for certain components of the animations they produce.\u003c/p\u003e", "id": "3b2a5c1d-e575-4417-897e-8f5987a589a0"}, {"content": "\u003cp\u003eIt represents a concern of computer animators who are more interested in creating unique backgrounds and lighting effects than realistic ones.\u003c/p\u003e", "id": "9f99a213-78ed-4915-95e5-9e2b5a9b0523"}, {"content": "\u003cp\u003eIt conveys the uncertainty among many computer animators about how to create realistic animations using current technology.\u003c/p\u003e", "id": "4c755bab-5b88-4f0f-ba26-005d91e5468d"}, {"content": "\u003cp\u003eIt illustrates a reaction that audiences typically have to the appearance of characters created by computer animators.\u003c/p\u003e", "id": "34ed69aa-102f-4bfe-a5b0-66ff2a24281f"}], "correct_answer": ["A"], "externalid": "b1adf182-66e9-46e9-9042-c66254ce602b", "keys": ["3b2a5c1d-e575-4417-897e-8f5987a589a0"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-050-TSP", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most accurately describes the function of the underlined question in the text as a whole. The text begins with the underlined question, \u0026ldquo;How lifelike are they?\u0026rdquo; The text then explains that many computer animators pose this question about the environments and lighting that they create for animated films, striving for realistic animation of those components even if the characters themselves aren\u0026rsquo;t portrayed in realistic terms. The focus of the text then shifts to describe how some animators strive to create environments and lighting that reflect the film\u0026rsquo;s unique stories rather than making them appear realistic. Therefore, the function of the underlined question is to reflect a primary goal that many computer animators have for certain components of the animations they produce. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because, as the text makes clear, the underlined question is one posed by computer animators who wish to create realistic backgrounds and lighting effects, not by those who, instead, wish to create effects that reflect films\u0026rsquo; unique stories and aren\u0026rsquo;t necessarily realistic; this latter group of animators is discussed later in the text. Choice C is incorrect. As the text explains, many computer animators strive for realistic environments and lighting, while others do not; this difference of approach relates to whether these components should be realistic, not to how realism can be achieved using current technology, and the text never suggests that animators are uncertain how to achieve it. Choice D is incorrect because the underlined question pertains to the perspective of computer animators, not the audience, and the text never considers audience\u0026rsquo;s reactions to characters in animated films. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes the function of the underlined question in the text as a whole?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003e\u0026ldquo;How lifelike are they?\u0026rdquo;\u003c/u\u003e\u003c/span\u003e Many computer animators prioritize this question as they strive to create ever more realistic environments and lighting. Generally, while characters in computer-animated films appear highly exaggerated, environments and lighting are carefully engineered to mimic reality. But some animators, such as Pixar\u0026rsquo;s Sanjay Patel, are focused on a different question. Rather than asking first whether the environments and lighting they\u0026rsquo;re creating are convincingly lifelike, Patel and others are asking whether these elements reflect their films\u0026rsquo; unique stories.\u003c/p\u003e", "templateclusterid": "0f9d2f1c-3a09-4e17-af12-5d93032657a6", "templateclustername": "", "type": "mcq", "vaultid": "cd744cba-305b-4226-b5f5-2e1f4821bb8a"}, "createDate": 1691007959324, "difficulty": "H", "external_id": "b1adf182-66e9-46e9-9042-c66254ce602b", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "ca50de52", "score_band_range_cd": 6, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "01611dc3-f580-44be-9169-dbf82d4aaabe", "updateDate": 1691007959324};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-ca50de52");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

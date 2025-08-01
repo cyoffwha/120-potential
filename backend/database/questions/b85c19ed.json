@@ -1,0 +1,22 @@
+{
+  "question_id": "b85c19ed",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The violins handmade in the seventeeth century by Italian craftsman Antonio Stradivari have been celebrated as some of the finest in the world. In close collaboration with musicians, Stradivari introduced changes to the shape of a traditional violin, flattening some of the instrument's curves and making ______ blank lighter overall.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "those",
+    "one",
+    "them",
+    "it"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is pronoun&ndash;antecedent agreement. The singular pronoun \"it\" agrees in number with the singular antecedent \"violin\" and thus indicates that the traditional violin (and not its curves) was made lighter.",
+    "A": "Choice A is incorrect because the plural pronoun \"those\" doesn't agree in number with the singular antecedent \"violin.\"",
+    "B": "Choice B is incorrect because the singular pronoun \"one\" is ambiguous in this context; the resulting sentence leaves unclear what Stradivari made lighter.",
+    "C": "Choice C is incorrect because the plural pronoun \"them\" doesn't agree in number with the singular antecedent \"violin.\""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "73d457b6",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In the 1970s, a roughly 60,000-year-old piece of hyena bone marked with nine notches was discovered at a site in western France once inhabited by Neanderthals. Although many believe that only modern humans developed systems for notating numbers, one archaeologist asserts that this artifact may be a sign that Neanderthals also recorded numerical information. The notches on the bone are unevenly spaced but approximately parallel, and microscopic analysis reveals that they were made with a single stone tool; according to the archaeologist, this suggests that the notches were all made at one time by one individual as a means of counting something.",
+  "question_text": "Which finding, if true, would most directly weaken the underlined claim?",
+  "answer_options": [
+    "Parallel lines are a common feature in modern humans&rsquo; early systems for recording numerical information.",
+    "More than nine approximately parallel notches made with a different stone tool are present on another artifact found at a site in western France.",
+    "It would have taken careful effort to make evenly spaced lines on bone with the stone tools typically used by Neanderthals.",
+    "Decorative art discovered at another Neanderthal site in western France primarily features patterns of unevenly spaced parallel lines."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The archeologist bases their claim on the fact that the hyena bone features unevenly spaced parallel notches. But if unevenly spaced parallel lines were found on \"decorative art\" at another Neanderthal site, it would suggest that the hyena bone is probably decorative art as well—not a counting tool.",
+    "A": "Choice A is incorrect. This choice doesn't weaken the underlined claim. If anything, it might actually strengthen the claim: assuming we can make an inference about Neanderthals using a fact about early humans, it provides more support for the idea that the person who made the notches was counting something.",
+    "B": "Choice B is incorrect. This choice doesn't weaken the underlined claim. The fact that another artifact had parallel notches made with a different stone tool doesn't tell us anything about the use of either artifact. For all we know, they could both have been used for counting.",
+    "C": "Choice C is incorrect. This choice doesn't weaken the underlined claim. The fact that it took effort to make the lines doesn't tell us anything about what the lines were for."
+  }
+}

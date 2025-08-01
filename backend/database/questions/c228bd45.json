@@ -1,0 +1,22 @@
+{
+  "question_id": "c228bd45",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is adapted from Edith Nesbit's 1906 novel The Railway Children . Mother did not spend all her time in paying dull [visits] to dull ladies, and sitting dully at home waiting for dull ladies to pay [visits] to her. She was almost always there, ready to play with the children, and read to them, and help them to do their home-lessons. Besides this she used to write stories for them while they were at school, and read them aloud after tea, and she always made up funny pieces of poetry for their birthdays and for other great occasions.",
+  "question_text": "According to the text, what is true about Mother?",
+  "answer_options": [
+    "She wishes that more ladies would visit her.",
+    "Birthdays are her favorite special occasion.&nbsp;",
+    "She creates stories and poems for her children.",
+    "Reading to her children is her favorite activity.&nbsp;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it describes something that is true of Mother, as presented in the text. The text indicates that in addition to other activities, Mother writes stories for her children while they are at school and makes up \"funny pieces of poetry\" for certain occasions.",
+    "A": "Choice A is incorrect because the text suggests that Mother prefers to spend her time with her children and doesn't sit at home hoping that ladies will visit her.",
+    "B": "Choice B is incorrect because the text says only that Mother makes up poetry for the children's birthdays, not that she likes birthdays more than other special occasions.",
+    "D": "Choice D is incorrect because the text doesn't suggest that Mother prefers reading to her children over the other activities she does with them, such as playing with them and writing stories and poems for them."
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question c4d43991</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Archaeologists have been debating the origin of a rare form of lead found in Shang dynasty (1766&ndash;1046 BCE) bronze artifacts since its presence was discovered in China in the 1990s. Different researchers have proposed theories on which regions of the world would have had the raw materials containing the specific lead in these artifacts, but no conclusive evidence has been presented. What is intriguing is that bronze artifacts from China dated after the Shang dynasty do not contain this form of lead, suggesting that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Shang dynasty bronze pieces are rare and therefore more valuable than those from other time periods.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the source of some of the raw materials used to make bronze was exploited only until the end of the Shang dynasty.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>bronze was used for a short time during the Shang dynasty before different metals were used to make artifacts.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>methods used to analyze bronze artifacts are not useful on pieces that are dated after the Shang dynasty.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The passage tells us that Shang dynasty bronze artifacts contained "a rare form of lead," but that bronze artifacts after this time did not contain that lead. Although we don&rsquo;t know where that specific type of bronze came from, we can conclude that that source was not used after the end of the Shang dynasty&mdash;otherwise, post-Shang dynasty pieces would also contain that rare form of lead.</p><p>Choice A is incorrect. Despite these pieces containing "a rare form of lead," there is no direct claim in the passage that Shang dynasty bronze is itself more rare or valuable than bronze pieces from other periods. Therefore, there&rsquo;s no basis for this inference. Choice C is incorrect. Although the passage mentions that the nature of the bronze in Chinese artifacts changed after the Shang dynasty, bronze was still used to create artifacts after this time. The passage in fact explicitly states "bronze artifacts from China dated after the Shang dynasty&hellip;," indicating that bronze was still used in China after the Shang dynasty. Choice D is incorrect. There&rsquo;s no mention in the passage of methods used to analyze bronze artifacts, so there&rsquo;s no basis for this inference.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">89 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eShang dynasty bronze pieces are rare and therefore more valuable than those from other time periods.\u003c/p\u003e", "id": "9115ed24-6f77-4a4e-9a06-9afb65f29306"}, {"content": "\u003cp\u003ethe source of some of the raw materials used to make bronze was exploited only until the end of the Shang dynasty.\u003c/p\u003e", "id": "d361f111-c7e4-43ee-94bf-1636facd2ae5"}, {"content": "\u003cp\u003ebronze was used for a short time during the Shang dynasty before different metals were used to make artifacts.\u003c/p\u003e", "id": "ac8a3fe3-7144-4673-82d9-b2e49c9b1382"}, {"content": "\u003cp\u003emethods used to analyze bronze artifacts are not useful on pieces that are dated after the Shang dynasty.\u003c/p\u003e", "id": "4ad04421-76e5-4111-8311-e2d81360f7b8"}], "correct_answer": ["B"], "externalid": "43b63331-d857-4b26-a869-a1dfae198b02", "keys": ["d361f111-c7e4-43ee-94bf-1636facd2ae5"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-INF-M008", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The passage tells us that Shang dynasty bronze artifacts contained \"a rare form of lead,\" but that bronze artifacts after this time did not contain that lead. Although we don\u0026rsquo;t know where that specific type of bronze came from, we can conclude that that source was not used after the end of the Shang dynasty\u0026mdash;otherwise, post-Shang dynasty pieces would also contain that rare form of lead.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. Despite these pieces containing \"a rare form of lead,\" there is no direct claim in the passage that Shang dynasty bronze is itself more rare or valuable than bronze pieces from other periods. Therefore, there\u0026rsquo;s no basis for this inference. Choice C is incorrect. Although the passage mentions that the nature of the bronze in Chinese artifacts changed after the Shang dynasty, bronze was still used to create artifacts after this time. The passage in fact explicitly states \"bronze artifacts from China dated after the Shang dynasty\u0026hellip;,\" indicating that bronze was still used in China after the Shang dynasty. Choice D is incorrect. There\u0026rsquo;s no mention in the passage of methods used to analyze bronze artifacts, so there\u0026rsquo;s no basis for this inference.\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eArchaeologists have been debating the origin of a rare form of lead found in Shang dynasty (1766\u0026ndash;1046 BCE) bronze artifacts since its presence was discovered in China in the 1990s. Different researchers have proposed theories on which regions of the world would have had the raw materials containing the specific lead in these artifacts, but no conclusive evidence has been presented. What is intriguing is that bronze artifacts from China dated after the Shang dynasty do not contain this form of lead, suggesting that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "0e01174c-530b-4098-a68b-a4ff6101bbec", "templateclustername": "", "type": "mcq", "vaultid": "7a6eb8b9-2ba6-4521-8525-c90cfcac83e2"}, "createDate": 1691007959368, "difficulty": "E", "external_id": "43b63331-d857-4b26-a869-a1dfae198b02", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "c4d43991", "score_band_range_cd": 3, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "4b48e8aa-9767-43d6-933a-fe06eeb64959", "updateDate": 1691007959368};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-c4d43991");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

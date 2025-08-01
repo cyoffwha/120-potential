@@ -1,0 +1,22 @@
+{
+  "question_id": "7b950fc2",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 2000, Nora de Hoyos Comstock, herself an owner of a successful consulting firm, sought to increase Latina representation in corporate ______ blank founded Las Comadres para las Americas, an international community that for over two decades has served as a resource and information network for Latina business professionals.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "settings she",
+    "settings, she",
+    "settings and she",
+    "settings. She"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. It appropriately uses a period to mark the end of one independent clause (\"In 2000&hellip;settings\") and the start of another (\"She founded&hellip;professionals\").",
+    "A": "Choice A is incorrect. This choice results in a run-on sentence error. Both the clause before the blank (\"In 2000&hellip;settings\") and the clause after the blank (\"she&hellip;professionals\") are independent clauses, so they need to be separated by punctuation.",
+    "B": "Choice B is incorrect. This choice results in a comma splice error. It incorrectly joins two independent clauses with just a comma. Linking two independent clauses with a comma also requires the use of a coordinating conjunction (like for , and , nor , but , or , yet , or so ).",
+    "C": "Choice C is incorrect. This choice results in a run-on sentence, an error caused when two independent clauses are joined without punctuation or appropriate conjunctions. Since both the clause before the blank (\"In 2000&hellip;settings\") and the clause after the blank (\"she&hellip;professionals\") are independent, a comma would be required in addition to the coordinating conjunction \"and.\""
+  }
+}

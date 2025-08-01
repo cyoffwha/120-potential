@@ -1,0 +1,22 @@
+{
+  "question_id": "5d6ab069",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Jan Gimsa, Robert Sleigh, and Ulrike Gimsa have hypothesized that the sail-like structure running down the back of the dinosaur Spinosaurus aegyptiacus improved the animal's success in underwater pursuits of prey species capable of making quick, evasive movements. To evaluate their hypothesis, a second team of researchers constructed two battery-powered mechanical models of S. aegyptiacus , one with a sail and one without, and subjected the models to a series of identical tests in a water-filled tank.",
+  "question_text": "Which finding from the model tests, if true, would most strongly support Gimsa and colleagues&rsquo; hypothesis?",
+  "answer_options": [
+    "The model with a sail took significantly less time to complete a sharp turn while submerged than the model without a sail did.",
+    "The model with a sail displaced significantly more water while submerged than the model without a sail did.",
+    "The model with a sail had significantly less battery power remaining after completing the tests than the model without a sail did.&nbsp;",
+    "The model with a sail took significantly longer to travel a specified distance while submerged than the model without a sail did."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This finding would most strongly support the hypothesis. The hypothesis is that the sail improved the dinosaur's ability to chase quick, evasive prey. This finding suggests that the sail helped the dinosaur make sharp turns more quickly, which supports that hypothesis.",
+    "B": "Choice B is incorrect. This finding wouldn't necessarily support the hypothesis. The hypothesis is that the sail improved the dinosaur's ability to chase quick, evasive prey. It's unclear how the sail displacing more water would relate to that hypothesis—it doesn't seem to be relevant.",
+    "C": "Choice C is incorrect. This finding wouldn't necessarily support the hypothesis. The hypothesis is that the sail improved the dinosaur's ability to chase quick, evasive prey. It's unclear how the difference in battery power between the models would relate to that hypothesis—it doesn't seem to be relevant.",
+    "D": "Choice D is incorrect. This finding would actually weaken the hypothesis. The hypothesis is that the sail improved the dinosaur's ability to chase quick, evasive prey. This finding suggests that the sail slowed the dinosaur down—which would probably make it worse at catching quick, evasive prey."
+  }
+}

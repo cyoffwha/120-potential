@@ -1,0 +1,22 @@
+{
+  "question_id": "dc5edbf6",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Microplastics are pieces of plastic that are smaller than a grain of rice. These small plastics can be found in large quantities in ocean waters. Ecologist Jessica Reichert and her team are studying the role reef-building corals have in capturing microplastics from ocean waters. Through research, her team has found that these corals may be storing up to 20 million kilograms of microplastics each year in their skeletons and tissues.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Ecologists are interested in learning more about how certain corals build large reefs.",
+    "Questions remain around the impact certain corals have on ocean ecosystems. &nbsp;&nbsp;",
+    "Microplastics are small pieces of plastic that can be found in ocean waters.",
+    "Ecologists predict that corals store large amounts of microplastics from ocean waters."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text describes a study about how reef-building corals capture microplastics from ocean waters, which found that these corals are storing 20 million kilograms of microplastics in their skeletons and tissues.",
+    "A": "Choice A is incorrect. While the researchers are studying \"reef-building corals,\" the focus of their study isn't how the corals build the reefs. Rather, they're studying how corals may be storing microplastics from ocean waters.",
+    "B": "Choice B is incorrect. The text doesn't mention any unanswered questions about the impact of corals on ocean ecosystems—rather, the study assesses one interaction between corals and microplastics.",
+    "C": "Choice C is incorrect. The text does say this, but it's a detail—not the main idea. The main idea of the text is about the study that found that corals may be storing microplastics from ocean waters in their skeletons and tissues."
+  }
+}

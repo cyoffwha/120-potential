@@ -1,0 +1,22 @@
+{
+  "question_id": "bce627d9",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Mineralogical differences are detectable in samples collected from two locations on the near-Earth asteroid Ryugu, but such differences may not indicate substantial compositional variations in the asteroid. Cosmochemist Kazuhide Nagashima and colleagues note that at the small scale of the samples, the distribution of minerals is unlikely to be ______ blank .",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "neglected",
+    "redundant",
+    "ongoing",
+    "uniform"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text tells us that the samples are too \"small scale\" to reflect the composition of the asteroid, which probably doesn't show the same variation on a large scale. This suggests that the mineral composition of the samples are unlikely to be exactly the same from sample to sample.",
+    "A": "Choice A is incorrect. \"Neglected\" means \"suffering a lack of proper care\" or \"abandoned,\" which doesn't work here. The text never suggests that the distribution of minerals in the samples would be neglected, so this statement doesn't logically follow.",
+    "B": "Choice B is incorrect. \"Redundant\" means \"not or no longer useful or needed,\" which is too strong. The text doesn't suggest that the variation between the samples isn't a useful finding at all—just that we can't assume that the large-scale composition of the asteroid will show the same variation. But the composition of the samples might be useful for something else.",
+    "C": "Choice C is incorrect. \"Ongoing\" means \"still in progress,\" which doesn't make sense: the distribution of minerals in a sample can't be \"ongoing.\""
+  }
+}

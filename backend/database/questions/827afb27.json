@@ -1,0 +1,22 @@
+{
+  "question_id": "827afb27",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Most conifers (trees belonging to the phylum Coniferophyta) are evergreen. That is, they keep their green leaves or needles year-round. However, not all conifer species are evergreen. Larch trees, ______ blank lose their needles every fall.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "for instance,",
+    "nevertheless,",
+    "meanwhile,",
+    "in addition,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"For instance\" logically signals that the information in this sentence—that larch trees lose their needles every fall—is an example supporting the claim in the previous sentence (that not all conifer species keep their leaves or needles year-round).",
+    "B": "Choice B is incorrect because \"nevertheless\" illogically signals that the information in this sentence is true in spite of the claim about conifer species in the previous sentence. Instead, it's an example supporting that claim.",
+    "C": "Choice C is incorrect because \"meanwhile\" illogically signals that the information in this sentence is separate from (while occurring simultaneously with) the claim about conifer species in the previous sentence. Instead, it's an example supporting that claim.",
+    "D": "Choice D is incorrect because \"in addition\" illogically signals that the information in this sentence is merely an additional fact related to the claim about conifer species in the previous sentence. Instead, it's an example supporting that claim."
+  }
+}

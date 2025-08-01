@@ -1,0 +1,22 @@
+{
+  "question_id": "e7b709fc",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Archaeologists studying an ancient amphitheater in Switzerland believe that it dates back to the fourth century CE. Their discoveries of a coin made between 337 and 341 CE and era-appropriate building materials ______ blank evidence for this theory.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "dismiss",
+    "provide",
+    "regulate",
+    "refuse"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of the archaeologists' study of the ancient amphitheater in Switzerland. In this context, \"provide\" means make available or supply. The text states that the archaeologists believe that the amphitheater dates to the fourth century CE. The text goes on to say that the archaeologists discovered a coin made between 337 and 341 CE (that is, made during the fourth century CE) and building materials appropriate to the era in question. This context suggests that these discoveries provide evidence for the archaeologists' theory about the dating of the amphitheater.",
+    "A": "Choice A is incorrect because the archaeologists' discoveries are presented as supplying evidence in favor of their theory about the dating of the amphitheater, not something that would \"dismiss,\" or reject serious consideration of, evidence for that theory.",
+    "C": "Choice C is incorrect because nothing in the text suggests that the archaeologists' discoveries would \"regulate,\" or govern or bring order to, evidence for the archaeologists' theory about the dating of the amphitheater. The discoveries are presented as supplying evidence for the archaeologists' theory, not as changing how evidence for the theory is controlled or ordered.",
+    "D": "Choice D is incorrect because the archaeologists' discoveries are presented as supplying evidence in favor of their theory about the dating of the amphitheater, not something that would \"refuse,\" or be unwilling to accept, evidence for the archaeologists' theory."
+  }
+}

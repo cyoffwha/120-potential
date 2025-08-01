@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question f38b40ac</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In addition to her technical skill and daring feats, American stunt pilot Bessie Coleman was also known for dazzling the crowds that came to watch her air shows in the 1920s with her exuberant personality. During her career, she was careful and purposeful about how she crafted her public persona. An aviation researcher has claimed that Coleman intentionally defied social norms of the time by how she chose to present herself to the public.</p></div>
+
+                        <div class="mt-3"><p>Which quotation from an article about Coleman would most directly support the aviation researcher&rsquo;s claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;For her air shows, Coleman frequently used the Curtiss JN-4, or &lsquo;Jenny,&rsquo; which at that time was one of the most well-known types of planes.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;While Coleman was beloved by spectators for her charisma, she had a more complicated relationship with her managers and staff, who at times found her behavior too impulsive and demanding.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Coleman once considered leaving her career as a stunt pilot to focus her efforts on giving speeches, which she felt would better support her public image.&rdquo;&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Although female pilots were typically expected to wear traditional but impractical attire that included dresses or skirts, photographs of Coleman show her wearing pants and leather jackets.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. This choice supports the claim of Coleman&rsquo;s intentional defiance of social norms: female pilots were expected to wear skirts, but Coleman wore pants and leather jackets instead. </p><p>Choice A is incorrect. Coleman flew a well-known, common plane, which would not have defied social norms among pilots. Choice B is incorrect. Her complicated relationship with managers and staff would not have been a component of Coleman&rsquo;s public persona. This choice also fails to mention any &ldquo;social norms of the time.&rdquo; Choice C is incorrect. While this quotation suggests that Coleman was careful and purposeful about her public image, it doesn&rsquo;t directly mention anything about &ldquo;social norms of the time.&rdquo; </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">219 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;For her air shows, Coleman frequently used the Curtiss JN-4, or \u0026lsquo;Jenny,\u0026rsquo; which at that time was one of the most well-known types of planes.\u0026rdquo;\u003c/p\u003e", "id": "3adfe93c-9187-468d-9b8b-09ed787e4e28"}, {"content": "\u003cp\u003e\u0026ldquo;While Coleman was beloved by spectators for her charisma, she had a more complicated relationship with her managers and staff, who at times found her behavior too impulsive and demanding.\u0026rdquo;\u003c/p\u003e", "id": "1ef379a1-8f36-4b0f-b82e-45370ae78b52"}, {"content": "\u003cp\u003e\u0026ldquo;Coleman once considered leaving her career as a stunt pilot to focus her efforts on giving speeches, which she felt would better support her public image.\u0026rdquo;\u0026nbsp;\u003c/p\u003e", "id": "52d53d7a-4061-4e3d-87b0-0df0990c8ddd"}, {"content": "\u003cp\u003e\u0026ldquo;Although female pilots were typically expected to wear traditional but impractical attire that included dresses or skirts, photographs of Coleman show her wearing pants and leather jackets.\u0026rdquo;\u003c/p\u003e", "id": "49d3e4fe-d107-4851-84f0-e1c17cd0d5bc"}], "correct_answer": ["D"], "externalid": "ef9499bb-6d7f-4c00-a193-e4c998f973b6", "keys": ["49d3e4fe-d107-4851-84f0-e1c17cd0d5bc"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TXT-M007", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. This choice supports the claim of Coleman\u0026rsquo;s intentional defiance of social norms: female pilots were expected to wear skirts, but Coleman wore pants and leather jackets instead. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Coleman flew a well-known, common plane, which would not have defied social norms among pilots. Choice B is incorrect. Her complicated relationship with managers and staff would not have been a component of Coleman\u0026rsquo;s public persona. This choice also fails to mention any \u0026ldquo;social norms of the time.\u0026rdquo; Choice C is incorrect. While this quotation suggests that Coleman was careful and purposeful about her public image, it doesn\u0026rsquo;t directly mention anything about \u0026ldquo;social norms of the time.\u0026rdquo; \u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from an article about Coleman would most directly support the aviation researcher\u0026rsquo;s claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn addition to her technical skill and daring feats, American stunt pilot Bessie Coleman was also known for dazzling the crowds that came to watch her air shows in the 1920s with her exuberant personality. During her career, she was careful and purposeful about how she crafted her public persona. An aviation researcher has claimed that Coleman intentionally defied social norms of the time by how she chose to present herself to the public.\u003c/p\u003e", "templateclusterid": "74719f42-952c-4c7c-8878-e2b4ca637913", "templateclustername": "", "type": "mcq", "vaultid": "31ef71f2-7096-4f55-9642-e5e0c1839de2"}, "createDate": 1691007959377, "difficulty": "E", "external_id": "ef9499bb-6d7f-4c00-a193-e4c998f973b6", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "f38b40ac", "score_band_range_cd": 3, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "b5efd44a-16d8-4545-9a66-7a3eae5f9c5d", "updateDate": 1691007959377};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-f38b40ac");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

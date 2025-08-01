@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 87aa7bab</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>A common assumption among art historians is that the invention of photography in the mid-nineteenth century displaced the painted portrait in the public consciousness. The diminishing popularity of the portrait miniature, which coincided with the rise of photography, seems to support this claim. However, photography&rsquo;s impact on the portrait miniature may be overstated. Although records from art exhibitions in the Netherlands from 1820 to 1892 show a decrease in the number of both full-sized and miniature portraits submitted, this trend was established before the invention of photography.</p></div>
+
+                        <div class="mt-3"><p>Based on the text, what can be concluded about the diminishing popularity of the portrait miniature in the nineteenth century? &nbsp;</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Factors other than the rise of photography may be more directly responsible for the portrait miniature&rsquo;s decline.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Although portrait miniatures became less common than photographs, they were widely regarded as having more artistic merit. &nbsp;&nbsp;&nbsp;&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The popularity of the portrait miniature likely persisted for longer than art historians have assumed.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>As demand for portrait miniatures decreased, portrait artists likely shifted their creative focus to photography.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The text says that the impact of photography on the portrait miniature might be "overstated," as some records show a decrease in the number of portrait miniatures <em>before</em> the invention of photography. From this, we can conclude that factors <em>other</em> than the rise of photography may be more directly responsible for the portrait miniature&rsquo;s decline.</p><p>Choice B is incorrect. The text never discusses the "artistic merit" of either art form. Choice C is incorrect. The text never suggests that the portrait miniature was popular for longer than historians thought&mdash;if anything, it suggests that the portrait miniature started losing its popularity <em>earlier</em> than historians thought. Choice D is incorrect. The text never suggests that portrait painters shifted to become photographers.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">2 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eFactors other than the rise of photography may be more directly responsible for the portrait miniature\u0026rsquo;s decline.\u003c/p\u003e", "id": "5dd0a0c7-c374-4df1-867e-bccb62c81db7"}, {"content": "\u003cp\u003eAlthough portrait miniatures became less common than photographs, they were widely regarded as having more artistic merit. \u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u003c/p\u003e", "id": "e0a6a020-5aca-4d7f-98a2-47879c263152"}, {"content": "\u003cp\u003eThe popularity of the portrait miniature likely persisted for longer than art historians have assumed.\u0026nbsp;\u003c/p\u003e", "id": "71956185-d843-4991-8028-f5b957c2fda0"}, {"content": "\u003cp\u003eAs demand for portrait miniatures decreased, portrait artists likely shifted their creative focus to photography.\u0026nbsp;\u003c/p\u003e", "id": "3ddec607-fb28-4d62-b0d6-aec766c8cbe4"}], "correct_answer": ["A"], "externalid": "c41ebd08-a19c-44e2-a621-3e50ac34dcd2", "keys": ["5dd0a0c7-c374-4df1-867e-bccb62c81db7"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CID-M006", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The text says that the impact of photography on the portrait miniature might be \"overstated,\" as some records show a decrease in the number of portrait miniatures \u003cem\u003ebefore\u003c/em\u003e the invention of photography. From this, we can conclude that factors \u003cem\u003eother\u003c/em\u003e than the rise of photography may be more directly responsible for the portrait miniature\u0026rsquo;s decline.\u003c/p\u003e\u003cp\u003eChoice B is incorrect. The text never discusses the \"artistic merit\" of either art form. Choice C is incorrect. The text never suggests that the portrait miniature was popular for longer than historians thought\u0026mdash;if anything, it suggests that the portrait miniature started losing its popularity \u003cem\u003eearlier\u003c/em\u003e than historians thought. Choice D is incorrect. The text never suggests that portrait painters shifted to become photographers.\u003c/p\u003e", "stem": "\u003cp\u003eBased on the text, what can be concluded about the diminishing popularity of the portrait miniature in the nineteenth century? \u0026nbsp;\u003c/p\u003e", "stimulus": "\u003cp\u003eA common assumption among art historians is that the invention of photography in the mid-nineteenth century displaced the painted portrait in the public consciousness. The diminishing popularity of the portrait miniature, which coincided with the rise of photography, seems to support this claim. However, photography\u0026rsquo;s impact on the portrait miniature may be overstated. Although records from art exhibitions in the Netherlands from 1820 to 1892 show a decrease in the number of both full-sized and miniature portraits submitted, this trend was established before the invention of photography.\u003c/p\u003e", "templateclusterid": "ee93e7e4-100c-4199-80d8-84703d220231", "templateclustername": "", "type": "mcq", "vaultid": "a148888d-9441-430e-a3b4-b69e6cbcd27a"}, "createDate": 1691007959360, "difficulty": "M", "external_id": "c41ebd08-a19c-44e2-a621-3e50ac34dcd2", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "87aa7bab", "score_band_range_cd": 4, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "0095ef63-45d1-4e8c-b6f2-751b3b836145", "updateDate": 1691007959360};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-87aa7bab");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

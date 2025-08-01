@@ -1,0 +1,22 @@
+{
+  "question_id": "7c9d0e38",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Roughly 96% of Australia's estimated 200,000 animal species are invertebrates. Invertebrates of the order Hymenoptera, which consists of sawflies, wasps, bees, and ants, are estimated to total 14,800 species in Australia. Invertebrates of the order Coleoptera, which consists of beetles and weevils, are estimated to total 28,200 species in Australia. Some of these invertebrates' populations are threatened by invasive bird and fish species. The student wants to emphasize the different orders in which Australia's invertebrate animals are classified. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the different orders in which Australia&rsquo;s invertebrate animals are classified. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "In Australia, 28,200 species are estimated to be beetles and weevils, both classified as invertebrates of the order Coleoptera.",
+    "Among Australia&rsquo;s many invertebrates, sawflies, wasps, bees, and ants belong to the order Hymenoptera, while beetles and weevils belong to the order Coleoptera.",
+    "Many sawflies, wasps, bees, and ants of the order Hymenoptera are threatened by some of Australia&rsquo;s invasive bird and fish species.",
+    "The order Hymenoptera is estimated to make up 14,800 of Australia&rsquo;s 200,000 animal species."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The sentence emphasizes the different orders that Australia's invertebrates belong to, specifying that sawflies, wasps, bees, and ants belong to the order Hymenoptera, whereas beetles and weevils belong to the order Coleoptera.",
+    "A": "Choice A is incorrect. The sentence only mentions one order, Coleoptera; it doesn't emphasize the different orders that Australia's invertebrates belong to.",
+    "C": "Choice C is incorrect. The sentence only mentions one order, Hymenoptera; it doesn't emphasize the different orders that Australia's invertebrates belong to.",
+    "D": "Choice D is incorrect. The sentence only mentions one order, Hymenoptera; it doesn't emphasize the different orders that Australia's invertebrates belong to."
+  }
+}

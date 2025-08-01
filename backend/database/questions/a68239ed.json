@@ -1,0 +1,22 @@
+{
+  "question_id": "a68239ed",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is adapted from Oscar Wilde's 1897 nonfiction work De Profundis . People whose desire is solely for self-realisation never know where they are going. They can't know. In one sense of the word it is of course necessary to know oneself: that is the first achievement of knowledge. But to recognise that the soul of a man is unknowable, is the ultimate achievement of wisdom. The final mystery is oneself. When one has weighed the sun in the balance, and measured the steps of the moon, and mapped out the seven heavens star by star, there still remains oneself. Who can calculate the orbit of his own soul? Which choice best describes the function of the underlined question in the text as a whole?",
+  "question_text": "Which choice best describes the function of the underlined question in the text as a whole?",
+  "answer_options": [
+    "It reinforces the text&rsquo;s skepticism about the possibility of truly achieving self-knowledge.",
+    "It speculates that some readers will share the doubts expressed in the text about the value of self-knowledge.",
+    "It cautions readers that the text&rsquo;s directions for how to achieve self-knowledge are hard to follow.",
+    "It concedes that the definition of self-knowledge advanced in the text is unpopular."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The text repeatedly claims that true self-knowledge can't possibly be achieved, and this rhetorical question emphasizes that point.",
+    "B": "Choice B is incorrect. The underlined question doesn't do this. The text never expresses doubts about the value of self-knowledge—rather, the text expresses doubts about the possibility of achieving self-knowledge.",
+    "C": "Choice C is incorrect. The underlined question doesn't do this. The text doesn't provide directions for how to achieve self-knowledge—rather, it claims that true self-knowledge is impossible to achieve.",
+    "D": "Choice D is incorrect. The underlined question doesn't do this. The text doesn't ever define self-knowledge, and popularity isn't mentioned in the text at all."
+  }
+}

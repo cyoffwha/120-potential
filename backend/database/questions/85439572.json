@@ -1,0 +1,22 @@
+{
+  "question_id": "85439572",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Roasted green chiles are a popular ingredient in Southwestern cuisine, but the traditional roasting method of burning propane is not environmentally friendly. To see if solar power could provide a better alternative, engineer Kenneth Armijo and his team roasted batches of green chiles using between 38 and 42 heliostats, which are devices that concentrate sunlight. The team was successful in reaching the same roasting temperature used in traditional propane roasting, but they found that propane yielded faster results. While the fastest solar-roasted green chiles took six minutes, batches using propane took only four. Armijo hypothesizes that they can reduce the roasting time for solar-roasted green chiles by using more heliostats.",
+  "question_text": "Which finding, if true, would most directly support Armijo&rsquo;s hypothesis?",
+  "answer_options": [
+    "The temperature inside the roasting drum is distributed more evenly when roasting green chiles with solar power than with propane.",
+    "Attempts to roast green chiles using 50 heliostats yields results in fewer than six minutes.",
+    "Green chile connoisseurs prefer the flavor of solar-roasted green chiles over the flavor of propane-roasted green chiles.",
+    "The skins of solar-roasted green chiles are easier to peel than the skins of propane-roasted green chiles."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. Armijo believes that using more heliostats will speed up the roasting process, and this finding shows that with 50 heliostats—more than the number of heliostats already used—the roasting time is indeed reduced.",
+    "A": "Choice A is incorrect. The evenness of temperature in the roasting drum doesn't tell us about the speed of the roasting process, which is what Armijo's hypothesis is concerned with.",
+    "C": "Choice C is incorrect. Armijo's hypothesis is focused on the speed of the roasting process, not the flavor of the resulting roasted chiles.",
+    "D": "Choice D is incorrect. Though Armijo's hypothesis mentions a benefit of solar-roasting green chiles (easier peeling), it doesn't address the speed of the roasting process."
+  }
+}

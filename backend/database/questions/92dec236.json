@@ -1,0 +1,22 @@
+{
+  "question_id": "92dec236",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Maika'i Tubbs is a Native Hawaiian sculptor and installation artist. His work has been shown in the United States, Canada, Japan, and Germany, among other places. Many of his sculptures feature discarded objects. His work Erasure (2008) includes discarded audiocassette tapes and magnets. His work Home Grown (2009) includes discarded pushpins, plastic plates and forks, and wood. The student wants to emphasize a similarity between the two works. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize a similarity between the two works. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Erasure  (2008) uses discarded objects such as audiocassette tapes and magnets;  Home Grown  (2009), however, includes pushpins, plastic plates and forks, and wood.",
+    "Tubbs&rsquo;s work, which often features discarded objects, has been shown both within the United States and abroad.&nbsp;",
+    "Like many of Tubbs&rsquo;s sculptures, both  Erasure  and  Home Grown  include discarded objects:  Erasure  uses audiocassette tapes, and  Home Grown  uses plastic forks.",
+    "Tubbs completed  Erasure  in 2008 and  Home Grown  in 2009."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. This choice most effectively emphasizes \"a similarity\" by identifying a trait the works share: \"both Erasure and Home Grown include discarded objects.\"",
+    "A": "Choice A is incorrect. This choice doesn't \"emphasize a similarity.\" Instead, this choice shows how the materials used in the two works are different. Notice the use of the contrast word \"however.\"",
+    "B": "Choice B is incorrect. This choice doesn't \"emphasize a similarity between the two works.\" While it says that Tubbs's work \"often features discarded objects,\" it doesn't provide details about the two works in question.",
+    "D": "Choice D is incorrect. This choice doesn't \"emphasize a similarity.\" Instead, this choice shows how the works were produced at different times."
+  }
+}

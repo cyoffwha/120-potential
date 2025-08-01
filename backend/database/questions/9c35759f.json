@@ -1,0 +1,22 @@
+{
+  "question_id": "9c35759f",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Novelist N. K. Jemisin declines to ______ blank the conventions of the science fiction genre in which she writes, and she has suggested that her readers appreciate her work precisely because of this willingness to thwart expectations and avoid formulaic plots and themes.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "question",
+    "react to",
+    "perceive",
+    "conform to"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of Jemisin's writing. In this context, \"conform to\" means to act in accordance with something. The text suggests that in her science fiction writing, Jemisin's willingness to go against expectations and not use plots and themes that seem to follow a formula reflects how she treats the standard practices of the genre. This context conveys that Jemisin chooses not to act in accordance with those conventions.",
+    "A": "Choice A is incorrect. In this context, \"question\" would mean doubt or object to. The text indicates that Jemisin is willing to go against expectations and not use formulaic plots and themes in her science fiction writing, suggesting that she may actually object to those conventions of the genre, not that she chooses not to question them.",
+    "B": "Choice B is incorrect because the text indicates that in her science fiction writing, Jemisin is willing to go against expectations and not use formulaic plots and themes. Rather than suggesting that Jemisin chooses not to \"react to,\" or act in response to, the standard practices of the genre, this context suggests that she is acting in response to such conventions by deliberately avoiding them.",
+    "C": "Choice C is incorrect. In this context, \"perceive\" would mean become aware of or understand. The text indicates that in her science fiction writing, Jemisin is willing to go against expectations and not use formulaic plots and themes. This context conveys that Jemisin is aware of and deliberately avoids those conventions of the genre, not that she chooses not to be aware of them."
+  }
+}

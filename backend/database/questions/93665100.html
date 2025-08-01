@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 93665100</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Seminole/Muscogee director Sterlin Harjo <span aria-hidden="true">______</span><span class="sr-only">blank</span> television&rsquo;s tendency to situate Native characters in the distant past: this rejection is evident in his series <em>Reservation Dogs</em>, which revolves around teenagers who dress in contemporary styles and whose dialogue is laced with current slang.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>repudiates</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>proclaims</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>foretells</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>recants</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most logically completes the text&rsquo;s discussion of Sterlin Harjo&rsquo;s approach to representing Native characters on television. As used in this context, &ldquo;repudiates&rdquo; means rejects or refuses to have anything to do with. The text indicates that television shows tend to depict Native characters as living long ago, but that Harjo&rsquo;s series <em>Reservation Dogs</em> focuses on Native teenagers in the present day, representing a &ldquo;rejection&rdquo; of the typical approach to depicting Native characters. This context thus indicates that Harjo repudiates television&rsquo;s general tendency regarding Native characters.&nbsp;</p><p>Choice B is incorrect because the text describes Harjo&rsquo;s &ldquo;rejection&rdquo; of the typical approach to representing Native characters on television, so it wouldn&rsquo;t make sense to say that Harjo &ldquo;proclaims,&rdquo; or declares or affirms, television&rsquo;s general tendency regarding Native characters. Harjo is described as refusing to follow the pattern of depicting Native characters in the distant past, not as proclaiming that pattern.&nbsp;Choice C is incorrect because the text describes television&rsquo;s tendency to represent Native characters in the distant past as something that is already occurring, not as something that Harjo &ldquo;foretells,&rdquo; or predicts will happen in the future. The text is focused on Harjo&rsquo;s &ldquo;rejection&rdquo; of this pattern, not on any predictions he may have about it. Choice D is incorrect because saying that Harjo &ldquo;recants&rdquo; something would mean that he withdraws a previously held belief, and it wouldn&rsquo;t make sense to say that Harjo recants television&rsquo;s tendency to represent Native characters as living in the past. No beliefs previously held by Harjo are mentioned. Additionally, a tendency isn&rsquo;t a belief and thus isn&rsquo;t something that can be recanted. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">312 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003erepudiates\u003c/p\u003e", "id": "2d50bff2-dc84-4aa5-8f3c-27d0bc6ef6dd"}, {"content": "\u003cp\u003eproclaims\u003c/p\u003e", "id": "d3d4bd13-7b5b-4af7-a889-c30694d70ce1"}, {"content": "\u003cp\u003eforetells\u003c/p\u003e", "id": "1b7c4a81-49e0-4025-8acf-ee3daa08a485"}, {"content": "\u003cp\u003erecants\u003c/p\u003e", "id": "e0730fbc-4d00-49c3-8485-83aa00250ea2"}], "correct_answer": ["A"], "externalid": "dffba97c-0130-4b55-989a-cbe69ed1020d", "keys": ["2d50bff2-dc84-4aa5-8f3c-27d0bc6ef6dd"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-982-WIC", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most logically completes the text\u0026rsquo;s discussion of Sterlin Harjo\u0026rsquo;s approach to representing Native characters on television. As used in this context, \u0026ldquo;repudiates\u0026rdquo; means rejects or refuses to have anything to do with. The text indicates that television shows tend to depict Native characters as living long ago, but that Harjo\u0026rsquo;s series \u003cem\u003eReservation Dogs\u003c/em\u003e focuses on Native teenagers in the present day, representing a \u0026ldquo;rejection\u0026rdquo; of the typical approach to depicting Native characters. This context thus indicates that Harjo repudiates television\u0026rsquo;s general tendency regarding Native characters.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice B is incorrect because the text describes Harjo\u0026rsquo;s \u0026ldquo;rejection\u0026rdquo; of the typical approach to representing Native characters on television, so it wouldn\u0026rsquo;t make sense to say that Harjo \u0026ldquo;proclaims,\u0026rdquo; or declares or affirms, television\u0026rsquo;s general tendency regarding Native characters. Harjo is described as refusing to follow the pattern of depicting Native characters in the distant past, not as proclaiming that pattern.\u0026nbsp;Choice C is incorrect because the text describes television\u0026rsquo;s tendency to represent Native characters in the distant past as something that is already occurring, not as something that Harjo \u0026ldquo;foretells,\u0026rdquo; or predicts will happen in the future. The text is focused on Harjo\u0026rsquo;s \u0026ldquo;rejection\u0026rdquo; of this pattern, not on any predictions he may have about it. Choice D is incorrect because saying that Harjo \u0026ldquo;recants\u0026rdquo; something would mean that he withdraws a previously held belief, and it wouldn\u0026rsquo;t make sense to say that Harjo recants television\u0026rsquo;s tendency to represent Native characters as living in the past. No beliefs previously held by Harjo are mentioned. Additionally, a tendency isn\u0026rsquo;t a belief and thus isn\u0026rsquo;t something that can be recanted. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eSeminole/Muscogee director Sterlin Harjo \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e television\u0026rsquo;s tendency to situate Native characters in the distant past: this rejection is evident in his series \u003cem\u003eReservation Dogs\u003c/em\u003e, which revolves around teenagers who dress in contemporary styles and whose dialogue is laced with current slang.\u003c/p\u003e", "templateclusterid": "7c2537d0-2c5a-4efb-a13c-43baa88e6757", "templateclustername": "", "type": "mcq", "vaultid": "4394d28a-8f3f-425e-b3e1-827c7e5a0f8c"}, "createDate": 1691007959358, "difficulty": "H", "external_id": "dffba97c-0130-4b55-989a-cbe69ed1020d", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "93665100", "score_band_range_cd": 7, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "115f1937-b501-4d00-84c2-38fee91f4fd7", "updateDate": 1691007959358};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-93665100");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

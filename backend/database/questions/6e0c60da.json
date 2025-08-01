@@ -1,0 +1,22 @@
+{
+  "question_id": "6e0c60da",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "When one looks at the dark craggy vistas in Hitoshi Fugo's evocative photo series, one's mind might wander off to the cratered surfaces of faraway planets. ______ blank it's the series' title, Flying Frying Pan , that brings one back to Earth, reminding the viewer that each photo is actually a close-up view of a familiar household object: a frying pan.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Consequently,",
+    "Alternatively,",
+    "Ultimately,",
+    "Additionally,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The first sentence describes an experience that the viewer has when they're looking at the photos: they imagine other planets. This sentence describes an experience that the viewer has afterward: the title reminds them that the photos are of frying pans, bringing them back to reality. \"Ultimately\" is a transition that means \"eventually\" or \"in the end,\" so it fits the context perfectly.",
+    "A": "Choice A is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense here. The viewer imagining other planets when they're looking at the photos doesn't cause the title to bring them back to reality.",
+    "B": "Choice B is incorrect. This choice uses a transition that indicates another option or possibility, which doesn't make sense here. Rather, the viewer has both experiences: first the viewer imagines that they're looking at another planet, and then the title reminds them that it's just a frying pan.",
+    "D": "Choice D is incorrect. This choice uses a transition that indicates the addition of an agreeing idea. But the viewer's experience in the second sentence is actually the opposite of the viewer's experience in the first sentence. In the first sentence, the viewer is imagining that they're seeing a landscape from another planet. In the second sentence, the viewer is reminded that they're looking at a frying pan."
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question aaddd60f</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Scientists studying Mars long thought the history of its crust was relatively simple. One reason for this is that geologic and climate data collected by a spacecraft showed that the crust was largely composed of basalt, likely as a result of intense volcanic activity that brought about a magma ocean, which then cooled to form the planet&rsquo;s surface. A study led by Valerie Payr&eacute; focused on additional information&mdash;further analysis of data collected by the spacecraft and infrared wavelengths detected from Mars&rsquo;s surface&mdash;that revealed the presence of surprisingly high concentrations of silica in certain regions on Mars. Since a planetary surface that formed in a mostly basaltic environment would be unlikely to contain large amounts of silica, Payr&eacute; concluded that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the information about silica concentrations collected by the spacecraft is likely more reliable than the silica information gleaned from infrared wavelengths detected from Mars&rsquo;s surface.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>high silica concentrations on Mars likely formed from a different process than that which formed the crusts of other planets.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>having a clearer understanding of the composition of Mars&rsquo;s crust and the processes by which it formed will provide more insight into how Earth&rsquo;s crust formed. &nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Mars&rsquo;s crust likely formed as a result of other major geological events in addition to the cooling of a magma ocean.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. Cooling magma would create basalt, but &ldquo;a planetary surface that formed in a mostly basaltic environment would be unlikely to contain large amounts of silica.&rdquo; Since Mars&rsquo;s crust does contain large amounts of silica, it is unlikely that Mars&rsquo;s crust was formed exclusively by cooling magma. Therefore, there were likely other major geological events that created the high silica concentrations. </p><p>Choice A is incorrect. Although the passage discusses these two methods of collecting data about Mars&rsquo;s crust, it never compares their reliability, so there&rsquo;s no basis for this inference. Choice B is incorrect. The passage never mentions anything about the crusts of other planets, so there&rsquo;s no basis for this inference. Choice C is incorrect. The passage never mentions Earth&rsquo;s crust, so there&rsquo;s no basis for this inference. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">85 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ethe information about silica concentrations collected by the spacecraft is likely more reliable than the silica information gleaned from infrared wavelengths detected from Mars\u0026rsquo;s surface.\u003c/p\u003e", "id": "22c694b7-ab8d-4454-953b-f1f0ce77ae11"}, {"content": "\u003cp\u003ehigh silica concentrations on Mars likely formed from a different process than that which formed the crusts of other planets.\u003c/p\u003e", "id": "701e2b9c-1489-4b0a-89db-3acddda13404"}, {"content": "\u003cp\u003ehaving a clearer understanding of the composition of Mars\u0026rsquo;s crust and the processes by which it formed will provide more insight into how Earth\u0026rsquo;s crust formed. \u0026nbsp;\u003c/p\u003e", "id": "dfdc5723-7fc8-4258-a670-00f771527df4"}, {"content": "\u003cp\u003eMars\u0026rsquo;s crust likely formed as a result of other major geological events in addition to the cooling of a magma ocean.\u0026nbsp;\u003c/p\u003e", "id": "98db816e-1b69-4741-a6c5-94f805b3d5ee"}], "correct_answer": ["D"], "externalid": "d1efe6e8-5201-4a69-97dd-f475820fb912", "keys": ["98db816e-1b69-4741-a6c5-94f805b3d5ee"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-INF-H009", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. Cooling magma would create basalt, but \u0026ldquo;a planetary surface that formed in a mostly basaltic environment would be unlikely to contain large amounts of silica.\u0026rdquo; Since Mars\u0026rsquo;s crust does contain large amounts of silica, it is unlikely that Mars\u0026rsquo;s crust was formed exclusively by cooling magma. Therefore, there were likely other major geological events that created the high silica concentrations. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although the passage discusses these two methods of collecting data about Mars\u0026rsquo;s crust, it never compares their reliability, so there\u0026rsquo;s no basis for this inference. Choice B is incorrect. The passage never mentions anything about the crusts of other planets, so there\u0026rsquo;s no basis for this inference. Choice C is incorrect. The passage never mentions Earth\u0026rsquo;s crust, so there\u0026rsquo;s no basis for this inference. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eScientists studying Mars long thought the history of its crust was relatively simple. One reason for this is that geologic and climate data collected by a spacecraft showed that the crust was largely composed of basalt, likely as a result of intense volcanic activity that brought about a magma ocean, which then cooled to form the planet\u0026rsquo;s surface. A study led by Valerie Payr\u0026eacute; focused on additional information\u0026mdash;further analysis of data collected by the spacecraft and infrared wavelengths detected from Mars\u0026rsquo;s surface\u0026mdash;that revealed the presence of surprisingly high concentrations of silica in certain regions on Mars. Since a planetary surface that formed in a mostly basaltic environment would be unlikely to contain large amounts of silica, Payr\u0026eacute; concluded that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "8c439a6b-bad8-41ab-baeb-c36e23b3f3bd", "templateclustername": "", "type": "mcq", "vaultid": "4f07e270-9128-45a5-8ffa-865800d33eeb"}, "createDate": 1691007959368, "difficulty": "H", "external_id": "d1efe6e8-5201-4a69-97dd-f475820fb912", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "aaddd60f", "score_band_range_cd": 7, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "4938eb66-5f57-4083-addd-331a449e148e", "updateDate": 1691007959368};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-aaddd60f");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

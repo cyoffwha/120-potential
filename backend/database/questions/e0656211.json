@@ -1,0 +1,22 @@
+{
+  "question_id": "e0656211",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In Nature Poem (2017), Kumeyaay poet Tommy Pico portrays his ______ blank the natural world by honoring the centrality of nature within his tribe's traditional beliefs while simultaneously expressing his distaste for being in wilderness settings himself.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "responsiveness to",
+    "ambivalence toward",
+    "renunciation of",
+    "mastery over"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's description of how Pico feels about the natural world. In this context, to say that Pico portrays his \"ambivalence toward\" nature would mean that he portrays his mixed feelings about nature. The text explains that Pico \"honors the centrality of nature\" and also makes it clear that he doesn't enjoy being in nature. This context suggests that Pico feels ambivalence toward nature.",
+    "A": "Choice A is incorrect because saying that Pico portrays his \"responsiveness to\" nature would mean that he portrays himself as quick to react to nature, which isn't supported by the text. Instead, the text focuses on Pico's mixed feelings toward nature, describing him as both honoring nature's role in his tribe's beliefs and expressing his personal dislike for being in nature.",
+    "C": "Choice C is incorrect because saying that Pico portrays his \"renunciation of\" nature would mean that he portrays himself as rejecting nature, which isn't supported by the text. The text conveys that Pico demonstrates both positive and negative responses toward nature, not that he's giving it up completely.",
+    "D": "Choice D is incorrect because saying that Pico portrays his \"mastery over\" nature would mean that he portrays himself as having control over nature, which isn't supported by the text. The text focuses on Pico's mixed feelings about nature; nothing in the text suggests that Pico feels mastery over nature."
+  }
+}

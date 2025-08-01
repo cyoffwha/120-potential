@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 5d3177aa</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>In the early 1960s, the US had a strict national-origins quota system for immigrants.</li>
+<li>The number of new immigrants allowed from a country each year was based on how many people from that country lived in the US in 1890.</li>
+<li>This system favored immigrants from northern Europe.</li>
+<li>Almost 70% of slots were reserved for immigrants from Great Britain, Ireland, and Germany.</li>
+<li>The 1965 Hart-Celler Act abolished the national-origins quota system.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to present the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Almost 70% of slots were reserved for immigrants from Great Britain, Ireland, and Germany at the time the Hart-Celler Act was proposed.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Prior to the Hart-Celler Act, new immigration quotas were based on how many people from each country lived in the US in 1890.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The quota system in place in the early 1960s was abolished by the 1965 Hart-Celler Act.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The 1965 Hart-Celler Act abolished the national-origins quota system, which favored immigrants from northern Europe.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The sentence presents the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration, noting that the 1965 act abolished the national-origins quota system and explaining why that mattered, historically: because the old quota system had favored immigrants from northern Europe. </p><p>Choice A is incorrect. The sentence describes an aspect of immigration policy at the time the Hart-Celler Act was proposed; it doesn&rsquo;t present the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration. Choice B is incorrect. The sentence describes an aspect of immigration policy before the Hart-Celler Act; it doesn&rsquo;t describe or present the significance of the act to an audience unfamiliar with the history of US immigration. Choice C is incorrect. While the sentence indicates that the Hart-Celler Act abolished the old quota system, it doesn&rsquo;t explain the act or the quota system to an audience unfamiliar with the history of US immigration. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">623 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eAlmost 70% of slots were reserved for immigrants from Great Britain, Ireland, and Germany at the time the Hart-Celler Act was proposed.\u003c/p\u003e", "id": "814794ca-289a-4e23-95c2-fc6889055a9e"}, {"content": "\u003cp\u003ePrior to the Hart-Celler Act, new immigration quotas were based on how many people from each country lived in the US in 1890.\u003c/p\u003e", "id": "853a366f-75c4-4a91-8d1a-0ecc3b743c81"}, {"content": "\u003cp\u003eThe quota system in place in the early 1960s was abolished by the 1965 Hart-Celler Act.\u0026nbsp;\u003c/p\u003e", "id": "1490fdd0-e159-4405-8ec9-c2dbc8d2eadc"}, {"content": "\u003cp\u003eThe 1965 Hart-Celler Act abolished the national-origins quota system, which favored immigrants from northern Europe.\u003c/p\u003e", "id": "05efd54e-8bed-4072-b457-c90036669905"}], "correct_answer": ["D"], "externalid": "c8d42223-bd50-4837-a884-755ec29e7a39", "keys": ["05efd54e-8bed-4072-b457-c90036669905"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-787-SYN", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The sentence presents the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration, noting that the 1965 act abolished the national-origins quota system and explaining why that mattered, historically: because the old quota system had favored immigrants from northern Europe. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The sentence describes an aspect of immigration policy at the time the Hart-Celler Act was proposed; it doesn\u0026rsquo;t present the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration. Choice B is incorrect. The sentence describes an aspect of immigration policy before the Hart-Celler Act; it doesn\u0026rsquo;t describe or present the significance of the act to an audience unfamiliar with the history of US immigration. Choice C is incorrect. While the sentence indicates that the Hart-Celler Act abolished the old quota system, it doesn\u0026rsquo;t explain the act or the quota system to an audience unfamiliar with the history of US immigration. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to present the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIn the early 1960s, the US had a strict national-origins quota system for immigrants.\u003c/li\u003e\n\u003cli\u003eThe number of new immigrants allowed from a country each year was based on how many people from that country lived in the US in 1890.\u003c/li\u003e\n\u003cli\u003eThis system favored immigrants from northern Europe.\u003c/li\u003e\n\u003cli\u003eAlmost 70% of slots were reserved for immigrants from Great Britain, Ireland, and Germany.\u003c/li\u003e\n\u003cli\u003eThe 1965 Hart-Celler Act abolished the national-origins quota system.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "7a5bcf69-1d64-4bad-a1fb-97ba262319bf", "templateclustername": "", "type": "mcq", "vaultid": "1a284328-ba1d-4084-a066-63aa75a22808"}, "createDate": 1691007959353, "difficulty": "M", "external_id": "c8d42223-bd50-4837-a884-755ec29e7a39", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "5d3177aa", "score_band_range_cd": 5, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "7163f7c0-4491-4882-83cc-4e76f593cfff", "updateDate": 1691007959353};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-5d3177aa");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

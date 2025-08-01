@@ -1,0 +1,22 @@
+{
+  "question_id": "6675c5c3",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is from Shyam Selvadurai's 1994 novel Funny Boy. The seven-year-old narrator lives with his family in Sri Lanka. Radha Aunty is the narrator's aunt. Radha Aunty, who was the youngest in my father's family, had left for America four years ago when I was three, and I could not remember what she looked like. I went into the corridor to look at the family photographs that were hung there. But all the pictures were old ones, taken when Radha Aunty was a baby or young girl. Try as I might, I couldn't get an idea of what she looked like now. My imagination, however, was quick to fill in this void. &copy;1994 by Shyam Selvadurai.",
+  "question_text": "According to the text, why does the narrator consult some family photographs?",
+  "answer_options": [
+    "He wants to use the photographs as inspiration for a story he is writing.&nbsp;",
+    "He is curious about how his father dressed a long time ago.&nbsp;",
+    "He hopes the photographs will help him recall what his aunt looked like. &nbsp;",
+    "He wants to remind his aunt of an event that is shown in an old photograph.&nbsp;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The text states that the narrator couldn't remember what his Radha Aunty looked like, so he went to look at the family photographs she was in.",
+    "A": "Choice A is incorrect. There's no mention of any story that the narrator is writing. Rather, we're told that the narrator couldn't remember what his aunt looked like, so he went to look at the family photographs she was in.",
+    "B": "Choice B is incorrect. The text doesn't mention how the narrator's father dressed. Rather, we're told that the narrator couldn't remember what his aunt looked like, so he went to look at the family photographs she was in.",
+    "D": "Choice D is incorrect. The text doesn't mention any events shown in the photographs. Rather, we're told that the narrator couldn't remember what his aunt looked like, so he went to look at the family photographs she was in."
+  }
+}

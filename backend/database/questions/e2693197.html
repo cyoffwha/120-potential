@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e2693197</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li><em>Oracles of the Pink Universe</em> was a 2021 exhibition at the Denver Museum of Art in Colorado.</li>
+<li>It featured eight artworks by South African artist Simphiwe Ndzube.</li>
+<li>One of these works is a painting titled <em>Assertion of Will</em>.</li>
+<li><em>Assertion of Will</em> depicts three standing figures.</li>
+<li>The figures wear clothing made of fabric pieces stitched to the painting&rsquo;s canvas.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to describe how fabric is used in <em>Assertion of Will</em>. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In <em>Assertion of Will</em>, the figures&rsquo; clothing is made of fabric pieces stitched to the painting&rsquo;s canvas.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The exhibition <em>Oracles of the Pink Universe</em> featured artworks by artist Simphiwe Ndzube.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Depicting three standing, clothed figures, <em>Assertion of Will</em> is a painting by Simphiwe Ndzube.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Simphiwe Ndzube&rsquo;s <em>Assertion of Will</em> was one of eight artworks exhibited in <em>Oracles of the Pink Universe</em> at the Denver Museum of Art.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. This choice directly describes how fabric is used in <em>Assertion of Will</em>, by explaining that the fabric pieces are part of the painting itself.&nbsp;</p><p>Choice B is incorrect. This choice provides contextual information about the exhibition, but it doesn&rsquo;t mention anything about the painting or the fabric.&nbsp;Choice C is incorrect. This choice mentions that the figures are clothed, but it doesn&rsquo;t explain how the fabric is integrated into the painting.&nbsp;Choice D is incorrect. This choice provides contextual information about the painting, but it doesn&rsquo;t mention anything about the fabric or how it is used.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">552 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIn \u003cem\u003eAssertion of Will\u003c/em\u003e, the figures\u0026rsquo; clothing is made of fabric pieces stitched to the painting\u0026rsquo;s canvas.\u003c/p\u003e", "id": "0176bccb-0203-4289-8b8e-0b06774bd458"}, {"content": "\u003cp\u003eThe exhibition \u003cem\u003eOracles of the Pink Universe\u003c/em\u003e featured artworks by artist Simphiwe Ndzube.\u003c/p\u003e", "id": "899d8e6c-d1e2-4cee-81e9-8058ef8bc22d"}, {"content": "\u003cp\u003eDepicting three standing, clothed figures, \u003cem\u003eAssertion of Will\u003c/em\u003e is a painting by Simphiwe Ndzube.\u003c/p\u003e", "id": "44a8e16a-39b4-401e-9cdf-40b8bfbfa8d1"}, {"content": "\u003cp\u003eSimphiwe Ndzube\u0026rsquo;s \u003cem\u003eAssertion of Will\u003c/em\u003e was one of eight artworks exhibited in \u003cem\u003eOracles of the Pink Universe\u003c/em\u003e at the Denver Museum of Art.\u003c/p\u003e", "id": "d79e046c-7953-4b77-94b5-298b9dd84b48"}], "correct_answer": ["A"], "externalid": "ecd2318b-8cde-4df7-aedd-6cfb3adcb71a", "keys": ["0176bccb-0203-4289-8b8e-0b06774bd458"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-SYN-E006", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. This choice directly describes how fabric is used in \u003cem\u003eAssertion of Will\u003c/em\u003e, by explaining that the fabric pieces are part of the painting itself.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice B is incorrect. This choice provides contextual information about the exhibition, but it doesn\u0026rsquo;t mention anything about the painting or the fabric.\u0026nbsp;Choice C is incorrect. This choice mentions that the figures are clothed, but it doesn\u0026rsquo;t explain how the fabric is integrated into the painting.\u0026nbsp;Choice D is incorrect. This choice provides contextual information about the painting, but it doesn\u0026rsquo;t mention anything about the fabric or how it is used.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to describe how fabric is used in \u003cem\u003eAssertion of Will\u003c/em\u003e. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cem\u003eOracles of the Pink Universe\u003c/em\u003e was a 2021 exhibition at the Denver Museum of Art in Colorado.\u003c/li\u003e\n\u003cli\u003eIt featured eight artworks by South African artist Simphiwe Ndzube.\u003c/li\u003e\n\u003cli\u003eOne of these works is a painting titled \u003cem\u003eAssertion of Will\u003c/em\u003e.\u003c/li\u003e\n\u003cli\u003e\u003cem\u003eAssertion of Will\u003c/em\u003e depicts three standing figures.\u003c/li\u003e\n\u003cli\u003eThe figures wear clothing made of fabric pieces stitched to the painting\u0026rsquo;s canvas.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "652a5d2b-6057-45a6-b0e2-86cfecd4b91e", "templateclustername": "", "type": "mcq", "vaultid": "39f34650-414d-4f08-8efc-ef0bbd977b6e"}, "createDate": 1691007959371, "difficulty": "E", "external_id": "ecd2318b-8cde-4df7-aedd-6cfb3adcb71a", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "e2693197", "score_band_range_cd": 2, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "0ee0e83f-f428-4970-9d93-f85e34802f96", "updateDate": 1691007959371};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e2693197");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

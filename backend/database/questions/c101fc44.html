@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question c101fc44</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>How do scientists determine what foods were eaten by extinct hominins such as Neanderthals? In the past, researchers were limited to studying the marks found on the fossilized teeth of skeletons, but in 2017 a team led by Laura Weyrich of the Australian Centre for Ancient DNA tried something <span aria-hidden="true">______</span><span class="sr-only">blank</span> the DNA found in Neanderthals&rsquo; fossilized dental plaque.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>new: sequencing</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>new; sequencing</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>new, sequencing:</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>new. Sequencing</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. &ldquo;A team&hellip;tried something new&rdquo; is an independent clause leading to an explanation of what the new thing was. A colon can only be used at the end of an independent clause, and typically introduces further explanation that expands upon the first clause, which makes a colon the perfect choice here. </p><p>Choice B is incorrect. This choice results in a punctuation error. &ldquo;Sequencing&hellip;dental plaque&rdquo; can&rsquo;t stand on its own as a sentence, and so it can&rsquo;t be linked to the independent clause &ldquo;a team&hellip;tried something new&rdquo; with a semicolon. Only two independent clauses can be connected in this way. Choice C is incorrect. This choice results in a punctuation error. If &ldquo;sequencing&rdquo; is included in the first clause, it can no longer stand on its own as a complete idea. Since a colon can only come at the end of an independent clause, using one in this way creates an error. Choice D is incorrect. This choice results in a sentence fragment. &ldquo;Sequencing&hellip;dental plaque&rdquo; can&rsquo;t stand on its own as a sentence. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">889 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003enew: sequencing\u003c/p\u003e", "id": "cba77574-e69e-40ae-83e3-69f54c03a3d2"}, {"content": "\u003cp\u003enew; sequencing\u003c/p\u003e", "id": "c91ca2f0-3b75-4f9b-876a-038dbeb925f8"}, {"content": "\u003cp\u003enew, sequencing:\u003c/p\u003e", "id": "df48db44-b629-4e36-bef0-7ae9be0a8b14"}, {"content": "\u003cp\u003enew. Sequencing\u003c/p\u003e", "id": "35e4c56e-f0b1-4982-92da-00e0ffc8fd8a"}], "correct_answer": ["A"], "externalid": "7d35af27-68b0-465a-80d0-29820bbdaa6c", "keys": ["cba77574-e69e-40ae-83e3-69f54c03a3d2"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-BOU-M010", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. \u0026ldquo;A team\u0026hellip;tried something new\u0026rdquo; is an independent clause leading to an explanation of what the new thing was. A colon can only be used at the end of an independent clause, and typically introduces further explanation that expands upon the first clause, which makes a colon the perfect choice here. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. This choice results in a punctuation error. \u0026ldquo;Sequencing\u0026hellip;dental plaque\u0026rdquo; can\u0026rsquo;t stand on its own as a sentence, and so it can\u0026rsquo;t be linked to the independent clause \u0026ldquo;a team\u0026hellip;tried something new\u0026rdquo; with a semicolon. Only two independent clauses can be connected in this way. Choice C is incorrect. This choice results in a punctuation error. If \u0026ldquo;sequencing\u0026rdquo; is included in the first clause, it can no longer stand on its own as a complete idea. Since a colon can only come at the end of an independent clause, using one in this way creates an error. Choice D is incorrect. This choice results in a sentence fragment. \u0026ldquo;Sequencing\u0026hellip;dental plaque\u0026rdquo; can\u0026rsquo;t stand on its own as a sentence. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eHow do scientists determine what foods were eaten by extinct hominins such as Neanderthals? In the past, researchers were limited to studying the marks found on the fossilized teeth of skeletons, but in 2017 a team led by Laura Weyrich of the Australian Centre for Ancient DNA tried something \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e the DNA found in Neanderthals\u0026rsquo; fossilized dental plaque.\u003c/p\u003e", "templateclusterid": "10c4ac11-51dc-465b-a48f-47a803e48804", "templateclustername": "", "type": "mcq", "vaultid": "440412be-6d51-44b6-8890-a2c29f9af9ea"}, "createDate": 1691007959359, "difficulty": "M", "external_id": "7d35af27-68b0-465a-80d0-29820bbdaa6c", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "c101fc44", "score_band_range_cd": 5, "skill_cd": "BOU", "skill_desc": "Boundaries", "uId": "bdbffc8a-070d-41a8-bd73-021bb7dea09a", "updateDate": 1691007959359};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-c101fc44");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

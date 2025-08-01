@@ -1,0 +1,22 @@
+{
+  "question_id": "760ee1db",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Although the playwrights hoped that their play would be ______ blank when performed live, critics generally agreed that the production and performances had the opposite effect, wearying audiences instead of energizing them.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "multifaceted",
+    "realistic",
+    "rousing",
+    "subtle"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most logically completes the text's discussion of the play's effect on audiences. As used in this context, \"rousing\" means exciting or energizing. The text indicates that critics found the play to have \"the opposite effect\" on audiences of what the playwrights hoped for. The critics, the text says, thought the play was wearying rather than energizing to viewers. This context supports the idea that the playwrights hoped live performances of the play would be energizing, or rousing, to audiences.",
+    "A": "Choice A is incorrect because there's no information in the text suggesting that the playwrights hoped live performances of the play would be \"multifaceted,\" or be varied or have many aspects. The text indicates that critics found the play to be wearying to audiences and that this was the opposite of what the playwrights hoped for. Multifaceted is not the opposite of wearying, but rousing is, which suggests that the playwrights hoped the play would be rousing.",
+    "B": "Choice B is incorrect because there's no information in the text suggesting that the playwrights hoped live performances of the play would be \"realistic,\" or lifelike or sensible. The text says that critics found the play to be wearying to audiences and that this was the opposite of what the playwrights hoped for. Realistic is not the opposite of wearying, but rousing is, which suggests that the playwrights hoped the play would be rousing.",
+    "D": "Choice D is incorrect because there's no information in the text suggesting that the playwrights hoped live performances of the play would be subtle, or complex or understated. The text says that critics found the play to be wearying to audiences and that this was the opposite of what the playwrights hoped for. Subtle is not the opposite of wearying, but rousing is, which suggests that the playwrights hoped the play would be rousing."
+  }
+}

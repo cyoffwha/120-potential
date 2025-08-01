@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 8bc66f89</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Part of the Atacama Desert in Peru has surprisingly rich plant life despite receiving almost no rainfall. Moisture from winter fog sustains plants once they&rsquo;re growing, but the soil&rsquo;s tough crust makes it hard for seeds to germinate in the first place. Local birds that dig nests in the ground seem to be of help: <span role="region" aria-label="Referenced Content"><u>they churn the soil, exposing buried seeds to moisture and nutrients</u></span>. Indeed, in 2016 Cristina Rengifo Faiffer found that mounds of soil dug up by birds were far more fertile and supported more seedlings than soil in undisturbed areas.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes the function of the underlined portion in the text as a whole?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It elaborates on the idea that the top layer of Atacama Desert soil forms a tough crust.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It describes the process by which seeds are deposited into Atacama Desert soil.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It identifies the reason particular bird species dig nests in Atacama Desert soil.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It explains how certain birds promote seed germination in Atacama Desert soil.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The first two sentences establish a natural phenomenon: there is a richness of plant life found in the Atacama Desert despite the hard soil that makes it challenging for seeds to germinate. The next sentence, which contains the underlined portion, offers a potential explanation for the phenomenon: local birds dig ground nests exposing seeds to moisture and materials in the soil necessary for germination. The last sentence summarizes a study that compared the fertileness of mounds of dirt dug up by birds to mounds that were undisturbed to support the explanation in the underlined portion. Thus, the underlined portion mainly functions to explain how certain birds promote seed germination in the Atacama Desert soil. </p><p>Choice A is incorrect because the underlined portion doesn&rsquo;t address the topic of the soil&rsquo;s tough crust or its formation. Instead, the text elaborates on the idea that local birds that build ground nests may help seeds germinate in the hard soil.&nbsp;Choice B is incorrect because the underlined portion describes how some birds may support seed germination in Atacama Desert soil but doesn&rsquo;t describe how the seeds are deposited into the soil before germination begins. &nbsp;Choice C is incorrect because neither the underlined portion nor the text as a whole identifies a reason that a particular bird species may choose to dig ground nests in the Atacama Desert soil. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">520 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt elaborates on the idea that the top layer of Atacama Desert soil forms a tough crust.\u0026nbsp;\u003c/p\u003e", "id": "d55b1274-003d-4cea-95f7-97f70e438f5f"}, {"content": "\u003cp\u003eIt describes the process by which seeds are deposited into Atacama Desert soil.\u003c/p\u003e", "id": "b0e8dbb8-e5bd-48fb-a40b-7b061a506eef"}, {"content": "\u003cp\u003eIt identifies the reason particular bird species dig nests in Atacama Desert soil.\u003c/p\u003e", "id": "f7129c84-a0ae-431d-9737-38fad72a24cc"}, {"content": "\u003cp\u003eIt explains how certain birds promote seed germination in Atacama Desert soil.\u003c/p\u003e", "id": "03b1dbb8-cfdc-4a08-b3a0-a043c818ed84"}], "correct_answer": ["D"], "externalid": "c9238037-8ea2-4d6f-a213-e5adf698a43d", "keys": ["03b1dbb8-cfdc-4a08-b3a0-a043c818ed84"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-026-TSP", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The first two sentences establish a natural phenomenon: there is a richness of plant life found in the Atacama Desert despite the hard soil that makes it challenging for seeds to germinate. The next sentence, which contains the underlined portion, offers a potential explanation for the phenomenon: local birds dig ground nests exposing seeds to moisture and materials in the soil necessary for germination. The last sentence summarizes a study that compared the fertileness of mounds of dirt dug up by birds to mounds that were undisturbed to support the explanation in the underlined portion. Thus, the underlined portion mainly functions to explain how certain birds promote seed germination in the Atacama Desert soil. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the underlined portion doesn\u0026rsquo;t address the topic of the soil\u0026rsquo;s tough crust or its formation. Instead, the text elaborates on the idea that local birds that build ground nests may help seeds germinate in the hard soil.\u0026nbsp;Choice B is incorrect because the underlined portion describes how some birds may support seed germination in Atacama Desert soil but doesn\u0026rsquo;t describe how the seeds are deposited into the soil before germination begins. \u0026nbsp;Choice C is incorrect because neither the underlined portion nor the text as a whole identifies a reason that a particular bird species may choose to dig ground nests in the Atacama Desert soil. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes the function of the underlined portion in the text as a whole?\u003c/p\u003e", "stimulus": "\u003cp\u003ePart of the Atacama Desert in Peru has surprisingly rich plant life despite receiving almost no rainfall. Moisture from winter fog sustains plants once they\u0026rsquo;re growing, but the soil\u0026rsquo;s tough crust makes it hard for seeds to germinate in the first place. Local birds that dig nests in the ground seem to be of help: \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003ethey churn the soil, exposing buried seeds to moisture and nutrients\u003c/u\u003e\u003c/span\u003e. Indeed, in 2016 Cristina Rengifo Faiffer found that mounds of soil dug up by birds were far more fertile and supported more seedlings than soil in undisturbed areas.\u003c/p\u003e", "templateclusterid": "b5bc23be-8b5f-4ccb-8b3b-ca7b692401c1", "templateclustername": "", "type": "mcq", "vaultid": "e24dbf99-982a-4399-a6cd-a6b45751aacf"}, "createDate": 1691007959318, "difficulty": "M", "external_id": "c9238037-8ea2-4d6f-a213-e5adf698a43d", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "8bc66f89", "score_band_range_cd": 4, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "e23221e6-e381-428d-a72e-148099c2db03", "updateDate": 1691007959318};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-8bc66f89");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

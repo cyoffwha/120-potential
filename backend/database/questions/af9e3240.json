@@ -1,0 +1,22 @@
+{
+  "question_id": "af9e3240",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Electra is a circa 420–410 BCE play by Sophocles, translated in 1870 by R.C. Jebb. Electra, who is in mourning for her dead father and her long-absent brother, is aware of the intensity of her grief but believes it to be justified: ______ blank",
+  "question_text": "Which quotation from  Electra  most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;O thou pure sunlight, and thou air, earth&rsquo;s canopy, how often have ye heard the strains of my lament, the wild blows dealt against this bleeding breast, when dark night fails!&rdquo;",
+    "&ldquo;Send to me my brother; for I have no more the strength to bear up alone against the load of grief that weighs me down.&rdquo;",
+    "&ldquo;I know my&nbsp;own passion, it escapes me not; but, seeing that the causes are so dire,&nbsp;will never curb these frenzied plaints, while life is in me.&rdquo;&nbsp;",
+    "&ldquo;But never will I cease from dirge and sore lament, while I look on the trembling rays of the bright stars, or on this light of day.&rdquo;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. Electra states that she \"knows her own passion,\" which shows that she's aware of the intensity of her grief. But she also claims that the \"causes are so dire\"—meaning the reasons for her grief are so awful—that she can't let it go, which shows that she believes her grief is justified.",
+    "A": "Choice A is incorrect. This quotation doesn't show that Electra believes her grief is justified. It shows that Electra is aware of its intensity, but it doesn't suggest that she believes she has a legitimate reason for feeling that way.",
+    "B": "Choice B is incorrect. This quotation doesn't show that Electra believes her grief is justified. It shows that Electra is aware of its intensity, but it doesn't suggest that she believes she has a legitimate reason for feeling that way.",
+    "D": "Choice D is incorrect. This quotation doesn't show that Electra believes her grief is justified. It shows that Electra is aware of the intensity of her grief, but it doesn't suggest that she has a legitimate reason for feeling that way."
+  }
+}

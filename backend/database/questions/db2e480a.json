@@ -1,0 +1,22 @@
+{
+  "question_id": "db2e480a",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "By the time Hawaiian king Kamehameha III ______ blank the throne, the number of longhorn cattle, first introduced to the islands in 1793, had drastically increased, and so too had the need for paniolo (Hawaiian cowboys) to manage the wild herds that then roamed throughout the volcanic terrain.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "ascended",
+    "will ascend",
+    "ascends",
+    "is ascending"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Ascended\" is in the simple past tense. Since Kamehameha became king in the past, this makes the most sense.",
+    "B": "Choice B is incorrect. \"Will ascend\" is in the future tense, but we wouldn't know about Kamehameha III's ascent if it hadn't happened yet. The information in the sentence, as well as the tense of other verbs, tells us that the events described happened in the past.",
+    "C": "Choice C is incorrect. \"Ascends\" is in the simple present tense. However, the information in the sentence, as well as the tense of other verbs, tells us that the events described happened in the past.",
+    "D": "Choice D is incorrect. \"Is ascending\" is in the continuous present tense, which we use to show that something is ongoing, but this doesn't make sense here—the information in the sentence, as well as the tense of other verbs, tells us that the events described happened in the past."
+  }
+}

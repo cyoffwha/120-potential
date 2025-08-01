@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 8a668840</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><figure class="image"><svg aria-label="Line graph titled Monthly Hours of Sunshine from April to September in Anchorage and Fairbanks, Alaska. The horizontal axis is labeled Month. It ranges from April to September in increments of 1 month. The vertical axis is labeled Hours of sunshine. It ranges from 0 to 350 in increments of 50. 2 lines are shown. Refer to long description." height="476.66856384277344" role="img" viewbox="0 0 450 476.66856384277344" width="450" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 1" id="ed420550-79eb-48d4-af01-cd27cdd08afd"><defs>
+<marker id="marker0" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#000" points="3 0, 0 5.196, 6 5.196"></polygon>
+</marker>
+<marker id="marker1" markerheight="5" markerunits="strokeWidth" markerwidth="5" refx="2.5" refy="2.5">
+<path d="M0,0 L0,5 L5,5 L5,0 z" fill="#BBB" stroke="#000" stroke-width="1.5"></path>
+</marker>
+<marker id="marker2" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<circle cx="3" cy="3" fill="#FFF" r="1.8" stroke="#000" stroke-width=".6"></circle>
+</marker>
+<marker id="marker3" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#999" points="0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3" stroke="#000" stroke-linejoin="round" stroke-width=".5"></polygon>
+</marker>
+</defs><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.83634185791016" x2="435" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.83634185791016" x2="95.83634185791016" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.83634185791016 78)">350</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.83634185791016" x2="435" xmlns="http://www.w3.org/2000/svg" y1="100.57142857142857" y2="100.57142857142857"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.83634185791016" x2="95.83634185791016" xmlns="http://www.w3.org/2000/svg" y1="100.57142857142857" y2="100.57142857142857"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.83634185791016 106.57142857142857)">300</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.83634185791016" x2="435" xmlns="http://www.w3.org/2000/svg" y1="129.14285714285714" y2="129.14285714285714"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.83634185791016" x2="95.83634185791016" xmlns="http://www.w3.org/2000/svg" y1="129.14285714285714" y2="129.14285714285714"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.83634185791016 135.14285714285714)">250</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.83634185791016" x2="435" xmlns="http://www.w3.org/2000/svg" y1="157.71428571428572" y2="157.71428571428572"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.83634185791016" x2="95.83634185791016" xmlns="http://www.w3.org/2000/svg" y1="157.71428571428572" y2="157.71428571428572"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.83634185791016 163.71428571428572)">200</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.83634185791016" x2="435" xmlns="http://www.w3.org/2000/svg" y1="186.28571428571428" y2="186.28571428571428"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.83634185791016" x2="95.83634185791016" xmlns="http://www.w3.org/2000/svg" y1="186.28571428571428" y2="186.28571428571428"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.83634185791016 192.28571428571428)">150</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.83634185791016" x2="435" xmlns="http://www.w3.org/2000/svg" y1="214.85714285714286" y2="214.85714285714286"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.83634185791016" x2="95.83634185791016" xmlns="http://www.w3.org/2000/svg" y1="214.85714285714286" y2="214.85714285714286"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.83634185791016 220.85714285714286)">100</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.83634185791016" x2="435" xmlns="http://www.w3.org/2000/svg" y1="243.42857142857144" y2="243.42857142857144"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.83634185791016" x2="95.83634185791016" xmlns="http://www.w3.org/2000/svg" y1="243.42857142857144" y2="243.42857142857144"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.83634185791016 249.42857142857144)">50</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.83634185791016" x2="435" xmlns="http://www.w3.org/2000/svg" y1="272" y2="272"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="83.83634185791016" x2="95.83634185791016" xmlns="http://www.w3.org/2000/svg" y1="272" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(77.83634185791016 278)">0</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(24 172) rotate(-90)">Hours of sunshine</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="89.83634185791016" x2="89.83634185791016" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="118.59998003641765" x2="118.59998003641765" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(128.51998003641765 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">April</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="176.12725639343262" x2="176.12725639343262" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(186.0472563934326 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">May</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="233.6545327504476" x2="233.6545327504476" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(243.5745327504476 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">June</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="291.1818091074626" x2="291.1818091074626" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(301.1018091074626 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">July</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="348.70908546447754" x2="348.70908546447754" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(358.62908546447755 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">August</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="406.2363618214925" x2="406.2363618214925" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(416.1563618214925 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">September</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(262.4181709289551 24)">Monthly Hours of Sunshine from April to</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(262.4181709289551 48)">September in Anchorage and Fairbanks, Alaska</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(262.4181709289551 377.508586730957)">Month</text><rect fill="none" height="71" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="170.21215057373047" x="147.39392471313477" xmlns="http://www.w3.org/2000/svg" y="394.66858673095703"></rect><line marker-end="url(#marker0)" stroke="#000" stroke-width="2.4" x1="154.39392471313477" x2="181.39392471313477" y1="411.66858673095703" y2="411.66858673095703"></line><line marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="181.39392471313477" x2="208.39392471313477" y1="411.66858673095703" y2="411.66858673095703"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(218.39392471313477 418.66858673095703)"> Anchorage</text><line marker-end="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="154.39392471313477" x2="181.39392471313477" y1="443.66858673095703" y2="443.66858673095703"></line><line marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="181.39392471313477" x2="208.39392471313477" y1="443.66858673095703" y2="443.66858673095703"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(218.39392471313477 450.66858673095703)"> Fairbanks</text><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="118.59998003641765" x2="176.12725639343262" y1="126.85714285714286" y2="118.85714285714286"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="118.59998003641765" x2="176.12725639343262" y1="99.42857142857142" y2="89.7142857142857"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="176.12725639343262" x2="233.6545327504476" y1="118.85714285714286" y2="107.42857142857144"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="176.12725639343262" x2="233.6545327504476" y1="89.7142857142857" y2="81.14285714285714"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="233.6545327504476" x2="291.1818091074626" y1="107.42857142857144" y2="126.2857142857143"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="233.6545327504476" x2="291.1818091074626" y1="81.14285714285714" y2="115.42857142857144"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="291.1818091074626" x2="348.70908546447754" y1="126.2857142857143" y2="166.85714285714286"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="291.1818091074626" x2="348.70908546447754" y1="115.42857142857144" y2="178.28571428571428"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="348.70908546447754" x2="406.2363618214925" y1="166.85714285714286" y2="198.85714285714286"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="348.70908546447754" x2="406.2363618214925" y1="178.28571428571428" y2="202.28571428571428"></line></g></svg></figure>
+<p>A student is researching monthly hours of sunshine in different cities in Alaska. When comparing trends in Anchorage and Fairbanks, the student concludes that the two cities show a similar pattern in the monthly hours of sunshine from April to September.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes data from the graph that support the student&rsquo;s conclusion?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The monthly hours of sunshine in both Anchorage and Fairbanks hold steady in June and July before beginning to decline in August.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The monthly hours of sunshine in both Anchorage and Fairbanks increase from April to June and then decrease from June to September.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Anchorage and Fairbanks both have less than 200 monthly hours of sunshine from April to September.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Anchorage and Fairbanks both have more than 300 monthly hours of sunshine from April to June and less than 200 hours from July to September.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it best describes data from the graph that support the student&rsquo;s conclusion about weather patterns in Anchorage and Fairbanks. According to the graph, the amount of sunshine increases in both cities from April to June: in Anchorage, the number of monthly hours increases from about 250 to just under 300, and in Fairbanks the number of monthly hours increases from about 300 to just under 350. Also according to the graph, the amount of sunshine decreases in both cities from June to September: in Anchorage the number of monthly hours decreases from just under 300 to about 125, and in Fairbanks the number of monthly hours decreases from just under 350 to about 125. Thus, the monthly hours of sunshine in both cities follow a similar pattern, increasing from April to June and then decreasing from June to September. </p><p>Choice A is incorrect because, according to the graph, the monthly hours of sunshine in both Anchorage and Fairbanks decrease from June to July. They don&rsquo;t hold steady. In June there are slightly less than 300 hours of sunshine in Anchorage and slightly less than 350 hours in Fairbanks. Then, in July there are approximately 250 hours of sunshine in both cities.&nbsp;Choice C is incorrect because the graph shows that Anchorage and Fairbanks have less than 200 monthly hours of sunshine only in August and September. For the rest of the months represented in the graph, both cities have more than 200 monthly hours of sunshine. Choice D is incorrect because, according to the graph, Anchorage doesn&rsquo;t have more than 300 monthly hours of sunshine from April to June. In addition, both cities have more than 200 hours of sunshine in July, although the amount of sunshine does decrease to less than 200 monthly hours in August and September. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">75 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe monthly hours of sunshine in both Anchorage and Fairbanks hold steady in June and July before beginning to decline in August.\u003c/p\u003e", "id": "37296ecd-f3f4-43ad-aca6-8e3dcb596d10"}, {"content": "\u003cp\u003eThe monthly hours of sunshine in both Anchorage and Fairbanks increase from April to June and then decrease from June to September.\u003c/p\u003e", "id": "dd353554-737a-4de6-9b9d-b48c18811c40"}, {"content": "\u003cp\u003eAnchorage and Fairbanks both have less than 200 monthly hours of sunshine from April to September.\u003c/p\u003e", "id": "4ad27618-8043-4460-8511-d95f71781ce2"}, {"content": "\u003cp\u003eAnchorage and Fairbanks both have more than 300 monthly hours of sunshine from April to June and less than 200 hours from July to September.\u003c/p\u003e", "id": "dad2514b-6241-48a5-96c6-70b8076d1386"}], "correct_answer": ["B"], "externalid": "7f8e2931-6a5e-4782-93d8-5a8e62f75fef", "keys": ["dd353554-737a-4de6-9b9d-b48c18811c40"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-545-QUA", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it best describes data from the graph that support the student\u0026rsquo;s conclusion about weather patterns in Anchorage and Fairbanks. According to the graph, the amount of sunshine increases in both cities from April to June: in Anchorage, the number of monthly hours increases from about 250 to just under 300, and in Fairbanks the number of monthly hours increases from about 300 to just under 350. Also according to the graph, the amount of sunshine decreases in both cities from June to September: in Anchorage the number of monthly hours decreases from just under 300 to about 125, and in Fairbanks the number of monthly hours decreases from just under 350 to about 125. Thus, the monthly hours of sunshine in both cities follow a similar pattern, increasing from April to June and then decreasing from June to September. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because, according to the graph, the monthly hours of sunshine in both Anchorage and Fairbanks decrease from June to July. They don\u0026rsquo;t hold steady. In June there are slightly less than 300 hours of sunshine in Anchorage and slightly less than 350 hours in Fairbanks. Then, in July there are approximately 250 hours of sunshine in both cities.\u0026nbsp;Choice C is incorrect because the graph shows that Anchorage and Fairbanks have less than 200 monthly hours of sunshine only in August and September. For the rest of the months represented in the graph, both cities have more than 200 monthly hours of sunshine. Choice D is incorrect because, according to the graph, Anchorage doesn\u0026rsquo;t have more than 300 monthly hours of sunshine from April to June. In addition, both cities have more than 200 hours of sunshine in July, although the amount of sunshine does decrease to less than 200 monthly hours in August and September. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes data from the graph that support the student\u0026rsquo;s conclusion?\u003c/p\u003e", "stimulus": "\u003cfigure class=\"image\"\u003e\u003csvg aria-label=\"Line graph titled Monthly Hours of Sunshine from April to September in Anchorage and Fairbanks, Alaska. The horizontal axis is labeled Month. It ranges from April to September in increments of 1 month. The vertical axis is labeled Hours of sunshine. It ranges from 0 to 350 in increments of 50. 2 lines are shown. Refer to long description.\" height=\"476.66856384277344\" role=\"img\" viewbox=\"0 0 450 476.66856384277344\" width=\"450\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cg data-name=\"Layer 1\" id=\"ed420550-79eb-48d4-af01-cd27cdd08afd\"\u003e\u003cdefs\u003e\n\u003cmarker id=\"marker0\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#000\" points=\"3 0, 0 5.196, 6 5.196\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker1\" markerheight=\"5\" markerunits=\"strokeWidth\" markerwidth=\"5\" refx=\"2.5\" refy=\"2.5\"\u003e\n\u003cpath d=\"M0,0 L0,5 L5,5 L5,0 z\" fill=\"#BBB\" stroke=\"#000\" stroke-width=\"1.5\"\u003e\u003c/path\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker2\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003ccircle cx=\"3\" cy=\"3\" fill=\"#FFF\" r=\"1.8\" stroke=\"#000\" stroke-width=\".6\"\u003e\u003c/circle\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker3\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#999\" points=\"0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\".5\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003c/defs\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.83634185791016\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.83634185791016\" x2=\"95.83634185791016\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.83634185791016 78)\"\u003e350\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.83634185791016\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"100.57142857142857\" y2=\"100.57142857142857\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.83634185791016\" x2=\"95.83634185791016\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"100.57142857142857\" y2=\"100.57142857142857\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.83634185791016 106.57142857142857)\"\u003e300\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.83634185791016\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"129.14285714285714\" y2=\"129.14285714285714\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.83634185791016\" x2=\"95.83634185791016\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"129.14285714285714\" y2=\"129.14285714285714\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.83634185791016 135.14285714285714)\"\u003e250\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.83634185791016\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"157.71428571428572\" y2=\"157.71428571428572\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.83634185791016\" x2=\"95.83634185791016\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"157.71428571428572\" y2=\"157.71428571428572\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.83634185791016 163.71428571428572)\"\u003e200\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.83634185791016\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"186.28571428571428\" y2=\"186.28571428571428\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.83634185791016\" x2=\"95.83634185791016\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"186.28571428571428\" y2=\"186.28571428571428\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.83634185791016 192.28571428571428)\"\u003e150\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.83634185791016\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"214.85714285714286\" y2=\"214.85714285714286\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.83634185791016\" x2=\"95.83634185791016\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"214.85714285714286\" y2=\"214.85714285714286\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.83634185791016 220.85714285714286)\"\u003e100\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.83634185791016\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"243.42857142857144\" y2=\"243.42857142857144\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.83634185791016\" x2=\"95.83634185791016\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"243.42857142857144\" y2=\"243.42857142857144\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.83634185791016 249.42857142857144)\"\u003e50\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.83634185791016\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"272\" y2=\"272\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"83.83634185791016\" x2=\"95.83634185791016\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"272\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(77.83634185791016 278)\"\u003e0\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(24 172) rotate(-90)\"\u003eHours of sunshine\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"89.83634185791016\" x2=\"89.83634185791016\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"118.59998003641765\" x2=\"118.59998003641765\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(128.51998003641765 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eApril\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"176.12725639343262\" x2=\"176.12725639343262\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(186.0472563934326 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eMay\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"233.6545327504476\" x2=\"233.6545327504476\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(243.5745327504476 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eJune\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"291.1818091074626\" x2=\"291.1818091074626\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(301.1018091074626 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eJuly\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"348.70908546447754\" x2=\"348.70908546447754\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(358.62908546447755 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eAugust\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"406.2363618214925\" x2=\"406.2363618214925\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(416.1563618214925 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003eSeptember\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(262.4181709289551 24)\"\u003eMonthly Hours of Sunshine from April to\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(262.4181709289551 48)\"\u003eSeptember in Anchorage and Fairbanks, Alaska\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(262.4181709289551 377.508586730957)\"\u003eMonth\u003c/text\u003e\u003crect fill=\"none\" height=\"71\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"170.21215057373047\" x=\"147.39392471313477\" xmlns=\"http://www.w3.org/2000/svg\" y=\"394.66858673095703\"\u003e\u003c/rect\u003e\u003cline marker-end=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"154.39392471313477\" x2=\"181.39392471313477\" y1=\"411.66858673095703\" y2=\"411.66858673095703\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"181.39392471313477\" x2=\"208.39392471313477\" y1=\"411.66858673095703\" y2=\"411.66858673095703\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(218.39392471313477 418.66858673095703)\"\u003e Anchorage\u003c/text\u003e\u003cline marker-end=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"154.39392471313477\" x2=\"181.39392471313477\" y1=\"443.66858673095703\" y2=\"443.66858673095703\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"181.39392471313477\" x2=\"208.39392471313477\" y1=\"443.66858673095703\" y2=\"443.66858673095703\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(218.39392471313477 450.66858673095703)\"\u003e Fairbanks\u003c/text\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"118.59998003641765\" x2=\"176.12725639343262\" y1=\"126.85714285714286\" y2=\"118.85714285714286\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"118.59998003641765\" x2=\"176.12725639343262\" y1=\"99.42857142857142\" y2=\"89.7142857142857\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"176.12725639343262\" x2=\"233.6545327504476\" y1=\"118.85714285714286\" y2=\"107.42857142857144\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"176.12725639343262\" x2=\"233.6545327504476\" y1=\"89.7142857142857\" y2=\"81.14285714285714\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"233.6545327504476\" x2=\"291.1818091074626\" y1=\"107.42857142857144\" y2=\"126.2857142857143\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"233.6545327504476\" x2=\"291.1818091074626\" y1=\"81.14285714285714\" y2=\"115.42857142857144\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"291.1818091074626\" x2=\"348.70908546447754\" y1=\"126.2857142857143\" y2=\"166.85714285714286\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"291.1818091074626\" x2=\"348.70908546447754\" y1=\"115.42857142857144\" y2=\"178.28571428571428\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"348.70908546447754\" x2=\"406.2363618214925\" y1=\"166.85714285714286\" y2=\"198.85714285714286\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"348.70908546447754\" x2=\"406.2363618214925\" y1=\"178.28571428571428\" y2=\"202.28571428571428\"\u003e\u003c/line\u003e\u003c/g\u003e\u003c/svg\u003e\u003c/figure\u003e\u003cdiv aria-label=\"Long description for line graph titled Monthly Hours of Sunshine from April to September in Anchorage and Fairbanks, Alaska\" class=\"sr-only\" role=\"region\"\u003e\u003cul\u003e\n\u003cli\u003eThe following 2 lines are shown:\u003cbr/\u003e\n\u003cul\u003e\n\u003cli\u003eAnchorage\u003c/li\u003e\n\u003cli\u003eFairbanks\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe Anchorage line:\u003cbr/\u003e\n\u003cul\u003e\n\u003cli\u003eBegins at April, 254 hours\u003c/li\u003e\n\u003cli\u003eRises gradually to May, 268 hours\u003c/li\u003e\n\u003cli\u003eRises gradually to June, 288 hours\u003c/li\u003e\n\u003cli\u003eFalls gradually to July, 255 hours\u003c/li\u003e\n\u003cli\u003eFalls sharply to August, 184 hours\u003c/li\u003e\n\u003cli\u003eFalls sharply to September, 128 hours\u00a0\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe Fairbanks line:\u003cbr/\u003e\n\u003cul\u003e\n\u003cli\u003eBegins at April, 302 hours\u003c/li\u003e\n\u003cli\u003eRises gradually to May, 319 hours\u003c/li\u003e\n\u003cli\u003eRises gradually to June, 334 hours\u003c/li\u003e\n\u003cli\u003eFalls sharply to July, 274 hours\u003c/li\u003e\n\u003cli\u003eFalls sharply to August, 164 hours\u003c/li\u003e\n\u003cli\u003eFalls sharply to September, 122 hours\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n\u003cp\u003eA student is researching monthly hours of sunshine in different cities in Alaska. When comparing trends in Anchorage and Fairbanks, the student concludes that the two cities show a similar pattern in the monthly hours of sunshine from April to September.\u003c/p\u003e", "templateclusterid": "56c1c40a-0e06-4616-82d9-fdef92585cdc", "templateclustername": "", "type": "mcq", "vaultid": "a8041b4a-71e8-4ca0-b4f0-005c0aaf5ee4"}, "createDate": 1691007959338, "difficulty": "M", "external_id": "7f8e2931-6a5e-4782-93d8-5a8e62f75fef", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "8a668840", "score_band_range_cd": 4, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "3fd4e3af-21d2-4598-ade0-84fce4a19db4", "updateDate": 1691007959338};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-8a668840");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

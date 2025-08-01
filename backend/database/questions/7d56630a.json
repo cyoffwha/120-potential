@@ -1,0 +1,22 @@
+{
+  "question_id": "7d56630a",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In studying whether jellyfish sleep, researchers Michael Abrams, Claire Bedbrook, and Ravi Nath attempted to answer three questions. ______ blank is there a period each day when the pulse rates of jellyfish decline? Second, do jellyfish respond more slowly to stimuli during that period? Finally, if prevented from sleeping, are jellyfish adversely affected?",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "As a result,",
+    "First,",
+    "Additionally,",
+    "However,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"First\" logically signals that the question in this sentence—whether there is a daily period during which jellyfish pulse rates decline—is the first in a sequence of three questions the researchers attempted to answer about jellyfish sleep behavior.",
+    "A": "Choice A is incorrect because \"as a result\" illogically signals that the question in this sentence is a result of the three questions the researchers attempted to answer. Instead, it is the first of those three questions.",
+    "C": "Choice C is incorrect because \"additionally\" illogically signals that the question in this sentence is an additional question related to the three questions the researchers attempted to answer. Instead, it is the first of those three questions.",
+    "D": "Choice D is incorrect because \"however\" illogically signals that the question in this sentence contrasts with the three questions the researchers attempted to answer. Instead, it is the first of those three questions."
+  }
+}

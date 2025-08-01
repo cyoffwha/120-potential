@@ -1,0 +1,22 @@
+{
+  "question_id": "df46a2ee",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is from Joseph Conrad's 1907 novel The Secret Agent: A Simple Tale. Mr. Verloc is navigating the London streets on his way to a meeting. Before reaching Knightsbridge, Mr. Verloc took a turn to the left out of the busy main thoroughfare, uproarious with the traffic of swaying omnibuses and trotting vans, in the almost silent, swift flow of hansoms [horse-drawn carriages]. Under his hat, worn with a slight backward tilt, his hair had been carefully brushed into respectful sleekness; for his business was with an Embassy. And Mr. Verloc, steady like a rock— a soft kind of rock —marched now along a street which could with every propriety be described as private.",
+  "question_text": "Which choice best describes the function of the underlined phrase in the text as a whole?",
+  "answer_options": [
+    "It qualifies an earlier description of Mr. Verloc.",
+    "It emphasizes an internal struggle Mr. Verloc experiences.&nbsp;",
+    "It contrasts Mr. Verloc with his surroundings.",
+    "It reveals a private opinion Mr. Verloc holds.&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The underline phrase qualifies (meaning adds limits or conditions to) the description of Mr. Verloc as \"steady like a rock,\" adding that he is a \"soft\" rock.",
+    "B": "Choice B is incorrect. In fact, the passage never mentions Mr. Verloc experiencing any internal struggles.",
+    "C": "Choice C is incorrect. The underlined phrase doesn't contrast Mr. Verloc with his surroundings, but is instead modifying the description of him as a rock.",
+    "D": "Choice D is incorrect. The underlined phrase doesn't reveal a private opinion Mr. Verloc holds: instead, it further describes his character for the reader."
+  }
+}

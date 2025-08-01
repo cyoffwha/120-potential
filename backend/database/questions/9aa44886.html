@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 9aa44886</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is from F. Scott Fitzgerald&rsquo;s 1925 novel&nbsp;<em>The Great Gatsby</em>.</p>
+<blockquote>
+<p>[Jay Gatsby] was balancing himself on the dashboard of his car with that resourcefulness of movement that is so peculiarly American&mdash;that comes, I suppose, with the absence of lifting work in youth and, even more, with the formless grace of our nervous, sporadic games. This <span role="region" aria-label="Referenced Content"><u>quality</u></span> was continually breaking through his punctilious manner in the shape of restlessness.</p>
+</blockquote></div>
+
+                        <div class="mt-3"><p>As used in the text, what does the word &ldquo;quality&rdquo; most nearly mean?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Standard</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Prestige</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Characteristic</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Accomplishment</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. &ldquo;This quality&rdquo; refers to Gatsby&rsquo;s &ldquo;resourcefulness of movement,&rdquo; which is described as a characteristic or trait of his.&nbsp;</p><p>Choice A is incorrect. This isn&rsquo;t what &ldquo;quality&rdquo; means in this context. Here, &ldquo;this quality&rdquo; refers to Gatsby&rsquo;s &ldquo;resourcefulness of movement,&rdquo; which is described as a characteristic or trait of his. &ldquo;Standard&rdquo; is a synonym for a different definition of &ldquo;quality&rdquo;: the degree of excellence of something.&nbsp;Choice B is incorrect. This isn&rsquo;t what &ldquo;quality&rdquo; means in this context. Here, &ldquo;this quality&rdquo; refers to Gatsby&rsquo;s &ldquo;resourcefulness of movement,&rdquo; which is described as a characteristic or trait of his. &ldquo;Prestige&rdquo; would suggest a high status or an admirable reputation, which doesn&rsquo;t match that description. Choice D is incorrect. This isn&rsquo;t what &ldquo;quality&rdquo; means in this context. Here, &ldquo;this quality&rdquo; refers to Gatsby&rsquo;s &ldquo;resourcefulness of movement,&rdquo; which is described as a characteristic or trait of his. &ldquo;Accomplishment&rdquo; would suggest an achievement, which doesn&rsquo;t match that description. &nbsp;&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">369 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eStandard\u003c/p\u003e", "id": "3dfe9450-1e9c-4efd-85c7-3593b34997c2"}, {"content": "\u003cp\u003ePrestige\u003c/p\u003e", "id": "2de58e9e-9bda-48e4-9259-a209be071663"}, {"content": "\u003cp\u003eCharacteristic\u003c/p\u003e", "id": "e550d111-e552-40ed-8c18-4dfe548bf8e9"}, {"content": "\u003cp\u003eAccomplishment\u003c/p\u003e", "id": "5b42fa61-4a89-49b6-8894-aefab541c722"}], "correct_answer": ["C"], "externalid": "01e38e21-9fcc-47d0-befd-d547fc90bc9c", "keys": ["e550d111-e552-40ed-8c18-4dfe548bf8e9"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-030-WIC", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. \u0026ldquo;This quality\u0026rdquo; refers to Gatsby\u0026rsquo;s \u0026ldquo;resourcefulness of movement,\u0026rdquo; which is described as a characteristic or trait of his.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect. This isn\u0026rsquo;t what \u0026ldquo;quality\u0026rdquo; means in this context. Here, \u0026ldquo;this quality\u0026rdquo; refers to Gatsby\u0026rsquo;s \u0026ldquo;resourcefulness of movement,\u0026rdquo; which is described as a characteristic or trait of his. \u0026ldquo;Standard\u0026rdquo; is a synonym for a different definition of \u0026ldquo;quality\u0026rdquo;: the degree of excellence of something.\u0026nbsp;Choice B is incorrect. This isn\u0026rsquo;t what \u0026ldquo;quality\u0026rdquo; means in this context. Here, \u0026ldquo;this quality\u0026rdquo; refers to Gatsby\u0026rsquo;s \u0026ldquo;resourcefulness of movement,\u0026rdquo; which is described as a characteristic or trait of his. \u0026ldquo;Prestige\u0026rdquo; would suggest a high status or an admirable reputation, which doesn\u0026rsquo;t match that description. Choice D is incorrect. This isn\u0026rsquo;t what \u0026ldquo;quality\u0026rdquo; means in this context. Here, \u0026ldquo;this quality\u0026rdquo; refers to Gatsby\u0026rsquo;s \u0026ldquo;resourcefulness of movement,\u0026rdquo; which is described as a characteristic or trait of his. \u0026ldquo;Accomplishment\u0026rdquo; would suggest an achievement, which doesn\u0026rsquo;t match that description. \u0026nbsp;\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eAs used in the text, what does the word \u0026ldquo;quality\u0026rdquo; most nearly mean?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is from F. Scott Fitzgerald\u0026rsquo;s 1925 novel\u0026nbsp;\u003cem\u003eThe Great Gatsby\u003c/em\u003e.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e[Jay Gatsby] was balancing himself on the dashboard of his car with that resourcefulness of movement that is so peculiarly American\u0026mdash;that comes, I suppose, with the absence of lifting work in youth and, even more, with the formless grace of our nervous, sporadic games. This \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003equality\u003c/u\u003e\u003c/span\u003e was continually breaking through his punctilious manner in the shape of restlessness.\u003c/p\u003e\n\u003c/blockquote\u003e", "templateclusterid": "7caa8259-b6ae-45cf-96fe-814aa6f77232", "templateclustername": "", "type": "mcq", "vaultid": "16615aa8-04d9-4940-926e-398734a907c9"}, "createDate": 1691007959319, "difficulty": "M", "external_id": "01e38e21-9fcc-47d0-befd-d547fc90bc9c", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "9aa44886", "score_band_range_cd": 4, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "550f8089-1db2-423b-ac31-3ad4a132a321", "updateDate": 1691007959319};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-9aa44886");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

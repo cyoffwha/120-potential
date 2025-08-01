@@ -1,0 +1,22 @@
+{
+  "question_id": "fc2bcc79",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Tyrian purple was a highly prized dye among the Phoenicians (an ancient civilization located in present-day Lebanon). The Phoenicians were famous for using this natural dye to color their clothes a distinctive purple. ______ blank the name \"Phoenicia\" itself, some historians claim, may have originally meant \"land of purple.\"",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "In fact,",
+    "Regardless,",
+    "Lastly,",
+    "On the contrary,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"In fact\" logically signals that the claim in this sentence—Phoenicia being named after the color purple—emphasizes and supports the previous claim that Phoenicians were famous for using purple dye.",
+    "B": "Choice B is incorrect because \"regardless\" illogically signals that the claim about Phoenicia's name contrasts with the previous claim that Phoenicians were famous for using purple dye. Instead, the naming emphasizes and supports this claim.",
+    "C": "Choice C is incorrect because \"lastly\" illogically signals that the claim about Phoenicia's name is the final step in a process or sequence. Instead, the naming emphasizes and supports the previous claim that Phoenicians were famous for using purple dye.",
+    "D": "Choice D is incorrect because \"on the contrary\" illogically signals that the claim about Phoenicia's name directly opposes the previous claim that Phoenicians were famous for using purple dye. Instead, the naming emphasizes and supports this claim."
+  }
+}

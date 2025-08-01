@@ -1,10 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
-import { Timer } from "./Timer";
+import { Timer, TimerRef } from "./Timer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { ExplanationDialog } from "./ExplanationDialog";
+import { userProgressService } from "../services/userProgressService";
 
 interface ChoiceOption {
   id: string;
@@ -13,6 +14,7 @@ interface ChoiceOption {
 
 interface MultipleChoiceProps {
   question?: string;
+  questionId?: string;  // Add question ID for progress tracking
   options?: ChoiceOption[];
   selectedAnswer?: string;
   onAnswerChange?: (answer: string) => void;
@@ -26,6 +28,7 @@ interface MultipleChoiceProps {
 
 export const MultipleChoice = ({
   question,
+  questionId,
   options,
   selectedAnswer = "",
   onAnswerChange,
@@ -37,11 +40,14 @@ export const MultipleChoice = ({
   correctAnswer
 }: MultipleChoiceProps) => {
   const [showExplanation, setShowExplanation] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const timerRef = useRef<TimerRef>(null);
 
-  // Reset explanation dialog when question changes
+  // Reset explanation dialog and timer when question changes
   useEffect(() => {
     setShowExplanation(false);
-  }, [question]);
+    timerRef.current?.reset();
+  }, [question, questionId]);
 
   // Prepare explanations as soon as an answer is selected
   useEffect(() => {
@@ -78,13 +84,40 @@ export const MultipleChoice = ({
 
   const handleValueChange = (value: string) => {
     onAnswerChange?.(value);
-    // Optionally, trigger explanation preparation here if needed
-  }
+  };
+
+  const handleCheckAnswer = async () => {
+    if (!selectedAnswer || !questionId || !correctAnswer || isSubmitting) return;
+    
+    setIsSubmitting(true);
+    try {
+      const elapsedTime = timerRef.current?.getElapsedSeconds() || 0;
+      
+      // Submit answer to progress tracking
+      const result = await userProgressService.submitAnswer({
+        question_id: questionId,
+        selected_choice: selectedAnswer,
+        time_elapsed_seconds: elapsedTime,
+        correct_choice: correctAnswer
+      });
+      
+      console.log('Answer submitted:', result);
+      
+      // Show explanation dialog
+      setShowExplanation(true);
+    } catch (error) {
+      console.error('Failed to submit answer:', error);
+      // Still show explanation even if submission fails
+      setShowExplanation(true);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <Card className="mb-6 bg-card border-border shadow-sm relative min-h-[320px]">
       <div className="absolute right-4 top-4 z-10">
-        <Timer />
+        <Timer ref={timerRef} />
       </div>
       <CardHeader className="pt-10">
         <CardTitle className="text-base font-medium leading-relaxed text-card-foreground">
@@ -122,15 +155,10 @@ export const MultipleChoice = ({
           <div className="flex gap-2">
             <Button 
               className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 font-medium"
-              disabled={!selectedAnswer}
-              onClick={() => {
-                console.log('MultipleChoice Check button clicked!');
-                console.log('Selected Answer:', selectedAnswer);
-                console.log('Explanations:', explanations);
-                setShowExplanation(true);
-              }}
+              disabled={!selectedAnswer || isSubmitting}
+              onClick={handleCheckAnswer}
             >
-              Check
+              {isSubmitting ? 'Submitting...' : 'Check'}
             </Button>
             <Button
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 font-medium"

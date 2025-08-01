@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question aa7ae735</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Mohsin Hamid&rsquo;s 2017 novel <em>Exit West</em>. Saeed lives with his mother and father.</p>
+<p>On cloudless nights after a daytime rain, Saeed&rsquo;s father would sometimes bring out the telescope, and the family would sip green tea on their balcony, enjoying a breeze, and take turns to look up at objects whose light, often, had been emitted before any of these three viewers had been born&mdash;light from other centuries, only now <u>reaching</u> Earth.</p>
+<p>&copy;2017 by Mohsin Hamid</p></div>
+
+                        <div class="mt-3"><p>As used in the text, what does the word &ldquo;reaching&rdquo; most nearly mean?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Arriving at</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Consulting with</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Running to</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Clinging to</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The word "reaching" in this text means "to arrive" at Earth. Before, the light had been traveling across space; now, it had arrived at Earth.</p><p>Choice B is incorrect. "Consulting with" means "seeking advice or information from someone." Light is not alive, so it can&rsquo;t consult with Earth. Choice C is incorrect. It&rsquo;s confusing to say that starlight is "only now running to Earth," both because light doesn&rsquo;t literally "run" and because the text is describing the moment the light touches Earth, not the period of time when it&rsquo;s traveling to Earth. Choice D is incorrect. This might be tempting, as "clinging to" has a connotation of "sticking to." It wouldn&rsquo;t make sense to say that the light was "only now" clinging to Earth.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">461 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eArriving at\u003c/p\u003e", "id": "60b70d22-9fc0-4eaa-89c8-d4c9e94c1324"}, {"content": "\u003cp\u003eConsulting with\u003c/p\u003e", "id": "682d8bf2-9b26-4ed0-9233-5a7ad720ebab"}, {"content": "\u003cp\u003eRunning to\u003c/p\u003e", "id": "2b99c944-5bad-44fe-95d1-171fed87af9e"}, {"content": "\u003cp\u003eClinging to\u003c/p\u003e", "id": "48878efc-7469-47a8-a272-8a20a99b0634"}], "correct_answer": ["A"], "externalid": "d1cf2aa4-3cbd-4fee-b186-c241183fc074", "keys": ["60b70d22-9fc0-4eaa-89c8-d4c9e94c1324"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-WIC-M005", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The word \"reaching\" in this text means \"to arrive\" at Earth. Before, the light had been traveling across space; now, it had arrived at Earth.\u003c/p\u003e\u003cp\u003eChoice B is incorrect. \"Consulting with\" means \"seeking advice or information from someone.\" Light is not alive, so it can\u0026rsquo;t consult with Earth. Choice C is incorrect. It\u0026rsquo;s confusing to say that starlight is \"only now running to Earth,\" both because light doesn\u0026rsquo;t literally \"run\" and because the text is describing the moment the light touches Earth, not the period of time when it\u0026rsquo;s traveling to Earth. Choice D is incorrect. This might be tempting, as \"clinging to\" has a connotation of \"sticking to.\" It wouldn\u0026rsquo;t make sense to say that the light was \"only now\" clinging to Earth.\u003c/p\u003e", "stem": "\u003cp\u003eAs used in the text, what does the word \u0026ldquo;reaching\u0026rdquo; most nearly mean?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Mohsin Hamid\u0026rsquo;s 2017 novel \u003cem\u003eExit West\u003c/em\u003e. Saeed lives with his mother and father.\u003c/p\u003e\n\u003cp\u003eOn cloudless nights after a daytime rain, Saeed\u0026rsquo;s father would sometimes bring out the telescope, and the family would sip green tea on their balcony, enjoying a breeze, and take turns to look up at objects whose light, often, had been emitted before any of these three viewers had been born\u0026mdash;light from other centuries, only now \u003cu\u003ereaching\u003c/u\u003e Earth.\u003c/p\u003e\n\u003cp\u003e\u0026copy;2017 by Mohsin Hamid\u003c/p\u003e", "templateclusterid": "0481745f-d466-41fb-8966-a87d8c017da7", "templateclustername": "", "type": "mcq", "vaultid": "6f1e83ff-488e-4eb2-a595-dc8d5575dc95"}, "createDate": 1691007959378, "difficulty": "E", "external_id": "d1cf2aa4-3cbd-4fee-b186-c241183fc074", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "aa7ae735", "score_band_range_cd": 3, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "b3daf4c8-f5d3-421a-b78f-f6cc22b5a538", "updateDate": 1691007959378};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-aa7ae735");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

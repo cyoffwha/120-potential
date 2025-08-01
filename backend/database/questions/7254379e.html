@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 7254379e</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Some residents in a neighborhood in Atlanta recently founded a community garden inside a local park. The residents agreed to volunteer to take care of the garden together. Students at a local high school surveyed some of the volunteers as part of a project to understand the impact of the new garden. The students concluded that the new garden benefited the community overall by fostering connections and relationships between the volunteers and other residents of the neighborhood who weren&rsquo;t volunteering at the garden.&nbsp;</p></div>
+
+                        <div class="mt-3"><p>Which quotation from a survey respondent would best illustrate the students&rsquo; conclusion?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Our first challenge was deciding what plants would be most suitable to the climate and soil here in Atlanta. We needed plants that could survive the hot and humid summers.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;We&rsquo;re lucky to have a few expert gardeners living in the neighborhood. Some volunteers and I have gone to them a few times with questions, and they&rsquo;ve been eager to help us and to learn more about the project.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;I love getting the opportunity to be outside and around nature, especially on days when the weather is nice.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;My favorite thing about the garden is the feeling of pride I get when I walk by each day. As I see the plants growing, I feel good knowing I had a small part in creating this beautiful space in the neighborhood.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. This choice shows how volunteers have been interacting with nonvolunteer neighbors and benefiting from their gardening expertise: proof of the connections enabled by the garden.</p><p>Choice A is incorrect. This volunteer describes the challenges of developing the garden, which isn&rsquo;t connected to the conclusion about the garden fostering connections between volunteers and neighbors. Choice C is incorrect. While the volunteer expresses enthusiasm for the garden, they don&rsquo;t mention any interactions with other people, which is what the students need to show for their conclusion. Choice D is incorrect. The respondent enjoys and takes pride in the garden, but they don&rsquo;t mention interacting with neighbors or other volunteers.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">249 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;Our first challenge was deciding what plants would be most suitable to the climate and soil here in Atlanta. We needed plants that could survive the hot and humid summers.\u0026rdquo;\u003c/p\u003e", "id": "e6be1872-5a28-4b67-afd3-98de5551248e"}, {"content": "\u003cp\u003e\u0026ldquo;We\u0026rsquo;re lucky to have a few expert gardeners living in the neighborhood. Some volunteers and I have gone to them a few times with questions, and they\u0026rsquo;ve been eager to help us and to learn more about the project.\u0026rdquo;\u003c/p\u003e", "id": "dc6e99f8-579c-4c1d-adb3-edc3802a066c"}, {"content": "\u003cp\u003e\u0026ldquo;I love getting the opportunity to be outside and around nature, especially on days when the weather is nice.\u0026rdquo;\u003c/p\u003e", "id": "04b19451-3bd3-4020-a94e-9f16444099f1"}, {"content": "\u003cp\u003e\u0026ldquo;My favorite thing about the garden is the feeling of pride I get when I walk by each day. As I see the plants growing, I feel good knowing I had a small part in creating this beautiful space in the neighborhood.\u0026rdquo;\u003c/p\u003e", "id": "0297318d-003a-41cb-83ac-2ab828b6511e"}], "correct_answer": ["B"], "externalid": "22a7e235-ee44-4c74-bca9-5b5d9a61b01a", "keys": ["dc6e99f8-579c-4c1d-adb3-edc3802a066c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TXT-E007", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. This choice shows how volunteers have been interacting with nonvolunteer neighbors and benefiting from their gardening expertise: proof of the connections enabled by the garden.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. This volunteer describes the challenges of developing the garden, which isn\u0026rsquo;t connected to the conclusion about the garden fostering connections between volunteers and neighbors. Choice C is incorrect. While the volunteer expresses enthusiasm for the garden, they don\u0026rsquo;t mention any interactions with other people, which is what the students need to show for their conclusion. Choice D is incorrect. The respondent enjoys and takes pride in the garden, but they don\u0026rsquo;t mention interacting with neighbors or other volunteers.\u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from a survey respondent would best illustrate the students\u0026rsquo; conclusion?\u003c/p\u003e", "stimulus": "\u003cp\u003eSome residents in a neighborhood in Atlanta recently founded a community garden inside a local park. The residents agreed to volunteer to take care of the garden together. Students at a local high school surveyed some of the volunteers as part of a project to understand the impact of the new garden. The students concluded that the new garden benefited the community overall by fostering connections and relationships between the volunteers and other residents of the neighborhood who weren\u0026rsquo;t volunteering at the garden.\u0026nbsp;\u003c/p\u003e", "templateclusterid": "0af3cc20-4926-4411-a054-b00e9e432915", "templateclustername": "", "type": "mcq", "vaultid": "b745051a-a19c-4f28-9f95-7b58484f3b4d"}, "createDate": 1691007959376, "difficulty": "E", "external_id": "22a7e235-ee44-4c74-bca9-5b5d9a61b01a", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "7254379e", "score_band_range_cd": 1, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "d0a524d8-9b9b-4ea1-b8ec-2945c400a734", "updateDate": 1691007959376};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-7254379e");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

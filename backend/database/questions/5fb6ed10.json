@@ -1,0 +1,22 @@
+{
+  "question_id": "5fb6ed10",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The Land of Enchantment is a 1906 travel book by Lilian Whiting. In the book, which describes the experience of traveling through the southwestern United States by train, Whiting reflects on the escape from everyday life that such a journey provides: ______ blank",
+  "question_text": "Which quotation from&nbsp; The Land of Enchantment  most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;The opportunities and advantages already offered and constantly increasing are greater than would at first be considered possible.&rdquo;",
+    "&ldquo;The social and the picturesque charm of the long journey is singularly enhanced by the leisurely stops made for refreshment.&rdquo;&nbsp;",
+    "&ldquo;The real journey begins, of course, at Chicago, and as these trains leave in the evening the traveller fares forth in the seclusion of his berth.&rdquo;",
+    "&ldquo;One experiences a certain sense of detachment from ordinary day and daylight duties that is exhilarating.&rdquo;&nbsp;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because. This quotation specifically describes a \"sense of detachment from ordinary day,\" which matches the claim's focus on \"escape from everyday life.\"",
+    "A": "Choice A is incorrect. While this quotation describes new opportunities associated with Whiting's experience, it doesn't frame these opportunities as \"an escape,\" and it doesn't directly compare Whiting's journey with \"everyday life.\"",
+    "B": "Choice B is incorrect. While this quotation includes a positive characterization of Whiting's journey, it doesn't specifically address the idea of an \"escape from everyday life,\" which is the focus of the claim.",
+    "C": "Choice C is incorrect. This quotation focuses on where the journey begins, not on how it feels like an \"escape from everyday life.\""
+  }
+}

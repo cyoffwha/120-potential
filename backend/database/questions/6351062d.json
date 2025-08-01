@@ -1,0 +1,22 @@
+{
+  "question_id": "6351062d",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In the late 1890s, over 14,000 unique varieties of apples were grown in the US. The rise of industrial agriculture in the mid-1900s narrowed the range of commercially grown crops. Thousands of apple varieties considered less suitable for commercial growth were lost. Today, only 15 apple varieties dominate the market, making up 90% of apples purchased in the US. The Lost Apple Project, based in Washington State, attempts to find and grow lost apple varieties. The student wants to emphasize the decline in unique apple varieties in the US and specify why this decline occurred. Which choice most effectively uses relevant information from the notes to accomplish these goals?",
+  "question_text": "The student wants to emphasize the decline in unique apple varieties in the US and specify why this decline occurred. Which choice most effectively uses relevant information from the notes to accomplish these goals?",
+  "answer_options": [
+    "The Lost Apple Project is dedicated to finding some of the apple varieties lost following a shift in agricultural practices in the mid-1900s.",
+    "While over 14,000 apple varieties were grown in the US in the late 1890s, only 15 unique varieties make up most of the apples sold today.",
+    "Since the rise of industrial agriculture, US farmers have mainly grown the same few unique apple varieties, resulting in the loss of thousands of varieties less suitable for commercial growth.",
+    "As industrial agriculture rose to prominence in the mid-1900s, the number of crops selected for cultivation decreased dramatically."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The sentence emphasizes the decline in unique apple varieties in the US and specifies why this decline occurred, noting that thousands of apple varieties were lost because US farmers started mainly growing the same few unique varieties.",
+    "A": "Choice A is incorrect. The sentence introduces the Lost Apple Project; it doesn't emphasize the decline in unique apple varieties in the US and specify why this decline occurred.",
+    "B": "Choice B is incorrect. While the sentence emphasizes the decline in unique apple varieties in the US, it doesn't explain why this decline occurred.",
+    "D": "Choice D is incorrect. The sentence emphasizes the general decline of crop varieties in the mid-1900s; it doesn't emphasize the specific decline in unique apple varieties in the US."
+  }
+}

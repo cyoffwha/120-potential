@@ -1,0 +1,22 @@
+{
+  "question_id": "97ab5669",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Former astronaut Ellen Ochoa says that although she doesn't have a definite idea of when it might happen, she ______ blank that humans will someday need to be able to live in other environments than those found on Earth. This conjecture informs her interest in future research missions to the moon.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "demands",
+    "speculates",
+    "doubts",
+    "establishes"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of Ochoa's prediction that humans will one day need to live in places other than Earth. As used in this context, \"speculates\" would mean puts forward an idea without firm evidence. The text states that Ochoa \"doesn't have a definite idea\" about when humans might need to live in other environments and characterizes Ochoa's prediction as a \"conjecture,\" or a conclusion presented without convincing evidence. This context indicates that Ochoa speculates when she makes this prediction.",
+    "A": "Choice A is incorrect because saying that Ochoa \"demands,\" or insists or requires, that humans will one day need to live in other environments than Earth's would not make sense in context. The text indicates that she's unsure about the timing but hypothesizes that it will someday happen.",
+    "C": "Choice C is incorrect because saying that Ochoa \"doubts,\" or questions or disbelieves, that humans will one day need to live in other environments than Earth's would not make sense in context. The text indicates that although Ochoa is unsure about the timing, she hypothesizes that humans will need to live in places other than Earth and encourages research into future travel to the moon.",
+    "D": "Choice D is incorrect because saying that Ochoa \"establishes,\" or proves, that humans will one day need to live in other environments than Earth's would not make sense in context. Rather than stating that Ochoa discusses her idea with certainty and supports it with evidence, the text indicates that Ochoa is unsure about when humans might need to live in other environments."
+  }
+}

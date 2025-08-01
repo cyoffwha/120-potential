@@ -1,0 +1,22 @@
+{
+  "question_id": "e44db0a0",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Because a cycle of lunar phases ______ blank 29.5 days to complete, it's possible to observe two full moons in a single month, one at the beginning and one at the end.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "are taking",
+    "have taken",
+    "take",
+    "takes"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is subject-verb agreement. The singular verb \"takes\" agrees in number with the singular subject \"a cycle of lunar phases.\"",
+    "A": "Choice A is incorrect because the plural verb \"are taking\" doesn't agree in number with the singular subject \"a cycle of lunar phases.\"",
+    "B": "Choice B is incorrect because the plural verb \"have taken\" doesn't agree in number with the singular subject \"a cycle of lunar phases.\"",
+    "C": "Choice C is incorrect because the plural verb \"take\" doesn't agree in number with the singular subject \"a cycle of lunar phases.\""
+  }
+}

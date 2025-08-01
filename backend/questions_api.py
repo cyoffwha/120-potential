@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Depends, Query
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
-from sqlalchemy import and_
+from sqlalchemy import and_, func
 from typing import Optional
 from db import Question, engine
 
@@ -75,7 +75,7 @@ async def get_random_question(
             query = query.where(and_(*filters))
         
         # Order by random and get one result
-        query = query.order_by(Question.id).limit(1)  # For now, just get first one; can add random ordering later
+        query = query.order_by(func.random()).limit(1)
             
         result = await session.execute(query)
         question = result.scalar_one_or_none()
@@ -110,29 +110,18 @@ async def get_filter_options():
         difficulty_result = await session.execute(select(Question.difficulty).distinct())
         difficulties = [row[0] for row in difficulty_result.fetchall() if row[0]]
         
+        # Build dynamic domain-skill mapping based on actual data
+        domain_skill_mapping = {}
+        for domain in domains:
+            skill_result = await session.execute(
+                select(Question.skill).distinct().where(Question.domain == domain)
+            )
+            domain_skills = [row[0] for row in skill_result.fetchall() if row[0]]
+            domain_skill_mapping[domain] = sorted(domain_skills)
+        
         return {
             "domains": sorted(domains),
             "skills": sorted(skills),
             "difficulties": sorted(difficulties),
-            "domain_skill_mapping": {
-                # This could be dynamically generated based on actual data in database
-                "Information and Ideas": [
-                    "Central Ideas and Details",
-                    "Command of Evidence", 
-                    "Inferences"
-                ],
-                "Craft and Structure": [
-                    "Words in Context",
-                    "Text Structure and Purpose",
-                    "Cross-Text Connections"
-                ],
-                "Expression of Ideas": [
-                    "Rhetorical Synthesis",
-                    "Transitions"
-                ],
-                "Standard English Conventions": [
-                    "Boundaries",
-                    "Form, Structure, and Sense"
-                ]
-            }
+            "domain_skill_mapping": domain_skill_mapping
         }

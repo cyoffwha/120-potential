@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 84dbd633</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><span role="heading" aria-level="2"><strong>Text 1</strong></span></p>
+<p>The Cretaceous-Paleogene (K-Pg) mass extinction event is usually attributed solely to an asteroid impact near Chicxulub, Mexico. Some scientists argue that <span role="region" aria-label="Referenced Content"><u>volcanic activity was the true cause, as the K-Pg event occurred relatively early in a long period of eruption of the Deccan Traps range that initially produced huge amounts of climate-altering gases.</u></span> These dissenters note that other mass extinctions have coincided with large volcanic eruptions, while only the K-Pg event lines up with an asteroid strike.</p>
+<p>&nbsp;</p>
+<p><span role="heading" aria-level="2"><strong>Text 2</strong></span></p>
+<p>In a 2020 study, Pincelli Hull and her colleagues analyzed ocean core samples and modeled climate changes around the K-Pg event. The team concluded that Deccan Traps gases did affect global conditions prior to the event, but that the climate returned to normal well before the extinctions began&mdash;extinctions that instead closely align with the Chicxulub impact.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, how would Hull&rsquo;s team (Text 2) most likely respond to the argument in the underlined portion of Text 1?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By agreeing that the Chicxulub impact changed the climate and that the Deccan Traps eruption caused the K-Pg event</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By declaring that the changes in climate caused by the Deccan Traps eruption weren&rsquo;t the main cause of the K-Pg event</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By questioning why those scientists assume that the Chicxulub impact caused the Deccan Traps eruption</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By asserting that the Deccan Traps eruption had a more significant effect on global conditions than those scientists claim</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it describes how Hull&rsquo;s team would most likely respond to the argument in the underlined portion of Text 1, which asserts that volcanic activity in the Deccan Traps range led to changes in the climate and caused the K-Pg mass extinction event. According to Text 2, although Hull&rsquo;s team found that activity in the Deccan Traps did indeed alter the climate before the K-Pg event, the team determined that the climate had returned to normal before mass extinctions began. This finding and the observation that the K-Pg extinctions closely align with the Chicxulub asteroid impact suggest that Hull&rsquo;s team would likely dispute the claim in the underlined portion of Text 1 and say that the climate changes caused by the Deccan Traps activity were not the main cause of the extinctions. </p><p>Choice A is incorrect because Text 2 describes how Hull&rsquo;s team found that the climate had recovered from the changes brought about by the Deccan Traps activity before the K-Pg event occurred, which suggests that Hull&rsquo;s team would disagree that the Deccan Traps activity caused the K-Pg event. Additionally, the claim in the underlined portion of Text 1 says nothing about how the Chicxulub impact changed the climate, so while Hull&rsquo;s team might believe that the impact did in fact change the climate, they could not be said to agree with the claim in Text 1 on this point.&nbsp;Choice C is incorrect because there is no indication in either text that any scientists assume that the Chicxulub impact caused the Deccan Traps activity, so there is no reason to conclude that Hull&rsquo;s team would question why the scientists referred to in Text 1 make such an assumption.&nbsp;Choice D is incorrect because Text 2 describes how Hull&rsquo;s team found that the climate had recovered from the changes brought about by the Deccan Traps activity before the K-Pg event occurred, which suggests that Hull&rsquo;s team would say that the Deccan Traps activity had a less enduring effect on global conditions than the scientists referenced in Text 1 believe, not that the effect on global conditions was more significant than those scientists claim. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">411 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eBy agreeing that the Chicxulub impact changed the climate and that the Deccan Traps eruption caused the K-Pg event\u003c/p\u003e", "id": "084c0626-0c24-4f78-bd3d-2989a1033578"}, {"content": "\u003cp\u003eBy declaring that the changes in climate caused by the Deccan Traps eruption weren\u0026rsquo;t the main cause of the K-Pg event\u003c/p\u003e", "id": "05264d3b-df4f-482c-978e-ed13f867cc34"}, {"content": "\u003cp\u003eBy questioning why those scientists assume that the Chicxulub impact caused the Deccan Traps eruption\u003c/p\u003e", "id": "3fd153c5-8dbd-4150-b0da-f66cd4339b88"}, {"content": "\u003cp\u003eBy asserting that the Deccan Traps eruption had a more significant effect on global conditions than those scientists claim\u003c/p\u003e", "id": "99dcfe39-901f-4f0f-afd3-23052a5bd807"}], "correct_answer": ["B"], "externalid": "27d889c1-4263-4d7a-8bc6-f0549d1247ba", "keys": ["05264d3b-df4f-482c-978e-ed13f867cc34"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-022-CTC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it describes how Hull\u0026rsquo;s team would most likely respond to the argument in the underlined portion of Text 1, which asserts that volcanic activity in the Deccan Traps range led to changes in the climate and caused the K-Pg mass extinction event. According to Text 2, although Hull\u0026rsquo;s team found that activity in the Deccan Traps did indeed alter the climate before the K-Pg event, the team determined that the climate had returned to normal before mass extinctions began. This finding and the observation that the K-Pg extinctions closely align with the Chicxulub asteroid impact suggest that Hull\u0026rsquo;s team would likely dispute the claim in the underlined portion of Text 1 and say that the climate changes caused by the Deccan Traps activity were not the main cause of the extinctions. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because Text 2 describes how Hull\u0026rsquo;s team found that the climate had recovered from the changes brought about by the Deccan Traps activity before the K-Pg event occurred, which suggests that Hull\u0026rsquo;s team would disagree that the Deccan Traps activity caused the K-Pg event. Additionally, the claim in the underlined portion of Text 1 says nothing about how the Chicxulub impact changed the climate, so while Hull\u0026rsquo;s team might believe that the impact did in fact change the climate, they could not be said to agree with the claim in Text 1 on this point.\u0026nbsp;Choice C is incorrect because there is no indication in either text that any scientists assume that the Chicxulub impact caused the Deccan Traps activity, so there is no reason to conclude that Hull\u0026rsquo;s team would question why the scientists referred to in Text 1 make such an assumption.\u0026nbsp;Choice D is incorrect because Text 2 describes how Hull\u0026rsquo;s team found that the climate had recovered from the changes brought about by the Deccan Traps activity before the K-Pg event occurred, which suggests that Hull\u0026rsquo;s team would say that the Deccan Traps activity had a less enduring effect on global conditions than the scientists referenced in Text 1 believe, not that the effect on global conditions was more significant than those scientists claim. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, how would Hull\u0026rsquo;s team (Text 2) most likely respond to the argument in the underlined portion of Text 1?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cspan role=\"heading\" aria-level=\"2\"\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eThe Cretaceous-Paleogene (K-Pg) mass extinction event is usually attributed solely to an asteroid impact near Chicxulub, Mexico. Some scientists argue that \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003evolcanic activity was the true cause, as the K-Pg event occurred relatively early in a long period of eruption of the Deccan Traps range that initially produced huge amounts of climate-altering gases.\u003c/u\u003e\u003c/span\u003e These dissenters note that other mass extinctions have coincided with large volcanic eruptions, while only the K-Pg event lines up with an asteroid strike.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u003cspan role=\"heading\" aria-level=\"2\"\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eIn a 2020 study, Pincelli Hull and her colleagues analyzed ocean core samples and modeled climate changes around the K-Pg event. The team concluded that Deccan Traps gases did affect global conditions prior to the event, but that the climate returned to normal well before the extinctions began\u0026mdash;extinctions that instead closely align with the Chicxulub impact.\u003c/p\u003e", "templateclusterid": "c778b590-d89f-490f-b1bd-f6deb9163b58", "templateclustername": "", "type": "mcq", "vaultid": "9c96776d-1d4d-43c1-8c23-2c991f5831cd"}, "createDate": 1691007959317, "difficulty": "H", "external_id": "27d889c1-4263-4d7a-8bc6-f0549d1247ba", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "84dbd633", "score_band_range_cd": 6, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "8035dbfa-b3fb-4c44-8907-277332407d96", "updateDate": 1691007959317};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-84dbd633");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

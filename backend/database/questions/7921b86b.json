@@ -1,0 +1,22 @@
+{
+  "question_id": "7921b86b",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Oluwaseyi Moejoh cofounded U-recycle Initiative Africa when she was only a teenager. Moejoh and her team founded the organization to teach young people how their actions affect the environment and why recycling is important. For example, the organization put on an exhibit of art made using recycled materials.",
+  "question_text": "According to the text, what is one reason Moejoh and others founded U-recycle Initiative Africa?&nbsp;",
+  "answer_options": [
+    "To bring attention to overlooked African artists",
+    "To teach young people why recycling is important",
+    "To help adults gain important outdoor skills",
+    "To give teenagers advice about starting businesses"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it describes a reason that Moejoh and team founded U-recycle Initiative Africa. The text mentions two reasons the initiative was founded: to teach young people about how they affect the environment and to teach them \"why recycling is important.\" Thus, teaching the importance of recycling to young people accurately describes a motivation that the text cites as a reason for the initiative's founding.",
+    "A": "Choice A is incorrect. Although art is mentioned in the text, there are no details about artists or whether they are being overlooked.",
+    "C": "Choice C is incorrect because the text is explicitly about young people and their relationship to the environment and recycling. There is no mention of adults or outdoor skills.",
+    "D": "Choice D is incorrect. Although the text discusses young people, which likely includes teenagers, there is no mention of starting businesses."
+  }
+}

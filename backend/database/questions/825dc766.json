@@ -1,0 +1,22 @@
+{
+  "question_id": "825dc766",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "King Lear is a circa 1606 play by William Shakespeare. In the play, the character of King Lear attempts to test his three daughters' devotion to him. He later expresses regret for his actions, as is evident when he ______ blank",
+  "question_text": "Which choice most effectively uses a quotation from  King Lear  to illustrate the claim?",
+  "answer_options": [
+    "says of himself, &ldquo;I am a man / more sinned against than sinning.&rdquo;",
+    "says during a growing storm, &ldquo;This tempest will not give me leave to ponder / On things would hurt me more.&rdquo;",
+    "says to himself while striking his head, &ldquo;Beat at this gate that let thy folly in / And thy dear judgement out!&rdquo;",
+    "says of himself, &ldquo;I will do such things&mdash; / What they are yet, I know not; but they shall be / The terrors of the earth!&rdquo;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most effectively uses a quotation from King Lear to illustrate the claim that King Lear expresses regret for his actions. In the quotation, Lear describes striking himself on the head—the same act he's engaged in as he speaks, and one that suggests he's deeply upset with himself. Referring to himself in the second person (with \"thy\"), the character exclaims \"Beat at this gate that let thy folly in / And thy dear judgement out!\" Lear refers metaphorically to his own mind as a gate that has allowed folly, or poor judgement, to enter and good judgement to escape. This suggests that Lear regrets his attempts to test his three daughters' devotion to him, regarding those attempts as examples of the folly that has entered the gate of his mind.",
+    "A": "Choice A is incorrect because this quotation doesn't express King Lear's sense of regret over his own actions; instead, it expresses his belief that the harm that others have done to him (or the extent to which they have \"sinned against\" him) outweighs whatever harm he himself has caused by \"sinning.\"",
+    "B": "Choice B is incorrect because this quotation doesn't express King Lear's sense of regret over his own actions; instead, it expresses his thoughts about an approaching storm (\"this tempest\"), which he believes \"will not give [him] leave to ponder,\" or time to consider, the harm that he will continue to experience (\"things\" that \"would hurt [him] more\").",
+    "D": "Choice D is incorrect because this quotation expresses King Lear's vow to commit terrible actions (or \"things\" that \"shall be / The terrors of the earth\") in the future, not his regret over actions that he's already taken."
+  }
+}

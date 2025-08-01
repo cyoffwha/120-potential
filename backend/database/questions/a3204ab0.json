@@ -1,0 +1,22 @@
+{
+  "question_id": "a3204ab0",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Yellowstone is a national park in the northwest United States. In 1995, gray wolves were reintroduced into the park. Since then, the number of gray wolves in the park has stabilized at roughly 100. This number is believed to be the park's carrying capacity. Carrying capacity describes the maximum number of a species that a specific environment's resources can sustain over time. The student wants to specify the number of gray wolves in Yellowstone. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to specify the number of gray wolves in Yellowstone. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Gray wolves were reintroduced into Yellowstone, a national park in the northwest United States, in 1995.",
+    "As of 1995, there were gray wolves living in Yellowstone, a national park in the northwest United States.",
+    "The carrying capacity of an environment, such as Yellowstone, describes the maximum number of species that the environment can sustain over time.",
+    "Yellowstone is a national park that has roughly 100 gray wolves living in it."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. This choice uses relevant information from the third bullet point to state the approximate number of gray wolves in Yellowstone.",
+    "A": "Choice A is incorrect. This choice mentions the year gray wolves in Yellowstone were reintroduced but not how many there are currently.",
+    "B": "Choice B is incorrect. This choice mentions the year gray wolves in Yellowstone were reintroduced but not how many there are currently.",
+    "C": "Choice C is incorrect. This choice defines the term carrying capacity but doesn't connect it to the specific number of gray wolves currently living in Yellowstone."
+  }
+}

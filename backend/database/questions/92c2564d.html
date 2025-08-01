@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 92c2564d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Utah is home to Pando, a colony of about 47,000 quaking aspen trees that all share a single root system. Pando is one of the largest single organisms by mass on Earth, but ecologists are worried that its growth is declining in part because of grazing by animals. The ecologists say that strong fences could prevent deer from eating young trees and help Pando start thriving again.</p></div>
+
+                        <div class="mt-3"><p>According to the text, why are ecologists worried about Pando?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It isn&rsquo;t growing at the same rate it used to.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It isn&rsquo;t producing young trees anymore.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It can&rsquo;t grow into new areas because it is blocked by fences.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Its root system can&rsquo;t support many more new trees.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it presents an explanation that is directly stated in the text for why ecologists are worried about Pando. The text states that Pando is a colony of about 47,000 quaking aspen trees that represents one of the largest organisms on Earth. According to the text, ecologists are worried that Pando&rsquo;s growth is declining, partly because animals are feeding on the trees. In other words, the ecologists are worried that Pando isn&rsquo;t growing at the same rate it used to. </p><p>Choice B is incorrect. Rather than indicating that Pando isn&rsquo;t producing young trees anymore, the text reveals that Pando is indeed producing young trees, stating that those trees can be protected from grazing deer by strong fences. Choice C is incorrect because the text states that fences can be used to prevent deer from eating Pando&rsquo;s young trees, not that Pando itself can&rsquo;t grow in new areas because it&rsquo;s blocked by fences.&nbsp;Choice D is incorrect because the text offers no evidence that Pando&rsquo;s root system is incapable of supporting new trees or is otherwise a cause of worry for ecologists. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">7 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt isn\u0026rsquo;t growing at the same rate it used to.\u003c/p\u003e", "id": "63eeec20-26cb-468a-93fe-226bea4d93d9"}, {"content": "\u003cp\u003eIt isn\u0026rsquo;t producing young trees anymore.\u003c/p\u003e", "id": "0d87344b-1a32-49f5-91d7-be38af7e1252"}, {"content": "\u003cp\u003eIt can\u0026rsquo;t grow into new areas because it is blocked by fences.\u003c/p\u003e", "id": "9142bdc7-87b4-4fb8-beca-8a024274d05f"}, {"content": "\u003cp\u003eIts root system can\u0026rsquo;t support many more new trees.\u003c/p\u003e", "id": "10379e4a-2806-4c04-b033-8b8c1e05b214"}], "correct_answer": ["A"], "externalid": "e5ffa0e4-1fea-42ae-b997-44eed4a8e733", "keys": ["63eeec20-26cb-468a-93fe-226bea4d93d9"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-017-CID", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it presents an explanation that is directly stated in the text for why ecologists are worried about Pando. The text states that Pando is a colony of about 47,000 quaking aspen trees that represents one of the largest organisms on Earth. According to the text, ecologists are worried that Pando\u0026rsquo;s growth is declining, partly because animals are feeding on the trees. In other words, the ecologists are worried that Pando isn\u0026rsquo;t growing at the same rate it used to. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. Rather than indicating that Pando isn\u0026rsquo;t producing young trees anymore, the text reveals that Pando is indeed producing young trees, stating that those trees can be protected from grazing deer by strong fences. Choice C is incorrect because the text states that fences can be used to prevent deer from eating Pando\u0026rsquo;s young trees, not that Pando itself can\u0026rsquo;t grow in new areas because it\u0026rsquo;s blocked by fences.\u0026nbsp;Choice D is incorrect because the text offers no evidence that Pando\u0026rsquo;s root system is incapable of supporting new trees or is otherwise a cause of worry for ecologists. \u003c/p\u003e", "stem": "\u003cp\u003eAccording to the text, why are ecologists worried about Pando?\u003c/p\u003e", "stimulus": "\u003cp\u003eUtah is home to Pando, a colony of about 47,000 quaking aspen trees that all share a single root system. Pando is one of the largest single organisms by mass on Earth, but ecologists are worried that its growth is declining in part because of grazing by animals. The ecologists say that strong fences could prevent deer from eating young trees and help Pando start thriving again.\u003c/p\u003e", "templateclusterid": "0de6e51d-fbcb-4174-bd3e-62f7a751d1c6", "templateclustername": "", "type": "mcq", "vaultid": "fd72433a-0513-43c5-872d-66f2b7a56a3e"}, "createDate": 1691007959316, "difficulty": "M", "external_id": "e5ffa0e4-1fea-42ae-b997-44eed4a8e733", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "92c2564d", "score_band_range_cd": 4, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "05491934-a568-4572-b3ef-5b6678c7a3d3", "updateDate": 1691007959316};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-92c2564d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

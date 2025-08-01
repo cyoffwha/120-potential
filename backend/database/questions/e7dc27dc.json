@@ -1,0 +1,22 @@
+{
+  "question_id": "e7dc27dc",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "As a monthly newsletter formed in 1969 by a group of Asian American students at the University of California, Los Angeles, Gidra helped raise awareness about social and political issues concerning the Asian American community on campus and at large. The newsletter had an expansive reach for a publication of its kind: around 4,000 copies were published each month. A student writing a history paper, however, hypothesizes that Gidra 's influence cannot be measured by the number of newsletters published monthly alone.",
+  "question_text": "Which finding, if true, would most directly support the student&rsquo;s hypothesis?",
+  "answer_options": [
+    "The students who initially formed  Gidra  each contributed financially to its creation.",
+    "In addition to covering current events,  Gidra  also featured works of art and literature.",
+    "Gidra  was initially based out of the Asian American Studies Center at UCLA.",
+    "People would often give their copies of  Gidra  to others once they had finished reading an issue."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. If there were more Gidra readers than there were copies of the newsletter, then the newsletter's influence would be much greater than its 4,000 monthly copies.",
+    "A": "Choice A is incorrect. Information about the newsletter's initial funding doesn't tell us about the influence that the newsletter eventually had.",
+    "B": "Choice B is incorrect. While the content of Gidra was undoubtedly related to the newsletter's influence, this information isn't relevant to the specific hypothesis about monthly circulation numbers.",
+    "C": "Choice C is incorrect. Where the publishers of Gidra were initially based doesn't tell us about the newsletter's overall influence."
+  }
+}

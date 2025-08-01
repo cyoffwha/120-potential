@@ -1,0 +1,22 @@
+{
+  "question_id": "8d579825",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The printing of Virginia Woolf's novels featured a creative ______ blank between Woolf and her sister Vanessa Bell: a talented painter, Bell worked closely with Woolf to create original cover art for most of the novels.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "rebellion",
+    "partnership",
+    "discovery",
+    "disagreement"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of the cover art of Virginia Woolf's novels. In this context, \"partnership\" means collaboration or joint effort. The text states that Woolf's sister Vanessa Bell was a talented painter and that Bell worked with Woolf to provide the cover art for most of Woolf's novels. Thus, this context suggests that Woolf and Bell pursued a creative partnership in order to produce several of Woolf's novels.",
+    "A": "Choice A is incorrect because there is no indication that Woolf or Bell were undergoing a \"rebellion,\" or revolt, against anything in particular. Instead, the text focuses on how they worked together in some aspects of the production of Woolf's novels.",
+    "C": "Choice C is incorrect because there is nothing in the text to indicate that Woolf or Bell made a \"discovery,\" or encountered anything new for the first time as they worked together. The text suggests that Woolf had already written her novels and that Bell then assisted Woolf with the cover art for many of them.",
+    "D": "Choice D is incorrect because the text implies that Woolf and Bell had a positive relationship. According to the text, the sisters \"worked closely\" together to produce the cover art for many of Woolf's novels; the text doesn't mention whether while working together, Woolf and Bell had a \"disagreement,\" or conflict."
+  }
+}

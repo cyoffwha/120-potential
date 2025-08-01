@@ -1,0 +1,22 @@
+{
+  "question_id": "fd24f48f",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Before California's 1911 election to approve a proposition granting women the right to vote, activists across the state sold tea to promote the cause of suffrage. In San Francisco, the Woman's Suffrage Party sold Equality Tea at local fairs. ______ blank in Los Angeles, activist Nancy Tuttle Craig, who ran one of California's largest grocery store firms, distributed Votes for Women Tea.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "For example,",
+    "To conclude,",
+    "Similarly,",
+    "In other words,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Similarly\" logically signals that the activity described in this sentence (Nancy Tuttle Craig distributing Votes for Women Tea in her Los Angeles grocery stores) is like the activity described in the previous sentence (the Woman's Suffrage Party selling Equality Tea at fairs in San Francisco). Together, the two examples support the preceding claim that \"activists across the state sold tea to promote the cause of suffrage.\"",
+    "A": "Choice A is incorrect because \"for example\" illogically signals that the activity described in this sentence exemplifies the activity described in the previous sentence. Instead, the two activities are similar, and both support the preceding claim about selling tea to promote women's right to vote.",
+    "B": "Choice B is incorrect because \"to conclude\" illogically signals that the activity described in this sentence concludes or summarizes the information in the previous sentences. Instead, the activity is similar to the one described in the previous sentence, and both support the preceding claim about selling tea to promote women's right to vote.",
+    "D": "Choice D is incorrect because \"in other words\" illogically signals that the activity described in this sentence paraphrases the activity described in the previous sentence. Instead, the two activities are similar, and both support the preceding claim about selling tea to promote women's right to vote."
+  }
+}

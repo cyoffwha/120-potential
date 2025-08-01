@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 835545cd</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Charles W. Chesnutt&rsquo;s 1901 novel <em>The Marrow of Tradition</em>. </p>
+<p style='padding-left:1em'>Mrs. Ochiltree was a woman of strong individuality, whose comments upon her acquaintance[s], present or absent, were marked by a frankness at times no less than startling. This characteristic caused her to be more or less avoided. Mrs. Ochiltree was aware of this sentiment on the part of her acquaintance[s], and rather exulted in it.</p></div>
+
+                        <div class="mt-3"><p>Based on the text, what is true about Mrs. Ochiltree&rsquo;s acquaintances?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They try to refrain from discussing topics that would upset Mrs. Ochiltree.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They are unable to spend as much time with Mrs. Ochiltree as she would like.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They are too preoccupied with their own concerns to speak with Mrs. Ochiltree.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They are likely offended by what Mrs. Ochiltree has said about them.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it presents a statement about Mrs. Ochiltree&rsquo;s acquaintances that is supported by the text. The text indicates that Mrs. Ochiltree makes comments about her acquaintances that are frank, or direct and blunt, and sometimes startling. It also states that because of this behavior, the acquaintances tend to avoid Mrs. Ochiltree. Together, these details suggest that the acquaintances choose not to be around Mrs. Ochiltree because they are offended by the things she has said about them. </p><p>Choice A is incorrect because the text doesn&rsquo;t suggest that Mrs. Ochiltree&rsquo;s acquaintances avoid discussing topics that would upset Mrs. Ochiltree; instead, it states that they avoid being around Mrs. Ochiltree at all. Choice B is incorrect because the text makes it clear that Mrs. Ochiltree knows her acquaintances often avoid her and is pleased about it (she &ldquo;rather exulted in it&rdquo;), not that she wants to spend more time with them. Choice C is incorrect because the text doesn&rsquo;t suggest that Mrs. Ochiltree&rsquo;s acquaintances don&rsquo;t speak with Mrs. Ochiltree because they are too focused on their own concerns, but rather because they don&rsquo;t like the frank comments she makes.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">284 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThey try to refrain from discussing topics that would upset Mrs. Ochiltree.\u0026nbsp;\u003c/p\u003e", "id": "5f84b618-0d29-4952-a2b7-77af5fbd93f7"}, {"content": "\u003cp\u003eThey are unable to spend as much time with Mrs. Ochiltree as she would like.\u003c/p\u003e", "id": "83571b54-817d-4243-9313-6990b7a9a157"}, {"content": "\u003cp\u003eThey are too preoccupied with their own concerns to speak with Mrs. Ochiltree.\u003c/p\u003e", "id": "b34403ec-5f3b-43fe-afb8-74eb6bd11378"}, {"content": "\u003cp\u003eThey are likely offended by what Mrs. Ochiltree has said about them.\u003c/p\u003e", "id": "3e2c0bd0-43fe-485f-9e19-e50915591dcb"}], "correct_answer": ["D"], "externalid": "5676d961-5796-4b5b-93e0-d7b19a75f64a", "keys": ["3e2c0bd0-43fe-485f-9e19-e50915591dcb"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-009-CID", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it presents a statement about Mrs. Ochiltree\u0026rsquo;s acquaintances that is supported by the text. The text indicates that Mrs. Ochiltree makes comments about her acquaintances that are frank, or direct and blunt, and sometimes startling. It also states that because of this behavior, the acquaintances tend to avoid Mrs. Ochiltree. Together, these details suggest that the acquaintances choose not to be around Mrs. Ochiltree because they are offended by the things she has said about them. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text doesn\u0026rsquo;t suggest that Mrs. Ochiltree\u0026rsquo;s acquaintances avoid discussing topics that would upset Mrs. Ochiltree; instead, it states that they avoid being around Mrs. Ochiltree at all. Choice B is incorrect because the text makes it clear that Mrs. Ochiltree knows her acquaintances often avoid her and is pleased about it (she \u0026ldquo;rather exulted in it\u0026rdquo;), not that she wants to spend more time with them. Choice C is incorrect because the text doesn\u0026rsquo;t suggest that Mrs. Ochiltree\u0026rsquo;s acquaintances don\u0026rsquo;t speak with Mrs. Ochiltree because they are too focused on their own concerns, but rather because they don\u0026rsquo;t like the frank comments she makes.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eBased on the text, what is true about Mrs. Ochiltree\u0026rsquo;s acquaintances?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Charles W. Chesnutt\u0026rsquo;s 1901 novel \u003cem\u003eThe Marrow of Tradition\u003c/em\u003e. \u003c/p\u003e\n\u003cp style=\u0027padding-left:1em\u0027\u003eMrs. Ochiltree was a woman of strong individuality, whose comments upon her acquaintance[s], present or absent, were marked by a frankness at times no less than startling. This characteristic caused her to be more or less avoided. Mrs. Ochiltree was aware of this sentiment on the part of her acquaintance[s], and rather exulted in it.\u003c/p\u003e", "templateclusterid": "a1474287-2a54-4c19-a90a-c838a550263a", "templateclustername": "", "type": "mcq", "vaultid": "e4ad3719-9a43-4cf4-8037-1c2d998e67e1"}, "createDate": 1691007959313, "difficulty": "M", "external_id": "5676d961-5796-4b5b-93e0-d7b19a75f64a", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "835545cd", "score_band_range_cd": 4, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "fab97426-dc5e-450d-9163-06af0d661151", "updateDate": 1691007959313};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-835545cd");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

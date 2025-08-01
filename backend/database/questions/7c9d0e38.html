@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 7c9d0e38</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>Roughly 96% of Australia&rsquo;s estimated 200,000 animal species are invertebrates.</li>
+<li>Invertebrates of the order Hymenoptera, which consists of sawflies, wasps, bees, and ants, are estimated to total 14,800 species in Australia.</li>
+<li>Invertebrates of the order Coleoptera, which consists of beetles and weevils, are estimated to total 28,200 species in Australia.</li>
+<li>Some of these invertebrates&rsquo; populations are threatened by invasive bird and fish species.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to emphasize the different orders in which Australia&rsquo;s invertebrate animals are classified. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In Australia, 28,200 species are estimated to be beetles and weevils, both classified as invertebrates of the order Coleoptera.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Among Australia&rsquo;s many invertebrates, sawflies, wasps, bees, and ants belong to the order Hymenoptera, while beetles and weevils belong to the order Coleoptera.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Many sawflies, wasps, bees, and ants of the order Hymenoptera are threatened by some of Australia&rsquo;s invasive bird and fish species.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The order Hymenoptera is estimated to make up 14,800 of Australia&rsquo;s 200,000 animal species.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The sentence emphasizes the different orders that Australia&rsquo;s invertebrates belong to, specifying that sawflies, wasps, bees, and ants belong to the order Hymenoptera, whereas beetles and weevils belong to the order Coleoptera. </p><p>Choice A is incorrect. The sentence only mentions one order, Coleoptera; it doesn&rsquo;t emphasize the different orders that Australia&rsquo;s invertebrates belong to. Choice C is incorrect. The sentence only mentions one order, Hymenoptera; it doesn&rsquo;t emphasize the different orders that Australia&rsquo;s invertebrates belong to. Choice D is incorrect. The sentence only mentions one order, Hymenoptera; it doesn&rsquo;t emphasize the different orders that Australia&rsquo;s invertebrates belong to. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">624 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIn Australia, 28,200 species are estimated to be beetles and weevils, both classified as invertebrates of the order Coleoptera.\u003c/p\u003e", "id": "3e68edc6-fed7-4111-a55f-36cef114783d"}, {"content": "\u003cp\u003eAmong Australia\u0026rsquo;s many invertebrates, sawflies, wasps, bees, and ants belong to the order Hymenoptera, while beetles and weevils belong to the order Coleoptera.\u003c/p\u003e", "id": "e7742ecc-1bf3-4f80-bba6-896c0adac2a4"}, {"content": "\u003cp\u003eMany sawflies, wasps, bees, and ants of the order Hymenoptera are threatened by some of Australia\u0026rsquo;s invasive bird and fish species.\u003c/p\u003e", "id": "c3ae9813-f884-4b6d-bb51-fee0f6ea2db9"}, {"content": "\u003cp\u003eThe order Hymenoptera is estimated to make up 14,800 of Australia\u0026rsquo;s 200,000 animal species.\u003c/p\u003e", "id": "701a95e2-e81d-407e-85a3-bb36fc6731e9"}], "correct_answer": ["B"], "externalid": "1ee0a4e4-27c2-4283-a0b1-5a9a1d15096b", "keys": ["e7742ecc-1bf3-4f80-bba6-896c0adac2a4"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-716-SYN", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The sentence emphasizes the different orders that Australia\u0026rsquo;s invertebrates belong to, specifying that sawflies, wasps, bees, and ants belong to the order Hymenoptera, whereas beetles and weevils belong to the order Coleoptera. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The sentence only mentions one order, Coleoptera; it doesn\u0026rsquo;t emphasize the different orders that Australia\u0026rsquo;s invertebrates belong to. Choice C is incorrect. The sentence only mentions one order, Hymenoptera; it doesn\u0026rsquo;t emphasize the different orders that Australia\u0026rsquo;s invertebrates belong to. Choice D is incorrect. The sentence only mentions one order, Hymenoptera; it doesn\u0026rsquo;t emphasize the different orders that Australia\u0026rsquo;s invertebrates belong to. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to emphasize the different orders in which Australia\u0026rsquo;s invertebrate animals are classified. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eRoughly 96% of Australia\u0026rsquo;s estimated 200,000 animal species are invertebrates.\u003c/li\u003e\n\u003cli\u003eInvertebrates of the order Hymenoptera, which consists of sawflies, wasps, bees, and ants, are estimated to total 14,800 species in Australia.\u003c/li\u003e\n\u003cli\u003eInvertebrates of the order Coleoptera, which consists of beetles and weevils, are estimated to total 28,200 species in Australia.\u003c/li\u003e\n\u003cli\u003eSome of these invertebrates\u0026rsquo; populations are threatened by invasive bird and fish species.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "e7b718ac-dc45-43d6-a2f5-d255750c1e8f", "templateclustername": "", "type": "mcq", "vaultid": "bd2ae01d-c0dc-4814-9ef0-657b2235d5a9"}, "createDate": 1691007959348, "difficulty": "M", "external_id": "1ee0a4e4-27c2-4283-a0b1-5a9a1d15096b", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "7c9d0e38", "score_band_range_cd": 4, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "71645d0c-f18a-4be0-b0db-e5587f6cd263", "updateDate": 1691007959348};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-7c9d0e38");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

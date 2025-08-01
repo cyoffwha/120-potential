@@ -1,0 +1,22 @@
+{
+  "question_id": "983d33fa",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1637, the price of tulips skyrocketed in Amsterdam, with single bulbs of rare varieties selling for up to the equivalent of $200,000 in today's US dollars. Some historians ______ blank that this \"tulip mania\" was the first historical instance of an asset bubble, which occurs when investors drive prices to highs not supported by actual demand.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "claiming",
+    "claim",
+    "having claimed",
+    "to claim"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the use of finite and nonfinite verb forms within a sentence. A main clause requires a finite verb to perform the action of the subject (in this case, \"some historians\"), and this choice supplies the finite present tense verb \"claim\" to indicate what some historians do.",
+    "A": "Choice A is incorrect because the nonfinite participle \"claiming\" doesn't supply the main clause with a finite verb.",
+    "C": "Choice C is incorrect because the nonfinite participle \"having claimed\" doesn't supply the main clause with a finite verb.",
+    "D": "Choice D is incorrect because the nonfinite to-infinitive \"to claim\" doesn't supply the main clause with a finite verb."
+  }
+}

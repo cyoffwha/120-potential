@@ -1,0 +1,22 @@
+{
+  "question_id": "8e9677e6",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In 2009, the Craft and Folk Art Museum in Los Angeles hosted a special exhibition, Sue&ntilde;os/Yume, showcasing the works of local sculptor Dora de Larios. As suggested by the show's title ( sue&ntilde;os and yume mean \"dreams\" in Spanish and Japanese, respectively), de Larios's art reflects a mix of cultural influences . ______ blank her work is grounded in the artistic traditions of both Mexico and Japan.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "In addition,",
+    "In contrast,",
+    "Specifically,",
+    "Therefore,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Specifically\" logically signals that this sentence provides specific, precise details elaborating on the previous sentence's claim that de Larios's art reflects a mix of cultures. This sentence specifies which cultures the previous sentence is referring to: the artistic traditions of both Mexico and Japan.",
+    "A": "Choice A is incorrect because \"in addition\" illogically signals that the information in this sentence is a separate point that follows the previous claim about de Larios's art. Instead, it provides specific details elaborating on that claim.",
+    "B": "Choice B is incorrect because \"in contrast\" illogically signals that the information in this sentence contrasts with the previous claim about de Larios's art. Instead, it provides specific details elaborating on that claim.",
+    "D": "Choice D is incorrect because \"therefore\" illogically signals that the information in this sentence is a result of the previous claim about de Larios's art. Instead, it provides specific details elaborating on that claim."
+  }
+}

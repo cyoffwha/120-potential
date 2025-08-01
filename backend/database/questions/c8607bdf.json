@@ -1,0 +1,22 @@
+{
+  "question_id": "c8607bdf",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "\"Praise Song for the Day,\" Elizabeth Alexander's 2009 inaugural poem, asserts that \"We cross dirt roads and highways&hellip;to see what's on the other side.\" Alexander's use of \"we\" ______ blank Americans' collective efforts and shared desire to seek new opportunity.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "evokes",
+    "are evoking",
+    "have evoked",
+    "evoke"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is subject-verb agreement. The singular verb \"evokes\" agrees in number with the singular subject \"Alexander's use.\"",
+    "B": "Choice B is incorrect because the plural verb \"are evoking\" doesn't agree in number with the singular subject \"Alexander's use.\"",
+    "C": "Choice C is incorrect because the plural verb \"have evoked\" doesn't agree in number with the singular subject \"Alexander's use.\"",
+    "D": "Choice D is incorrect because the plural verb \"evoke\" doesn't agree in number with the singular subject \"Alexander's use.\""
+  }
+}

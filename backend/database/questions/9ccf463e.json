@@ -1,0 +1,22 @@
+{
+  "question_id": "9ccf463e",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is from Nella Larsen's 1928 novel Quicksand . The trees in their spring beauty sent through her restive mind a sharp thrill of pleasure. Seductive, charming, and beckoning as cities were, they had not this easy unhuman loveliness. As used in the text, what does the word \"beckoning\" most nearly mean?",
+  "question_text": "As used in the text, what does the word &ldquo;beckoning&rdquo; most nearly mean?",
+  "answer_options": [
+    "Demanding",
+    "Signaling",
+    "Inviting",
+    "Shifting"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because as used in the text, \"beckoning\" most nearly means \"inviting,\" or attractive. The text portrays a woman who is looking at \"trees in their spring beauty.\" She compares them to cities, which have their own pleasures even if they do not have the \"easy unhuman loveliness\" of trees: she thinks of cities as \"seductive\" and \"charming,\" both adjectives that signify something that is enticing, or attractive. Therefore, cities that are seductive and charming would also be described as inviting people closer to them.",
+    "A": "Choice A is incorrect because there is no indication in this context that cities are \"demanding,\" or requiring effort.",
+    "B": "Choice B is incorrect. Though \"signaling,\" or communicating something, might be considered a key feature of the act of \"beckoning,\" in the context here, \"beckoning\" suggests that cities have attractive qualities that naturally draw people to them. Such attractive qualities are not described by the word \"signaling\" alone. Therefore, \"signaling\" is an incorrect answer because it is insufficiently precise.",
+    "D": "Choice D is incorrect because there is no reason to think in this context that the cities are \"shifting,\" or changing shape."
+  }
+}

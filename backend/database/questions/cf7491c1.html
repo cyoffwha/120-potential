@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question cf7491c1</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Characteristics of Five Recently Discovered Gas Exoplanets</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Exoplanet designation</th><th scope="col" style="text-align: center; vertical-align: bottom;">Mass (Jupiters)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Radius (Jupiters)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Orbital period (days)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Distance from the Sun (parsecs)</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">TOI-640 b</th><td style="text-align: center;">0.88</td><td style="text-align: center;">1.771</td><td style="text-align: center;">5.003</td><td style="text-align: center;">340</td></tr><tr><th scope="row" style="text-align: left;">TOI-1601 b</th><td style="text-align: center;">0.99</td><td style="text-align: center;">1.239</td><td style="text-align: center;">5.331</td><td style="text-align: center;">336</td></tr><tr><th scope="row" style="text-align: left;">TOI-628 b</th><td style="text-align: center;">6.33</td><td style="text-align: center;">1.060</td><td style="text-align: center;">3.409</td><td style="text-align: center;">178</td></tr><tr><th scope="row" style="text-align: left;">TOI-1478 b</th><td style="text-align: center;">0.85</td><td style="text-align: center;">1.060</td><td style="text-align: center;">10.180</td><td style="text-align: center;">153</td></tr><tr><th scope="row" style="text-align: left;">TOI-1333 b</th><td style="text-align: center;">2.37</td><td style="text-align: center;">1.396</td><td style="text-align: center;">4.720</td><td style="text-align: center;">200</td></tr></tbody></table></figure></p>
+<p>&ldquo;Hot Jupiters&rdquo; are gas planets that have a mass of at least 0.25 Jupiters (meaning that their mass is at least 25% of that of Jupiter) and an orbital period of less than 10 days (meaning that they complete one orbit around their star in less than 10 days), while &ldquo;warm Jupiters&rdquo; are gas planets that meet the same mass criterion but have orbital periods of more than 10 days. In 2021, Michigan State University astronomer Joseph Rodriguez and colleagues announced the discovery of five new gas exoplanets and asserted that four are hot Jupiters and one is a warm Jupiter. </p></div>
+
+                        <div class="mt-3"><p>Which choice best describes data from the table that support Rodriguez and colleagues&rsquo; assertion?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>None of the planets have an orbital period of more than 10 days, and TOI-628 b has a mass of 6.33 Jupiters.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>TOI-1478 b has an orbital period of 153 days, and the masses of all the planets range from 0.85 to 6.33 Jupiters.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>All the planets have a radius between 1.060 and 1.771 Jupiters, and only TOI-1333 b has an orbital period of more than 10 days.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Each of the planets has a mass greater than 0.25 Jupiters, and all except for TOI-1478 b have an orbital period of less than 10 days.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it accurately describes data from the table that support Rodriguez and colleagues&rsquo; assertion about the classifications of the five new gas exoplanets. The text describes two categories of gas planets: hot Jupiters, which have a mass of at least 0.25 Jupiters and an orbital period of less than 10 days, and warm Jupiters, which have the same mass characteristic but have orbital periods of more than 10 days. According to the table, four of the gas exoplanets discovered by Rodriguez and colleagues have a mass of at least 0.25 Jupiters and an orbital period of less than 10 days, while one of the planets has a mass of at least 0.25 Jupiters and an orbital period of more than 10 days. These data therefore support Rodriguez and colleagues&rsquo; assertion that four of the new exoplanets are hot Jupiters and one is a warm Jupiter. </p><p>Choice A is incorrect because it doesn&rsquo;t accurately describe the data from the table. Although the table shows that TOI-628 b has a mass equivalent to 6.33 Jupiters, the table also shows that one of the planets&mdash;TOI-1478 b&mdash;does indeed have an orbital period of more than 10 days. Choice B is incorrect because it doesn&rsquo;t accurately describe the data from the table. Although the table does show that the masses of the five planets range from 0.85 to 6.33 Jupiters, the table also shows that TOI-1478 b has an orbital period of 10.180 days, not 153 days. Choice C is incorrect. According to the table, TOI-1333 b has an orbital period of only 4.720 days, not more than 10 days. Additionally, although the table does show that all the planets have a radius between 1.060 and 1.771 Jupiters, the text indicates that a planet may be classified as a hot Jupiter or a warm Jupiter based on its mass and orbital period, not on its radius, making the information about the range of the five planets&rsquo; radius values irrelevant. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">175 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eNone of the planets have an orbital period of more than 10 days, and TOI-628 b has a mass of 6.33 Jupiters.\u0026nbsp;\u003c/p\u003e", "id": "31291a12-0890-49b2-a8c0-189128ad9160"}, {"content": "\u003cp\u003eTOI-1478 b has an orbital period of 153 days, and the masses of all the planets range from 0.85 to 6.33 Jupiters.\u0026nbsp;\u003c/p\u003e", "id": "1c7404ff-518f-40ff-a7ca-0f678adbbdd1"}, {"content": "\u003cp\u003eAll the planets have a radius between 1.060 and 1.771 Jupiters, and only TOI-1333 b has an orbital period of more than 10 days.\u0026nbsp;\u003c/p\u003e", "id": "897cf0f1-8dc5-40a5-907d-13745d2f47db"}, {"content": "\u003cp\u003eEach of the planets has a mass greater than 0.25 Jupiters, and all except for TOI-1478 b have an orbital period of less than 10 days.\u003c/p\u003e", "id": "eda5116a-22c0-4dbd-857a-9d9a238b7990"}], "correct_answer": ["D"], "externalid": "d220880f-8d11-4473-8544-cd7e6652ab5b", "keys": ["eda5116a-22c0-4dbd-857a-9d9a238b7990"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-511-QUA", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it accurately describes data from the table that support Rodriguez and colleagues\u0026rsquo; assertion about the classifications of the five new gas exoplanets. The text describes two categories of gas planets: hot Jupiters, which have a mass of at least 0.25 Jupiters and an orbital period of less than 10 days, and warm Jupiters, which have the same mass characteristic but have orbital periods of more than 10 days. According to the table, four of the gas exoplanets discovered by Rodriguez and colleagues have a mass of at least 0.25 Jupiters and an orbital period of less than 10 days, while one of the planets has a mass of at least 0.25 Jupiters and an orbital period of more than 10 days. These data therefore support Rodriguez and colleagues\u0026rsquo; assertion that four of the new exoplanets are hot Jupiters and one is a warm Jupiter. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because it doesn\u0026rsquo;t accurately describe the data from the table. Although the table shows that TOI-628 b has a mass equivalent to 6.33 Jupiters, the table also shows that one of the planets\u0026mdash;TOI-1478 b\u0026mdash;does indeed have an orbital period of more than 10 days. Choice B is incorrect because it doesn\u0026rsquo;t accurately describe the data from the table. Although the table does show that the masses of the five planets range from 0.85 to 6.33 Jupiters, the table also shows that TOI-1478 b has an orbital period of 10.180 days, not 153 days. Choice C is incorrect. According to the table, TOI-1333 b has an orbital period of only 4.720 days, not more than 10 days. Additionally, although the table does show that all the planets have a radius between 1.060 and 1.771 Jupiters, the text indicates that a planet may be classified as a hot Jupiter or a warm Jupiter based on its mass and orbital period, not on its radius, making the information about the range of the five planets\u0026rsquo; radius values irrelevant. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes data from the table that support Rodriguez and colleagues\u0026rsquo; assertion?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eCharacteristics of Five Recently Discovered Gas Exoplanets\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eExoplanet designation\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eMass (Jupiters)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eRadius (Jupiters)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eOrbital period (days)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eDistance from the Sun (parsecs)\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eTOI-640 b\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e0.88\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e1.771\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e5.003\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e340\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eTOI-1601 b\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e0.99\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e1.239\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e5.331\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e336\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eTOI-628 b\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e6.33\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e1.060\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e3.409\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e178\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eTOI-1478 b\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e0.85\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e1.060\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e10.180\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e153\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eTOI-1333 b\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e2.37\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e1.396\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e4.720\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e200\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003e\u0026ldquo;Hot Jupiters\u0026rdquo; are gas planets that have a mass of at least 0.25 Jupiters (meaning that their mass is at least 25% of that of Jupiter) and an orbital period of less than 10 days (meaning that they complete one orbit around their star in less than 10 days), while \u0026ldquo;warm Jupiters\u0026rdquo; are gas planets that meet the same mass criterion but have orbital periods of more than 10 days. In 2021, Michigan State University astronomer Joseph Rodriguez and colleagues announced the discovery of five new gas exoplanets and asserted that four are hot Jupiters and one is a warm Jupiter. \u003c/p\u003e", "templateclusterid": "7708b919-206b-48b1-9413-daf751240cd5", "templateclustername": "", "type": "mcq", "vaultid": "3c1d63c4-eb79-4eda-9757-b6324da7ee59"}, "createDate": 1691007959337, "difficulty": "M", "external_id": "d220880f-8d11-4473-8544-cd7e6652ab5b", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "cf7491c1", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "94c2cb24-2857-49d1-a5b2-9f807d985b60", "updateDate": 1691007959337};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-cf7491c1");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

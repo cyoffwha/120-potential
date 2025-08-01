@@ -1,0 +1,22 @@
+{
+  "question_id": "fbb84fb0",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Hedda Gabler is an 1890 play by Henrik Ibsen. As a woman in the Victorian era, Hedda, the play's central character, is unable to freely determine her own future. Instead, she seeks to influence another person's fate, as is evident when she says to another character, ______ blank",
+  "question_text": "Which quotation from a translation of  Hedda Gabler  most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;Then what in heaven&rsquo;s name would you have me do with myself?&rdquo;",
+    "&ldquo;I want for once in my life to have power to mould a human destiny.&rdquo;",
+    "&ldquo;Then I, poor creature, have no sort of power over you?&rdquo;",
+    "&ldquo;Faithful to your principles, now and for ever! Ah, that is how a man should be!&rdquo;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most effectively illustrates the claim in the text that Hedda seeks to influence another character's fate. In the quotation, Hedda says that she wants \"to have power to mould a human destiny,\" or shape a person's fate, just as the text indicates. Additionally, the phrase \"for once in my life\" suggests that Hedda feels that she has never been able to shape anyone's life, including her own, supporting the text's assertion that she \"is unable to freely determine her own future.\"",
+    "A": "Choice A is incorrect because this quotation shows Hedda being uncertain about what to do with her own life, not wanting to influence another person's fate.",
+    "C": "Choice C is incorrect because while this quotation shows Hedda's interest in finding out whether she has any power over another character, it doesn't clearly show that she wants to influence that person's fate. In this quotation, Hedda seems to have inferred or concluded (\"then\") that she doesn't have any influence over the person to whom she's speaking, and she's asking that person to confirm her lack of influence.",
+    "D": "Choice D is incorrect because this quotation expresses Hedda's belief that a man should be true to his principles, not her desire to influence another person's fate."
+  }
+}

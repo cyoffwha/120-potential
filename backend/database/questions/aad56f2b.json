@@ -1,0 +1,22 @@
+{
+  "question_id": "aad56f2b",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "As a young photographer in the 1950s, William Klein ______ blank the conventions of photography by creating images that were high contrast and included blurred and distorted elements—features generally seen as flaws. So unorthodox was Klein's work that he had difficulty finding a publisher for his now-iconic 1956 photo book Life is Good &amp; Good for You in New York .",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "reviewed",
+    "defied",
+    "respected",
+    "prevented"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Defied\" means \"resisted\" or \"deliberately disobeyed,\" which matches the way Klein broke from the conventions of photography in his time by including features that were generally seen as flaws.",
+    "A": "Choice A is incorrect. \"Reviewed\" means \"analyzed\" or \"evaluated,\" but that doesn't really fit the context here. Klein isn't directly providing any thoughtful examination of the conventions of photography: he's just breaking all the rules.",
+    "C": "Choice C is incorrect. \"Respected\" can mean \"admired\" or \"followed\" (as in the case of conventions). It's clear that Klein didn't respect conventions, given his use of photographic features that were generally considered \"flaws.\"",
+    "D": "Choice D is incorrect. \"Prevented\" means \"stopped,\" and Klein did not stop the conventions—they still existed. Instead, he made images that were seen as \"flawed\" under those conventions."
+  }
+}

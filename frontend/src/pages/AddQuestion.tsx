@@ -7,26 +7,8 @@ import {
   SelectContent,
   Select,
 } from "@/components/ui/select";
-import { BACKEND_URL } from "../config";
-
-const DOMAIN_SKILL_MAP = {
-  "Craft and Structure": [
-    "Cross-Text Connections",
-    "Text Structure and Purpose",
-    "Words in Context",
-  ],
-  "Expression of Ideas": ["Rhetorical Synthesis", "Transitions"],
-  "Information and Ideas": [
-    "Central Ideas and Details",
-    "Command of Evidence",
-    "Inferences",
-  ],
-  "Standard English Conventions": [
-    "Boundaries",
-    "Form, Structure, and Sense",
-  ],
-};
-const DIFFICULTY_OPTIONS = ["Easy", "Medium", "Hard", "Very Hard"];
+import { DOMAIN_SKILL_MAP, DIFFICULTY_OPTIONS, DOMAINS } from "../constants";
+import { questionService } from "../services/questionService";
 
 const initialState = {
   passage: "",
@@ -41,8 +23,8 @@ const initialState = {
   rationale_c: "",
   rationale_d: "",
   difficulty: DIFFICULTY_OPTIONS[0],
-  domain: Object.keys(DOMAIN_SKILL_MAP)[0],
-  skill: DOMAIN_SKILL_MAP[Object.keys(DOMAIN_SKILL_MAP)[0]][0],
+  domain: DOMAINS[0],
+  skill: DOMAIN_SKILL_MAP[DOMAINS[0]][0],
 };
 
 export function AddQuestion() {
@@ -71,12 +53,12 @@ export function AddQuestion() {
     setError("");
     setSuccess(false);
     try {
-      const res = await fetch(`${BACKEND_URL}/questions`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      if (!res.ok) throw new Error("Failed to add question");
+      // Generate a unique question ID
+      const questionData = {
+        ...form,
+        question_id: `q_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`
+      };
+      await questionService.createQuestion(questionData);
       setSuccess(true);
       setForm(initialState);
     } catch (err) {

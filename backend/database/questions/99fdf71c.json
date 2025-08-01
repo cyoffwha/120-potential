@@ -1,0 +1,22 @@
+{
+  "question_id": "99fdf71c",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "\"When Dawn Comes to the City\" is a 1922 poem by Claude McKay, who immigrated to the United States from the island nation of Jamaica as an adult. The poem conveys McKay's contrasting feelings about New York City—his adopted home in the US—and his home country: ______ blank",
+  "question_text": "Which quotation from &ldquo;When Dawn Comes to the City&rdquo; most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;A lonely newsboy hurries by, / Humming a recent ditty; / Red streaks strike through the gray of the sky, / The dawn comes to the city [New York City].&rdquo;",
+    "&ldquo;Dark figures start for work; / I watch them sadly shuffle on, / &rsquo;Tis dawn, dawn in New York. / But I would be on the island of the sea, / In the heart of the island of the sea.&rdquo;",
+    "&ldquo;And the shaggy Nannie goat is calling, calling, calling / From her little trampled corner of the long wide lea / That stretches to the waters of the hill-stream falling / Sheer upon the flat rocks joyously!&rdquo;",
+    "&ldquo;The tired cars go grumbling by, / The moaning, groaning cars, / And the old milk carts go rumbling by / Under the same dull stars.&rdquo;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it presents a quotation illustrating the claim that the poem conveys McKay's contrasting feelings about New York City and Jamaica. McKay first presents a somewhat negative view of New York City, describing watching \"dark figures\" who \"sadly shuffle\" to work at dawn, and then indicates that he would instead like to be \"in the heart of the island of the sea.\"",
+    "A": "Choice A is incorrect because the quotation focuses on a description of only one place (New York City, with its \"lonely newsboy\" and \"red streaks\" in the sky at dawn) rather than on different feelings about two places.",
+    "C": "Choice C is incorrect because the quotation focuses on a description of only one place (which isn't named) rather than on McKay's different feelings about two places.",
+    "D": "Choice D is incorrect because though McKay presents a negative image of an unnamed place with \"tired cars\" that grumble, moan, and groan, and \"old milk carts\" that rumble by under \"dull stars,\" the quotation focuses on McKay's feelings about only one place rather than on different feelings about two places."
+  }
+}

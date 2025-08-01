@@ -1,0 +1,22 @@
+{
+  "question_id": "d748c3fd",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In her 2021 article \"Throwaway History: Towards a Historiography of Ephemera,\" scholar Anne Garner discusses John Johnson (1882–1956), a devoted collector of items intended to be discarded, including bus tickets and campaign pamphlets. Johnson recognized that scholarly institutions considered his expansive collection of ephemera to be worthless—indeed, it wasn't until 1968, after Johnson's death, that Oxford University's Bodleian Library acquired the collection, having grasped the items' potential value to historians and other researchers. Hence, the example of Johnson serves to ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "demonstrate the difficulties faced by contemporary historians in conducting research at the Bodleian Library without access to ephemera.",
+    "represent the challenge of incorporating examples of ephemera into the collections of libraries and other scholarly institutions.",
+    "lend support to arguments by historians and other researchers who continue to assert that ephemera holds no value for scholars.",
+    "illustrate both the relatively low scholarly regard in which ephemera was once held and the later recognition of ephemera&rsquo;s possible utility."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. Johnson collected \"ephemera,\" or things that are meant to be thrown away. Scholars thought his collection was worthless to them, then later realized that it was potentially valuable. This suggests that scholars went from disregarding ephemera to recognizing their usefulness.",
+    "A": "Choice A is incorrect. This inference isn't supported. The text tells us that the Bodleian Library acquired Johnson's large collection of ephemera back in 1968, so we can assume that contemporary historians conducting research there do have access to that collection.",
+    "B": "Choice B is incorrect. This inference isn't supported. The text tells us that \"Oxford University's Bodleian Library acquired the collection,\" but it never suggests that it was a challenge to do so.",
+    "C": "Choice C is incorrect. This inference isn't supported. The text actually suggests the opposite: the example of Johnson's collection lends support to arguments that ephemera does hold value for scholars."
+  }
+}

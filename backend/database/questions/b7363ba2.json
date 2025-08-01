@@ -1,0 +1,22 @@
+{
+  "question_id": "b7363ba2",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Mathematician and meteorologist Edward Lorenz used the metaphor of the \"butterfly effect\" to explain how seemingly minor events can have major impacts on future weather. According to Lorenz's metaphor, the wind from a butterfly flapping ______ blank in Brazil might eventually grow into a storm elsewhere across the globe.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "its wings",
+    "its wings&rsquo;",
+    "it&rsquo;s wing&rsquo;s",
+    "it&rsquo;s wings&rsquo;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The conventions being tested are the use of possessive determiners and plural nouns. The singular possessive determiner \"its\" and the plural noun \"wings\" correctly indicate that the butterfly has multiple wings.",
+    "B": "Choice B is incorrect because the context requires the plural noun \"wings,\" not the plural possessive noun \"wings'.\"",
+    "C": "Choice C is incorrect because the context requires the singular possessive determiner \"its\" and the plural noun \"wings,\" not the contraction \"it's\" and the singular possessive noun \"wing's.\"",
+    "D": "Choice D is incorrect because the context requires the singular possessive determiner \"its\" and the plural noun \"wings,\" not the contraction \"it's\" and the plural possessive noun \"wings'.\""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "c2c26e20",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is adapted from Sadakichi Hartmann's 1894 short story \"Magnolia Blossoms.\" The narrator is standing on the deck of a boat. What a night it was! My soul had left its body to lose itself in the wild unrestrained beauty around me—from where it came—and only left a trembling suggestion of its existence within me. The other passengers moved around me like shadows, and again and again my eyes drank in all the glory and wealth of that night. As used in the text, what does the word \"suggestion\" most nearly mean?",
+  "question_text": "As used in the text, what does the word &ldquo;suggestion&rdquo; most nearly mean?&nbsp;",
+  "answer_options": [
+    "Trace",
+    "Opinion",
+    "Dispute",
+    "Command"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because as used in the text, \"suggestion\" most nearly means trace. The text portrays the narrator standing on the deck of a boat, admiring the view of nature afforded by this position: \"My soul had left its body to lose itself in the wild unrestrained beauty around me,\" says the narrator, \"and only left a trembling suggestion of its existence within me.\" This intense response to beauty is such that the narrator's soul seems to disengage from its body, leaving behind only a barely detectible indication of its presence there. In other words, the narrator senses only a trace of soul left in the body.",
+    "B": "Choice B is incorrect. Although in some contexts \"suggestion\" can refer to an implied or indirectly expressed opinion, the text doesn't portray the narrator expressing an opinion; instead, the narrator is explaining an experience of intense emotion.",
+    "C": "Choice C is incorrect. While \"suggestion\" might be used in some contexts to refer to the tactful expression of a differing viewpoint, it doesn't refer to the dispute or difference of opinion itself. Moreover, the text doesn't portray a dispute between characters with differing viewpoints.",
+    "D": "Choice D is incorrect. Although in some contexts, \"suggestion\" might be used to refer to a politely worded command, the text doesn't portray a scenario in which someone receives such a command."
+  }
+}

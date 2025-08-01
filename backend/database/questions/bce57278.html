@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question bce57278</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>Some US reformers sought to improve society in the 1800s by building utopias.</li>
+<li>A utopia is a community intended to represent a perfect society based on a specific set of principles.</li>
+<li>One such community was Brook Farm near Boston, Massachusetts.</li>
+<li>It was founded in 1841 by writer George Ripley.</li>
+<li>Ripley wrote in a letter that his goal for Brook Farm was &ldquo;to guarantee the highest mental freedom, by providing all with labor, adapted to their tastes and talents, and securing to them the fruits of their industry.&rdquo;</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to explain the goal of Brook Farm using a quotation from George Ripley. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In a letter, writer George Ripley explained his goal to &ldquo;guarantee the highest mental freedom.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Utopias, such as Brook Farm, founded by George Ripley in 1841, were based on a specific set of principles intended to create a perfect society.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Founded by George Ripley near Boston, Massachusetts, Brook Farm was part of a trend in the 1800s, when reformers in the United States built utopias.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Established in 1841, Brook Farm was a utopian community created to &ldquo;guarantee the highest mental freedom, by providing all with labor... [and] the fruits of their industry,&rdquo; according to founder George Ripley.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. This choice explains the goal of Brook Farm&mdash;to provide mental freedom to all by engaging individuals in labor suited to their interests&mdash;using a quotation from George Ripley. </p><p>Choice A is incorrect. This choice only mentions part of Ripley&rsquo;s goal, and it doesn&rsquo;t mention Brook Farm at all. Choice B is incorrect. This choice defines what a utopia is but doesn&rsquo;t use Ripley&rsquo;s words to describe his vision for Brook Farm. Choice C is incorrect. This choice provides some background information about Brook Farm, but it doesn&rsquo;t explain its goals or include Ripley&rsquo;s words. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">618 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIn a letter, writer George Ripley explained his goal to \u0026ldquo;guarantee the highest mental freedom.\u0026rdquo;\u003c/p\u003e", "id": "f2c02501-0358-4a9f-88db-e9a522a6b433"}, {"content": "\u003cp\u003eUtopias, such as Brook Farm, founded by George Ripley in 1841, were based on a specific set of principles intended to create a perfect society.\u003c/p\u003e", "id": "b61458f6-8abd-4d75-8040-e6f3d4729205"}, {"content": "\u003cp\u003eFounded by George Ripley near Boston, Massachusetts, Brook Farm was part of a trend in the 1800s, when reformers in the United States built utopias.\u003c/p\u003e", "id": "b8588c3f-fdd5-4a6b-873a-15e5d8970f7f"}, {"content": "\u003cp\u003eEstablished in 1841, Brook Farm was a utopian community created to \u0026ldquo;guarantee the highest mental freedom, by providing all with labor... [and] the fruits of their industry,\u0026rdquo; according to founder George Ripley.\u003c/p\u003e", "id": "5b014b89-222e-41a9-96d2-85fa90ea531e"}], "correct_answer": ["D"], "externalid": "c6f5eb0a-6a1b-46ad-9236-c2c96c824762", "keys": ["5b014b89-222e-41a9-96d2-85fa90ea531e"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-SYN-M008", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. This choice explains the goal of Brook Farm\u0026mdash;to provide mental freedom to all by engaging individuals in labor suited to their interests\u0026mdash;using a quotation from George Ripley. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice only mentions part of Ripley\u0026rsquo;s goal, and it doesn\u0026rsquo;t mention Brook Farm at all. Choice B is incorrect. This choice defines what a utopia is but doesn\u0026rsquo;t use Ripley\u0026rsquo;s words to describe his vision for Brook Farm. Choice C is incorrect. This choice provides some background information about Brook Farm, but it doesn\u0026rsquo;t explain its goals or include Ripley\u0026rsquo;s words. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to explain the goal of Brook Farm using a quotation from George Ripley. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eSome US reformers sought to improve society in the 1800s by building utopias.\u003c/li\u003e\n\u003cli\u003eA utopia is a community intended to represent a perfect society based on a specific set of principles.\u003c/li\u003e\n\u003cli\u003eOne such community was Brook Farm near Boston, Massachusetts.\u003c/li\u003e\n\u003cli\u003eIt was founded in 1841 by writer George Ripley.\u003c/li\u003e\n\u003cli\u003eRipley wrote in a letter that his goal for Brook Farm was \u0026ldquo;to guarantee the highest mental freedom, by providing all with labor, adapted to their tastes and talents, and securing to them the fruits of their industry.\u0026rdquo;\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "aa2bd269-832f-464a-b699-f63f56a65c21", "templateclustername": "", "type": "mcq", "vaultid": "8176d6a4-300c-481a-8a10-d8e022841f01"}, "createDate": 1691007959372, "difficulty": "M", "external_id": "c6f5eb0a-6a1b-46ad-9236-c2c96c824762", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "bce57278", "score_band_range_cd": 4, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "6ecb37b7-35dd-4cbf-b1ee-466e44496a14", "updateDate": 1691007959372};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-bce57278");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

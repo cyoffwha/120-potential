@@ -1,0 +1,22 @@
+{
+  "question_id": "8de51658",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Text 1 The idea that time moves in only one direction is instinctively understood, yet it puzzles physicists. According to the second law of thermodynamics, at a macroscopic level some processes of heat transfer are irreversible due to the production of entropy—after a transfer we cannot rewind time and place molecules back exactly where they were before, just as we cannot unbreak dropped eggs. But laws of physics at a microscopic or quantum level hold that those processes should be reversible. Text 2 In 2015, physicists Tiago Batalh&atilde;o et al. performed an experiment in which they confirmed the irreversibility of thermodynamic processes at a quantum level, producing entropy by applying a rapidly oscillating magnetic field to a system of carbon-13 atoms in liquid chloroform. But the experiment \"does not pinpoint ... what causes [irreversibility] at the microscopic level,\" coauthor Mauro Paternostro said.",
+  "question_text": "Based on the texts, what would the author of Text 1 most likely say about the experiment described in Text 2?",
+  "answer_options": [
+    "It would suggest an interesting direction for future research were it not the case that two of the physicists who conducted the experiment disagree on the significance of its findings.",
+    "It provides empirical evidence that the current understanding of an aspect of physics at a microscopic level must be incomplete.",
+    "It is consistent with the current understanding of physics at a microscopic level but not at a macroscopic level.",
+    "It supports a claim about an isolated system of atoms in a laboratory, but that claim should not be extrapolated to a general claim about the universe."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. Author 1 describes the puzzle that physicists still can't solve: at a microscopic level, the \"laws of physics\" suggest that we should be able to reverse processes that are not reversible at a macroscopic level (and, maybe, turn back time!). The experiment confirmed that those processes are not reversible even on the microscopic level, but it didn't explain why. This supports Author 1's point that physicists still don't fully understand how things work at a microscopic level—maybe the laws need to be revised.",
+    "A": "Choice A is incorrect. We can't infer that the author of Text 1 would respond this way to the experiment. Text 2 does name two of the physicists involved in the experiment, but it never suggests that they disagree on anything.",
+    "C": "Choice C is incorrect. This is the opposite of what the experiment suggests. The experiment confirmed that the macroscopic-level law (\"these things can't be reversed—like time\") was still true on the microscopic level—meaning it supports the current understanding of physics at a macroscopic level.",
+    "D": "Choice D is incorrect. We can't infer that the author of Text 1 would respond this way to the experiment. Neither text makes this distinction between laboratory findings and the way the universe works in general."
+  }
+}

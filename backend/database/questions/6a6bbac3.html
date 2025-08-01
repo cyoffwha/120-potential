@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 6a6bbac3</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Number and Origin of Clamshell Tools Found at Different Levels Below the Surface in Neanderthal Cave</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Depth of tools found below surface in cave (meters)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Clamshells that Neanderthals collected from the beach</th><th scope="col" style="text-align: center; vertical-align: bottom;">Clamshells that Neanderthals harvested from the seafloor</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">3&ndash;4</th><td style="text-align: center;">99</td><td style="text-align: center;">33</td></tr><tr><th scope="row" style="text-align: left;">6&ndash;7</th><td style="text-align: center;">1</td><td style="text-align: center;">0</td></tr><tr><th scope="row" style="text-align: left;">4&ndash;5</th><td style="text-align: center;">2</td><td style="text-align: center;">0</td></tr><tr><th scope="row" style="text-align: left;">2&ndash;3</th><td style="text-align: center;">7</td><td style="text-align: center;">0</td></tr><tr><th scope="row" style="text-align: left;">5&ndash;6</th><td style="text-align: center;">18</td><td style="text-align: center;">7</td></tr></tbody></table></figure></p>
+<p>Studying tools unearthed at a cave site on the western coast of Italy, archaeologist Paola Villa and colleagues have determined that prehistoric Neanderthal groups fashioned them from shells of clams that they harvested from the seafloor while wading or diving or that washed up on the beach. Clamshells become thin and eroded as they wash up on the beach, while those on the seafloor are smooth and sturdy, so the research team suspects that Neanderthals prized the tools made with seafloor shells. However, the team also concluded that those tools were likely more challenging to obtain, noting that <span aria-hidden="true">______</span><span class="sr-only">blank</span> </p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the table to support the research team&rsquo;s conclusion?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>at each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that shells were easier to collect from the beach than to harvest from the seafloor.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the highest number of tools were at a depth of 3&ndash;4 meters below the surface, which suggests that the Neanderthal population at the site was highest during the related period of time.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>at each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that Neanderthals preferred to use clamshells from the beach because of their durability.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the higher number of tools at depths of 5&ndash;6 meters below the surface in the cave than at depths of 4&ndash;5 meters below the surface suggests that the size of clam populations changed over time.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most effectively uses data from the table to support the researchers&rsquo; conclusion about the harvesting of clamshells by Neanderthals for use as tools. The text explains that Neanderthals used clamshells to make tools and that the sturdiest, and therefore the most desirable, shells for this purpose are found on the seafloor, not on the beach. However, the researchers also concluded that the clamshell tools made from shells from the seafloor are rarer than those made from shells from the beach. Meanwhile the table shows that at each depth, the number of tools made from shells from the beach exceeds the number made from the more desirable shells from the seafloor. The fact that the more desirable shells are less common suggests that it was significantly more difficult to harvest shells from the seafloor than from the beach. </p><p>Choice B is incorrect because knowing which depth represents the period of time with the highest Neanderthal population does not help answer the question of why the Neanderthals consistently made more tools from the less desirable shells from the beach than they made from the more desirable shells from the seafloor. Choice C is incorrect because it claims that the beach shells are more durable than the seafloor shells, which contradicts the text&rsquo;s description of shells from the seafloor as smoother and sturdier than shells from the beach. Choice D is incorrect because knowing which depth has the most artifacts or whether the clam population fluctuated does not help explain why tools made from the less desirable shells from the beach outnumber tools made from the more desirable shells from the seafloor. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">35 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eat each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that shells were easier to collect from the beach than to harvest from the seafloor.\u0026nbsp;\u003c/p\u003e", "id": "9a842430-300d-485b-b509-5c6089cb65b1"}, {"content": "\u003cp\u003ethe highest number of tools were at a depth of 3\u0026ndash;4 meters below the surface, which suggests that the Neanderthal population at the site was highest during the related period of time.\u003c/p\u003e", "id": "b5010922-e356-4335-8d24-b2408bc7bd8e"}, {"content": "\u003cp\u003eat each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that Neanderthals preferred to use clamshells from the beach because of their durability.\u003c/p\u003e", "id": "f5d41b47-44b8-4f87-96da-a00d26658ed3"}, {"content": "\u003cp\u003ethe higher number of tools at depths of 5\u0026ndash;6 meters below the surface in the cave than at depths of 4\u0026ndash;5 meters below the surface suggests that the size of clam populations changed over time.\u003c/p\u003e", "id": "4cc598b2-03d5-43b2-ad02-a60bd56c8891"}], "correct_answer": ["A"], "externalid": "15e61784-d141-4360-95ad-6de4a72b0a0d", "keys": ["9a842430-300d-485b-b509-5c6089cb65b1"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-527-QUA", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most effectively uses data from the table to support the researchers\u0026rsquo; conclusion about the harvesting of clamshells by Neanderthals for use as tools. The text explains that Neanderthals used clamshells to make tools and that the sturdiest, and therefore the most desirable, shells for this purpose are found on the seafloor, not on the beach. However, the researchers also concluded that the clamshell tools made from shells from the seafloor are rarer than those made from shells from the beach. Meanwhile the table shows that at each depth, the number of tools made from shells from the beach exceeds the number made from the more desirable shells from the seafloor. The fact that the more desirable shells are less common suggests that it was significantly more difficult to harvest shells from the seafloor than from the beach. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because knowing which depth represents the period of time with the highest Neanderthal population does not help answer the question of why the Neanderthals consistently made more tools from the less desirable shells from the beach than they made from the more desirable shells from the seafloor. Choice C is incorrect because it claims that the beach shells are more durable than the seafloor shells, which contradicts the text\u0026rsquo;s description of shells from the seafloor as smoother and sturdier than shells from the beach. Choice D is incorrect because knowing which depth has the most artifacts or whether the clam population fluctuated does not help explain why tools made from the less desirable shells from the beach outnumber tools made from the more desirable shells from the seafloor. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the table to support the research team\u0026rsquo;s conclusion?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eNumber and Origin of Clamshell Tools Found at Different Levels Below the Surface in Neanderthal Cave\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eDepth of tools found below surface in cave (meters)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eClamshells that Neanderthals collected from the beach\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eClamshells that Neanderthals harvested from the seafloor\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e3\u0026ndash;4\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e99\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e33\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e6\u0026ndash;7\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e1\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e4\u0026ndash;5\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e2\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e2\u0026ndash;3\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e7\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e5\u0026ndash;6\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e18\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e7\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eStudying tools unearthed at a cave site on the western coast of Italy, archaeologist Paola Villa and colleagues have determined that prehistoric Neanderthal groups fashioned them from shells of clams that they harvested from the seafloor while wading or diving or that washed up on the beach. Clamshells become thin and eroded as they wash up on the beach, while those on the seafloor are smooth and sturdy, so the research team suspects that Neanderthals prized the tools made with seafloor shells. However, the team also concluded that those tools were likely more challenging to obtain, noting that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e \u003c/p\u003e", "templateclusterid": "fb2695d2-2f29-4b64-b2e8-d945f23723ce", "templateclustername": "", "type": "mcq", "vaultid": "db042d55-9e5e-462c-a60e-8fc69d801474"}, "createDate": 1691007959338, "difficulty": "H", "external_id": "15e61784-d141-4360-95ad-6de4a72b0a0d", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "6a6bbac3", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "196ad555-4d23-4bb9-955e-9ffd19ceaa6c", "updateDate": 1691007959338};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-6a6bbac3");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

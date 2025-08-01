@@ -1,0 +1,22 @@
+{
+  "question_id": "f868d438",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In 2018, the innovative works of Congolese sculptor and architect Bodys Isek ______ blank were featured in City Dreams , a solo exhibition at New York's Museum of Modern Art.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Kingelez;",
+    "Kingelez,",
+    "Kingelez",
+    "Kingelez:"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is punctuation between a subject and a verb. No punctuation is needed when the subject of a sentence is immediately followed by a main verb. In this case, the sentence's subject (\"the innovative works of Congolese sculptor and architect Bodys Isek Kingelez\") is followed by the main verb \"were featured,\" and no punctuation should come between them.",
+    "A": "Choice A is incorrect because no punctuation is needed between the subject and the verb.",
+    "B": "Choice B is incorrect because no punctuation is needed between the subject and the verb.",
+    "D": "Choice D is incorrect because no punctuation is needed between the subject and the verb."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "d6dec50e",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In 2019, Emily Shepard and colleagues in the UK and Germany studied the effect of wind on auks' success in landing at cliffside nesting sites. They found as wind conditions intensified, the birds needed more attempts in order to make a successful landing. When the wind was still, almost 100% of landing attempts were successful. In a strong breeze, approximately 40% of attempts were successful. In near-gale conditions, only around 20% of attempts were successful. The student wants to summarize the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to summarize the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "For a 2019 study, researchers from the UK and Germany collected data on auks&rsquo; attempts to land at cliffside nesting sites in different wind conditions.",
+    "Emily Shepard and her colleagues wanted to know the extent to which wind affected auks&rsquo; success in landing at cliffside nesting sites, so they conducted a study.",
+    "Knowing that auks often need multiple attempts to land at their cliffside nesting sites, Emily Shepard studied the birds&rsquo; success rate, which was only around 20% in some conditions.",
+    "Emily Shepard&rsquo;s 2019 study of auks&rsquo; success in landing at cliffside nesting sites showed that as wind conditions intensified, the birds&rsquo; success rate decreased."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence effectively summarizes the study, noting who conducted it, when it was conducted, and what its results showed: that auks' landing success rate decreased as wind conditions intensified.",
+    "A": "Choice A is incorrect. While the sentence presents the methodology of the study—that is, the approach taken by the researchers—it fails to summarize the study as a whole.",
+    "B": "Choice B is incorrect. While the sentence presents the aim, or goal, of the study, it fails to summarize the study as a whole.",
+    "C": "Choice C is incorrect. While the sentence indicates what Shepard studied, it fails to mention a key factor: the effect of wind. It thus fails to summarize the study as a whole."
+  }
+}

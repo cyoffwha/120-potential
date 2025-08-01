@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 96e5da01</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The alga species <em>Chlorella&nbsp;vulgaris</em> is very efficient at making oxygen. For this reason, scientists are currently exploring ways to use this species in space. <em>C. vulgaris</em> might be used, for example, to build future biological air exchange systems that <span aria-hidden="true">______</span><span class="sr-only">blank</span> oxygen for astronauts.&nbsp;</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>are producing</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>produced</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>produce</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>have produced</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The convention being tested is the use of verbs to express tense. Simple present tense verbs can be used to describe actions that tend to occur, including in a hypothetical or future scenario. In this case, the simple present tense verb &ldquo;produce&rdquo; indicates what the air exchange systems might be able to do in the future (produce oxygen for astronauts). </p><p>Choice A is incorrect. The present progressive tense verb &ldquo;are producing&rdquo; suggests that the oxygen is currently being produced, not that it might be produced in the future. Choice B is incorrect because the past tense verb &ldquo;produced&rdquo; suggests that the oxygen was produced in the past, not that it might be produced in the future. Choice D is incorrect because the present perfect tense verb &ldquo;have produced&rdquo; suggests that the oxygen has been produced from a point in the past up to the present, not that it might be produced in the future. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">932 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eare producing\u003c/p\u003e", "id": "42faf7ac-25a7-455f-bad9-fd535361f665"}, {"content": "\u003cp\u003eproduced\u003c/p\u003e", "id": "4e747732-00fe-4381-b645-0c24515102f2"}, {"content": "\u003cp\u003eproduce\u003c/p\u003e", "id": "b7ae82d7-cb6d-412d-bd38-56d07df689eb"}, {"content": "\u003cp\u003ehave produced\u003c/p\u003e", "id": "76939e6b-2953-4917-bc16-e50a9952d50c"}], "correct_answer": ["C"], "externalid": "68710ed9-7d5e-4481-a404-a05d65bf8a01", "keys": ["b7ae82d7-cb6d-412d-bd38-56d07df689eb"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-715-SEC", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The convention being tested is the use of verbs to express tense. Simple present tense verbs can be used to describe actions that tend to occur, including in a hypothetical or future scenario. In this case, the simple present tense verb \u0026ldquo;produce\u0026rdquo; indicates what the air exchange systems might be able to do in the future (produce oxygen for astronauts). \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The present progressive tense verb \u0026ldquo;are producing\u0026rdquo; suggests that the oxygen is currently being produced, not that it might be produced in the future. Choice B is incorrect because the past tense verb \u0026ldquo;produced\u0026rdquo; suggests that the oxygen was produced in the past, not that it might be produced in the future. Choice D is incorrect because the present perfect tense verb \u0026ldquo;have produced\u0026rdquo; suggests that the oxygen has been produced from a point in the past up to the present, not that it might be produced in the future. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe alga species \u003cem\u003eChlorella\u0026nbsp;vulgaris\u003c/em\u003e is very efficient at making oxygen. For this reason, scientists are currently exploring ways to use this species in space. \u003cem\u003eC. vulgaris\u003c/em\u003e might be used, for example, to build future biological air exchange systems that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e oxygen for astronauts.\u0026nbsp;\u003c/p\u003e", "templateclusterid": "784fbd8e-464e-436e-a0f2-4979eabc1630", "templateclustername": "", "type": "mcq", "vaultid": "7681851c-f4a9-40f3-966e-a2493c80a4d7"}, "createDate": 1691007959348, "difficulty": "E", "external_id": "68710ed9-7d5e-4481-a404-a05d65bf8a01", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "96e5da01", "score_band_range_cd": 2, "skill_cd": "FSS", "skill_desc": "Form, Structure, and Sense", "uId": "f8f028b2-5318-43b0-95b0-815f6fa9a7a5", "updateDate": 1691007959348};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-96e5da01");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

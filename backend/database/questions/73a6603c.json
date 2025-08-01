@@ -1,0 +1,22 @@
+{
+  "question_id": "73a6603c",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "On sunny days, dark rooftops absorb solar energy and convert it to unwanted heat, raising the surrounding air ______ blank a light-colored covering to an existing dark roof, either by attaching prefabricated reflective sheets or spraying on a paint-like coating, helps combat this effect.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "temperature; by adding",
+    "temperature, adding",
+    "temperature. Adding",
+    "temperature by adding"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between the first sentence (\"On&hellip;temperature\") and the second sentence (\"Adding&hellip;effect\"). The gerund phrase beginning with \"adding\" is the subject of the second sentence, and the verb phrase \"helps combat this effect\" describes what adding a light-colored covering can do.",
+    "A": "Choice A is incorrect because a semicolon can't be used in this way to join the sentence \"On...temperature\" and the supplementary phrases that follow. Doing so leaves the verb phrase \"helps combat\" without a subject and thus results in a grammatically unconventional sentence.",
+    "B": "Choice B is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences.",
+    "D": "Choice D is incorrect. This choice results in a confusing and illogical sentence that suggests that adding a light-colored covering to an existing dark roof raises the temperature of the surrounding air. Furthermore, it creates ambiguity by leaving the verb phrase \"helps combat\" without a subject (so it isn't clear what helps combat the effect)."
+  }
+}

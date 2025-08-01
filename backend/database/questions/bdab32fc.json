@@ -1,0 +1,22 @@
+{
+  "question_id": "bdab32fc",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Cucurbits, a group of plants that includes squash and melons, relied on mastodons to spread their seeds in the Ice Age. When these animals died out, cucurbits faced extinction in turn, having lost their means of seed dispersal. Around this time, however, the ancestors of Indigenous peoples in North America began raising cucurbits as crops, thus ______ blank the plants' survival.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "verifying",
+    "multiplying",
+    "comforting",
+    "ensuring"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of cucurbits. In this context, \"ensuring\" means guaranteeing, or making sure of, the cucurbits' survival. The text states that cucurbits faced extinction in the past because their means of seed dispersal disappeared, but the ancestors of Indigenous peoples in North America began farming cucurbits around that same time, so the crops were no longer threatened. Therefore, the context supports the idea that the ancestors of Indigenous peoples in North America helped with ensuring the cucurbits' survival.",
+    "A": "Choice A is incorrect because in this context verifying means making sure that something is accurate. In the text, the ancestors of Indigenous peoples in North America were ensuring the survival, not the accuracy of, the cucurbits.",
+    "B": "Choice B is incorrect. Although the cucurbit crops themselves were multiplying, or growing in number, as a result of the work of the ancestors of Indigenous peoples in North America, it wouldn't make sense in context to say that the survival of the plants was multiplying.",
+    "C": "Choice C is incorrect because according to the text, in raising cucurbits as crops, the ancestors of Indigenous peoples in North America were attempting to help the plants grow and survive; they weren't attempting to comfort, or free the plants from pain."
+  }
+}

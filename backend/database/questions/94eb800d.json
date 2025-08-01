@@ -1,0 +1,22 @@
+{
+  "question_id": "94eb800d",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "For a 2020 exhibition, photographer and neurobiologist Okunola Jeyifous ______ blank a series of new images based on a series of alphabet posters from the 1970s known as the \"Black ABCs,\" which featured Black children from Chicago. Jeyifous photographed the now-adult models and layered the photos over magnified images of the models' cells, resulting in what he called \"micro and macro portraiture.\"",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "validated",
+    "created",
+    "challenged",
+    "restored"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically and precisely completes the text's discussion of Jeyifous's series of images for the 2020 exhibition. In this context, \"created\" means produced. The text explains that Jeyifous, a photographer and neurobiologist, photographed adults who had appeared as children in posters from the 1970s, then combined those photographs with magnified images of the adults' cells—a process that resulted in what he called \"micro and macro portraiture.\" This context suggests that Jeyifous drew on his dual interests in photography and neurobiology to produce the images for display in the exhibition.",
+    "A": "Choice A is incorrect because there's nothing in the text to suggest that Jeyifous \"validated,\" or corroborated, the series of images. The text describes Jeyifous's process for composing the images but doesn't describe Jeyifous making an effort to evaluate the images for their artistic or scientific legitimacy.",
+    "C": "Choice C is incorrect because there's nothing in the text to suggest that Jeyifous \"challenged,\" or disputed, an aspect of the images; rather, the focus of the text is on the inspiration behind the images and the method Jeyifous used to achieve them.",
+    "D": "Choice D is incorrect because the text indicates that Jeyifous made the images himself using a combination of photography and magnified pictures of cells, not that he \"restored,\" or reconditioned, the images from a deteriorated state."
+  }
+}

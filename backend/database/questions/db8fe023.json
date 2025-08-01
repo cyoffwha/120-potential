@@ -1,0 +1,22 @@
+{
+  "question_id": "db8fe023",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "A potter choosing which type of clay to use for a piece considers two key factors: the desired look of the piece and its intended use. ______ blank earthenware clay is often used for decorative pieces because of its rustic look. This type of clay is not often used in industrial settings, though, because it is less durable than other clays.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "In other words,",
+    "Regardless,",
+    "In conclusion,",
+    "For example,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The previous sentence tells us that potters think about the look and use of a piece when selecting clay. This sentence provides a specific example of a type of clay selected for its appearance, so the transition \"for example\" fits perfectly.",
+    "A": "Choice A is incorrect. This choice uses a transition that indicates a restatement of the same idea. But this sentence does more than just restate the previous idea. Instead, it provides a more specific example of the idea presented in the first sentence.",
+    "B": "Choice B is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with the previous sentence. Both sentences suggest that desired look plays a role in the selection of clay types for pottery pieces.",
+    "C": "Choice C is incorrect. This choice uses a concluding transition. But this sentence doesn't sum up the previous sentence. Instead, it gives a specific example of the idea presented in the previous sentence."
+  }
+}

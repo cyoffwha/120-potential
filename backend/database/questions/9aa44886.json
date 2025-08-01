@@ -1,0 +1,22 @@
+{
+  "question_id": "9aa44886",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is from F. Scott Fitzgerald's 1925 novel The Great Gatsby . [Jay Gatsby] was balancing himself on the dashboard of his car with that resourcefulness of movement that is so peculiarly American—that comes, I suppose, with the absence of lifting work in youth and, even more, with the formless grace of our nervous, sporadic games. This quality was continually breaking through his punctilious manner in the shape of restlessness. As used in the text, what does the word \"quality\" most nearly mean?",
+  "question_text": "As used in the text, what does the word &ldquo;quality&rdquo; most nearly mean?",
+  "answer_options": [
+    "Standard",
+    "Prestige",
+    "Characteristic",
+    "Accomplishment"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"This quality\" refers to Gatsby's \"resourcefulness of movement,\" which is described as a characteristic or trait of his.",
+    "A": "Choice A is incorrect. This isn't what \"quality\" means in this context. Here, \"this quality\" refers to Gatsby's \"resourcefulness of movement,\" which is described as a characteristic or trait of his. \"Standard\" is a synonym for a different definition of \"quality\": the degree of excellence of something.",
+    "B": "Choice B is incorrect. This isn't what \"quality\" means in this context. Here, \"this quality\" refers to Gatsby's \"resourcefulness of movement,\" which is described as a characteristic or trait of his. \"Prestige\" would suggest a high status or an admirable reputation, which doesn't match that description.",
+    "D": "Choice D is incorrect. This isn't what \"quality\" means in this context. Here, \"this quality\" refers to Gatsby's \"resourcefulness of movement,\" which is described as a characteristic or trait of his. \"Accomplishment\" would suggest an achievement, which doesn't match that description."
+  }
+}

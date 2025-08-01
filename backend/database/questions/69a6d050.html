@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 69a6d050</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In the early 1800s, the Cherokee scholar Sequoyah created the first script, or writing system, for an Indigenous language in the United States. Because it represented the sounds of spoken Cherokee so accurately, his script was easy to learn and thus quickly achieved <span aria-hidden="true">______</span><span class="sr-only">blank</span> use: by 1830, over 90 percent of the Cherokee people could read and write it.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>widespread</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>careful</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>unintended</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>infrequent</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most logically completes the text&rsquo;s discussion of the writing system created by Sequoyah. In this context, &ldquo;widespread&rdquo; means widely accepted or practiced. The text indicates that because Sequoyah&rsquo;s script accurately represented the spoken sounds of the Cherokee language and was easy to learn, nearly all Cherokee people were able to read and write it soon after it was created. This context demonstrates that the script was widely used by the Cherokee people. </p><p>Choice B is incorrect. In this context, &ldquo;careful&rdquo; would mean exercised with care and attentive concern. Although the work of creating a writing system likely involved great care, the text indicates that the system was &ldquo;easy to learn,&rdquo; which conflicts with the idea that using this system requires a noteworthy amount of care. Choice C is incorrect because in this context &ldquo;unintended&rdquo; means not deliberate. The idea that using Sequoyah&rsquo;s script was unintentional conflicts directly with the claim that it was easy to learn and used by &ldquo;over 90% of the Cherokee people&rdquo; by 1830. In fact, because one had to learn this system, it&rsquo;s not clear how one could use it unintentionally.&nbsp;Choice D is incorrect because in this context &ldquo;infrequent&rdquo; means rare or not occurring often, which conflicts directly with the claim that &ldquo;over 90% of the Cherokee people&rdquo; were using Sequoyah&rsquo;s script by 1830. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">335 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ewidespread\u003c/p\u003e", "id": "56896059-82bb-441a-8009-7c15c7122d9b"}, {"content": "\u003cp\u003ecareful\u003c/p\u003e", "id": "d9f5af1e-dd68-46ed-a755-dbdbc703db2e"}, {"content": "\u003cp\u003eunintended\u003c/p\u003e", "id": "67f44715-acb7-4520-ae75-044a708a1b6e"}, {"content": "\u003cp\u003einfrequent\u003c/p\u003e", "id": "87cd2369-5cb8-4487-89de-36013382780f"}], "correct_answer": ["A"], "externalid": "5c87b72d-e67b-4861-bd6c-49c722059c99", "keys": ["56896059-82bb-441a-8009-7c15c7122d9b"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-973-WIC", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most logically completes the text\u0026rsquo;s discussion of the writing system created by Sequoyah. In this context, \u0026ldquo;widespread\u0026rdquo; means widely accepted or practiced. The text indicates that because Sequoyah\u0026rsquo;s script accurately represented the spoken sounds of the Cherokee language and was easy to learn, nearly all Cherokee people were able to read and write it soon after it was created. This context demonstrates that the script was widely used by the Cherokee people. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. In this context, \u0026ldquo;careful\u0026rdquo; would mean exercised with care and attentive concern. Although the work of creating a writing system likely involved great care, the text indicates that the system was \u0026ldquo;easy to learn,\u0026rdquo; which conflicts with the idea that using this system requires a noteworthy amount of care. Choice C is incorrect because in this context \u0026ldquo;unintended\u0026rdquo; means not deliberate. The idea that using Sequoyah\u0026rsquo;s script was unintentional conflicts directly with the claim that it was easy to learn and used by \u0026ldquo;over 90% of the Cherokee people\u0026rdquo; by 1830. In fact, because one had to learn this system, it\u0026rsquo;s not clear how one could use it unintentionally.\u0026nbsp;Choice D is incorrect because in this context \u0026ldquo;infrequent\u0026rdquo; means rare or not occurring often, which conflicts directly with the claim that \u0026ldquo;over 90% of the Cherokee people\u0026rdquo; were using Sequoyah\u0026rsquo;s script by 1830. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn the early 1800s, the Cherokee scholar Sequoyah created the first script, or writing system, for an Indigenous language in the United States. Because it represented the sounds of spoken Cherokee so accurately, his script was easy to learn and thus quickly achieved \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e use: by 1830, over 90 percent of the Cherokee people could read and write it.\u003c/p\u003e", "templateclusterid": "b7ff5eb8-1c7c-49ed-9d2e-10a5932a18cb", "templateclustername": "", "type": "mcq", "vaultid": "ae978922-c3e6-4b41-a284-50c3c7175a14"}, "createDate": 1691007959357, "difficulty": "E", "external_id": "5c87b72d-e67b-4861-bd6c-49c722059c99", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "69a6d050", "score_band_range_cd": 2, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "28f0debd-7227-4f97-a465-bc7e88859f0c", "updateDate": 1691007959357};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-69a6d050");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

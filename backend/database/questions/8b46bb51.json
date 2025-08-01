@@ -1,0 +1,22 @@
+{
+  "question_id": "8b46bb51",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "A journalist and well-respected art critic of nineteenth-century Britain, Lady Elizabeth Rigby Eastlake did not hesitate to publish reviews that went against popular opinion. One of her most divisive works was an essay questioning the idea of photography as an emerging medium for fine art: in the essay, Eastlake ______ blank that the value of photographs was informational rather than creative.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "exposed",
+    "asserted",
+    "discovered",
+    "doubted"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Asserted\" means \"stated confidently.\" Eastlake \"did not hesitate to publish reviews going against popular opinion,\" so we can assume that she was confident in sharing her opinions.",
+    "A": "Choice A is incorrect. \"Exposed\" means \"made visible by uncovering\" and, when talking about ideas, tends to be used in relation to uncovering the truth. Eastlake was sharing an opinion, not uncovering a truth.",
+    "C": "Choice C is incorrect. \"Discovered\" means \"found,\" but Eastlake was writing an opinion essay. She was writing her own opinion, not \"discovering\" a new universal truth.",
+    "D": "Choice D is incorrect. \"Doubted\" means \"didn't believe in.\" We're told that Eastlake \"questioned\" the idea that photography could be fine art. Placing \"doubted\" in the blank would actually suggest that Eastlake argued that photos were valuable for creativity and not for information, which is the opposite of what we were told she believes."
+  }
+}

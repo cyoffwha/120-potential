@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 8545ccfe</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Icebergs generally appear to be mostly white or blue, depending on how the ice reflects sunlight. Ice with air bubbles trapped in it looks white because much of the light reflects off the bubbles. Ice without air bubbles usually looks blue because the light travels deep into the ice and only a little of it is reflected. However, some icebergs in the sea around Antarctica appear to be green. One team of scientists hypothesized that this phenomenon is the result of yellow-tinted dissolved organic carbon in Antarctic waters mixing with blue ice to produce the color green.</p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most directly weaken the team&rsquo;s hypothesis?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>White ice doesn&rsquo;t change color when mixed with dissolved organic carbon due to the air bubbles in the ice.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Dissolved organic carbon has a stronger yellow color in Antarctic waters than it does in other places.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Blue icebergs and green icebergs are rarely found near each other.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Blue icebergs and green icebergs contain similarly small traces of dissolved organic carbon.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it presents a finding that, if true, would weaken the scientists&rsquo; hypothesis about icebergs that appear to be green. The text indicates that most icebergs are either mostly white or blue in color but that some icebergs in Antarctica appear to be green. The text goes on to say that the scientists hypothesized that this green color occurs when yellow-tinted dissolved organic carbon in ocean waters mixes with blue ice. A finding that both blue icebergs and green icebergs contain similarly small traces of dissolved organic carbon would suggest that something other than yellow-tinted organic carbon causes some icebergs&rsquo; green color, since the blue icebergs that contain yellow-tinted organic carbon remained blue instead of turning green. </p><p>Choice A is incorrect because, according to the text, the scientists&rsquo; hypothesis was that blue icebergs, not white ones, change color when their ice mixes with yellow-tinted dissolved organic carbon. A finding that white ice,&nbsp;because of its air bubbles, doesn&rsquo;t change color when it&rsquo;s mixed with dissolved organic carbon would therefore have no bearing on the scientists&rsquo; hypothesis. Choice B is incorrect because the text focuses only on Antarctic icebergs that appear to be green. It doesn&rsquo;t indicate that icebergs in locations other than Antarctica have been found to have a green hue. A finding that dissolved organic carbon has a stronger yellow color in Antarctic waters than in other places would therefore have no bearing on the scientists&rsquo; hypothesis that green color in icebergs in Antarctica is caused by yellow-tinted dissolved organic carbon mixing with blue ice. Choice C is incorrect because, according to the text, the scientists&rsquo; hypothesis was that blue icebergs turn green when their ice mixes with yellow-tinted dissolved organic carbon in the sea around them. If that&rsquo;s correct, one would expect blue icebergs and green icebergs to be located at a distance from each other since all blue icebergs in an area where the waters contain yellow-tinted dissolved organic carbon would take on a green hue. A finding that blue icebergs and green icebergs are rarely found near each other would therefore strengthen, not weaken, the researchers&rsquo; hypothesis. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">104 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eWhite ice doesn\u0026rsquo;t change color when mixed with dissolved organic carbon due to the air bubbles in the ice.\u003c/p\u003e", "id": "df60e40f-7c78-4ae9-b198-957403ae18ef"}, {"content": "\u003cp\u003eDissolved organic carbon has a stronger yellow color in Antarctic waters than it does in other places.\u003c/p\u003e", "id": "092b7655-ec89-40c2-83df-cdb49e852db8"}, {"content": "\u003cp\u003eBlue icebergs and green icebergs are rarely found near each other.\u003c/p\u003e", "id": "a3c5224b-36ed-4904-b046-cc790b5ff3f9"}, {"content": "\u003cp\u003eBlue icebergs and green icebergs contain similarly small traces of dissolved organic carbon.\u003c/p\u003e", "id": "819d6078-7380-485e-ae00-ceacf772bf4a"}], "correct_answer": ["D"], "externalid": "54eed2e9-47bc-4ec4-a3ea-81d4a8cf0a81", "keys": ["819d6078-7380-485e-ae00-ceacf772bf4a"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-327-TXT", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it presents a finding that, if true, would weaken the scientists\u0026rsquo; hypothesis about icebergs that appear to be green. The text indicates that most icebergs are either mostly white or blue in color but that some icebergs in Antarctica appear to be green. The text goes on to say that the scientists hypothesized that this green color occurs when yellow-tinted dissolved organic carbon in ocean waters mixes with blue ice. A finding that both blue icebergs and green icebergs contain similarly small traces of dissolved organic carbon would suggest that something other than yellow-tinted organic carbon causes some icebergs\u0026rsquo; green color, since the blue icebergs that contain yellow-tinted organic carbon remained blue instead of turning green. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because, according to the text, the scientists\u0026rsquo; hypothesis was that blue icebergs, not white ones, change color when their ice mixes with yellow-tinted dissolved organic carbon. A finding that white ice,\u0026nbsp;because of its air bubbles, doesn\u0026rsquo;t change color when it\u0026rsquo;s mixed with dissolved organic carbon would therefore have no bearing on the scientists\u0026rsquo; hypothesis. Choice B is incorrect because the text focuses only on Antarctic icebergs that appear to be green. It doesn\u0026rsquo;t indicate that icebergs in locations other than Antarctica have been found to have a green hue. A finding that dissolved organic carbon has a stronger yellow color in Antarctic waters than in other places would therefore have no bearing on the scientists\u0026rsquo; hypothesis that green color in icebergs in Antarctica is caused by yellow-tinted dissolved organic carbon mixing with blue ice. Choice C is incorrect because, according to the text, the scientists\u0026rsquo; hypothesis was that blue icebergs turn green when their ice mixes with yellow-tinted dissolved organic carbon in the sea around them. If that\u0026rsquo;s correct, one would expect blue icebergs and green icebergs to be located at a distance from each other since all blue icebergs in an area where the waters contain yellow-tinted dissolved organic carbon would take on a green hue. A finding that blue icebergs and green icebergs are rarely found near each other would therefore strengthen, not weaken, the researchers\u0026rsquo; hypothesis. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most directly weaken the team\u0026rsquo;s hypothesis?\u003c/p\u003e", "stimulus": "\u003cp\u003eIcebergs generally appear to be mostly white or blue, depending on how the ice reflects sunlight. Ice with air bubbles trapped in it looks white because much of the light reflects off the bubbles. Ice without air bubbles usually looks blue because the light travels deep into the ice and only a little of it is reflected. However, some icebergs in the sea around Antarctica appear to be green. One team of scientists hypothesized that this phenomenon is the result of yellow-tinted dissolved organic carbon in Antarctic waters mixing with blue ice to produce the color green.\u003c/p\u003e", "templateclusterid": "92a06b12-644b-4ff9-aea8-8b35605db89b", "templateclustername": "", "type": "mcq", "vaultid": "55ed21e1-f4fb-488b-977e-7b4cb13ed892"}, "createDate": 1691007959335, "difficulty": "H", "external_id": "54eed2e9-47bc-4ec4-a3ea-81d4a8cf0a81", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "8545ccfe", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "52b359f7-68b9-4861-9678-0b034955b8b4", "updateDate": 1691007959335};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-8545ccfe");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

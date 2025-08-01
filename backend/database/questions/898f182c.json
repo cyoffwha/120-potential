@@ -1,0 +1,22 @@
+{
+  "question_id": "898f182c",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Richard Spikes was a prolific African American inventor known for his contributions to automotive engineering. Between 1907 and 1946, he patented many inventions, ______ blank an automobile turn signal, a safety brake, and—most famously—the first automatic gearshift.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "included",
+    "includes",
+    "including",
+    "will include"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of nonfinite verb forms within a sentence. The nonfinite present participle \"including\" is correctly used to form a participial phrase that supplements the main clause \"he patented many inventions,\" listing several of Spikes's patented inventions.",
+    "A": "Choice A is incorrect because the finite past tense verb \"included\" can't be used in this way to supplement the main clause \"he patented many inventions.\"",
+    "B": "Choice B is incorrect because the finite present tense verb \"includes\" can't be used in this way to supplement the main clause \"he patented many inventions.\"",
+    "D": "Choice D is incorrect because the finite future tense verb \"will include\" can't be used in this way to supplement the main clause \"he patented many inventions.\""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "602b47c7",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Biologists have predicted that birds' feather structures vary with habitat temperature, but this hadn't been tested in mountain environments. Ornithologist Sahas Barve studied feathers from 249 songbird species inhabiting different elevations—and thus experiencing different temperatures—in the Himalaya Mountains. He found that feathers of high-elevation species not only have a greater proportion of warming downy sections to flat and smooth sections than do feathers of low-elevation species, but high-elevation species' feathers also tend to be longer, providing a thicker layer of insulation.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Barve&rsquo;s investigation shows that some species of Himalayan songbirds have evolved feathers that better regulate body temperature than do the feathers of other species, contradicting previous predictions.",
+    "Barve found an association between habitat temperature and feather structure among Himalayan songbirds, lending new support to a general prediction.",
+    "Barve discovered that songbirds have adapted to their environment by growing feathers without flat and smooth sections, complicating an earlier hypothesis.",
+    "The results of Barve&rsquo;s study suggest that the ability of birds to withstand cold temperatures is determined more strongly by feather length than feather structure, challenging an established belief."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The text describes how Barve found an association between habitat temperature and feather structure among Himalayan songbirds, which supports the general prediction that birds' feather structures vary with habitat temperature.",
+    "A": "Choice A is incorrect. Barve's study isn't said to contradict previous predictions. In fact, the study supports the prediction described in the first sentence, which is that birds' feather structures vary with habitat temperature.",
+    "C": "Choice C is incorrect. Barve's study isn't said to \"complicate an earlier hypothesis.\" In fact, the study supports the earlier prediction described in the first sentence, which is that birds' feather structures vary with habitat temperature.",
+    "D": "Choice D is incorrect. The text doesn't compare the importance of feather length and feather structure, and it doesn't say that Barve's study challenges any established beliefs. In fact, the study supports the prediction described in the first sentence, which is that birds' feather structures vary with habitat temperature."
+  }
+}

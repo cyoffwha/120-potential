@@ -1,0 +1,22 @@
+{
+  "question_id": "89fbc3eb",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The Mission 66 initiative, which was approved by Congress in 1956, represented a major investment in the infrastructure of overburdened national ______ blank it prioritized physical improvements to the parks' roads, utilities, employee housing, and visitor facilities while also establishing educational programming for the public.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "parks and",
+    "parks",
+    "parks;",
+    "parks,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the coordination of main clauses within a sentence. This choice uses a semicolon to correctly join the first main clause (\"The Mission&hellip;parks\") and the second main clause that begins with \"it.\"",
+    "A": "Choice A is incorrect. When coordinating two longer main clauses such as these, it's conventional to use a comma before the coordinating conjunction.",
+    "B": "Choice B is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction.",
+    "D": "Choice D is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses."
+  }
+}

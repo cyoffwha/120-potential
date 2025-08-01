@@ -1,0 +1,22 @@
+{
+  "question_id": "81ac953e",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1899, Swedish chemist Svante Arrhenius developed an equation to answer a long-standing question: why do chemical reactions speed up at higher temperatures? The Arrhenius equation, named for its creator, ______ blank an important concept in modern chemistry.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "have remained",
+    "remain",
+    "remains",
+    "are remaining"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. This choice uses the singular verb \"remains\" to match the singular subject \"equation.\"",
+    "A": "Choice A is incorrect. The singular noun \"equation\" doesn't match with the plural verb conjugation \"have remained.\"",
+    "B": "Choice B is incorrect. The singular noun \"equation\" doesn't match with the plural verb conjugation \"remain.\"",
+    "D": "Choice D is incorrect. The singular noun \"equation\" doesn't match with the plural verb conjugation \"are remaining.\""
+  }
+}

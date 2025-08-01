@@ -1,0 +1,22 @@
+{
+  "question_id": "fff4c7f4",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "American poet Emily Dickinson wrote many of her poems on scraps of paper, but she also took steps to collect these works. From 1858 to around 1864, for example, she copied more than 800 of ______ blank into forty homemade booklets (known as fascicles).",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "them",
+    "this",
+    "that",
+    "it"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The pronoun \"them\" agrees with the plural antecedents \"poems\" and \"works.\"",
+    "B": "Choice B is incorrect. \"This\" is a singular pronoun, but its antecedents, \"poems\" and \"works,\" are plural.",
+    "C": "Choice C is incorrect. \"That\" is a singular pronoun, but its antecedents, \"poems\" and \"works,\" are plural.",
+    "D": "Choice D is incorrect. \"It\" is a singular pronoun, but its antecedents, \"poems\" and \"works,\" are plural."
+  }
+}

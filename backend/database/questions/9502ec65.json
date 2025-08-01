@@ -1,0 +1,22 @@
+{
+  "question_id": "9502ec65",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "When soil becomes contaminated by toxic metals, it can be removed from the ground and disposed of in a landfill. ______ blank contaminated soil can be detoxified via phytoremediation: plants that can withstand high concentrations of metals absorb the pollutants and store them in their shoots, which are then cut off and safely disposed of, preserving the health of the plants.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Alternatively,",
+    "Specifically,",
+    "For example,",
+    "As a result,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Alternatively\" logically signals that the soil decontamination method described in this sentence—removing toxic metals from the soil via phytoremediation—offers an alternative to the previously described method (removing the contaminated soil from the ground).",
+    "B": "Choice B is incorrect because \"specifically\" illogically signals that the soil decontamination method described in this sentence specifies or elaborates on an aspect of the previously described method (removing the contaminated soil from the ground). Instead, phytoremediation is an alternative to that method.",
+    "C": "Choice C is incorrect because \"for example\" illogically signals that the soil decontamination method described in this sentence is an example of the previously described method (removing the contaminated soil from the ground). Instead, phytoremediation is an alternative to that method.",
+    "D": "Choice D is incorrect because \"as a result\" illogically signals that the soil decontamination method described in this sentence is a result or consequence of the previously described method (removing the contaminated soil from the ground). Instead, phytoremediation is an alternative to that method."
+  }
+}

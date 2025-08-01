@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question f6352bd3</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Many archaeologists assume that large-scale engineering projects in ancient societies required an elite class to plan and direct the necessary labor. However, recent discoveries, such as the excavation of an ancient canal near the Gulf Coast of Alabama, have complicated this picture. Using radiocarbon dating, a team of researchers concluded that the 1.39-kilometer-long canal was most likely constructed between 576 and 650 CE by an Indigenous society that was relatively free of social classes.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes the overall structure of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It describes a common view among archaeologists, then discusses a recent finding that challenges that view.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It outlines a method used in some archaeological fieldwork, then explains why an alternative method is superior to it.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It presents contradictory conclusions drawn by archaeologists, then evaluates a study that has&nbsp;apparently resolved that contradiction.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It identifies a gap in scientific research, then presents a strategy used by some archaeologists to remedy that gap.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The text starts by introducing a common view among archaeologists about the need for an elite class to direct large-scale engineering projects. Then, it discusses the discovery of a large canal most likely built by a society without an elite class, which challenges the first view. </p><p>Choice B is incorrect. Although the text discusses carbon dating as an archaeological method, it doesn&rsquo;t compare it to any other alternative methods. Choice C is incorrect. The study doesn&rsquo;t resolve any contradictions&mdash;rather, it introduces a contradiction to the one view presented at the beginning of the text. Choice D is incorrect. The text never identifies any gaps in scientific research. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">526 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt describes a common view among archaeologists, then discusses a recent finding that challenges that view.\u003c/p\u003e", "id": "233a37a0-e40e-429f-9a18-c5d36cc0f5ad"}, {"content": "\u003cp\u003eIt outlines a method used in some archaeological fieldwork, then explains why an alternative method is superior to it.\u003c/p\u003e", "id": "2cc86379-09e9-48e6-b59b-81fbd4c5e340"}, {"content": "\u003cp\u003eIt presents contradictory conclusions drawn by archaeologists, then evaluates a study that has\u0026nbsp;apparently resolved that contradiction.\u003c/p\u003e", "id": "22ac807e-46e2-4166-add6-818ec067d4bf"}, {"content": "\u003cp\u003eIt identifies a gap in scientific research, then presents a strategy used by some archaeologists to remedy that gap.\u003c/p\u003e", "id": "8234524a-64d2-498d-98ce-96c7f4c21fe1"}], "correct_answer": ["A"], "externalid": "ebb77a60-e6b5-4ca3-87c8-43e60cef57ed", "keys": ["233a37a0-e40e-429f-9a18-c5d36cc0f5ad"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TSP-M009", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The text starts by introducing a common view among archaeologists about the need for an elite class to direct large-scale engineering projects. Then, it discusses the discovery of a large canal most likely built by a society without an elite class, which challenges the first view. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. Although the text discusses carbon dating as an archaeological method, it doesn\u0026rsquo;t compare it to any other alternative methods. Choice C is incorrect. The study doesn\u0026rsquo;t resolve any contradictions\u0026mdash;rather, it introduces a contradiction to the one view presented at the beginning of the text. Choice D is incorrect. The text never identifies any gaps in scientific research. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes the overall structure of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eMany archaeologists assume that large-scale engineering projects in ancient societies required an elite class to plan and direct the necessary labor. However, recent discoveries, such as the excavation of an ancient canal near the Gulf Coast of Alabama, have complicated this picture. Using radiocarbon dating, a team of researchers concluded that the 1.39-kilometer-long canal was most likely constructed between 576 and 650 CE by an Indigenous society that was relatively free of social classes.\u003c/p\u003e", "templateclusterid": "72a2badd-5b52-455e-b4b0-e2bcd00e5add", "templateclustername": "", "type": "mcq", "vaultid": "b1beeb7e-e072-40ba-b147-26ad76948ef1"}, "createDate": 1691007959375, "difficulty": "M", "external_id": "ebb77a60-e6b5-4ca3-87c8-43e60cef57ed", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "f6352bd3", "score_band_range_cd": 4, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "eb155e60-62a3-4056-846e-5ccb9c6d3ff2", "updateDate": 1691007959375};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-f6352bd3");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

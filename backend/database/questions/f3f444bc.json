@@ -1,0 +1,22 @@
+{
+  "question_id": "f3f444bc",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Many mosquito repellents contain natural components that work by activating multiple odor receptors on mosquitoes' antennae. As the insects develop resistance, new repellents are needed. Ke Dong and her team found that EBF, a molecular component of a chrysanthemum-flower extract, can repel mosquitoes by activating just one odor receptor—and this receptor, Or31, is present in all mosquito species known to carry diseases. Therefore, the researchers suggest that in developing new repellents, it would be most useful to ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "identify molecular components similar to EBF that target the activation of Or31 receptors.",
+    "investigate alternative methods for extracting EBF molecules from chrysanthemums.",
+    "verify the precise locations of Or31 and other odor receptors on mosquitoes&rsquo; antennae.",
+    "determine the maximum number of different odor receptors that can be activated by a single molecule."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of mosquito repellents. The text begins by explaining that many repellents work by using natural components to active multiple odor receptors on mosquitoes' antennae, and that new repellents must be created whenever mosquitoes become resistant to older ones. The text then highlights a research team's discovery that EBF, a molecular component of a chrysanthemum-flower extract, can repel mosquitoes by activating a single odor receptor, Or31, that is shared by all species of mosquitoes known to carry diseases. The text suggests that compared to the repellents mentioned earlier, a repellent that acts on the Or31 receptor would be more effective: by noting that all mosquito species known to carry diseases share the Or31 receptor, the text suggests that the Or31 receptor may be unique in this respect, meaning that a repellent such as EBF that acts on it would be more effective since it works on a single receptor shared by all mosquito species that carry diseases, rather than a combination of receptors that is not shared by all species. Once mosquitoes become resistant to EBF, it would therefore make sense for researchers to look for other molecular components similar to EBF that target the activation of Or31 receptors, since a single such component could also repel all disease-carrying mosquitoes.",
+    "B": "Choice B is incorrect because nothing in the text suggests that EBF molecules are difficult to extract from chrysanthemums and that investigating alternative extraction methods would therefore be useful for developing efficient and effective mosquito repellents. Rather, the text suggests that researchers developing new mosquito repellents should aim to identify molecular components similar to EBF, since that component targets the Or31 odor receptor shared by all species of mosquitoes known to carry diseases.",
+    "C": "Choice C is incorrect because nothing in the text suggests that researchers are unaware of the precise location of Or31 and other odor receptors in mosquitoes' antennae or that knowing this information would be useful for developing efficient and effective mosquito repellents. Rather, the text suggests that researchers developing new mosquito repellents should aim to identify molecular components similar to EBF, which targets the Or31 odor receptor.",
+    "D": "Choice D is incorrect because it doesn't logically follow that the discovery of one odor receptor shared by all disease-bearing mosquitoes should lead to further research into which repellents might activate the greatest number of odor receptors. Rather, the text suggests that researchers developing new mosquito repellents should instead search for additional molecular components that, like EBF, activate the one odor receptor that is known to be shared by all disease-bearing mosquitoes."
+  }
+}

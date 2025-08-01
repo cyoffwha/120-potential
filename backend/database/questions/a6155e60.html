@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question a6155e60</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Every chemical compound has a spectroscopic fingerprint, a pattern of reflected light unique to that compound. <span aria-hidden="true" class="item-blank">______</span><span class="sr-only">blank</span> upon analyzing the light reflected by the bright regions on the surface of the dwarf planet Ceres, Maria Cristina De Sanctis of Rome&rsquo;s National Institute of Astrophysics was able to determine that the regions contain large amounts of the compound sodium carbonate.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical transition?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Regardless,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Meanwhile,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Thus,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In comparison,</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. &ldquo;Thus&rdquo; logically signals that the action described in this sentence&mdash;the researcher being able to determine the chemical makeup of the planet&rsquo;s bright regions based on how they reflect light&mdash;is a result or consequence of the previous information about spectroscopic fingerprints. </p><p>Choice A is incorrect because &ldquo;regardless&rdquo; illogically signals that the action described in this sentence occurs despite the previous information about spectroscopic fingerprints. Instead, the finding in this sentence is a result or consequence of that information. Choice B is incorrect because &ldquo;meanwhile&rdquo; illogically signals that the action described in this sentence either occurs at the same time as or offers an alternative to the previous information about spectroscopic fingerprints. Instead, the finding in this sentence is a result or consequence of that information. Choice D is incorrect because &ldquo;in comparison&rdquo; illogically signals that the action described in this sentence is being compared with the previous information about spectroscopic fingerprints. Instead, the finding in this sentence is a result or consequence of that information. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">612 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eRegardless,\u003c/p\u003e", "id": "e47e1d70-b425-431c-bad5-10ee84780a7f"}, {"content": "\u003cp\u003eMeanwhile,\u003c/p\u003e", "id": "531332de-410e-4039-bbb6-093ce2f90f29"}, {"content": "\u003cp\u003eThus,\u003c/p\u003e", "id": "c6aa47f5-0416-4655-b1b3-01d7663e0c4c"}, {"content": "\u003cp\u003eIn comparison,\u003c/p\u003e", "id": "05969ee8-795f-439b-b336-aca20f85e55c"}], "correct_answer": ["C"], "externalid": "527a6e1b-a044-4d40-9daf-7f1502b3cb97", "keys": ["c6aa47f5-0416-4655-b1b3-01d7663e0c4c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-202-TRA", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. \u0026ldquo;Thus\u0026rdquo; logically signals that the action described in this sentence\u0026mdash;the researcher being able to determine the chemical makeup of the planet\u0026rsquo;s bright regions based on how they reflect light\u0026mdash;is a result or consequence of the previous information about spectroscopic fingerprints. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because \u0026ldquo;regardless\u0026rdquo; illogically signals that the action described in this sentence occurs despite the previous information about spectroscopic fingerprints. Instead, the finding in this sentence is a result or consequence of that information. Choice B is incorrect because \u0026ldquo;meanwhile\u0026rdquo; illogically signals that the action described in this sentence either occurs at the same time as or offers an alternative to the previous information about spectroscopic fingerprints. Instead, the finding in this sentence is a result or consequence of that information. Choice D is incorrect because \u0026ldquo;in comparison\u0026rdquo; illogically signals that the action described in this sentence is being compared with the previous information about spectroscopic fingerprints. Instead, the finding in this sentence is a result or consequence of that information. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical transition?\u003c/p\u003e", "stimulus": "\u003cp\u003eEvery chemical compound has a spectroscopic fingerprint, a pattern of reflected light unique to that compound. \u003cspan aria-hidden=\"true\" class=\"item-blank\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e upon analyzing the light reflected by the bright regions on the surface of the dwarf planet Ceres, Maria Cristina De Sanctis of Rome\u0026rsquo;s National Institute of Astrophysics was able to determine that the regions contain large amounts of the compound sodium carbonate.\u003c/p\u003e", "templateclusterid": "c433a28a-3038-4728-8d7a-1e7aaa7a41ad", "templateclustername": "", "type": "mcq", "vaultid": "f07a00fb-fa07-45f6-a9dd-0f20d92a0698"}, "createDate": 1691007959325, "difficulty": "E", "external_id": "527a6e1b-a044-4d40-9daf-7f1502b3cb97", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "a6155e60", "score_band_range_cd": 3, "skill_cd": "TRA", "skill_desc": "Transitions", "uId": "67e92e46-3b8a-4b22-bdd8-443c482bc376", "updateDate": 1691007959325};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-a6155e60");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

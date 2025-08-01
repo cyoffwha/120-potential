@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 9debe79a</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Average Temperatures in July in Four Locations in the Navajo Nation</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Location</th><th scope="col" style="text-align: center; vertical-align: bottom;">Average highest temperature (Fahrenheit)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Average lowest temperature (Fahrenheit)</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">Teec Nos Pos</th><td style="text-align: center;"><span style="text-align: center;">94&deg;</span></td><td style="text-align: center;"><span style="text-align: center;">65&deg;</span></td></tr><tr><th scope="row" style="text-align: left;">Cameron</th><td style="text-align: center;"><span style="text-align: center;">99&deg;</span></td><td style="text-align: center;"><span style="text-align: center;">65&deg;</span></td></tr><tr><th scope="row" style="text-align: left;">Ramah</th><td style="text-align: center;"><span style="text-align: center;">83&deg;</span></td><td style="text-align: center;"><span style="text-align: center;">50&deg;</span></td></tr><tr><th scope="row" style="text-align: left;">Tuba City</th><td style="text-align: center;"><span style="text-align: center;">83&deg;</span></td><td style="text-align: center;"><span style="text-align: center;">50&deg;</span></td></tr></tbody></table></figure></p>
+<p>The Navajo Nation has the largest land area of any tribal nation in the United States: over 27,000 square miles in the Southwest. Because this area is so huge and its communities are located at various elevations, the people of the Navajo Nation can experience different climate conditions depending on where they live. For example, in July, <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the table to complete the statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the lowest temperature for both Cameron and Teec Nos Pos was 65&deg;.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Tuba City&rsquo;s average highest temperature was 94&deg;, while Teec Nos Pos&rsquo;s was 93&deg;.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Ramah&rsquo;s average highest temperature was 83&deg;, while Cameron&rsquo;s was 99&deg;.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the lowest temperature for both Ramah and Tuba City was 50&deg;.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it effectively uses data from the table to complete the statement, providing an example of how the people of the Navajo Nation can experience different climate conditions depending on where they live. The table shows the average highest temperatures and average lowest temperatures in four locations in the Navajo Nation in July. According to the table, Ramah&rsquo;s average highest temperature for July was 83&deg;, whereas Cameron&rsquo;s average highest temperature was much higher, at 99&deg;. This difference illustrates the statement that the people of the Navajo Nation can experience different climate conditions depending on where they live. </p><p>Choice A is incorrect because it states that Cameron and Teec Nos Pos had the same average lowest temperature (65&deg;) for July, which suggests a similarity in climate conditions in those locations rather than a difference. Choice B is incorrect because it misrepresents the data from the table, which shows that the average highest temperature in July for Tuba City was 83&deg;, not 94&deg;, and for Teec Nos Pos it was 94&deg;, not 93&deg;. Even if the cited data accurately reflected the data in the table, the similarity between the two values for average highest temperature would suggest that people in the two locations likely experience similar climate conditions, not different climate conditions. Choice D is incorrect because it states that Ramah and Tuba City had the same average lowest temperature (50&deg;) for July, which suggests a similarity in climate conditions in those locations rather than a difference. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">69 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ethe lowest temperature for both Cameron and Teec Nos Pos was 65\u0026deg;.\u003c/p\u003e", "id": "aed9c17c-83b3-4051-a32b-31014b6c87a8"}, {"content": "\u003cp\u003eTuba City\u0026rsquo;s average highest temperature was 94\u0026deg;, while Teec Nos Pos\u0026rsquo;s was 93\u0026deg;.\u003c/p\u003e", "id": "a50edeee-a2b6-4541-bfd6-cb3753cc9f4e"}, {"content": "\u003cp\u003eRamah\u0026rsquo;s average highest temperature was 83\u0026deg;, while Cameron\u0026rsquo;s was 99\u0026deg;.\u003c/p\u003e", "id": "6fac4ded-c879-4dd6-9caf-fb268c545522"}, {"content": "\u003cp\u003ethe lowest temperature for both Ramah and Tuba City was 50\u0026deg;.\u003c/p\u003e", "id": "a813131a-5471-4e98-ae32-258bfc96d6b9"}], "correct_answer": ["C"], "externalid": "39c4e289-072b-454d-a5ae-fff58010b299", "keys": ["6fac4ded-c879-4dd6-9caf-fb268c545522"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-520-QUA", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it effectively uses data from the table to complete the statement, providing an example of how the people of the Navajo Nation can experience different climate conditions depending on where they live. The table shows the average highest temperatures and average lowest temperatures in four locations in the Navajo Nation in July. According to the table, Ramah\u0026rsquo;s average highest temperature for July was 83\u0026deg;, whereas Cameron\u0026rsquo;s average highest temperature was much higher, at 99\u0026deg;. This difference illustrates the statement that the people of the Navajo Nation can experience different climate conditions depending on where they live. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because it states that Cameron and Teec Nos Pos had the same average lowest temperature (65\u0026deg;) for July, which suggests a similarity in climate conditions in those locations rather than a difference. Choice B is incorrect because it misrepresents the data from the table, which shows that the average highest temperature in July for Tuba City was 83\u0026deg;, not 94\u0026deg;, and for Teec Nos Pos it was 94\u0026deg;, not 93\u0026deg;. Even if the cited data accurately reflected the data in the table, the similarity between the two values for average highest temperature would suggest that people in the two locations likely experience similar climate conditions, not different climate conditions. Choice D is incorrect because it states that Ramah and Tuba City had the same average lowest temperature (50\u0026deg;) for July, which suggests a similarity in climate conditions in those locations rather than a difference. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the table to complete the statement?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eAverage Temperatures in July in Four Locations in the Navajo Nation\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eLocation\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eAverage highest temperature (Fahrenheit)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eAverage lowest temperature (Fahrenheit)\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eTeec Nos Pos\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e\u003cspan style=\"text-align: center;\"\u003e94\u0026deg;\u003c/span\u003e\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e\u003cspan style=\"text-align: center;\"\u003e65\u0026deg;\u003c/span\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eCameron\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e\u003cspan style=\"text-align: center;\"\u003e99\u0026deg;\u003c/span\u003e\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e\u003cspan style=\"text-align: center;\"\u003e65\u0026deg;\u003c/span\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eRamah\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e\u003cspan style=\"text-align: center;\"\u003e83\u0026deg;\u003c/span\u003e\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e\u003cspan style=\"text-align: center;\"\u003e50\u0026deg;\u003c/span\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eTuba City\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e\u003cspan style=\"text-align: center;\"\u003e83\u0026deg;\u003c/span\u003e\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e\u003cspan style=\"text-align: center;\"\u003e50\u0026deg;\u003c/span\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eThe Navajo Nation has the largest land area of any tribal nation in the United States: over 27,000 square miles in the Southwest. Because this area is so huge and its communities are located at various elevations, the people of the Navajo Nation can experience different climate conditions depending on where they live. For example, in July, \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "673dc068-ac83-4bd4-bdb5-e59678ae1b62", "templateclustername": "", "type": "mcq", "vaultid": "16ee60cd-0bc0-4c38-afaf-680730963f18"}, "createDate": 1691007959337, "difficulty": "E", "external_id": "39c4e289-072b-454d-a5ae-fff58010b299", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "9debe79a", "score_band_range_cd": 3, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "3c65ec32-9124-43cd-a961-029425df0d3b", "updateDate": 1691007959337};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-9debe79a");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "question_id": "fdb16e20",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Quantum particles of light—photons—provide an unhackable means of transmitting encryption keys over networks, as attempts to observe particles in quantum states will invariably alter the particles ______ blank dismantle any information they transmit.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "and in the process,",
+    "and, in the process,",
+    "and in the process&mdash;",
+    "and, in the process"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. This choice uses paired punctuation in the form of two commas to set off the nonessential phrase \"in the process.\"",
+    "A": "Choice A is incorrect. The phrase \"in the process\" is a nonessential element and needs to be set off with paired punctuation. We need a comma after \"and\" to match the one after \"process.\"",
+    "C": "Choice C is incorrect. The phrase \"in the process\" is a nonessential element and needs to be set off with paired punctuation, so we would need a dash after \"and\" to match the one following \"process.\"",
+    "D": "Choice D is incorrect. The phrase \"in the process\" is a nonessential element and needs to be set off with paired punctuation. We would need a comma after \"process\" to match the one following \"and.\""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "aa7e10d0",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Species belonging to the Orchidaceae (orchid) family can be found in both tropical and temperate environments. Orchidaceae species diversity has not been well studied in temperate forests, such as those in Oaxaca, Mexico. Arelee Estefan&iacute;a Mu&ntilde;oz-Hern&aacute;ndez led a study to determine how many different Orchidaceae species are present in the forests of Oaxaca. Mu&ntilde;oz-Hern&aacute;ndez and her team collected orchids each month for a year at a site in Oaxaca. Seventy-four Orchidaceae species were present at the site. The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "A study led by Arelee Estefan&iacute;a Mu&ntilde;oz-Hern&aacute;ndez identified a total of 74 Orchidaceae species in the temperate forests of Oaxaca, Mexico.&nbsp;",
+    "There are orchids in many environments, but there are 74 Orchidaceae species in Oaxaca, Mexico.",
+    "Oaxaca, Mexico, is home to temperate forests containing 74 Orchidaceae species.",
+    "Arelee Estefan&iacute;a Mu&ntilde;oz-Hern&aacute;ndez and her team wanted to know how many different Orchidaceae species are present in the forests of Oaxaca, Mexico, so they conducted a study to collect orchids."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This choice most effectively presents the study and its findings. It opens with the study and names its lead researcher, then tells us its finding: that they identified 74 Orchidaceae species in the temperate forests of Oaxaca, Mexico.",
+    "B": "Choice B is incorrect. This choice doesn't include the study's findings, so it fails to achieve the goal. It doesn't mention that there was a study at all.",
+    "C": "Choice C is incorrect. This choice doesn't present the study, so it fails to achieve the goal. It doesn't mention that there was a study at all.",
+    "D": "Choice D is incorrect. This choice doesn't include the study's findings, so it fails to achieve the goal."
+  }
+}

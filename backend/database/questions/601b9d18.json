@@ -1,0 +1,22 @@
+{
+  "question_id": "601b9d18",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Some members of the US Supreme Court have resisted calls to televise the court's oral arguments, concerned that the participants would be tempted to perform for the cameras (and thus lower the quality of the discourse). ______ blank the justices worry that most viewers would not even watch the full deliberations, only short clips that could be misinterpreted and mischaracterized.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "However,",
+    "Additionally,",
+    "In comparison,",
+    "For example,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Additionally\" logically signals that the claim in this sentence—that some Supreme Court justices worry that viewers (of televised court arguments) would watch only short, misleading clips—adds to the information in the previous sentence. Specifically, the previous sentence indicates one concern raised by those opposed to televising the court's oral arguments, and the claim that follows indicates a second, additional concern.",
+    "A": "Choice A is incorrect because \"however\" illogically signals that the claim in this sentence contrasts with the information in the previous sentence. Instead, the claim adds to the information, indicating a second, additional concern that some Supreme Court justices have about televising the court's arguments.",
+    "C": "Choice C is incorrect because \"in comparison\" illogically signals that the claim in this sentence is being compared to the information in the previous sentence. Instead, the claim adds to the information, indicating a second, additional concern that some Supreme Court justices have about televising the court's arguments.",
+    "D": "Choice D is incorrect because \"for example\" illogically signals that the claim in this sentence exemplifies the information in the previous sentence. Instead, the claim adds to the information, indicating a second, additional concern that some Supreme Court justices have about televising the court's arguments."
+  }
+}

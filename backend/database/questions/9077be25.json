@@ -1,0 +1,22 @@
+{
+  "question_id": "9077be25",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Alice Guy-Blach&eacute; directed hundreds of films between 1896 and 1920. She wanted audiences to feel like they were watching real people on screen. She would encourage actors in her films to behave naturally. Guy-Blach&eacute; even hung a large sign reading \"Be Natural\" in the studio where she made her films. At the time, films lacked sound, so actors needed to rely solely on their bodies and facial expressions to convey emotions. As a result, actors tended to highly exaggerate their actions and expressions. The style of acting in Guy-Blach&eacute;'s films was therefore ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "copied by many of Guy-Blach&eacute;&rsquo;s peers.",
+    "familiar to actors who had worked on other directors&rsquo; films.&nbsp;",
+    "very unusual for the period.&nbsp;",
+    "better than film acting today."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The text tells us that \"actors tended to highly exaggerate their actions and expressions\" in films produced from 1896 to 1920. This suggests that the natural style of acting in Guy-Blach&eacute;'s films was very unusual for the time.",
+    "A": "Choice A is incorrect. The text never discusses any other directors copying the style of acting found in Guy-Blach&eacute;'s films, and in fact suggests the opposite—that it was unusual for directors to suggest this style of acting at the time.",
+    "B": "Choice B is incorrect. The text never discusses actors' familiarity with the style of acting found in Guy-Blach&eacute;'s films, so there isn't much basis for this inference. But since the text tells us that other films of the period used a highly exaggerated form of acting, we might predict that the natural style in Guy-Blach&eacute;s films would have been unfamiliar to these actors.",
+    "D": "Choice D is incorrect. The text never discusses film acting today, so there's no basis for this inference."
+  }
+}

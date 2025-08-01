@@ -1,0 +1,22 @@
+{
+  "question_id": "94ca8ebd",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "A student is examining a long, challenging poem that was initially published in a quarterly journal without explanatory notes, then later republished in a stand-alone volume containing only that poem and accompanying explanatory notes written by the poet. The student asserts that the explanatory notes were included in the republication primarily as a marketing device to help sell the stand-alone volume.",
+  "question_text": "Which statement, if true, would most directly support the student&rsquo;s claim?",
+  "answer_options": [
+    "The text of the poem as published in the quarterly journal is not identical to the text of the poem published in the stand-alone volume.",
+    "Many critics believe that the poet&rsquo;s explanatory notes remove certain ambiguities of the poem and make it less interesting as a result.",
+    "The publishers of the stand-alone volume requested the explanatory notes from the poet in order to make the book attractive to readers who already had a copy of the poem in a journal issue.",
+    "Correspondence between the poet and the publisher reveals that the poet&rsquo;s explanatory notes went through several drafts."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it would most directly support the student's claim about the motivation for including explanatory notes with the stand-alone volume of the poem. The text explains that the poem had previously been published without the notes in a quarterly journal. It stands to reason that readers who had purchased the journal issue containing the poem would be unlikely to purchase an unchanged version of the poem in a stand-alone volume. However, the inclusion of notes in that volume would encourage the purchase of a stand-alone volume, since the later text would differ from the original by including the author's own explanation of the poem. Therefore, if it were true that the publishers of the stand-alone volume had requested the notes to make the book attractive to readers who already had a copy of the journal issue, this fact would support the student's claim that the notes were included primarily as a marketing device.",
+    "A": "Choice A is incorrect because the student's claim is about the motivation for including the explanatory notes in the stand-alone volume, not about changes that might have been made to the poem itself for publication in that volume; moreover, the text never suggests that such changes were made.",
+    "B": "Choice B is incorrect because the student's claim is about why the explanatory notes were included in the stand-alone volume, not about how the notes affected readers' and critics' subsequent experience of the poem.",
+    "D": "Choice D is incorrect because the fact that the poet drafted multiple versions of the explanatory notes doesn't directly address the issue of whether the notes were intended as a marketing device, as the student claims; the correspondence would support this claim only if it showed that the poet had revised the notes specifically to make them useful to the marketing of the stand-alone volume."
+  }
+}

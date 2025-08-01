@@ -1,0 +1,22 @@
+{
+  "question_id": "9902d2de",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The Alvarez theory, developed in 1980 by physicist Luis Walter Alvarez and his geologist son Walter Alvarez, maintained that the secondary effects of an asteroid impact caused many dinosaurs and other animals to die ______ blank it left unexplored the question of whether unrelated volcanic activity might have also contributed to the mass extinctions.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "out but",
+    "out, but",
+    "out",
+    "out,&nbsp;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the coordination of main clauses within a sentence. This choice correctly uses a comma and the coordinating conjunction \"but\" to join the first main clause (\"the Alvarez&hellip;out\") and the second main clause (\"it left&hellip;extinctions\").",
+    "A": "Choice A is incorrect because when coordinating two longer main clauses such as these, it's conventional to use a comma before the coordinating conjunction.",
+    "C": "Choice C is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction.",
+    "D": "Choice D is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses."
+  }
+}

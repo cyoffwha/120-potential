@@ -1,0 +1,22 @@
+{
+  "question_id": "77bf77cd",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Farouk El-Baz, a geologist and space scientist, ______ blank part of the team that selected the lunar landing sites for the Apollo program during the 1960s and 1970s.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "are",
+    "was",
+    "have been",
+    "were"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is subject-verb agreement. The singular verb \"was\" agrees in number with the singular subject \"Farouk El-Baz.\"",
+    "A": "Choice A is incorrect because the plural verb \"are\" doesn't agree in number with the singular subject \"Farouk El-Baz.\"",
+    "C": "Choice C is incorrect because the plural verb \"have been\" doesn't agree in number with the singular subject \"Farouk El-Baz.\"",
+    "D": "Choice D is incorrect because the plural verb \"were\" doesn't agree in number with the singular subject \"Farouk El-Baz.\""
+  }
+}

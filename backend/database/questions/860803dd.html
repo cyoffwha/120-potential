@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 860803dd</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Biologist Valentina G&oacute;mez-Baham&oacute;n and her team have investigated two subspecies of the fork-tailed flycatcher bird that live in the same region in Colombia, but one subspecies migrates south for part of the year, and the other doesn&rsquo;t. The researchers found that, due to slight differences in feather shape, the feathers of migratory forked-tailed flycatcher males make a sound during flight that is higher pitched than that made by the feathers of nonmigratory males. The researchers hypothesize that fork-tailed flycatcher females are attracted to the specific sound made by the males of their own subspecies, and that over time the females&rsquo; preference will drive further genetic and anatomical divergence between the subspecies.</p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most directly support G&oacute;mez-Baham&oacute;n and her team&rsquo;s hypothesis?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The feathers located on the wings of the migratory fork-tailed flycatchers have a narrower shape than those of the nonmigratory birds, which allows them to fly long distances.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Over several generations, the sound made by the feathers of migratory male fork-tailed flycatchers grows progressively higher pitched relative to that made by the feathers of nonmigratory males.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Fork-tailed flycatchers communicate different messages to each other depending on whether their feathers create high-pitched or low-pitched sounds. &nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The breeding habits of the migratory and nonmigratory fork-tailed flycatchers remained generally the same over several generations.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it presents a finding that, if true, would most directly support G&oacute;mez-Baham&oacute;n and her team&rsquo;s hypothesis about fork-tailed flycatchers. The text indicates that although two subspecies of the birds live in the same region, the tail feathers of the migrating males make a higher-pitched sound than the tail feathers of the nonmigrating males do. G&oacute;mez-Baham&oacute;n and her team hypothesize that female fork-tailed flycatchers are attracted to the particular sound made by the tail feathers of males of their own subspecies, which will bring about additional &ldquo;genetic and anatomical divergence&rdquo; between the two subspecies. If it were found that the pitch generated by the tail feathers of migrating males is getting higher over successive generations, it would indicate that the shape of the migrating subspecies&rsquo; tail feathers is diverging further from that of the nonmigrating subspecies. And if females continue to prefer the sounds of the males of their own subspecies, the females of the migrating subspecies will become acclimated to increasingly higher pitches over subsequent generations, causing further divergence between the subspecies. Thus, if it were found that migrating males&rsquo; tail feathers were producing higher pitches over time, that would support the researchers&rsquo; hypothesis. </p><p>Choice A is incorrect because the researchers&rsquo; hypothesis is that female flycatchers prefer the sounds produced by the tail feathers of males of their own subspecies, which will lead to further divergence between the two subspecies. This finding is about the shape of wing feathers and how that affects long-distance flight, whereas the hypothesis is about the shape of tail feathers and how that relates to female mate preference. Choice C is incorrect because the researchers&rsquo; hypothesis is that female flycatchers prefer the sounds produced by the tail feathers of males of their own subspecies, which will lead to further divergence between the two subspecies. This finding focuses on how the tail feather sounds communicate different messages, which doesn&rsquo;t address differences between the subspecies or female preferences.&nbsp;Choice D is incorrect because the researchers&rsquo; hypothesis is that female flycatchers prefer the sounds produced by the tail feathers of males of their own subspecies, which will lead to further divergence between the two subspecies. The finding that breeding habits haven&rsquo;t changed for either subspecies does not, by itself, suggest anything about female preferences or divergence between the two subspecies. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">153 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe feathers located on the wings of the migratory fork-tailed flycatchers have a narrower shape than those of the nonmigratory birds, which allows them to fly long distances.\u003c/p\u003e", "id": "5df411a9-d51f-492d-8df4-d80d188b8b71"}, {"content": "\u003cp\u003eOver several generations, the sound made by the feathers of migratory male fork-tailed flycatchers grows progressively higher pitched relative to that made by the feathers of nonmigratory males.\u003c/p\u003e", "id": "18f1d0f8-507f-4faa-99cb-477ee9b08f1e"}, {"content": "\u003cp\u003eFork-tailed flycatchers communicate different messages to each other depending on whether their feathers create high-pitched or low-pitched sounds. \u0026nbsp;\u003c/p\u003e", "id": "c25f446e-7539-47d7-aafc-338631e6c233"}, {"content": "\u003cp\u003eThe breeding habits of the migratory and nonmigratory fork-tailed flycatchers remained generally the same over several generations.\u0026nbsp;\u003c/p\u003e", "id": "661f6912-dbe4-4360-947b-7d6bbb1f7f01"}], "correct_answer": ["B"], "externalid": "675fc7a8-a3ec-4cc1-a704-a49f4644cf26", "keys": ["18f1d0f8-507f-4faa-99cb-477ee9b08f1e"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-321-TXT", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it presents a finding that, if true, would most directly support G\u0026oacute;mez-Baham\u0026oacute;n and her team\u0026rsquo;s hypothesis about fork-tailed flycatchers. The text indicates that although two subspecies of the birds live in the same region, the tail feathers of the migrating males make a higher-pitched sound than the tail feathers of the nonmigrating males do. G\u0026oacute;mez-Baham\u0026oacute;n and her team hypothesize that female fork-tailed flycatchers are attracted to the particular sound made by the tail feathers of males of their own subspecies, which will bring about additional \u0026ldquo;genetic and anatomical divergence\u0026rdquo; between the two subspecies. If it were found that the pitch generated by the tail feathers of migrating males is getting higher over successive generations, it would indicate that the shape of the migrating subspecies\u0026rsquo; tail feathers is diverging further from that of the nonmigrating subspecies. And if females continue to prefer the sounds of the males of their own subspecies, the females of the migrating subspecies will become acclimated to increasingly higher pitches over subsequent generations, causing further divergence between the subspecies. Thus, if it were found that migrating males\u0026rsquo; tail feathers were producing higher pitches over time, that would support the researchers\u0026rsquo; hypothesis. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the researchers\u0026rsquo; hypothesis is that female flycatchers prefer the sounds produced by the tail feathers of males of their own subspecies, which will lead to further divergence between the two subspecies. This finding is about the shape of wing feathers and how that affects long-distance flight, whereas the hypothesis is about the shape of tail feathers and how that relates to female mate preference. Choice C is incorrect because the researchers\u0026rsquo; hypothesis is that female flycatchers prefer the sounds produced by the tail feathers of males of their own subspecies, which will lead to further divergence between the two subspecies. This finding focuses on how the tail feather sounds communicate different messages, which doesn\u0026rsquo;t address differences between the subspecies or female preferences.\u0026nbsp;Choice D is incorrect because the researchers\u0026rsquo; hypothesis is that female flycatchers prefer the sounds produced by the tail feathers of males of their own subspecies, which will lead to further divergence between the two subspecies. The finding that breeding habits haven\u0026rsquo;t changed for either subspecies does not, by itself, suggest anything about female preferences or divergence between the two subspecies. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most directly support G\u0026oacute;mez-Baham\u0026oacute;n and her team\u0026rsquo;s hypothesis?\u003c/p\u003e", "stimulus": "\u003cp\u003eBiologist Valentina G\u0026oacute;mez-Baham\u0026oacute;n and her team have investigated two subspecies of the fork-tailed flycatcher bird that live in the same region in Colombia, but one subspecies migrates south for part of the year, and the other doesn\u0026rsquo;t. The researchers found that, due to slight differences in feather shape, the feathers of migratory forked-tailed flycatcher males make a sound during flight that is higher pitched than that made by the feathers of nonmigratory males. The researchers hypothesize that fork-tailed flycatcher females are attracted to the specific sound made by the males of their own subspecies, and that over time the females\u0026rsquo; preference will drive further genetic and anatomical divergence between the subspecies.\u003c/p\u003e", "templateclusterid": "74518c6f-e8c2-473f-a75b-27a1cdcf94f2", "templateclustername": "", "type": "mcq", "vaultid": "34cd21fe-c62f-408b-8e12-e6589b5149ab"}, "createDate": 1691007959335, "difficulty": "H", "external_id": "675fc7a8-a3ec-4cc1-a704-a49f4644cf26", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "860803dd", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "7ef0e147-7ed8-42bb-8153-c35876ea6736", "updateDate": 1691007959335};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-860803dd");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

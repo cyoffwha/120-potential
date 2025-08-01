@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question cd2ce51f</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Like the 1945 play it reimagines&mdash;Federico Garc&iacute;a Lorca&rsquo;s <em>The House of Bernarda Alba</em>&mdash;Marcus Gardley&rsquo;s 2014 play <em>The House That Will Not Stand</em> prominently features women. In both plays, the all-female cast <span aria-hidden="true">______</span><span class="sr-only">blank</span> an array of female characters, including a strong mother and several daughters dealing with individual struggles.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>engulfs</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>encourages</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>comprises</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>provokes</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most logically completes the text&rsquo;s discussion of Gardley&rsquo;s play. In this context, &ldquo;comprises&rdquo; means constitutes or makes up the totality of, and the text indicates that <em>The House That Will Not Stand</em> had an &ldquo;all-female cast&rdquo; that stands in some relationship to &ldquo;an array of female characters&rdquo; in the play. Because all cast members are female, the characters must be played by these female cast members; therefore the cast constitutes, or comprises, the collection of characters. </p><p>Choice A is incorrect. In this context, &ldquo;engulfs&rdquo; would mean encloses or overwhelms, and although it is fairly common to describe an actor as embodying (or personifying realistically) a character, there is nothing in the text to suggest that the cast members enclosed or overwhelmed the characters they played. Choice B is incorrect because in this context, &ldquo;encourages&rdquo; would mean inspires with courage or hope. Although the text does mention &ldquo;a strong mother and several daughters dealing with individual struggles,&rdquo; which might suggest that there are moments of encouragement among the characters during the play, there is nothing to suggest that the cast members encouraged the characters they portrayed. Choice D is incorrect because, in this context, &ldquo;provokes&rdquo; would mean instigates or incites to anger. Nothing in the text addresses provocation or what it might mean for actors to provoke the characters they are playing. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">469 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eengulfs\u003c/p\u003e", "id": "a5fb0f73-4617-4800-ae0c-68420990b4c4"}, {"content": "\u003cp\u003eencourages\u003c/p\u003e", "id": "0f3d4b92-29c8-4261-8331-28299fb3ed9f"}, {"content": "\u003cp\u003ecomprises\u003c/p\u003e", "id": "fd8c6af1-a1f5-469f-bc1d-bfe3525daf7f"}, {"content": "\u003cp\u003eprovokes\u003c/p\u003e", "id": "7a48cb6c-036e-4184-81c8-f66ed9a4e3aa"}], "correct_answer": ["C"], "externalid": "e73e5d84-44b1-4e72-a9c2-6fdd89275967", "keys": ["fd8c6af1-a1f5-469f-bc1d-bfe3525daf7f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-934-WIC", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most logically completes the text\u0026rsquo;s discussion of Gardley\u0026rsquo;s play. In this context, \u0026ldquo;comprises\u0026rdquo; means constitutes or makes up the totality of, and the text indicates that \u003cem\u003eThe House That Will Not Stand\u003c/em\u003e had an \u0026ldquo;all-female cast\u0026rdquo; that stands in some relationship to \u0026ldquo;an array of female characters\u0026rdquo; in the play. Because all cast members are female, the characters must be played by these female cast members; therefore the cast constitutes, or comprises, the collection of characters. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. In this context, \u0026ldquo;engulfs\u0026rdquo; would mean encloses or overwhelms, and although it is fairly common to describe an actor as embodying (or personifying realistically) a character, there is nothing in the text to suggest that the cast members enclosed or overwhelmed the characters they played. Choice B is incorrect because in this context, \u0026ldquo;encourages\u0026rdquo; would mean inspires with courage or hope. Although the text does mention \u0026ldquo;a strong mother and several daughters dealing with individual struggles,\u0026rdquo; which might suggest that there are moments of encouragement among the characters during the play, there is nothing to suggest that the cast members encouraged the characters they portrayed. Choice D is incorrect because, in this context, \u0026ldquo;provokes\u0026rdquo; would mean instigates or incites to anger. Nothing in the text addresses provocation or what it might mean for actors to provoke the characters they are playing. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eLike the 1945 play it reimagines\u0026mdash;Federico Garc\u0026iacute;a Lorca\u0026rsquo;s \u003cem\u003eThe House of Bernarda Alba\u003c/em\u003e\u0026mdash;Marcus Gardley\u0026rsquo;s 2014 play \u003cem\u003eThe House That Will Not Stand\u003c/em\u003e prominently features women. In both plays, the all-female cast \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e an array of female characters, including a strong mother and several daughters dealing with individual struggles.\u003c/p\u003e", "templateclusterid": "27b4899d-ef29-4743-9d04-044794c7b878", "templateclustername": "", "type": "mcq", "vaultid": "37cc8244-cb19-476a-b5eb-31d56bafa6b1"}, "createDate": 1691007959356, "difficulty": "M", "external_id": "e73e5d84-44b1-4e72-a9c2-6fdd89275967", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "cd2ce51f", "score_band_range_cd": 4, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "bc8d09d6-c7e0-44c4-a517-cfa7fe0b64fd", "updateDate": 1691007959356};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-cd2ce51f");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

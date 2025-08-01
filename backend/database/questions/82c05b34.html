@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 82c05b34</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><strong>Text 1</strong></p>
+<p>The live music festival business is growing in event size and genre variety. With so many consumer options, organizers are finding ways to cement festival attendance as a special experience worth sharing. This phenomenon is linked to the growing &ldquo;experiential economy,&rdquo; where many find it gratifying to purchase lived experiences. To ensure a profitable event, venues need to consider the overall consumer experience, not just the band lineup.</p>
+<p><strong>Text 2</strong></p>
+<p>Music festival appearances are becoming a more important part of musicians&rsquo; careers. One factor in this shift is the rising use of streaming services that allow access to huge numbers of songs for a monthly fee, subsequently reducing sales of full-length albums. With this shift in consumer behavior, musicians are increasingly dependent on revenue from live performances.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, both authors would most likely agree with which statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Consumers are more interested in paying subscription fees to stream music than in attending music festivals in person.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Consumers&rsquo; growing interest in purchasing experiences is mostly confined to the music industry.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Changing consumer behaviors are leading to changes in music-related businesses.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The rising consumer demand for live music festivals also generates higher demand for music streaming platforms.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. Both authors mention how consumer behaviors have shifted, and how this affects different aspects of the music industry. Text 1 states that consumers enjoy purchasing &ldquo;lived experiences,&rdquo; and that this influences how organizers design music festivals. Text 2 states that consumers are using streaming services more, and that this reduces album sales and increases the importance of live performances for musicians. </p><p>Choice A is incorrect. Neither text claims that consumers prefer streaming to festivals, or that these are mutually exclusive options. Text 1 implies that festivals are popular and profitable, and Text 2 never suggests that streaming services diminish the demand for live music. Choice B is incorrect. This choice misreads Text 1, which identifies music festivals as just one example of a broader trend of purchasing &ldquo;lived experiences.&rdquo; Text 2 doesn&rsquo;t mention growing interest in purchasing experiences, in the music industry or otherwise. Choice D is incorrect. Neither text establishes a cause/effect relationship between the demand for festivals and the demand for streaming platforms. Text 1 does not mention streaming platforms at all, and Text 2 does not imply that streaming platforms benefit from the popularity of festivals. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">384 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eConsumers are more interested in paying subscription fees to stream music than in attending music festivals in person.\u0026nbsp;\u003c/p\u003e", "id": "886c4ccc-e592-4439-85aa-3a66dd54b114"}, {"content": "\u003cp\u003eConsumers\u0026rsquo; growing interest in purchasing experiences is mostly confined to the music industry.\u0026nbsp;\u003c/p\u003e", "id": "5281ca3a-d5d2-4a97-9f53-9409b4b563a8"}, {"content": "\u003cp\u003eChanging consumer behaviors are leading to changes in music-related businesses.\u0026nbsp;\u003c/p\u003e", "id": "0ac4657c-1962-4b2d-bfcd-d48fa72f2c5c"}, {"content": "\u003cp\u003eThe rising consumer demand for live music festivals also generates higher demand for music streaming platforms.\u003c/p\u003e", "id": "c385be7d-6a68-4af3-a2d9-a5578301fe83"}], "correct_answer": ["C"], "externalid": "f9291899-64c6-42eb-a379-30bc15199332", "keys": ["0ac4657c-1962-4b2d-bfcd-d48fa72f2c5c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-M007", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. Both authors mention how consumer behaviors have shifted, and how this affects different aspects of the music industry. Text 1 states that consumers enjoy purchasing \u0026ldquo;lived experiences,\u0026rdquo; and that this influences how organizers design music festivals. Text 2 states that consumers are using streaming services more, and that this reduces album sales and increases the importance of live performances for musicians. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Neither text claims that consumers prefer streaming to festivals, or that these are mutually exclusive options. Text 1 implies that festivals are popular and profitable, and Text 2 never suggests that streaming services diminish the demand for live music. Choice B is incorrect. This choice misreads Text 1, which identifies music festivals as just one example of a broader trend of purchasing \u0026ldquo;lived experiences.\u0026rdquo; Text 2 doesn\u0026rsquo;t mention growing interest in purchasing experiences, in the music industry or otherwise. Choice D is incorrect. Neither text establishes a cause/effect relationship between the demand for festivals and the demand for streaming platforms. Text 1 does not mention streaming platforms at all, and Text 2 does not imply that streaming platforms benefit from the popularity of festivals. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, both authors would most likely agree with which statement?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eThe live music festival business is growing in event size and genre variety. With so many consumer options, organizers are finding ways to cement festival attendance as a special experience worth sharing. This phenomenon is linked to the growing \u0026ldquo;experiential economy,\u0026rdquo; where many find it gratifying to purchase lived experiences. To ensure a profitable event, venues need to consider the overall consumer experience, not just the band lineup.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eMusic festival appearances are becoming a more important part of musicians\u0026rsquo; careers. One factor in this shift is the rising use of streaming services that allow access to huge numbers of songs for a monthly fee, subsequently reducing sales of full-length albums. With this shift in consumer behavior, musicians are increasingly dependent on revenue from live performances.\u003c/p\u003e", "templateclusterid": "7ba9927e-fc30-4da7-a69b-b58299c66d11", "templateclustername": "", "type": "mcq", "vaultid": "1ec4fdd6-6ba5-4f19-9c2f-8e7139c3b554"}, "createDate": 1691007959366, "difficulty": "M", "external_id": "f9291899-64c6-42eb-a379-30bc15199332", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "82c05b34", "score_band_range_cd": 4, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "630289be-5714-4f3f-9123-e84ca4d2586f", "updateDate": 1691007959366};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-82c05b34");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

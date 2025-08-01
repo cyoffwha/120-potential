@@ -1,0 +1,22 @@
+{
+  "question_id": "87023f34",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "\"Ghosts of the Old Year\" is an early 1900s poem by James Weldon Johnson. In the poem, the speaker describes experiencing an ongoing cycle of anticipation followed by regretful reflection: ______ blank",
+  "question_text": "Which quotation from &ldquo;Ghosts of the Old Year&rdquo; most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;What does this brazen tongue declare, / That falling on the midnight air / Brings to my heart a sense of care / Akin to fright?&rdquo;",
+    "&ldquo;The snow has ceased its fluttering flight, / The wind sunk to a whisper light, / An ominous stillness fills the night, / A pause&mdash;a hush.&rdquo;",
+    "&ldquo;It tells of many a squandered day, / Of slighted gems and treasured clay, / Of precious stores not laid away, / Of fields unreaped.&rdquo;",
+    "&ldquo;And so the years go swiftly by, / Each, coming, brings ambitions high, / And each, departing, leaves a sigh / Linked to the past.&rdquo;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it presents the quotation that most effectively illustrates the claim that the speaker of the poem describes experiencing an ongoing cycle of anticipation followed by regretful reflection. In this quotation, the speaker notes that as years go by, \"Each, coming\"—that is, each new year as it comes—\"brings ambitions high.\" In other words, the speaker begins each new year with large goals. But the speaker goes on to say that as each year ends (\"each, departing\"), it \"leaves a sigh / Linked to the past.\" A sigh is an expression of longing or regret, so in the context of the whole quotation, this portion suggests that at the end of each year, the speaker regretfully reflects on not having achieved the ambitions formed at the beginning of the year. The phrases \"the years go swiftly by,\" \"Each, coming,\" and \"each, departing\" indicate that this experience happens over and over again: the speaker experiences a cycle of anticipation followed by regretful reflection.",
+    "A": "Choice A is incorrect because this quotation does not describe an ongoing cycle of anticipation followed by regretful reflection. Instead, the speaker describes experiencing a sensation similar to fright as a result of something that has occurred at midnight. Specifically, the speaker has heard a \"brazen tongue,\" a figurative way of saying that the speaker has heard the clang of a bronze bell being rung.",
+    "B": "Choice B is incorrect because although this quotation does convey a sense of anticipation through its reference to \"ominous stillness,\" there is no suggestion of regretful reflection or any indication that the speaker is describing an ongoing cycle of anticipation followed by such reflection. Instead, the speaker is describing a particular moment when a winter storm appears to have momentarily calmed.",
+    "C": "Choice C is incorrect because although this quotation does convey a sense of regret (\"many a squandered day\"), nothing in the quotation suggests an ongoing cycle of anticipation followed by regret. Instead, the speaker is simply lamenting wasted time and opportunities."
+  }
+}

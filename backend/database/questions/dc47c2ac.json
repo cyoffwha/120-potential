@@ -1,0 +1,22 @@
+{
+  "question_id": "dc47c2ac",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Although most songbirds build open, cupped nests, some species build domed nests with roofs that provide much more protection. Many ecologists have assumed that domed nests would provide protection from weather conditions and thus would allow species that build them to have larger geographic ranges than species that build open nests do. To evaluate this assumption, a research team led by evolutionary biologist Iliana Medina analyzed data for over 3,000 species of songbirds.",
+  "question_text": "Which finding from Medina and her colleagues&rsquo; study, if true, would most directly challenge the assumption in the underlined sentence?",
+  "answer_options": [
+    "Species that build open nests tend to have higher extinction rates than species that build domed nests.",
+    "Species that build open nests tend to be smaller in size than species that build domed nests.",
+    "Species that build open nests tend to use fewer materials to build their nests than species that build domed nests do.",
+    "Species that build open nests tend to have larger ranges than species that build domed nests."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it presents a finding that, if true, would challenge the assumption that many ecologists have made about the connection between the building of domed nests and geographic range in songbirds. The text says that many ecologists have assumed that since domed nests provide protection from weather conditions, songbird species that build such nests should be able to have larger geographic ranges than songbird species that build open nests do. If Medina and her colleagues found that species that build open nests tend to have larger geographic ranges than species that build domed nests do, their finding would show the opposite of what the ecologists have assumed. It would therefore challenge the ecologists' assumption.",
+    "A": "Choice A is incorrect because nothing in the text suggests that there's a relationship between songbird species' extinction rates and their geographic ranges. The finding that species that build open nests tend to have higher extinction rates than species that build domed nests do would therefore have no clear bearing on the ecologists' assumption that domed nests allow species that build them to have larger geographic ranges than those of species that build open nests.",
+    "B": "Choice B is incorrect because nothing in the text suggests that there's a relationship between songbird species' sizes and their geographic ranges. The finding that species that build open nests tend to be smaller in size than species that build domed nests are would therefore have no clear bearing on the ecologists' assumption that domed nests allow species that build them to have larger geographic ranges than those of species that build open nests.",
+    "C": "Choice C is incorrect because although the text indicates that many ecologists have assumed that there's a connection between how songbird species build their nests and the species' geographic ranges, the text says that this assumption is based on the shape of the nests—that is, whether the nests are domed or open—not the number of materials used. The finding that species that build open nests tend to use fewer materials to build their nests than species that build domed nests do would therefore have no clear bearing on the ecologists' assumption that domed nests allow species that build them to have larger geographic ranges than those of species that build open nests."
+  }
+}

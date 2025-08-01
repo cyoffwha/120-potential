@@ -1,0 +1,22 @@
+{
+  "question_id": "e38b3e4f",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The radiation that ______ blank during the decay of radioactive atomic nuclei is known as gamma radiation.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "occurs",
+    "have occurred",
+    "occur",
+    "are occurring"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is subject-verb agreement. The singular verb \"occurs\" agrees in number with the singular subject \"radiation.\"",
+    "B": "Choice B is incorrect because the plural verb \"have occurred\" doesn't agree in number with the singular subject \"radiation.\"",
+    "C": "Choice C is incorrect because the plural verb \"occur\" doesn't agree in number with the singular subject \"radiation.\"",
+    "D": "Choice D is incorrect because the plural verb \"are occurring\" doesn't agree in number with the singular subject \"radiation.\""
+  }
+}

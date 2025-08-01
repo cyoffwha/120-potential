@@ -1,0 +1,22 @@
+{
+  "question_id": "b260c65a",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Earth is not a perfect sphere. Due to the ______ blank gravitational pull, Earth bulges out on the sides closest to and farthest from the Moon. This distorting pull is known as a tidal force, and it is responsible for the changes in water levels that are called high and low tides.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Moon&rsquo;s",
+    "Moons",
+    "Moons&rsquo;",
+    "Moon"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is the use of possessive nouns. The singular possessive noun \"Moon's\" correctly indicates that there is only one Moon, and it has a gravitational pull.",
+    "B": "Choice B is incorrect because the context requires the singular possessive noun \"Moon's,\" not the plural noun \"Moons.\"",
+    "C": "Choice C is incorrect because the context requires the singular possessive noun \"Moon's,\" not the plural possessive noun \"Moons'.\"",
+    "D": "Choice D is incorrect because the context requires the singular possessive noun \"Moon's,\" not the singular noun \"Moon.\""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "e3f05561",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In the 1970s, video cameras became increasingly affordable for ordinary consumers and gave Ulysses Jenkins and other artists capabilities that were previously unavailable except to television broadcasters. Jenkins recognized and took full advantage of this ______ blank access to powerful technology to create groundbreaking works of video art, such as Mass of Images (1978).",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "newfound",
+    "delicate",
+    "inevitable",
+    "habitual"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of Ulysses Jenkins's video art. As used in this context, \"newfound\" means recently discovered or established. The text indicates that in the 1970s, video cameras became cheaper and therefore more widely available than they had been in the past. The text goes on to say that this development provided Jenkins and other artists with capabilities that they previously didn't have. As a result, Jenkins began producing groundbreaking works of video art. This context supports the idea that Jenkins took advantage of newfound access to video cameras.",
+    "B": "Choice B is incorrect because \"delicate\" means fine in texture or structure or easily broken, neither of which would make sense in this context. The text doesn't focus on describing what video art looks like or whether it's breakable.",
+    "C": "Choice C is incorrect because \"inevitable\" means impossible to avoid, which wouldn't make sense in this context. The text doesn't discuss the likelihood of artists, or anyone else, gaining access to video cameras.",
+    "D": "Choice D is incorrect because \"habitual\" means doing something regularly or repeatedly. Although the text does suggest that Jenkins created multiple pieces of video art, its focus is on the fact that video cameras had only just become widely available to artists in the 1970s. Jenkins's ability to take advantage of video cameras to make art was therefore newfound, not habitual, at the time."
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question dba9eaf8</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Within baleen whale species, some individuals develop an accessory spleen&mdash;a seemingly functionless formation of splenetic tissue outside the normal spleen. Given the formation&rsquo;s greater prevalence among whales known to make deeper dives, some researchers hypothesize that its role isn&rsquo;t <span aria-hidden="true">______</span><span class="sr-only">blank</span>; rather, the accessory spleen may actively support diving mechanisms.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>replicable</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>predetermined</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>operative</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>latent</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it most logically completes the text&rsquo;s discussion of baleen whale accessory spleens. In this context, &ldquo;latent&rdquo; means dormant or functionless. The text sets up a contrast between the idea that baleen whale accessory spleens appear not to have a function and the research indicating that the accessory spleen may actually have a role in supporting the whales&rsquo; diving mechanisms. This context therefore conveys the idea that the assumption that baleen whale accessory spleens are latent may be incorrect. </p><p>Choice A is incorrect because it wouldn&rsquo;t make sense to say that the role of the accessory spleen is &ldquo;replicable,&rdquo; or capable of being reproduced. The text indicates that the role of the accessory spleen seems to have no function, but some researchers think it does have a role; the text doesn&rsquo;t address whether the role of the accessory spleen could or couldn&rsquo;t be reproduced. Choice B is incorrect because suggesting that the role of the accessory spleen is &ldquo;predetermined,&rdquo; or decided in advance, wouldn&rsquo;t make sense in context. Although the researchers may agree that the role of the accessory spleen or any other organ hasn&rsquo;t been determined in advance, the text focuses on the idea that the accessory spleen was thought to have been functionless but may in fact serve an active role for baleen whales. Choice C is incorrect because it&rsquo;s the opposite of what the context of the text is conveying. The second sentence of the text indicates that baleen whale accessory spleens may not be useless, not that they aren&rsquo;t &ldquo;operative,&rdquo; or functional. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">529 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ereplicable\u003c/p\u003e", "id": "68bc6f7c-d508-4b3b-827b-7042acdfefcb"}, {"content": "\u003cp\u003epredetermined\u003c/p\u003e", "id": "ac9571ed-94af-4a56-9b14-fc83f58c1c74"}, {"content": "\u003cp\u003eoperative\u003c/p\u003e", "id": "e924ca97-7e6e-4337-936e-810e7b48f05f"}, {"content": "\u003cp\u003elatent\u003c/p\u003e", "id": "fecc3bb7-b6fe-44b9-a198-634aedbe2217"}], "correct_answer": ["D"], "externalid": "76babb0f-bee5-4ab9-8e63-133a4f711925", "keys": ["fecc3bb7-b6fe-44b9-a198-634aedbe2217"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-950-WIC", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it most logically completes the text\u0026rsquo;s discussion of baleen whale accessory spleens. In this context, \u0026ldquo;latent\u0026rdquo; means dormant or functionless. The text sets up a contrast between the idea that baleen whale accessory spleens appear not to have a function and the research indicating that the accessory spleen may actually have a role in supporting the whales\u0026rsquo; diving mechanisms. This context therefore conveys the idea that the assumption that baleen whale accessory spleens are latent may be incorrect. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because it wouldn\u0026rsquo;t make sense to say that the role of the accessory spleen is \u0026ldquo;replicable,\u0026rdquo; or capable of being reproduced. The text indicates that the role of the accessory spleen seems to have no function, but some researchers think it does have a role; the text doesn\u0026rsquo;t address whether the role of the accessory spleen could or couldn\u0026rsquo;t be reproduced. Choice B is incorrect because suggesting that the role of the accessory spleen is \u0026ldquo;predetermined,\u0026rdquo; or decided in advance, wouldn\u0026rsquo;t make sense in context. Although the researchers may agree that the role of the accessory spleen or any other organ hasn\u0026rsquo;t been determined in advance, the text focuses on the idea that the accessory spleen was thought to have been functionless but may in fact serve an active role for baleen whales. Choice C is incorrect because it\u0026rsquo;s the opposite of what the context of the text is conveying. The second sentence of the text indicates that baleen whale accessory spleens may not be useless, not that they aren\u0026rsquo;t \u0026ldquo;operative,\u0026rdquo; or functional. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eWithin baleen whale species, some individuals develop an accessory spleen\u0026mdash;a seemingly functionless formation of splenetic tissue outside the normal spleen. Given the formation\u0026rsquo;s greater prevalence among whales known to make deeper dives, some researchers hypothesize that its role isn\u0026rsquo;t \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e; rather, the accessory spleen may actively support diving mechanisms.\u003c/p\u003e", "templateclusterid": "06edb90c-d7e2-4e12-bb3a-fe56db52d132", "templateclustername": "", "type": "mcq", "vaultid": "511b4b72-eb8d-4bdb-8c3e-baee9316893c"}, "createDate": 1691007959356, "difficulty": "H", "external_id": "76babb0f-bee5-4ab9-8e63-133a4f711925", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "dba9eaf8", "score_band_range_cd": 6, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "f1df2b80-1bf0-4f62-b29e-cca73e9a0ec8", "updateDate": 1691007959356};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-dba9eaf8");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

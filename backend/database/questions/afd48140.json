@@ -1,0 +1,22 @@
+{
+  "question_id": "afd48140",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1877, 85% of California's railways were already controlled by the Southern Pacific Railroad. The company further solidified its ______ blank in rail access to the state's Pacific coast when it completed the Sunset Route in 1883: running from Louisiana to Southern California, the route established the first transcontinental rail line across the southern United States.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "dominance",
+    "creativity",
+    "insignificance",
+    "neutrality"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically and precisely completes the text's discussion of the Southern Pacific Railroad. As used in this context, \"dominance\" means the state of being more successful than others. The text states that the Southern Pacific Railroad already controlled 85% of California's railways in 1877, and that the Sunset Route it constructed in 1883 was the first transcontinental rail line across the southern United States. Therefore, the Southern Pacific Railroad would be more successful than other railroads in the area, and the construction of the Sunset Route would further solidify its dominance in rail access to California's coast.",
+    "B": "Choice B is incorrect. Although the construction of the Sunset Route must have required some creativity, or use of imagination, the word \"creativity\" would not also encompass the fact that the Southern Pacific Railroad already controlled 85% of California's railways. The text is more focused on the railroad's control of the field and overall success rather than its imaginative thought processes.",
+    "C": "Choice C is incorrect because if the Southern Pacific Railroad controlled the majority of California's railways, it would not make sense to refer to its \"insignificance,\" or the state of being unimportant. Rather, the opposite would be true.",
+    "D": "Choice D is incorrect because in context it would not make sense to refer to the Southern Pacific Railroad's \"neutrality,\" or absence of strong opinion on a matter, since no opinions are mentioned. Nor would \"neutrality\" in the sense of impartiality in a conflict be a logical or precise choice since no conflict is explicitly described. There might be an implied conflict between the Southern Pacific Railroad and other railroads doing business in California, but that is not a conflict in which the Southern Pacific Railroad would take an impartial position."
+  }
+}

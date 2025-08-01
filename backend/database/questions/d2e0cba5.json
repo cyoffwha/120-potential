@@ -1,0 +1,22 @@
+{
+  "question_id": "d2e0cba5",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In a study of new technology adoption, Davit Marikyan et al. examined negative disconfirmation (which occurs when experiences fall short of one's expectations) to determine whether it could lead to positive outcomes for users. The team focused on established users of \"smart home\" technology, which presents inherent utilization challenges but tends to attract users with high expectations, often leading to feelings of dissonance. The researchers found that many users employed cognitive mechanisms to mitigate those feelings, ultimately reversing their initial sense of disappointment.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Research suggests that most users of smart home technology will not achieve a feeling of satisfaction given the utilization challenges of such technology.",
+    "Although most smart home technology is aimed at meeting or exceeding users&rsquo; high expectations, those expectations in general remain poorly understood.",
+    "Research suggests that users with high expectations for a new technology can feel content with that technology even after experiencing negative disconfirmation.",
+    "Although negative disconfirmation has often been studied, little is known about the cognitive mechanisms shaping users&rsquo; reactions to it in the context of new technology adoption."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The passage begins by describing the study, and concludes with its results: \"many users employed cognitive mechanisms to mitigate those feelings [of negative disconfirmation].\"",
+    "A": "Choice A is incorrect. This is the opposite of what the text claims. Rather, the researchers found that \"many users\" reversed \"their initial sense of disappointment.\"",
+    "B": "Choice B is incorrect. This choice doesn't reflect the text. What the expectations of smart home tech users are is not discussed.",
+    "D": "Choice D is incorrect. This choice doesn't reflect the text. How often these topics have been studied is not mentioned."
+  }
+}

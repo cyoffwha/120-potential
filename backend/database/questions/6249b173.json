@@ -1,0 +1,22 @@
+{
+  "question_id": "6249b173",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In 2018 researchers Adwait Deshpande, Shreejata Gupta, and Anindya Sinha were observing wild macaques in India's Bandipur National Park. They saw macaques calling out to and gesturing at humans who were eating or carrying food. They designed a study to find out if the macaques were intentionally communicating to try to persuade the humans to share their food. In the study trials, macaques frequently called out to and gestured at humans holding food. In the study trials, macaques called out to and gestured at empty-handed humans less frequently. The student wants to present the study's results. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to present the study&rsquo;s results. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Macaques in the study called out to and gestured more frequently at humans holding food than at empty-handed humans.",
+    "In 2018, researchers who had observed macaques in India&rsquo;s Bandipur National Park calling out to and gesturing at humans designed a study.",
+    "The researchers hoped to find out if the macaques were intentionally communicating to try to persuade humans to share their food.",
+    "The researchers studied how macaques behaved around both humans holding food and empty-handed humans."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This choice presents the study's results from the last two bullet points.",
+    "B": "Choice B is incorrect. This choice describes the background and motivation of the study but not the outcome or findings.",
+    "C": "Choice C is incorrect. This choice describes the research question or hypothesis of the study but not the evidence or conclusion.",
+    "D": "Choice D is incorrect. This choice describes the method or design of the study but not the actual results."
+  }
+}

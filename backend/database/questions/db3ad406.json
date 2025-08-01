@@ -1,0 +1,22 @@
+{
+  "question_id": "db3ad406",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Stars form in a galaxy when gravity causes a massive cloud of dust and gas to collapse. A galaxy in a phase of rapid star formation is called a starburst galaxy. Quenching is a process in which a galaxy loses star-forming gas. A galaxy that no longer forms stars is called a quenched galaxy. A quenched galaxy has entered the poststarburst phase. The student wants to explain what a quenched galaxy is. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to explain what a quenched galaxy is. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Before quenching, a starburst galaxy will form stars at a rapid rate.",
+    "When it becomes quenched, a starburst galaxy enters the poststarburst phase.",
+    "Having entered the poststarburst phase, a quenched galaxy is one that no longer forms stars.",
+    "A starburst galaxy will lose star-forming gas and eventually become quenched."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. This choice defines a quenched galaxy as \"one that no longer forms stars.\"",
+    "A": "Choice A is incorrect. This choice only describes what happens before quenching.",
+    "B": "Choice B is incorrect. This choice only describes what happens after quenching.",
+    "D": "Choice D is incorrect. This choice only describes what causes quenching."
+  }
+}

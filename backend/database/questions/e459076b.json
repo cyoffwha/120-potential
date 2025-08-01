@@ -1,0 +1,22 @@
+{
+  "question_id": "e459076b",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "The following text is adapted from George Eliot's 1871–72 novel Middlemarch . [Mr. Brooke] had travelled in his younger years, and was held in this part of the country to have contracted a too rambling habit of mind. Mr. Brooke's conclusions were as difficult to predict as the weather. As used in the text, what does the word \"contracted\" most nearly mean?",
+  "question_text": "As used in the text, what does the word &ldquo;contracted&rdquo; most nearly mean?",
+  "answer_options": [
+    "Restricted",
+    "Described",
+    "Developed",
+    "Settled"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because as used in the text, \"contracted\" most nearly means developed. The text explains that Mr. Brooke has a \"too rambling habit of mind,\" which the text likens to a disease, saying he is thought to have contracted it. To contract a disease means to acquire or develop a disease. In other words, the text indicates that Mr. Brooke is believed to have acquired, or developed, the habit of mind described in the text.",
+    "A": "Choice A is incorrect. Although \"contracted\" can mean limited or restricted in some contexts, here Mr. Brooke is said to draw unpredictable conclusions, suggesting that he exhibits this \"too rambling habit of mind,\" not that it has been somehow limited or restricted.",
+    "B": "Choice B is incorrect. Although the text describes Mr. Brooke's habit of mind, nothing suggests that those are his descriptions or, indeed, that he described his habit of mind at all.",
+    "D": "Choice D is incorrect because settled means calmed or mitigated, but here Mr. Brooke is said to draw unpredictable conclusions, suggesting that he exhibits this \"too rambling habit of mind,\" not that it has been somehow calmed or mitigated."
+  }
+}

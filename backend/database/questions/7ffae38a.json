@@ -1,0 +1,22 @@
+{
+  "question_id": "7ffae38a",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Jack London's 1903 novel The Call of the Wild . Buck is a sled dog living with John Thornton in Yukon, Canada. Thornton alone held [Buck]. The rest of mankind was as nothing. Chance travellers might praise or pet him; but he was cold under it all, and from a too demonstrative man he would get up and walk away. When Thornton's partners, Hans and Pete, arrived on the long-expected raft, Buck refused to notice them till he learned they were close to Thornton; after that he tolerated them in a passive sort of way, accepting favors from them as though he favored them by accepting.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Buck has become less social since he began living with Thornton.",
+    "Buck mistrusts humans and does his best to avoid them.",
+    "Buck has been especially well liked by most of Thornton&rsquo;s friends.",
+    "Buck holds Thornton in higher regard than any other person."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most accurately states the main idea of the text. After establishing that Buck views most people \"as nothing,\" the text explains that Buck won't acknowledge people other than Thornton unless they appear friendly toward Thornton, and even then he's only reluctantly accepting. Thus, the text focuses on the idea that Thornton has a special status in Buck's mind, with Buck holding him in higher regard than other people.",
+    "A": "Choice A is incorrect because the text conveys that Buck isn't social with people other than Thornton but doesn't address Buck's life or temperament before he lived with Thornton.",
+    "B": "Choice B is incorrect because the text conveys that Buck doesn't really care about people other than Thornton and is aloof toward them. However, there's no indication that Buck mistrusts and avoids people generally; indeed, he accepts Thornton, who is a human.",
+    "C": "Choice C is incorrect because the text refers to random travelers praising and petting Buck and Thornton's partners giving Buck favors, but there's no indication that any of these people are Thornton's friends or that they have a particular fondness for Buck."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "b15724fc",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "American writer Edwidge Danticat, who emigrated from Haiti in 1981, has won acclaim for her powerful short stories, novels, and ______ blank her lyrical yet unflinching depictions of her native country's turbulent history, writer Robert Antoni has compared Danticat to Nobel Prize–winning novelist Toni Morrison.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?&nbsp;",
+  "answer_options": [
+    "essays, praising",
+    "essays and praising",
+    "essays praising",
+    "essays. Praising"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period after \"essays\" is used correctly to mark the boundary between one sentence (\"American&hellip;essays\") and another (\"praising&hellip;Morrison\"). The participial phrase beginning with \"Praising\" modifies the subject of the second sentence, \"writer Robert Antoni.\"",
+    "A": "Choice A is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences.",
+    "B": "Choice B is incorrect. Without a comma preceding it, the conjunction \"and\" can't be used in this way to join sentences.",
+    "C": "Choice C is incorrect because it results in a run-on sentence. The sentences (\"American&hellip;essays\" and \"Praising&hellip;Morrison\") are fused without punctuation and/or a conjunction."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "c6b470bb",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "\"Odalie\" is an 1899 short story by Alice Dunbar-Nelson. In the story, a young woman named Odalie attends the annual Mardi Gras carnival in New Orleans, where she lives with her guardian Tante Louise. Dunbar-Nelson portrays Odalie as eager to escape the monotony of her everyday life: ______ blank",
+  "question_text": "Which quotation from &ldquo;Odalie&rdquo; most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;Mardi Gras was a tiresome day, after all, she sighed, and Tante Louise agreed with her for once.&rdquo;",
+    "&ldquo;In the old French house on Royal Street, with its quaint windows and Spanish courtyard green and cool, and made musical by the plashing of the fountain and the trill of caged birds, lived Odalie in convent-like seclusion.&rdquo;",
+    "&ldquo;When one is shut up in a great French house with a grim sleepy tante and no companions of one&rsquo;s own age, life becomes a dull thing, and one is ready for any new sensation.&rdquo;",
+    "&ldquo;It was Mardi Gras day at last, and early through her window Odalie could hear the jingle of folly bells on the [participants&rsquo;] costumes, the tinkle of music, and the echoing strains of songs.&rdquo;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most effectively uses a quotation from \"Odalie\" to illustrate the claim that Odalie is eager to escape the monotony, or tedious lack of variety, of her everyday life. In the quotation, Odalie describes feeling \"shut up\" and complains that she has \"no companions\" except for her \"sleepy tante.\" Odalie goes on to say that, as a result, her life is \"dull\" and she is \"ready for any new sensation,\" meaning she wants a change. This suggests that Odalie wishes to get away from her monotonous everyday life.",
+    "A": "Choice A is incorrect. Although this quotation includes the word \"tiresome,\" which means dull, it does so to suggest Odalie's negative feelings about Mardi Gras, which is a once-a-year celebration, not her feelings about her everyday life. This quotation therefore doesn't express that Odalie's everyday life is monotonous or that she wishes to escape.",
+    "B": "Choice B is incorrect. Although this quotation ends by saying that Odalie lives in seclusion, or isolation, it doesn't express that Odalie's everyday life is monotonous or that she wishes to escape. Instead, it describes the pleasant qualities of the house Odalie lives in, saying that it has \"quaint windows\" and a \"green and cool\" courtyard that is \"made musical\" by the sounds of a fountain and pet birds.",
+    "D": "Choice D is incorrect because this quotation describes the lively sounds of a Mardi Gras celebration that Odalie hears through her window, not the monotony of Odalie's everyday life or her wish to escape."
+  }
+}

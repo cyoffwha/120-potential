@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 7c9a65bb</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Optical tweezers are specialized scientific tools&mdash;particularly useful in biology and medicine&mdash;that use high-powered beams of light to trap and manipulate minuscule particles for study. Use of the tool has led to several scientific and medical breakthroughs over the last few decades, but the particles are often under prolonged exposure to the intense heat of the light beams. To overcome the risk of overheating, and thereby damage, researchers sometimes attach nano-sized glass beads to particles, allowing the light to focus on the beads instead of the particles.</p></div>
+
+                        <div class="mt-3"><p>Based on the text, what is one advantage of attaching glass beads to particles when using optical tweezers?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It decreases the time it takes for the optical tweezers to locate and capture the particles.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It facilitates the maneuvering of particles without directly heating the particles themselves.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It allows researchers to use weaker light beams to manipulate particles.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It adds a material to which particles can transfer any heat absorbed from the optical tweezers&rsquo; light beam.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The text says that the glass beads get the "focus" of the light beams so that the particles don&rsquo;t overheat. From this, we can infer that the beads allow the particles to be manipulated without being directly heated by the light beams.</p><p>Choice A is incorrect. The text never says that attaching the glass beads saves time in any way. Choice C is incorrect. The text never says that attaching the glass beads allows researchers to use weaker light beams. Choice D is incorrect. The text doesn&rsquo;t say that the particles can transfer heat to the glass beads&mdash;rather, it says the heat from the light focuses on the glass beads instead of the particles.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">258 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt decreases the time it takes for the optical tweezers to locate and capture the particles.\u003c/p\u003e", "id": "49789b11-f8ba-4d22-9cbd-91ccb1670772"}, {"content": "\u003cp\u003eIt facilitates the maneuvering of particles without directly heating the particles themselves.\u003c/p\u003e", "id": "438469ee-6da7-4bc7-ae9f-173c1d024509"}, {"content": "\u003cp\u003eIt allows researchers to use weaker light beams to manipulate particles.\u003c/p\u003e", "id": "0c1b73d6-2604-4b83-92a3-04a32899206d"}, {"content": "\u003cp\u003eIt adds a material to which particles can transfer any heat absorbed from the optical tweezers\u0026rsquo; light beam.\u003c/p\u003e", "id": "97a7240c-b7cd-49a2-acd3-9a6276d1f592"}], "correct_answer": ["B"], "externalid": "fc1861ad-86ac-449d-9941-ad6dc31649dd", "keys": ["438469ee-6da7-4bc7-ae9f-173c1d024509"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CID-H009", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The text says that the glass beads get the \"focus\" of the light beams so that the particles don\u0026rsquo;t overheat. From this, we can infer that the beads allow the particles to be manipulated without being directly heated by the light beams.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. The text never says that attaching the glass beads saves time in any way. Choice C is incorrect. The text never says that attaching the glass beads allows researchers to use weaker light beams. Choice D is incorrect. The text doesn\u0026rsquo;t say that the particles can transfer heat to the glass beads\u0026mdash;rather, it says the heat from the light focuses on the glass beads instead of the particles.\u003c/p\u003e", "stem": "\u003cp\u003eBased on the text, what is one advantage of attaching glass beads to particles when using optical tweezers?\u003c/p\u003e", "stimulus": "\u003cp\u003eOptical tweezers are specialized scientific tools\u0026mdash;particularly useful in biology and medicine\u0026mdash;that use high-powered beams of light to trap and manipulate minuscule particles for study. Use of the tool has led to several scientific and medical breakthroughs over the last few decades, but the particles are often under prolonged exposure to the intense heat of the light beams. To overcome the risk of overheating, and thereby damage, researchers sometimes attach nano-sized glass beads to particles, allowing the light to focus on the beads instead of the particles.\u003c/p\u003e", "templateclusterid": "1cfdf98e-8915-4487-9d38-fda17d29eea2", "templateclustername": "", "type": "mcq", "vaultid": "81623589-4c34-44b9-a37d-488af24ad11c"}, "createDate": 1691007959360, "difficulty": "H", "external_id": "fc1861ad-86ac-449d-9941-ad6dc31649dd", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "7c9a65bb", "score_band_range_cd": 7, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "df3d7591-1628-4382-914e-ce922d6f80f9", "updateDate": 1691007959360};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-7c9a65bb");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,73 +1,57 @@
-import { useState, useEffect } from "react";
-import { Badge } from "@/components/ui/badge";
+import { useState, useEffect, useRef } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { DOMAIN_SKILL_MAP, DIFFICULTY_OPTIONS, DEFAULT_FILTER_VALUE } from "../constants";
+import { FilterOptions } from "../types";
 
 interface QuestionBankProps {
   questionId?: string;
-  totalQuestions?: number;
   currentDomain?: string;
   currentSkill?: string;
   currentDifficulty?: string;
-  onFiltersChange?: (filters: { domain: string; skill: string; difficulty: string }) => void;
+  onFiltersChange?: (filters: FilterOptions) => void;
 }
 
 export const QuestionBank = ({ 
   questionId = "#01382", 
-  totalQuestions = 0,
-  currentDomain = "Any",
-  currentSkill = "Any", 
-  currentDifficulty = "Any",
+  currentDomain = DEFAULT_FILTER_VALUE,
+  currentSkill = DEFAULT_FILTER_VALUE, 
+  currentDifficulty = DEFAULT_FILTER_VALUE,
   onFiltersChange
 }: QuestionBankProps) => {
-  // Domain-skill mapping based on explanation.md
-  const DOMAIN_SKILL_MAP = {
-    "Information and Ideas": [
-      "Central Ideas and Details",
-      "Command of Evidence", 
-      "Inferences"
-    ],
-    "Craft and Structure": [
-      "Words in Context",
-      "Text Structure and Purpose",
-      "Cross-Text Connections"
-    ],
-    "Expression of Ideas": [
-      "Rhetorical Synthesis",
-      "Transitions"
-    ],
-    "Standard English Conventions": [
-      "Boundaries",
-      "Form, Structure, and Sense"
-    ]
-  };
-
-  const DIFFICULTY_OPTIONS = ["Easy", "Medium", "Hard", "Very Hard"];
-
   // State for filters
   const [selectedDomain, setSelectedDomain] = useState(currentDomain);
   const [selectedSkill, setSelectedSkill] = useState(currentSkill);
   const [selectedDifficulty, setSelectedDifficulty] = useState(currentDifficulty);
+  const isInitialMount = useRef(true);
 
   // Get available skills for selected domain
-  const availableSkills = selectedDomain === "Any" ? ["Any"] : (DOMAIN_SKILL_MAP[selectedDomain as keyof typeof DOMAIN_SKILL_MAP] || []);
+  const getAvailableSkills = () => {
+    if (selectedDomain === DEFAULT_FILTER_VALUE) return [DEFAULT_FILTER_VALUE];
+    return DOMAIN_SKILL_MAP[selectedDomain as keyof typeof DOMAIN_SKILL_MAP] || [];
+  };
 
   // Handle domain change and auto-set first skill
   const handleDomainChange = (domain: string) => {
     setSelectedDomain(domain);
-    // Reset skill to "Any" for "Any" domain, or first available skill in new domain
-    if (domain === "Any") {
-      setSelectedSkill("Any");
+    
+    if (domain === DEFAULT_FILTER_VALUE) {
+      setSelectedSkill(DEFAULT_FILTER_VALUE);
     } else {
-      const newSkills = DOMAIN_SKILL_MAP[domain as keyof typeof DOMAIN_SKILL_MAP];
-      if (newSkills && newSkills.length > 0) {
-        setSelectedSkill(newSkills[0]);
+      const availableSkills = DOMAIN_SKILL_MAP[domain as keyof typeof DOMAIN_SKILL_MAP];
+      if (availableSkills && availableSkills.length > 0) {
+        setSelectedSkill(availableSkills[0]);
       }
     }
   };
 
-  // Auto-trigger filtering when any filter changes
+  // Auto-trigger filtering when any filter changes (skip initial mount)
   useEffect(() => {
+    if (isInitialMount.current) {
+      isInitialMount.current = false;
+      return;
+    }
+    
     if (onFiltersChange) {
       onFiltersChange({
         domain: selectedDomain,
@@ -75,15 +59,9 @@ export const QuestionBank = ({
         difficulty: selectedDifficulty
       });
     }
-  }, [selectedDomain, selectedSkill, selectedDifficulty, onFiltersChange]);
+  }, [selectedDomain, selectedSkill, selectedDifficulty]);
 
-  const questionInfo = [
-    { label: "Question ID", value: questionId.replace("#", "") },
-    { label: "Section", value: "Reading and Writing" },
-    { label: "Domain", value: currentDomain },
-    { label: "Skill", value: currentSkill },
-    { label: "Difficulty", value: currentDifficulty },
-  ];
+  const availableSkills = getAvailableSkills();
 
   return (
     <div className="mb-6">
@@ -102,7 +80,7 @@ export const QuestionBank = ({
                   <SelectValue placeholder="Select Domain" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="Any" className="text-sm">Any Domain</SelectItem>
+                  <SelectItem value={DEFAULT_FILTER_VALUE} className="text-sm">Any Domain</SelectItem>
                   {Object.keys(DOMAIN_SKILL_MAP).map((domain) => (
                     <SelectItem key={domain} value={domain} className="text-sm">
                       {domain}
@@ -111,6 +89,7 @@ export const QuestionBank = ({
                 </SelectContent>
               </Select>
             </div>
+            
             {/* Skill Selection */}
             <div className="space-y-1">
               <label className="text-sm font-medium text-muted-foreground">Skill</label>
@@ -119,11 +98,11 @@ export const QuestionBank = ({
                   <SelectValue placeholder="Select Skill" />
                 </SelectTrigger>
                 <SelectContent>
-                  {selectedDomain === "Any" ? (
-                    <SelectItem value="Any" className="text-sm">Any Skill</SelectItem>
+                  {selectedDomain === DEFAULT_FILTER_VALUE ? (
+                    <SelectItem value={DEFAULT_FILTER_VALUE} className="text-sm">Select Domain first</SelectItem>
                   ) : (
                     <>
-                      <SelectItem value="Any" className="text-sm">Any Skill</SelectItem>
+                      <SelectItem value={DEFAULT_FILTER_VALUE} className="text-sm">Any Skill</SelectItem>
                       {availableSkills.map((skill) => (
                         <SelectItem key={skill} value={skill} className="text-sm">
                           {skill}
@@ -134,6 +113,7 @@ export const QuestionBank = ({
                 </SelectContent>
               </Select>
             </div>
+            
             {/* Difficulty Selection */}
             <div className="space-y-1">
               <label className="text-sm font-medium text-muted-foreground">Difficulty</label>
@@ -142,7 +122,7 @@ export const QuestionBank = ({
                   <SelectValue placeholder="Select Difficulty" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="Any" className="text-sm">Any Difficulty</SelectItem>
+                  <SelectItem value={DEFAULT_FILTER_VALUE} className="text-sm">Any Difficulty</SelectItem>
                   {DIFFICULTY_OPTIONS.map((difficulty) => (
                     <SelectItem key={difficulty} value={difficulty} className="text-sm">
                       {difficulty}

@@ -1,0 +1,22 @@
+{
+  "question_id": "e7247766",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Horizontal gene transfer occurs when an organism of one species acquires genetic material from an organism of another species through nonreproductive means. The genetic material can then be transferred \"vertically\" in the second species—that is, through reproductive inheritance. Scientist Atma Ivancevic and her team have hypothesized infection by invertebrate parasites as a mechanism of horizontal gene transfer between vertebrate species: while feeding, a parasite could acquire a gene from one host, then relocate to a host from a different vertebrate species and transfer the gene to it in turn.",
+  "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+  "answer_options": [
+    "It explains why parasites are less susceptible to horizontal gene transfer than their hosts are.",
+    "It clarifies why some genes are more likely to be transferred horizontally than others are.",
+    "It contrasts how horizontal gene transfer occurs among vertebrates with how it occurs among invertebrates.&nbsp;",
+    "It describes a means by which horizontal gene transfer might occur among vertebrates."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text defines horizontal gene transfer and then gives one possibility for how it happens in vertebrates (via infection by parasites). The underlined part describes how that mechanism could work.",
+    "A": "Choice A is incorrect. The underlined portion doesn't do this. Parasites are only described as the mechanism that does the transferring, not the species that gives or receives the genes.",
+    "B": "Choice B is incorrect. The underlined portion doesn't do this. The text never discusses which genes are more likely to be transferred.",
+    "C": "Choice C is incorrect. The underlined portion doesn't do this. The text never discusses how horizontal gene transfer occurs among invertebrates."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "b11bb2a3",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is adapted from Amy Lowell's 1912 poem \"Summer.\" It is summer, glorious, deep-toned summer, The very crown of nature's changing year When all her surging life is at its full. To me alone it is a time of pause, A void and silent space between two worlds, When inspiration lags, and feeling sleeps, Gathering strength for efforts yet to come. As used in the text, what does the phrase \"a void\" most nearly mean?",
+  "question_text": "As used in the text, what does the phrase &ldquo;a void&rdquo; most nearly mean?",
+  "answer_options": [
+    "A useless",
+    "An empty",
+    "A forgotten",
+    "An incomplete"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because as used in the text, a span of time is described as \"a void\" space, which most nearly means an empty or vacant one. In the text, the speaker describes summertime in counterintuitive terms: although nature's \"surging life is at its full\" during the season, the speaker feels summer to be \"a time of pause, / A void and silent space between two worlds.\" The speaker says further that during summer, \"feeling sleeps / Gathering strength\" for future efforts. Thus, the speaker regards summer as an empty stretch of time, to be followed by a period of greater activity.",
+    "A": "Choice A is incorrect. Although the text does present summer as a time of inactivity, it doesn't characterize that inactivity as useless, or as having no purpose; in fact, the speaker regards summer as a time when \"feeling\" gathers \"strength for efforts yet to come.\"",
+    "C": "Choice C is incorrect. Although the text characterizes summer as a time \"when inspiration lags, and feeling sleeps,\" it doesn't discuss the season's relationship to the speaker's memory or suggest that summer can easily be forgotten.",
+    "D": "Choice D is incorrect. In some contexts, \"void\" can mean devoid of, or lacking, a particular element, and such a lack could be conceived of as incompleteness. However, the text doesn't portray summer as not being complete or whole; instead, it characterizes vacancy or inactivity as being an essential quality of the season, as experienced by the speaker."
+  }
+}

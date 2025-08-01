@@ -1,0 +1,22 @@
+{
+  "question_id": "e2d97f10",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Pterosaurs were flying reptiles that existed millions of years ago. In a 2021 study, Anusuya Chinsamy-Turan analyzed fragments of pterosaur jawbones located in the Sahara Desert. She was initially unsure if the bones belonged to juvenile or adult pterosaurs. She used advanced microscope techniques to determine that the bones had few growth lines relative to the bones of fully grown pterosaurs. She concluded that the bones belonged to juveniles. The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "In 2021, Chinsamy-Turan studied pterosaur jawbones and was initially unsure if the bones belonged to juveniles or adults.&nbsp;",
+    "Pterosaur jawbones located in the Sahara Desert were the focus of a 2021 study.",
+    "In a 2021 study, Chinsamy-Turan used advanced microscope techniques to analyze the jawbones of pterosaurs, flying reptiles that existed millions of years ago.",
+    "In a 2021 study, Chinsamy-Turan determined that pterosaur jawbones located in the Sahara Desert had few growth lines relative to the bones of fully grown pterosaurs and thus belonged to juveniles."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence presents both the study and its findings, noting the study's date and the researcher's name as well as describing what the researcher determined about the jawbones and how she determined it.",
+    "A": "Choice A is incorrect. While the sentence describes the study and the researcher's initial assessment, it doesn't present the study's findings.",
+    "B": "Choice B is incorrect. While the sentence describes the study and its focus, it doesn't present the study's findings or the name of the researcher who conducted it.",
+    "C": "Choice C is incorrect. While the sentence mentions the study's methodology and provides information about pterosaurs, it doesn't present the study's findings."
+  }
+}

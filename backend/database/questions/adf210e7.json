@@ -1,0 +1,22 @@
+{
+  "question_id": "adf210e7",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "The haiku-like poems of Tomas Transtr&ouml;mer, which present nature- and dream-influenced images in crisp, spare language, have earned the Swedish poet praise from leading contemporary ______ blank them Nigerian American essayist and novelist Teju Cole, who has written that Transtr&ouml;mer's works \"contain a luminous simplicity.\"",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "writers. Among&nbsp;",
+    "writers among&nbsp;",
+    "writers; among&nbsp;",
+    "writers, among&nbsp;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation use between a main clause and a supplementary phrase. This choice correctly uses a comma to mark the boundary between the main clause (\"The haiku-like&hellip;writers\") and the supplementary phrase (\"among&hellip;Cole\") that specifies a contemporary writer who has praised Tomas Transtr&ouml;mer's haiku-like poems.",
+    "A": "Choice A is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"among.\"",
+    "B": "Choice B is incorrect because it fails to mark the boundary between the main clause and the supplementary phrase with appropriate punctuation.",
+    "C": "Choice C is incorrect because a semicolon can't be used in this way to join the main clause (\"The haiku-like&hellip;writers\") and the supplementary phrase (\"among&hellip;Cole\")."
+  }
+}

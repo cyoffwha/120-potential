@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question b4c6cff6</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Karel Čapek&rsquo;s 1920 play <em>R.U.R. (Rossum&rsquo;s Universal Robots</em>), translated by Paul Selver and Nigel Playfair in 1923. Fabry and Busman are telling Miss Glory why their company manufactures robots.</p>
+<p style="padding-left:1em">FABRY: One Robot can replace two and a half&nbsp;<em>workmen</em>. The human machine, Miss Glory, was terribly&nbsp;<em>imperfect</em>. It had to be removed sooner or later.</p>
+<p style="padding-left:1em">BUSMAN: It was too expensive.</p>
+<p style="padding-left:1em">FABRY: It was not <em>effective</em>. It no longer <span role="region" aria-label="Referenced Content"><u>answers</u></span> the requirements of&nbsp;<em>modern engineering</em>. Nature has no idea of keeping pace with&nbsp;<em>modern labor</em>.&nbsp;</p></div>
+
+                        <div class="mt-3"><p>As used in the text, what does the word &ldquo;answers&rdquo; most nearly mean?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Explains</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Rebuts</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Defends</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Fulfills</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because as used in the text, &ldquo;answers&rdquo; most nearly means fulfills. In the text, Fabry and Busman claim that the robots manufactured by their company are more efficient than human workers, which they refer to as &ldquo;the human machine.&rdquo; Fabry observes that the human machine &ldquo;no longer answers the requirements of <em>modern engineering</em>.&rdquo; That is, human workers are incapable of meeting the rigorous needs of modern, industrialized workplaces. </p><p>Choice A is incorrect. Although in some contexts &ldquo;answers&rdquo; can mean explains, it doesn&rsquo;t have that meaning in this context because the topic under discussion is human beings&rsquo; inability to perform labor efficiently, not their inability to engage in discussion or explanation.&nbsp;Choice B is incorrect. Although in some contexts &ldquo;answers&rdquo; can mean rebuts, or proves a claim or argument to be false, it wouldn&rsquo;t make sense to speak of proving<em> </em>requirements<em> </em>to be false; requirements might or might not be reasonable, but they can&rsquo;t be verified as truthful or untruthful, as claims or accusations can.&nbsp;Choice C is incorrect. Although in some contexts, &ldquo;answers&rdquo; can mean defends against criticism, or justifies, it doesn&rsquo;t have that meaning in this context because the opinion that Fabry expresses is that human workers can no longer fulfill the requirements of modern workplaces, not that they have ceased to justify those requirements or to defend them against criticism; indeed, there is no suggestion in the text that workers ever defended those requirements.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">471 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eExplains\u003c/p\u003e", "id": "febedb21-15a1-4eb2-a3b4-5c8aa1d611b5"}, {"content": "\u003cp\u003eRebuts\u003c/p\u003e", "id": "6c560069-7c1d-439f-ada4-1e16df138226"}, {"content": "\u003cp\u003eDefends\u003c/p\u003e", "id": "8b0175cf-1a52-4db2-9c57-3e0c6311669a"}, {"content": "\u003cp\u003eFulfills\u003c/p\u003e", "id": "a43baabd-93df-439d-97c5-d82a1a5f13a8"}], "correct_answer": ["D"], "externalid": "4903c40b-ba93-4f98-9f88-9eb2761045ec", "keys": ["a43baabd-93df-439d-97c5-d82a1a5f13a8"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-033-WIC", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because as used in the text, \u0026ldquo;answers\u0026rdquo; most nearly means fulfills. In the text, Fabry and Busman claim that the robots manufactured by their company are more efficient than human workers, which they refer to as \u0026ldquo;the human machine.\u0026rdquo; Fabry observes that the human machine \u0026ldquo;no longer answers the requirements of \u003cem\u003emodern engineering\u003c/em\u003e.\u0026rdquo; That is, human workers are incapable of meeting the rigorous needs of modern, industrialized workplaces. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although in some contexts \u0026ldquo;answers\u0026rdquo; can mean explains, it doesn\u0026rsquo;t have that meaning in this context because the topic under discussion is human beings\u0026rsquo; inability to perform labor efficiently, not their inability to engage in discussion or explanation.\u0026nbsp;Choice B is incorrect. Although in some contexts \u0026ldquo;answers\u0026rdquo; can mean rebuts, or proves a claim or argument to be false, it wouldn\u0026rsquo;t make sense to speak of proving\u003cem\u003e \u003c/em\u003erequirements\u003cem\u003e \u003c/em\u003eto be false; requirements might or might not be reasonable, but they can\u0026rsquo;t be verified as truthful or untruthful, as claims or accusations can.\u0026nbsp;Choice C is incorrect. Although in some contexts, \u0026ldquo;answers\u0026rdquo; can mean defends against criticism, or justifies, it doesn\u0026rsquo;t have that meaning in this context because the opinion that Fabry expresses is that human workers can no longer fulfill the requirements of modern workplaces, not that they have ceased to justify those requirements or to defend them against criticism; indeed, there is no suggestion in the text that workers ever defended those requirements.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eAs used in the text, what does the word \u0026ldquo;answers\u0026rdquo; most nearly mean?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Karel \u010capek\u0026rsquo;s 1920 play \u003cem\u003eR.U.R. (Rossum\u0026rsquo;s Universal Robots\u003c/em\u003e), translated by Paul Selver and Nigel Playfair in 1923. Fabry and Busman are telling Miss Glory why their company manufactures robots.\u003c/p\u003e\n\u003cp style=\"padding-left:1em\"\u003eFABRY: One Robot can replace two and a half\u0026nbsp;\u003cem\u003eworkmen\u003c/em\u003e. The human machine, Miss Glory, was terribly\u0026nbsp;\u003cem\u003eimperfect\u003c/em\u003e. It had to be removed sooner or later.\u003c/p\u003e\n\u003cp style=\"padding-left:1em\"\u003eBUSMAN: It was too expensive.\u003c/p\u003e\n\u003cp style=\"padding-left:1em\"\u003eFABRY: It was not \u003cem\u003eeffective\u003c/em\u003e. It no longer \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003eanswers\u003c/u\u003e\u003c/span\u003e the requirements of\u0026nbsp;\u003cem\u003emodern engineering\u003c/em\u003e. Nature has no idea of keeping pace with\u0026nbsp;\u003cem\u003emodern labor\u003c/em\u003e.\u0026nbsp;\u003c/p\u003e", "templateclusterid": "dff50a65-b58b-4970-9a3d-0c58bae2d59a", "templateclustername": "", "type": "mcq", "vaultid": "90402771-565e-482f-a35a-477762c6b4a1"}, "createDate": 1691007959319, "difficulty": "M", "external_id": "4903c40b-ba93-4f98-9f88-9eb2761045ec", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "b4c6cff6", "score_band_range_cd": 5, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "bf4d194d-8fb1-49d6-83cf-0ff34ffbd53a", "updateDate": 1691007959319};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-b4c6cff6");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

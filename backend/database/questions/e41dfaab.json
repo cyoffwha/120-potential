@@ -1,0 +1,22 @@
+{
+  "question_id": "e41dfaab",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1929 the Atlantic Monthly published several articles based on newly discovered letters allegedly exchanged between President Abraham Lincoln and a woman named Ann Rutledge. Historians were unable to ______ blank the authenticity of the letters, however, and quickly dismissed them as a hoax.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "validate",
+    "interpret",
+    "relate",
+    "accommodate"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of letters allegedly exchanged between President Lincoln and Rutledge. In this context, \"validate\" means to confirm that something is real or correct. According to the text, it was alleged, or claimed, that the newly discovered letters had been written by Lincoln and Rutledge. The text also indicates that historians ultimately decided the letters were a hoax, or fraudulent. This context suggests that the historians couldn't confirm that the letters were authentic.",
+    "B": "Choice B is incorrect. The text focuses on the authenticity of the letters, which were claimed to have been written by Lincoln and Rutledge and were then quickly dismissed as fraudulent by historians. Rather than conveying that the historians simply weren't able to \"interpret,\" or explain in an understandable way, the letters' authenticity, the text suggests that the historians decided the letters lacked authenticity altogether.",
+    "C": "Choice C is incorrect. The text states that the historians quickly dismissed the letters claimed to have been written by Lincoln and Rutledge as fraudulent; this suggests that rather than being unable to \"relate,\" or tell others about, the letters' authenticity, the historians were able to share what they'd decided about the letters.",
+    "D": "Choice D is incorrect because it wouldn't make sense to suggest that the historians couldn't \"accommodate,\" or give consideration to, the authenticity of the letters claimed to have been written by Lincoln and Rutledge; the text states that the historians decided that the letters were fraudulent, which indicates that they did consider whether the letters were authentic."
+  }
+}

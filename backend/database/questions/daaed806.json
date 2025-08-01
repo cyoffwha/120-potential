@@ -1,0 +1,22 @@
+{
+  "question_id": "daaed806",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "M&ocirc;nica Lopes-Ferreira and others at Brazil's Butantan Institute are studying the freshwater stingray species Potamotrygon rex to determine whether biological characteristics such as the rays' age and sex have ______ blank effect on the toxicity of their venom—that is, to see if differences in these traits are associated with considerable variations in venom potency.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "a disconcerting",
+    "an acceptable",
+    "an imperceptible",
+    "a substantial"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of the research that Lopes-Ferreira and her colleagues are conducting on the stingray species Potamotrygon rex. As used in this context, \"a substantial\" effect means an effect that is sizable or noteworthy. The text indicates that the researchers are seeking to determine whether there are \"considerable variations\" in the potency of stingray venom that are associated with variation in the stingrays' age and sex. This context suggests that the researchers want to find out whether stingray age and sex have a substantial effect on venom toxicity.",
+    "A": "Choice A is incorrect because there's nothing in the text that suggests that the researchers have been studying whether the stingrays' age and sex have \"a disconcerting,\" or an unsettling and disturbing, effect on the stingrays' venom. The text indicates that the researchers wish to determine if stingray age and sex cause large variations in the toxicity of stingray venom, not if the effect of age and sex is disconcerting.",
+    "B": "Choice B is incorrect because the text indicates that researchers want to find out whether differences in stingray age and sex produce differences in stingray venom, not that the researchers want to find out whether age and sex have \"an acceptable,\" or a satisfactory, effect on venom. The text makes no mention of what would make an effect on venom toxicity acceptable and gives no indication that the researchers are interested in that question.",
+    "C": "Choice C is incorrect because it wouldn't make sense in context for the researchers to be looking for \"an imperceptible,\" or an unnoticeable, effect of age and sex on stingray venom. The text says that the researchers are trying to determine if there are \"considerable variations\" in venom toxicity linked to age and sex, not that the researchers are trying to find effects that they can't perceive."
+  }
+}

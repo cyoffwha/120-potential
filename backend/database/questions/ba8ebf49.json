@@ -1,0 +1,22 @@
+{
+  "question_id": "ba8ebf49",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "The poem Beowulf begins with the word \" hw&aelig;t ,\" which is an Old English ______ blank as \"hark!\" or \"listen!\" in some versions, the word was playfully rendered as \"bro!\" by Maria Dahvana Headley in her 2020 translation of the poem.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "exclamation, translated",
+    "exclamation and translated",
+    "exclamation translated",
+    "exclamation. Translated"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (\"The poem&hellip;exclamation\") and another sentence that begins with a supplementary element (\"Translated&hellip;poem\"). The supplementary element \"translated as &lsquo;hark!' or &lsquo;listen!' in some versions\" modifies the subject of the second sentence, \"the word\" (referring to hw&aelig;t ).",
+    "A": "Choice A is incorrect because it results in a comma splice after \"exclamation.\" A comma can't be used in this way to mark the boundary between sentences.",
+    "B": "Choice B is incorrect. Without a comma preceding it, the conjunction \"and\" can't be used in this way to join sentences.",
+    "C": "Choice C is incorrect because it results in a comma splice after \"versions.\" A comma can't be used in this way to mark the boundary between sentences."
+  }
+}

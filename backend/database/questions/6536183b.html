@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 6536183b</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In the mountains of Brazil, <em>Barbacenia tomentosa</em> and <em>Barbacenia macrantha</em>&mdash;two plants in the Velloziaceae family&mdash;establish themselves on soilless, nutrient-poor patches of quartzite rock. Plant ecologists Anna Abrah&atilde;o and Patricia de Britto Costa used microscopic analysis to determine that the roots of <em>B. tomentosa </em>and <em>B. macrantha</em>, which grow directly into the quartzite, have<em> </em>clusters of fine hairs near the root tip; further analysis indicated that these hairs secrete both malic and citric acids. The researchers hypothesize that the plants depend on dissolving underlying rock with these acids, as the process not only creates channels for continued growth but also releases phosphates that provide the vital nutrient phosphorus.</p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most directly support the researchers&rsquo; hypothesis?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Other species in the Velloziaceae family are found in terrains with more soil but have root structures similar to those of <em>B. tomentosa </em>and <em>B. macrantha</em>.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Though <em>B. tomentosa </em>and <em>B. macrantha </em>both secrete citric and malic acids, each species produces the acids in different proportions.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The roots of <em>B. tomentosa </em>and <em>B. macrantha </em>carve new entry points into rocks even when cracks in the surface are readily available.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p><em>B. tomentosa </em>and <em>B. macrantha</em> thrive even when transferred to the surfaces of rocks that do not contain phosphates.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it presents a finding that, if true, would support the researchers&rsquo; hypothesis about the plants&rsquo; dependence on dissolving rock. The text indicates that the roots of the two plant species grow directly into quartzite rock, where hairs on the roots secrete acids that dissolve the rock. The researchers hypothesize that the plants depend on this process because dissolving rock opens spaces for the roots to grow and releases phosphates that provide the plants with phosphorous, a vital nutrient. If the plants carry out this process of dissolving rock even when the rock already has spaces into which the roots could grow, that would support the researchers&rsquo; hypothesis because it suggests that the plants are getting some advantage&mdash;such as access to phosphorous&mdash;from the action of dissolving rock. If the plants don&rsquo;t benefit from dissolving rock, they would be expected to grow in the cracks that already exist, as doing so would mean that the plants don&rsquo;t have to spend energy creating and secreting acids; if, however, the plants create new entry points by dissolving rock even when cracks already exist, that would support the hypothesis that they depend on dissolving rock for some benefit. </p><p>Choice A is incorrect because the existence of soil-inhabiting members of the Velloziaceae family with similar root structures to those of the two species discussed in the text wouldn&rsquo;t support the researchers&rsquo; hypothesis that the species discussed in the text depend on dissolving rock. If other such members exist, that might suggest that the root structures can serve more functions than secreting acids to dissolve rock (since dissolving rock may not be necessary for plants living in soil), but that wouldn&rsquo;t suggest anything about whether the species discussed in the text benefit from dissolving rock.&nbsp;Choice B is incorrect because differences in the proportions of citric and malic acid secreted by the two species would be irrelevant to the hypothesis that the plants depend on dissolving rock. There&rsquo;s no information in the text to suggest that the proportion of each acid has any bearing on the process of dissolving rock or on any benefits the plants might receive from that process.&nbsp;Choice D is incorrect because if the two species thrive on rocks without phosphates, that would weaken the researchers&rsquo; hypothesis that the plants depend on dissolving rock partly because dissolving rock gives them access to phosphates. If the plants can survive on rocks without getting a vital nutrient by dissolving those rocks, then either the nutrient isn&rsquo;t actually vital for those plants or they can get the nutrient in some way other than by dissolving rocks. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">198 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eOther species in the Velloziaceae family are found in terrains with more soil but have root structures similar to those of \u003cem\u003eB. tomentosa \u003c/em\u003eand \u003cem\u003eB. macrantha\u003c/em\u003e.\u003c/p\u003e", "id": "2d26bbb8-6cac-4281-88c3-986255ad7a42"}, {"content": "\u003cp\u003eThough \u003cem\u003eB. tomentosa \u003c/em\u003eand \u003cem\u003eB. macrantha \u003c/em\u003eboth secrete citric and malic acids, each species produces the acids in different proportions.\u003c/p\u003e", "id": "268a1b40-541f-4f59-9c19-cd3decd10770"}, {"content": "\u003cp\u003eThe roots of \u003cem\u003eB. tomentosa \u003c/em\u003eand \u003cem\u003eB. macrantha \u003c/em\u003ecarve new entry points into rocks even when cracks in the surface are readily available.\u003c/p\u003e", "id": "5e069b95-ed20-4116-918e-d5630d62219c"}, {"content": "\u003cp\u003e\u003cem\u003eB. tomentosa \u003c/em\u003eand \u003cem\u003eB. macrantha\u003c/em\u003e thrive even when transferred to the surfaces of rocks that do not contain phosphates.\u003c/p\u003e", "id": "d1de3ccd-2382-47a5-823c-d57113358653"}], "correct_answer": ["C"], "externalid": "c7238400-e5ab-4ee8-a20c-29043d59a1a1", "keys": ["5e069b95-ed20-4116-918e-d5630d62219c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-316-TXT", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it presents a finding that, if true, would support the researchers\u0026rsquo; hypothesis about the plants\u0026rsquo; dependence on dissolving rock. The text indicates that the roots of the two plant species grow directly into quartzite rock, where hairs on the roots secrete acids that dissolve the rock. The researchers hypothesize that the plants depend on this process because dissolving rock opens spaces for the roots to grow and releases phosphates that provide the plants with phosphorous, a vital nutrient. If the plants carry out this process of dissolving rock even when the rock already has spaces into which the roots could grow, that would support the researchers\u0026rsquo; hypothesis because it suggests that the plants are getting some advantage\u0026mdash;such as access to phosphorous\u0026mdash;from the action of dissolving rock. If the plants don\u0026rsquo;t benefit from dissolving rock, they would be expected to grow in the cracks that already exist, as doing so would mean that the plants don\u0026rsquo;t have to spend energy creating and secreting acids; if, however, the plants create new entry points by dissolving rock even when cracks already exist, that would support the hypothesis that they depend on dissolving rock for some benefit. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the existence of soil-inhabiting members of the Velloziaceae family with similar root structures to those of the two species discussed in the text wouldn\u0026rsquo;t support the researchers\u0026rsquo; hypothesis that the species discussed in the text depend on dissolving rock. If other such members exist, that might suggest that the root structures can serve more functions than secreting acids to dissolve rock (since dissolving rock may not be necessary for plants living in soil), but that wouldn\u0026rsquo;t suggest anything about whether the species discussed in the text benefit from dissolving rock.\u0026nbsp;Choice B is incorrect because differences in the proportions of citric and malic acid secreted by the two species would be irrelevant to the hypothesis that the plants depend on dissolving rock. There\u0026rsquo;s no information in the text to suggest that the proportion of each acid has any bearing on the process of dissolving rock or on any benefits the plants might receive from that process.\u0026nbsp;Choice D is incorrect because if the two species thrive on rocks without phosphates, that would weaken the researchers\u0026rsquo; hypothesis that the plants depend on dissolving rock partly because dissolving rock gives them access to phosphates. If the plants can survive on rocks without getting a vital nutrient by dissolving those rocks, then either the nutrient isn\u0026rsquo;t actually vital for those plants or they can get the nutrient in some way other than by dissolving rocks. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most directly support the researchers\u0026rsquo; hypothesis?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn the mountains of Brazil, \u003cem\u003eBarbacenia tomentosa\u003c/em\u003e and \u003cem\u003eBarbacenia macrantha\u003c/em\u003e\u0026mdash;two plants in the Velloziaceae family\u0026mdash;establish themselves on soilless, nutrient-poor patches of quartzite rock. Plant ecologists Anna Abrah\u0026atilde;o and Patricia de Britto Costa used microscopic analysis to determine that the roots of \u003cem\u003eB. tomentosa \u003c/em\u003eand \u003cem\u003eB. macrantha\u003c/em\u003e, which grow directly into the quartzite, have\u003cem\u003e \u003c/em\u003eclusters of fine hairs near the root tip; further analysis indicated that these hairs secrete both malic and citric acids. The researchers hypothesize that the plants depend on dissolving underlying rock with these acids, as the process not only creates channels for continued growth but also releases phosphates that provide the vital nutrient phosphorus.\u003c/p\u003e", "templateclusterid": "e9140487-ac33-44d7-99a4-d4a68ebcc2e8", "templateclustername": "", "type": "mcq", "vaultid": "c1bbcfb2-3392-4a44-be5c-c6b15a5d59d1"}, "createDate": 1691007959335, "difficulty": "H", "external_id": "c7238400-e5ab-4ee8-a20c-29043d59a1a1", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "6536183b", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "a1c4a5f5-0ecd-4d83-a6a9-f2be662ce46d", "updateDate": 1691007959335};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-6536183b");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

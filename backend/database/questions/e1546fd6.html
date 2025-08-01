@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e1546fd6</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Average Nitrate and Phosphate Concentrations in Seawater after Volcanic Eruption</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Nutrient</th><th scope="col" style="text-align: center; vertical-align: bottom;">Seawater in lava-affected area, 5&ndash;45 meters below surface</th><th scope="col" style="text-align: center; vertical-align: bottom;">Seawater in lava-affected area, 75&ndash;125 meters below surface</th><th scope="col" style="text-align: center; vertical-align: bottom;">Seawater outside of lava-affected area, 5&ndash;45 meters below surface</th><th scope="col" style="text-align: center; vertical-align: bottom;">Seawater outside of lava-affected area, 75&ndash;125 meters below surface</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">Nitrate (micromoles per liter)</th><td style="text-align: center;">3.1</td><td style="text-align: center;">0.4</td><td><span aria-hidden="true">&le;0.03</span><span class="sr-only">less than or equal to 0.03</span></td><td><span aria-hidden="true">&le;0.01</span><span class="sr-only">less than or equal to 0.01</span></td></tr><tr><th scope="row" style="text-align: left;">Phosphate (micromoles per liter)</th><td style="text-align: center;">0.17</td><td style="text-align: center;">0.09</td><td style="text-align: center;">0.14</td><td style="text-align: center;">0.06</td></tr></tbody></table></figure></p>
+<p>After a volcanic eruption spilled lava into North Pacific Ocean waters, a dramatic increase of diatoms (a kind of phytoplankton) near the surface occurred. Scientists assumed the diatoms were thriving on nutrients such as phosphate from the lava, but analysis showed these nutrients weren&rsquo;t present near the surface in forms diatoms can consume. However, there was an abundance of usable nitrate, a nutrient usually found in much deeper water and almost never found in lava. Microbial oceanographer Sonya Dyhrman and colleagues believe that as the lava plunged nearly 300 meters below the surface it dislodged pockets of this nutrient, releasing it to float upward, given that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the table to complete the statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>at 5&ndash;45 meters below the surface, the average concentration of phosphate was about the same in the seawater in the lava-affected area as in the seawater outside of the lava-affected area.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>for both depth ranges measured, the average concentrations of nitrate were substantially higher in the seawater in the lava-affected area than in the seawater outside of the lava-affected area.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>for both depth ranges measured in the seawater in the lava-affected area, the average concentrations of nitrate were substantially higher than the average concentrations of phosphate.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>in the seawater outside of the lava-affected area, there was little change in the average concentration of nitrate from 75&ndash;125 meters below the surface to 5&ndash;45 meters below the surface.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The claim is that the lava freed the deep nitrate, allowing it to float upward. The table supports this by showing that there was more nitrate in the lava-affected seawater at various depths above 300 meters (the depth to which the lava plunged) than in unaffected seawater. </p><p>Choice A is incorrect. This choice doesn&rsquo;t complete the statement in a way that supports the claim. The claim is about nitrate, not phosphate. Choice C is incorrect. This choice doesn&rsquo;t complete the statement in a way that supports the claim. The claim is only about nitrate&mdash;the concentrations of phosphate aren&rsquo;t relevant. Choice D is incorrect. This choice doesn&rsquo;t complete the statement in a way that supports the claim. It doesn&rsquo;t say anything about the seawater inside the lava-affected area. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">118 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eat 5\u0026ndash;45 meters below the surface, the average concentration of phosphate was about the same in the seawater in the lava-affected area as in the seawater outside of the lava-affected area.\u003c/p\u003e", "id": "e66236b9-6130-4db6-89ca-e8664ceb0ae2"}, {"content": "\u003cp\u003efor both depth ranges measured, the average concentrations of nitrate were substantially higher in the seawater in the lava-affected area than in the seawater outside of the lava-affected area.\u003c/p\u003e", "id": "c903687e-41de-4650-b544-2f4fa487c57d"}, {"content": "\u003cp\u003efor both depth ranges measured in the seawater in the lava-affected area, the average concentrations of nitrate were substantially higher than the average concentrations of phosphate.\u003c/p\u003e", "id": "fb03466b-f6ad-4dec-bcdc-7227eb592d10"}, {"content": "\u003cp\u003ein the seawater outside of the lava-affected area, there was little change in the average concentration of nitrate from 75\u0026ndash;125 meters below the surface to 5\u0026ndash;45 meters below the surface.\u003c/p\u003e", "id": "2f120b33-b80d-4af1-a8bd-ff7ea949e907"}], "correct_answer": ["B"], "externalid": "3275ff87-da2f-478f-b3a4-1e2626b25e08", "keys": ["c903687e-41de-4650-b544-2f4fa487c57d"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-M002", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The claim is that the lava freed the deep nitrate, allowing it to float upward. The table supports this by showing that there was more nitrate in the lava-affected seawater at various depths above 300 meters (the depth to which the lava plunged) than in unaffected seawater. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice doesn\u0026rsquo;t complete the statement in a way that supports the claim. The claim is about nitrate, not phosphate. Choice C is incorrect. This choice doesn\u0026rsquo;t complete the statement in a way that supports the claim. The claim is only about nitrate\u0026mdash;the concentrations of phosphate aren\u0026rsquo;t relevant. Choice D is incorrect. This choice doesn\u0026rsquo;t complete the statement in a way that supports the claim. It doesn\u0026rsquo;t say anything about the seawater inside the lava-affected area. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the table to complete the statement?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eAverage Nitrate and Phosphate Concentrations in Seawater after Volcanic Eruption\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eNutrient\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eSeawater in lava-affected area, 5\u0026ndash;45 meters below surface\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eSeawater in lava-affected area, 75\u0026ndash;125 meters below surface\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eSeawater outside of lava-affected area, 5\u0026ndash;45 meters below surface\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eSeawater outside of lava-affected area, 75\u0026ndash;125 meters below surface\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eNitrate (micromoles per liter)\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e3.1\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0.4\u003c/td\u003e\u003ctd\u003e\u003cspan aria-hidden=\"true\"\u003e\u0026le;0.03\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eless than or equal to 0.03\u003c/span\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan aria-hidden=\"true\"\u003e\u0026le;0.01\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eless than or equal to 0.01\u003c/span\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003ePhosphate (micromoles per liter)\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e0.17\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0.09\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0.14\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0.06\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eAfter a volcanic eruption spilled lava into North Pacific Ocean waters, a dramatic increase of diatoms (a kind of phytoplankton) near the surface occurred. Scientists assumed the diatoms were thriving on nutrients such as phosphate from the lava, but analysis showed these nutrients weren\u0026rsquo;t present near the surface in forms diatoms can consume. However, there was an abundance of usable nitrate, a nutrient usually found in much deeper water and almost never found in lava. Microbial oceanographer Sonya Dyhrman and colleagues believe that as the lava plunged nearly 300 meters below the surface it dislodged pockets of this nutrient, releasing it to float upward, given that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "ec829fd0-a96b-48bf-9ec2-6a7d1a1b5552", "templateclustername": "", "type": "mcq", "vaultid": "080a8df1-4883-43d9-b52f-20fe7fdea6f2"}, "createDate": 1691007959370, "difficulty": "M", "external_id": "3275ff87-da2f-478f-b3a4-1e2626b25e08", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "e1546fd6", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "62f2154a-ec78-47fa-94a7-dff6e8f29301", "updateDate": 1691007959370};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e1546fd6");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

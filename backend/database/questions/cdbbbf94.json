@@ -1,0 +1,22 @@
+{
+  "question_id": "cdbbbf94",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "As British scientist Peter Whibberley has observed, \"the Earth is not a very good timekeeper.\" Earth's slightly irregular rotation rate means that measurements of time must be periodically adjusted. Specifically, an extra \"leap second\" (the 86,401st second of the day) is ______ blank time based on the planet's rotation lags a full nine-tenths of a second behind time kept by precise atomic clocks.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "added, whenever",
+    "added; whenever",
+    "added. Whenever",
+    "added whenever"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation between a verb and a preposition. When, as in this case, a verb (\"is added\") is immediately followed by a preposition (\"whenever\"), no punctuation is needed.",
+    "A": "Choice A is incorrect because no punctuation is needed between the verb and the preposition.",
+    "B": "Choice B is incorrect because no punctuation is needed between the verb and the preposition.",
+    "C": "Choice C is incorrect because no punctuation is needed between the verb and the preposition."
+  }
+}

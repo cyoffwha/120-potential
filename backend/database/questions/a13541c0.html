@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question a13541c0</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Sandra Cisneros&rsquo;s 1984 novella <em>The House on Mango Street</em> made a lasting impact on US literature. Its depiction of Mexican American culture inspired later authors to examine their own heritage within their fictional works. Also influential was the book&rsquo;s portrayal of the main character, Esperanza, during a pivotal year of her youth. <span role="region" aria-label="Referenced Content"><u>This insightful depiction of a preteen girl encouraged authors who, like Cisneros herself, are Latina to use fictional works to examine experiences from their own youth.</u></span></p></div>
+
+                        <div class="mt-3"><p>Which statement, if true, would most strongly support the claim in the underlined sentence?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In interviews, a number of Latina authors say that <em>The House on Mango Street </em>inspired them to write about their own adolescence in their novels.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In published writings, several prominent authors who are not Latina say that reading <em>The House on Mango Street</em> influenced their approach to writing fiction.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The <em>House on Mango Street </em>has sold over six million copies and is one of the most commonly read books among high school and university students in the US.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Since 1984, new novels about young Latina characters by Latina authors have often been compared to <em>The House on Mango Street</em>.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it presents a finding that, if true, would most strongly support the claim in the underlined sentence. The text begins by explaining that the portrayal of Mexican American culture in Sandra Cisneros&rsquo;s <em>The House on Mango Street</em> inspired later authors to explore their own heritage. Noting that Cisneros&rsquo;s novella was also influential for its depiction of a formative year in a female character&rsquo;s youth, the text then claims that this depiction inspired other Latina authors to use fiction to explore their own experiences of youth. Since this claim addresses how Cisneros encouraged Latina authors specifically to portray their youthful experiences, it would be directly supported by such authors stating that her novella influenced them to write about their own adolescence, or the transitional period between childhood and adulthood. </p><p>Choice B is incorrect. The text states that with its portrayal of Mexican American culture, <em>The House on Mango Street</em> inspired later authors to explore their own heritage, and since this statement isn&rsquo;t limited to only Latina authors, it can be inferred that authors who aren&rsquo;t Latina were also likely influenced by the novella. But because the claim in the underlined sentence concerns the novella&rsquo;s influence on Latina authors specifically, the finding that the book also influenced authors who weren&rsquo;t Latina would fail to provide support for the claim. Choice C is incorrect because the finding that <em>The House on Mango Street</em> has sold millions of copies and is widely read among students in the US doesn&rsquo;t relate directly to the text&rsquo;s claim that the novella has influenced Latina authors specifically. Choice D is incorrect. While comparisons of new novels about young Latina characters by Latina authors to Cisneros&rsquo;s <em>The House on Mango Stree</em>t would likely be founded on similarities between those novels and Cisneros&rsquo;s novella, such similarities wouldn&rsquo;t necessarily be evidence of the novella&rsquo;s influence; such similarities might arise if Cisneros and younger Latina authors alike depicted certain basic cultural and historical features of their communities. Testimony from younger Latina authors about how <em>The House on Mango Street</em> had inspired them would be far more persuasive evidence of the novella&rsquo;s influence.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">46 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIn interviews, a number of Latina authors say that \u003cem\u003eThe House on Mango Street \u003c/em\u003einspired them to write about their own adolescence in their novels.\u003c/p\u003e", "id": "fef3e067-dc7a-44ed-b6de-d08110114d0c"}, {"content": "\u003cp\u003eIn published writings, several prominent authors who are not Latina say that reading \u003cem\u003eThe House on Mango Street\u003c/em\u003e influenced their approach to writing fiction.\u003c/p\u003e", "id": "b4f14f44-0ea1-433e-b1c2-abf938f19665"}, {"content": "\u003cp\u003eThe \u003cem\u003eHouse on Mango Street \u003c/em\u003ehas sold over six million copies and is one of the most commonly read books among high school and university students in the US.\u003c/p\u003e", "id": "cd315f01-e170-4402-86f3-b767d107bed1"}, {"content": "\u003cp\u003eSince 1984, new novels about young Latina characters by Latina authors have often been compared to \u003cem\u003eThe House on Mango Street\u003c/em\u003e.\u0026nbsp;\u003c/p\u003e", "id": "ee3dee45-3be0-4f20-98d4-4bf81b004a76"}], "correct_answer": ["A"], "externalid": "130d0a84-b1b0-4f4b-9201-cd5cc26e4514", "keys": ["fef3e067-dc7a-44ed-b6de-d08110114d0c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-336-TXT", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it presents a finding that, if true, would most strongly support the claim in the underlined sentence. The text begins by explaining that the portrayal of Mexican American culture in Sandra Cisneros\u0026rsquo;s \u003cem\u003eThe House on Mango Street\u003c/em\u003e inspired later authors to explore their own heritage. Noting that Cisneros\u0026rsquo;s novella was also influential for its depiction of a formative year in a female character\u0026rsquo;s youth, the text then claims that this depiction inspired other Latina authors to use fiction to explore their own experiences of youth. Since this claim addresses how Cisneros encouraged Latina authors specifically to portray their youthful experiences, it would be directly supported by such authors stating that her novella influenced them to write about their own adolescence, or the transitional period between childhood and adulthood. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. The text states that with its portrayal of Mexican American culture, \u003cem\u003eThe House on Mango Street\u003c/em\u003e inspired later authors to explore their own heritage, and since this statement isn\u0026rsquo;t limited to only Latina authors, it can be inferred that authors who aren\u0026rsquo;t Latina were also likely influenced by the novella. But because the claim in the underlined sentence concerns the novella\u0026rsquo;s influence on Latina authors specifically, the finding that the book also influenced authors who weren\u0026rsquo;t Latina would fail to provide support for the claim. Choice C is incorrect because the finding that \u003cem\u003eThe House on Mango Street\u003c/em\u003e has sold millions of copies and is widely read among students in the US doesn\u0026rsquo;t relate directly to the text\u0026rsquo;s claim that the novella has influenced Latina authors specifically. Choice D is incorrect. While comparisons of new novels about young Latina characters by Latina authors to Cisneros\u0026rsquo;s \u003cem\u003eThe House on Mango Stree\u003c/em\u003et would likely be founded on similarities between those novels and Cisneros\u0026rsquo;s novella, such similarities wouldn\u0026rsquo;t necessarily be evidence of the novella\u0026rsquo;s influence; such similarities might arise if Cisneros and younger Latina authors alike depicted certain basic cultural and historical features of their communities. Testimony from younger Latina authors about how \u003cem\u003eThe House on Mango Street\u003c/em\u003e had inspired them would be far more persuasive evidence of the novella\u0026rsquo;s influence.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich statement, if true, would most strongly support the claim in the underlined sentence?\u003c/p\u003e", "stimulus": "\u003cp\u003eSandra Cisneros\u0026rsquo;s 1984 novella \u003cem\u003eThe House on Mango Street\u003c/em\u003e made a lasting impact on US literature. Its depiction of Mexican American culture inspired later authors to examine their own heritage within their fictional works. Also influential was the book\u0026rsquo;s portrayal of the main character, Esperanza, during a pivotal year of her youth. \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003eThis insightful depiction of a preteen girl encouraged authors who, like Cisneros herself, are Latina to use fictional works to examine experiences from their own youth.\u003c/u\u003e\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "b6036d0f-7a8d-4226-8602-4d1488979bc1", "templateclustername": "", "type": "mcq", "vaultid": "832c7c33-4d29-4b2c-b707-09ead941d39e"}, "createDate": 1691007959336, "difficulty": "M", "external_id": "130d0a84-b1b0-4f4b-9201-cd5cc26e4514", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "a13541c0", "score_band_range_cd": 4, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "2360b7fb-8002-4152-9097-20fed7f006a8", "updateDate": 1691007959336};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-a13541c0");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

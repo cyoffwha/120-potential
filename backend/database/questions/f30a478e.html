@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question f30a478e</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>A study published by Rice University geoscientist Ming Tang in 2019 offers a new explanation for the origin of Earth&rsquo;s <span aria-hidden="true">______</span><span class="sr-only">blank</span> structures called arcs, towering ridges that form when a dense oceanic plate subducts under a less dense continental plate, melts in the mantle below, and then rises and bursts through the continental crust above.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>continents geological</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>continents: geological</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>continents; geological</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>continents. Geological</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The convention being tested is punctuation use between a main clause and a supplementary phrase. In this choice, a colon is correctly used to mark the boundary between the main clause (&ldquo;A study&hellip;continents&rdquo;) and the supplementary phrase (&ldquo;geological&hellip;above&rdquo;) and to introduce the following explanation of the origin of Earth&rsquo;s continents. </p><p>Choice A is incorrect because it fails to mark the boundary between the main clause (&ldquo;A study&hellip;continents&rdquo;) and the supplementary phrase (&ldquo;geological&hellip;above&rdquo;) with appropriate punctuation. Choice C is incorrect because a semicolon can&rsquo;t be used in this way to join the main clause (&ldquo;A study&hellip;continents&rdquo;) and the supplementary phrase (&ldquo;geological&hellip;above&rdquo;). A semicolon is conventionally used to join two main clauses, whereas a colon is conventionally used to introduce an element that explains or amplifies the information in the preceding clause, making it the better choice in this context. Choice D is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with &ldquo;geological.&rdquo; </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">826 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003econtinents geological\u003c/p\u003e", "id": "7ea42efa-78bc-42a1-866b-bbb3f8acafad"}, {"content": "\u003cp\u003econtinents: geological\u003c/p\u003e", "id": "58866cd0-8463-4be8-b8ab-1f8f19b2f853"}, {"content": "\u003cp\u003econtinents; geological\u003c/p\u003e", "id": "7f40b5a6-eaee-4cba-b67b-a767d07128a9"}, {"content": "\u003cp\u003econtinents. Geological\u003c/p\u003e", "id": "63ef0f17-9ce9-46c2-b676-a40ccbc90f64"}], "correct_answer": ["B"], "externalid": "cf47f4f6-bab4-44f6-82fd-17fbbf30c460", "keys": ["58866cd0-8463-4be8-b8ab-1f8f19b2f853"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-639-SEC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The convention being tested is punctuation use between a main clause and a supplementary phrase. In this choice, a colon is correctly used to mark the boundary between the main clause (\u0026ldquo;A study\u0026hellip;continents\u0026rdquo;) and the supplementary phrase (\u0026ldquo;geological\u0026hellip;above\u0026rdquo;) and to introduce the following explanation of the origin of Earth\u0026rsquo;s continents. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because it fails to mark the boundary between the main clause (\u0026ldquo;A study\u0026hellip;continents\u0026rdquo;) and the supplementary phrase (\u0026ldquo;geological\u0026hellip;above\u0026rdquo;) with appropriate punctuation. Choice C is incorrect because a semicolon can\u0026rsquo;t be used in this way to join the main clause (\u0026ldquo;A study\u0026hellip;continents\u0026rdquo;) and the supplementary phrase (\u0026ldquo;geological\u0026hellip;above\u0026rdquo;). A semicolon is conventionally used to join two main clauses, whereas a colon is conventionally used to introduce an element that explains or amplifies the information in the preceding clause, making it the better choice in this context. Choice D is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \u0026ldquo;geological.\u0026rdquo; \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eA study published by Rice University geoscientist Ming Tang in 2019 offers a new explanation for the origin of Earth\u0026rsquo;s \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e structures called arcs, towering ridges that form when a dense oceanic plate subducts under a less dense continental plate, melts in the mantle below, and then rises and bursts through the continental crust above.\u003c/p\u003e", "templateclusterid": "67b410ea-e9cf-43cf-83f7-32818788292f", "templateclustername": "", "type": "mcq", "vaultid": "278686bb-da86-4d96-b5cd-d97a66564e44"}, "createDate": 1691007959340, "difficulty": "H", "external_id": "cf47f4f6-bab4-44f6-82fd-17fbbf30c460", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "f30a478e", "score_band_range_cd": 7, "skill_cd": "BOU", "skill_desc": "Boundaries", "uId": "723f57db-dad4-4f97-bae0-2f21631763af", "updateDate": 1691007959340};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-f30a478e");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

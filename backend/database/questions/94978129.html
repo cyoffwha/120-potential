@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 94978129</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Approximate Rates of Speech and Information Conveyed for Five Languages</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Language</th><th scope="col" style="text-align: center; vertical-align: bottom;">Rate of speech (syllables per second)</th><th scope="col" style="text-align: center; vertical-align: bottom;">Rate of information conveyed (bits per second)</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">Serbian</th><td style="text-align: center;">7.2</td><td style="text-align: center;">39.1</td></tr><tr><th scope="row" style="text-align: left;">Spanish</th><td style="text-align: center;">7.7</td><td style="text-align: center;">42.0</td></tr><tr><th scope="row" style="text-align: left;">Vietnamese</th><td style="text-align: center;">5.3</td><td style="text-align: center;">42.5</td></tr><tr><th scope="row" style="text-align: left;">Thai</th><td style="text-align: center;">4.7</td><td style="text-align: center;">33.8</td></tr><tr><th scope="row" style="text-align: left;">Hungarian</th><td style="text-align: center;">5.9</td><td style="text-align: center;">34.6</td></tr></tbody></table></figure></p>
+<p>A group of researchers working in Europe, Asia, and Oceania conducted a study to determine how quickly different Eurasian languages are typically spoken (in syllables per second) and how much information they can effectively convey (in bits per second). They found that, although languages vary widely in the speed at which they are spoken, the amount of information languages can effectively convey tends to vary much less. Thus, they claim that two languages with very different spoken rates can nonetheless convey the same amount of information in a given amount of time.&nbsp;</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes data from the table that support the researchers&rsquo; claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Among the five languages in the table, Thai and Hungarian have the lowest rates of speech and the lowest rates of information conveyed.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Vietnamese conveys information at approximately the same rate as Spanish despite being spoken at a slower rate.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Among the five languages in the table, the language that is spoken the fastest is also the language that conveys information the fastest.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Serbian and Spanish are spoken at approximately the same rate, but Serbian conveys information faster than Spanish does.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it provides the most direct support from the table for the claim that two languages can convey similar amounts of information even if they&rsquo;re spoken at different rates. The table shows the approximate rates at which five languages are spoken and the rates at which those five languages convey information. Vietnamese is spoken at around 5.3 syllables per second, whereas Spanish is spoken at around 7.7 syllables per second, but the two languages convey information at very similar rates: Vietnamese at a rate of around 42.5 bits per second and Spanish at a rate of around 42.0 bits per second. Thus, the description of Vietnamese conveying information at around the same rate that Spanish does despite being spoken more slowly supports the claim in the text that languages can convey the same amount of information even if spoken at different rates.&nbsp;</p><p>Choice A is incorrect because it isn&rsquo;t true that Thai and Hungarian have the lowest rates of speech of the five languages shown. According to the table, Hungarian is spoken at around 5.9 syllables per second, which is faster than Vietnamese (5.3 syllables per second). Additionally, even if this statement were true, the assertion that two languages are spoken the slowest and convey information the slowest wouldn&rsquo;t support the claim that languages can convey the same amount of information even if they&rsquo;re spoken at different rates.&nbsp;Choice C is incorrect because it isn&rsquo;t true that the fastest-spoken language (Spanish, at 7.7 syllables per second) also conveys information the fastest: Spanish conveys information at 42.0 bits per second, which is slower than the 42.5 bits-per-second rate at which Vietnamese conveys information. Additionally, even if this statement were true, the assertion that the language spoken the fastest also conveys information the fastest has no bearing on the claim that languages can convey the same amount of information even if they&rsquo;re spoken at different rates.&nbsp;Choice D is incorrect because it isn&rsquo;t true that Serbian conveys information faster than Spanish does. According to the table, Serbian conveys information at a rate of around 39.1 bits per second, which is slower than the 42.0 bits-per-second rate at which Spanish conveys information.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">253 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eAmong the five languages in the table, Thai and Hungarian have the lowest rates of speech and the lowest rates of information conveyed.\u003c/p\u003e", "id": "5772d6a7-49a4-43fc-9b16-d9ab2087aebe"}, {"content": "\u003cp\u003eVietnamese conveys information at approximately the same rate as Spanish despite being spoken at a slower rate.\u003c/p\u003e", "id": "807cfc5f-06cb-4a88-a24d-905b5bed3e8c"}, {"content": "\u003cp\u003eAmong the five languages in the table, the language that is spoken the fastest is also the language that conveys information the fastest.\u003c/p\u003e", "id": "ccd12705-b14b-4992-ba02-9a53a87ac806"}, {"content": "\u003cp\u003eSerbian and Spanish are spoken at approximately the same rate, but Serbian conveys information faster than Spanish does.\u003c/p\u003e", "id": "91d39d53-0bde-4885-9d82-9cf51bc77241"}], "correct_answer": ["B"], "externalid": "9557f652-fc18-4b47-a8e1-638716b0eec7", "keys": ["807cfc5f-06cb-4a88-a24d-905b5bed3e8c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-508-QUA", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it provides the most direct support from the table for the claim that two languages can convey similar amounts of information even if they\u0026rsquo;re spoken at different rates. The table shows the approximate rates at which five languages are spoken and the rates at which those five languages convey information. Vietnamese is spoken at around 5.3 syllables per second, whereas Spanish is spoken at around 7.7 syllables per second, but the two languages convey information at very similar rates: Vietnamese at a rate of around 42.5 bits per second and Spanish at a rate of around 42.0 bits per second. Thus, the description of Vietnamese conveying information at around the same rate that Spanish does despite being spoken more slowly supports the claim in the text that languages can convey the same amount of information even if spoken at different rates.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because it isn\u0026rsquo;t true that Thai and Hungarian have the lowest rates of speech of the five languages shown. According to the table, Hungarian is spoken at around 5.9 syllables per second, which is faster than Vietnamese (5.3 syllables per second). Additionally, even if this statement were true, the assertion that two languages are spoken the slowest and convey information the slowest wouldn\u0026rsquo;t support the claim that languages can convey the same amount of information even if they\u0026rsquo;re spoken at different rates.\u0026nbsp;Choice C is incorrect because it isn\u0026rsquo;t true that the fastest-spoken language (Spanish, at 7.7 syllables per second) also conveys information the fastest: Spanish conveys information at 42.0 bits per second, which is slower than the 42.5 bits-per-second rate at which Vietnamese conveys information. Additionally, even if this statement were true, the assertion that the language spoken the fastest also conveys information the fastest has no bearing on the claim that languages can convey the same amount of information even if they\u0026rsquo;re spoken at different rates.\u0026nbsp;Choice D is incorrect because it isn\u0026rsquo;t true that Serbian conveys information faster than Spanish does. According to the table, Serbian conveys information at a rate of around 39.1 bits per second, which is slower than the 42.0 bits-per-second rate at which Spanish conveys information.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes data from the table that support the researchers\u0026rsquo; claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eApproximate Rates of Speech and Information Conveyed for Five Languages\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eLanguage\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eRate of speech (syllables per second)\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eRate of information conveyed (bits per second)\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eSerbian\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e7.2\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e39.1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eSpanish\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e7.7\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e42.0\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eVietnamese\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e5.3\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e42.5\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eThai\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e4.7\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e33.8\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eHungarian\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e5.9\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e34.6\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eA group of researchers working in Europe, Asia, and Oceania conducted a study to determine how quickly different Eurasian languages are typically spoken (in syllables per second) and how much information they can effectively convey (in bits per second). They found that, although languages vary widely in the speed at which they are spoken, the amount of information languages can effectively convey tends to vary much less. Thus, they claim that two languages with very different spoken rates can nonetheless convey the same amount of information in a given amount of time.\u0026nbsp;\u003c/p\u003e", "templateclusterid": "d0294017-e1d8-4998-a51c-e891580b5046", "templateclustername": "", "type": "mcq", "vaultid": "98c6e490-b89e-419c-b1a2-e6dfcb34a85f"}, "createDate": 1691007959337, "difficulty": "M", "external_id": "9557f652-fc18-4b47-a8e1-638716b0eec7", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "94978129", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "d94c0985-1f46-41b0-a9e2-961c428b6680", "updateDate": 1691007959337};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-94978129");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

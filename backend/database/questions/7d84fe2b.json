@@ -1,0 +1,22 @@
+{
+  "question_id": "7d84fe2b",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Particle physicists like Ayana Holloway Arce and Aida El-Khadra spend much of their time ______ blank what is invisible to the naked eye: using sophisticated technology, they closely examine the behavior of subatomic particles, the smallest detectable parts of matter.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "selecting",
+    "inspecting",
+    "creating",
+    "deciding"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of the work of particle physicists. In this context, \"inspecting\" means viewing closely in order to examine. The text indicates that as particle physicists, Arce and El-Khadra's work involves using advanced technology to \"closely examine\" subatomic particles. In other words, they use technology to inspect small parts of matter that can't be seen by the naked eye.",
+    "A": "Choice A is incorrect because nothing in the text suggests that Arce and El-Khadra spend time \"selecting,\" or choosing, subatomic particles for some purpose; the text simply states that the particle physicists use advanced technology to see and study the behavior of those tiny parts of matter.",
+    "C": "Choice C is incorrect because nothing in the text suggests that Arce and El-Khadra spend time \"creating\" subatomic particles, or bringing them into existence; the text simply states that the particle physicists use advanced technology to see and study the behavior of those tiny parts of matter.",
+    "D": "Choice D is incorrect. In this context, \"deciding\" would mean making a final choice or judgment about something. It wouldn't make sense to say that particle physicists get to choose what is and isn't visible to the naked eye, especially when the text presents it as fact that subatomic particles are \"the smallest detectable parts of matter\" and would therefore be invisible. The text focuses on Arce and El-Khadra's close observation of those particles, not on any decisions they might make."
+  }
+}

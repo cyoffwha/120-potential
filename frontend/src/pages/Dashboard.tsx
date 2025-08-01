@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { useState, useEffect } from "react";
+import { userProgressService, UserStats as APIUserStats } from "../services/userProgressService";
 
 interface DomainPerformance {
   domain: string;
@@ -12,7 +13,6 @@ interface DifficultyBreakdown {
   easy: number;
   medium: number;
   hard: number;
-  veryHard: number;
 }
 
 interface UserStats {
@@ -36,33 +36,42 @@ const Dashboard = () => {
 
   // Fetch stats from backend
   useEffect(() => {
-    // For now, we'll use mock data
-    // Later, this will be replaced with a real API call
     const fetchStats = async () => {
       try {
-        // Mock data - will be replaced with API call
-        const mockStats = {
-          questionsAnswered: 37,
-          totalQuestions: 2950,
-          completionRate: 0.01,
-          accuracy: 82.4,
-          streakDays: 5,
-          difficultyBreakdown: {
-            easy: 18,
-            medium: 12,
-            hard: 5,
-            veryHard: 2
-          },
-          domainPerformance: [
-            { domain: "Craft and Structure", accuracy: 88 },
-            { domain: "Key Ideas and Details", accuracy: 75 },
-            { domain: "Integration of Knowledge", accuracy: 93 },
-          ]
+        const apiStats = await userProgressService.getUserStats();
+        
+        // Transform API data to match local interface
+        const transformedStats: UserStats = {
+          questionsAnswered: apiStats.questionsAnswered,
+          totalQuestions: apiStats.totalQuestions,
+          completionRate: apiStats.completionRate,
+          accuracy: apiStats.accuracy,
+          streakDays: apiStats.streakDays,
+          difficultyBreakdown: apiStats.difficultyBreakdown,
+          domainPerformance: apiStats.domainPerformance.map(dp => ({
+            domain: dp.domain,
+            accuracy: dp.accuracy
+          }))
         };
         
-        setStats(mockStats);
+        setStats(transformedStats);
       } catch (error) {
         console.error("Failed to fetch stats:", error);
+        // Fallback to mock data if API fails
+        const mockStats = {
+          questionsAnswered: 0,
+          totalQuestions: 299,
+          completionRate: 0,
+          accuracy: 0,
+          streakDays: 0,
+          difficultyBreakdown: {
+            easy: 0,
+            medium: 0,
+            hard: 0
+          },
+          domainPerformance: []
+        };
+        setStats(mockStats);
       }
     };
 
@@ -135,11 +144,6 @@ const Dashboard = () => {
                   label="Hard" 
                   count={stats.difficultyBreakdown.hard} 
                   color="bg-orange-500" 
-                />
-                <DifficultyBar 
-                  label="Very Hard" 
-                  count={stats.difficultyBreakdown.veryHard} 
-                  color="bg-red-500" 
                 />
               </div>
             </CardContent>

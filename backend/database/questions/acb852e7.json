@@ -1,0 +1,22 @@
+{
+  "question_id": "acb852e7",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is from the 1923 poem \"Black Finger\" by Angelina Weld Grimk&eacute;, a Black American writer. A cypress is a type of evergreen tree. I have just seen a most beautiful thing, Slim and still, &ensp;Against a gold, gold sky, &ensp;A straight black cypress, Sensitive, Exquisite, A black finger Pointing upwards. Why, beautiful still finger, are you black? And why are you pointing upwards?",
+  "question_text": "Which choice best describes the overall structure of the text?",
+  "answer_options": [
+    "The speaker assesses a natural phenomenon, then questions the accuracy of her assessment.",
+    "The speaker describes a distinctive sight in nature, then ponders what meaning to attribute to that sight.",
+    "The speaker presents an outdoor scene, then considers a human behavior occurring within that scene.",
+    "The speaker examines her surroundings, then speculates about their influence on her emotional state."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most accurately describes the overall structure of the text. First, the speaker describes observing a \"most beautiful\" sight: a tree (\"black cypress\") standing out from the golden sky behind it, looking like a person's finger \"pointing upwards\" and appearing \"sensitive\" and \"exquisite.\" Then the speaker wonders about the image's meaning, asking why the finger is black and why it's pointing upward. Thus, the text moves from the speaker's description of a distinctive sight in nature to her pondering about what meaning to attribute to that sight.",
+    "A": "Choice A is incorrect because the speaker assesses a natural sight—a \"black cypress\" tree standing \"against a gold, gold sky\" like a pointed finger—but doesn't question the accuracy of her own assessment. Although she wonders why the finger, which is really a tree, is black and why it's pointing, the speaker doesn't suggest that her belief that the tree resembles a finger is wrong.",
+    "C": "Choice C is incorrect. Although the speaker describes seeing a \"black cypress\" tree standing \"against a gold, gold sky\" like a pointed finger, she wonders about that natural image (asking why the finger, which is really a tree, is black and why it's pointing) and doesn't give any indication that any people are present in the scene.",
+    "D": "Choice D is incorrect. Although the speaker examines and wonders about one thing in her surroundings—a \"black cypress\" tree standing \"against a gold, gold sky\" like a pointed finger—she doesn't address her own emotional state or consider how it's affected by her surroundings."
+  }
+}

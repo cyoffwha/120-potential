@@ -1,0 +1,22 @@
+{
+  "question_id": "9d73c9eb",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Osage Nation citizen Randy Tinker-Smith produced and directed the ballet Wahzhazhe , which vividly chronicles Osage history and culture. Telling Osage stories through ballet is ______ blank choice because two of the foremost ballet dancers of the twentieth century were Osage: sisters Maria and Marjorie Tallchief.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "a suitable",
+    "a determined",
+    "an arbitrary",
+    "an unpredictable"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Suitable\" means \"appropriate for a particular purpose.\" Since the text indicates that two of the best ballet dancers of the twentieth century were Osage, we can infer that the author believes that ballet is a very suitable artform for telling Osage stories.",
+    "B": "Choice B is incorrect. The text never suggests that Tinker-Smith's choice was determined. That would imply that Tinker-Smith initially faced some kind of obstacle or opposition, and nothing like that is mentioned in the passage.",
+    "C": "Choice C is incorrect. The text implies the opposite of this. \"Arbitrary\" means \"based on random choice or whim rather than reason.\" But the text does give us a good reason behind the choice to tell Osage stories through ballet: two of the best ballet dancers of the twentieth century were Osage.",
+    "D": "Choice D is incorrect. The text never suggests that Tinker-Smith's choice was \"unpredictable.\" Rather, the fact that two of the best ballet dancers of the twentieth century were Osage makes ballet especially appropriate for telling Osage stories."
+  }
+}

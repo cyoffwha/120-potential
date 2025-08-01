@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question ccf414c9</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">E-book Sales as a Percentage of Total Unit Sales in All Book Formats for a Large US Trade Publisher, by Genre, 2006, 2011, 2016</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Genre</th><th scope="col" style="text-align: center; vertical-align: bottom;">2006</th><th scope="col" style="text-align: center; vertical-align: bottom;">2011</th><th scope="col" style="text-align: center; vertical-align: bottom;">2016</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">science fiction and fantasy</th><td style="text-align: center;">0.6</td><td style="text-align: center;">27.7</td><td style="text-align: center;">36.7</td></tr><tr><th scope="row" style="text-align: left;">cookbooks</th><td style="text-align: center;">0</td><td style="text-align: center;">2.9</td><td style="text-align: center;">10.5</td></tr><tr><th scope="row" style="text-align: left;">travel guides</th><td style="text-align: center;">0</td><td style="text-align: center;">5.5</td><td style="text-align: center;">24.6</td></tr><tr><th scope="row" style="text-align: left;">romance</th><td style="text-align: center;">0.3</td><td style="text-align: center;">40.6</td><td style="text-align: center;">56.2</td></tr></tbody></table></figure></p>
+<p>E-books became an increasingly popular means of reading in the United States in the 2000s and 2010s, though that popularity was concentrated in titles that, like those in most fiction genres, are meant to be read straight through from beginning to end. For books in nonfiction genres that do not tell stories and require the reader to flip back and forth through a volume, e-books were significantly less commercially successful. This can be seen by comparing <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the table to illustrate the claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the percentage of 2016 cookbook sales that were e-books with the percentage of 2016 science fiction and fantasy sales that were e-books.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the percentage of 2006 romance sales that were e-books with the percentage of 2016 romance sales that were e-books.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the percentage of 2006 romance sales that were e-books with the 2006 science fiction and fantasy sales that were e-books.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the percentage of 2011 travel guide sales that were e-books with the percentage of 2016 travel guide sales that were e-books.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it uses data from the table to effectively support the claim that book genres that typically require the reader to start at the beginning of the story and read straight through are more commercially successful as e-books than other genres. For each of three years, the table presents four book genres and the percentage of total sales for each genre in e-book format. Cookbooks, a nonfiction genre, do not require the reader to read straight through. According to the table, 10.5 percent of total cookbook sales in 2016 were in the e-book format. The 2016 percentage of e-book sales was 36.7 percent in the science fiction and fantasy genre, which are typically stories read straight through from start to finish. The higher percentage of total sales of the story-based e-books in 2016 supports the claim in the text. </p><p>Choice B is incorrect because it compares the e-book sales of romance books in 2006 to those in 2016. Romance books are meant to be read straight through from start to finish. The text claims that books that are not stories and do not require reading straight through are not as commercially successful in e-book format as those that do. As this choice is only comparing e-book sales for one genre, it does not support the claim. Choice C is incorrect because both science fiction and fantasy and romance novels are fiction books meant to be read straight through from beginning to end. The text claims that books that are not stories and do not require reading straight through are less commercially successful in e-book format than those that do. As this choice does not compare e-book sales of story genres to e-book sales in genres that are not stories, it does not support the claim. Choice D is incorrect. Although the data in the table show that the travel guide e-books made up a greater percentage of total sales in 2016 than in 2011, this doesn&rsquo;t illustrate the claim in the text that e-books in nonfiction genres not meant to be read straight through are less commercially successful. The claim cannot be supported without comparing the percentage of e-book sales between fiction and nonfiction book genres from the table.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">164 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ethe percentage of 2016 cookbook sales that were e-books with the percentage of 2016 science fiction and fantasy sales that were e-books.\u003c/p\u003e", "id": "ad9f74b1-46c8-4d16-b2c5-c9c1b0ff7521"}, {"content": "\u003cp\u003ethe percentage of 2006 romance sales that were e-books with the percentage of 2016 romance sales that were e-books.\u003c/p\u003e", "id": "b017876b-d2fd-44d3-9a7a-af5cc77fcfd2"}, {"content": "\u003cp\u003ethe percentage of 2006 romance sales that were e-books with the 2006 science fiction and fantasy sales that were e-books.\u003c/p\u003e", "id": "c6b4bcf7-06f0-41fa-82af-9c491aaca1f0"}, {"content": "\u003cp\u003ethe percentage of 2011 travel guide sales that were e-books with the percentage of 2016 travel guide sales that were e-books.\u003c/p\u003e", "id": "c217d120-e405-48c3-ac94-aa1b5537dc4b"}], "correct_answer": ["A"], "externalid": "ca139201-2cec-42e7-8d12-d556256c8276", "keys": ["ad9f74b1-46c8-4d16-b2c5-c9c1b0ff7521"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-509-QUA", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it uses data from the table to effectively support the claim that book genres that typically require the reader to start at the beginning of the story and read straight through are more commercially successful as e-books than other genres. For each of three years, the table presents four book genres and the percentage of total sales for each genre in e-book format. Cookbooks, a nonfiction genre, do not require the reader to read straight through. According to the table, 10.5 percent of total cookbook sales in 2016 were in the e-book format. The 2016 percentage of e-book sales was 36.7 percent in the science fiction and fantasy genre, which are typically stories read straight through from start to finish. The higher percentage of total sales of the story-based e-books in 2016 supports the claim in the text. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because it compares the e-book sales of romance books in 2006 to those in 2016. Romance books are meant to be read straight through from start to finish. The text claims that books that are not stories and do not require reading straight through are not as commercially successful in e-book format as those that do. As this choice is only comparing e-book sales for one genre, it does not support the claim. Choice C is incorrect because both science fiction and fantasy and romance novels are fiction books meant to be read straight through from beginning to end. The text claims that books that are not stories and do not require reading straight through are less commercially successful in e-book format than those that do. As this choice does not compare e-book sales of story genres to e-book sales in genres that are not stories, it does not support the claim. Choice D is incorrect. Although the data in the table show that the travel guide e-books made up a greater percentage of total sales in 2016 than in 2011, this doesn\u0026rsquo;t illustrate the claim in the text that e-books in nonfiction genres not meant to be read straight through are less commercially successful. The claim cannot be supported without comparing the percentage of e-book sales between fiction and nonfiction book genres from the table.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the table to illustrate the claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eE-book Sales as a Percentage of Total Unit Sales in All Book Formats for a Large US Trade Publisher, by Genre, 2006, 2011, 2016\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eGenre\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003e2006\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003e2011\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003e2016\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003escience fiction and fantasy\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e0.6\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e27.7\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e36.7\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003ecookbooks\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e0\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e2.9\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e10.5\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003etravel guides\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e0\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e5.5\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e24.6\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eromance\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e0.3\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e40.6\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e56.2\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eE-books became an increasingly popular means of reading in the United States in the 2000s and 2010s, though that popularity was concentrated in titles that, like those in most fiction genres, are meant to be read straight through from beginning to end. For books in nonfiction genres that do not tell stories and require the reader to flip back and forth through a volume, e-books were significantly less commercially successful. This can be seen by comparing \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "c5885851-83ec-4001-8973-27670992356b", "templateclustername": "", "type": "mcq", "vaultid": "ea260621-0aaa-4586-ba1d-934230308184"}, "createDate": 1691007959337, "difficulty": "M", "external_id": "ca139201-2cec-42e7-8d12-d556256c8276", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "ccf414c9", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "8882bdc6-dc53-471e-94de-25cd3a78ecdf", "updateDate": 1691007959337};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-ccf414c9");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

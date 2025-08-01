@@ -1,0 +1,22 @@
+{
+  "question_id": "dddfa043",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Before the Erie Canal was completed in 1825, transporting goods by wagon between New York City and the Midwest took up to forty-five days and cost one hundred dollars per ton. By linking the Hudson River to Lake ______ blank canal reduced transport time to nine days and cut costs to six dollars per ton.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Erie; the",
+    "Erie (the",
+    "Erie, the",
+    "Erie: the"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is punctuation between a supplementary phrase and a main clause. This choice correctly uses a comma to mark the boundary between the introductory supplementary phrase (\"By linking the Hudson River to Lake Erie\"), which identifies how the canal reduced transport time, and the main clause (\"the canal reduced transport time to nine days and cut costs to six dollars per ton\").",
+    "A": "Choice A is incorrect because a semicolon can't be used in this way to mark the boundary between a supplementary phrase (\"By&hellip;Erie\") and the main clause (\"the canal...ton\").",
+    "B": "Choice B is incorrect because an open parenthesis can't be used in this way to mark the boundary between a supplementary phrase (\"By&hellip;Erie\") and the main clause (\"the canal...ton\").",
+    "D": "Choice D is incorrect because a colon can't be used in this way to mark the boundary between an introductory supplementary phrase (\"By&hellip;Erie\") and the main clause (\"the canal...ton\")."
+  }
+}

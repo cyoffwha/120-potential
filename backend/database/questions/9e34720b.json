@@ -1,0 +1,22 @@
+{
+  "question_id": "9e34720b",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Although those who migrated to California in 1849 dreamed of finding gold nuggets in streambeds, the state's richest deposits were buried deeply in rock, beyond the reach of individual prospectors. ______ blank by 1852, many had given up their fortune-hunting dreams and gone to work for one of the large companies capable of managing California's complex mining operations.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Furthermore,",
+    "Still,",
+    "Consequently,",
+    "Next,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Consequently\" logically signals that the information in this sentence—that many individual gold prospectors gave up their fortune-hunting dreams and became employees of mining companies—is a result or consequence of the previous information about the inaccessibility of the state's gold deposits.",
+    "A": "Choice A is incorrect because \"furthermore\" illogically signals that the information in this sentence merely adds to the previous information about the inaccessibility of the state's gold deposits. Instead, it's a result or consequence of that information.",
+    "B": "Choice B is incorrect because \"still\" illogically signals that the information in this sentence offers a contrast or exception to the previous information about the inaccessibility of the state's gold deposits. Instead, it's a result or consequence of that information.",
+    "D": "Choice D is incorrect because \"next\" illogically signals that the information in this sentence is the next step in a process. Instead, it's a result or consequence of the previous information about the inaccessibility of the state's gold deposits."
+  }
+}

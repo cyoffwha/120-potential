@@ -1,0 +1,22 @@
+{
+  "question_id": "d7c5388f",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Planetary scientists classify asteroids based on their composition. C-type asteroids are composed primarily of carbon. They account for roughly 75 percent of known asteroids. S-type asteroids are primarily made up of silicate minerals. They account for roughly 17 percent of known asteroids. The student wants to emphasize a difference between C-type and S-type asteroids. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize a difference between C-type and S-type asteroids. Which choice most effectively uses relevant information from the notes to accomplish this goal?&nbsp;",
+  "answer_options": [
+    "Planetary scientists classify asteroids into types, two of which are the C-type and the S-type.",
+    "Planetary scientists consider an asteroid&rsquo;s composition (such as whether the asteroid is composed mainly of silicate minerals or carbon) when classifying it.",
+    "Roughly 17 percent of known asteroids are classified as S-type asteroids; another percentage is classified as C-type asteroids.&nbsp;",
+    "C-type asteroids are mainly composed of carbon, whereas S-type asteroids are primarily made up of silicate minerals."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence emphasizes a difference between C-type and S-type asteroids, noting that C-type asteroids are mainly composed of carbon, while S-type asteroids are mainly composed of silicate minerals.",
+    "A": "Choice A is incorrect. The sentence states that C-type and S-type are two types of asteroids, but it doesn't emphasize a difference between them.",
+    "B": "Choice B is incorrect because it doesn't directly mention C-type or S-type asteroids.",
+    "C": "Choice C is incorrect. While the sentence mentions that 17 percent of known asteroids are S-type asteroids, it doesn't identify the percentage of asteroids that are C-type. Therefore, the sentence doesn't emphasize a difference between the two types."
+  }
+}

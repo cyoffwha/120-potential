@@ -1,0 +1,22 @@
+{
+  "question_id": "faa5696c",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Arturo A. Schomburg was dedicated to preserving books, art, and other materials from peoples of African descent around the world. To get these items, Schomburg ______ blank friends and colleagues, whom he asked to bring back rare and valuable objects from their international travels. Now, Schomburg's collection is a valuable resource for scholars of Black history and culture.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "admired",
+    "disagreed with",
+    "warned",
+    "depended on"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of Arturo A. Schomburg's collection. In this context, the phrase \"depended on\" means relied on. The text explains that Schomburg, wanting to preserve \"books, art, and other materials\" created by peoples of African descent from around the world, built a large collection of these objects. The text also states that in order to obtain these items, Schomburg asked friends and colleagues who were traveling internationally to bring them back for him. This implies that he wouldn't have been able to create his collection without help. Thus, the context supports the idea that Schomburg relied on, or depended on, friends and colleagues to build his collection.",
+    "A": "Choice A is incorrect because \"admired\" means respected and approved of. Although it's reasonable to expect that Schomburg respected his friends and colleagues, the text doesn't discuss any such aspect of their relationships. The text focuses instead on what Schomburg asked his friends and colleagues to do to help build his collection.",
+    "B": "Choice B is incorrect because \"disagreed with\" means held an opposing belief, and nothing in the text suggests that Schomburg and his friends or colleagues held opposing views on any subject. In fact, the text strongly implies that Schomburg's friends and colleagues supported him in his goal of preserving objects of importance for Black history and culture by bringing him such objects from around the world.",
+    "C": "Choice C is incorrect because \"warned\" means informed someone in advance about something dangerous, which wouldn't make sense in this context. Nothing in the text suggests that Schomburg thought his friends and colleagues were in any danger, let alone that he warned them of danger."
+  }
+}

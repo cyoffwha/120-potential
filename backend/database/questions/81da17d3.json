@@ -1,0 +1,22 @@
+{
+  "question_id": "81da17d3",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Text 1 Italian painters in the 1500s rarely depicted themselves in their work. Even more rare were self-portrait paintings that portrayed the artist as a painter. At the time, painting was not yet respected as a profession, so painters mostly chose to emphasize other qualities in their self-portraits, like their intellect or social status. In the city of Bologna, the first artist to depict themself painting was a man named Annibale Carracci. A painting of his from around 1585 shows Carracci in front of an easel holding a palette. Text 2 In their self-portraits, Bolognese artists typically avoided referring to the act of painting until the mid-1600s. However, Lavinia Fontana's 1577 painting, Self-Portrait at the Keyboard , stands out as the earliest example of such a work by an artist from Bologna. Although the artist is depicted playing music, in the background, one can spot a painting easel by a window.",
+  "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined claim in Text 1?",
+  "answer_options": [
+    "Carracci and Fontana were among the most well-respected painters in Bologna at the time.",
+    "The depiction of Fontana in  Self-Portrait at the Keyboard  was intended to underscore the artist&rsquo;s creativity.",
+    "Fontana likely inspired the reference to an easel and palette in Carracci&rsquo;s painting.",
+    "Self-Portrait at the Keyboard  was painted earlier than Carracci&rsquo;s painting and also refers to the artist&rsquo;s craft."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The author of Text 2 states that Fontana's painting, which depicts a painting easel in the background, was made in 1577, eight years before Carracci's painting. Therefore, they might argue that Caracci was not \"the first artist\" to depict themself as a painter.",
+    "A": "Choice A is incorrect. The texts don't support this choice. Neither text mentions the reputation or status of either Carracci or Fontana.",
+    "B": "Choice B is incorrect. The author of Text 2 does not comment on the intention or meaning of Fontana's self-depiction in Self-Portrait at the Keyboard . This choice also holds little connection to the underlined claim.",
+    "C": "Choice C is incorrect. The texts don't support this choice. The author of Text 2 does not suggest any inspirational relationship between Fontana and Carracci. The author of Text 2 is concerned with showing that Fontana's painting is the earliest example of an artist referring to painting in their self-portrait, but makes no mention of her influence on others."
+  }
+}

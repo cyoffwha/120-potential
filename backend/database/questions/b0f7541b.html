@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question b0f7541b</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Herman Melville&rsquo;s 1857 novel <em>The Confidence-Man</em>. Humphry Davy was a prominent British chemist and inventor.</p>
+<blockquote>
+<p>Years ago, a grave American savant, being in London, observed at an evening party there, a certain coxcombical fellow, as he thought, an absurd ribbon in his lapel, and full of smart [banter], whisking about to the admiration of as many as were disposed to admire. Great was the savant&rsquo;s disdain; but, chancing ere long to find himself in a corner with the jackanapes, got into conversation with him, when he was somewhat ill-prepared for the good sense of the jackanapes, but was altogether thrown aback, upon subsequently being [informed that he was] no less a personage than Sir Humphry Davy.</p>
+</blockquote></div>
+
+                        <div class="mt-3"><p>Which choice best states the main purpose of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It portrays the thoughts of a character who is embarrassed about his own behavior.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It presents an account of a misunderstanding.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It offers a short history of how a person came to be famous.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It explains why one character dislikes another.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The text tells a story of a first impression that turned out to be wrong: a serious American savant was dismissive of a goofy-looking, wisecracking guest at a British party, and then was shocked to learn that the guest was actually a prominent British chemist and inventor.</p><p>Choice A is incorrect. This is too strong and too narrow. Only at the very end is the savant "thrown aback" by the fact that the man was Sir Humphry Davy&mdash;he&rsquo;s not "embarrassed about his own behavior." Choice C is incorrect. This isn&rsquo;t the main purpose. The text never provides the history of how Sir Humphry Davy came to be famous. Nor does it provide any history for the American savant. Choice D is incorrect. This is too narrow. It doesn&rsquo;t include the second half of the text, where the savant gets into a conversation with the man and then finds out that the man is Sir Humphry Davy.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">329 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt portrays the thoughts of a character who is embarrassed about his own behavior.\u003c/p\u003e", "id": "62e3fdf1-394c-4105-adcc-d75360232ade"}, {"content": "\u003cp\u003eIt presents an account of a misunderstanding.\u003c/p\u003e", "id": "e7ec5f99-9ac5-4032-b647-608c053b5934"}, {"content": "\u003cp\u003eIt offers a short history of how a person came to be famous.\u003c/p\u003e", "id": "14553fec-9924-4399-b929-33517f1cb915"}, {"content": "\u003cp\u003eIt explains why one character dislikes another.\u003c/p\u003e", "id": "bfd93afc-9b5d-4094-bf54-2e46d09d145c"}], "correct_answer": ["B"], "externalid": "88b3e233-c118-413a-b65c-fc38699130a8", "keys": ["e7ec5f99-9ac5-4032-b647-608c053b5934"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TSP-H001", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The text tells a story of a first impression that turned out to be wrong: a serious American savant was dismissive of a goofy-looking, wisecracking guest at a British party, and then was shocked to learn that the guest was actually a prominent British chemist and inventor.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. This is too strong and too narrow. Only at the very end is the savant \"thrown aback\" by the fact that the man was Sir Humphry Davy\u0026mdash;he\u0026rsquo;s not \"embarrassed about his own behavior.\" Choice C is incorrect. This isn\u0026rsquo;t the main purpose. The text never provides the history of how Sir Humphry Davy came to be famous. Nor does it provide any history for the American savant. Choice D is incorrect. This is too narrow. It doesn\u0026rsquo;t include the second half of the text, where the savant gets into a conversation with the man and then finds out that the man is Sir Humphry Davy.\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main purpose of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Herman Melville\u0026rsquo;s 1857 novel \u003cem\u003eThe Confidence-Man\u003c/em\u003e. Humphry Davy was a prominent British chemist and inventor.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eYears ago, a grave American savant, being in London, observed at an evening party there, a certain coxcombical fellow, as he thought, an absurd ribbon in his lapel, and full of smart [banter], whisking about to the admiration of as many as were disposed to admire. Great was the savant\u0026rsquo;s disdain; but, chancing ere long to find himself in a corner with the jackanapes, got into conversation with him, when he was somewhat ill-prepared for the good sense of the jackanapes, but was altogether thrown aback, upon subsequently being [informed that he was] no less a personage than Sir Humphry Davy.\u003c/p\u003e\n\u003c/blockquote\u003e", "templateclusterid": "9b7f38cc-ce34-4bd0-801b-d2bb23b5a50d", "templateclustername": "", "type": "mcq", "vaultid": "9687ede1-6f38-4118-b9bb-0bf37c0bb19d"}, "createDate": 1691007959375, "difficulty": "H", "external_id": "88b3e233-c118-413a-b65c-fc38699130a8", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "b0f7541b", "score_band_range_cd": 7, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "2524d8f3-37eb-4f4b-8aff-8fc1f38cc2e1", "updateDate": 1691007959375};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-b0f7541b");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 5d2fd27d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While we can infer information about climate activity in Earth&rsquo;s distant past from physical evidence, we of course cannot observe past climates directly. To study early Earth&rsquo;s climate in action, we must <span aria-hidden="true">______</span><span class="sr-only">blank</span> that climate using computer models that represent various climate conditions consistent with the physical evidence.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>invent</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>simulate</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>exaggerate</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>preserve</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it most logically completes the text&rsquo;s discussion of climate activity in Earth&rsquo;s distant past. In this context, to &ldquo;simulate&rdquo; most nearly means to represent a natural process using computer models. According to the text, understanding Earth&rsquo;s early climate is difficult because we cannot make direct observations of the distant past. Instead, scientists must create computer models that approximate early climate conditions, based on the physical evidence that those conditions left behind on Earth&rsquo;s surface. This context supports the idea that computer models simulate Earth&rsquo;s climate in the distant past. </p><p>Choice A is incorrect because scientists use existing physical evidence&nbsp;as a basis for developing computer models that describe what Earth&rsquo;s actual past climate might have been like. The models are not being used to &ldquo;invent,&rdquo; or imagine, a completely fictional climate. Choice C is incorrect because the computer models are being used in an attempt to describe as accurately as possible what Earth&rsquo;s past climate might have been like. They are not attempting to &ldquo;exaggerate,&rdquo; or distort, those features. Choice D is incorrect because the computer models do not &ldquo;preserve,&rdquo; or protect from deterioration, Earth&rsquo;s early climate; instead, they attempt to reproduce the characteristics of that climate, based on the remaining physical evidence of that climate. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">368 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003einvent\u003c/p\u003e", "id": "d26e69bc-0ea0-4f00-ad0c-c3f3baee5662"}, {"content": "\u003cp\u003esimulate\u003c/p\u003e", "id": "1d07a6f2-5619-468a-bd06-478fda3158a2"}, {"content": "\u003cp\u003eexaggerate\u003c/p\u003e", "id": "055df5d7-a680-4669-97f5-b8e1684cfda6"}, {"content": "\u003cp\u003epreserve\u003c/p\u003e", "id": "89ba798f-f8b6-471a-9977-2961b319012d"}], "correct_answer": ["B"], "externalid": "76d6d4be-31c1-4303-8399-9cab44b67135", "keys": ["1d07a6f2-5619-468a-bd06-478fda3158a2"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-911-WIC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it most logically completes the text\u0026rsquo;s discussion of climate activity in Earth\u0026rsquo;s distant past. In this context, to \u0026ldquo;simulate\u0026rdquo; most nearly means to represent a natural process using computer models. According to the text, understanding Earth\u0026rsquo;s early climate is difficult because we cannot make direct observations of the distant past. Instead, scientists must create computer models that approximate early climate conditions, based on the physical evidence that those conditions left behind on Earth\u0026rsquo;s surface. This context supports the idea that computer models simulate Earth\u0026rsquo;s climate in the distant past. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because scientists use existing physical evidence\u0026nbsp;as a basis for developing computer models that describe what Earth\u0026rsquo;s actual past climate might have been like. The models are not being used to \u0026ldquo;invent,\u0026rdquo; or imagine, a completely fictional climate. Choice C is incorrect because the computer models are being used in an attempt to describe as accurately as possible what Earth\u0026rsquo;s past climate might have been like. They are not attempting to \u0026ldquo;exaggerate,\u0026rdquo; or distort, those features. Choice D is incorrect because the computer models do not \u0026ldquo;preserve,\u0026rdquo; or protect from deterioration, Earth\u0026rsquo;s early climate; instead, they attempt to reproduce the characteristics of that climate, based on the remaining physical evidence of that climate. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile we can infer information about climate activity in Earth\u0026rsquo;s distant past from physical evidence, we of course cannot observe past climates directly. To study early Earth\u0026rsquo;s climate in action, we must \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e that climate using computer models that represent various climate conditions consistent with the physical evidence.\u003c/p\u003e", "templateclusterid": "77af84a3-7611-4dd0-921b-bae43296a53f", "templateclustername": "", "type": "mcq", "vaultid": "f9e006d4-97dd-4699-b315-46fa4533b693"}, "createDate": 1691007959354, "difficulty": "E", "external_id": "76d6d4be-31c1-4303-8399-9cab44b67135", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "5d2fd27d", "score_band_range_cd": 3, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "50f54a42-908d-43cf-bcb9-6e395d4cea1e", "updateDate": 1691007959354};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-5d2fd27d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

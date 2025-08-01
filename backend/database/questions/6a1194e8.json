@@ -1,0 +1,22 @@
+{
+  "question_id": "6a1194e8",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Rydra Wong, the protagonist of Samuel R. Delany's 1966 novel Babel-17 , is a poet, an occupation which, in Delany's work, is not ______ blank : nearly a dozen of the characters that populate his novels are poets or writers.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "infallible",
+    "atypical",
+    "lucrative",
+    "tedious"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of Samuel R. Delany's character Rydra Wong. As used in this context, \"atypical\" would mean unrepresentative or not common. The text indicates that Wong is one of \"nearly a dozen\" characters in Delany's novels who are poets or writers. This context conveys that being a poet isn't an atypical occupation for a character in one of Delany's works.",
+    "A": "Choice A is incorrect because \"infallible\" means to be accurate or without fault, which wouldn't make sense in context. The text focuses on the fact that Delany has written many characters who are poets and writers. This context suggests that the occupation isn't atypical for Delany, not that the occupation isn't infallible, or problematic.",
+    "C": "Choice C is incorrect because \"lucrative\" means to be profitable, which wouldn't make sense in context. If writing poet characters weren't profitable, it wouldn't be logical to explain this by citing that Delany gave many of his characters the same occupation.",
+    "D": "Choice D is incorrect because \"tedious\" means to be boring, which wouldn't make sense in context. The text focuses on the fact that Delany has written many characters who are poets and writers. This context suggests that the occupation isn't atypical for Delany, not that the occupation isn't tedious."
+  }
+}

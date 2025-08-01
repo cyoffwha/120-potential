@@ -1,0 +1,22 @@
+{
+  "question_id": "9cdcd902",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Charles \"Teenie\" Harris was a photographer for the Pittsburgh Courier from 1936 to 1975. During his career he took over 70,000 photographs documenting everyday life in Pittsburgh's Black communities. The Carnegie Museum of Art maintains thousands of his photographs, carefully ______ blank them so that audiences can continue to view them well into the future.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "replacing",
+    "inventing",
+    "preserving",
+    "counting"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Preserving\" means \"maintaining\" or \"keeping in good condition,\" so preserving the photographs means that audiences should be able to view them for a long time.",
+    "A": "Choice A is incorrect. \"Replacing\" means \"putting something new in place of\" the photographs. Replacing the photos will make it so that audiences can't view them at all.",
+    "B": "Choice B is incorrect. \"Inventing\" means \"creating a new idea, process, or thing.\" The museum can't invent photographs that already exist.",
+    "D": "Choice D is incorrect. Counting the photographs will not help audiences view them well into the future."
+  }
+}

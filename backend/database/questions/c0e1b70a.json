@@ -1,0 +1,22 @@
+{
+  "question_id": "c0e1b70a",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Etsu Inagaki Sugimoto's 1925 memoir A Daughter of the Samurai . As a young woman, Sugimoto moved from feudal Japan to the United States. The standards of my own and my adopted country differed so widely in some ways, and my love for both lands was so sincere, that sometimes I had an odd feeling of standing upon a cloud in space, and gazing with measuring eyes upon two separate worlds. At first I was continually trying to explain, by Japanese standards, all the queer things that came every day before my surprised eyes; for no one seemed to know the origin or significance of even the most familiar customs, nor why they existed and were followed. Which choice best describes the main purpose of the text?",
+  "question_text": "Which choice best describes the main purpose of the text?",
+  "answer_options": [
+    "To convey the narrator&rsquo;s experience of observing and making sense of differences between two cultures she embraces",
+    "To establish the narrator&rsquo;s hope of forming connections with new companions by sharing customs she learned as a child",
+    "To reveal the narrator&rsquo;s recognition that she is hesitant to ask questions about certain aspects of a culture she is newly encountering&nbsp;",
+    "To emphasize the narrator&rsquo;s wonder at discovering that the physical distance between two countries is greater than she had expected"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately describes the main purpose of the text. The narrator asserts that she loves both her \"own\" country (Japan) and her \"adopted country\" (the United States) even though the two countries differ \"widely.\" She also indicates that, at first, she would try to explain unfamiliar experiences that she had in the United States using the standards ingrained in her from growing up in Japan. Thus, the main purpose of the text is to convey the narrator's experience of observing and making sense of the differences between two cultures she embraces.",
+    "B": "Choice B is incorrect because the text makes no reference to possible companions. Although the text does indicate that the narrator sometimes used the cultural framework she acquired growing up in Japan to explain some experiences she's had, there is no suggestion that this was in service of making friends. And although \"no one seemed to know\" strongly implies that the narrator has interacted with other people in the United States, there is no indication that these conversations involved her discussing Japanese customs.",
+    "C": "Choice C is incorrect because nothing in the text suggests that the narrator was hesitant to ask questions. In fact, the narrator indicates that \"no one seemed to know the origin\" of various customs, which provides evidence that, rather than being hesitant, she sought information from several people.",
+    "D": "Choice D is incorrect because the text makes no reference to the physical distance between Japan and the United States. Although the narrator indicates that the two countries differ \"widely\" and likens them to \"two separate worlds,\" these descriptions relate to cultural aspects of the countries and the narrator's feelings about the two countries, not the physical distance between them."
+  }
+}

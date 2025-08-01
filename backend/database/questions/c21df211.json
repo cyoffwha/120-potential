@@ -1,0 +1,22 @@
+{
+  "question_id": "c21df211",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1959, the film industry debuted Smell-O-Vision. Theaters were fitted with specialized vents that emitted odors at specific points in a ______ blank as the scent of roses when roses appeared in a scene. Smell-O-Vision failed to impress, however, with one reviewer declaring it \"briefly weird and not very interesting.\"",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "movie such",
+    "movie; such",
+    "movie. Such",
+    "movie, such"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The comma appropriately separates the nonessential descriptive aside \"such as&hellip;scene\" from the independent clause \"Theaters were&hellip;movie.\" Since the descriptive example of roses isn't necessary for the sentence to function, it needs to be set off with punctuation.",
+    "A": "Choice A is incorrect. This choice results in a run-on sentence. Since the example of roses isn't necessary for the sentence to function, the descriptive aside \"such as&hellip;scene\" needs to be separated from the preceding independent clause with some sort of punctuation.",
+    "B": "Choice B is incorrect. This choice creates a punctuation error. A semicolon can only be used to separate two independent clauses, but \"such&hellip;scene\" is not an independent clause and couldn't stand on its own as a sentence.",
+    "C": "Choice C is incorrect. This choice results in a sentence fragment. The descriptive aside \"Such&hellip;scene\" is not an independent clause and can't stand on its own as a sentence."
+  }
+}

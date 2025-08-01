@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e5da61f1</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Charles Chesnutt&rsquo;s 1899 short story &ldquo;Mars Jeems&rsquo;s Nightmare.&rdquo; The narrator and his wife have recently moved to the southern United States, and Julius is their carriage driver.</p>
+<blockquote>
+<p>Julius [was] very useful when we moved to our new residence. He had a thorough knowledge of the neighborhood, was familiar with the roads and the watercourses, knew the qualities of the various soils and what they would produce, and where the best hunting and fishing were to be had. He was a marvelous hand in the management of horses and dogs.</p>
+</blockquote></div>
+
+                        <div class="mt-3"><p>Which choice best states the main purpose of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To compare the narrator&rsquo;s reaction to a new home with his wife&rsquo;s reaction</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To give an example of Julius&rsquo;s knowledge about soil</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To show that the narrator and Julius often hunt and fish together</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To explain different ways in which Julius was helpful</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it most accurately describes the main purpose of the text, which is to explain different ways in which Julius was helpful. The text begins with the narrator stating that Julius was very helpful to him and his wife when they moved to their new residence. The narrator then provides a list of examples to illustrate Julius&rsquo;s helpfulness. For instance, the narrator states that Julius was familiar with the neighborhood&rsquo;s roads, which suggests that he was helpful in navigating them, and that Julius helped manage the horses and dogs. The text&rsquo;s many examples of Julius&rsquo;s usefulness reinforce just how helpful he was and in how many different ways. </p><p>Choice A is incorrect because the text doesn&rsquo;t portray either the narrator&rsquo;s or his wife&rsquo;s reaction to their new home. Rather, the text focuses on how Julius was useful to the narrator and his wife in their new home. Choice B is incorrect. Although the text states that Julius was knowledgeable about the soil, this is one of several supporting details that illustrate how helpful Julius was. Moreover, the text merely states that Julius was knowledgeable about soil; it doesn&rsquo;t provide an example of that knowledge. Choice C is incorrect because there&rsquo;s nothing in the text to suggest the frequency with which the narrator and Julius hunted and fished together. In fact, it&rsquo;s unclear from the text whether the narrator and Julius hunted and fished together at all. The text merely indicates that Julius knew the best places to hunt and fish&mdash;a detail that supports the text&rsquo;s main purpose by conveying Julius&rsquo;s usefulness. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">440 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eTo compare the narrator\u0026rsquo;s reaction to a new home with his wife\u0026rsquo;s reaction\u003c/p\u003e", "id": "37c70264-5d22-474b-9367-f89e50d164d3"}, {"content": "\u003cp\u003eTo give an example of Julius\u0026rsquo;s knowledge about soil\u003c/p\u003e", "id": "5a7008ef-39b0-4330-8b9b-c46afd37f37e"}, {"content": "\u003cp\u003eTo show that the narrator and Julius often hunt and fish together\u003c/p\u003e", "id": "9c1c2ca3-4713-4fbb-bc6e-677438945e66"}, {"content": "\u003cp\u003eTo explain different ways in which Julius was helpful\u003c/p\u003e", "id": "8f6618b7-12d9-4e78-8b7a-d34833b1a211"}], "correct_answer": ["D"], "externalid": "9151070e-2d5c-4763-9c7f-e3a2018d7c53", "keys": ["8f6618b7-12d9-4e78-8b7a-d34833b1a211"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-045-TSP", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it most accurately describes the main purpose of the text, which is to explain different ways in which Julius was helpful. The text begins with the narrator stating that Julius was very helpful to him and his wife when they moved to their new residence. The narrator then provides a list of examples to illustrate Julius\u0026rsquo;s helpfulness. For instance, the narrator states that Julius was familiar with the neighborhood\u0026rsquo;s roads, which suggests that he was helpful in navigating them, and that Julius helped manage the horses and dogs. The text\u0026rsquo;s many examples of Julius\u0026rsquo;s usefulness reinforce just how helpful he was and in how many different ways. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text doesn\u0026rsquo;t portray either the narrator\u0026rsquo;s or his wife\u0026rsquo;s reaction to their new home. Rather, the text focuses on how Julius was useful to the narrator and his wife in their new home. Choice B is incorrect. Although the text states that Julius was knowledgeable about the soil, this is one of several supporting details that illustrate how helpful Julius was. Moreover, the text merely states that Julius was knowledgeable about soil; it doesn\u0026rsquo;t provide an example of that knowledge. Choice C is incorrect because there\u0026rsquo;s nothing in the text to suggest the frequency with which the narrator and Julius hunted and fished together. In fact, it\u0026rsquo;s unclear from the text whether the narrator and Julius hunted and fished together at all. The text merely indicates that Julius knew the best places to hunt and fish\u0026mdash;a detail that supports the text\u0026rsquo;s main purpose by conveying Julius\u0026rsquo;s usefulness. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main purpose of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Charles Chesnutt\u0026rsquo;s 1899 short story \u0026ldquo;Mars Jeems\u0026rsquo;s Nightmare.\u0026rdquo; The narrator and his wife have recently moved to the southern United States, and Julius is their carriage driver.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eJulius [was] very useful when we moved to our new residence. He had a thorough knowledge of the neighborhood, was familiar with the roads and the watercourses, knew the qualities of the various soils and what they would produce, and where the best hunting and fishing were to be had. He was a marvelous hand in the management of horses and dogs.\u003c/p\u003e\n\u003c/blockquote\u003e", "templateclusterid": "322d08c5-ab8f-4603-a9fe-5318905dc247", "templateclustername": "", "type": "mcq", "vaultid": "84c607ba-c2b2-4d32-b2d4-a63a3d8752b4"}, "createDate": 1691007959323, "difficulty": "E", "external_id": "9151070e-2d5c-4763-9c7f-e3a2018d7c53", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "e5da61f1", "score_band_range_cd": 3, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "a11efda3-36f3-406a-a3a7-dc51a1f9dcba", "updateDate": 1691007959323};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e5da61f1");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

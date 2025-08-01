@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 97e5bf55</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><strong>Text 1</strong></p>
+<p>In 1916, H. Dugdale Sykes disputed claims that <em>The Two Noble Kinsmen</em> was coauthored by William Shakespeare and John Fletcher. Sykes felt Fletcher&rsquo;s contributions to the play were obvious&mdash;Fletcher had a distinct style in his other plays, so much so that lines with that style were considered sufficient evidence of Fletcher&rsquo;s authorship. But for the lines not deemed to be by Fletcher, Sykes felt that their depiction of women indicated that their author was not Shakespeare but Philip Massinger.</p>
+<p><strong>Text 2</strong></p>
+<p>Scholars have accepted <em>The Two Noble Kinsmen</em> as coauthored by Shakespeare since the 1970s: it appears in all major one-volume editions of Shakespeare&rsquo;s complete works. Though scholars disagree about who wrote what exactly, it is generally held that on the basis of style, Shakespeare wrote all of the first act and most of the last, while John Fletcher authored most of the three middle acts.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>John Fletcher&rsquo;s writing has a unique, readily identifiable style.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The women characters in John Fletcher&rsquo;s plays are similar to the women characters in Philip Massinger&rsquo;s plays.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p><em>The Two Noble Kinsmen</em> belongs in one-volume compilations of Shakespeare&rsquo;s complete plays.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Philip Massinger&rsquo;s style in the first and last acts of <em>The Two Noble Kinsmen</em> is an homage to Shakespeare&rsquo;s style.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. Text 1 states that Sykes felt Fletcher&rsquo;s contributions to the play were obvious because he had a distinct style in his other plays. Text 2 states that scholars generally agree &ldquo;on the basis of style&rdquo; that Fletcher wrote most of the three middle acts. Both texts imply that Fletcher&rsquo;s writing has a unique, readily identifiable style that can be used to distinguish his work from others. </p><p>Choice B is incorrect. While Text 1 refers to the women in Massinger plays, neither text compares the women of Fletcher&rsquo;s plays to the women of Massinger&rsquo;s plays. Text 2 doesn&rsquo;t mention Massinger at all. Choice C is incorrect. Text 1 states that Sykes disputed that Shakespeare coauthored the play, and implied that it was coauthored by Fletcher and Massinger instead. Sykes, therefore, would disagree that <em>The Two Noble Kinsmen</em> belongs in a Shakespeare compilation. Choice D is incorrect. Text 1 doesn&rsquo;t suggest that Massinger was inspired by Shakespeare, and Text 2 doesn&rsquo;t mention Massinger at all. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">303 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eJohn Fletcher\u0026rsquo;s writing has a unique, readily identifiable style.\u003c/p\u003e", "id": "8f908222-9d83-4c63-a857-5f6b396e9e6d"}, {"content": "\u003cp\u003eThe women characters in John Fletcher\u0026rsquo;s plays are similar to the women characters in Philip Massinger\u0026rsquo;s plays.\u003c/p\u003e", "id": "c86d3827-3ab8-4586-a677-63e99e545a4c"}, {"content": "\u003cp\u003e\u003cem\u003eThe Two Noble Kinsmen\u003c/em\u003e belongs in one-volume compilations of Shakespeare\u0026rsquo;s complete plays.\u003c/p\u003e", "id": "ecfbfbb4-e49f-4901-a1a8-e6a3dbec8c14"}, {"content": "\u003cp\u003ePhilip Massinger\u0026rsquo;s style in the first and last acts of \u003cem\u003eThe Two Noble Kinsmen\u003c/em\u003e is an homage to Shakespeare\u0026rsquo;s style.\u003c/p\u003e", "id": "a934d487-6b03-4a3e-a380-4e10b227203f"}], "correct_answer": ["A"], "externalid": "7a76d554-0375-4e2a-b0b2-5df72b2ce5b5", "keys": ["8f908222-9d83-4c63-a857-5f6b396e9e6d"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-H006", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. Text 1 states that Sykes felt Fletcher\u0026rsquo;s contributions to the play were obvious because he had a distinct style in his other plays. Text 2 states that scholars generally agree \u0026ldquo;on the basis of style\u0026rdquo; that Fletcher wrote most of the three middle acts. Both texts imply that Fletcher\u0026rsquo;s writing has a unique, readily identifiable style that can be used to distinguish his work from others. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. While Text 1 refers to the women in Massinger plays, neither text compares the women of Fletcher\u0026rsquo;s plays to the women of Massinger\u0026rsquo;s plays. Text 2 doesn\u0026rsquo;t mention Massinger at all. Choice C is incorrect. Text 1 states that Sykes disputed that Shakespeare coauthored the play, and implied that it was coauthored by Fletcher and Massinger instead. Sykes, therefore, would disagree that \u003cem\u003eThe Two Noble Kinsmen\u003c/em\u003e belongs in a Shakespeare compilation. Choice D is incorrect. Text 1 doesn\u0026rsquo;t suggest that Massinger was inspired by Shakespeare, and Text 2 doesn\u0026rsquo;t mention Massinger at all. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eIn 1916, H. Dugdale Sykes disputed claims that \u003cem\u003eThe Two Noble Kinsmen\u003c/em\u003e was coauthored by William Shakespeare and John Fletcher. Sykes felt Fletcher\u0026rsquo;s contributions to the play were obvious\u0026mdash;Fletcher had a distinct style in his other plays, so much so that lines with that style were considered sufficient evidence of Fletcher\u0026rsquo;s authorship. But for the lines not deemed to be by Fletcher, Sykes felt that their depiction of women indicated that their author was not Shakespeare but Philip Massinger.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eScholars have accepted \u003cem\u003eThe Two Noble Kinsmen\u003c/em\u003e as coauthored by Shakespeare since the 1970s: it appears in all major one-volume editions of Shakespeare\u0026rsquo;s complete works. Though scholars disagree about who wrote what exactly, it is generally held that on the basis of style, Shakespeare wrote all of the first act and most of the last, while John Fletcher authored most of the three middle acts.\u003c/p\u003e", "templateclusterid": "d6cbf2b3-dc9b-4446-abd8-8e8cf8a97fbe", "templateclustername": "", "type": "mcq", "vaultid": "ee594b6b-07bc-478f-b2c8-f6d7be38051b"}, "createDate": 1691007959365, "difficulty": "H", "external_id": "7a76d554-0375-4e2a-b0b2-5df72b2ce5b5", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "97e5bf55", "score_band_range_cd": 6, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "0a24026c-988b-405f-b326-20f0579a1fca", "updateDate": 1691007959365};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-97e5bf55");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

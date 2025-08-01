@@ -1,0 +1,22 @@
+{
+  "question_id": "d5235d39",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The Mule Bone , a 1930 play written by Zora Neale Hurston and Langston Hughes, is perhaps the best-known of the few examples of ______ blank in literature. Most writers prefer working alone, and given that working together cost Hurston and Hughes their friendship, it is not hard to see why.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "characterization",
+    "interpretation",
+    "collaboration",
+    "commercialization"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it logically and precisely completes the text's discussion of The Mule Bone , a play that Zora Neale Hurston and Langston Hughes wrote together. In this context, \"collaboration\" means working together with someone to write a literary work. The text indicates that most writers prefer to work alone and that working together destroyed the friendship between Hurston and Hughes. This establishes that The Mule Bone is a relatively rare example of collaboration in literature.",
+    "A": "Choice A is incorrect because in this context, \"characterization\" would mean a literary work's portrayal of characters' psychological experiences and motivations, but the text doesn't discuss characterization in The Mule Bone specifically or in collaborative works more generally.",
+    "B": "Choice B is incorrect because in this context, \"interpretation\" would mean the explanation of a literary work's meaning or significance, but the text doesn't discuss how readers or critics have interpreted The Mule Bone ; instead, the text discusses how the play was written collaboratively and how the writing process affected the two authors.",
+    "D": "Choice D is incorrect because in this context, \"commercialization\" would mean writing a literary work in such a way as to ensure its commercial appeal, but the text never discusses commercial appeal as a factor in the writing of The Mule Bone specifically or the writing of collaborative works more generally."
+  }
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question d9d314d9</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>Pinnipeds, which include seals, sea lions, and walruses, live in and around water.</li>
+<li>Pinnipeds are descended not from sea animals but from four-legged, land-dwelling carnivores.</li>
+<li>Canadian paleobiologist Natalia Rybczynski recently found a fossil with four legs, webbed toes, and the skull and teeth of a seal.</li>
+<li>Rybczynski refers to her rare find as a &ldquo;transitional fossil.&rdquo;</li>
+<li>The fossil illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to emphasize the fossil&rsquo;s significance. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Canadian paleobiologist Natalia Rybczynski&rsquo;s fossil has the skull and teeth of a seal, which, like sea lions and walruses, is a pinniped.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Pinnipeds are descended from four-legged, land-dwelling carnivores; a fossil that resembles both was recently found.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Having four legs but the skull and teeth of a seal, the rare fossil illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>A &ldquo;transitional fossil&rdquo; was recently found by paleobiologist Natalia Rybczynski.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The sentence effectively emphasizes the fossil&rsquo;s significance, explaining that the fossil is rare and illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors. </p><p>Choice A is incorrect. The sentence describes the fossil Rybczynski found; it doesn&rsquo;t emphasize the fossil&rsquo;s significance. Choice B is incorrect. The sentence mentions that a fossil resembling both pinnipeds and their ancestors was found; it doesn&rsquo;t emphasize the fossil&rsquo;s significance.&nbsp;Choice D is incorrect. The sentence notes a term used to describe the fossil Rybczynski found; it doesn&rsquo;t emphasize the fossil&rsquo;s significance.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">672 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eCanadian paleobiologist Natalia Rybczynski\u0026rsquo;s fossil has the skull and teeth of a seal, which, like sea lions and walruses, is a pinniped.\u003c/p\u003e", "id": "6db33667-e3ce-4e53-acbe-b6bb1cf6bc29"}, {"content": "\u003cp\u003ePinnipeds are descended from four-legged, land-dwelling carnivores; a fossil that resembles both was recently found.\u003c/p\u003e", "id": "47ba6000-171a-42ec-a5e6-8df4031c2655"}, {"content": "\u003cp\u003eHaving four legs but the skull and teeth of a seal, the rare fossil illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors.\u003c/p\u003e", "id": "f2eb9c72-ba5b-4879-a71a-1b6ba69143fd"}, {"content": "\u003cp\u003eA \u0026ldquo;transitional fossil\u0026rdquo; was recently found by paleobiologist Natalia Rybczynski.\u003c/p\u003e", "id": "5d8f27cb-0ad7-48d2-8fc4-87d53c51bfdd"}], "correct_answer": ["C"], "externalid": "d6d5fa78-74b9-4d37-a15f-af9162d592aa", "keys": ["f2eb9c72-ba5b-4879-a71a-1b6ba69143fd"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-785-SYN", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The sentence effectively emphasizes the fossil\u0026rsquo;s significance, explaining that the fossil is rare and illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The sentence describes the fossil Rybczynski found; it doesn\u0026rsquo;t emphasize the fossil\u0026rsquo;s significance. Choice B is incorrect. The sentence mentions that a fossil resembling both pinnipeds and their ancestors was found; it doesn\u0026rsquo;t emphasize the fossil\u0026rsquo;s significance.\u0026nbsp;Choice D is incorrect. The sentence notes a term used to describe the fossil Rybczynski found; it doesn\u0026rsquo;t emphasize the fossil\u0026rsquo;s significance.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to emphasize the fossil\u0026rsquo;s significance. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ePinnipeds, which include seals, sea lions, and walruses, live in and around water.\u003c/li\u003e\n\u003cli\u003ePinnipeds are descended not from sea animals but from four-legged, land-dwelling carnivores.\u003c/li\u003e\n\u003cli\u003eCanadian paleobiologist Natalia Rybczynski recently found a fossil with four legs, webbed toes, and the skull and teeth of a seal.\u003c/li\u003e\n\u003cli\u003eRybczynski refers to her rare find as a \u0026ldquo;transitional fossil.\u0026rdquo;\u003c/li\u003e\n\u003cli\u003eThe fossil illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "a9b9d0ee-efc2-4bc6-a850-bdca409e008b", "templateclustername": "", "type": "mcq", "vaultid": "3ad01216-8856-4bf4-b97b-b8871ae2c466"}, "createDate": 1691007959353, "difficulty": "M", "external_id": "d6d5fa78-74b9-4d37-a15f-af9162d592aa", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "d9d314d9", "score_band_range_cd": 4, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "ad3b357a-3a12-400a-b307-b002a82073cd", "updateDate": 1691007959353};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-d9d314d9");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

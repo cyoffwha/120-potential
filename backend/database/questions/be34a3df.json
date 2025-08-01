@@ -1,0 +1,22 @@
+{
+  "question_id": "be34a3df",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 2008, two years after the death of science fiction writer Octavia Butler, the Huntington Library in ______ blank received a collection of more than 8,000 items, including Butler's private notes, research materials, manuscripts, photos, and drawings. Today, the Octavia E. Butler Collection is one of the most researched archives at the library.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "California,",
+    "California:",
+    "California&mdash;",
+    "California"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. No punctuation should separate the subject of the sentence (\"the Huntington Library in California\") from its verb (\"received\").",
+    "A": "Choice A is incorrect. No punctuation should separate the subject of the sentence (\"the Huntington Library in California\") from its verb (\"received\").",
+    "B": "Choice B is incorrect. No punctuation should separate the subject of the sentence (\"the Huntington Library in California\") from its verb (\"received\").",
+    "C": "Choice C is incorrect. No punctuation should separate the subject of the sentence (\"the Huntington Library in California\") from its verb (\"received\")."
+  }
+}

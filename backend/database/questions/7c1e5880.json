@@ -1,0 +1,22 @@
+{
+  "question_id": "7c1e5880",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Scholars have noted that F. Scott Fitzgerald's writings were likely influenced in part by his marriage to Zelda Fitzgerald, but many don't recognize Zelda as a writer in her own right. Indeed, Zelda authored several works herself, such as the novel Save Me the Waltz and numerous short stories. Thus, those who primarily view Zelda as an inspiration for F. Scott's writings ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "overlook the many other factors that motivated F. Scott to write.",
+    "risk misrepresenting the full range of Zelda&rsquo;s contributions to literature.",
+    "may draw inaccurate conclusions about how F. Scott and Zelda viewed each other&rsquo;s works.",
+    "tend to read the works of F. Scott and Zelda in an overly autobiographical light."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of Zelda Fitzgerald's contributions to literature. The text begins by saying that many scholars view Zelda mainly in terms of her marriage to F. Scott Fitzgerald and \"don't recognize Zelda as a writer in her own right.\" The text then mentions a novel and \"numerous short stories\" that she wrote and that such scholars tend to ignore. Therefore, those scholars who focus on Zelda only as an inspiration for F. Scott's writings risk misrepresenting the full range of Zelda's contributions to literature.",
+    "A": "Choice A is incorrect. Although the text does mention that Zelda Fitzgerald \"likely influenced\" her husband's literary work, its focus is on Zelda's own writing, not on her husband's writing or factors that might have influenced it.",
+    "C": "Choice C is incorrect because the text does not discuss F. Scott and Zelda Fitzgerald's opinions of each other's works.",
+    "D": "Choice D is incorrect. Although the text does suggest that F. Scott Fitzgerald's works were \"likely influenced in part\" by his marriage to Zelda, it does not discuss autobiographical interpretations of the works of either F. Scott or Zelda."
+  }
+}

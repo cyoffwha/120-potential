@@ -1,0 +1,22 @@
+{
+  "question_id": "dd428136",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Cheng Dang and her colleagues at the University of Washington recently ran simulations to determine the extent to which individual snow ______ blank affect the amount of light reflecting off a snowy surface.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "grain&rsquo;s physical properties&rsquo;",
+    "grains&rsquo; physical properties",
+    "grains&rsquo; physical property&rsquo;s",
+    "grains physical properties"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the use of plural and possessive nouns. The plural possessive noun \"grains'\" and the plural noun \"properties\" correctly indicate that the simulations involved multiple snow grains and that those snow grains had several properties.",
+    "A": "Choice A is incorrect because the context requires the plural possessive noun \"grains'\" and the plural noun \"properties,\" not the singular possessive noun \"grain's\" and the plural possessive noun \"properties'.\"",
+    "C": "Choice C is incorrect because the context requires the plural noun \"properties,\" not the singular possessive noun \"property's.\"",
+    "D": "Choice D is incorrect because the context requires the plural possessive noun \"grains',\" not the plural noun \"grains.\""
+  }
+}

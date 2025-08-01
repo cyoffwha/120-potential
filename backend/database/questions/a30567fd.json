@@ -1,0 +1,22 @@
+{
+  "question_id": "a30567fd",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Nuhād al-Ḥaddād, known as Fairuz, was one of the most beloved Lebanese singers of the twentieth century. Her broad singing repertoire—which included traditional forms, such as the Arabic qasida and maqam , alongside modern pop and jazz styles—lent Fairuz a timeless, cross-generational appeal, ______ blank her the moniker \"the soul of Lebanon.\"",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "earned",
+    "had earned",
+    "earning",
+    "earn"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The word \"earning\" is being used to introduce an additional modifying phrase, which describes how Fairuz's repertoire lent her cross-generational appeal. When a verb ends in -ing and doesn't have a helper verb like \"is\" before it, it can be used to modify a noun or verb. This is appropriate here.",
+    "A": "Choice A is incorrect. The underlined verb is being used to introduce additional descriptive information, which is set off from the rest of the sentence by a comma. Because there is no subject here, a finite form of the verb (like \"earned\") creates an error. We need another form of the verb that doesn't require a subject and can introduce descriptive information.",
+    "B": "Choice B is incorrect. The underlined verb is being used to introduce additional descriptive information, which is set off from the rest of the sentence by a comma. Because there is no subject here, a finite form of the verb (like \"had earned\") creates an error. We need another form of the verb that doesn't require a subject and can introduce descriptive information.",
+    "D": "Choice D is incorrect. The underlined verb is being used to introduce additional descriptive information, which is set off from the rest of the sentence by a comma. Because there is no subject here, a finite form of the verb (like \"earn\") creates an error. We need another form of the verb that doesn't require a subject and can introduce descriptive information."
+  }
+}

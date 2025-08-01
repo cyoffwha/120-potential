@@ -1,0 +1,22 @@
+{
+  "question_id": "ed80971c",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: The Pueblo of Zuni is located about 150 miles west of Albuquerque, New Mexico. It is the traditional home of the A:shiwi (Zuni) people. The A:shiwi A:wan Museum and Heritage Center was established by tribal members in 1992. Its mission is stated on its website: \"As a tribal museum and heritage center for the Zuni people and by the Zuni people we work to provide learning experiences that emphasize A:shiwi ways of knowing, as well as exploring modern concepts of knowledge and the transfer of knowledge.\" The student wants to emphasize how long the museum has existed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize how long the museum has existed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "The Pueblo of Zuni is home to the A:shiwi A:wan Museum and Heritage Center, which was founded by tribal members.",
+    "The A:shiwi A:wan Museum and Heritage Center has served the Pueblo of Zuni since 1992.",
+    "According to its website, the A:shiwi A:wan Museum and Heritage Center (founded in the 1990s) works to &ldquo;emphasize A:shiwi ways of knowing.&rdquo;",
+    "Knowledge has been one of the central themes of the A:shiwi A:wan Museum and Heritage Center from its founding."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. This choice effectively uses information from the notes to emphasize how long the museum has existed. It says that the museum has existed since 1992.",
+    "A": "Choice A is incorrect. This choice doesn't emphasize how long the museum has existed. It doesn't say when the museum was founded.",
+    "C": "Choice C is incorrect. This choice doesn't emphasize how long the museum has existed. It doesn't say the exact date of the museum's founding. Rather, it emphasizes the museum's mission.",
+    "D": "Choice D is incorrect. This choice doesn't emphasize how long the museum has existed. It doesn't say when the museum was founded."
+  }
+}

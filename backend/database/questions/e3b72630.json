@@ -1,0 +1,22 @@
+{
+  "question_id": "e3b72630",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In the historical novel The Surrender Tree , Cuban American author Margarita Engle uses poetry rather than prose ______ blank the true story of Cuban folk hero Rosa La Bayamesa.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "tells",
+    "told",
+    "is telling",
+    "to tell"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the use of finite and nonfinite verb forms within a sentence. The nonfinite to-infinitive \"to tell\" is correctly used to form a nonfinite (infinitive) clause that explains the reason Engle uses poetry in her novel.",
+    "A": "Choice A is incorrect because the finite present tense verb \"tells\" can't be used in this way to explain the reason that Engle uses poetry in her novel.",
+    "B": "Choice B is incorrect because the finite past tense verb \"told\" can't be used in this way to explain the reason that Engle uses poetry in her novel.",
+    "C": "Choice C is incorrect because the finite present progressive tense verb \"is telling\" can't be used in this way to explain the reason that Engle uses poetry in her novel."
+  }
+}

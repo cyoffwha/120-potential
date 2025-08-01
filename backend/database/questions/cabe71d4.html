@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question cabe71d4</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Both Sona Charaipotra, an Indian American, and Dhonielle Clayton, an African American, grew up frustrated by the lack of diverse characters in books for young people. In 2011, these two writers joined forces to found CAKE Literary, a book packaging <span aria-hidden="true">______</span><span class="sr-only">blank</span> specializes in the creation and promotion of stories told from diverse perspectives for children and young adults.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>company,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>company that</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>company</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>company, that</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The convention being tested is the use and punctuation of an integrated relative clause. This choice correctly uses the relative pronoun &ldquo;that&rdquo; and no punctuation to create an integrated relative clause that provides essential information about the noun phrase (&ldquo;a book packaging company&rdquo;) that it modifies. </p><p>Choice A is incorrect because it doesn&rsquo;t use a relative pronoun to link the verb phrase beginning with &ldquo;specializes&rdquo; to the noun phrase that it modifies (&ldquo;a book packaging company&rdquo;). Choice C is incorrect because it doesn&rsquo;t use a relative pronoun to link the verb phrase beginning with &ldquo;specializes&rdquo; to the noun phrase that it modifies (&ldquo;a book packaging company&rdquo;). Choice D is incorrect because no punctuation is needed between the integrated relative clause beginning with &ldquo;that specializes&rdquo; and the noun phrase that it modifies (&ldquo;a book packaging company&rdquo;). </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">860 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ecompany,\u003c/p\u003e", "id": "4b4ee4cf-cd03-454d-a4fa-0f98ba17ab8f"}, {"content": "\u003cp\u003ecompany that\u003c/p\u003e", "id": "2117b752-de3f-4d25-b0a0-e493531f8975"}, {"content": "\u003cp\u003ecompany\u003c/p\u003e", "id": "9a13227e-0940-4956-acef-2e7dae645283"}, {"content": "\u003cp\u003ecompany, that\u003c/p\u003e", "id": "d4141628-e363-48a6-8968-443a3eb8b08f"}], "correct_answer": ["B"], "externalid": "f0236e18-52a2-4da5-893f-8f4c5799f85d", "keys": ["2117b752-de3f-4d25-b0a0-e493531f8975"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-618-SEC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The convention being tested is the use and punctuation of an integrated relative clause. This choice correctly uses the relative pronoun \u0026ldquo;that\u0026rdquo; and no punctuation to create an integrated relative clause that provides essential information about the noun phrase (\u0026ldquo;a book packaging company\u0026rdquo;) that it modifies. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because it doesn\u0026rsquo;t use a relative pronoun to link the verb phrase beginning with \u0026ldquo;specializes\u0026rdquo; to the noun phrase that it modifies (\u0026ldquo;a book packaging company\u0026rdquo;). Choice C is incorrect because it doesn\u0026rsquo;t use a relative pronoun to link the verb phrase beginning with \u0026ldquo;specializes\u0026rdquo; to the noun phrase that it modifies (\u0026ldquo;a book packaging company\u0026rdquo;). Choice D is incorrect because no punctuation is needed between the integrated relative clause beginning with \u0026ldquo;that specializes\u0026rdquo; and the noun phrase that it modifies (\u0026ldquo;a book packaging company\u0026rdquo;). \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eBoth Sona Charaipotra, an Indian American, and Dhonielle Clayton, an African American, grew up frustrated by the lack of diverse characters in books for young people. In 2011, these two writers joined forces to found CAKE Literary, a book packaging \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e specializes in the creation and promotion of stories told from diverse perspectives for children and young adults.\u003c/p\u003e", "templateclusterid": "75c05964-2479-45af-9615-5d17b05fde78", "templateclustername": "", "type": "mcq", "vaultid": "b98cf7c6-1b5a-4b4b-b493-069321539b14"}, "createDate": 1691007959339, "difficulty": "E", "external_id": "f0236e18-52a2-4da5-893f-8f4c5799f85d", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "cabe71d4", "score_band_range_cd": 3, "skill_cd": "BOU", "skill_desc": "Boundaries", "uId": "97aa6965-bab4-414c-a31a-91e4458232f5", "updateDate": 1691007959339};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-cabe71d4");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

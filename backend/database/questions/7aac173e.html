@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 7aac173e</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>Architect Julian Abele studied Gregorian and neo-Gothic architecture in Europe.</li>
+<li>Abele worked for an architecture firm that was hired in 1924 to design buildings for Duke University&rsquo;s new campus.</li>
+<li>Most of the buildings on Duke&rsquo;s campus were designed in the Gregorian or neo-Gothic architectural styles.</li>
+<li>At the time, Abele was not formally credited with designing the buildings.</li>
+<li>Based on the buildings&rsquo; architectural styles, historians believe Abele designed most of the campus buildings.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to specify why historians believe Abele designed most of Duke&rsquo;s campus buildings. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Given that most of the buildings on Duke&rsquo;s campus feature architectural styles that Abele had studied in Europe, historians believe Abele is the one who designed them.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Though Abele wasn&rsquo;t formally credited at the time, historians believe he designed most of the buildings on Duke&rsquo;s campus.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Most of Duke&rsquo;s campus buildings, which were designed by a firm Abele worked for, were designed in the Gregorian and neo-Gothic architectural styles.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Abele, an architect who studied Gregorian and neo-Gothic architecture in Europe, is believed to have designed most of the buildings on Duke&rsquo;s campus.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The sentence specifies why historians believe Abele designed most of Duke&rsquo;s campus buildings, noting that most of the buildings feature architectural styles that Abele had studied. </p><p>Choice B is incorrect. While the sentence explains that historians believe Abele designed most of Duke&rsquo;s campus buildings, it doesn&rsquo;t specify why historians hold that belief. Choice C is incorrect because the sentence emphasizes the architectural styles of Duke&rsquo;s campus buildings; it doesn&rsquo;t specify why historians believe Abele designed the buildings. Choice D is incorrect. While the sentence explains that Abele is believed to have designed most of the buildings on Duke&rsquo;s campus, it doesn&rsquo;t specify why historians believe that he designed the buildings. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">654 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eGiven that most of the buildings on Duke\u0026rsquo;s campus feature architectural styles that Abele had studied in Europe, historians believe Abele is the one who designed them.\u003c/p\u003e", "id": "dcc33d37-aee0-4e99-a94c-6680fc324773"}, {"content": "\u003cp\u003eThough Abele wasn\u0026rsquo;t formally credited at the time, historians believe he designed most of the buildings on Duke\u0026rsquo;s campus.\u003c/p\u003e", "id": "3309b7e0-6d43-478c-a75c-579b8b405152"}, {"content": "\u003cp\u003eMost of Duke\u0026rsquo;s campus buildings, which were designed by a firm Abele worked for, were designed in the Gregorian and neo-Gothic architectural styles.\u003c/p\u003e", "id": "f4b86505-abaf-4b0f-97c2-a75bf029e0f3"}, {"content": "\u003cp\u003eAbele, an architect who studied Gregorian and neo-Gothic architecture in Europe, is believed to have designed most of the buildings on Duke\u0026rsquo;s campus.\u003c/p\u003e", "id": "461c31b5-07e5-4d02-8459-15766e10e886"}], "correct_answer": ["A"], "externalid": "291beae6-e79e-4376-80a4-d55d21f16b6a", "keys": ["dcc33d37-aee0-4e99-a94c-6680fc324773"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-007-SYN", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The sentence specifies why historians believe Abele designed most of Duke\u0026rsquo;s campus buildings, noting that most of the buildings feature architectural styles that Abele had studied. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. While the sentence explains that historians believe Abele designed most of Duke\u0026rsquo;s campus buildings, it doesn\u0026rsquo;t specify why historians hold that belief. Choice C is incorrect because the sentence emphasizes the architectural styles of Duke\u0026rsquo;s campus buildings; it doesn\u0026rsquo;t specify why historians believe Abele designed the buildings. Choice D is incorrect. While the sentence explains that Abele is believed to have designed most of the buildings on Duke\u0026rsquo;s campus, it doesn\u0026rsquo;t specify why historians believe that he designed the buildings. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to specify why historians believe Abele designed most of Duke\u0026rsquo;s campus buildings. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eArchitect Julian Abele studied Gregorian and neo-Gothic architecture in Europe.\u003c/li\u003e\n\u003cli\u003eAbele worked for an architecture firm that was hired in 1924 to design buildings for Duke University\u0026rsquo;s new campus.\u003c/li\u003e\n\u003cli\u003eMost of the buildings on Duke\u0026rsquo;s campus were designed in the Gregorian or neo-Gothic architectural styles.\u003c/li\u003e\n\u003cli\u003eAt the time, Abele was not formally credited with designing the buildings.\u003c/li\u003e\n\u003cli\u003eBased on the buildings\u0026rsquo; architectural styles, historians believe Abele designed most of the campus buildings.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "873a29e7-2390-419a-b6de-82e18ca2e9c6", "templateclustername": "", "type": "mcq", "vaultid": "702e8d72-ed3b-4338-b969-6db5427f6c9f"}, "createDate": 1691007959313, "difficulty": "M", "external_id": "291beae6-e79e-4376-80a4-d55d21f16b6a", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "7aac173e", "score_band_range_cd": 5, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "8f51fd67-051d-4b57-ad91-3728736e4b1c", "updateDate": 1691007959313};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-7aac173e");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

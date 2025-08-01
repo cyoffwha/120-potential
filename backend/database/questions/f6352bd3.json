@@ -1,0 +1,22 @@
+{
+  "question_id": "f6352bd3",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Many archaeologists assume that large-scale engineering projects in ancient societies required an elite class to plan and direct the necessary labor. However, recent discoveries, such as the excavation of an ancient canal near the Gulf Coast of Alabama, have complicated this picture. Using radiocarbon dating, a team of researchers concluded that the 1.39-kilometer-long canal was most likely constructed between 576 and 650 CE by an Indigenous society that was relatively free of social classes.",
+  "question_text": "Which choice best describes the overall structure of the text?",
+  "answer_options": [
+    "It describes a common view among archaeologists, then discusses a recent finding that challenges that view.",
+    "It outlines a method used in some archaeological fieldwork, then explains why an alternative method is superior to it.",
+    "It presents contradictory conclusions drawn by archaeologists, then evaluates a study that has&nbsp;apparently resolved that contradiction.",
+    "It identifies a gap in scientific research, then presents a strategy used by some archaeologists to remedy that gap."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The text starts by introducing a common view among archaeologists about the need for an elite class to direct large-scale engineering projects. Then, it discusses the discovery of a large canal most likely built by a society without an elite class, which challenges the first view.",
+    "B": "Choice B is incorrect. Although the text discusses carbon dating as an archaeological method, it doesn't compare it to any other alternative methods.",
+    "C": "Choice C is incorrect. The study doesn't resolve any contradictions—rather, it introduces a contradiction to the one view presented at the beginning of the text.",
+    "D": "Choice D is incorrect. The text never identifies any gaps in scientific research."
+  }
+}

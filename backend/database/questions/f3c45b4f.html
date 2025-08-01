@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question f3c45b4f</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><strong>Text 1</strong></p>
+<p>Fossils of the hominin <em>Australopithecus africanus</em> have been found in the Sterkfontein Caves of South Africa, but <span style="text-decoration: underline;">assigning an age to the fossils is challenging because of the unreliability of dating methods in this context.</span> The geology of Sterkfontein has caused soil layers from different periods to mix, impeding stratigraphic dating, and dates cannot be reliably imputed from those of nearby animal bones since the bones may have been relocated by flooding.</p>
+<p><strong>Text 2</strong></p>
+<p>Archaeologists used new cosmogenic nuclide dating techniques to reevaluate the ages of <em>A. africanus</em> fossils found in the Sterkfontein Caves. This technique involves analyzing the cosmogenic nucleotides in the breccia&mdash;the matrix of rock fragments immediately surrounding the fossils. The researchers assert that this approach avoids the potential for misdating associated with assigning ages based on Sterkfontein&rsquo;s soil layers or animal bones.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, how would the researchers in Text 2 most likely respond to the underlined portion in Text 1?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They would emphasize the fact that the <em>A. africanus</em> fossils found in the Sterkfontein Caves may have been corrupted in some way over the years.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They would contend that if analyses of surrounding layers and bones in the Sterkfontein Caves were combined, then the dating of the fossils there would be more accurate.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They would argue that their techniques are better suited than other methods to the unique challenges posed by the Sterkfontein Caves.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They would claim that cosmogenic nuclide dating is reliable in the context of the Sterkfontein Caves because it is applied to the fossils directly.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. Text 2 states that the researchers used cosmogenic nuclide dating to "avoid the potential for misdating" caused by the geology of Sterkfontein, which Text 1 describes as "challenging" and unreliable.</p><p>Choice A is incorrect. Neither text suggests that the <em>A.</em> <em>africanus</em> fossils have been "corrupted," but only that traditional dating methods are difficult in Sterkfontein because of floods and soil mixing where the fossils were found. Nothing is implied to have compromised the fossils themselves. Choice B is incorrect. This choice misreads Text 2. Text 2 agrees that stratigraphy and other methods are prone to error in the context of Sterkfontein: there&rsquo;s a "potential for misdating" when evaluating age based on soil layers and bones. Choice D is incorrect. Text 2 does not state that cosmogenic nuclide dating is applied to the fossils directly but rather to the breccia that surrounds them.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">376 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThey would emphasize the fact that the \u003cem\u003eA. africanus\u003c/em\u003e fossils found in the Sterkfontein Caves may have been corrupted in some way over the years.\u003c/p\u003e", "id": "2fdf5c0b-8a9a-44ac-9c9c-3b798f9c9293"}, {"content": "\u003cp\u003eThey would contend that if analyses of surrounding layers and bones in the Sterkfontein Caves were combined, then the dating of the fossils there would be more accurate.\u0026nbsp;\u003c/p\u003e", "id": "244034a2-6dc6-4416-90e0-63ec7cc964e0"}, {"content": "\u003cp\u003eThey would argue that their techniques are better suited than other methods to the unique challenges posed by the Sterkfontein Caves.\u003c/p\u003e", "id": "f8beaf83-4f3f-4929-a380-3318aaa9d79b"}, {"content": "\u003cp\u003eThey would claim that cosmogenic nuclide dating is reliable in the context of the Sterkfontein Caves because it is applied to the fossils directly.\u003c/p\u003e", "id": "ca24f52f-cc02-4735-9bfe-7f3d6a748c37"}], "correct_answer": ["C"], "externalid": "1654cd84-f39b-43db-80e8-cf0e6d4b9926", "keys": ["f8beaf83-4f3f-4929-a380-3318aaa9d79b"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-H007", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. Text 2 states that the researchers used cosmogenic nuclide dating to \"avoid the potential for misdating\" caused by the geology of Sterkfontein, which Text 1 describes as \"challenging\" and unreliable.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. Neither text suggests that the \u003cem\u003eA.\u003c/em\u003e \u003cem\u003eafricanus\u003c/em\u003e fossils have been \"corrupted,\" but only that traditional dating methods are difficult in Sterkfontein because of floods and soil mixing where the fossils were found. Nothing is implied to have compromised the fossils themselves. Choice B is incorrect. This choice misreads Text 2. Text 2 agrees that stratigraphy and other methods are prone to error in the context of Sterkfontein: there\u0026rsquo;s a \"potential for misdating\" when evaluating age based on soil layers and bones. Choice D is incorrect. Text 2 does not state that cosmogenic nuclide dating is applied to the fossils directly but rather to the breccia that surrounds them.\u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, how would the researchers in Text 2 most likely respond to the underlined portion in Text 1?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eFossils of the hominin \u003cem\u003eAustralopithecus africanus\u003c/em\u003e have been found in the Sterkfontein Caves of South Africa, but \u003cspan style=\"text-decoration: underline;\"\u003eassigning an age to the fossils is challenging because of the unreliability of dating methods in this context.\u003c/span\u003e The geology of Sterkfontein has caused soil layers from different periods to mix, impeding stratigraphic dating, and dates cannot be reliably imputed from those of nearby animal bones since the bones may have been relocated by flooding.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eArchaeologists used new cosmogenic nuclide dating techniques to reevaluate the ages of \u003cem\u003eA. africanus\u003c/em\u003e fossils found in the Sterkfontein Caves. This technique involves analyzing the cosmogenic nucleotides in the breccia\u0026mdash;the matrix of rock fragments immediately surrounding the fossils. The researchers assert that this approach avoids the potential for misdating associated with assigning ages based on Sterkfontein\u0026rsquo;s soil layers or animal bones.\u003c/p\u003e", "templateclusterid": "8ec4a40c-7861-4021-a17f-d8fe8a73c249", "templateclustername": "", "type": "mcq", "vaultid": "20a4b285-1975-4262-b8c6-7c50dd9fdeb1"}, "createDate": 1691007959365, "difficulty": "H", "external_id": "1654cd84-f39b-43db-80e8-cf0e6d4b9926", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "f3c45b4f", "score_band_range_cd": 6, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "5ba8690f-c709-49f7-bc75-8a2e02b0e310", "updateDate": 1691007959365};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-f3c45b4f");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

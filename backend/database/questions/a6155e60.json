@@ -1,0 +1,22 @@
+{
+  "question_id": "a6155e60",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Every chemical compound has a spectroscopic fingerprint, a pattern of reflected light unique to that compound. ______ blank upon analyzing the light reflected by the bright regions on the surface of the dwarf planet Ceres, Maria Cristina De Sanctis of Rome's National Institute of Astrophysics was able to determine that the regions contain large amounts of the compound sodium carbonate.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Regardless,",
+    "Meanwhile,",
+    "Thus,",
+    "In comparison,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Thus\" logically signals that the action described in this sentence—the researcher being able to determine the chemical makeup of the planet's bright regions based on how they reflect light—is a result or consequence of the previous information about spectroscopic fingerprints.",
+    "A": "Choice A is incorrect because \"regardless\" illogically signals that the action described in this sentence occurs despite the previous information about spectroscopic fingerprints. Instead, the finding in this sentence is a result or consequence of that information.",
+    "B": "Choice B is incorrect because \"meanwhile\" illogically signals that the action described in this sentence either occurs at the same time as or offers an alternative to the previous information about spectroscopic fingerprints. Instead, the finding in this sentence is a result or consequence of that information.",
+    "D": "Choice D is incorrect because \"in comparison\" illogically signals that the action described in this sentence is being compared with the previous information about spectroscopic fingerprints. Instead, the finding in this sentence is a result or consequence of that information."
+  }
+}

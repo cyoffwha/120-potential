@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question d8d1ecaa</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Business researcher Melanie Brucks and colleagues found that remote video conference meetings may be less conducive to brainstorming than in-person meetings are. The researchers suspect that video meeting participants are focused on staring at the speaker on the screen and don&rsquo;t allow their eyes or mind to wander as much, which may ultimately <span aria-hidden="true">______</span><span class="sr-only">blank</span> creativity.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>recommend</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>criticize</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>impede</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>construct</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The first sentence tells us that video meetings are &ldquo;less conducive to&rdquo; (meaning less good for) brainstorming. This suggests that the video meeting participants&rsquo; focus is bad for their creativity. &ldquo;Impede&rdquo; means &ldquo;delay&rdquo; or &ldquo;prevent,&rdquo; which works perfectly in this context. </p><p>Choice A is incorrect. This choice is too positive to fit the context. The first sentence tells us that video meetings are &ldquo;less conducive to&rdquo; (meaning less good for) brainstorming. This suggests that the video meeting participants&rsquo; focus is bad for their creativity. Choice B is incorrect. This choice doesn&rsquo;t make sense. The participants&rsquo; intense focus on the screen is the subject of the missing verb. It wouldn&rsquo;t make sense to say that their over-focusing &ldquo;criticizes&rdquo; their creativity. Choice D is incorrect. &ldquo;Construct&rdquo; means &ldquo;build&rdquo; or &ldquo;make,&rdquo; which is too positive to fit the context. The first sentence tells us that video meetings are &ldquo;less conducive to&rdquo; (meaning less good for) brainstorming. This suggests that the video meeting participants&rsquo; focus is bad for their creativity. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">472 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003erecommend\u003c/p\u003e", "id": "680f704c-7dac-45f3-a6ed-740433acf507"}, {"content": "\u003cp\u003ecriticize\u003c/p\u003e", "id": "b8c84287-bff8-492c-8c5e-1e629a72e9e6"}, {"content": "\u003cp\u003eimpede\u003c/p\u003e", "id": "4ed6d586-e220-4664-acad-ad1878fc585c"}, {"content": "\u003cp\u003econstruct\u003c/p\u003e", "id": "4cf72afa-f85e-4609-aa20-a6b5c6128da0"}], "correct_answer": ["C"], "externalid": "e257f385-1988-4616-9742-5ef7a832d1db", "keys": ["4ed6d586-e220-4664-acad-ad1878fc585c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-WIC-M003", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The first sentence tells us that video meetings are \u0026ldquo;less conducive to\u0026rdquo; (meaning less good for) brainstorming. This suggests that the video meeting participants\u0026rsquo; focus is bad for their creativity. \u0026ldquo;Impede\u0026rdquo; means \u0026ldquo;delay\u0026rdquo; or \u0026ldquo;prevent,\u0026rdquo; which works perfectly in this context. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice is too positive to fit the context. The first sentence tells us that video meetings are \u0026ldquo;less conducive to\u0026rdquo; (meaning less good for) brainstorming. This suggests that the video meeting participants\u0026rsquo; focus is bad for their creativity. Choice B is incorrect. This choice doesn\u0026rsquo;t make sense. The participants\u0026rsquo; intense focus on the screen is the subject of the missing verb. It wouldn\u0026rsquo;t make sense to say that their over-focusing \u0026ldquo;criticizes\u0026rdquo; their creativity. Choice D is incorrect. \u0026ldquo;Construct\u0026rdquo; means \u0026ldquo;build\u0026rdquo; or \u0026ldquo;make,\u0026rdquo; which is too positive to fit the context. The first sentence tells us that video meetings are \u0026ldquo;less conducive to\u0026rdquo; (meaning less good for) brainstorming. This suggests that the video meeting participants\u0026rsquo; focus is bad for their creativity. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eBusiness researcher Melanie Brucks and colleagues found that remote video conference meetings may be less conducive to brainstorming than in-person meetings are. The researchers suspect that video meeting participants are focused on staring at the speaker on the screen and don\u0026rsquo;t allow their eyes or mind to wander as much, which may ultimately \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e creativity.\u003c/p\u003e", "templateclusterid": "c3f45aab-519d-4ab6-8dd0-c8710c20e911", "templateclustername": "", "type": "mcq", "vaultid": "2248cc96-aeba-4d36-b7d7-5b13e39088fb"}, "createDate": 1691007959378, "difficulty": "M", "external_id": "e257f385-1988-4616-9742-5ef7a832d1db", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "d8d1ecaa", "score_band_range_cd": 5, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "bf877ca0-8586-4110-aac3-07798ad7356f", "updateDate": 1691007959378};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-d8d1ecaa");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

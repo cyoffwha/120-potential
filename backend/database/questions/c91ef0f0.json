@@ -1,0 +1,22 @@
+{
+  "question_id": "c91ef0f0",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "During the American Civil War, Thomas Morris Chester braved the front lines as a war correspondent for the Philadelphia Press . Amplifying the voices and experiences of Black soldiers ______ blank of particular importance to Chester, who later became an activist and lawyer during the postwar Reconstruction period.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "were",
+    "have been",
+    "are",
+    "was"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is subject-verb agreement. The singular verb \"was\" agrees in number with the singular subject \"amplifying.\" Gerunds such as \"amplifying\" are always singular.",
+    "A": "Choice A is incorrect because the plural verb \"were\" doesn't agree in number with the singular subject \"amplifying.\"",
+    "B": "Choice B is incorrect because the plural verb \"have been\" doesn't agree in number with the singular subject \"amplifying.\"",
+    "C": "Choice C is incorrect because the plural verb \"are\" doesn't agree in number with the singular subject \"amplifying.\""
+  }
+}

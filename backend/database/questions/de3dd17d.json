@@ -1,0 +1,22 @@
+{
+  "question_id": "de3dd17d",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Planetary scientist Briony Horgan and her colleagues have determined that as much as 25 percent of the sand on Mars is composed of impact spherules. These spherical bits of glass form when asteroids collide with the planet, ejecting bits of molten rock into the atmosphere that, after cooling and solidifying into glass, ______ blank back onto Mars's surface.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "to rain",
+    "raining",
+    "having rained",
+    "rain"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"That&hellip;[rain] back onto Mars's surface\" is a relative clause that describes the \"bits of molten rock.\" Forming the clause requires a conjugated, finite verb, and this is the only choice that provides that.",
+    "A": "Choice A is incorrect. \"To rain\" is an infinitive and can't serve as the main verb of a clause. A conjugated verb is needed here to form the main verb of the relative clause \"that&hellip;[rain] back onto Mars's surface,\" which describes the \"bits of molten rock.\"",
+    "B": "Choice B is incorrect. \"Raining\" is a present participle and, on its own, can't serve as the main verb of a clause. A conjugated verb is needed here to form the main verb of the relative clause \"that&hellip;[rain] back onto Mars's surface,\" which describes the \"bits of molten rock.\"",
+    "C": "Choice C is incorrect. \"Having rained\" is a perfect participle and can't serve as the main verb of a clause. A conjugated verb is needed here to form the main verb of the relative clause \"that&hellip;[rain] back onto Mars's surface,\" which describes the \"bits of molten rock.\""
+  }
+}

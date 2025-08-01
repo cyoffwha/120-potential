@@ -1,0 +1,22 @@
+{
+  "question_id": "8f6d6ae6",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Archaeologists have estimated that the pre-Columbian Native American city of Cahokia, located across the Mississippi River from modern-day St. Louis, Missouri, had as many as 20,000 inhabitants in the year 1150 ______ blank it one of the largest cities in North America at the time.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "CE making",
+    "CE. Making",
+    "CE, making",
+    "CE; making"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The phrase \"making&hellip;at the time\" provides additional information about Cahokia that's not required for the sentence to make sense or function grammatically. As a nonessential supplement, this phrase should be separated from the rest of the sentence with a comma.",
+    "A": "Choice A is incorrect. This choice results in a run-on sentence. The nonessential descriptive aside \"making&hellip;at the time\" needs to be separated from the rest of the sentence with a comma.",
+    "B": "Choice B is incorrect. This choice results in a sentence fragment. \"Making&hellip;at the time\" doesn't have a subject and can't stand on its own as a sentence. Thus, it can't be separated from the rest of the sentence with a period.",
+    "D": "Choice D is incorrect. This choice results in a punctuation error. \"Making&hellip;at the time\" doesn't have a subject and can't stand on its own as an independent clause. Since a semicolon can only link two independent clauses, using one here creates an error."
+  }
+}

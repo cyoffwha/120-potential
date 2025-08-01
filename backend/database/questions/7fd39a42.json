@@ -1,0 +1,22 @@
+{
+  "question_id": "7fd39a42",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Circular particle accelerators known as synchrotrons radiate energy in the form of light. Synchrotron light is among the brightest light ever produced. Synchrotron light is an ideal tool for researchers investigating the structure of matter. The first synchrotron created for the purpose of providing synchrotron light was built in 1968. It was called Tantalus and was housed near the University of Wisconsin–Madison. The student wants to emphasize the location of the first synchrotron built to provide synchrotron light. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the location of the first synchrotron built to provide synchrotron light. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Tantalus, the first synchrotron created for the purpose of providing synchrotron light, was built in 1968.",
+    "Circular particle accelerators known as synchrotrons radiate energy in the form of light, and this light is an ideal tool for researchers investigating the structure of matter.",
+    "The first synchrotron created for the purpose of providing synchrotron light, Tantalus, was housed near the University of Wisconsin&ndash;Madison.",
+    "Synchrotron light is among the brightest light ever produced, making it an ideal tool for researchers investigating the structure of matter."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. After identifying Tantalus as the first synchrotron built to provide light, the sentence emphasizes its location.",
+    "A": "Choice A is incorrect. While the sentence identifies Tantalus as the first synchrotron built to provide light, it doesn't emphasize (or mention) its location.",
+    "B": "Choice B is incorrect. The sentence describes synchrotrons and how researchers use them; it doesn't emphasize (or mention) the location of Tantalus.",
+    "D": "Choice D is incorrect. The sentence describes synchrotron light and how researchers use it; the sentence doesn't emphasize (or mention) the location of Tantalus."
+  }
+}

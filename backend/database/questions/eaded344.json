@@ -1,0 +1,22 @@
+{
+  "question_id": "eaded344",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: The painter Frida Kahlo is one of the most influential artists of the twentieth century. She was born in Coyoac&aacute;n, Mexico, in 1907. She is best known for her vivid and richly symbolic self-portraits. The Two Fridas (1939) features two versions of Kahlo sitting together. One version wears a European-style dress and the other a traditional Tehuana dress. The student wants to introduce Kahlo to an audience unfamiliar with the artist. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to introduce Kahlo to an audience unfamiliar with the artist. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Known for being vivid and richly symbolic, Frida Kahlo&rsquo;s self-portraits include  The Two Fridas  (1939).",
+    "The 1939 painting  The Two Fridas  is one example of a self-portrait by Frida Kahlo.",
+    "One painting by Frida Kahlo features two versions of herself, with one version wearing a European-style dress and the other a traditional Tehuana dress.",
+    "One of the most influential artists of the twentieth century, Mexican painter Frida Kahlo is best known for her self-portraits, which are vivid and richly symbolic."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. By identifying Kahlo as an influential artist from Mexico, and by describing the work she's best known for, this choice provides the background information necessary to introduce Kahlo to an unfamiliar audience.",
+    "A": "Choice A is incorrect. This choice doesn't effectively introduce Kahlo. It doesn't include any background information about who Kahlo is or where she's from. It simply identifies one of her paintings.",
+    "B": "Choice B is incorrect. This choice doesn't effectively introduce Kahlo. It doesn't include any background information about who Kahlo is or where she's from. It simply identifies one of her paintings.",
+    "C": "Choice C is incorrect. This choice doesn't effectively introduce Kahlo. It doesn't include any background information about who Kahlo is or where she's from. Instead, it describes one of her paintings in detail."
+  }
+}

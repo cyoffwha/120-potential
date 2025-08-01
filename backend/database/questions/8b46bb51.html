@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 8b46bb51</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>A journalist and well-respected art critic of nineteenth-century Britain, Lady Elizabeth Rigby Eastlake did not hesitate to publish reviews that went against popular opinion. One of her most divisive works was an essay questioning the idea of photography as an emerging medium for fine art: in the essay, Eastlake <span aria-hidden="true">______</span><span class="sr-only">blank</span> that the value of photographs was informational rather than creative.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>exposed</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>asserted</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>discovered</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>doubted</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. "Asserted" means "stated confidently." Eastlake "did not hesitate to publish reviews going against popular opinion," so we can assume that she was confident in sharing her opinions.</p><p>Choice A is incorrect. "Exposed" means "made visible by uncovering" and, when talking about ideas, tends to be used in relation to uncovering the truth. Eastlake was sharing an opinion, not uncovering a truth. Choice C is incorrect. "Discovered" means "found," but Eastlake was writing an opinion essay. She was writing her own opinion, not "discovering" a new universal truth. Choice D is incorrect. "Doubted" means "didn&rsquo;t believe in." We&rsquo;re told that Eastlake "questioned" the idea that photography could be fine art. Placing "doubted" in the blank would actually suggest that Eastlake argued that photos were valuable for creativity and not for information, which is the opposite of what we were told she believes.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">387 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eexposed\u003c/p\u003e", "id": "2c438f4b-56f1-495f-96ef-540e27ef8b9f"}, {"content": "\u003cp\u003easserted\u003c/p\u003e", "id": "a78b970d-4c22-47be-a37a-45414b22e177"}, {"content": "\u003cp\u003ediscovered\u003c/p\u003e", "id": "321e9a6c-88ab-4747-bdc0-e7866dd28435"}, {"content": "\u003cp\u003edoubted\u003c/p\u003e", "id": "068d6944-fc45-4d7e-9199-3ca376cdcc4a"}], "correct_answer": ["B"], "externalid": "bdc66de0-9bbf-4330-9392-8c66057837f9", "keys": ["a78b970d-4c22-47be-a37a-45414b22e177"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-WIC-M007", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. \"Asserted\" means \"stated confidently.\" Eastlake \"did not hesitate to publish reviews going against popular opinion,\" so we can assume that she was confident in sharing her opinions.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. \"Exposed\" means \"made visible by uncovering\" and, when talking about ideas, tends to be used in relation to uncovering the truth. Eastlake was sharing an opinion, not uncovering a truth. Choice C is incorrect. \"Discovered\" means \"found,\" but Eastlake was writing an opinion essay. She was writing her own opinion, not \"discovering\" a new universal truth. Choice D is incorrect. \"Doubted\" means \"didn\u0026rsquo;t believe in.\" We\u0026rsquo;re told that Eastlake \"questioned\" the idea that photography could be fine art. Placing \"doubted\" in the blank would actually suggest that Eastlake argued that photos were valuable for creativity and not for information, which is the opposite of what we were told she believes.\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eA journalist and well-respected art critic of nineteenth-century Britain, Lady Elizabeth Rigby Eastlake did not hesitate to publish reviews that went against popular opinion. One of her most divisive works was an essay questioning the idea of photography as an emerging medium for fine art: in the essay, Eastlake \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e that the value of photographs was informational rather than creative.\u003c/p\u003e", "templateclusterid": "cd3c0531-ee98-4761-9c6f-b48fb5da700f", "templateclustername": "", "type": "mcq", "vaultid": "cb5a7abe-3aa9-41f8-9946-7bc06452d610"}, "createDate": 1691007959378, "difficulty": "M", "external_id": "bdc66de0-9bbf-4330-9392-8c66057837f9", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "8b46bb51", "score_band_range_cd": 4, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "6673257b-513f-45c6-b97a-6def1a7b63d4", "updateDate": 1691007959378};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-8b46bb51");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

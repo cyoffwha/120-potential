@@ -1,0 +1,22 @@
+{
+  "question_id": "c4900368",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is from the 1924 poem \"Cycle\" by D'Arcy McNickle, who was a citizen of the Confederated Salish and Kootenai Tribes. There shall be new roads wending, A new beating of the drum— Men's eyes shall have fresh seeing, Grey lives reprise their span— But under the new sun's being, Completing what night began, There'll be the same backs bending, The same sad feet shall drum— When this night finds its ending And day shall have come.....",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To consider how the repetitiveness inherent in human life can be both rewarding and challenging",
+    "To question whether activities completed at one time of day are more memorable than those completed at another time of day",
+    "To refute the idea that joy is a more commonly experienced emotion than sadness is",
+    "To demonstrate how the experiences of individuals relate to the experiences of their communities"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it accurately states the main purpose of the text. The text begins by discussing the promise of the future, with positive references to renewal such as \"new roads,\" \"new beating of the drum,\" and \"fresh seeing.\" But with the \"new sun,\" the text continues, there will still be \"the same backs bending\" and \"the same sad feet\" drumming, indicating that these difficulties will follow people into this new day. The poem thus considers both the rewards and challenges associated with the repetitiveness of human life.",
+    "B": "Choice B is incorrect because the text doesn't say anything about how memorable activities are, let alone compare the memorability of activities completed at different times of the day.",
+    "C": "Choice C is incorrect. Although the text contrasts hope with difficulty, it does not compare the relative frequency of joyful feelings with that of sad feelings.",
+    "D": "Choice D is incorrect because the text makes no distinction between the experiences of individuals and the experiences of their communities."
+  }
+}

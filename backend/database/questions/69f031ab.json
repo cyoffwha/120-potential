@@ -1,0 +1,22 @@
+{
+  "question_id": "69f031ab",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While exploring Nevada's Gypsum Cave in 1930, Seneca and Abenaki archaeologist Bertha Parker made her most famous discovery: the skull of a now-extinct ground sloth ( Nothrotheriops shastensis ) alongside human-made tools. Parker's crucial finding was the first ______ blank humans in North America as far back as 10,000 years ago.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "places",
+    "placed",
+    "place",
+    "to place"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The object for the verb \"was\" is \"first,\" and \"to place\" is acting as a modifier for \"first.\" What was the finding? It was \"the first.\" The first to do what? The first \"to place humans in North America\" 10,000 years ago. When a verb serves as a modifier within a noun phrase, it must be nonfinite (i.e., not conjugated to a specific subject). The infinitive form \"to place\" is the only nonfinite option among the choices that makes sense in context.",
+    "A": "Choice A is incorrect. The object for the verb \"was\" is \"first,\" and \"places\" is acting as a modifier for \"first.\" What was the thing that Parker's finding did? What was it the first to do? Place humans in North America 10,000 years ago. When a verb acts as a modifier, it must be nonfinite (i.e., not conjugated to a specific subject), but \"places\" is a finite form of the verb.",
+    "B": "Choice B is incorrect. The object for the verb \"was\" is \"first,\" and \"placed\" is acting to modify \"first.\" What was it that Parker's finding was the first to do? Place humans in North America 10,000 years ago. When a verb acts as a modifier, it must be nonfinite (i.e., not conjugated to a specific subject), but \"placed\" is a finite form. \"Placed\" can also be a past participle, but that wouldn't make sense here because the meaning of \"the first placed humans\" would be unclear.",
+    "C": "Choice C is incorrect. The object for the verb \"was\" is \"first,\" and \"place\" is modifying \"first.\" What was the thing that Parker's finding did? What was it the first to do? Place humans in North America. When a verb acts as a modifier, it must be nonfinite (i.e., not conjugated to a specific subject), but \"place\" is a finite form of the verb. Additionally, \"place\" can't serve as a noun here, because it results in an illogical sentence (the \"finding\" wasn't \"the first place\")."
+  }
+}

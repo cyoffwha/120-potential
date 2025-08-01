@@ -1,0 +1,22 @@
+{
+  "question_id": "d9d314d9",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Pinnipeds, which include seals, sea lions, and walruses, live in and around water. Pinnipeds are descended not from sea animals but from four-legged, land-dwelling carnivores. Canadian paleobiologist Natalia Rybczynski recently found a fossil with four legs, webbed toes, and the skull and teeth of a seal. Rybczynski refers to her rare find as a \"transitional fossil.\" The fossil illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors. The student wants to emphasize the fossil's significance. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the fossil&rsquo;s significance. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Canadian paleobiologist Natalia Rybczynski&rsquo;s fossil has the skull and teeth of a seal, which, like sea lions and walruses, is a pinniped.",
+    "Pinnipeds are descended from four-legged, land-dwelling carnivores; a fossil that resembles both was recently found.",
+    "Having four legs but the skull and teeth of a seal, the rare fossil illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors.",
+    "A &ldquo;transitional fossil&rdquo; was recently found by paleobiologist Natalia Rybczynski."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The sentence effectively emphasizes the fossil's significance, explaining that the fossil is rare and illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors.",
+    "A": "Choice A is incorrect. The sentence describes the fossil Rybczynski found; it doesn't emphasize the fossil's significance.",
+    "B": "Choice B is incorrect. The sentence mentions that a fossil resembling both pinnipeds and their ancestors was found; it doesn't emphasize the fossil's significance.",
+    "D": "Choice D is incorrect. The sentence notes a term used to describe the fossil Rybczynski found; it doesn't emphasize the fossil's significance."
+  }
+}

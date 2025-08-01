@@ -1,0 +1,22 @@
+{
+  "question_id": "6f626ae5",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "\"To You\" is an 1856 poem by Walt Whitman. In the poem, Whitman suggests that readers, whom he addresses directly, have not fully understood themselves, writing, ______ blank",
+  "question_text": "Which quotation from &ldquo;To You&rdquo; most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;You have not known what you are, you have slumber&rsquo;d upon yourself / all your life, / Your eyelids have been the same as closed most of the time.&rdquo;",
+    "&ldquo;These immense meadows, these interminable rivers, you are immense / and interminable as they.&rdquo;",
+    "&ldquo;I should have made my way straight to you long ago, / I should have blabb&rsquo;d nothing but you, I should have chanted nothing / but you.&rdquo;",
+    "&ldquo;I will leave all and come and make the hymns of you, / None has understood you, but I understand you.&rdquo;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it presents the quotation that most directly illustrates the claim that Whitman's poem suggests that its readers haven't fully understood themselves. This quotation makes that point directly by saying to readers, \"You have not known what you are.\" The quotation goes on to reinforce this point using a metaphor of sleep, saying that readers have \"slumber'd\" and that their \"eyelids have been the same as closed most of the time.\"",
+    "B": "Choice B is incorrect because this quotation doesn't suggest that readers haven't fully understood themselves but instead characterizes readers as \"immense\" and \"interminable.\" Although immense and interminable things can be difficult to understand, this quotation doesn't make that point.",
+    "C": "Choice C is incorrect because this quotation doesn't suggest that readers haven't fully understood themselves but instead conveys the speaker's regret over not having celebrated readers sooner. In fact, this quotation says nothing at all about readers themselves—it's focused solely on the speaker's feelings about readers.",
+    "D": "Choice D is incorrect because this quotation doesn't suggest that readers haven't fully understood themselves; instead, this quotation makes the point that the speaker has understood readers and is determined to create \"hymns\" about them."
+  }
+}

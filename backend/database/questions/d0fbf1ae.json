@@ -1,0 +1,22 @@
+{
+  "question_id": "d0fbf1ae",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Algae living within the tissues of corals play a critical role in keeping corals, and the marine ecosystems they are part of, thriving. Some coral species appear brown in color when healthy due to the algae colonies living in their tissues. In the event of an environmental stressor, the algae can die or be expelled, causing the corals to appear white. To recover the algae, the bleached corals then begin to produce bright colors, which block intense sunlight, encouraging the light-sensitive algae to recolonize the corals.",
+  "question_text": "What does the text most strongly suggest about corals that produce bright colors?",
+  "answer_options": [
+    "These corals have likely been subjected to stressful environmental conditions.",
+    "These corals are likely more vulnerable to exposure from intense sunlight than white corals are.",
+    "These corals have likely recovered from an environmental event without the assistance of algae colonies.",
+    "These corals are more likely to survive without algae colonies than brown corals are."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The text says that corals produce bright colors to block sunlight and encourage algae to recolonize after \"an environmental stressor.\" From this, we can infer that corals that produce bright colors have probably been subjected to an environmental stressor.",
+    "B": "Choice B is incorrect. The text says that corals produce bright colors to block intense sunlight, which protects the light-sensitive algae that keep the coral healthy. In other words, bright colors make the coral's health less vulnerable to intense sunlight.",
+    "C": "Choice C is incorrect. The text says that corals produce bright colors to encourage algae to recolonize, not that they have recovered without the assistance of algae colonies.",
+    "D": "Choice D is incorrect. The text never compares the likelihood of differently colored corals surviving without algae colonies."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "fe41f258",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In ancient Greece, an Epicurean was a follower of Epicurus, a philosopher whose beliefs revolved around the pursuit of pleasure. Epicurus defined pleasure as \"the absence of pain in the body and of trouble in the ______ blank that all life's virtues derived from this absence.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "soul,&rdquo; positing",
+    "soul&rdquo;: positing&nbsp;",
+    "soul&rdquo;; positing",
+    "soul.&rdquo; Positing&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is punctuation use between a main clause and a participial phrase. This choice correctly uses a comma to mark the boundary between the main clause (\"Epicurus&hellip;&lsquo;soul'\") and the participial phrase (\"positing&hellip;absence\") that provides additional information about how Epicurus defined pleasure.",
+    "B": "Choice B is incorrect because a colon can't be used in this way to join a main clause and a participial phrase.",
+    "C": "Choice C is incorrect because a semicolon can't be used in this way to join a main clause and a participial phrase.",
+    "D": "Choice D is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"positing.\""
+  }
+}

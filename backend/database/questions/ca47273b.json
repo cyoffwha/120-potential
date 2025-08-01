@@ -1,0 +1,22 @@
+{
+  "question_id": "ca47273b",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Biologist Jane Edgeloe and colleagues have located what is believed to be the largest individual plant in the world in the Shark Bay area of Australia. The plant is a type of seagrass called Posidonia australis , and it ______ blank approximately 200 square kilometers.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "acknowledges",
+    "produces",
+    "spans",
+    "advances"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Spans\" means \"extends over a distance of\" or \"encompasses.\" Since we're talking about the world's largest plant, it makes sense to say that it \"spans\" about 200 square kilometers.",
+    "A": "Choice A is incorrect. \"Acknowledges\" means \"recognizes\" or \"admits the truth of.\" Either way, it doesn't make sense here: a plant can't \"acknowledge\" a distance.",
+    "B": "Choice B is incorrect. \"Produces\" can mean \"makes,\" \"causes,\" or \"presents.\" But none of those definitions make sense here: a plant can't make, cause, or present a distance.",
+    "D": "Choice D is incorrect. This doesn't fit the logic of the text. \"Advances\" means \"moves forward\" or \"progresses.\" But the plant isn't necessarily moving forward. Rather, the text suggests that it already covers a distance of 200 square kilometers."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "835b101b",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Minnesota defines a lake as an inland body of water of at least 10 acres. Wisconsin's definition of a lake doesn't take size into account. By its own definition, Wisconsin has over 15,000 lakes, many smaller than 10 acres. By Minnesota's definition, Wisconsin has only about 6,000 lakes. The student wants to contrast Minnesota's definition of a lake with Wisconsin's. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to contrast Minnesota&rsquo;s definition of a lake with Wisconsin&rsquo;s. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Wisconsin, which doesn&rsquo;t take size into account in defining a lake, claims that it has over 15,000 lakes.",
+    "Because its definition of a lake is different from Minnesota&rsquo;s, it is unclear how many lakes Wisconsin really has.",
+    "According to Minnesota&rsquo;s definition of a lake&mdash;an inland body of water of at least 10 acres&mdash;Wisconsin has about 6,000 lakes.",
+    "Minnesota&rsquo;s definition of a lake&mdash;an inland body of water of at least 10 acres&mdash;is more restrictive than Wisconsin&rsquo;s, which doesn&rsquo;t take size into account."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence contrasts Minnesota's definition of a lake with Wisconsin's, explaining that Minnesota's definition (which takes size into account) is more restrictive than Wisconsin's definition (which doesn't).",
+    "A": "Choice A is incorrect. While the sentence notes that Wisconsin's definition of a lake doesn't take size into account, it doesn't contrast Minnesota's definition with Wisconsin's.",
+    "B": "Choice B is incorrect. The sentence states that Wisconsin's definition of a lake is different from Minnesota's, but it doesn't clarify how they differ. In other words, it doesn't contrast Minnesota's definition with Wisconsin's.",
+    "C": "Choice C is incorrect. The sentence indicates how many lakes Wisconsin has according to Minnesota's definition of a lake, but it doesn't clarify how the states' definitions differ. In other words, it doesn't contrast Minnesota's definition with Wisconsin's."
+  }
+}

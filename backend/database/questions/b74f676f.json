@@ -1,0 +1,22 @@
+{
+  "question_id": "b74f676f",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Classical composer Florence Price's 1927 move to Chicago marked a turning point in her career. It was there that Price premiered her First Symphony—a piece that was praised for blending traditional Romantic motifs with aspects of Black folk music—and ______ blank supportive relationships with other Black artists.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "developing",
+    "developed",
+    "to develop",
+    "having developed"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The missing verb is part of the same clause as the verb \"premiered,\" and \"Price\" is the subject of both. So we need the past-tense form \"developed\" in order to match \"premiered.\"",
+    "A": "Choice A is incorrect. This choice creates a verb form error. The missing verb is part of the same clause as the verb \"premiered,\" and \"Price\" is the subject of both. So we need the past-tense form \"developed\" in order to match \"premiered.\"",
+    "C": "Choice C is incorrect. This choice creates a verb form error. The missing verb is part of the same clause as the verb \"premiered,\" and \"Price\" is the subject of both. So we need the past-tense form \"developed\" in order to match \"premiered.\"",
+    "D": "Choice D is incorrect. This choice creates a verb form error. The missing verb is part of the same clause as the verb \"premiered,\" and \"Price\" is the subject of both. So we need the past-tense form \"developed\" in order to match \"premiered.\""
+  }
+}

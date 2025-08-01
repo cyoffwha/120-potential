@@ -1,0 +1,22 @@
+{
+  "question_id": "a66f9b8d",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Cats can judge unseen people's positions in space by the sound of their voices and thus react with surprise when the same person calls to them from two different locations in a short span of time. Saho Takagi and colleagues reached this conclusion by measuring cats' levels of surprise based on their ear and head movements while the cats heard recordings of their owners' voices from two speakers spaced far apart. Cats exhibited a low level of surprise when owners' voices were played twice from the same speaker, but they showed a high level of surprise when the voice was played once each from the two different speakers.",
+  "question_text": "According to the text, how did the researchers determine the level of surprise displayed by the cats in the study?",
+  "answer_options": [
+    "They watched how each cat moved its ears and head.",
+    "They examined how each cat reacted to the voice of a stranger.",
+    "They studied how each cat physically interacted with its owner.",
+    "They tracked how each cat moved around the room."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it explains how the researchers determined the level of surprise displayed by the cats in the study. The text states that Saho Takagi and colleagues played recordings of the voice of each cat's owner and measured how surprised the cat was by the recording based on how it moved its ears and head.",
+    "B": "Choice B is incorrect because, as the text explains, the recordings played for each cat in the study were of the voice of the cat's owner, not a stranger's voice.",
+    "C": "Choice C is incorrect because the text explains that during the study, the cats didn't interact directly with their owners; instead, the cats listened to recordings of their owners' voices.",
+    "D": "Choice D is incorrect because the text doesn't indicate that the researchers monitored the cats' movement around the room in which the study was conducted."
+  }
+}

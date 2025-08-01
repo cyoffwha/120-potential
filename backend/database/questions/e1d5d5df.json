@@ -1,0 +1,22 @@
+{
+  "question_id": "e1d5d5df",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "According to botanists, a viburnum plant experiencing insect damage may develop erineum—a discolored, felty growth—on its leaf blades. A ______ blank viburnum plant, on the other hand, will have leaves with smooth surfaces and uniformly green coloration.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "struggling",
+    "beneficial",
+    "simple",
+    "healthy"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of damage to viburnum plants. In this context, \"healthy\" would mean not distressed or diseased. The text states that insect damage may cause viburnum plants to be discolored and have abnormal growths. In the next sentence, the phrase \"on the other hand\" indicates a contrast with the description of plants suffering from damage. Thus, the context contrasts the appearance of healthy, undamaged plants with the appearance of damaged plants.",
+    "A": "Choice A is incorrect because in this context, \"struggling\" would mean working against difficulties. The text first describes viburnum plants experiencing damage by insects, and the phrase \"on the other hand\" then establishes a contrast with that description. It wouldn't make sense to contrast struggling viburnum plants with those being damaged by insects, because in both cases the plants would be experiencing difficulties.",
+    "B": "Choice B is incorrect because in this context, \"beneficial\" would mean producing good or helpful effects. The text doesn't discuss how viburnum plants affect other things or suggest that the plants are helpful in some way; rather, it focuses on how viburnum plants are affected by certain conditions.",
+    "C": "Choice C is incorrect because in this context \"simple\" would mean plain or uncomplicated. The text doesn't discuss whether certain viburnum plants are complicated or uncomplicated; rather, it focuses on how viburnum plants are affected by certain conditions."
+  }
+}

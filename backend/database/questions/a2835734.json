@@ -1,0 +1,22 @@
+{
+  "question_id": "a2835734",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Visual artist Gabriela Alem&aacute;n states that the bold colors of comics, pop art, and Latinx culture have always fascinated her. This passion for the rich history and colors of her Latinx community translates into the ______ blank artworks she produces.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "vivid",
+    "unknown",
+    "definite",
+    "reserved"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Vivid\" can mean \"colorful\" or \"bright-colored.\" This definition fits the context clues about Alem&aacute;n's fascination with and passion for bold colors.",
+    "B": "Choice B is incorrect. This doesn't fit the logic of the text. Nothing in the text indicates that Alem&aacute;n's artworks are \"unknown.\"",
+    "C": "Choice C is incorrect. This doesn't fit the logic of the text. \"Definite\" means \"certain\" or \"decided.\" It wouldn't make sense to describe artwork as \"definite.\"",
+    "D": "Choice D is incorrect. This doesn't fit the logic of the text. \"Reserved\" can either mean \"slow to reveal emotions\" or \"booked.\" But the clues suggest that Alem&aacute;n's artworks are boldly colorful—almost the opposite of \"reserved.\""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "fa7a89f1",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Studying how workload affects productivity, Maryam Kouchaki and colleagues found that people who chose to do relatively easy tasks first were less ______ blank compared to those who did hard tasks first. Finishing easy tasks gave participants a sense of accomplishment, but those who tackled hard tasks first actually became more skilled and productive workers over time.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "secretive",
+    "efficient",
+    "outgoing",
+    "unsympathetic"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion about Kouchaki and colleagues' research into how workload affects productivity. In context, \"efficient\" means effective or well organized. The text indicates that, according to Kouchaki and colleagues' research, people who worked on hard tasks first were \"more skilled and productive\" than those who did easy tasks first. This context conveys the idea that despite their sense of accomplishment, the people who chose to do the easy tasks first were less efficient or productive than those who tackled hard tasks first.",
+    "A": "Choice A is incorrect because there's nothing in the text to suggest that workers who do easy tasks first are less \"secretive,\" or uncommunicative or silent, than those who do hard tasks first. Rather, the text suggests that people are less skillful or efficient if they tackle easy tasks before the hard ones.",
+    "C": "Choice C is incorrect because \"outgoing\" means openly friendly, which wouldn't make sense in this context. The text focuses on Kouchaki and colleagues' research in which people who worked on hard tasks first were \"more skilled and productive\" than those who did easy tasks first and were therefore less efficient.",
+    "D": "Choice D is incorrect because there's nothing in the text to suggest that workers who do easy tasks first are less \"unsympathetic,\" or insensitive or unkind, than those who do hard tasks first. Rather, the text suggests that people are less skillful or efficient if they tackle easy tasks before the hard ones."
+  }
+}

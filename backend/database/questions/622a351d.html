@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 622a351d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>In 1978, S&aacute;mi activists staged protests to block the construction of a dam on the Alta River in Norway.</li>
+<li>The dam would disrupt S&aacute;mi fishing and reindeer herding.</li>
+<li>The dam was ultimately built, but the Alta conflict had a lasting impact.</li>
+<li>It brought international attention to the issue of S&aacute;mi rights.</li>
+<li>It led to a set of 2005 legal protections establishing S&aacute;mi rights to lands, waters, and resources.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to make and support a generalization about the Alta conflict. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>During the Alta conflict, S&aacute;mi activists staged protests to block the construction of a dam on the Alta River in Norway that would disrupt local fishing and reindeer herding.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Although the dam that the S&aacute;mi activists had protested was ultimately built, the Alta conflict had a lasting impact.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>S&aacute;mi rights to lands, waters, and resources received international attention and legal protections as a result of the Alta conflict.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The Alta conflict had a lasting impact, resulting in international attention and legal protections for S&aacute;mi rights to lands, waters, and resources.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. It makes a generalization&mdash;the conflict had a lasting impact&mdash;and then supports it with evidence&mdash;the attention and protections were results of the conflict. </p><p>Choice A is incorrect. This choice doesn&rsquo;t make a generalization about the conflict. It describes a specific event from the conflict. Choice B is incorrect. This choice makes a generalization about the Alta conflict, but doesn&rsquo;t support it. Choice C is incorrect. This choice makes a statement about the aftermath of the conflict, but doesn&rsquo;t support it. The statement is also a little too specific to be a generalization. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">662 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eDuring the Alta conflict, S\u0026aacute;mi activists staged protests to block the construction of a dam on the Alta River in Norway that would disrupt local fishing and reindeer herding.\u003c/p\u003e", "id": "11904451-b17f-4b9b-80e2-89719e2b1226"}, {"content": "\u003cp\u003eAlthough the dam that the S\u0026aacute;mi activists had protested was ultimately built, the Alta conflict had a lasting impact.\u003c/p\u003e", "id": "258ff4fb-ab9d-4107-9758-af426ea80c25"}, {"content": "\u003cp\u003eS\u0026aacute;mi rights to lands, waters, and resources received international attention and legal protections as a result of the Alta conflict.\u003c/p\u003e", "id": "aab63ebc-0542-4da5-87de-21d1887fc902"}, {"content": "\u003cp\u003eThe Alta conflict had a lasting impact, resulting in international attention and legal protections for S\u0026aacute;mi rights to lands, waters, and resources.\u003c/p\u003e", "id": "4c2d84fb-a280-4f20-8c9e-2db5461d881e"}], "correct_answer": ["D"], "externalid": "57bc16b7-b31e-43cd-9f03-a9aea8afed33", "keys": ["4c2d84fb-a280-4f20-8c9e-2db5461d881e"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-SYN-H002", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. It makes a generalization\u0026mdash;the conflict had a lasting impact\u0026mdash;and then supports it with evidence\u0026mdash;the attention and protections were results of the conflict. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice doesn\u0026rsquo;t make a generalization about the conflict. It describes a specific event from the conflict. Choice B is incorrect. This choice makes a generalization about the Alta conflict, but doesn\u0026rsquo;t support it. Choice C is incorrect. This choice makes a statement about the aftermath of the conflict, but doesn\u0026rsquo;t support it. The statement is also a little too specific to be a generalization. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to make and support a generalization about the Alta conflict. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIn 1978, S\u0026aacute;mi activists staged protests to block the construction of a dam on the Alta River in Norway.\u003c/li\u003e\n\u003cli\u003eThe dam would disrupt S\u0026aacute;mi fishing and reindeer herding.\u003c/li\u003e\n\u003cli\u003eThe dam was ultimately built, but the Alta conflict had a lasting impact.\u003c/li\u003e\n\u003cli\u003eIt brought international attention to the issue of S\u0026aacute;mi rights.\u003c/li\u003e\n\u003cli\u003eIt led to a set of 2005 legal protections establishing S\u0026aacute;mi rights to lands, waters, and resources.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "62ac0f2f-fca6-4427-9851-7f4c3be434dd", "templateclustername": "", "type": "mcq", "vaultid": "3347dee1-207b-4621-851e-66593c19aefd"}, "createDate": 1691007959372, "difficulty": "H", "external_id": "57bc16b7-b31e-43cd-9f03-a9aea8afed33", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "622a351d", "score_band_range_cd": 6, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "a1573034-5d1d-40c4-8130-7f64e3198c83", "updateDate": 1691007959372};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-622a351d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

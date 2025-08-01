@@ -1,0 +1,22 @@
+{
+  "question_id": "b8eec031",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Researchers Helena Mihaljević-Brandt, Luc&iacute;a Santamar&iacute;a, and Marco Tullney report that while mathematicians may have traditionally worked alone, evidence points to a shift in the opposite direction. ______ blank mathematicians are choosing to collaborate with their peers—a trend illustrated by a rise in the number of mathematics publications credited to multiple authors.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Similarly,",
+    "For this reason,",
+    "Furthermore,",
+    "Increasingly,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"Increasingly\" logically signals that the claim in this sentence—that mathematicians are collaborating with their peers—marks a change relative to what was traditionally done. As the previous sentence explains, while mathematicians may have traditionally worked alone, evidence points to a shift in the opposite direction. The claim describes the shift: a rise in collaboration.",
+    "A": "Choice A is incorrect because \"similarly\" illogically signals that the claim in this sentence is similar to, but separate from, the previous claim about the shift away from mathematicians working alone. Instead, the claim about the rise in collaboration elaborates on the previous claim, describing the shift.",
+    "B": "Choice B is incorrect because \"for this reason\" illogically signals that the claim in this sentence is caused by the previous claim about the shift away from mathematicians working alone. Instead, the claim about the rise in collaboration elaborates on the previous claim, describing the shift.",
+    "C": "Choice C is incorrect because \"furthermore\" illogically signals that the claim in this sentence is in addition to the previous claim about the shift away from mathematicians working alone. Instead, the claim about the rise in collaboration elaborates on the previous claim, describing the shift."
+  }
+}

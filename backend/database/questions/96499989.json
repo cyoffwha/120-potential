@@ -1,0 +1,22 @@
+{
+  "question_id": "96499989",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Fans of science fiction will ______ blank multiple references to classic sci-fi stories in Janelle Mon&aacute;e's song lyrics, including her recurring nods to the plot of the 1927 sci-fi film Metropolis .",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "appreciate the",
+    "appreciate. The",
+    "appreciate, the",
+    "appreciate: the"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested here is punctuation between a verb and object. No punctuation is needed between the verb (\"appreciate\") and its object (\"the multiple references...\"). The object helps complete the idea of the verb—in this case, it explains what fans of science fiction will appreciate—and any punctuation between the two results in an ungrammatical sentence.",
+    "B": "Choice B is incorrect because no punctuation is needed between the verb and its object.",
+    "C": "Choice C is incorrect because no punctuation is needed between the verb and its object.",
+    "D": "Choice D is incorrect because no punctuation is needed between the verb and its object."
+  }
+}

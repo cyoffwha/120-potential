@@ -1,0 +1,22 @@
+{
+  "question_id": "8634bf4a",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Diego Vel&aacute;zquez was the leading artist in the court of King Philip IV of Spain during the seventeenth century, but his influence was hardly ______ blank Spain: realist and impressionist painters around the world employed his techniques and echoed elements of his style.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "derived from",
+    "recognized in",
+    "confined to",
+    "repressed by"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most logically completes the discussion of the artist Diego Vel&aacute;zquez's influence outside Spain. As used in this context, \"confined to\" means restricted to. The text says that Vel&aacute;zquez was the leading artist in the Spanish court during the seventeenth century, but it also notes that other painters around the world were influenced by his techniques and style. Thus, Vel&aacute;zquez's influence was hardly (or almost not) confined to, or restricted to, Spain.",
+    "A": "Choice A is incorrect because if Vel&aacute;zquez was a leading artist in Spain, it doesn't make logical sense to claim that his influence was hardly (or almost not) derived from, or obtained from, Spain. Moreover, the other painters around the world who employed Vel&aacute;zquez's techniques would by definition be influenced by Spanish style.",
+    "B": "Choice B is incorrect because if Vel&aacute;zquez was a leading artist in the court of King Philip IV of Spain, then his influence must have been widely recognized, or acknowledged, rather than being hardly (or almost not) recognized.",
+    "D": "Choice D is incorrect because the text gives no indication that deliberately limiting Vel&aacute;zquez's influence outside Spain was ever considered by anyone. Thus, even if it is true that his influence was not repressed, or restrained, it doesn't make logical sense to say so in this context."
+  }
+}

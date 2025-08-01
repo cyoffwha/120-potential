@@ -1,0 +1,22 @@
+{
+  "question_id": "5e732e67",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Many films from the early 1900s have been lost. These losses include several films by the first wave of Black women filmmakers. We know about these lost movies only from small pieces of evidence. For example, an advertisement for Jennie Louise Touissant Welcome's documentary Doing Their Bit still exists. There's a reference in a magazine to Tressie Souders's film A Woman's Error . And Maria P. Williams's The Flames of Wrath is mentioned in a letter and a newspaper article, and one image from the movie was discovered in the 1990s.",
+  "question_text": "Which choice best describes the overall structure of the text?",
+  "answer_options": [
+    "The text identifies a complex problem, then presents examples of unsuccessful attempts to solve that problem.&nbsp;",
+    "The text summarizes a debate among researchers, then gives reasons for supporting one side in that debate.&nbsp;",
+    "The text describes a general situation, then illustrates that situation with specific examples.",
+    "The text discusses several notable individuals, then explains commonly overlooked differences between those individuals.&nbsp;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The first three sentences describe the general situation: these early films have been lost, and we only know about them from small pieces of evidence. The rest of the text offers specific examples of the small pieces of evidence.",
+    "A": "Choice A is incorrect. This isn't the overall structure. The fact that we only know about these lost early films from small pieces of evidence isn't presented as a \"complex problem\"—that's too extreme. And the examples presented are not \"unsuccessful attempts\" to solve it. If anything, the examples represent a success, because we discovered that these films existed in the first place.",
+    "B": "Choice B is incorrect. This isn't the overall structure. There's no \"debate\" presented in the text, so there's no \"side\" for the text to support.",
+    "D": "Choice D is incorrect. This isn't the overall structure. The text doesn't discuss any \"differences\" between the filmmakers."
+  }
+}

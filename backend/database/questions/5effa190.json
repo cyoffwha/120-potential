@@ -1,0 +1,22 @@
+{
+  "question_id": "5effa190",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The process of mechanically recycling plastics is often considered ______ blank because of the environmental impact and the loss of material quality that often occurs. But chemist Takunda Chazovachii has helped develop a cleaner process of chemical recycling that converts superabsorbent polymers from diapers into a desirable reusable adhesive.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "resilient",
+    "inadequate",
+    "dynamic",
+    "satisfactory"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion about recycling plastics. In this context, \"inadequate\" means not satisfactory. The text indicates that the mechanical plastic-recycling process affects the environment and causes \"the loss of material quality.\" The text contrasts that with Chazovachii's chemical plastic-recycling process, which is cleaner and produces a desirable product. The text's emphasis on the negative aspects of mechanical recycling suggests that it is inadequate in terms of environmental impact and the quality of the material the process yields.",
+    "A": "Choice A is incorrect because in this context \"resilient\" would mean able to withstand difficulty and the text does not characterize the plastic-recycling process as having this quality or describe any difficulties that these processes might need to overcome.",
+    "C": "Choice C is incorrect because in this context \"dynamic\" would mean constantly changing. Although the text suggests that there have been changes in the field of recycling, as is the case with the advent of Chazovachii's chemical recycling process, there is nothing to suggest that the mechanical process itself has changed or is prone to change.",
+    "D": "Choice D is incorrect because in this context \"satisfactory\" would mean acceptable but not perfect. The text mentions only shortcomings of the mechanical process (environmental effects and lower material quality), so the text more strongly supports a negative view of this process and provides no evidence that it would be considered satisfactory."
+  }
+}

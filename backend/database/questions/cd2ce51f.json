@@ -1,0 +1,22 @@
+{
+  "question_id": "cd2ce51f",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Like the 1945 play it reimagines—Federico Garc&iacute;a Lorca's The House of Bernarda Alba —Marcus Gardley's 2014 play The House That Will Not Stand prominently features women. In both plays, the all-female cast ______ blank an array of female characters, including a strong mother and several daughters dealing with individual struggles.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "engulfs",
+    "encourages",
+    "comprises",
+    "provokes"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most logically completes the text's discussion of Gardley's play. In this context, \"comprises\" means constitutes or makes up the totality of, and the text indicates that The House That Will Not Stand had an \"all-female cast\" that stands in some relationship to \"an array of female characters\" in the play. Because all cast members are female, the characters must be played by these female cast members; therefore the cast constitutes, or comprises, the collection of characters.",
+    "A": "Choice A is incorrect. In this context, \"engulfs\" would mean encloses or overwhelms, and although it is fairly common to describe an actor as embodying (or personifying realistically) a character, there is nothing in the text to suggest that the cast members enclosed or overwhelmed the characters they played.",
+    "B": "Choice B is incorrect because in this context, \"encourages\" would mean inspires with courage or hope. Although the text does mention \"a strong mother and several daughters dealing with individual struggles,\" which might suggest that there are moments of encouragement among the characters during the play, there is nothing to suggest that the cast members encouraged the characters they portrayed.",
+    "D": "Choice D is incorrect because, in this context, \"provokes\" would mean instigates or incites to anger. Nothing in the text addresses provocation or what it might mean for actors to provoke the characters they are playing."
+  }
+}

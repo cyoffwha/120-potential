@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 6d5ddea4</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>According to Potawatomi ecologist Robin Wall Kimmerer, the Indigenous method of harvesting <em>Hierochloe odorata</em>, or sweetgrass, by snapping the plant off at the root actually <span aria-hidden="true">______</span><span class="sr-only">blank</span> wild populations: it may seem counterintuitive, she says, but this method of removal allows new sweetgrass plants to repopulate the space, with an overall increase in number and vigor.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>selects</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>originates</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>conditions</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>replenishes</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it most logically completes the text&rsquo;s discussion of the Indigenous method of harvesting <em>Hierochloe odorata.</em> As used in this context, &ldquo;replenishes&rdquo; means helps increase the population or helps it recover. The text explains that although snapping off a wild plant at the root might seem detrimental to the wild population, it actually helps <em>Hierochloe odorata</em>, increasing both their &ldquo;number and vigor.&rdquo; This context conveys the idea that even though it seems counterintuitive, the Indigenous method of harvesting <em>Hierochloe odorata</em> actually replenishes the wild population. </p><p>Choice A is incorrect. Although a harvesting method could be used to select for certain traits in plants, it&rsquo;s not clear what it would mean for a harvesting method to select &ldquo;wild populations&rdquo; of plants. Choice B is incorrect because as used in this context, &ldquo;originates&rdquo; means creates. The text doesn&rsquo;t address the origin of <em>Hierochloe odorata</em>, but rather how the Indigenous harvesting method affects it. Choice C is incorrect because in this context, &ldquo;conditions&rdquo; means to influence someone or something to behave in a certain way, and the text doesn&rsquo;t suggest the new plants that replace the harvested ones differ in any meaningful way, or in any way that could be the result of conditioning. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">343 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eselects\u003c/p\u003e", "id": "14154ced-9e6c-4b6f-adb3-cb9db45c585d"}, {"content": "\u003cp\u003eoriginates\u003c/p\u003e", "id": "feade69e-c192-49f8-a350-e5b534d3624c"}, {"content": "\u003cp\u003econditions\u003c/p\u003e", "id": "13200fdf-5e6d-4ca7-ba77-ba9c5dd5d714"}, {"content": "\u003cp\u003ereplenishes\u003c/p\u003e", "id": "1aadbd97-9dbf-41e8-9fa9-f17974e9440c"}], "correct_answer": ["D"], "externalid": "7f5faea8-d474-4411-8cdf-c80ad4475330", "keys": ["1aadbd97-9dbf-41e8-9fa9-f17974e9440c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-954-WIC", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it most logically completes the text\u0026rsquo;s discussion of the Indigenous method of harvesting \u003cem\u003eHierochloe odorata.\u003c/em\u003e As used in this context, \u0026ldquo;replenishes\u0026rdquo; means helps increase the population or helps it recover. The text explains that although snapping off a wild plant at the root might seem detrimental to the wild population, it actually helps \u003cem\u003eHierochloe odorata\u003c/em\u003e, increasing both their \u0026ldquo;number and vigor.\u0026rdquo; This context conveys the idea that even though it seems counterintuitive, the Indigenous method of harvesting \u003cem\u003eHierochloe odorata\u003c/em\u003e actually replenishes the wild population. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although a harvesting method could be used to select for certain traits in plants, it\u0026rsquo;s not clear what it would mean for a harvesting method to select \u0026ldquo;wild populations\u0026rdquo; of plants. Choice B is incorrect because as used in this context, \u0026ldquo;originates\u0026rdquo; means creates. The text doesn\u0026rsquo;t address the origin of \u003cem\u003eHierochloe odorata\u003c/em\u003e, but rather how the Indigenous harvesting method affects it. Choice C is incorrect because in this context, \u0026ldquo;conditions\u0026rdquo; means to influence someone or something to behave in a certain way, and the text doesn\u0026rsquo;t suggest the new plants that replace the harvested ones differ in any meaningful way, or in any way that could be the result of conditioning. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eAccording to Potawatomi ecologist Robin Wall Kimmerer, the Indigenous method of harvesting \u003cem\u003eHierochloe odorata\u003c/em\u003e, or sweetgrass, by snapping the plant off at the root actually \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e wild populations: it may seem counterintuitive, she says, but this method of removal allows new sweetgrass plants to repopulate the space, with an overall increase in number and vigor.\u003c/p\u003e", "templateclusterid": "54b872b6-ea63-4c56-a60f-73d6ae7fa603", "templateclustername": "", "type": "mcq", "vaultid": "69ad93e0-1261-42e3-9bba-114cbeae6816"}, "createDate": 1691007959356, "difficulty": "E", "external_id": "7f5faea8-d474-4411-8cdf-c80ad4475330", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "6d5ddea4", "score_band_range_cd": 3, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "31d3bb23-7777-4ac1-848f-bad16dc2f5b7", "updateDate": 1691007959356};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-6d5ddea4");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "question_id": "9091458d",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Emperor penguins don't waddle out of the ocean. They launch themselves at such a high speed that they travel up to two meters before landing. How ______ blank A layer of microbubbles on their plumage reduces friction as the penguins speed to the surface.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "they are able to move so fast!",
+    "&nbsp;are they able to move so fast.",
+    "they are able to move so fast.",
+    "are they able to move so fast?"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is end-of-sentence punctuation. This choice correctly uses a question mark to punctuate the interrogative sentence \"how are they able to move so fast?\" The interrogative sentence asks a direct question, and the next sentence answers it.",
+    "A": "Choice A is incorrect because the context requires an interrogative sentence. The exclamative sentence \"how they are able to move so fast!\" emphasizes the penguin's high rate of speed, but it doesn't set up the next sentence's explanation of how the penguins achieve such speeds.",
+    "B": "Choice B is incorrect because a period can't be used in this way to punctuate an interrogative sentence.",
+    "C": "Choice C is incorrect because the context requires an interrogative sentence. The exclamative sentence \"how they are able to move so fast\" emphasizes the penguin's high rate of speed, but it doesn't set up the next sentence's explanation of how the penguins achieve such speeds."
+  }
+}

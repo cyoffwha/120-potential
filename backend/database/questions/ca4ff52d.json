@@ -1,0 +1,22 @@
+{
+  "question_id": "ca4ff52d",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Muslins are woven cotton fabrics with a variety of uses. Dhaka muslin is a handmade fabric produced in Dhaka, Bangladesh. It has an extremely fine weave and is primarily used to make luxury clothing. Sheeting muslin is a machine-made fabric produced in factories. It has a coarse weave and is primarily used to upholster furniture and create backdrops for theater sets. The student wants to emphasize a difference between the two muslins. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize a difference between the two muslins. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Dhaka muslin is a handmade fabric with an extremely fine weave, while sheeting muslin is machine made with a coarse weave.",
+    "Dhaka muslin and sheeting muslin are two different types of woven cotton fabrics.",
+    "Muslins can be used in a variety of ways, from making luxury clothing to upholstering furniture and creating backdrops for theater sets.",
+    "Sheeting muslin is machine made, has a coarse weave, and is used for furniture and theater sets."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The difference between the two different kinds of muslin is emphasized.",
+    "B": "Choice B is incorrect. This choice lists two kinds of muslins, but does not say how they are different from one another.",
+    "C": "Choice C is incorrect. This choice does not emphasize a difference between the two muslins.",
+    "D": "Choice D is incorrect. This choice does not emphasize a difference between the two muslins. It only describes sheeting muslin."
+  }
+}

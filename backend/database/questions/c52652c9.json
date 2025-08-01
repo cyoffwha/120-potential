@@ -1,0 +1,22 @@
+{
+  "question_id": "c52652c9",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The human brain is primed to recognize faces—so much so that, due to a perceptual tendency called pareidolia, ______ blank will even find faces in clouds, wooden doors, pieces of fruit, and other faceless inanimate objects. Researcher Susan Magsamen has focused her work on better understanding this everyday phenomenon.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "she",
+    "they",
+    "it",
+    "those"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"It\" is a singular pronoun used to stand in for objects. Since the antecedent in this case is the singular noun phrase \"the human brain,\" \"it\" is a perfect pronoun to use here.",
+    "A": "Choice A is incorrect. Although \"she\" is a singular pronoun, it is reserved for people and animals, not objects like \"the human brain.\"",
+    "B": "Choice B is incorrect. \"They\" is a plural pronoun, but we need a singular pronoun to represent the antecedent \"the human brain.\"",
+    "D": "Choice D is incorrect. \"Those\" is a plural pronoun, but we need a singular pronoun to represent the antecedent \"the human brain.\""
+  }
+}

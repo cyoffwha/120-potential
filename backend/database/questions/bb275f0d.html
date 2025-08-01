@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question bb275f0d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>Cities tend to have a wide range of flowering vegetation in parks, yards, and gardens.</li>
+<li>This vegetation provides a varied diet for honeybees, strengthening bees&rsquo; immune systems.</li>
+<li>On average, 62.5 percent of bees in an urban area will survive a harsh winter.</li>
+<li>Rural areas are often dominated by monoculture crops such as corn or wheat.</li>
+<li>On average, only 40 percent of honeybees in a rural area will survive a harsh winter.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to make and support a generalization about honeybees.&nbsp;Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Cities tend to have a wider range of flowering vegetation than do rural areas, which are often dominated by monoculture crops.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In urban areas, over 60 percent of honeybees, on average, will survive a harsh winter, whereas in rural areas, only 40 percent will.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The strength of honeybees&rsquo; immune systems depends on what the bees eat, and a varied diet is more available to bees in an urban area than to those in a rural area.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Honeybees are more likely to thrive in cities than in rural areas because the varied diet available in urban areas strengthens the bees&rsquo; immune systems.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because the sentence makes and supports a generalization about honeybees. It claims that honeybees living in urban areas are more likely to thrive than rural bees, and it supports the claim with information about the effect of a varied diet on urban bees&rsquo; immune systems.&nbsp;</p><p>Choice A is incorrect. While the sentence makes a generalization, it doesn&rsquo;t mention honeybees.&nbsp;Choice B is incorrect. While the sentence provides data about honeybee survival, it doesn&rsquo;t make a generalization about honeybees based on this information. Choice C is incorrect. While the sentence makes a generalization about honeybees&rsquo; diets and immune systems, it doesn&rsquo;t provide adequate support for this generalization. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">577 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eCities tend to have a wider range of flowering vegetation than do rural areas, which are often dominated by monoculture crops.\u003c/p\u003e", "id": "e1521cb6-3c4c-416a-a747-1f2e3785b2b3"}, {"content": "\u003cp\u003eIn urban areas, over 60 percent of honeybees, on average, will survive a harsh winter, whereas in rural areas, only 40 percent will.\u0026nbsp;\u003c/p\u003e", "id": "bbc3b407-ae2c-407c-a4d7-3e3cb4228689"}, {"content": "\u003cp\u003eThe strength of honeybees\u0026rsquo; immune systems depends on what the bees eat, and a varied diet is more available to bees in an urban area than to those in a rural area.\u003c/p\u003e", "id": "cee23bd1-a82a-4eae-a762-de6f5716989d"}, {"content": "\u003cp\u003eHoneybees are more likely to thrive in cities than in rural areas because the varied diet available in urban areas strengthens the bees\u0026rsquo; immune systems.\u003c/p\u003e", "id": "e3f08f6a-3768-49c7-944f-f893ba5f2691"}], "correct_answer": ["D"], "externalid": "ac00b01b-d2bb-46df-8b1e-5454ee83e79a", "keys": ["e3f08f6a-3768-49c7-944f-f893ba5f2691"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-756-SYN", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because the sentence makes and supports a generalization about honeybees. It claims that honeybees living in urban areas are more likely to thrive than rural bees, and it supports the claim with information about the effect of a varied diet on urban bees\u0026rsquo; immune systems.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect. While the sentence makes a generalization, it doesn\u0026rsquo;t mention honeybees.\u0026nbsp;Choice B is incorrect. While the sentence provides data about honeybee survival, it doesn\u0026rsquo;t make a generalization about honeybees based on this information. Choice C is incorrect. While the sentence makes a generalization about honeybees\u0026rsquo; diets and immune systems, it doesn\u0026rsquo;t provide adequate support for this generalization. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to make and support a generalization about honeybees.\u0026nbsp;Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eCities tend to have a wide range of flowering vegetation in parks, yards, and gardens.\u003c/li\u003e\n\u003cli\u003eThis vegetation provides a varied diet for honeybees, strengthening bees\u0026rsquo; immune systems.\u003c/li\u003e\n\u003cli\u003eOn average, 62.5 percent of bees in an urban area will survive a harsh winter.\u003c/li\u003e\n\u003cli\u003eRural areas are often dominated by monoculture crops such as corn or wheat.\u003c/li\u003e\n\u003cli\u003eOn average, only 40 percent of honeybees in a rural area will survive a harsh winter.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "65b7aa8f-be4c-4bde-8514-4793f07b2cf2", "templateclustername": "", "type": "mcq", "vaultid": "5a8bbe40-7677-4104-bd7d-c0057de25c4d"}, "createDate": 1691007959351, "difficulty": "M", "external_id": "ac00b01b-d2bb-46df-8b1e-5454ee83e79a", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "bb275f0d", "score_band_range_cd": 5, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "2eafa12a-c38b-4abf-9cfd-e8db78628fa0", "updateDate": 1691007959351};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-bb275f0d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

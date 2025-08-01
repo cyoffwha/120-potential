@@ -1,0 +1,22 @@
+{
+  "question_id": "787729be",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Martin Danč&aacute;k, Wewin Tjiasmanto, and colleagues have identified a new carnivorous plant species ( Nepenthes pudica ) in Indonesia. Like other carnivorous plants, N. pudica has pitfall traps, or pitchers, that capture prey, but unlike others, the pitchers of N. pudica are located underground. The researchers unearthed the new species on fairly dry ridges with surfaces that host few other plants and animals. Therefore, the researchers hypothesize that the N. pudica species likely ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "represents one of many undiscovered carnivorous plant species in the region.",
+    "formed pitchers early in development to absorb more moisture.",
+    "is buried by nearby animals as they forage along the ridges for food.",
+    "evolved to have underground traps to access more prey than would surface traps."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text says that N.pudica 's prey-catching pitchers are underground. It also says that the ridges where N. pudica lives don't have many plants and animals on the surface. This suggests that N. pudica evolved underground pitchers in order to catch more prey.",
+    "A": "Choice A is incorrect. This inference isn't supported. The text never mentions the possibility of other undiscovered carnivorous plant species in Indonesia, so there's no basis to make this inference.",
+    "B": "Choice B is incorrect. This inference isn't supported. The text does say that the ridges where N. pudica lives are dry, but it also says that the purpose of carnivorous plant pitchers is to capture prey. It never suggests that these pitchers also absorb moisture, so there's no basis to make this inference.",
+    "C": "Choice C is incorrect. This inference isn't supported. The text never suggests that N. pudica 's underground pitcher can catch animals on the surface, so there's no basis to make this inference."
+  }
+}

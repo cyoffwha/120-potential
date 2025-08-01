@@ -1,0 +1,22 @@
+{
+  "question_id": "b5b74c3f",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "When writing The Other Black Girl (2021), novelist Zakiya Dalila Harris drew on her own experiences working at a publishing office. The award-winning book is Harris's first novel, but her writing ______ blank honored before. At the age of twelve, she entered a contest to have a story published in American Girl magazine—and won.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "were",
+    "have been",
+    "has been",
+    "are"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is subject-verb agreement. The singular verb \"has been\" agrees in number with the singular subject \"writing.\"",
+    "A": "Choice A is incorrect because the plural verb \"were\" doesn't agree in number with the singular subject \"writing.\"",
+    "B": "Choice B is incorrect because the plural verb \"have been\" doesn't agree in number with the singular subject \"writing.\"",
+    "D": "Choice D is incorrect because the plural verb \"are\" doesn't agree in number with the singular subject \"writing.\""
+  }
+}

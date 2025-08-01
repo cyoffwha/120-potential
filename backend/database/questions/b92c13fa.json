@@ -1,0 +1,22 @@
+{
+  "question_id": "b92c13fa",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "According to statistician Nassim Nicholas Taleb, the best way to predict the amount of time a nonperishable entity (such as a building or a technology) will continue to exist is to examine how long it has survived so far. In this view, an item's age is the strongest ______ blank how much longer it will last.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "uncertainty about",
+    "indicator of",
+    "motivation for",
+    "criticism of"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Indicator\" means \"something that shows or suggests,\" which matches Taleb's argument that an item's age can suggest how much longer it will last.",
+    "A": "Choice A is incorrect. The passage tells us that examining an item's age is the best way to predict how much longer it will last. Therefore, according to Taleb's theory, an item's age should add more certainty about how much longer it will last.",
+    "C": "Choice C is incorrect. A \"motivation\" is \"a reason for doing.\" Items don't have feelings and motivations, so it wouldn't make sense to say that their age is a motivation for how much longer they will last.",
+    "D": "Choice D is incorrect. \"Criticism\" can mean \"describing faults or problems\" or \"an analysis of an artistic work.\" Neither of these definitions makes sense here. An item's age can't criticize how much longer it will last."
+  }
+}

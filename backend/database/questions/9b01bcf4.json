@@ -1,0 +1,22 @@
+{
+  "question_id": "9b01bcf4",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "The 1967 release of Harold Cruse's book The Crisis of the Negro Intellectual isolated him from almost all other scholars and activists of the American Civil Rights Movement—though many of those thinkers disagreed with each other, he nonetheless found ways to disagree with them all. He thought that activists who believed that Black people such as himself should culturally assimilate were na&iuml;ve. But he also sharply criticized Black nationalists such as Marcus Garvey who wanted to establish independent, self-contained Black economies and societies, even though Cruse himself identified as a Black nationalist.",
+  "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "answer_options": [
+    "It describes a direction that Cruse felt the Civil Rights Movement ought to take.",
+    "It indicates that Cruse&rsquo;s reputation as a persistent antagonist of other scholars is undeserved.",
+    "It describes a controversy that Cruse&rsquo;s work caused within the Black nationalist movement.",
+    "It helps explain Cruse&rsquo;s position with respect to the community of civil rights thinkers."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text as a whole claims that Cruse disagreed with virtually all other Civil Rights scholars and activists. The underlined sentence describes one way that Cruse both did and didn't fit in with those thinkers: he criticized Black nationalists, even though he identified as one.",
+    "A": "Choice A is incorrect. The underlined sentence doesn't do this. It describes Cruse's criticisms—it never mentions what Cruse did want the movement to do instead.",
+    "B": "Choice B is incorrect. This conflicts with the text, which argues that Cruse did disagree with almost all other scholars of the Civil Rights Movement.",
+    "C": "Choice C is incorrect. This is a step too far. The text never says that Cruse's work caused controversy within the Black nationalist movement."
+  }
+}

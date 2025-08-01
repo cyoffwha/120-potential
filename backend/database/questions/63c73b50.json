@@ -1,0 +1,22 @@
+{
+  "question_id": "63c73b50",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 2018, Kurt Luther and Vikram Mohanty created the web-based tool Civil War Photo Sleuth (CWPS). A user uploading an unknown Civil War soldier's photograph to CWPS first tags the photo with all known information. ______ blank CWPS's facial-recognition software analyzes twenty-seven different physical features and looks for matches to tagged images already in the database.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Then,&nbsp;",
+    "In fact,",
+    "Likewise,",
+    "For example,&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Then\" indicates that the events in this sentence took place after the events in the previous sentence. Only after users upload images of unknown soldiers can those images be analyzed.",
+    "B": "Choice B is incorrect. This transition is used to emphasize the truth of a statement that modifies the previous statement. But this sentence doesn't modify the step described in the previous statement: instead, it introduces an entirely new step in the process. So \"in fact\" wouldn't make sense here.",
+    "C": "Choice C is incorrect. This choice uses a transition that indicates the addition of a new but related idea, which doesn't make sense here. Analyzing the physical features in the uploaded photographs isn't a similar idea, but rather the next step in the process.",
+    "D": "Choice D is incorrect. This choice uses an exemplification transition, which doesn't make sense here. Analyzing physical features is not an example of uploading and tagging an image."
+  }
+}

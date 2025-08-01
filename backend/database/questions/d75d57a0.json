@@ -1,0 +1,22 @@
+{
+  "question_id": "d75d57a0",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While many video game creators strive to make their graphics ever more ______ blank others look to the past, developing titles with visuals inspired by the \"8-bit\" games of the 1980s and 1990s. (The term \"8-bit\" refers to a console whose processor could only handle eight bits of data at once.)",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "lifelike but",
+    "lifelike",
+    "lifelike,",
+    "lifelike, but"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is punctuation between a subordinate clause and a main clause. This choice correctly uses a comma to mark the boundary between the subordinate clause (\"While&hellip;lifelike\") and the main clause (\"others look to the past\").",
+    "A": "Choice A is incorrect because it results in an incomplete sentence with no main clause.",
+    "B": "Choice B is incorrect because it fails to mark the boundary between the subordinate clause (\"While&hellip;lifelike\") and the main clause (\"others&hellip;past\").",
+    "D": "Choice D is incorrect because it results in an incomplete sentence with no main clause."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "eea351c4",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "\"Wishcycling\"—putting nonrecyclable items into recycling bins under the mistaken belief that those items can be recycled—ultimately does more harm than good. Nonrecyclable items, such as greasy pizza boxes, can contaminate recyclable materials, rendering entire batches unusable. ______ blank nonrecyclable products can damage recycling plants' machinery.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Fittingly,&nbsp;",
+    "On the contrary,",
+    "Moreover,",
+    "Nevertheless,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The first sentence tells us that \"wishcycling\" is harmful, the previous sentence gives us an example, and this sentence gives us another example. So \"moreover\"—a transition that indicates the addition of another supporting point—fits perfectly here.",
+    "A": "Choice A is incorrect. This choice uses a transition that means \"appropriately\" or \"suitably,\" which doesn't make sense in context. This sentence adds another example of how \"wishcycling\" is harmful, so we're looking for an addition transition.",
+    "B": "Choice B is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with the previous sentence. Both provide examples of how \"wishcycling\" is harmful.",
+    "D": "Choice D is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with the previous sentence. Both provide examples of how \"wishcycling\" is harmful."
+  }
+}

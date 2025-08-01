@@ -1,0 +1,22 @@
+{
+  "question_id": "7f1df833",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 1966, Emmett Ashford became the first African American to umpire a Major League Baseball game. His energetic gestures announcing when a player had struck out and his habit of barreling after a hit ball to see if it would land out of ______ blank transform the traditionally solemn umpire role into a dynamic one.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "bounds helped",
+    "bounds, helping",
+    "bounds that helped",
+    "bounds to help"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is finite verb use in a main clause. A main clause requires a finite verb to perform the action of the subject (in this case, Ashford's \"gestures\" and \"habit\"), and this choice supplies the finite past tense verb \"helped\" to indicate what Ashford's gestures and habit helped accomplish.",
+    "B": "Choice B is incorrect because the non-finite participle \"helping\" doesn't supply the main clause with a finite verb.",
+    "C": "Choice C is incorrect because the relative clause \"that helped\" doesn't supply the main clause with a finite verb.",
+    "D": "Choice D is incorrect because the non-finite to-infinitive \"to help\" doesn't supply the main clause with a finite verb."
+  }
+}

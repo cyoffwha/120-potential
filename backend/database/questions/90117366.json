@@ -1,0 +1,22 @@
+{
+  "question_id": "90117366",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "To explore how blinking affects social interactions, Dutch researchers observed interactions between human speakers and \"listeners\" (animated human faces on a screen). The researchers found that when the listeners blinked slowly, the speakers tended to talk for less time. ______ blank quicker blinks were associated with longer talking times.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "For example,",
+    "Specifically,",
+    "Firstly,",
+    "By contrast,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"By contrast\" logically signals that the finding described in this sentence contrasts with the finding described in the previous sentence. That is, quicker blinks were associated with longer talking times, whereas slower blinks were associated with shorter talking times.",
+    "A": "Choice A is incorrect because \"for example\" illogically signals that the finding described in this sentence is an example of the finding described in the previous sentence. Instead, it contrasts with that finding.",
+    "B": "Choice B is incorrect because \"specifically\" illogically signals that this sentence provides specific, precise details about the finding described in the previous sentence. Instead, it presents information that contrasts with that finding.",
+    "C": "Choice C is incorrect because \"firstly\" illogically signals that the finding described in this sentence is a first point or occurs first in a chronological sequence of events. Instead, it contrasts with the finding described in the previous sentence."
+  }
+}

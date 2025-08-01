@@ -1,0 +1,22 @@
+{
+  "question_id": "e8c26398",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "To develop a method for measuring snow depth with laser beams, NASA physicist Yongxiang Hu relied on ______ blank ; identifying broad similarities between two seemingly different phenomena, Hu used information about how ants move inside colonies to calculate how the particles of light that make up laser beams travel through snow.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "a collaboration",
+    "an accessory",
+    "a contradiction",
+    "an analogy"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text after the semicolon tells us that Hu \"identif[ied] broad similarities between two seemingly different phenomena,\" comparing ants with light particles. Since an analogy seeks similarities between seemingly unrelated phenomena, this fits the context perfectly.",
+    "A": "Choice A is incorrect. \"A collaboration\" refers to \"an act of working with others,\" but what comes after the semicolon doesn't describe collaboration with other researchers. Instead, it shows a comparison between two different (but ultimately similar) scientific phenomena.",
+    "B": "Choice B is incorrect. \"An accessory\" can refer to \"something added to increase attractiveness or usefulness.\" No accessories are described in this text.",
+    "C": "Choice C is incorrect. \"A contradiction\" means \"a set of ideas or things that are opposed to or inconsistent with each other.\" The text describes how Hu used the similarity between ant and light particle movement to develop his method, so a word that refers to difference would not make sense here."
+  }
+}

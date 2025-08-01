@@ -1,0 +1,22 @@
+{
+  "question_id": "6e5bf3a8",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Even though bats prefer very sweet nectar, the plants that attract them have evolved to produce nectar that is only moderately sweet. A recent study ______ blank why: making sugar is energy-intensive, and it is more advantageous for plants to make a large amount of low-sugar nectar than a small amount of high-sugar nectar.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "explains",
+    "explaining",
+    "having explained",
+    "to explain"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is the use of finite and nonfinite verb forms within a sentence. A main clause requires a finite verb to perform the action of the subject (in this case, \"a recent study\"), and this choice supplies the finite present tense verb \"explains\" to indicate that the study explains why plants that attract bats have evolved to produce moderately sweet nectar.",
+    "B": "Choice B is incorrect because the nonfinite participle \"explaining\" doesn't supply the main clause with a finite verb.",
+    "C": "Choice C is incorrect because the nonfinite participle \"having explained\" doesn't supply the main clause with a finite verb.",
+    "D": "Choice D is incorrect because the nonfinite to-infinitive \"to explain\" doesn't supply the main clause with a finite verb."
+  }
+}

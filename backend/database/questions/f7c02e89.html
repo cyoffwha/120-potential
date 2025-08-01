@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question f7c02e89</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>&nbsp;</p><p><span aria-level="2" role="heading"><strong>Text 1</strong></span></p>
+<p>Films and television shows commonly include a long list of credits naming the people involved in a production. Credit sequences may not be exciting, but they generally ensure that everyone&rsquo;s contributions are duly acknowledged. Because they are highly standardized, film and television credits are also valuable to anyone researching the careers of pioneering cast and crew members who have worked in the mediums.</p>
+<p>&nbsp;</p><p><span aria-level="2" role="heading"><strong>Text 2</strong></span></p>
+<p>Video game scholars face a major challenge in the industry&rsquo;s failure to consistently credit the artists, designers, and other contributors involved in making video games. Without a reliable record of which people worked on which games, questions about the medium&rsquo;s development can be difficult to answer, and the accomplishments of all but its best-known innovators can be difficult to trace.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, how would the author of Text 1 most likely respond to the discussion in Text 2?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By recommending that the scholars mentioned in Text 2 consider employing the methods regularly used by film and television researchers</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By pointing out that credits have a different intended purpose in film and television than in the medium addressed by the scholars mentioned in Text 2</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By suggesting that the scholars mentioned in Text 2 rely more heavily on credits as a source of information than film and television researchers do</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By observing that a widespread practice in film and television largely prevents the kind of problem faced by the scholars mentioned in Text 2</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it reflects how the author of Text 1 would most likely respond to Text 2 based on the information provided. Text 2 discusses how the inconsistent use of credits to identify the contributors to video games can pose an obstacle to scholars of the medium, who rely on such credits to answer questions about the medium&rsquo;s development. Text 1 notes that in film and television, on the other hand, credits are used consistently and are valuable to researchers studying the cast and crew members in these mediums. Since Text 1 asserts how the consistent use of credits benefits scholars of film and television, it can be inferred that this text&rsquo;s author would respond to the discussion in Text 2 by observing that the kind of problem faced by scholars of video games&mdash;the inability to know who contributed to a particular production and how&mdash;is, in film and television studies, largely prevented by the widespread practice of credits in these mediums. </p><p>Choice A is incorrect. Although Text 1 discusses a method used by film and television researchers&mdash;namely, relying on credits to research the careers of cast and crew members&mdash;the author doesn&rsquo;t explicitly recommend that or any other method. Moreover, Text 1 states that films and television shows themselves, not their researchers, regularly use the method of listing credits. Choice B is incorrect. It can be inferred from Text 2 that when video games do feature credits, they have essentially the same function as credits in film and television&mdash;namely, to identify the individuals who worked on a particular production. Therefore, it is unlikely that the author of Text 1 would characterize video game credits as differing in purpose from film and television credits.&nbsp;Choice C is incorrect because, as Text 2 explains, credits are not consistently used in video games. Therefore, it is unlikely that the author of Text 1 would argue that scholars of the medium discussed in this text&mdash;video games&mdash;rely more heavily on credits than scholars of film and television, two mediums where credits consistently appear. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">383 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eBy recommending that the scholars mentioned in Text 2 consider employing the methods regularly used by film and television researchers\u003c/p\u003e", "id": "92acd66a-1ceb-47cd-a13d-6d9d1918a1d4"}, {"content": "\u003cp\u003eBy pointing out that credits have a different intended purpose in film and television than in the medium addressed by the scholars mentioned in Text 2\u003c/p\u003e", "id": "7b2bd8d7-d102-498f-bfe7-77a644115953"}, {"content": "\u003cp\u003eBy suggesting that the scholars mentioned in Text 2 rely more heavily on credits as a source of information than film and television researchers do\u003c/p\u003e", "id": "540528a3-76ba-49e5-a3f4-1531dcb2191b"}, {"content": "\u003cp\u003eBy observing that a widespread practice in film and television largely prevents the kind of problem faced by the scholars mentioned in Text 2\u003c/p\u003e", "id": "a526f362-0831-4950-9cc0-4527b42cd619"}], "correct_answer": ["D"], "externalid": "34e8b9ad-89d4-41b6-b8a3-c83eb9cbf5db", "keys": ["a526f362-0831-4950-9cc0-4527b42cd619"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-009-CTC", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it reflects how the author of Text 1 would most likely respond to Text 2 based on the information provided. Text 2 discusses how the inconsistent use of credits to identify the contributors to video games can pose an obstacle to scholars of the medium, who rely on such credits to answer questions about the medium\u0026rsquo;s development. Text 1 notes that in film and television, on the other hand, credits are used consistently and are valuable to researchers studying the cast and crew members in these mediums. Since Text 1 asserts how the consistent use of credits benefits scholars of film and television, it can be inferred that this text\u0026rsquo;s author would respond to the discussion in Text 2 by observing that the kind of problem faced by scholars of video games\u0026mdash;the inability to know who contributed to a particular production and how\u0026mdash;is, in film and television studies, largely prevented by the widespread practice of credits in these mediums. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although Text 1 discusses a method used by film and television researchers\u0026mdash;namely, relying on credits to research the careers of cast and crew members\u0026mdash;the author doesn\u0026rsquo;t explicitly recommend that or any other method. Moreover, Text 1 states that films and television shows themselves, not their researchers, regularly use the method of listing credits. Choice B is incorrect. It can be inferred from Text 2 that when video games do feature credits, they have essentially the same function as credits in film and television\u0026mdash;namely, to identify the individuals who worked on a particular production. Therefore, it is unlikely that the author of Text 1 would characterize video game credits as differing in purpose from film and television credits.\u0026nbsp;Choice C is incorrect because, as Text 2 explains, credits are not consistently used in video games. Therefore, it is unlikely that the author of Text 1 would argue that scholars of the medium discussed in this text\u0026mdash;video games\u0026mdash;rely more heavily on credits than scholars of film and television, two mediums where credits consistently appear. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, how would the author of Text 1 most likely respond to the discussion in Text 2?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003cspan aria-level=\"2\" role=\"heading\"\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eFilms and television shows commonly include a long list of credits naming the people involved in a production. Credit sequences may not be exciting, but they generally ensure that everyone\u0026rsquo;s contributions are duly acknowledged. Because they are highly standardized, film and television credits are also valuable to anyone researching the careers of pioneering cast and crew members who have worked in the mediums.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003cspan aria-level=\"2\" role=\"heading\"\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eVideo game scholars face a major challenge in the industry\u0026rsquo;s failure to consistently credit the artists, designers, and other contributors involved in making video games. Without a reliable record of which people worked on which games, questions about the medium\u0026rsquo;s development can be difficult to answer, and the accomplishments of all but its best-known innovators can be difficult to trace.\u003c/p\u003e", "templateclusterid": "bcac0701-83ec-4bd7-abf2-7c55dc293c07", "templateclustername": "", "type": "mcq", "vaultid": "6f67cbb5-97c5-49d7-b182-89a35d299041"}, "createDate": 1691007959313, "difficulty": "H", "external_id": "34e8b9ad-89d4-41b6-b8a3-c83eb9cbf5db", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "f7c02e89", "score_band_range_cd": 7, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "6001795f-c186-4de5-b9cc-330d6d3a2ee4", "updateDate": 1691007959313};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-f7c02e89");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

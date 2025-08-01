@@ -1,0 +1,22 @@
+{
+  "question_id": "efc19153",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Just like states have state flags, some cities have city flags. Over one hundred US cities have redesigned their flags since 2015. The city of Pocatello, Idaho, redesigned its flag after it was named the most poorly designed flag in North America. Pocatello's new flag better represents the city's mountainous geography and civic priorities. Residents consider the new flag to be a meaningful symbol of civic pride. The student wants to make and support a generalization about the effect of redesigning a city flag. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to make and support a generalization about the effect of redesigning a city flag. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Over one hundred US cities have redesigned their flags, including Pocatello, whose flag had been named the most poorly designed flag in North America.",
+    "Pocatello is just one of over one hundred US cities that have redesigned their flags.",
+    "After it was named the most poorly designed flag in North America, the flag of Pocatello was redesigned to better represent the city&rsquo;s geography and civic priorities.",
+    "Redesigning a poorly designed city flag can create a meaningful symbol of civic pride, as was the case when Pocatello redesigned its original flag to better represent its geography and civic priorities.&nbsp;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence makes and supports a generalization about the effect of redesigning a city flag, noting that redesigning a city flag can create a meaningful symbol of civic pride, as was the case when the city of Pocatello redesigned its flag.",
+    "A": "Choice A is incorrect because the sentence explains that many US cities have redesigned their flags and provides an example; it doesn't make and support a generalization about the effect of redesigning a city flag.",
+    "B": "Choice B is incorrect because the sentence provides an example of a city that redesigned its flag; it doesn't make and support a generalization about the effect of redesigning a city flag.",
+    "C": "Choice C is incorrect because the sentence emphasizes why the flag of Pocatello was redesigned; it doesn't make and support a generalization about the effect of redesigning a city flag."
+  }
+}

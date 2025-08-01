@@ -8,11 +8,11 @@ import { CurrentQuestionInfo } from "./CurrentQuestionInfo";
 import { ReadingPassage } from "./ReadingPassage";
 import { MultipleChoice } from "./MultipleChoice";
 import { QuestionNavigation } from "./QuestionNavigation";
+import { FilterOptions } from "../types";
+import { DEFAULT_FILTER_VALUE, CHOICE_LABELS } from "../constants";
 import "./animate-fadein.css";
 
 export const EducationPlatform = () => {
-
-
   const chatPopupRef = useRef<HTMLDivElement>(null);
   const chatInputRef = useRef<HTMLInputElement>(null);
 
@@ -21,8 +21,7 @@ export const EducationPlatform = () => {
   const [feedback, setFeedback] = useState("");
 
   // Handle filter changes
-  const handleFiltersChange = (filters: { domain: string; skill: string; difficulty: string }) => {
-    console.log('Filters changed:', filters);
+  const handleFiltersChange = (filters: FilterOptions) => {
     // Apply filters to backend
     applyFilters(filters);
   };
@@ -137,14 +136,6 @@ export const EducationPlatform = () => {
         )}
         {current && (
           <div className="space-y-6">
-            {/* Full Width Question Filters at the top */}
-            <QuestionBank 
-              questionId={current.question_id || "#unknown"}
-              currentDomain="Any"
-              currentSkill="Any"
-              currentDifficulty="Any"
-              onFiltersChange={handleFiltersChange}
-            />
             {/* Main Question Interface */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Text Content - Left Side */}
@@ -165,24 +156,23 @@ export const EducationPlatform = () => {
                   <div className="space-y-2">
                     <MultipleChoice
                       question={current.question}
-                      options={[
-                        { id: "A", text: current.choice_a },
-                        { id: "B", text: current.choice_b },
-                        { id: "C", text: current.choice_c },
-                        { id: "D", text: current.choice_d },
-                      ]}
+                      questionId={current.question_id}
+                      options={CHOICE_LABELS.map(label => ({
+                        id: label,
+                        text: current[`choice_${label.toLowerCase()}`]
+                      }))}
                       selectedAnswer={selectedAnswer}
                       onAnswerChange={handleAnswerChange}
                       onAgain={handleAgain}
                       onEasy={handleEasy}
                       passage={current.passage}
                       answerExplanation={current.rationale_a || ""}
-                      explanations={{
-                        A: current.rationale_a || "",
-                        B: current.rationale_b || "",
-                        C: current.rationale_c || "",
-                        D: current.rationale_d || ""
-                      }}
+                      explanations={Object.fromEntries(
+                        CHOICE_LABELS.map(label => [
+                          label, 
+                          current[`rationale_${label.toLowerCase()}`] || ""
+                        ])
+                      )}
                       correctAnswer={current.correct_choice}
                     />
                   </div>
@@ -190,6 +180,14 @@ export const EducationPlatform = () => {
                 </div>
               </div>
             </div>
+            {/* Question Filters moved to the bottom */}
+            <QuestionBank 
+              questionId={current.question_id || "#unknown"}
+              currentDomain={DEFAULT_FILTER_VALUE}
+              currentSkill={DEFAULT_FILTER_VALUE}
+              currentDifficulty={DEFAULT_FILTER_VALUE}
+              onFiltersChange={handleFiltersChange}
+            />
           </div>
         )}
         {/* Small floating chat input near selection */}

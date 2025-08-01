@@ -1,0 +1,22 @@
+{
+  "question_id": "92fe0ed7",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Geoscientists have long considered Hawaii's Mauna Loa volcano to be Earth's largest shield volcano by volume, measuring approximately 74,000 cubic kilometers. ______ blank according to a 2020 study by local geoscientist Michael Garcia, Hawaii's Pūhāhonu shield volcano is significantly larger, boasting a volume of about 148,000 cubic kilometers.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Secondly,",
+    "Consequently,",
+    "Moreover,",
+    "However,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"However\" logically signals that this sentence, which indicates that the Pūhāhonu volcano may be larger than the Mauna Loa volcano, offers a contrast to or refutation of the previous assumption that Mauna Loa is the largest shield volcano.",
+    "A": "Choice A is incorrect because \"secondly\" illogically signals that this sentence merely offers an additional or secondary point concerning the previous assumption that Mauna Loa is the largest shield volcano. Instead, the sentence offers a contrast to or refutation of that assumption.",
+    "B": "Choice B is incorrect because \"consequently\" illogically signals that this sentence offers a result or consequence of the previous assumption that Mauna Loa is the largest shield volcano. Instead, the sentence offers a contrast to or refutation of that assumption.",
+    "C": "Choice C is incorrect because \"moreover\" illogically signals that this sentence merely adds to the previous assumption that Mauna Loa is the largest shield volcano. Instead, the sentence offers a contrast to or refutation of that assumption."
+  }
+}

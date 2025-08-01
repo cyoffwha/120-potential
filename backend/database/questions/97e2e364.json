@@ -1,0 +1,22 @@
+{
+  "question_id": "97e2e364",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Okot p'Bitek's poem Song of Lawino (1966) explores postcolonial Ugandan life through the eyes of a woman living in a rural village. With its vibrant imagery, bitingly satiric tone, and dexterous use of traditional Acholi song and phraseology, the poem inspired a generation of East African writers. ______ blank those who adopted its style are often referred to as Okot School poets.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Nevertheless,",
+    "Fittingly,",
+    "By comparison,&nbsp;",
+    "Instead,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Fittingly\" is a transition that means \"appropriately\" or \"suitably,\" and it is appropriate that writers who adopted their style from Okot p'Bitek would be known as the Okot School poets.",
+    "A": "Choice A is incorrect. This choice uses a disagreement transition. But this sentence is not disagreeing with anything—rather, it's discussing how it makes sense for those writers who adopted Okot's style to be known as the Okot School poets.",
+    "C": "Choice C is incorrect. This choice uses a transition that compares two ideas. But this sentence is not comparing the Okot School poets and their style to Okot's style.",
+    "D": "Choice D is incorrect. This choice uses a disagreement transition. But this sentence is not disagreeing with anything—rather, it's discussing how it makes sense for those writers who adopted Okot's style to be known as the Okot School poets."
+  }
+}

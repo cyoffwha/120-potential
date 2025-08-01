@@ -1,0 +1,22 @@
+{
+  "question_id": "8d53e7a0",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Slam poet Elizabeth Acevedo's debut novel The Poet X , winner of the 2018 National Book Award for Young People's Literature, is composed of ______ blank protagonist, fifteen-year-old Xiomara Batista.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "poems putatively written by the novel&rsquo;s",
+    "poem&rsquo;s putatively written by the novel&rsquo;s&nbsp;",
+    "poem&rsquo;s putatively written by the novels&rsquo;",
+    "poems putatively written by the novels&rsquo;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. Nothing belongs to the \"poems\" in the sentence, so it should not be possessive—just a simple plural noun. The protagonist does belong to the novel—it's the protagonist of the novel—so \"novel\" needs to be a singular possessive noun.",
+    "B": "Choice B is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. This choice uses the singular possessive \"poem's,\" but the text indicates that it should be the simple plural \"poems\": there is more than one poem, and nothing belongs to the poems.",
+    "C": "Choice C is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. This choice uses the singular possessive \"poem's,\" but the text indicates that it should be the simple plural \"poems\": there is more than one poem, and nothing belongs to the poems. This choice also uses the plural possessive \"novels',\" which is incorrect because there is only one novel.",
+    "D": "Choice D is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. This choice uses the plural possessive \"novels',\" which is incorrect because there is only one novel, so it should be the singular possessive \"novel's.\" ."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "dd11e5ab",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Muckrakers were journalists who sought to expose corruption in US institutions during the Progressive Era (1897–1920). Ida Tarbell was a muckraker who investigated the Standard Oil Company. She interviewed Standard Oil Company executives, oil industry workers, and public officials. She examined thousands of pages of the company's internal communications, including letters and financial records. Her book The History of the Standard Oil Company (1904) exposed the company's unfair business practices. The student wants to emphasize the thoroughness of Ida Tarbell's investigation of the Standard Oil Company. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the thoroughness of Ida Tarbell&rsquo;s investigation of the Standard Oil Company. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Ida Tarbell not only interviewed Standard Oil executives, oil industry workers, and public officials but also examined thousands of pages of the company&rsquo;s internal communications.",
+    "Ida Tarbell, who investigated the Standard Oil Company, was a muckraker (a journalist who sought to expose corruption in US institutions during the Progressive Era, 1897&ndash;1920).",
+    "As part of her investigation of the Standard Oil Company, muckraker Ida Tarbell conducted interviews.&nbsp;",
+    "Published in 1904, muckraker Ida Tarbell&rsquo;s book  The History of the Standard Oil Company  exposed the company&rsquo;s unfair business practices.&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. It describes Tarbell's investigation and the lengths she went to complete it.",
+    "B": "Choice B is incorrect. This choice doesn't describe how thorough Tarbell was. Instead, it gives a biographical sketch.",
+    "C": "Choice C is incorrect. This choice doesn't describe how thorough Tarbell was. Tarbell didn't only conduct interviews—she also \"examined thousands of pages of the company's internal communications.\"",
+    "D": "Choice D is incorrect. This choice doesn't describe how thorough Tarbell was. It describes her book but doesn't include anything about her investigation."
+  }
+}

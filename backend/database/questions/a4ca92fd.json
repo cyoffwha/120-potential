@@ -1,0 +1,22 @@
+{
+  "question_id": "a4ca92fd",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Beginning in the 1950s, Navajo Nation legislator Annie Dodge Wauneka continuously worked to promote public health; this ______ blank effort involved traveling throughout the vast Navajo homeland and writing a medical dictionary for speakers of Din&eacute; bizaad , the Navajo language.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "impartial",
+    "offhand",
+    "persistent",
+    "mandatory"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most logically completes the text's discussion of Annie Dodge Wauneka's work as a Navajo Nation legislator. As used in this context, \"persistent\" means existing continuously. The text states that Wauneka \"continuously worked to promote public health,\" traveling extensively and authoring a medical dictionary; this indicates that Wauneka's effort was persistent.",
+    "A": "Choice A is incorrect because describing Wauneka's effort related to public health as \"impartial,\" or not partial or biased and treating all things equally, wouldn't make sense in context. The text suggests that Wauneka's continuous work was partial in one way, as she focused specifically on promoting public health throughout the Navajo homeland and to speakers of the Navajo language.",
+    "B": "Choice B is incorrect because the text emphasizes that Wauneka's effort to promote public health as a Navajo Nation legislator was continuous and extensive, involving wide travels and the authoring of a medical dictionary. Because this work clearly involved care and dedication, it wouldn't make sense to describe it as \"offhand,\" or casual and informal.",
+    "D": "Choice D is incorrect because nothing in the text suggests that Wauneka's effort to promote public health was \"mandatory,\" or required by law or rule, even though Wauneka was a Navajo Nation legislator. Rather than suggesting that Wauneka's effort was required for any reason, the text emphasizes the continuous and extensive nature of her work."
+  }
+}

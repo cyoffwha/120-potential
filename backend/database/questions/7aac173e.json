@@ -1,0 +1,22 @@
+{
+  "question_id": "7aac173e",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Architect Julian Abele studied Gregorian and neo-Gothic architecture in Europe. Abele worked for an architecture firm that was hired in 1924 to design buildings for Duke University's new campus. Most of the buildings on Duke's campus were designed in the Gregorian or neo-Gothic architectural styles. At the time, Abele was not formally credited with designing the buildings. Based on the buildings' architectural styles, historians believe Abele designed most of the campus buildings. The student wants to specify why historians believe Abele designed most of Duke's campus buildings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to specify why historians believe Abele designed most of Duke&rsquo;s campus buildings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Given that most of the buildings on Duke&rsquo;s campus feature architectural styles that Abele had studied in Europe, historians believe Abele is the one who designed them.",
+    "Though Abele wasn&rsquo;t formally credited at the time, historians believe he designed most of the buildings on Duke&rsquo;s campus.",
+    "Most of Duke&rsquo;s campus buildings, which were designed by a firm Abele worked for, were designed in the Gregorian and neo-Gothic architectural styles.",
+    "Abele, an architect who studied Gregorian and neo-Gothic architecture in Europe, is believed to have designed most of the buildings on Duke&rsquo;s campus."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The sentence specifies why historians believe Abele designed most of Duke's campus buildings, noting that most of the buildings feature architectural styles that Abele had studied.",
+    "B": "Choice B is incorrect. While the sentence explains that historians believe Abele designed most of Duke's campus buildings, it doesn't specify why historians hold that belief.",
+    "C": "Choice C is incorrect because the sentence emphasizes the architectural styles of Duke's campus buildings; it doesn't specify why historians believe Abele designed the buildings.",
+    "D": "Choice D is incorrect. While the sentence explains that Abele is believed to have designed most of the buildings on Duke's campus, it doesn't specify why historians believe that he designed the buildings."
+  }
+}

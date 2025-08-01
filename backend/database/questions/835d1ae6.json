@@ -1,0 +1,22 @@
+{
+  "question_id": "835d1ae6",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Text 1 Historians studying pre-Inca Peru have looked to ceramic vessels to understand daily life among the Moche people. These mold-made sculptures present plants, animals, and human faces in precise ways—vessels representing human faces are so detailed that scholars have interpreted facial markings to represent scars and other skin irregularities . Some historians have even used these objects to identify potential skin diseases that may have afflicted people at the time. Text 2 Art historian and archaeologist Lisa Trever has argued that the interpretation of Moche \"portrait\" vessels as hyper-realistic portrayals of identifiable people may inadvertently disregard the creativity of the objects' creators. Moche ceramic vessels, Trever argues, are artworks in which sculptors could free their imagination, using realistic objects and people around them as inspiration to explore more abstract concepts.",
+  "question_text": "Based on the texts, what would Lisa Trever (Text 2) most likely say about the interpretation presented in the underlined portion of Text 1?",
+  "answer_options": [
+    "Depictions of human faces are significantly more realistic than depictions of plants and other animals are.",
+    "It is likely that some depictions of human faces with extensive markings are intended to portray the same historical individual.",
+    "Some vessels may have been damaged during their excavation and thus provide little insight into Moche culture.",
+    "Markings on depictions of human faces are not necessarily intended to portray particular details about the physical appearance of individuals."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. Trever thinks that the \"hyper-realistic portrayal of identifiable people\" interpretation ignores the sculptors' imagination and creativity. We can infer that Trevor thinks the facial markings on the sculptures may not have represented real skin blemishes on real people.",
+    "A": "Choice A is incorrect. The text gives us no reason to think that Trever would respond to the underlined interpretation in this way. Neither text compares the depictions of human faces to the depictions of plants or animals, so we have no basis to draw this conclusion.",
+    "B": "Choice B is incorrect. The text gives us no reason to think that Trever would respond to the underlined interpretation in this way. There's nothing in either text about multiple depictions representing the same person, so we have no basis to draw this conclusion.",
+    "C": "Choice C is incorrect. The text gives us no reason to think that Trever would respond to the underlined interpretation in this way. Neither text mentions the state of the vessels (damaged or intact), so we have no basis to draw this conclusion."
+  }
+}

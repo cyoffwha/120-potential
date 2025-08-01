@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question b2e54b50</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Correlations Between Congestion Ratings and Features of the Crowd in Raters&rsquo; Immediate Vicinity</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Crowd feature</th><th scope="col" style="text-align: center; vertical-align: bottom;">Before obstacle</th><th scope="col" style="text-align: center; vertical-align: bottom;">After obstacle</th><th scope="col" style="text-align: center; vertical-align: bottom;">Overall</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;">Density</th><td style="text-align: center;">0.8592</td><td style="text-align: center;">0.7308</td><td style="text-align: center;">0.7447</td></tr><tr><th scope="row" style="text-align: left;">Velocity</th><td><span aria-hidden="true">&minus;0.9357</span><span class="sr-only">negative 0.9357</span></td><td><span aria-hidden="true">&minus;0.9518</span><span class="sr-only">negative 0.9518</span></td><td><span aria-hidden="true">&minus;0.8587</span><span class="sr-only">negative 0.8587</span></td></tr></tbody></table></figure></p>
+<p>Researcher Xiaolu Jia and colleagues monitored individuals&rsquo; velocity and the surrounding crowd density as a group of study participants walked through a space and navigated around an obstacle. Participants rated how congested it seemed before the obstacle, after the obstacle, and overall, and the researchers correlated those ratings with velocity and density. (Correlations range from <span aria-hidden="true">&minus;1</span><span class="sr-only">negative 1</span> to 1, with greater distance from 0 indicating greater strength). The researchers concluded that the correlations with velocity are stronger than those with density.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes data from the table that support the researchers&rsquo; conclusion?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The correlation between congestion ratings before the obstacle and density is further from 0 than the correlation between overall congestion rating and velocity is.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The correlation between congestion ratings before the obstacle and velocity is further from 0 than the correlation between congestion overall and velocity is.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For each of the three ratings, the correlation with velocity is negative while the correlation with density is positive.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For each of the three ratings, correlations with velocity are further from 0 than the corresponding correlations with density are.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The text tells us that the farther the correlation is from 0, the &ldquo;stronger&rdquo; it is (doesn&rsquo;t matter if it&rsquo;s negative or positive). The table shows that the correlations with velocity are farther from zero than the correlations with density, which supports the conclusion that the correlations with velocity are stronger. </p><p>Choice A is incorrect. This choice doesn&rsquo;t support the conclusion. It makes an &ldquo;apples to oranges&rdquo; comparison by comparing density and velocity correlations across features instead of comparing them for each feature. Choice B is incorrect. This choice doesn&rsquo;t support the conclusion. It doesn&rsquo;t include the density correlations for comparison. Choice C is incorrect. This choice doesn&rsquo;t support the conclusion. The text tells us that the farther the correlation is from 0, the &ldquo;stronger&rdquo; it is: it doesn&rsquo;t matter for &ldquo;strength&rdquo; whether it&rsquo;s negative or positive. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">228 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe correlation between congestion ratings before the obstacle and density is further from 0 than the correlation between overall congestion rating and velocity is.\u003c/p\u003e", "id": "c9ca6439-483d-4090-ae65-215ad864390a"}, {"content": "\u003cp\u003eThe correlation between congestion ratings before the obstacle and velocity is further from 0 than the correlation between congestion overall and velocity is.\u003c/p\u003e", "id": "80c98eed-d6f3-4cf3-ab96-6f0b30023b49"}, {"content": "\u003cp\u003eFor each of the three ratings, the correlation with velocity is negative while the correlation with density is positive.\u003c/p\u003e", "id": "3dee9d34-4567-4816-96eb-18322da8ab12"}, {"content": "\u003cp\u003eFor each of the three ratings, correlations with velocity are further from 0 than the corresponding correlations with density are.\u003c/p\u003e", "id": "dfca7283-318c-4885-b13f-0b8657df19f6"}], "correct_answer": ["D"], "externalid": "e53f5690-706d-4cca-b2f6-dbd34999ecbc", "keys": ["dfca7283-318c-4885-b13f-0b8657df19f6"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-H003", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The text tells us that the farther the correlation is from 0, the \u0026ldquo;stronger\u0026rdquo; it is (doesn\u0026rsquo;t matter if it\u0026rsquo;s negative or positive). The table shows that the correlations with velocity are farther from zero than the correlations with density, which supports the conclusion that the correlations with velocity are stronger. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice doesn\u0026rsquo;t support the conclusion. It makes an \u0026ldquo;apples to oranges\u0026rdquo; comparison by comparing density and velocity correlations across features instead of comparing them for each feature. Choice B is incorrect. This choice doesn\u0026rsquo;t support the conclusion. It doesn\u0026rsquo;t include the density correlations for comparison. Choice C is incorrect. This choice doesn\u0026rsquo;t support the conclusion. The text tells us that the farther the correlation is from 0, the \u0026ldquo;stronger\u0026rdquo; it is: it doesn\u0026rsquo;t matter for \u0026ldquo;strength\u0026rdquo; whether it\u0026rsquo;s negative or positive. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes data from the table that support the researchers\u0026rsquo; conclusion?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eCorrelations Between Congestion Ratings and Features of the Crowd in Raters\u0026rsquo; Immediate Vicinity\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eCrowd feature\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eBefore obstacle\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eAfter obstacle\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eOverall\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eDensity\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e0.8592\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0.7308\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e0.7447\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003eVelocity\u003c/th\u003e\u003ctd\u003e\u003cspan aria-hidden=\"true\"\u003e\u0026minus;0.9357\u003c/span\u003e\u003cspan class=\"sr-only\"\u003enegative 0.9357\u003c/span\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan aria-hidden=\"true\"\u003e\u0026minus;0.9518\u003c/span\u003e\u003cspan class=\"sr-only\"\u003enegative 0.9518\u003c/span\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan aria-hidden=\"true\"\u003e\u0026minus;0.8587\u003c/span\u003e\u003cspan class=\"sr-only\"\u003enegative 0.8587\u003c/span\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eResearcher Xiaolu Jia and colleagues monitored individuals\u0026rsquo; velocity and the surrounding crowd density as a group of study participants walked through a space and navigated around an obstacle. Participants rated how congested it seemed before the obstacle, after the obstacle, and overall, and the researchers correlated those ratings with velocity and density. (Correlations range from \u003cspan aria-hidden=\"true\"\u003e\u0026minus;1\u003c/span\u003e\u003cspan class=\"sr-only\"\u003enegative 1\u003c/span\u003e to 1, with greater distance from 0 indicating greater strength). The researchers concluded that the correlations with velocity are stronger than those with density.\u003c/p\u003e", "templateclusterid": "2b36267c-9ec2-409e-b92d-1e857f6bf126", "templateclustername": "", "type": "mcq", "vaultid": "30010246-db98-4b9e-b5f6-aa17dd899c0d"}, "createDate": 1691007959369, "difficulty": "H", "external_id": "e53f5690-706d-4cca-b2f6-dbd34999ecbc", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "b2e54b50", "score_band_range_cd": 7, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "c0ae8a2a-34d6-453e-bdd2-a3c9c4b2170c", "updateDate": 1691007959369};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-b2e54b50");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

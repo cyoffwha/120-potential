@@ -1,0 +1,22 @@
+{
+  "question_id": "d73a908a",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Believing that living in an impractical space can heighten awareness and even improve health, conceptual artists Madeline Gins and Shusaku Arakawa designed an apartment building in Japan to be more fanciful than functional. A kitchen counter is chest-high on one side and knee-high on the other; a ceiling has a door to nowhere. The effect is disorienting but invigorating: after four years there, filmmaker Nobu Yamaoka reported significant health benefits.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Although inhabiting a home surrounded by fanciful features such as those designed by Gins and Arakawa can be rejuvenating, it is unsustainable.",
+    "Designing disorienting spaces like those in the Gins and Arakawa building is the most effective way to create a physically stimulating environment.&nbsp;",
+    "As a filmmaker, Yamaoka has long supported the designs of conceptual artists such as Gins and Arakawa.",
+    "Although impractical, the design of the apartment building by Gins and Arakawa may improve the well-being of the building&rsquo;s residents.&nbsp;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most accurately states the main idea of the text. According to the text, conceptual artists Gins and Arakawa have designed an apartment building that is disorienting because of several unconventional elements, such as uneven kitchen counters and \"a door to nowhere.\" The text goes on to suggest that there may be benefits to this kind of design because filmmaker Yamaoka lived in the apartment building for four years and reported health benefits. Thus, although the design is impractical, it may improve the well-being of the apartment building's residents.",
+    "A": "Choice A is incorrect. Although the text mentions that Yamaoka lived in the apartment for four years, it doesn't address how long someone can beneficially live in a home surrounded by fanciful features or whether doing so can be sustained.",
+    "B": "Choice B is incorrect. Although the text mentions the potential benefits of living in a home with disorienting design features, it doesn't suggest that this is the most effective method to create a physically stimulating environment.",
+    "C": "Choice C is incorrect because the text refers to Yamaoka to support the claim that Gins and Arakawa's apartment building design may be beneficial, but the text doesn't indicate that Yamaoka supports the designs of other conceptual artists."
+  }
+}

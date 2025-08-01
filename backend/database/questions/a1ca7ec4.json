@@ -1,0 +1,22 @@
+{
+  "question_id": "a1ca7ec4",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Cecilia Vicu&ntilde;a is a multidisciplinary artist. In 1971, her first solo art exhibition, Pinturas, poemas y explicaciones , was shown at the Museo Nacional de Bellas Artes in Santiago, Chile. Her poetry collection Precario/Precarious was published in 1983 by Tanam Press. Her poetry collection Instan was published in 2002 by Kelsey St. Press. She lives part time in Chile, where she was born, and part time in New York. The student wants to introduce the artist's 1983 poetry collection. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to introduce the artist&rsquo;s 1983 poetry collection. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Before she published the books  Precario/Precarious  (1983) and  Instan  (2002), Cecilia Vicu&ntilde;a exhibited visual art at the Museo Nacional de Bellas Artes in Santiago, Chile.",
+    "Cecilia Vicu&ntilde;a is a true multidisciplinary artist whose works include numerous poetry collections and visual art exhibitions.",
+    "Published in 1983 by Tanam Press,  Precario/Precarious  is a collection of poetry by the multidisciplinary artist Cecilia Vicu&ntilde;a.",
+    "In 1971, Cecilia Vicu&ntilde;a exhibited her first solo art exhibition,  Pinturas, poemas y explicaciones , in Chile, her country of birth."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The sentence effectively introduces the poetry collection Precario/Precarious , noting that it is a collection by Vicu&ntilde;a that was published in 1983 by Tanam Press.",
+    "A": "Choice A is incorrect. While the sentence mentions the 1983 poetry collection Precario/Precarious , it focuses mainly on Vicu&ntilde;a's visual art.",
+    "B": "Choice B is incorrect. The sentence doesn't introduce the 1983 poetry collection Precario/Precarious ; instead, it introduces Vicu&ntilde;a.",
+    "D": "Choice D is incorrect. The sentence emphasizes the location of Vicu&ntilde;a's 1971 exhibition Pinturas, poemas y explicaciones ; it doesn't introduce the 1983 poetry collection Precario/Precarious . ."
+  }
+}

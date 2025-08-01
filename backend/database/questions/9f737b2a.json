@@ -1,0 +1,22 @@
+{
+  "question_id": "9f737b2a",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In Death Valley National Park's Racetrack Playa, a flat, dry lakebed, are 162 rocks—some weighing less than a pound but others almost 700 pounds—that move periodically from place to place, seemingly of their own volition. Racetrack-like trails in the ______ blank mysterious migration.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "playas sediment mark the rock&rsquo;s",
+    "playa&rsquo;s sediment mark the rocks",
+    "playa&rsquo;s sediment mark the rocks&rsquo;",
+    "playas&rsquo; sediment mark the rocks&rsquo;&nbsp;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of plural and possessive nouns. The singular possessive noun \"playa's\" and the plural possessive noun \"rocks'\" correctly indicate that the sediment is that of one playa (the Racetrack Playa) and that there are multiple rocks that have mysteriously migrated across the sediment.",
+    "A": "Choice A is incorrect because the context requires the singular possessive noun \"playa's\" and the plural possessive noun \"rocks',\" not the plural noun \"playas\" and the singular possessive noun \"rock's.\"",
+    "B": "Choice B is incorrect because the context requires the plural possessive noun \"rocks',\" not the plural noun \"rocks.\"",
+    "D": "Choice D is incorrect because the context requires the singular possessive noun \"playa's,\" not the plural possessive noun \"playas'.\""
+  }
+}

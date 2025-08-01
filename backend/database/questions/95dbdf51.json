@@ -1,0 +1,22 @@
+{
+  "question_id": "95dbdf51",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Laura Mulvey has theorized that in narrative film, shots issuing from a protagonist's point of view compel viewers to identify with the character. Such identification is heightened by \"invisible editing,\" or editing so inconspicuous that it renders cuts between shots almost unnoticeable. Conversely, Mulvey proposes that conspicuous editing or an absence of point-of-view shots would induce a more critical stance toward a protagonist. Consider, for example, the attic scene in Alfred Hitchcock's The Birds , a conspicuously edited sequence of tens of shots, few of which correspond to the protagonist's point of view. According to Mulvey's logic, this scene should affect viewers by ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "obscuring their awareness of the high degree of artifice involved in constructing the montage.",
+    "lessening their identification with the protagonist, if not alienating them from the character altogether.",
+    "compelling them to identify with the film&rsquo;s director, whose proxy is the camera, and not with the protagonist.&nbsp;",
+    "diverting their attention away from the film&rsquo;s content and toward its stylistic attributes."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. We're told that point-of-view shots and \"invisible editing\" make audiences identify with a character. We're also told that obvious editing and a lack of point-of-view shots have the opposite effect. Since the sequence in The Birds falls into this second category, it should have the effect of reducing the audience's connection with the protagonist.",
+    "A": "Choice A is incorrect. The passage doesn't mention viewers' awareness of artifice (i.e., camera trickery) in films, so there's no basis for this inference.",
+    "C": "Choice C is incorrect. The passage doesn't mention the director at all, so there's no basis for this inference.",
+    "D": "Choice D is incorrect. The passage doesn't discuss whether a film's \"stylistic attributes\" may distract viewers from the film's story, so there's no basis for this inference."
+  }
+}

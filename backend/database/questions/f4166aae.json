@@ -1,0 +1,22 @@
+{
+  "question_id": "f4166aae",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In addition to being an accomplished psychologist himself, Francis Cecil Sumner was a ______ blank increasing the opportunity for Black students to study psychology, helping to found the psychology department at Howard University, a historically Black university, in 1930.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "proponent of",
+    "supplement to",
+    "beneficiary of",
+    "distraction for"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of Francis Cecil Sumner. As used in this context, \"proponent of\" means supporter of. The text says that Sumner helped to found the psychology department at historically Black Howard University in 1930. This is evidence that Sumner supported increasing the opportunity for Black students to study psychology.",
+    "B": "Choice B is incorrect because the phrase \"supplement to,\" or addition to, wouldn't make sense in context. The text discusses Sumner's efforts to increase the number of Black psychology students, but it doesn't make sense to describe him as an addition to his efforts.",
+    "C": "Choice C is incorrect because Sumner was already an accomplished psychologist himself when he helped to found the Howard University psychology department. While Black students were the beneficiaries of his efforts—that is, they received help because of his efforts—it wouldn't make sense in this context to describe Sumner as a \"beneficiary of\" opportunities, because he was the one doing the helping.",
+    "D": "Choice D is incorrect because founding a psychology department at Howard University wouldn't be a \"distraction for\" Sumner's aim to increase the opportunity for Black students to study psychology—that is, it wouldn't be something that draws Sumner's attention away from that goal, but rather the opposite."
+  }
+}

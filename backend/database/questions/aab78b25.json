@@ -1,0 +1,22 @@
+{
+  "question_id": "aab78b25",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Psychophysicist Howard Moskowitz was hired by a soda company to determine how much artificial sweetener ______ blank After conducting consumer taste tests, he found that no such ideal existed: participants expressed a wide range of preferences for different blends of sweetener, carbonization, and flavoring.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "do most people prefer in a diet drink?&nbsp;",
+    "do most people prefer in a diet drink.",
+    "most people prefer in a diet drink?",
+    "most people prefer in a diet drink."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. This sentence is a statement: \"Moskowitz was hired by a soda company to determine how much artificial sweetener most people prefer in a diet drink.\" So a period is the most appropriate punctuation mark.",
+    "A": "Choice A is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. This sentence is not a question—it's a statement. So a question mark is not the appropriate punctuation.",
+    "B": "Choice B is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. We already have the verbs \"was hired&hellip;to determine\" in this sentence. The verb \"do\" is not needed and results in a confusing, ungrammatical sentence.",
+    "C": "Choice C is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. This sentence is not a question—it's a statement. So a question mark is not the appropriate punctuation."
+  }
+}

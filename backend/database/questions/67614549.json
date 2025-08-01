@@ -1,0 +1,22 @@
+{
+  "question_id": "67614549",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "After winning the 1860 presidential election, Abraham Lincoln appointed Edward Bates, Salmon P. Chase, and William H. Seward to his cabinet. Lincoln's decision was surprising, since each of these men had run against him, but historians have praised it, noting that Lincoln ______ blank his rivals' diverse talents to strengthen his administration.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "has leveraged",
+    "is leveraging",
+    "will leverage",
+    "leveraged"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The subject of the verb is \"Lincoln,\" and the first sentence tells us that we're talking about something that Abraham Lincoln did in 1860. So the simple past tense \"leveraged\" fits the logic of the text.",
+    "A": "Choice A is incorrect. This choice creates a tense issue. \"Has leveraged\" is the present perfect tense, which is used for an action that began in the past and continues into the present. Lincoln started leveraging his rivals' talents in 1860—it's definitely not still happening today. So the present perfect tense isn't appropriate.",
+    "B": "Choice B is incorrect. This choice creates a tense issue. \"Is leveraging\" is the present tense, but Lincoln leveraged his rivals' talents in 1860, so the present tense isn't appropriate.",
+    "C": "Choice C is incorrect. This choice creates a tense issue. \"Will leverage\" is the future tense, but Lincoln leveraged his rivals' talents in 1860, so the future tense isn't appropriate."
+  }
+}

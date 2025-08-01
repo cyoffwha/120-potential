@@ -1,0 +1,22 @@
+{
+  "question_id": "775f3eb9",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In his groundbreaking book Bengali Harlem and the Lost Histories of South Asian America , Vivek Bald uses newspaper articles, census records, ships' logs, and memoirs to tell the ______ blank who made New York City their home in the early twentieth century.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "story&rsquo;s of the South Asian immigrants",
+    "story&rsquo;s of the South Asian immigrants&rsquo;",
+    "stories of the South Asian immigrants",
+    "stories&rsquo; of the South Asian immigrant&rsquo;s"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of plural and possessive nouns. The plural nouns \"stories\" and \"immigrants\" correctly indicate that the memoir tells multiple stories of multiple immigrants.",
+    "A": "Choice A is incorrect because the context requires the plural noun \"stories,\" not the singular possessive noun \"story's.\"",
+    "B": "Choice B is incorrect because the context requires the plural nouns \"stories\" and \"immigrants,\" not the singular possessive noun \"story's\" and the plural possessive noun \"immigrants'.\"",
+    "D": "Choice D is incorrect because the context requires the plural nouns \"stories\" and \"immigrants,\" not the plural possessive noun \"stories'\" and the singular possessive noun \"immigrant's.\""
+  }
+}

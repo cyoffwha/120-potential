@@ -1,0 +1,22 @@
+{
+  "question_id": "849bf8d7",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In the mid-nineteenth century, some abolitionist newspapers ______ blank westward migration in the United States; by printing a letter that described the easy fortunes and high salaries miners could make in California during the Gold Rush, Frederick Douglass's newspaper North Star was one such publication that inspired readers to relocate.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "stimulated",
+    "assigned",
+    "opposed",
+    "disregarded"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Stimulated\" means \"encouraged interest or increased activity in.\" Because the newspapers discussed the benefits of westward migration and \"inspired readers to relocate,\" we can infer that they encouraged people to move west.",
+    "B": "Choice B is incorrect. \"Assigned\" means \"gave a job or duty.\" Newspapers do not have the power to assign people to move west, although they can encourage it.",
+    "C": "Choice C is incorrect. \"Opposed\" means \"disapproved of.\" We can tell that this isn't the case, because the newspapers discussed \"the easy fortunes and high salaries miners could make in California\" and \"inspired readers to relocate.\"",
+    "D": "Choice D is incorrect. \"Disregarded\" means \"ignored.\" If the newspapers are writing about the west and \"inspir[ing] readers to relocate,\" they can't be ignoring it at the same time."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "a2dd51c1",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In most building demolitions, the building materials are destroyed and sent to landfills. City officials in Portland, Oregon, wanted to reduce this waste. The officials passed a law requiring demolition companies to deconstruct some buildings instead. Deconstruction involves carefully taking buildings apart piece by piece. Damage to the materials is avoided so that they can be reused in new constructions. A 2019 study found that 27 percent of materials from deconstructions in Portland were able to be reused. The remaining materials were processed for recycling instead of going to a landfill.",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To explain an effort made by the city of Portland to reduce demolition waste and some results of that effort&nbsp;",
+    "To show that popular support for measures that reduce demolition waste has increased since 2019",
+    "To argue that building deconstruction is not as effective as other measures at reducing demolition waste",
+    "To discuss laws aimed to reduce demolition waste in Portland and compare them to similar laws in other cities&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The author first describes a Portland law aimed at reducing demolition waste, and then goes on to explain that 27% of materials from building deconstructions were able to be reused and the rest were recycled.",
+    "B": "Choice B is incorrect. The text never discusses the popularity of the law.",
+    "C": "Choice C is incorrect. The text never compares building deconstruction to other measures designed to reduce demolition waste.",
+    "D": "Choice D is incorrect. The text never mentions laws in cities other than Portland, Oregon."
+  }
+}

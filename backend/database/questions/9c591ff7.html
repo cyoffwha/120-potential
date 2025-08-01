@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 9c591ff7</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Some <em>Astyanax mexicanus</em>, a river-dwelling fish found in northeast Mexico, have colonized caves in the region. Although there is little genetic difference between river and cave&nbsp;<em>A. mexicanus</em> and all members of the species can emit the same sounds, biologist Carole Hyacinthe and colleagues found that the context and significance of those sounds vary by location&mdash;e.g., the click that river-dwelling <em>A. mexicanus</em> use to signal aggression is used by cave dwellers when foraging&mdash;and the acoustic properties of cave fish sounds show some cave-specific variations as well. Hyacinthe and colleagues note that differences in sonic communication could accumulate to the point of inhibiting interbreeding among fish from different locations, suggesting that&nbsp;<span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>although <em>A. mexicanus</em> living in rivers are genetically similar to those living in caves, river fish rely on sonic communication less than cave fish do.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>although <em>A. mexicanus</em> is a single species at present, it could be in the process of splitting into distinct populations with different characteristics.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>although all <em>A. mexicanus</em> emit sounds, the fish living in rivers produce some sounds that the fish living in caves do not, and vice versa.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>although <em>A. mexicanus</em> from different locations can interbreed currently, river fish and cave fish are sufficiently genetically distinct that they can be considered separate species.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it presents the conclusion that most logically follows from the text&rsquo;s discussion of <em>A. mexicanus</em>. According to the text, <em>A. mexicanus</em>, a river-dwelling fish species, has colonized caves. The fish that live in rivers and those that live in caves show no significant genetic differences and are all capable of making the same sounds. The text indicates, however, that Hyacinthe and colleagues found that sounds that the river fish use in a particular context and for a particular purpose are used in a different context and for a different purpose by the cave fish. Additionally, the sounds made by cave fish show some differences depending on the specific cave the fish inhabit. The text goes on to state that Hyacinthe and colleagues have noted that differences in how the fish use sound to communicate could eventually become so great that they prevent fish from different locations from interbreeding. In other words, the river fish might eventually only breed with other river fish (with whom they share characteristics regarding sonic communication that they do not share with cave fish), while the cave fish might only breed with other cave fish for a similar reason. In context, this observation suggests that even though the fish are a single species right now, they could be in the process of splitting into distinct populations with different characteristics.&nbsp;</p><p>Choice A is incorrect because there is no information in the text suggesting that the river fish are less reliant on sonic communication than the cave fish are. Although the text does indicate that the river fish and cave fish are genetically similar, the text describes both groups as using sonic communication and says nothing to indicate that one group depends on that communication more than the other group does. Choice C is incorrect. The text states that all members of the species can emit the same sounds but that the function and context of sounds differ depending on whether the fish live in rivers or caves, but it does not indicate that river fish produce sounds that cave fish do not or vice versa.&nbsp;Choice D is incorrect because it contradicts the text. The text says that there is little genetic difference between the river fish and the cave fish, not that the river fish and cave fish are so genetically distinct that they can be considered separate species. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">99 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ealthough \u003cem\u003eA. mexicanus\u003c/em\u003e living in rivers are genetically similar to those living in caves, river fish rely on sonic communication less than cave fish do.\u003c/p\u003e", "id": "a7880e4d-d708-4901-9c28-35f2eb26b88f"}, {"content": "\u003cp\u003ealthough \u003cem\u003eA. mexicanus\u003c/em\u003e is a single species at present, it could be in the process of splitting into distinct populations with different characteristics.\u003c/p\u003e", "id": "325e26f1-0279-4ddb-b353-5bfde297b357"}, {"content": "\u003cp\u003ealthough all \u003cem\u003eA. mexicanus\u003c/em\u003e emit sounds, the fish living in rivers produce some sounds that the fish living in caves do not, and vice versa.\u003c/p\u003e", "id": "fc2c43fc-f628-4786-86fc-3f178bfe8c83"}, {"content": "\u003cp\u003ealthough \u003cem\u003eA. mexicanus\u003c/em\u003e from different locations can interbreed currently, river fish and cave fish are sufficiently genetically distinct that they can be considered separate species.\u003c/p\u003e", "id": "e1cb5ee1-b418-4bae-a968-8c3784289e99"}], "correct_answer": ["B"], "externalid": "c53956b6-5cf4-4eb7-a7df-2139e74396c7", "keys": ["325e26f1-0279-4ddb-b353-5bfde297b357"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-063-INF", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it presents the conclusion that most logically follows from the text\u0026rsquo;s discussion of \u003cem\u003eA. mexicanus\u003c/em\u003e. According to the text, \u003cem\u003eA. mexicanus\u003c/em\u003e, a river-dwelling fish species, has colonized caves. The fish that live in rivers and those that live in caves show no significant genetic differences and are all capable of making the same sounds. The text indicates, however, that Hyacinthe and colleagues found that sounds that the river fish use in a particular context and for a particular purpose are used in a different context and for a different purpose by the cave fish. Additionally, the sounds made by cave fish show some differences depending on the specific cave the fish inhabit. The text goes on to state that Hyacinthe and colleagues have noted that differences in how the fish use sound to communicate could eventually become so great that they prevent fish from different locations from interbreeding. In other words, the river fish might eventually only breed with other river fish (with whom they share characteristics regarding sonic communication that they do not share with cave fish), while the cave fish might only breed with other cave fish for a similar reason. In context, this observation suggests that even though the fish are a single species right now, they could be in the process of splitting into distinct populations with different characteristics.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because there is no information in the text suggesting that the river fish are less reliant on sonic communication than the cave fish are. Although the text does indicate that the river fish and cave fish are genetically similar, the text describes both groups as using sonic communication and says nothing to indicate that one group depends on that communication more than the other group does. Choice C is incorrect. The text states that all members of the species can emit the same sounds but that the function and context of sounds differ depending on whether the fish live in rivers or caves, but it does not indicate that river fish produce sounds that cave fish do not or vice versa.\u0026nbsp;Choice D is incorrect because it contradicts the text. The text says that there is little genetic difference between the river fish and the cave fish, not that the river fish and cave fish are so genetically distinct that they can be considered separate species. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eSome \u003cem\u003eAstyanax mexicanus\u003c/em\u003e, a river-dwelling fish found in northeast Mexico, have colonized caves in the region. Although there is little genetic difference between river and cave\u0026nbsp;\u003cem\u003eA. mexicanus\u003c/em\u003e and all members of the species can emit the same sounds, biologist Carole Hyacinthe and colleagues found that the context and significance of those sounds vary by location\u0026mdash;e.g., the click that river-dwelling \u003cem\u003eA. mexicanus\u003c/em\u003e use to signal aggression is used by cave dwellers when foraging\u0026mdash;and the acoustic properties of cave fish sounds show some cave-specific variations as well. Hyacinthe and colleagues note that differences in sonic communication could accumulate to the point of inhibiting interbreeding among fish from different locations, suggesting that\u0026nbsp;\u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "6ea710a1-f500-4285-8d47-6ca582ed02da", "templateclustername": "", "type": "mcq", "vaultid": "3ebcb0d3-b91f-4443-af39-8dbcc199b486"}, "createDate": 1691007959325, "difficulty": "H", "external_id": "c53956b6-5cf4-4eb7-a7df-2139e74396c7", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "9c591ff7", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "503716c1-81db-4df2-9c5a-ac3ec15a14cc", "updateDate": 1691007959325};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-9c591ff7");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

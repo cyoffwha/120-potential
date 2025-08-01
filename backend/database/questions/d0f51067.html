@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question d0f51067</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Modern dog breeds are largely the result of 160 years of owners crossbreeding certain dogs in order to select for particular physical appearances. Owners often say that some breeds are also more likely than others to have particular personality traits&mdash;basset hounds are affectionate; boxers are easy to train&mdash;but Kathleen Morrill and colleagues found through a combination of owner surveys and DNA sequencing of 2,000 dogs that while physical traits are predictably heritable among purebred dogs, behavior varies widely among dogs of the same breed.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Dog breeds would not exist without many years of human intervention in dogs&rsquo; reproduction.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Research fails to confirm a commonly held belief about dog breeds and behavior.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The dog breeds most popular among owners have often changed over the past 160 years.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>A study of dog breeds is notable for its usage of both opinion surveys and DNA sequencing.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it most accurately states the main idea of the text. The text indicates that dog owners typically claim that some dog breeds are &ldquo;more likely than others to have particular personality traits.&rdquo; In other words, the text points out that a commonly held belief about dog breeds is that their personality traits are heritable. The text then states that Kathleen Morrill and colleagues undertook research about dog trait heritability and found that &ldquo;behavior varies widely among dogs of the same breed.&rdquo; Because Morrill and colleagues found evidence for variability rather than consistency in the behavior of dogs of the same breed, the statement that research fails to uphold a commonly held belief about dog breeds and behavior accurately reflects the main idea of the text. </p><p>Choice A is incorrect. Although the text mentions that humans have long intervened in dogs&rsquo; reproduction by intentionally crossbreeding certain dogs, it doesn&rsquo;t argue that such intervention is essential to the existence of dog breeds.&nbsp;Choice C is incorrect because the text doesn&rsquo;t discuss the popularity of any dog breeds; breeds are mentioned as having certain traits, but the text says nothing about the popularity of these breeds or traits. Choice D is incorrect. Although the text briefly mentions that Morrill and colleagues conducted a study about dog traits using both surveys and DNA sequencing, this is not the main focus of the text. The text concerns the study&rsquo;s results about the heritability of dog traits, not the particular methodology used by Morrill and colleagues. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">82 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eDog breeds would not exist without many years of human intervention in dogs\u0026rsquo; reproduction.\u003c/p\u003e", "id": "56788abb-8cf1-48e8-ab65-becc67f575bd"}, {"content": "\u003cp\u003eResearch fails to confirm a commonly held belief about dog breeds and behavior.\u003c/p\u003e", "id": "9f65cf66-d818-4715-8ce5-3838cc104f79"}, {"content": "\u003cp\u003eThe dog breeds most popular among owners have often changed over the past 160 years.\u003c/p\u003e", "id": "bce3ff6e-a974-47a8-92a2-75923ff92795"}, {"content": "\u003cp\u003eA study of dog breeds is notable for its usage of both opinion surveys and DNA sequencing.\u003c/p\u003e", "id": "f27e6d10-ed66-4ac0-a731-da3b96c8662e"}], "correct_answer": ["B"], "externalid": "ea65c400-ba2e-4387-9a23-fc9a727a5982", "keys": ["9f65cf66-d818-4715-8ce5-3838cc104f79"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-039-CID", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it most accurately states the main idea of the text. The text indicates that dog owners typically claim that some dog breeds are \u0026ldquo;more likely than others to have particular personality traits.\u0026rdquo; In other words, the text points out that a commonly held belief about dog breeds is that their personality traits are heritable. The text then states that Kathleen Morrill and colleagues undertook research about dog trait heritability and found that \u0026ldquo;behavior varies widely among dogs of the same breed.\u0026rdquo; Because Morrill and colleagues found evidence for variability rather than consistency in the behavior of dogs of the same breed, the statement that research fails to uphold a commonly held belief about dog breeds and behavior accurately reflects the main idea of the text. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although the text mentions that humans have long intervened in dogs\u0026rsquo; reproduction by intentionally crossbreeding certain dogs, it doesn\u0026rsquo;t argue that such intervention is essential to the existence of dog breeds.\u0026nbsp;Choice C is incorrect because the text doesn\u0026rsquo;t discuss the popularity of any dog breeds; breeds are mentioned as having certain traits, but the text says nothing about the popularity of these breeds or traits. Choice D is incorrect. Although the text briefly mentions that Morrill and colleagues conducted a study about dog traits using both surveys and DNA sequencing, this is not the main focus of the text. The text concerns the study\u0026rsquo;s results about the heritability of dog traits, not the particular methodology used by Morrill and colleagues. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eModern dog breeds are largely the result of 160 years of owners crossbreeding certain dogs in order to select for particular physical appearances. Owners often say that some breeds are also more likely than others to have particular personality traits\u0026mdash;basset hounds are affectionate; boxers are easy to train\u0026mdash;but Kathleen Morrill and colleagues found through a combination of owner surveys and DNA sequencing of 2,000 dogs that while physical traits are predictably heritable among purebred dogs, behavior varies widely among dogs of the same breed.\u003c/p\u003e", "templateclusterid": "dc626d70-69f7-4356-bac8-f300b8ab4b36", "templateclustername": "", "type": "mcq", "vaultid": "6ec56105-fac6-46e2-bfca-626cc5a91c02"}, "createDate": 1691007959321, "difficulty": "H", "external_id": "ea65c400-ba2e-4387-9a23-fc9a727a5982", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "d0f51067", "score_band_range_cd": 6, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "46174753-0dd3-4168-8945-4cd5b77ea5b2", "updateDate": 1691007959321};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-d0f51067");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

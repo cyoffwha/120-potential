@@ -1,0 +1,22 @@
+{
+  "question_id": "80ebb189",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "As an architect in Los Angeles in the 1950s, Helen Liu Fong became known for avoiding ______ blank designs in her buildings. Instead of using standard shapes and colors, she typically explored innovative forms and daring hues.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "creative",
+    "bold",
+    "traditional",
+    "understandable"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most logically completes the text's discussion of Helen Liu Fong's architectural designs. In this context, \"traditional\" means conventional. The text states that rather than use \"standard shapes and colors,\" Fong pursued \"innovative\" and \"daring\" design choices in her work. Fong's style is depicted as inventive, so it therefore makes sense in this context that she avoided mainstream, traditional designs in her buildings.",
+    "A": "Choice A is incorrect because the text indicates that Fong's work is innovative and experimental. Thus, Fong's design choices could reasonably be considered creative, or original. She likely would have pursued creative designs, not avoided them.",
+    "B": "Choice B is incorrect because the text indicates that Fong used \"daring\" hues in her designs. Thus, Fong likely would have pursued bold, or brave and vivid design choices; she wouldn't have avoided them.",
+    "D": "Choice D is incorrect because the text doesn't address whether Fong's designs are understandable, or reasonable or expected. The text focuses on certain characteristics of Fong's designs, not on how people received or understood them."
+  }
+}

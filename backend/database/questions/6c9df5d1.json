@@ -1,0 +1,22 @@
+{
+  "question_id": "6c9df5d1",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Some powerful works of literature have so influenced readers that new legislation has been passed as a result. The Interesting Narrative of the Life of Olaudah Equiano (1789) is the autobiography of a man who endured slavery on both sides of the Atlantic. Equiano's book contributed to the passage of the Slave Trade Act of 1807. The Jungle (1906) is a fictional work by Upton Sinclair that describes unsanitary conditions in US meatpacking plants. Sinclair's book contributed to the passage of the Pure Food and Drug Act in 1906. The student wants to emphasize a difference between the two books. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize a difference between the two books. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Although both are powerful works of literature that contributed to new legislation, Equiano&rsquo;s book is an autobiography, while Sinclair&rsquo;s is fictional.",
+    "They may have written about different topics, but Equiano and Sinclair both influenced readers.",
+    "The 1807 Slave Trade Act resulted in part from a book by Equiano, while the 1906 Pure Food and Drug Act resulted in part from a book by Sinclair.&nbsp;",
+    "The Interesting Narrative of the Life of Olaudah Equiano  and  The Jungle  are two works of literature that contributed to new legislation (concerning the slave trade and food safety, respectively).&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This choice emphasizes a difference between the two books by using relevant information from the notes to contrast their genres.",
+    "B": "Choice B is incorrect. This choice mentions a difference between the books (their different topics), but it emphasizes a similarity between the books (their influence on readers).",
+    "C": "Choice C is incorrect. This choice provides information about the books that reflects both a similarity (both resulted in new laws) and a difference (the specific laws that resulted), without emphasizing either.",
+    "D": "Choice D is incorrect. This choice doesn't emphasize a difference between the two books. Instead, it emphasizes a similarity ."
+  }
+}

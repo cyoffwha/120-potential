@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question d8758c3b</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Psychologists wanted to test how young children think about rewards and fairness. In an experiment, two teachers handed out rewards while children (ages four to six) watched. The teachers gave out the same number of rewards, but one of them counted the rewards out loud. The children were then asked who was fairer. 73% chose the teacher who counted. The psychologists think that counting showed the children that the teacher wanted to be fair. The children may have believed that the teacher who did not count did not care about fairness.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Psychologists think children cannot understand the concept of fairness until they are six years old.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>An experiment found that counting out loud is the best way to teach mathematical concepts to children.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Psychologists think young children expect to be rewarded when the children show that they care about fairness.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>An experiment showed that the way rewards are given out may affect whether young children think the situation is fair.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The text describes a study assessing how children think of rewards and fairness and its results. It concludes that the children in the study may have thought that a teacher who counted out loud when giving rewards cared more about fairness than a teacher who did not count out loud. </p><p>Choice A is incorrect. The children in the study are described as being &ldquo;four to six,&rdquo; and the text doesn&rsquo;t mention any differences among the different ages. Choice B is incorrect. The experiment wasn&rsquo;t about teaching math&mdash;rather, it was about how counting out loud affected the children&rsquo;s perception of fairness. Choice C is incorrect. The experiment doesn&rsquo;t focus on whether the children care about fairness, and the text never mentions the children&rsquo;s expectations of being rewarded. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">264 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ePsychologists think children cannot understand the concept of fairness until they are six years old.\u0026nbsp;\u003c/p\u003e", "id": "d4d0ce99-aad3-48c1-8dc9-4e65be6e10c8"}, {"content": "\u003cp\u003eAn experiment found that counting out loud is the best way to teach mathematical concepts to children.\u0026nbsp;\u003c/p\u003e", "id": "87e71882-0363-4e56-b9b3-0c7f0f52699a"}, {"content": "\u003cp\u003ePsychologists think young children expect to be rewarded when the children show that they care about fairness.\u0026nbsp;\u003c/p\u003e", "id": "51cf215c-ac7b-402a-b8c6-ca5abcb7adb2"}, {"content": "\u003cp\u003eAn experiment showed that the way rewards are given out may affect whether young children think the situation is fair.\u003c/p\u003e", "id": "8f614bee-266e-4100-a4d2-496d1f431e5b"}], "correct_answer": ["D"], "externalid": "157a66e4-2393-45c7-b129-cabbbf204d2e", "keys": ["8f614bee-266e-4100-a4d2-496d1f431e5b"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CID-E007", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The text describes a study assessing how children think of rewards and fairness and its results. It concludes that the children in the study may have thought that a teacher who counted out loud when giving rewards cared more about fairness than a teacher who did not count out loud. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The children in the study are described as being \u0026ldquo;four to six,\u0026rdquo; and the text doesn\u0026rsquo;t mention any differences among the different ages. Choice B is incorrect. The experiment wasn\u0026rsquo;t about teaching math\u0026mdash;rather, it was about how counting out loud affected the children\u0026rsquo;s perception of fairness. Choice C is incorrect. The experiment doesn\u0026rsquo;t focus on whether the children care about fairness, and the text never mentions the children\u0026rsquo;s expectations of being rewarded. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003ePsychologists wanted to test how young children think about rewards and fairness. In an experiment, two teachers handed out rewards while children (ages four to six) watched. The teachers gave out the same number of rewards, but one of them counted the rewards out loud. The children were then asked who was fairer. 73% chose the teacher who counted. The psychologists think that counting showed the children that the teacher wanted to be fair. The children may have believed that the teacher who did not count did not care about fairness.\u003c/p\u003e", "templateclusterid": "c2ad3724-30e2-42c1-824a-009802140951", "templateclustername": "", "type": "mcq", "vaultid": "976eda41-e09c-44d2-a1b5-ab1bbce61ed9"}, "createDate": 1691007959359, "difficulty": "E", "external_id": "157a66e4-2393-45c7-b129-cabbbf204d2e", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "d8758c3b", "score_band_range_cd": 2, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "e3d6bc21-fe77-481f-8923-202ab3180f8a", "updateDate": 1691007959359};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-d8758c3b");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

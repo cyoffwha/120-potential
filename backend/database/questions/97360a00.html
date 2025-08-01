@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 97360a00</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Gwendolyn Bennett&rsquo;s 1926 poem &ldquo;Street Lamps in Early Spring.&rdquo; </p>
+<p style="padding-left:1em;">Night wears a garment<br>All velvet soft, all violet blue...&nbsp;<br>And over her face she draws a veil<br>As shimmering fine as floating dew...&nbsp;<br>And here and there<br>In the black of her hair<br>The subtle hands of Night<br>Move slowly with their gem-starred light.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes the overall structure of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It presents alternating descriptions of night in a rural area and in a city.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It sketches an image of nightfall, then an image of sunrise.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It makes an extended comparison of night to a human being.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It portrays how night changes from one season of the year to the next.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it most accurately describes the overall structure of the text. Throughout the text, the speaker characterizes nighttime as if it were a person who wears clothing (&ldquo;a garment&rdquo; that is &ldquo;velvet soft&rdquo; and &ldquo;violet blue&rdquo;) and a veil &ldquo;over her face&rdquo; and who moves her hands &ldquo;slowly with their gem-starred light&rdquo; through her dark hair. Thus, the text is structured as an extended comparison of night to a human being. </p><p>Choice A is incorrect because the text never mentions any particular location; instead, it focuses on presenting a single description of night as a person with certain clothing and features. Choice B is incorrect because the text doesn&rsquo;t make any reference to the sun or sunrise; instead, it focuses on presenting a single image of night as a person with certain clothing and features. Choice D is incorrect. Rather than describing how nighttime changes seasonally (or in any other way), the text presents a single image of night as a person with certain clothing and features. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">508 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt presents alternating descriptions of night in a rural area and in a city.\u003c/p\u003e", "id": "63053b72-8b77-448c-a416-d6f89a816290"}, {"content": "\u003cp\u003eIt sketches an image of nightfall, then an image of sunrise.\u003c/p\u003e", "id": "65dca31b-cb00-4066-955e-bb007b3fea33"}, {"content": "\u003cp\u003eIt makes an extended comparison of night to a human being.\u003c/p\u003e", "id": "1b13404c-f6ed-4eef-9679-5a72acd726d2"}, {"content": "\u003cp\u003eIt portrays how night changes from one season of the year to the next.\u003c/p\u003e", "id": "e8f807cb-3e05-4662-bb9d-984c6e9eb1bb"}], "correct_answer": ["C"], "externalid": "123877dc-02fe-4b9c-8afa-a751cfa3b840", "keys": ["1b13404c-f6ed-4eef-9679-5a72acd726d2"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-035-TSP", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it most accurately describes the overall structure of the text. Throughout the text, the speaker characterizes nighttime as if it were a person who wears clothing (\u0026ldquo;a garment\u0026rdquo; that is \u0026ldquo;velvet soft\u0026rdquo; and \u0026ldquo;violet blue\u0026rdquo;) and a veil \u0026ldquo;over her face\u0026rdquo; and who moves her hands \u0026ldquo;slowly with their gem-starred light\u0026rdquo; through her dark hair. Thus, the text is structured as an extended comparison of night to a human being. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text never mentions any particular location; instead, it focuses on presenting a single description of night as a person with certain clothing and features. Choice B is incorrect because the text doesn\u0026rsquo;t make any reference to the sun or sunrise; instead, it focuses on presenting a single image of night as a person with certain clothing and features. Choice D is incorrect. Rather than describing how nighttime changes seasonally (or in any other way), the text presents a single image of night as a person with certain clothing and features. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes the overall structure of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Gwendolyn Bennett\u0026rsquo;s 1926 poem \u0026ldquo;Street Lamps in Early Spring.\u0026rdquo; \u003c/p\u003e\n\u003cp style=\"padding-left:1em;\"\u003eNight wears a garment\u003cbr\u003eAll velvet soft, all violet blue...\u0026nbsp;\u003cbr\u003eAnd over her face she draws a veil\u003cbr\u003eAs shimmering fine as floating dew...\u0026nbsp;\u003cbr\u003eAnd here and there\u003cbr\u003eIn the black of her hair\u003cbr\u003eThe subtle hands of Night\u003cbr\u003eMove slowly with their gem-starred light.\u003c/p\u003e", "templateclusterid": "f158e3c6-a9cf-4ca2-ba3f-876a150c546b", "templateclustername": "", "type": "mcq", "vaultid": "87c312d8-42fa-461c-b590-c215eeceb2fd"}, "createDate": 1691007959320, "difficulty": "M", "external_id": "123877dc-02fe-4b9c-8afa-a751cfa3b840", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "97360a00", "score_band_range_cd": 4, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "d638bcde-7d1d-49a9-bc6d-25921dd34d83", "updateDate": 1691007959320};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-97360a00");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

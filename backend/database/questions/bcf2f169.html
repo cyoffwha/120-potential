@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question bcf2f169</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Ana Castillo&rsquo;s 1986 novel <em>The Mixquiahuala Letters</em> is a story told entirely through expressive letters from the narrator to her friend&mdash;letters that Castillo suggests could be read in several different orders. As they began reading it in class, some students remarked that they found the novel&rsquo;s letter format daunting and its treatment of gender relations old-fashioned. The professor, however, pointed out that the novel is written in modern-sounding language and addresses issues that still matter today, suggesting that <em>The Mixquiahuala Letters</em> <span aria-hidden="true">______</span><span class="sr-only">blank</span> </p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>has more to say about gender relations than other novels from the same period.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>is more relevant to contemporary audiences than it may seem at first.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>is easier to read than many contemporary novels that focus on friendship.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>is best understood after multiple readings in different orders.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it most logically completes the text&rsquo;s discussion of Ana Castillo&rsquo;s 1986 novel <em>The Mixquiahuala Letters</em>. The text states that the novel consists entirely of letters from the narrator to her friend&mdash;a format that some students reading the novel in a class found intimidating. According to the text, those students also found the novel&rsquo;s treatment of gender to be old-fashioned. In response to the students&rsquo; concerns, their professor emphasized the novel&rsquo;s relevance: it&rsquo;s written in modern-sounding language and addresses issues that still matter. This, in turn, suggests that <em>The Mixquiahuala Letters</em> is more relevant to contemporary audiences than it may initially seem. </p><p>Choice A is incorrect because the professor&rsquo;s response to the students only mentions <em>The Mixquiahuala Letters</em>: it doesn&rsquo;t compare the novel to others from the same period. Choice C is incorrect because nothing in the professor&rsquo;s response to the students compares <em>The Mixquiahuala Letters</em> to contemporary novels about friendship. Choice D is incorrect because the professor&rsquo;s response to the students doesn&rsquo;t address the idea of reading the novel&rsquo;s letters multiple times and in different orders. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">267 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ehas more to say about gender relations than other novels from the same period.\u003c/p\u003e", "id": "8293cdf1-ee62-41b2-85a4-ec34ac592ad7"}, {"content": "\u003cp\u003eis more relevant to contemporary audiences than it may seem at first.\u003c/p\u003e", "id": "3c01bee7-fa80-4c88-9f24-b9c2dcffe3ed"}, {"content": "\u003cp\u003eis easier to read than many contemporary novels that focus on friendship.\u003c/p\u003e", "id": "e270722b-7f57-47e4-acbf-cc32e0a819a5"}, {"content": "\u003cp\u003eis best understood after multiple readings in different orders.\u003c/p\u003e", "id": "f9e0b557-d34f-4bab-954e-59277274fe89"}], "correct_answer": ["B"], "externalid": "611815f9-9f7f-45ef-b59d-26119ee9c308", "keys": ["3c01bee7-fa80-4c88-9f24-b9c2dcffe3ed"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-039-INF", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it most logically completes the text\u0026rsquo;s discussion of Ana Castillo\u0026rsquo;s 1986 novel \u003cem\u003eThe Mixquiahuala Letters\u003c/em\u003e. The text states that the novel consists entirely of letters from the narrator to her friend\u0026mdash;a format that some students reading the novel in a class found intimidating. According to the text, those students also found the novel\u0026rsquo;s treatment of gender to be old-fashioned. In response to the students\u0026rsquo; concerns, their professor emphasized the novel\u0026rsquo;s relevance: it\u0026rsquo;s written in modern-sounding language and addresses issues that still matter. This, in turn, suggests that \u003cem\u003eThe Mixquiahuala Letters\u003c/em\u003e is more relevant to contemporary audiences than it may initially seem. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the professor\u0026rsquo;s response to the students only mentions \u003cem\u003eThe Mixquiahuala Letters\u003c/em\u003e: it doesn\u0026rsquo;t compare the novel to others from the same period. Choice C is incorrect because nothing in the professor\u0026rsquo;s response to the students compares \u003cem\u003eThe Mixquiahuala Letters\u003c/em\u003e to contemporary novels about friendship. Choice D is incorrect because the professor\u0026rsquo;s response to the students doesn\u0026rsquo;t address the idea of reading the novel\u0026rsquo;s letters multiple times and in different orders. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eAna Castillo\u0026rsquo;s 1986 novel \u003cem\u003eThe Mixquiahuala Letters\u003c/em\u003e is a story told entirely through expressive letters from the narrator to her friend\u0026mdash;letters that Castillo suggests could be read in several different orders. As they began reading it in class, some students remarked that they found the novel\u0026rsquo;s letter format daunting and its treatment of gender relations old-fashioned. The professor, however, pointed out that the novel is written in modern-sounding language and addresses issues that still matter today, suggesting that \u003cem\u003eThe Mixquiahuala Letters\u003c/em\u003e \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e \u003c/p\u003e", "templateclusterid": "4e041ea4-f16b-4cae-b339-d3c653390068", "templateclustername": "", "type": "mcq", "vaultid": "386f156f-f1ff-4ec8-ba6d-18fe41f3761f"}, "createDate": 1691007959321, "difficulty": "M", "external_id": "611815f9-9f7f-45ef-b59d-26119ee9c308", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "bcf2f169", "score_band_range_cd": 5, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "e64d6217-2288-4196-b5f8-d2c99c5bd8c7", "updateDate": 1691007959321};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-bcf2f169");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

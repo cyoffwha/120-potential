@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question ea971260</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Louisa May Alcott&rsquo;s 1869 novel <em>An Old-Fashioned Girl</em>. Polly, a teenager, is visiting her friend Fanny.</p>
+<blockquote>
+<p>Fanny&rsquo;s friends did not interest Polly much; she was rather afraid of them [because] they seemed so much older and wiser than herself, even those younger in years. They talked about things of which she knew nothing and when Fanny tried to explain, she didn&rsquo;t find them interesting; indeed, some of them rather shocked and puzzled her.</p>
+</blockquote></div>
+
+                        <div class="mt-3"><p>Which choice best states the main purpose of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To portray Polly&rsquo;s reaction to Fanny&rsquo;s friends</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To identify the topics Polly talks about with Fanny&rsquo;s friends</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To explain how Fanny met some of her friends</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To illustrate how Fanny&rsquo;s friends feel about Polly</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most accurately describes the main purpose of the text, which is to show how Polly reacted to some of Fanny&rsquo;s other friends. The text describes Polly as being frightened of Fanny&rsquo;s friends because they seemed &ldquo;much older and wiser&rdquo; to her and elaborates that they &ldquo;talked about things of which&rdquo; Polly was unfamiliar, uninterested, and shocked. Thus, the main purpose of the text is to describe Polly&rsquo;s impressions of Fanny&rsquo;s other friends.&nbsp;</p><p>Choice B is incorrect because the text does not provide any of the topics Polly discussed with Fanny&rsquo;s friends, stating only that Polly found the topics unfamiliar, uninteresting, and shocking. Choice C is incorrect because the text says nothing about how Fanny and her other friends first met.&nbsp;Choice D is incorrect because the focus of the text is on Polly&rsquo;s feelings about Fanny&rsquo;s other friends, not on the other friends&rsquo; feelings about Polly. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">390 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eTo portray Polly\u0026rsquo;s reaction to Fanny\u0026rsquo;s friends\u003c/p\u003e", "id": "1f3495b4-2ab6-4245-9ab6-26fcdc7f38e1"}, {"content": "\u003cp\u003eTo identify the topics Polly talks about with Fanny\u0026rsquo;s friends\u003c/p\u003e", "id": "9120a02a-4bcb-4a3d-83e7-d453b8e9d53b"}, {"content": "\u003cp\u003eTo explain how Fanny met some of her friends\u003c/p\u003e", "id": "27ef4022-c9dd-496e-8650-68e340f89981"}, {"content": "\u003cp\u003eTo illustrate how Fanny\u0026rsquo;s friends feel about Polly\u003c/p\u003e", "id": "fc4bfc93-088f-4272-a939-4a9a5f30153c"}], "correct_answer": ["A"], "externalid": "114e4b2d-8d06-4afa-bc3d-1b27cc0e7446", "keys": ["1f3495b4-2ab6-4245-9ab6-26fcdc7f38e1"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-042-TSP", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most accurately describes the main purpose of the text, which is to show how Polly reacted to some of Fanny\u0026rsquo;s other friends. The text describes Polly as being frightened of Fanny\u0026rsquo;s friends because they seemed \u0026ldquo;much older and wiser\u0026rdquo; to her and elaborates that they \u0026ldquo;talked about things of which\u0026rdquo; Polly was unfamiliar, uninterested, and shocked. Thus, the main purpose of the text is to describe Polly\u0026rsquo;s impressions of Fanny\u0026rsquo;s other friends.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice B is incorrect because the text does not provide any of the topics Polly discussed with Fanny\u0026rsquo;s friends, stating only that Polly found the topics unfamiliar, uninteresting, and shocking. Choice C is incorrect because the text says nothing about how Fanny and her other friends first met.\u0026nbsp;Choice D is incorrect because the focus of the text is on Polly\u0026rsquo;s feelings about Fanny\u0026rsquo;s other friends, not on the other friends\u0026rsquo; feelings about Polly. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main purpose of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Louisa May Alcott\u0026rsquo;s 1869 novel \u003cem\u003eAn Old-Fashioned Girl\u003c/em\u003e. Polly, a teenager, is visiting her friend Fanny.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eFanny\u0026rsquo;s friends did not interest Polly much; she was rather afraid of them [because] they seemed so much older and wiser than herself, even those younger in years. They talked about things of which she knew nothing and when Fanny tried to explain, she didn\u0026rsquo;t find them interesting; indeed, some of them rather shocked and puzzled her.\u003c/p\u003e\n\u003c/blockquote\u003e", "templateclusterid": "31472775-93c3-4fcc-ae97-892f0d38409c", "templateclustername": "", "type": "mcq", "vaultid": "2d48de32-0de3-4478-8545-a8537cfecd98"}, "createDate": 1691007959322, "difficulty": "E", "external_id": "114e4b2d-8d06-4afa-bc3d-1b27cc0e7446", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "ea971260", "score_band_range_cd": 3, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "69ec77e4-c7d7-4efe-9a81-1ce5e38048f9", "updateDate": 1691007959322};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-ea971260");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

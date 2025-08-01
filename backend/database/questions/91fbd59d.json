@@ -1,0 +1,22 @@
+{
+  "question_id": "91fbd59d",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Award-winning cinematographer James Wong Howe was known for his innovative filming techniques. While filming a boxing match for the movie Body and Soul ______ blank Howe had a handheld camera operator wear roller skates. This allowed the operator to move smoothly around actors in a boxing ring, creating an immersive experience for viewers.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "(1947), and",
+    "(1947),",
+    "(1947) and",
+    "(1947)"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is punctuation between a supplementary element and a main clause. This choice correctly uses a comma to mark the boundary between the supplementary phrase (\"While...1947\"), which indicates when the action occurred, and the main clause (\"Howe had a handheld camera operator wear roller skates\").",
+    "A": "Choice A is incorrect because a comma paired with the conjunction \"and\" can't be used in this way to mark the boundary between the supplementary element (\"While&hellip;1947\") and the main clause (\"Howe&hellip;skates\").",
+    "C": "Choice C is incorrect because the conjunction \"and\" can't be used in this way to join the supplementary element (\"While&hellip;1947\") and the main clause (\"Howe&hellip;skates\").",
+    "D": "Choice D is incorrect because it fails to mark the boundary between the supplementary element and the main clause with appropriate punctuation."
+  }
+}

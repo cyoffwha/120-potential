@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 8a8236e1</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Scent is tightly interwoven with our daily lives, often evoking significant memories and important social events. This connection is of growing interest to archaeologists who hope to use it to better understand ancient rituals, trade, social hierarchies, and medicine. Although the speed at which odor molecules dissipate makes identifying ancient scents challenging, advancements in biomolecular technologies show promise in unlocking ancient aromas from preserved artifacts. Archaeological studies making use of these advancements may provide new insights into past societies.</p></div>
+
+                        <div class="mt-3"><p>According to the text, what is one reason some archaeologists are interested in recovering scents from ancient artifacts?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They are investigating whether people&rsquo;s sense of smell has declined in recent centuries.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They believe the scents could illuminate important aspects of ancient life.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They think that ancient scents would be enjoyable to people today.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>They hope to develop new medicines using ancient scent molecules.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The text states that archaeologists are interested in using scents to better understand "ancient rituals, trade, social hierarchies, and medicine," all of which are important aspects of ancient life.</p><p>Choice A is incorrect. The text doesn&rsquo;t say anything about investigating if people&rsquo;s sense of smell has declined in recent centuries. It says that scents fade over time&mdash;not that people have gotten worse at smelling scents. Choice C is incorrect. The text says that archaeologists are interested in using scents to better understand "ancient rituals, trade, social hierarchies, and medicine," but it doesn&rsquo;t say anything about ancient scents being enjoyable to people today. Choice D is incorrect. The text doesn&rsquo;t say anything about developing new medicines. Rather, it says that archaeologists are interested in using scents to better understand "ancient rituals, trade, social hierarchies, and medicine."</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">47 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThey are investigating whether people\u0026rsquo;s sense of smell has declined in recent centuries.\u003c/p\u003e", "id": "60777291-4d85-424c-b6bd-2eae10594bae"}, {"content": "\u003cp\u003eThey believe the scents could illuminate important aspects of ancient life.\u003c/p\u003e", "id": "77610e10-7026-4478-9505-91d4916d8ef1"}, {"content": "\u003cp\u003eThey think that ancient scents would be enjoyable to people today.\u0026nbsp;\u003c/p\u003e", "id": "882179c8-a5ea-460b-88ab-27b7fdf86c73"}, {"content": "\u003cp\u003eThey hope to develop new medicines using ancient scent molecules.\u0026nbsp;\u003c/p\u003e", "id": "c0cc6eb6-8f40-423f-ba0c-752b07326757"}], "correct_answer": ["B"], "externalid": "c64a25c2-99cd-485d-b5c7-8c0aa9f6ce6f", "keys": ["77610e10-7026-4478-9505-91d4916d8ef1"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CID-E008", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The text states that archaeologists are interested in using scents to better understand \"ancient rituals, trade, social hierarchies, and medicine,\" all of which are important aspects of ancient life.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. The text doesn\u0026rsquo;t say anything about investigating if people\u0026rsquo;s sense of smell has declined in recent centuries. It says that scents fade over time\u0026mdash;not that people have gotten worse at smelling scents. Choice C is incorrect. The text says that archaeologists are interested in using scents to better understand \"ancient rituals, trade, social hierarchies, and medicine,\" but it doesn\u0026rsquo;t say anything about ancient scents being enjoyable to people today. Choice D is incorrect. The text doesn\u0026rsquo;t say anything about developing new medicines. Rather, it says that archaeologists are interested in using scents to better understand \"ancient rituals, trade, social hierarchies, and medicine.\"\u003c/p\u003e", "stem": "\u003cp\u003eAccording to the text, what is one reason some archaeologists are interested in recovering scents from ancient artifacts?\u003c/p\u003e", "stimulus": "\u003cp\u003eScent is tightly interwoven with our daily lives, often evoking significant memories and important social events. This connection is of growing interest to archaeologists who hope to use it to better understand ancient rituals, trade, social hierarchies, and medicine. Although the speed at which odor molecules dissipate makes identifying ancient scents challenging, advancements in biomolecular technologies show promise in unlocking ancient aromas from preserved artifacts. Archaeological studies making use of these advancements may provide new insights into past societies.\u003c/p\u003e", "templateclusterid": "9324eb58-7e24-4fe1-ba8b-85a3b8766dde", "templateclustername": "", "type": "mcq", "vaultid": "e0887e1e-50c9-4c19-b249-01a093d1d492"}, "createDate": 1691007959359, "difficulty": "E", "external_id": "c64a25c2-99cd-485d-b5c7-8c0aa9f6ce6f", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "8a8236e1", "score_band_range_cd": 3, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "24d94593-92e9-4e5e-8707-03a11f9c639b", "updateDate": 1691007959359};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-8a8236e1");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

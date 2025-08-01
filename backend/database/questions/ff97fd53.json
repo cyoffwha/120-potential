@@ -1,0 +1,22 @@
+{
+  "question_id": "ff97fd53",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 1973, poet Miguel Algar&iacute;n started inviting other writers who, like him, were Nuyorican—a term for New Yorkers of Puerto Rican heritage—to gather in his apartment to present their work. The gatherings were so well attended that Algar&iacute;n soon had to rent space in a cafe to accommodate them. Thus, the Nuyorican Poets Cafe was born. Moving to a permanent location in 1981, the Nuyorican Poets Cafe expanded its original scope beyond the written word, hosting art exhibitions and musical performances as well. Half a century since its inception, it continues to foster emerging Nuyorican talent.",
+  "question_text": "Which choice best describes the overall purpose of the text?",
+  "answer_options": [
+    "To explain what motivated Algar&iacute;n to found the Nuyorican Poets Cafe",
+    "To situate the Nuyorican Poets Cafe within the cultural life of New York as a whole",
+    "To discuss why the Nuyorican Poets Cafe expanded its scope to include art and music",
+    "To provide an overview of the founding and mission of the Nuyorican Poets Cafe"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text presents a brief history of the Nuyorican Poets Cafe, from how it got started in the '70s, to its expansion in the '80s, to its ongoing mission today.",
+    "A": "Choice A is incorrect. This isn't the overall purpose. The text never mentions Algar&iacute;n's motivations.",
+    "B": "Choice B is incorrect. This isn't the overall purpose. The text never discusses the cultural life of New York as a whole.",
+    "C": "Choice C is incorrect. This is too narrow. One sentence mentions that the Nuyorican Poets Cafe expanded its scope to include art and music, but this is only one point in the broader history of the Nuyorican Poets Cafe, which is the overall focus of the text."
+  }
+}

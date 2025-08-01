@@ -1,0 +1,22 @@
+{
+  "question_id": "c8540a5b",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Swedish scientists Eva Engvall and Peter Perlmann developed a method for measuring the concentration of different proteins in a biological sample. Their ______ blank ELISA (enzyme-linked immunosorbent assay), is used to detect and measure proteins that indicate the presence of certain diseases.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "method (called",
+    "method&mdash;called",
+    "method, called",
+    "method called"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. The comma after \"method\" pairs with the comma after the closing parenthesis to separate the supplementary element \"called ELISA (enzyme-linked immunosorbent assay)\" from the rest of the sentence. This supplementary element functions to identify the name of Engvall and Perlmann's method, and the pair of commas indicates that this element could be removed without affecting the grammatical coherence of the sentence.",
+    "A": "Choice A is incorrect because an opening parenthesis can't be paired with a comma to separate the supplementary element from the rest of the sentence.",
+    "B": "Choice B is incorrect because a dash can't be paired with a comma to separate the supplementary element from the rest of the sentence.",
+    "D": "Choice D is incorrect because it fails to use appropriate punctuation to separate the supplementary element from the rest of the sentence."
+  }
+}

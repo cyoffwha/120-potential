@@ -1,0 +1,22 @@
+{
+  "question_id": "d2b81427",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In assessing the films of Japanese director Akira Kurosawa, ______ blank have missed his equally deep engagement with Japanese artistic traditions such as Noh theater.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "many critics have focused on Kurosawa&rsquo;s use of Western literary sources but&nbsp;",
+    "Kurosawa&rsquo;s use of Western literary sources has been the focus of many critics, who",
+    "there are many critics who have focused on Kurosawa&rsquo;s use of Western literary sources, but they",
+    "the focus of many critics has been on Kurosawa&rsquo;s use of Western literary sources; they"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase \"many critics\" the subject of the sentence and places it immediately after the modifying phrase \"in assessing&hellip;Kurosawa.\" In doing so, this choice clearly establishes that it is the critics—and not another noun in the sentence—who assess Kurosawa's films.",
+    "B": "Choice B is incorrect because it results in a dangling modifier. The placement of the noun phrase \"Kurosawa's&hellip;sources\" immediately after the modifying phrase illogically suggests that his use of Western literary sources is what assesses Kurosawa's films.",
+    "C": "Choice C is incorrect because it results in a dangling modifier. The placement of the function word \"there\" immediately after the modifying phrase illogically suggests that \"there\" is what assesses Kurosawa's films.",
+    "D": "Choice D is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the focus&hellip;critics\" immediately after the modifying phrase illogically suggests that the critics' focus is what assesses Kurosawa's films."
+  }
+}

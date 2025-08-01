@@ -1,0 +1,22 @@
+{
+  "question_id": "ed314256",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "The most recent iteration of the immersive theater experience Sleep No More , which premiered in New York City in 2011, transforms its performance space—a five-story warehouse—into a 1930s-era hotel. Audience members, who wander through the labyrinthine venue at their own pace and follow the actors as they play out simultaneous, interweaving narrative loops, confront the impossibility of experiencing the production in its entirety. The play's refusal of narrative coherence thus hinges on the sense of spatial fragmentation that the venue's immense and intricate layout generates.",
+  "question_text": "What does the text most strongly suggest about  Sleep No More &rsquo;s use of its performance space?&nbsp;",
+  "answer_options": [
+    "The choice of a New York City venue likely enabled the play&rsquo;s creators to experiment with the use of theatrical space in a way that venues from earlier productions could not.&nbsp;",
+    "Audience members likely find the experience of the play disappointing because they generally cannot make their way through the entire venue.",
+    "The production&rsquo;s dependence on a particular performance environment would likely make it difficult to reproduce exactly in a different theatrical space.&nbsp;",
+    "Audience members who navigate the space according to a recommended itinerary will likely have a better grasp of the play&rsquo;s narrative than audience members who depart from that itinerary."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The text says that the production's use of its large, winding space has a very specific effect on the audience. Given that the space itself is so important to creating this effect, it would be difficult to reproduce the production in a different space.",
+    "A": "Choice A is incorrect. The fact that the venue is in New York City isn't connected to the experimental nature of the performance. It's the size of the venue, not its location in New York, that affects the theatrical experience.",
+    "B": "Choice B is incorrect. The text never suggests that audience members are disappointed because they can't see the entire production. In fact, it suggests that that's an important part of the experience.",
+    "D": "Choice D is incorrect. The text doesn't mention a recommended itinerary for audience members."
+  }
+}

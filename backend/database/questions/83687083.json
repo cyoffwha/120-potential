@@ -1,0 +1,22 @@
+{
+  "question_id": "83687083",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Due to their often strange images, highly experimental syntax, and opaque subject matter, many of John Ashbery's poems can be quite difficult to ______ blank and thus are the object of heated debate among scholars.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "delegate",
+    "compose",
+    "interpret",
+    "renounce"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most logically completes the text's discussion of John Ashbery's poems. As used in this context, \"interpret\" would mean decipher the meaning of. The text indicates that Ashbery's poems have many unusual features, that it's difficult to tell what exactly the poems' subject matter is, and that scholars strongly disagree about the poems. This context conveys the idea that it's difficult to interpret Ashbery's poems.",
+    "A": "Choice A is incorrect because \"delegate\" means to assign someone as a representative of another person or to entrust something to someone else, neither of which would make sense in context. The text is focused only on the difficulty that readers have interpreting Ashbery's poems due to their many unusual features; it doesn't suggest anything about the poems being difficult to delegate.",
+    "B": "Choice B is incorrect because describing Ashbery's poems as difficult to \"compose,\" or put together or produce, would make sense only if the text were about Ashbery's experience of writing the poems. It could be true that it was difficult for Ashbery to compose his poems, but the text doesn't address this; it instead discusses how readers interpret and engage with the poems.",
+    "D": "Choice D is incorrect because describing Ashbery's poems as being difficult to \"renounce,\" or give up or refuse, wouldn't make sense in context. The text focuses on the idea that features of Ashbery's poems are odd or unclear and have caused heated scholarly debate. This context suggests that the poems are difficult to interpret, not that the poems are difficult to renounce."
+  }
+}

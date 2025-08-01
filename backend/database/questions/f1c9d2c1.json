@@ -1,0 +1,22 @@
+{
+  "question_id": "f1c9d2c1",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Text 1 Stage lighting theorist Adolphe Appia was perhaps the first to argue that light must be considered alongside all the various elements of a stage to create a single, unified performance. Researcher Kelly Bremner, however, has noted that Appia lacked technical expertise in the use of light in the theater. As a result of Appia's inexperience, Bremner argues, Appia's theory of light called for lighting practices that weren't possible until after the advent of electricity around 1881. Text 2 Adolphe Appia was not an amateur in the practice of lighting. Instead, it is precisely his exposure to lighting techniques at the time that contributed to his theory on the importance of light. When working as an apprentice for a lighting specialist in his youth, Appia observed the use of portable lighting devices that could be operated by hand. This experience developed his understanding of what was possible in the coordination of elements on the stage.",
+  "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the claim about Appia&rsquo;s level of technical expertise made by Bremner in Text 1?",
+  "answer_options": [
+    "Many lighting technicians dismissed Appia&rsquo;s ideas about light on the stage.",
+    "Appia likely gained a level of technical expertise during his time as an apprentice.",
+    "Theater practitioners who worked with Appia greatly admired his work.",
+    "Appia was unfamiliar with the use of music and sound in theater."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The author of Text 2 directly contradicts Bremner's claim that Appia lacked technical expertise by stating that Appia was \"not an amateur in the practice of lighting.\" His experience as a lighting specialist's apprentice would have, the author of Text 2 argues, allowed Appia to \"[develop] his understanding of what was possible\" with the elements of theatrical design.",
+    "A": "Choice A is incorrect. Neither text describes how other lighting technicians responded to Appia's ideas. Furthermore, this claim isn't relevant to Bremner's evaluation of Appia's technical expertise.",
+    "C": "Choice C is incorrect. Neither text mentions anything about the opinions of theater practitioners who worked with Appia, so this answer choice does not relate to the claim about Appia's level of technical expertise made by Bremner in Text 1.",
+    "D": "Choice D is incorrect. Neither text mentions anything about Appia's familiarity with or ignorance of the use of music and sound in theater. Both focus on his expertise (or lack thereof) in lighting."
+  }
+}

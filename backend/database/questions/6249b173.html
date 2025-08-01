@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 6249b173</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>In 2018 researchers Adwait Deshpande, Shreejata Gupta, and Anindya Sinha were observing wild macaques in India&rsquo;s Bandipur National Park.</li>
+<li>They saw macaques calling out to and gesturing at humans who were eating or carrying food.</li>
+<li>They designed a study to find out if the macaques were intentionally communicating to try to persuade the humans to share their food.</li>
+<li>In the study trials, macaques frequently called out to and gestured at humans holding food.</li>
+<li>In the study trials, macaques called out to and gestured at empty-handed humans less frequently.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to present the study&rsquo;s results. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Macaques in the study called out to and gestured more frequently at humans holding food than at empty-handed humans.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In 2018, researchers who had observed macaques in India&rsquo;s Bandipur National Park calling out to and gesturing at humans designed a study.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The researchers hoped to find out if the macaques were intentionally communicating to try to persuade humans to share their food.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The researchers studied how macaques behaved around both humans holding food and empty-handed humans.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. This choice presents the study&rsquo;s results from the last two bullet points. </p><p>Choice B is incorrect. This choice describes the background and motivation of the study but not the outcome or findings. Choice C is incorrect. This choice describes the research question or hypothesis of the study but not the evidence or conclusion. Choice D is incorrect. This choice describes the method or design of the study but not the actual results. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">580 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eMacaques in the study called out to and gestured more frequently at humans holding food than at empty-handed humans.\u003c/p\u003e", "id": "87400934-ccfb-4e5b-8902-e9385f91bafb"}, {"content": "\u003cp\u003eIn 2018, researchers who had observed macaques in India\u0026rsquo;s Bandipur National Park calling out to and gesturing at humans designed a study.\u003c/p\u003e", "id": "6d721db5-d819-49b0-98c8-e0f5b0180fb8"}, {"content": "\u003cp\u003eThe researchers hoped to find out if the macaques were intentionally communicating to try to persuade humans to share their food.\u003c/p\u003e", "id": "5716b23b-2922-4bee-9574-645566558996"}, {"content": "\u003cp\u003eThe researchers studied how macaques behaved around both humans holding food and empty-handed humans.\u003c/p\u003e", "id": "12aaa01a-b84a-4119-a522-c92122b09f6d"}], "correct_answer": ["A"], "externalid": "79bc06dd-c018-47ad-b4a1-8672599b0cdf", "keys": ["87400934-ccfb-4e5b-8902-e9385f91bafb"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-SYN-M009", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. This choice presents the study\u0026rsquo;s results from the last two bullet points. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. This choice describes the background and motivation of the study but not the outcome or findings. Choice C is incorrect. This choice describes the research question or hypothesis of the study but not the evidence or conclusion. Choice D is incorrect. This choice describes the method or design of the study but not the actual results. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to present the study\u0026rsquo;s results. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIn 2018 researchers Adwait Deshpande, Shreejata Gupta, and Anindya Sinha were observing wild macaques in India\u0026rsquo;s Bandipur National Park.\u003c/li\u003e\n\u003cli\u003eThey saw macaques calling out to and gesturing at humans who were eating or carrying food.\u003c/li\u003e\n\u003cli\u003eThey designed a study to find out if the macaques were intentionally communicating to try to persuade the humans to share their food.\u003c/li\u003e\n\u003cli\u003eIn the study trials, macaques frequently called out to and gestured at humans holding food.\u003c/li\u003e\n\u003cli\u003eIn the study trials, macaques called out to and gestured at empty-handed humans less frequently.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "294c2172-3b46-43f2-a57d-7347863db336", "templateclustername": "", "type": "mcq", "vaultid": "a4ed1e61-4733-46e4-89dc-67d2f527f4d9"}, "createDate": 1691007959372, "difficulty": "M", "external_id": "79bc06dd-c018-47ad-b4a1-8672599b0cdf", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "6249b173", "score_band_range_cd": 5, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "2fc06986-7199-4b20-9bf4-6885c467f376", "updateDate": 1691007959372};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-6249b173");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

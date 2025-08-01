@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 6a1194e8</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Rydra Wong, the protagonist of Samuel R. Delany&rsquo;s 1966 novel <em>Babel-17</em>, is a poet, an occupation which, in Delany&rsquo;s work, is not <span aria-hidden="true">______</span><span class="sr-only">blank</span>: nearly a dozen of the characters that populate his novels are poets or writers.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>infallible</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>atypical</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>lucrative</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>tedious</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it most logically completes the text&rsquo;s discussion of Samuel R. Delany&rsquo;s character Rydra Wong. As used in this context, &ldquo;atypical&rdquo; would mean unrepresentative or not common. The text indicates that Wong is one of &ldquo;nearly a dozen&rdquo; characters in Delany&rsquo;s novels who are poets or writers. This context conveys that being a poet isn&rsquo;t an atypical occupation for a character in one of Delany&rsquo;s works. &nbsp;</p><p>Choice A is incorrect because &ldquo;infallible&rdquo; means to be accurate or without fault, which wouldn&rsquo;t make sense in context. The text focuses on the fact that Delany has written many characters who are poets and writers. This context suggests that the occupation isn&rsquo;t atypical for Delany, not that the occupation isn&rsquo;t infallible, or problematic.&nbsp;Choice C is incorrect because &ldquo;lucrative&rdquo; means to be profitable, which wouldn&rsquo;t make sense in context. If writing poet characters weren&rsquo;t profitable, it wouldn&rsquo;t be logical to explain this by citing that Delany gave many of his characters the same occupation.&nbsp;Choice D is incorrect because &ldquo;tedious&rdquo; means to be boring, which wouldn&rsquo;t make sense in context. The text focuses on the fact that Delany has written many characters who are poets and writers. This context suggests that the occupation isn&rsquo;t atypical for Delany, not that the occupation isn&rsquo;t tedious. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">510 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003einfallible\u003c/p\u003e", "id": "03850d8d-13ee-4e47-9d72-b4154b012a21"}, {"content": "\u003cp\u003eatypical\u003c/p\u003e", "id": "2528d221-6657-4215-917e-1f8f4d47985e"}, {"content": "\u003cp\u003elucrative\u003c/p\u003e", "id": "6f070f1a-f5e6-4ff5-89a4-a0b7e992ac77"}, {"content": "\u003cp\u003etedious\u003c/p\u003e", "id": "a52780da-0937-47a3-92b0-bf1a1ae19234"}], "correct_answer": ["B"], "externalid": "e350387d-e07d-4cbb-aff6-846184c9dc92", "keys": ["2528d221-6657-4215-917e-1f8f4d47985e"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-925-WIC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it most logically completes the text\u0026rsquo;s discussion of Samuel R. Delany\u0026rsquo;s character Rydra Wong. As used in this context, \u0026ldquo;atypical\u0026rdquo; would mean unrepresentative or not common. The text indicates that Wong is one of \u0026ldquo;nearly a dozen\u0026rdquo; characters in Delany\u0026rsquo;s novels who are poets or writers. This context conveys that being a poet isn\u0026rsquo;t an atypical occupation for a character in one of Delany\u0026rsquo;s works. \u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because \u0026ldquo;infallible\u0026rdquo; means to be accurate or without fault, which wouldn\u0026rsquo;t make sense in context. The text focuses on the fact that Delany has written many characters who are poets and writers. This context suggests that the occupation isn\u0026rsquo;t atypical for Delany, not that the occupation isn\u0026rsquo;t infallible, or problematic.\u0026nbsp;Choice C is incorrect because \u0026ldquo;lucrative\u0026rdquo; means to be profitable, which wouldn\u0026rsquo;t make sense in context. If writing poet characters weren\u0026rsquo;t profitable, it wouldn\u0026rsquo;t be logical to explain this by citing that Delany gave many of his characters the same occupation.\u0026nbsp;Choice D is incorrect because \u0026ldquo;tedious\u0026rdquo; means to be boring, which wouldn\u0026rsquo;t make sense in context. The text focuses on the fact that Delany has written many characters who are poets and writers. This context suggests that the occupation isn\u0026rsquo;t atypical for Delany, not that the occupation isn\u0026rsquo;t tedious. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eRydra Wong, the protagonist of Samuel R. Delany\u0026rsquo;s 1966 novel \u003cem\u003eBabel-17\u003c/em\u003e, is a poet, an occupation which, in Delany\u0026rsquo;s work, is not \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e: nearly a dozen of the characters that populate his novels are poets or writers.\u003c/p\u003e", "templateclusterid": "0cb0d687-a000-4373-a615-7872ebfba65d", "templateclustername": "", "type": "mcq", "vaultid": "6993fa5b-03ce-42a9-b064-51132e09d661"}, "createDate": 1691007959355, "difficulty": "M", "external_id": "e350387d-e07d-4cbb-aff6-846184c9dc92", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "6a1194e8", "score_band_range_cd": 4, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "d8224fde-312b-48f7-b1b6-26cbb82e36b1", "updateDate": 1691007959355};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-6a1194e8");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

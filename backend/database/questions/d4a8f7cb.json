@@ -1,0 +1,22 @@
+{
+  "question_id": "d4a8f7cb",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Dance choreographer Jawole Willa Jo Zollar aims to give people the opportunity to be ______ blank her creative process. For example, live performances of her dance HairStories , which debuted in 2001, featured videos of people across the United States talking about their hair and audience members sharing pictures of their interesting hairstyles.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "nervous about",
+    "completed by",
+    "delayed by",
+    "involved in"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"Involved in\" means \"playing an active role in.\" This fits the context clues describing how Zollar includes the audience in her shows by incorporating their stories and pictures.",
+    "A": "Choice A is incorrect. \"Nervous\" means \"worried or anxious about.\" Nothing in the text suggests that people would be nervous about Zollar's creative process.",
+    "B": "Choice B is incorrect. \"Completed by\" means \"made whole by.\" It doesn't make sense to say that Zollar's shows would make her audience complete.",
+    "C": "Choice C is incorrect. \"Delayed by\" means \"made late by.\" Nothing in the text suggests that people would be delayed by Zollar's creative process."
+  }
+}

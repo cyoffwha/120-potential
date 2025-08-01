@@ -1,0 +1,22 @@
+{
+  "question_id": "e3edc138",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In a heated debate in biogeography, the field is divided between dispersalists and vicariancists. ______ blank there are those who argue that dispersal is the most crucial determining factor in a species' distribution, and those who insist that vicariance (separation due to geographic barriers) is. Biogeographer Isabel Sanmart&iacute;n counts herself among neither.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Furthermore,",
+    "By contrast,",
+    "Similarly,",
+    "That is,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"That is\" logically signals that this sentence clarifies the terms of the scientific debate introduced in the previous sentence by explaining the difference between dispersalists and vicariancists.",
+    "A": "Choice A is incorrect because \"furthermore\" illogically signals that the information in this sentence is merely additional to (and separate from) the information in the previous sentence about the scientific debate. Instead, the information about dispersalists and vicariancists clarifies the terms of that debate.",
+    "B": "Choice B is incorrect because \"by contrast\" illogically signals that the information in this sentence contrasts with the information in the previous sentence about the scientific debate. Instead, the information about dispersalists and vicariancists clarifies the terms of that debate.",
+    "C": "Choice C is incorrect because \"similarly\" illogically signals that the information in this sentence is merely similar to the information in the previous sentence about the scientific debate. Instead, the information about dispersalists and vicariancists clarifies the terms of that debate."
+  }
+}

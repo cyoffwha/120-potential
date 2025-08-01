@@ -1,0 +1,22 @@
+{
+  "question_id": "f8ca5766",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Nigerian American author Teju Cole's ______ blank his two passions—photography and the written word—culminates in his 2017 book, Blind Spot , which evocatively combines his original photographs from his travels with his poetic prose.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "indifference to",
+    "enthusiasm for",
+    "concern about",
+    "surprise at"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of Cole's book Blind Spot . In this context, \"enthusiasm for\" means excitement about. The text explains that Blind Spot consists of original photographs as well as poetic prose—two elements that correspond to Cole's passions, identified in the text, for photography and the written word. This context suggests that Cole's excitement about photography and writing led him to create a book that successfully combines the two mediums.",
+    "A": "Choice A is incorrect because describing Cole as feeling \"indifference to\" his two passions wouldn't make sense in context. If Cole is indifferent to his passions, that would mean he doesn't care about photography or writing—in which case they wouldn't be his passions at all.",
+    "C": "Choice C is incorrect because there's nothing in the text to suggest that Cole feels \"concern about,\" or uneasiness about, his passions. The text's use of the word \"culminates\" indicates that Blind Spot represents a triumphant climax of Cole's passions, not a work that results from his sense of discomfort with photography and writing.",
+    "D": "Choice D is incorrect because there's nothing in the text to suggest that Cole feels \"surprise at,\" or astonished by, his passions. The text indicates that Cole's feeling about his passions \"culminates\" in a book that \"evocatively\" combines photographs and writing, suggesting that Cole has a long-standing and skillful relationship to his passions, not that he is startled by them."
+  }
+}

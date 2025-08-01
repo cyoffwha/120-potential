@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question d6dec50e</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>In 2019, Emily Shepard and colleagues in the UK and Germany studied the effect of wind on auks&rsquo; success in landing at cliffside nesting sites.</li>
+<li>They found as wind conditions intensified, the birds needed more attempts in order to make a successful landing.</li>
+<li>When the wind was still, almost 100% of landing attempts were successful.</li>
+<li>In a strong breeze, approximately 40% of attempts were successful.</li>
+<li>In near-gale conditions, only around 20% of attempts were successful.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to summarize the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For a 2019 study, researchers from the UK and Germany collected data on auks&rsquo; attempts to land at cliffside nesting sites in different wind conditions.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Emily Shepard and her colleagues wanted to know the extent to which wind affected auks&rsquo; success in landing at cliffside nesting sites, so they conducted a study.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Knowing that auks often need multiple attempts to land at their cliffside nesting sites, Emily Shepard studied the birds&rsquo; success rate, which was only around 20% in some conditions.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Emily Shepard&rsquo;s 2019 study of auks&rsquo; success in landing at cliffside nesting sites showed that as wind conditions intensified, the birds&rsquo; success rate decreased.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The sentence effectively summarizes the study, noting who conducted it, when it was conducted, and what its results showed: that auks&rsquo; landing success rate decreased as wind conditions intensified. </p><p>Choice A is incorrect. While the sentence presents the methodology of the study&mdash;that is, the approach taken by the researchers&mdash;it fails to summarize the study as a whole. Choice B is incorrect. While the sentence presents the aim, or goal, of the study, it fails to summarize the study as a whole. Choice C is incorrect. While the sentence indicates what Shepard studied, it fails to mention a key factor: the effect of wind. It thus fails to summarize the study as a whole. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">602 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eFor a 2019 study, researchers from the UK and Germany collected data on auks\u0026rsquo; attempts to land at cliffside nesting sites in different wind conditions.\u003c/p\u003e", "id": "b936f111-574e-4eeb-b222-8c563b2cd2dd"}, {"content": "\u003cp\u003eEmily Shepard and her colleagues wanted to know the extent to which wind affected auks\u0026rsquo; success in landing at cliffside nesting sites, so they conducted a study.\u003c/p\u003e", "id": "83dd8bfc-eb4e-4bfa-abed-17fa1366e445"}, {"content": "\u003cp\u003eKnowing that auks often need multiple attempts to land at their cliffside nesting sites, Emily Shepard studied the birds\u0026rsquo; success rate, which was only around 20% in some conditions.\u003c/p\u003e", "id": "4c091cda-eff9-45b9-a661-921aab01de2f"}, {"content": "\u003cp\u003eEmily Shepard\u0026rsquo;s 2019 study of auks\u0026rsquo; success in landing at cliffside nesting sites showed that as wind conditions intensified, the birds\u0026rsquo; success rate decreased.\u003c/p\u003e", "id": "131c861b-16fd-4651-a62c-58f244d2ff1d"}], "correct_answer": ["D"], "externalid": "9ea90b3d-ac35-409c-a561-ecb68172fc2b", "keys": ["131c861b-16fd-4651-a62c-58f244d2ff1d"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-750-SYN", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The sentence effectively summarizes the study, noting who conducted it, when it was conducted, and what its results showed: that auks\u0026rsquo; landing success rate decreased as wind conditions intensified. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. While the sentence presents the methodology of the study\u0026mdash;that is, the approach taken by the researchers\u0026mdash;it fails to summarize the study as a whole. Choice B is incorrect. While the sentence presents the aim, or goal, of the study, it fails to summarize the study as a whole. Choice C is incorrect. While the sentence indicates what Shepard studied, it fails to mention a key factor: the effect of wind. It thus fails to summarize the study as a whole. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to summarize the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIn 2019, Emily Shepard and colleagues in the UK and Germany studied the effect of wind on auks\u0026rsquo; success in landing at cliffside nesting sites.\u003c/li\u003e\n\u003cli\u003eThey found as wind conditions intensified, the birds needed more attempts in order to make a successful landing.\u003c/li\u003e\n\u003cli\u003eWhen the wind was still, almost 100% of landing attempts were successful.\u003c/li\u003e\n\u003cli\u003eIn a strong breeze, approximately 40% of attempts were successful.\u003c/li\u003e\n\u003cli\u003eIn near-gale conditions, only around 20% of attempts were successful.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "88d66f26-87a2-4945-a657-020b07ab922f", "templateclustername": "", "type": "mcq", "vaultid": "319c0cb3-8aa1-4c68-88b0-486d19831e5f"}, "createDate": 1691007959350, "difficulty": "M", "external_id": "9ea90b3d-ac35-409c-a561-ecb68172fc2b", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "d6dec50e", "score_band_range_cd": 4, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "58914316-6a2c-4a2d-aeeb-cf2034f916de", "updateDate": 1691007959350};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-d6dec50e");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

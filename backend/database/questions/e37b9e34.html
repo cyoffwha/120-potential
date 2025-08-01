@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e37b9e34</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Some researchers believe that the genes that enable groundhogs and certain other mammals to hibernate through the winter by slowing their breathing and heart rates and lowering their body temperature may be <span aria-hidden="true">______</span><span class="sr-only">blank</span> in humans: present yet having essentially no effect on our bodily processes.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>decisive</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>lacking</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>variable</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>dormant</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it logically completes the text&rsquo;s discussion about genes related to hibernation. In this context, &ldquo;dormant&rdquo; means inactive. The text explains that the same genes that enable certain nonhuman mammal species to hibernate during the winter by altering their bodily processes are also found in our species but have &ldquo;essentially no effect&rdquo; on humans&rsquo; bodily processes. In other words, these genes don&rsquo;t function in humans. </p><p>Choice A is incorrect because in this context, &ldquo;decisive&rdquo; means has the power to affect the outcome of something, but the text states that genes related to hibernation are instead inactive in humans&mdash;that is, the genes don&rsquo;t affect humans&rsquo; bodily processes, although they are present in their bodies.&nbsp;Choice B is incorrect because in this context, &ldquo;lacking&rdquo; means missing, but the text states that the genes are present in humans, though inactive. Choice C is incorrect because &ldquo;variable&rdquo; means characterized by the potential to change, but the text indicates that these genes don&rsquo;t change in their effect on humans&rsquo; bodily processes; instead, the genes are consistently inactive in humans. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">449 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003edecisive\u003c/p\u003e", "id": "473ea2a8-8f1a-4f71-aa26-ef7cb3e829e7"}, {"content": "\u003cp\u003elacking\u003c/p\u003e", "id": "a33842ed-6270-45c8-b5cf-b4c1f7debbcd"}, {"content": "\u003cp\u003evariable\u003c/p\u003e", "id": "733896ef-24ea-4936-a348-8011e9a383c9"}, {"content": "\u003cp\u003edormant\u003c/p\u003e", "id": "3e502a42-074a-4b99-991e-3c262af0abc9"}], "correct_answer": ["D"], "externalid": "24e1b704-452c-4aee-9a4a-ed63134e1c83", "keys": ["3e502a42-074a-4b99-991e-3c262af0abc9"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-915-WIC", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it logically completes the text\u0026rsquo;s discussion about genes related to hibernation. In this context, \u0026ldquo;dormant\u0026rdquo; means inactive. The text explains that the same genes that enable certain nonhuman mammal species to hibernate during the winter by altering their bodily processes are also found in our species but have \u0026ldquo;essentially no effect\u0026rdquo; on humans\u0026rsquo; bodily processes. In other words, these genes don\u0026rsquo;t function in humans. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because in this context, \u0026ldquo;decisive\u0026rdquo; means has the power to affect the outcome of something, but the text states that genes related to hibernation are instead inactive in humans\u0026mdash;that is, the genes don\u0026rsquo;t affect humans\u0026rsquo; bodily processes, although they are present in their bodies.\u0026nbsp;Choice B is incorrect because in this context, \u0026ldquo;lacking\u0026rdquo; means missing, but the text states that the genes are present in humans, though inactive. Choice C is incorrect because \u0026ldquo;variable\u0026rdquo; means characterized by the potential to change, but the text indicates that these genes don\u0026rsquo;t change in their effect on humans\u0026rsquo; bodily processes; instead, the genes are consistently inactive in humans. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eSome researchers believe that the genes that enable groundhogs and certain other mammals to hibernate through the winter by slowing their breathing and heart rates and lowering their body temperature may be \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e in humans: present yet having essentially no effect on our bodily processes.\u003c/p\u003e", "templateclusterid": "7ae8fb2e-9cc3-4490-abe5-cede714645d4", "templateclustername": "", "type": "mcq", "vaultid": "041af717-c0cd-4e96-a357-c28d3fdd100f"}, "createDate": 1691007959354, "difficulty": "M", "external_id": "24e1b704-452c-4aee-9a4a-ed63134e1c83", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "e37b9e34", "score_band_range_cd": 4, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "aa8b0296-f381-4835-822f-248d14b47943", "updateDate": 1691007959354};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e37b9e34");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

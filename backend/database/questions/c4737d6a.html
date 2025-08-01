@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question c4737d6a</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><strong>Text 1</strong></p>
+<p>Africa&rsquo;s Sahara region&mdash;once a lush ecosystem&mdash;began to dry out about 8,000 years ago. A change in Earth&rsquo;s orbit that affected climate has been posited as a cause of desertification, but archaeologist David Wright also attributes the shift to Neolithic peoples. He cites their adoption of pastoralism as a factor in the region drying out: the pastoralists&rsquo; livestock depleted vegetation, prompting the events that created the Sahara Desert.</p>
+<p><strong>Text 2</strong></p>
+<p>Research by Chris Brierley et al. challenges the idea that Neolithic peoples contributed to the Sahara&rsquo;s desertification. Using a climate-vegetation model, the team concluded that the end of the region&rsquo;s humid period occurred 500 years earlier than previously assumed. The timing suggests that Neolithic peoples didn&rsquo;t exacerbate aridity in the region but, in fact, may have helped delay environmental changes with practices (e.g., selective grazing) that preserved vegetation.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, how would Chris Brierley (Text 2) most likely respond to the discussion in Text 1?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By pointing out that given the revised timeline for the end of the Sahara&rsquo;s humid period, the Neolithic peoples&rsquo; mode of subsistence likely didn&rsquo;t cause the region&rsquo;s desertification</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By claiming that pastoralism was only one of many behaviors the Neolithic peoples took part in that may have contributed to the Sahara&rsquo;s changing climate</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By insisting that pastoralism can have both beneficial and deleterious effects on a region&rsquo;s vegetation and climate</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By asserting that more research needs to be conducted into factors that likely contributed to the desertification of the Sahara region</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. Brierley et al.&rsquo;s research directly challenges Wright&rsquo;s claim that pastoralism turned the Sahara into a desert, suggesting that, in a Sahara that turned arid 500 years earlier than previously thought, pastoral practices may have actually &ldquo;preserved vegetation&rdquo; rather than depleting it. </p><p>Choice B is incorrect. Brierley et al.&rsquo;s research actually disputes the idea that any Neolithic peoples&rsquo; behaviors, including pastoralism, could have contributed to the Sahara&rsquo;s changing climate. In fact, their research implies that the Neolithic peoples&rsquo; practices did not &ldquo;exacerbate aridity&rdquo; (i.e., make things worse), but may have slowed environmental changes. Choice C is incorrect. Brierley et al.&rsquo;s research does not acknowledge that pastoralism can have deleterious (i.e., negative) effects on a region&rsquo;s vegetation and climate. It only describes one possible beneficial effect: preserving vegetation through practices like selective grazing. Choice D is incorrect. Brierley et al.&rsquo;s research does not call for more research into factors that likely contributed to the desertification of the Sahara region. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">325 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eBy pointing out that given the revised timeline for the end of the Sahara\u0026rsquo;s humid period, the Neolithic peoples\u0026rsquo; mode of subsistence likely didn\u0026rsquo;t cause the region\u0026rsquo;s desertification\u003c/p\u003e", "id": "cda873d2-dc5e-4b80-bc6a-aeaa043db553"}, {"content": "\u003cp\u003eBy claiming that pastoralism was only one of many behaviors the Neolithic peoples took part in that may have contributed to the Sahara\u0026rsquo;s changing climate\u003c/p\u003e", "id": "f2d4a1b2-d08b-4ee0-b4b8-10508b796293"}, {"content": "\u003cp\u003eBy insisting that pastoralism can have both beneficial and deleterious effects on a region\u0026rsquo;s vegetation and climate\u003c/p\u003e", "id": "3e15539a-4635-475d-af53-bd4e701c4bc5"}, {"content": "\u003cp\u003eBy asserting that more research needs to be conducted into factors that likely contributed to the desertification of the Sahara region\u003c/p\u003e", "id": "5fff5a97-43b0-48a7-a70a-4e6ab707d066"}], "correct_answer": ["A"], "externalid": "89ad53b5-5784-473a-bce5-aa2c145ed03a", "keys": ["cda873d2-dc5e-4b80-bc6a-aeaa043db553"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-H008", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. Brierley et al.\u0026rsquo;s research directly challenges Wright\u0026rsquo;s claim that pastoralism turned the Sahara into a desert, suggesting that, in a Sahara that turned arid 500 years earlier than previously thought, pastoral practices may have actually \u0026ldquo;preserved vegetation\u0026rdquo; rather than depleting it. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. Brierley et al.\u0026rsquo;s research actually disputes the idea that any Neolithic peoples\u0026rsquo; behaviors, including pastoralism, could have contributed to the Sahara\u0026rsquo;s changing climate. In fact, their research implies that the Neolithic peoples\u0026rsquo; practices did not \u0026ldquo;exacerbate aridity\u0026rdquo; (i.e., make things worse), but may have slowed environmental changes. Choice C is incorrect. Brierley et al.\u0026rsquo;s research does not acknowledge that pastoralism can have deleterious (i.e., negative) effects on a region\u0026rsquo;s vegetation and climate. It only describes one possible beneficial effect: preserving vegetation through practices like selective grazing. Choice D is incorrect. Brierley et al.\u0026rsquo;s research does not call for more research into factors that likely contributed to the desertification of the Sahara region. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, how would Chris Brierley (Text 2) most likely respond to the discussion in Text 1?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eAfrica\u0026rsquo;s Sahara region\u0026mdash;once a lush ecosystem\u0026mdash;began to dry out about 8,000 years ago. A change in Earth\u0026rsquo;s orbit that affected climate has been posited as a cause of desertification, but archaeologist David Wright also attributes the shift to Neolithic peoples. He cites their adoption of pastoralism as a factor in the region drying out: the pastoralists\u0026rsquo; livestock depleted vegetation, prompting the events that created the Sahara Desert.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eResearch by Chris Brierley et al. challenges the idea that Neolithic peoples contributed to the Sahara\u0026rsquo;s desertification. Using a climate-vegetation model, the team concluded that the end of the region\u0026rsquo;s humid period occurred 500 years earlier than previously assumed. The timing suggests that Neolithic peoples didn\u0026rsquo;t exacerbate aridity in the region but, in fact, may have helped delay environmental changes with practices (e.g., selective grazing) that preserved vegetation.\u003c/p\u003e", "templateclusterid": "3fb6606c-cab8-4705-8644-3640d0b517e8", "templateclustername": "", "type": "mcq", "vaultid": "3f200bcf-df91-4223-b92d-883fc737ab8f"}, "createDate": 1691007959365, "difficulty": "H", "external_id": "89ad53b5-5784-473a-bce5-aa2c145ed03a", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "c4737d6a", "score_band_range_cd": 6, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "1fedb3b8-1dce-4700-9919-dc2666a358e4", "updateDate": 1691007959365};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-c4737d6a");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

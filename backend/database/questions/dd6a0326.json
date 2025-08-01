@@ -1,0 +1,22 @@
+{
+  "question_id": "dd6a0326",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "African American Percy Julian was a scientist and entrepreneur whose work helped people around the world to see. Named in 1999 as one of the greatest achievements by a US chemist in the past hundred years, ______ blank led to the first mass-produced treatment for glaucoma.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Julian synthesized the alkaloid physostigmine in 1935; it&nbsp;",
+    "in 1935 Julian synthesized the alkaloid physostigmine, which",
+    "Julian&rsquo;s 1935 synthesis of the alkaloid physostigmine",
+    "the alkaloid physostigmine was synthesized by Julian in 1935 and"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase \"Julian's 1935 synthesis\" the subject of the sentence and places it immediately after the modifying phrase \"named&hellip;years.\" In doing so, this choice clearly establishes that Julian's 1935 synthesis of the alkaloid physostigmine—and not another noun in the sentence—was named in 1999 as one of the greatest achievements by a US chemist in the past hundred years.",
+    "A": "Choice A is incorrect because it results in a dangling modifier. The placement of the noun \"Julian\" immediately after the modifying phrase illogically suggests that Julian himself was named as one of the greatest achievements by a US chemist in the past hundred years.",
+    "B": "Choice B is incorrect because it results in a dangling modifier. The placement of the prepositional phrase \"in 1935\" immediately after the modifying phrase illogically and confusingly suggests that \"in 1935\" was named as one of the greatest achievements by a US chemist in the past hundred years.",
+    "D": "Choice D is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the alkaloid physostigmine\" immediately after the modifying phrase illogically and confusingly suggests that the alkaloid physostigmine itself (not the synthesis of it) was named as one of the greatest achievements by a US chemist in the past hundred years."
+  }
+}

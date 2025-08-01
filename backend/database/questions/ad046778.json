@@ -1,0 +1,22 @@
+{
+  "question_id": "ad046778",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "To humans, it does not appear that the golden orb-weaver spider uses camouflage to capture its ______ blank the brightly colored arachnid seems to wait conspicuously in the center of its large circular web for insects to approach. Researcher Po Peng of the University of Melbourne has explained that the spider's distinctive coloration may in fact be part of its appeal.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "prey, rather,",
+    "prey rather,",
+    "prey, rather;",
+    "prey; rather,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the coordination of main clauses within a sentence. The semicolon is correctly used to join the first main clause (\"To humans&hellip;prey\") and the second main clause (\"rather&hellip;approach\"). Further, the comma after the adverb \"rather\" is correctly used to separate the adverb from the main clause (\"the brightly&hellip;approach\") it modifies, logically indicating that the information in this clause (how the spider's behavior appears to humans) is contrary to the information in the previous clause (how the spider's behavior does not appear to humans).",
+    "A": "Choice A is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses.",
+    "B": "Choice B is incorrect because it results in a run-on sentence. The two main clauses are fused without appropriate punctuation and/or a conjunction.",
+    "C": "Choice C is incorrect. Placing the comma between the first main clause \"To humans&hellip;prey\" and the adverb \"rather\" illogically indicates that the information in the first main clause is contrary to what came before, which doesn't make sense in this context."
+  }
+}

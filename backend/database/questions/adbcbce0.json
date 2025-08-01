@@ -1,0 +1,22 @@
+{
+  "question_id": "adbcbce0",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Christina Rossetti's 1881 poem \"Monna Innominata 2.\" I wish I could remember that first day, &ensp;First hour, first moment of your meeting me, &ensp;If bright or dim the season, it might be Summer or Winter for [all] I can say; So unrecorded did it slip away, &ensp;So blind was I to see and to foresee, &ensp;So dull to mark the budding of my tree That would not blossom yet for many a May.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "The speaker celebrates how the passage of time has strengthened a relationship that once seemed unimportant.&nbsp;",
+    "Because the speaker did not anticipate how important a relationship would become, she cannot recall how the relationship began, which she regrets.&nbsp;",
+    "As the anniversary of the beginning of an important relationship approaches, the speaker feels conflicted about how best to commemorate it.",
+    "After years of neglecting a once valuable relationship, the speaker worries it may be too late for her to salvage the relationship.&nbsp;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The speaker says that they wish they could remember when they first met someone, but they can't remember the meeting at all, because they didn't know at the time that the relationship would \"blossom\" later on.",
+    "A": "Choice A is incorrect. The speaker does say that the relationship has \"blossomed\" over time, but only briefly at the end—and they don't really \"celebrate\" that fact. Rather, the text has a more regretful tone: it's about how the speaker can't remember first meeting this person, and they wish they could.",
+    "C": "Choice C is incorrect. The speaker doesn't mention an anniversary—in fact, the speaker can't remember when they met the person they're talking about.",
+    "D": "Choice D is incorrect. The speaker doesn't say that they neglected the relationship. In fact, the speaker suggests that the relationship has become very important to them—that's why the speaker wishes that they could remember their first meeting."
+  }
+}

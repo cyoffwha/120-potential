@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question d7c5388f</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>Planetary scientists classify asteroids based on their composition.</li>
+<li>C-type asteroids are composed primarily of carbon.</li>
+<li>They account for roughly 75 percent of known asteroids.</li>
+<li>S-type asteroids are primarily made up of silicate minerals.</li>
+<li>They account for roughly 17 percent of known asteroids.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to emphasize a difference between C-type and S-type asteroids. Which choice most effectively uses relevant information from the notes to accomplish this goal?&nbsp;</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Planetary scientists classify asteroids into types, two of which are the C-type and the S-type.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Planetary scientists consider an asteroid&rsquo;s composition (such as whether the asteroid is composed mainly of silicate minerals or carbon) when classifying it.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Roughly 17 percent of known asteroids are classified as S-type asteroids; another percentage is classified as C-type asteroids.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>C-type asteroids are mainly composed of carbon, whereas S-type asteroids are primarily made up of silicate minerals.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The sentence emphasizes a difference between C-type and S-type asteroids, noting that C-type asteroids are mainly composed of carbon, while S-type asteroids are mainly composed of silicate minerals. </p><p>Choice A is incorrect. The sentence states that C-type and S-type are two types of asteroids, but it doesn&rsquo;t emphasize a difference between them. Choice B is incorrect because it doesn&rsquo;t directly mention C-type or S-type asteroids.&nbsp;Choice C is incorrect. While the sentence mentions that 17 percent of known asteroids are S-type asteroids, it doesn&rsquo;t identify the percentage of asteroids that are C-type. Therefore, the sentence doesn&rsquo;t emphasize a difference between the two types. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">660 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ePlanetary scientists classify asteroids into types, two of which are the C-type and the S-type.\u003c/p\u003e", "id": "c98a3ecb-0754-4f25-88fb-e3f3082a8eef"}, {"content": "\u003cp\u003ePlanetary scientists consider an asteroid\u0026rsquo;s composition (such as whether the asteroid is composed mainly of silicate minerals or carbon) when classifying it.\u003c/p\u003e", "id": "56016490-37c8-4895-b8fa-75b955939253"}, {"content": "\u003cp\u003eRoughly 17 percent of known asteroids are classified as S-type asteroids; another percentage is classified as C-type asteroids.\u0026nbsp;\u003c/p\u003e", "id": "51dc8e50-3698-43bd-9781-9ea32a4a2cda"}, {"content": "\u003cp\u003eC-type asteroids are mainly composed of carbon, whereas S-type asteroids are primarily made up of silicate minerals.\u003c/p\u003e", "id": "35c11780-3e80-4958-b17d-3006233c22eb"}], "correct_answer": ["D"], "externalid": "da67f89e-3c3e-4f3a-b7d2-21819515497c", "keys": ["35c11780-3e80-4958-b17d-3006233c22eb"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-763-SYN", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The sentence emphasizes a difference between C-type and S-type asteroids, noting that C-type asteroids are mainly composed of carbon, while S-type asteroids are mainly composed of silicate minerals. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The sentence states that C-type and S-type are two types of asteroids, but it doesn\u0026rsquo;t emphasize a difference between them. Choice B is incorrect because it doesn\u0026rsquo;t directly mention C-type or S-type asteroids.\u0026nbsp;Choice C is incorrect. While the sentence mentions that 17 percent of known asteroids are S-type asteroids, it doesn\u0026rsquo;t identify the percentage of asteroids that are C-type. Therefore, the sentence doesn\u0026rsquo;t emphasize a difference between the two types. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to emphasize a difference between C-type and S-type asteroids. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u0026nbsp;\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ePlanetary scientists classify asteroids based on their composition.\u003c/li\u003e\n\u003cli\u003eC-type asteroids are composed primarily of carbon.\u003c/li\u003e\n\u003cli\u003eThey account for roughly 75 percent of known asteroids.\u003c/li\u003e\n\u003cli\u003eS-type asteroids are primarily made up of silicate minerals.\u003c/li\u003e\n\u003cli\u003eThey account for roughly 17 percent of known asteroids.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "496796b3-4b48-4c8a-b0f9-3e917dfe8be5", "templateclustername": "", "type": "mcq", "vaultid": "b224f44f-964e-4b60-a13c-63f2adad5d7b"}, "createDate": 1691007959351, "difficulty": "M", "external_id": "da67f89e-3c3e-4f3a-b7d2-21819515497c", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "d7c5388f", "score_band_range_cd": 4, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "9bd07567-f642-4371-ba6a-e3dc78d08874", "updateDate": 1691007959351};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-d7c5388f");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e0656211</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In <em>Nature Poem</em> (2017), Kumeyaay poet Tommy Pico portrays his <span aria-hidden="true">______</span><span class="sr-only">blank</span> the natural world by honoring the centrality of nature within his tribe&rsquo;s traditional beliefs while simultaneously expressing his distaste for being in wilderness settings himself.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>responsiveness to</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>ambivalence toward</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>renunciation of</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>mastery over</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it most logically completes the text&rsquo;s description of how Pico feels about the natural world. In this context, to say that Pico portrays his &ldquo;ambivalence toward&rdquo; nature would mean that he portrays his mixed feelings about nature. The text explains that Pico &ldquo;honors the centrality of nature&rdquo; and also makes it clear that he doesn&rsquo;t enjoy being in nature. This context suggests that Pico feels ambivalence toward nature. </p><p>Choice A is incorrect because saying that Pico portrays his &ldquo;responsiveness to&rdquo; nature would mean that he portrays himself as quick to react to nature, which isn&rsquo;t supported by the text. Instead, the text focuses on Pico&rsquo;s mixed feelings toward nature, describing him as both honoring nature&rsquo;s role in his tribe&rsquo;s beliefs and expressing his personal dislike for being in nature.&nbsp;Choice C is incorrect because saying that Pico portrays his &ldquo;renunciation of&rdquo; nature would mean that he portrays himself as rejecting nature, which isn&rsquo;t supported by the text. The text conveys that Pico demonstrates both positive and negative responses toward nature, not that he&rsquo;s giving it up completely.&nbsp;Choice D is incorrect because saying that Pico portrays his &ldquo;mastery over&rdquo; nature would mean that he portrays himself as having control over nature, which isn&rsquo;t supported by the text. The text focuses on Pico&rsquo;s mixed feelings about nature; nothing in the text suggests that Pico feels mastery over nature. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">355 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eresponsiveness to\u003c/p\u003e", "id": "ea12e474-6ba5-43a6-a30e-8be0c7d77c4b"}, {"content": "\u003cp\u003eambivalence toward\u003c/p\u003e", "id": "2c82e679-9574-4523-afdd-1aee27bc94d6"}, {"content": "\u003cp\u003erenunciation of\u003c/p\u003e", "id": "551f7358-2c45-4f34-955d-2a39be37611e"}, {"content": "\u003cp\u003emastery over\u003c/p\u003e", "id": "fe2486c6-5085-4d18-8d2c-e844b9fe9e89"}], "correct_answer": ["B"], "externalid": "270aa465-e0d8-43f8-b2f5-6a42058a1721", "keys": ["2c82e679-9574-4523-afdd-1aee27bc94d6"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-978-WIC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it most logically completes the text\u0026rsquo;s description of how Pico feels about the natural world. In this context, to say that Pico portrays his \u0026ldquo;ambivalence toward\u0026rdquo; nature would mean that he portrays his mixed feelings about nature. The text explains that Pico \u0026ldquo;honors the centrality of nature\u0026rdquo; and also makes it clear that he doesn\u0026rsquo;t enjoy being in nature. This context suggests that Pico feels ambivalence toward nature. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because saying that Pico portrays his \u0026ldquo;responsiveness to\u0026rdquo; nature would mean that he portrays himself as quick to react to nature, which isn\u0026rsquo;t supported by the text. Instead, the text focuses on Pico\u0026rsquo;s mixed feelings toward nature, describing him as both honoring nature\u0026rsquo;s role in his tribe\u0026rsquo;s beliefs and expressing his personal dislike for being in nature.\u0026nbsp;Choice C is incorrect because saying that Pico portrays his \u0026ldquo;renunciation of\u0026rdquo; nature would mean that he portrays himself as rejecting nature, which isn\u0026rsquo;t supported by the text. The text conveys that Pico demonstrates both positive and negative responses toward nature, not that he\u0026rsquo;s giving it up completely.\u0026nbsp;Choice D is incorrect because saying that Pico portrays his \u0026ldquo;mastery over\u0026rdquo; nature would mean that he portrays himself as having control over nature, which isn\u0026rsquo;t supported by the text. The text focuses on Pico\u0026rsquo;s mixed feelings about nature; nothing in the text suggests that Pico feels mastery over nature. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn \u003cem\u003eNature Poem\u003c/em\u003e (2017), Kumeyaay poet Tommy Pico portrays his \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e the natural world by honoring the centrality of nature within his tribe\u0026rsquo;s traditional beliefs while simultaneously expressing his distaste for being in wilderness settings himself.\u003c/p\u003e", "templateclusterid": "99f6e534-64dd-41ae-a9ea-0ada618052a7", "templateclustername": "", "type": "mcq", "vaultid": "d764c3f3-b47b-467b-bbba-23d13fc64c0f"}, "createDate": 1691007959358, "difficulty": "M", "external_id": "270aa465-e0d8-43f8-b2f5-6a42058a1721", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "e0656211", "score_band_range_cd": 5, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "3e21fe0d-ce3e-4e1c-a674-4397ef8315bd", "updateDate": 1691007959358};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e0656211");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

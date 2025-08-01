@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question b7d51f84</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In West Africa, jalis have traditionally been keepers of information about family histories and records of important events. They have often served as teachers and advisers, too. New technologies may have changed some aspects of the role today, but jalis continue to be valued for knowing and protecting their peoples&rsquo; stories.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Even though there have been some changes in their role, jalis continue to preserve their communities&rsquo; histories.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Although jalis have many roles, many of them like teaching best.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Jalis have been entertaining the people within their communities for centuries.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Technology can now do some of the things jalis used to be responsible for.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it best states the main idea of the text. According to the text, jalis&rsquo; traditional role has been to maintain information about families&rsquo; histories and significant events. The text goes on to say that although technological changes have altered jalis&rsquo; role somewhat, jalis are still valued for preserving the histories of their communities.&nbsp;</p><p>Choice B is incorrect because the text says nothing about jalis&rsquo; views of the various tasks they perform. There is no information to support the idea that many jalis prefer teaching to other tasks.&nbsp;Choice C is incorrect because the text doesn&rsquo;t describe jalis as being sources of entertainment. Rather, jalis are presented as valued sources of knowledge. Additionally, the text gives no indication of how long jalis have been serving their communities. Choice D is incorrect because the main focus of the text is on jalis&rsquo; role and their continued value despite the effects of technology, not on what technology can now do. Although the text indicates that jalis&rsquo; role has changed as a result of technological changes, the text doesn&rsquo;t present any specific information about technology performing tasks that jalis once performed.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">78 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eEven though there have been some changes in their role, jalis continue to preserve their communities\u0026rsquo; histories.\u003c/p\u003e", "id": "5513d6f1-6526-4111-8593-31fcfb60b96a"}, {"content": "\u003cp\u003eAlthough jalis have many roles, many of them like teaching best.\u003c/p\u003e", "id": "3998ae5d-1d6c-479f-b4b8-146f49557184"}, {"content": "\u003cp\u003eJalis have been entertaining the people within their communities for centuries.\u003c/p\u003e", "id": "9ffac124-a673-46d6-9a42-a92b3bd9d93e"}, {"content": "\u003cp\u003eTechnology can now do some of the things jalis used to be responsible for.\u003c/p\u003e", "id": "d0dee810-e86c-467b-8de8-ca8ea40af5d6"}], "correct_answer": ["A"], "externalid": "dcfca64d-f71d-4be1-8e85-40b6ef326b64", "keys": ["5513d6f1-6526-4111-8593-31fcfb60b96a"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-003-CID", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it best states the main idea of the text. According to the text, jalis\u0026rsquo; traditional role has been to maintain information about families\u0026rsquo; histories and significant events. The text goes on to say that although technological changes have altered jalis\u0026rsquo; role somewhat, jalis are still valued for preserving the histories of their communities.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice B is incorrect because the text says nothing about jalis\u0026rsquo; views of the various tasks they perform. There is no information to support the idea that many jalis prefer teaching to other tasks.\u0026nbsp;Choice C is incorrect because the text doesn\u0026rsquo;t describe jalis as being sources of entertainment. Rather, jalis are presented as valued sources of knowledge. Additionally, the text gives no indication of how long jalis have been serving their communities. Choice D is incorrect because the main focus of the text is on jalis\u0026rsquo; role and their continued value despite the effects of technology, not on what technology can now do. Although the text indicates that jalis\u0026rsquo; role has changed as a result of technological changes, the text doesn\u0026rsquo;t present any specific information about technology performing tasks that jalis once performed.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn West Africa, jalis have traditionally been keepers of information about family histories and records of important events. They have often served as teachers and advisers, too. New technologies may have changed some aspects of the role today, but jalis continue to be valued for knowing and protecting their peoples\u0026rsquo; stories.\u003c/p\u003e", "templateclusterid": "08791777-0fd9-42ac-bdad-41ce4353e1b9", "templateclustername": "", "type": "mcq", "vaultid": "42fe69a5-2772-41cd-bc33-fdc847d4ec58"}, "createDate": 1691007959312, "difficulty": "M", "external_id": "dcfca64d-f71d-4be1-8e85-40b6ef326b64", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "b7d51f84", "score_band_range_cd": 4, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "423665f3-c8e6-42ae-b3a6-59aba12fde73", "updateDate": 1691007959312};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-b7d51f84");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

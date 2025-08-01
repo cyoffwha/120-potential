@@ -1,0 +1,22 @@
+{
+  "question_id": "fba5d8d1",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In a 2016 study, Eastern Washington University psychologist Amani El-Alayli found that, among the study participants who experienced frisson (a physiological response akin to goosebumps or getting the chills) while listening to music, there was one personality trait that they scored particularly ______ blank openness to experience.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "high. On",
+    "high on;",
+    "high on",
+    "high on:"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation use between a main clause and a supplementary phrase. In this choice, a colon is correctly used to mark the boundary between the main clause (\"there...on\") and the supplementary phrase (\"openness to experience\") and to introduce the information that identifies which personality trait participants scored especially high on.",
+    "A": "Choice A is incorrect because it results in a rhetorically unacceptable sentence fragment beginning with \"on\" and separates a necessary preposition from the clause beginning with \"there.\"",
+    "B": "Choice B is incorrect because a semicolon can't be used in this way to join the main clause (\"there...on\") and the supplementary phrase (\"openness to experience\"). A semicolon is conventionally used to join two main clauses, whereas a colon is conventionally used to introduce an element that explains or amplifies the information in the preceding clause, making the colon the better choice in this context.",
+    "C": "Choice C is incorrect because it fails to mark the boundary between the main clause (\"there...on\") and the supplementary phrase (\"openness to experience\")."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "b6560e5a",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Materials scientist Marie-Agathe Charpagne and her colleagues believed they could improve on the multicomponent alloy NiCoCr, an equal-proportions mixture of nickel (Ni), cobalt (Co), and chromium (Cr), by replacing chromium with ruthenium ______ blank the alloy that resulted, NiCoRu, turned out to be an unsuitable replacement for NiCoCr.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "(Ru)",
+    "(Ru) but",
+    "(Ru),",
+    "(Ru), but"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the coordination of main clauses. This choice correctly uses a comma and the coordinating conjunction \"but\" to join the first main clause (\"Materials&hellip;Ru\") and the second main clause (\"the alloy&hellip;NiCoCr\").",
+    "A": "Choice A is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction.",
+    "B": "Choice B is incorrect because when coordinating two longer main clauses such as these, it's conventional to use a comma before the coordinating conjunction.",
+    "C": "Choice C is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses."
+  }
+}

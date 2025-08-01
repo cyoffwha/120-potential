@@ -1,0 +1,22 @@
+{
+  "question_id": "5432d1de",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "It's common for jazz musicians and fans to refer to certain songs as having \"swing,\" indicating that the songs provoke a strong feeling, like the impulse to tap one's foot or dance. The exact acoustic properties that give a song swing, however, have long been thought to be undefinable. To investigate swing, a team led by physicist Corentin Nelias delayed the downbeats and synchronized the offbeats in jazz piano solos and asked jazz musicians to compare the intensity of swing in each modified piece with the intensity of swing in the original piece. They found that participants were more than seven times likelier to characterize the modified songs as having swing than to characterize the original versions as having swing, suggesting that ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "synchronized offbeats tend to give a song swing regardless of whether downbeats are delayed.",
+    "the acoustic properties that give a song swing are not easy for jazz musicians to manipulate.",
+    "jazz songs that feature the piano are more likely to have swing than are jazz songs that do not feature the piano.",
+    "the timing of downbeats and offbeats may play a crucial role in giving a song swing.&nbsp;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The passage tells us that participants were \"more than seven times likelier to characterize the modified songs as having swing than to characterize the original versions as having swing.\" Because the modified songs had been changed by altering the timing of the downbeats and offbeats, this suggests that the timing of downbeats and offbeats may play a crucial role in giving a song swing.",
+    "A": "Choice A is incorrect. Although the passage mentions that the researchers \"synchronized the offbeats\" in the modified songs, they also \"delayed the downbeats\" in those songs. Because we can't disentangle whether it was the synchronized offbeats, the delayed downbeats, or the combination of both that increased the song's swing, we don't have enough information to make this inference.",
+    "B": "Choice B is incorrect. The passage doesn't mention whether or not it's difficult for a jazz musician to give a song swing, so there's no basis for this inference.",
+    "C": "Choice C is incorrect. The passage doesn't compare jazz songs that feature piano to those that don't, so there's no basis for this inference."
+  }
+}

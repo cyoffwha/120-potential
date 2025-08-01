@@ -1,0 +1,22 @@
+{
+  "question_id": "f1d8550e",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Jordan Bennett is a Mi'Kmaq visual artist. The Mi'Kmaq are a First Nations people in North America. Bennett's paintings pay homage to traditional Mi'Kmaq craftsmanship and have been displayed in over 75 exhibitions. His 2017 exhibition Wije'wi was held at the Grenfell Art Gallery. His 2018 exhibition Ketu'elmita'jik was held at the Art Gallery of Nova Scotia. The student wants to emphasize the order in which two of Jordan Bennett's exhibitions were held. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the order in which two of Jordan Bennett&rsquo;s exhibitions were held. Which choice most effectively uses relevant information from the notes to accomplish this goal?&nbsp;&nbsp;",
+  "answer_options": [
+    "Jordan Bennett&rsquo;s 2017 exhibition  Wije&rsquo;wi  was followed a year later by his exhibition  Ketu&rsquo;elmita&rsquo;jik.",
+    "Jordan Bennett&rsquo;s paintings, some of which appeared in 2017 and 2018 exhibitions, pay homage to traditional Mi&rsquo;Kmaq craftsmanship.&nbsp;",
+    "Mi&rsquo;Kmaq visual artist Jordan Bennett has displayed his work in over 75 exhibitions, including  Wije&rsquo;wi  and  Ketu&rsquo;elmita&rsquo;jik.",
+    "Jordan Bennett&rsquo;s 2018 exhibition  Ketu&rsquo;elmita&rsquo;jik  was held at the Art Gallery of Nova Scotia; another was held at the Grenfell Art Gallery."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The sentence emphasizes the order in which two of Jordan Bennett's exhibitions were held, indicating that Wije'wi took place in 2017 and Ketu'elmita'jik took place a year later (2018).",
+    "B": "Choice B is incorrect. While the sentence mentions that exhibitions of Jordan Bennett's paintings took place in 2017 and 2018, it doesn't identify the exhibitions or emphasize the order in which they were held.",
+    "C": "Choice C is incorrect. While the sentence mentions two of Jordan Bennett's exhibitions , it doesn't indicate the order in which they were held.",
+    "D": "Choice D is incorrect. While the sentence mentions two of Jordan Bennett's exhibitions and specifies when one of them was held, it doesn't state when the exhibition at the Grenfell Art Gallery occurred. Thus, the order in which the two exhibitions were held isn't clearly established in the sentence."
+  }
+}

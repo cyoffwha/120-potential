@@ -1,0 +1,22 @@
+{
+  "question_id": "ac8eb085",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "\"O2 Arena,\" an award-winning science fiction story by Nigerian author Oghenechovwe Donald Ekpeki, takes place in an alternate version of Nigeria where breathable air is a rare commodity that is owned and sold by companies. ______ blank people must purchase it with currency called O2 credits.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "As a result,",
+    "In any case,",
+    "Nevertheless,",
+    "Earlier,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The second sentence describes a consequence of the system laid out in the first sentence: because air is owned and sold by companies in this world, people have to buy it.",
+    "B": "Choice B is incorrect. This choice uses a transition that means \"no matter what happens\" or \"whatever the situation is,\" which doesn't make sense here. There's only one situation described in the text: a fictional world in which companies own all the breathable air, forcing people to buy it.",
+    "C": "Choice C is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous sentence. They both describe the same fictional situation.",
+    "D": "Choice D is incorrect. This choice uses a transition that indicates a shift back in time, which doesn't make sense here. Both sentences use the present tense, as they're describing the same fictional time period."
+  }
+}

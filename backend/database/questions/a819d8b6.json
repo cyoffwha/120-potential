@@ -1,0 +1,22 @@
+{
+  "question_id": "a819d8b6",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 1873, Spanish scientist Santiago Ram&oacute;n y Cajal observed that brain fibers have distinct boundaries with clear end points, a finding that went against earlier assumptions about the brain. ______ blank scientists had assumed that the brain was a continuous web of fused fibers, not a vast network of distinct, individual cells.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "However,",
+    "Previously,",
+    "As a result,",
+    "Likewise,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Previously\" logically signals that the fused fiber theory came before Ram&oacute;n y Cajal's discovery.",
+    "A": "Choice A is incorrect. \"However\" illogically signals that the fused fiber theory in this sentence contrasts with the information in the previous sentence. While this theory does contrast with Ram&oacute;n y Cajal's discovery, the previous sentence concludes by stating that his discovery went against prior assumptions about the brain. The fact that the fused fiber theory was one of those earlier assumptions makes \"however\" an illogical choice.",
+    "C": "Choice C is incorrect because \"as a result\" illogically signals that the fused fiber theory in this sentence was a result of the discovery in the previous sentence. Instead, the fused fiber theory came before Ram&oacute;n y Cajal's discovery.",
+    "D": "Choice D is incorrect because \"likewise\" illogically signals that the fused fiber theory in this sentence was similar to the discovery in the previous sentence. Instead, the fused fiber theory, which came before Ram&oacute;n y Cajal's discovery, was very different from it."
+  }
+}

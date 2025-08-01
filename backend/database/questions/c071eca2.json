@@ -1,0 +1,22 @@
+{
+  "question_id": "c071eca2",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Iraqi artist Nazik Al-Malaika, celebrated as the first Arabic poet to write in free verse, didn't reject traditional forms entirely; her poem \"Elegy for a Woman of No Importance\" consists of two ten-line stanzas and a standard number of syllables. Even in this superficially traditional work, ______ blank Al-Malaika was breaking new ground by memorializing an anonymous woman rather than a famous man.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "therefore,",
+    "in fact,",
+    "moreover,",
+    "though,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The first sentence tells us that Al-Malaika sometimes used \"traditional forms\". The second tells us that even when she used traditional forms, Al-Malaika was \"breaking new ground\". To connect these ideas, we need a contrast word like \"but.\" \"Though\" is a contrast word similar to \"but.\"",
+    "A": "Choice A is incorrect. This isn't a logical transition. The first sentence tells us that Al-Malaika sometimes used \"traditional forms\". The second tells us that even when she used traditional forms, Al-Malaika was \"breaking new ground\". To connect these ideas, we need a contrast word like \"but.\" \"Therefore\" doesn't show contrast; it shows cause and effect.",
+    "B": "Choice B is incorrect. This isn't a logical transition. The first sentence tells us that Al-Malaika sometimes used \"traditional forms\". The second tells us that even when she used traditional forms, Al-Malaika was \"breaking new ground\". To connect these ideas, we need a contrast word like \"but.\" \"In fact\" is a phrase that usually emphasizes the truth of the previous statement.",
+    "C": "Choice C is incorrect. This isn't a logical transition. The first sentence tells us that Al-Malaika sometimes used \"traditional forms\". The second tells us that even when she used traditional forms, Al-Malaika was \"breaking new ground\". To connect these ideas, we need a contrast word like \"but.\" \"Moreover\" doesn't show contrast—it introduces additional information that continues or supports the previous idea."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "f2c48e47",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is from Charlotte Perkins Gilman's 1910 poem \"The Earth's Entail.\" No matter how we cultivate the land, Taming the forest and the prairie free; No matter how we irrigate the sand, Making the desert blossom at command, We must always leave the borders of the sea; The immeasureable reaches Of the windy wave-wet beaches, The million-mile-long margin of the sea.",
+  "question_text": "Which choice best describes the overall structure of the text?",
+  "answer_options": [
+    "The speaker argues against interfering with nature and then gives evidence supporting this interference.",
+    "The speaker presents an account of efforts to dominate nature and then cautions that such efforts are only temporary.",
+    "The speaker provides examples of an admirable way of approaching nature and then challenges that approach.&nbsp;",
+    "The speaker describes attempts to control nature and then offers a reminder that not all nature is controllable.&nbsp;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. This best describes the overall structure of the text. In the first half of the text, the speaker describes our attempts to control nature: cultivating, taming, and irrigating different kinds of land. In the second half, the speaker states that we can never tame the sea or the beach.",
+    "A": "Choice A is incorrect. This doesn't describe the overall structure of the text. The speaker never argues that we should not interfere with nature. Rather, the speaker says that we are able to tame many different kinds of land, but we are unable to tame the sea or beaches.",
+    "B": "Choice B is incorrect. This doesn't describe the overall structure of the text. The speaker never describes our cultivation, taming, and irrigation of land as \"temporary.\" Rather, the speaker says that we are able to tame many different kinds of land, but we are unable to tame the sea or beaches.",
+    "C": "Choice C is incorrect. This doesn't describe the overall structure of the text. The speaker never describes our cultivation, taming, and irrigation of land as an \"admirable\" approach to nature.\" Rather, the speaker says that we are able to tame many different kinds of land, but we are unable to tame the sea or beaches."
+  }
+}

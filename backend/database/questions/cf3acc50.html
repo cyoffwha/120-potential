@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question cf3acc50</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Compiled in the late 1500s largely through the efforts of Indigenous scribes, <em>Cantares Mexicanos</em> is the most important collection of poetry in Classical Nahuatl, the principal language of the Aztec Empire. The poems portray Aztec society before the occupation of the empire by the army of Spain, and marginal notes in <em>Cantares Mexicanos</em> indicate that much of the collection&rsquo;s content predates the initial invasion. Nonetheless, some of the poems contain inarguable references to beliefs and customs common in Spain during this era. Thus, some scholars have concluded that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>while its content largely predates the invasion, <em>Cantares Mexicanos</em> also contains additions made after the invasion.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>although those who compiled <em>Cantares Mexicanos</em> were fluent in Nahuatl, they had limited knowledge of the Spanish language.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>before the invasion by Spain, the poets of the Aztec Empire borrowed from the literary traditions of other societies.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the references to beliefs and customs in Spain should be attributed to a coincidental resemblance between the societies of Spain and the Aztec Empire.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most logically completes the text. The text explains that the <em>Cantares Mexicanos</em> contains poems about the Aztec Empire from before the Spanish invasion. Furthermore, it indicates that notes in the collection attest that some of these poems predate the Spanish invasion, while some customs depicted are likely Spanish in origin. The implication is that some poems were composed before the invasion but the references to Spanish customs could have come about only after the invasion, and thus that the collection includes content that predates the invasion and also content from after the invasion. </p><p>Choice B is incorrect because the text clearly indicates that the collection is in Nahuatl, not Spanish, so the compilers&rsquo; unfamiliarity with Spanish is irrelevant to whether the collection contains material composed after the Spanish invasion. Choice C is incorrect because the text mentions only the Aztec Empire and Spain: there is no information about the relationship of Aztec literature to any traditions other than its own or Spain&rsquo;s. Choice D is incorrect because the text states that some of the poems make &ldquo;inarguable references&rdquo; to common Spanish customs, which conflicts with the idea that these references can reasonably be attributed to mere coincidence. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">248 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ewhile its content largely predates the invasion, \u003cem\u003eCantares Mexicanos\u003c/em\u003e also contains additions made after the invasion.\u003c/p\u003e", "id": "6292cca8-9281-4ac5-9081-65a606cb84b3"}, {"content": "\u003cp\u003ealthough those who compiled \u003cem\u003eCantares Mexicanos\u003c/em\u003e were fluent in Nahuatl, they had limited knowledge of the Spanish language.\u003c/p\u003e", "id": "e32192f7-f21c-4906-b471-5d3c52d0080f"}, {"content": "\u003cp\u003ebefore the invasion by Spain, the poets of the Aztec Empire borrowed from the literary traditions of other societies.\u003c/p\u003e", "id": "6e5cd20f-2e4d-42b3-a21b-1b9f352e556e"}, {"content": "\u003cp\u003ethe references to beliefs and customs in Spain should be attributed to a coincidental resemblance between the societies of Spain and the Aztec Empire.\u003c/p\u003e", "id": "b149062d-9f2c-43e7-a0f5-bd67ca5b5f9f"}], "correct_answer": ["A"], "externalid": "9844f862-b9a5-4177-bab5-04f7c54d1a8e", "keys": ["6292cca8-9281-4ac5-9081-65a606cb84b3"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-041-INF", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most logically completes the text. The text explains that the \u003cem\u003eCantares Mexicanos\u003c/em\u003e contains poems about the Aztec Empire from before the Spanish invasion. Furthermore, it indicates that notes in the collection attest that some of these poems predate the Spanish invasion, while some customs depicted are likely Spanish in origin. The implication is that some poems were composed before the invasion but the references to Spanish customs could have come about only after the invasion, and thus that the collection includes content that predates the invasion and also content from after the invasion. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because the text clearly indicates that the collection is in Nahuatl, not Spanish, so the compilers\u0026rsquo; unfamiliarity with Spanish is irrelevant to whether the collection contains material composed after the Spanish invasion. Choice C is incorrect because the text mentions only the Aztec Empire and Spain: there is no information about the relationship of Aztec literature to any traditions other than its own or Spain\u0026rsquo;s. Choice D is incorrect because the text states that some of the poems make \u0026ldquo;inarguable references\u0026rdquo; to common Spanish customs, which conflicts with the idea that these references can reasonably be attributed to mere coincidence. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eCompiled in the late 1500s largely through the efforts of Indigenous scribes, \u003cem\u003eCantares Mexicanos\u003c/em\u003e is the most important collection of poetry in Classical Nahuatl, the principal language of the Aztec Empire. The poems portray Aztec society before the occupation of the empire by the army of Spain, and marginal notes in \u003cem\u003eCantares Mexicanos\u003c/em\u003e indicate that much of the collection\u0026rsquo;s content predates the initial invasion. Nonetheless, some of the poems contain inarguable references to beliefs and customs common in Spain during this era. Thus, some scholars have concluded that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "1d37a64e-ad56-4921-8368-4d67c7440deb", "templateclustername": "", "type": "mcq", "vaultid": "3fd3a5f5-2e70-4765-8251-9a32920ad9df"}, "createDate": 1691007959322, "difficulty": "H", "external_id": "9844f862-b9a5-4177-bab5-04f7c54d1a8e", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "cf3acc50", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "d09c2bc9-a25d-46d6-b52f-d86f82782ffd", "updateDate": 1691007959322};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-cf3acc50");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

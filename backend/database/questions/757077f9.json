@@ -1,0 +1,22 @@
+{
+  "question_id": "757077f9",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "During a 2014 archaeological dig in Spain, Vicente Lull and his team uncovered the skeleton of a woman from El Algar, an Early Bronze Age society, buried with valuable objects signaling a high position of power. This finding may persuade researchers who have argued that Bronze Age societies were ruled by men to ______ blank that women may have also held leadership roles.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "waive",
+    "concede",
+    "refute",
+    "require"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of the significance of the 2014 archaeological finding at El Algar. In this context, \"concede\" means to admit something is true after first resisting that admission. The text indicates that some researchers believe \"Bronze Age societies were ruled by men.\" But the Bronze Age burial of a woman at El Algar included \"valuable objects signaling a high position of power,\" which would raise the possibility that \"women may have also held leadership roles.\" Thus, the text is calling into question the notion that only men were leaders in these societies and speculating that people holding this view may reconsider their opinion.",
+    "A": "Choice A is incorrect because \"waive\" means to refrain from insisting that something, such as a right or a requirement, be observed; the word isn't used, however, in contexts where someone acknowledges that an opinion they hold may be invalid, as is the case in the text.",
+    "C": "Choice C is incorrect. According to the text, the finding from the El Algar burial site undermines the view that Bronze Age societies were exclusively ruled by men. However, \"refute\" means to demonstrate that something is false and would not make sense in context. Lull and team's finding supports the view that women may have also held leadership roles, not that they did not participate in such roles.",
+    "D": "Choice D is incorrect because in this context, \"require\" means to demand or specify as mandatory. However, it would not make sense for contemporary researchers to demand that Bronze Age \"women may have also held leadership roles.\""
+  }
+}

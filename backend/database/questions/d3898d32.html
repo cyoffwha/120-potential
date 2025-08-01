@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question d3898d32</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Riley Black&mdash;the author of critically acclaimed books such as <em>My Beloved Brontosaurus</em> (2013)&mdash;is best known for writing about dinosaurs, but she has also conducted hands-on fieldwork. <span aria-hidden="true">______</span><span class="sr-only">blank</span> her fieldwork has included paleontological digs in Utah, Montana, and Wyoming, and her dinosaur fossil discoveries can be seen at places such as the Carnegie Museum of Natural History.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical transition?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Regardless,&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Subsequently,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Specifically,&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Conversely,</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The second sentence provides more specific information about the fieldwork mentioned in the first sentence&mdash;that the paleontological digs took place in Utah, Montana, and Wyoming. Therefore, &ldquo;specifically&rdquo; fits perfectly in this context. </p><p>Choice A is incorrect. This choice uses a disagreement transition. But this sentence doesn&rsquo;t disagree with the previous sentence. Rather, this sentence agrees with and elaborates on the last sentence by providing more specifics about the fieldwork Black does. Choice B is incorrect. This choice uses a transition that indicates that an event took place after another event. But the two sentences are not describing different events&mdash;instead, this sentence gives more details about the fieldwork discussed in the first sentence. Choice D is incorrect. This choice uses a disagreement transition. But this sentence doesn&rsquo;t disagree with the previous sentence. Rather, this sentence agrees with and elaborates on the last sentence by providing more specifics about the fieldwork Black does. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">716 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eRegardless,\u0026nbsp;\u003c/p\u003e", "id": "32a32ad3-728b-49bc-96fe-dc9edeb6ab9b"}, {"content": "\u003cp\u003eSubsequently,\u003c/p\u003e", "id": "c3abb5b7-dc1a-4aa0-8f36-41404ff0d160"}, {"content": "\u003cp\u003eSpecifically,\u0026nbsp;\u003c/p\u003e", "id": "58e1022b-1edb-4adb-830e-d3fff82cf6ab"}, {"content": "\u003cp\u003eConversely,\u003c/p\u003e", "id": "e09ef35a-2a57-4baf-8e9e-59ecf1e8f97a"}], "correct_answer": ["C"], "externalid": "fa2d1a26-46bd-490d-8fe1-30454adad22a", "keys": ["58e1022b-1edb-4adb-830e-d3fff82cf6ab"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TRA-E010", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The second sentence provides more specific information about the fieldwork mentioned in the first sentence\u0026mdash;that the paleontological digs took place in Utah, Montana, and Wyoming. Therefore, \u0026ldquo;specifically\u0026rdquo; fits perfectly in this context. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice uses a disagreement transition. But this sentence doesn\u0026rsquo;t disagree with the previous sentence. Rather, this sentence agrees with and elaborates on the last sentence by providing more specifics about the fieldwork Black does. Choice B is incorrect. This choice uses a transition that indicates that an event took place after another event. But the two sentences are not describing different events\u0026mdash;instead, this sentence gives more details about the fieldwork discussed in the first sentence. Choice D is incorrect. This choice uses a disagreement transition. But this sentence doesn\u0026rsquo;t disagree with the previous sentence. Rather, this sentence agrees with and elaborates on the last sentence by providing more specifics about the fieldwork Black does. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical transition?\u003c/p\u003e", "stimulus": "\u003cp\u003eRiley Black\u0026mdash;the author of critically acclaimed books such as \u003cem\u003eMy Beloved Brontosaurus\u003c/em\u003e (2013)\u0026mdash;is best known for writing about dinosaurs, but she has also conducted hands-on fieldwork. \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e her fieldwork has included paleontological digs in Utah, Montana, and Wyoming, and her dinosaur fossil discoveries can be seen at places such as the Carnegie Museum of Natural History.\u003c/p\u003e", "templateclusterid": "b2e72c76-9323-47c4-b82c-bc58235395a7", "templateclustername": "", "type": "mcq", "vaultid": "51e94bf9-f7e3-4259-917a-af7499f47caa"}, "createDate": 1691007959373, "difficulty": "E", "external_id": "fa2d1a26-46bd-490d-8fe1-30454adad22a", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "d3898d32", "score_band_range_cd": 3, "skill_cd": "TRA", "skill_desc": "Transitions", "uId": "ee14dbac-b013-48aa-9327-61a82306ed44", "updateDate": 1691007959373};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-d3898d32");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

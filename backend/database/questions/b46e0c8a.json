@@ -1,0 +1,22 @@
+{
+  "question_id": "b46e0c8a",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Organisms release cellular material into their environment by shedding substances such as hair or skin. The DNA in these substances is known as environmental DNA, or eDNA. Researchers collect and analyze eDNA to detect the presence of species that are difficult to observe. Geneticist Sara Oyler-McCance's research team analyzed eDNA in water samples from the Florida Everglades to detect invasive constrictor snake species in the area. The study determined a 91% probability of detecting Burmese python eDNA in a given location. The student wants to present the study to an audience already familiar with environmental DNA. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to present the study to an audience already familiar with environmental DNA. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Sara Oyler-McCance&rsquo;s researchers analyzed eDNA in water samples from the Florida Everglades for evidence of invasive constrictor snakes, which are difficult to observe.",
+    "An analysis of eDNA can detect the presence of invasive species that are difficult to observe, such as constrictor snakes.",
+    "Researchers found Burmese python eDNA, or environmental DNA, in water samples; eDNA is the DNA in released cellular materials, such as shed skin cells.",
+    "Sara Oyler-McCance&rsquo;s researchers analyzed environmental DNA (eDNA)&mdash;that is, DNA from cellular materials released by organisms&mdash;in water samples from the Florida Everglades."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This choice presents the study in a way that assumes the audience is already familiar with eDNA.",
+    "B": "Choice B is incorrect. This choice doesn't present the study. It only states a general fact about eDNA analysis.",
+    "C": "Choice C is incorrect. This choice isn't suited for an audience already familiar with eDNA. A familiar audience wouldn't need to have the term defined or explained.",
+    "D": "Choice D is incorrect. This choice isn't suited for an audience already familiar with eDNA. A familiar audience wouldn't need to have the term defined or explained. It also doesn't present the study."
+  }
+}

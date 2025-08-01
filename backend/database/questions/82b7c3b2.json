@@ -1,0 +1,22 @@
+{
+  "question_id": "82b7c3b2",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is from Booth Tarkington's 1921 novel Alice Adams . Mrs. Adams had always been fond of vases, she said, and every year her husband's Christmas present to her was a vase of one sort or another—whatever the clerk showed him, marked at about twelve or fourteen dollars. As used in the text, what does the word \"marked\" most nearly mean?",
+  "question_text": "As used in the text, what does the word &ldquo;marked&rdquo; most nearly mean?",
+  "answer_options": [
+    "Staged",
+    "Priced",
+    "Stained",
+    "Watched"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The text suggests that Mrs. Adam's typical Christmas present from her husband was a vase that cost, or was \"priced at,\" about twelve or fourteen dollars.",
+    "A": "Choice A is incorrect. This isn't the meaning of \"marked\" as used here. It wouldn't make sense to say that a vase was \"staged at twelve or fourteen dollars.\"",
+    "C": "Choice C is incorrect. This isn't the meaning of \"marked\" as used here. It wouldn't make sense to say that a vase was \"stained at twelve or fourteen dollars.\"",
+    "D": "Choice D is incorrect. This isn't the meaning of \"marked\" as used here. It wouldn't make sense to say that a vase was \"watched at twelve or fourteen dollars.\""
+  }
+}

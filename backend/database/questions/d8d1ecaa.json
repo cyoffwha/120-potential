@@ -1,0 +1,22 @@
+{
+  "question_id": "d8d1ecaa",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Business researcher Melanie Brucks and colleagues found that remote video conference meetings may be less conducive to brainstorming than in-person meetings are. The researchers suspect that video meeting participants are focused on staring at the speaker on the screen and don't allow their eyes or mind to wander as much, which may ultimately ______ blank creativity.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "recommend",
+    "criticize",
+    "impede",
+    "construct"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The first sentence tells us that video meetings are \"less conducive to\" (meaning less good for) brainstorming. This suggests that the video meeting participants' focus is bad for their creativity. \"Impede\" means \"delay\" or \"prevent,\" which works perfectly in this context.",
+    "A": "Choice A is incorrect. This choice is too positive to fit the context. The first sentence tells us that video meetings are \"less conducive to\" (meaning less good for) brainstorming. This suggests that the video meeting participants' focus is bad for their creativity.",
+    "B": "Choice B is incorrect. This choice doesn't make sense. The participants' intense focus on the screen is the subject of the missing verb. It wouldn't make sense to say that their over-focusing \"criticizes\" their creativity.",
+    "D": "Choice D is incorrect. \"Construct\" means \"build\" or \"make,\" which is too positive to fit the context. The first sentence tells us that video meetings are \"less conducive to\" (meaning less good for) brainstorming. This suggests that the video meeting participants' focus is bad for their creativity."
+  }
+}

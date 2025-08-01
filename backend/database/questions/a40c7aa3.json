@@ -1,0 +1,22 @@
+{
+  "question_id": "a40c7aa3",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Most of the planets that have been discovered outside our solar system orbit G-type stars, like our Sun. In 2014, ______ blank researchers identified a planet orbiting KELT-9, a B-type star more than twice as massive and nearly twice as hot as the Sun. Called KELT-9b, it is one of the hottest planets ever discovered.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "likewise,",
+    "however,",
+    "therefore,",
+    "for example,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The word \"however\" logically signals that the information in this sentence about the planet KELT-9b—that it orbits a B-type star—contrasts with the previous information about planets discovered outside our solar system. Most of these planets orbit G-type stars, not B-type stars.",
+    "A": "Choice A is incorrect because \"likewise\" illogically signals that the information about the planet KELT-9b is similar to the previous information about most planets outside our solar system. Instead, it contrasts with that information.",
+    "C": "Choice C is incorrect because \"therefore\" illogically signals that the information about the planet KELT-9b is a result of the previous information about most planets outside our solar system. Instead, it contrasts with that information.",
+    "D": "Choice D is incorrect because \"for example\" illogically signals that the information about the planet KELT-9b is an example of the previous information about most planets outside our solar system. Instead, it contrasts with that information."
+  }
+}

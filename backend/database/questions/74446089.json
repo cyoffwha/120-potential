@@ -1,0 +1,22 @@
+{
+  "question_id": "74446089",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "For his 1986 album Keyboard Fantasies , Beverly Glenn-Copeland wrote songs grounded in traditional soul and folk music, then accompanied them with futuristic synthesizer arrangements featuring ambient sounds and complex rhythms. The result was so strange, so unprecedented, that the album attracted little attention when first released. In recent years, however, a younger generation of musicians has embraced the stylistic experimentation of Keyboard Fantasies . Alternative R&amp;B musicians Blood Orange and Moses Sumney, among other contemporary recording artists, cite the album as an influence.",
+  "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "answer_options": [
+    "It urges contemporary musicians to adopt the unique sound of  Keyboard Fantasies.",
+    "It responds to criticism of  Keyboard Fantasies  by some younger musicians.",
+    "It offers examples of younger musicians whose work has been impacted by  Keyboard Fantasies.",
+    "It contrasts  Keyboard Fantasies  with the recordings of two younger musicians."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most accurately describes the function of the underlined sentence in the text as a whole. The text's subject is Beverly Glenn-Copeland's 1986 album Keyboard Fantasies , notable for its innovative, experimental arrangements. According to the text, the album was not initially admired, but in recent years it has become popular among younger musicians. The underlined portion of the text mentions two of those musicians, Blood Orange and Moses Sumney, who \"cite the album as an influence.\" Therefore, the underlined portion of the text offers examples of younger musicians whose work has been impacted by Keyboard Fantasies .",
+    "A": "Choice A is incorrect because even though the underlined sentence states that Blood Orange and Moses Sumney were influenced by Keyboard Fantasies , it doesn't say that all other musicians should also embrace the album's experimental style.",
+    "B": "Choice B is incorrect. Although the text states that Keyboard Fantasies was not admired on its first release, the text doesn't present any criticism of the album by younger musicians: it only presents two younger musicians who cite it as an influence.",
+    "D": "Choice D is incorrect because the underlined sentence doesn't mention any differences between Keyboard Fantasies and the work of Blood Orange and Moses Sumney."
+  }
+}

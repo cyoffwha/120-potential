@@ -1,0 +1,22 @@
+{
+  "question_id": "c4737d6a",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Text 1 Africa's Sahara region—once a lush ecosystem—began to dry out about 8,000 years ago. A change in Earth's orbit that affected climate has been posited as a cause of desertification, but archaeologist David Wright also attributes the shift to Neolithic peoples. He cites their adoption of pastoralism as a factor in the region drying out: the pastoralists' livestock depleted vegetation, prompting the events that created the Sahara Desert. Text 2 Research by Chris Brierley et al. challenges the idea that Neolithic peoples contributed to the Sahara's desertification. Using a climate-vegetation model, the team concluded that the end of the region's humid period occurred 500 years earlier than previously assumed. The timing suggests that Neolithic peoples didn't exacerbate aridity in the region but, in fact, may have helped delay environmental changes with practices (e.g., selective grazing) that preserved vegetation.",
+  "question_text": "Based on the texts, how would Chris Brierley (Text 2) most likely respond to the discussion in Text 1?",
+  "answer_options": [
+    "By pointing out that given the revised timeline for the end of the Sahara&rsquo;s humid period, the Neolithic peoples&rsquo; mode of subsistence likely didn&rsquo;t cause the region&rsquo;s desertification",
+    "By claiming that pastoralism was only one of many behaviors the Neolithic peoples took part in that may have contributed to the Sahara&rsquo;s changing climate",
+    "By insisting that pastoralism can have both beneficial and deleterious effects on a region&rsquo;s vegetation and climate",
+    "By asserting that more research needs to be conducted into factors that likely contributed to the desertification of the Sahara region"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. Brierley et al.'s research directly challenges Wright's claim that pastoralism turned the Sahara into a desert, suggesting that, in a Sahara that turned arid 500 years earlier than previously thought, pastoral practices may have actually \"preserved vegetation\" rather than depleting it.",
+    "B": "Choice B is incorrect. Brierley et al.'s research actually disputes the idea that any Neolithic peoples' behaviors, including pastoralism, could have contributed to the Sahara's changing climate. In fact, their research implies that the Neolithic peoples' practices did not \"exacerbate aridity\" (i.e., make things worse), but may have slowed environmental changes.",
+    "C": "Choice C is incorrect. Brierley et al.'s research does not acknowledge that pastoralism can have deleterious (i.e., negative) effects on a region's vegetation and climate. It only describes one possible beneficial effect: preserving vegetation through practices like selective grazing.",
+    "D": "Choice D is incorrect. Brierley et al.'s research does not call for more research into factors that likely contributed to the desertification of the Sahara region."
+  }
+}

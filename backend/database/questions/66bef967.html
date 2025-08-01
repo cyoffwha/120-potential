@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 66bef967</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Choctaw/Cherokee artist Jeffrey Gibson turns punching bags used by boxers into art by decorating them with beadwork and elements of Native dressmaking. These elements include leather fringe and jingles, the metal cones that cover the dresses worn in the jingle dance, a women&rsquo;s dance of the Ojibwe people. Thus, Gibson combines an object commonly associated with masculinity (a punching bag) with art forms traditionally practiced by women in most Native communities (beadwork and dressmaking). In this way, he rejects the division of male and female gender roles.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes Gibson&rsquo;s approach to art, as presented in the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>He draws from traditional Native art forms to create his original works.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>He has been influenced by Native and non-Native artists equally.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>He finds inspiration from boxing in designing the dresses he makes.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>He rejects expectations about color and pattern when incorporating beadwork.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most accurately describes Gibson&rsquo;s approach to art. As the text explains, Gibson, who is Cherokee and Choctaw, transforms punching bags into art pieces by applying (or attaching) to them beadwork and elements of Native dressmaking, including leather fringe and the jingles of the jingle dress. The text goes on to say that in most Native communities, the art forms of beadwork and dressmaking are traditionally practiced by women. Therefore, Gibson&rsquo;s approach to art consists of creating original works by drawing from traditional Native art forms.</p><p>Choice B is incorrect. Because Gibson incorporates Native art forms into his own original artwork, it can be inferred that he has been influenced by other Native artists, but the text never suggests that non-Native artists have influenced him. Choice C is incorrect because the text doesn&rsquo;t indicate that Gibson designs dresses influenced by boxing but instead that he turns punching bags, which are used in boxing, into works of art by applying elements of Native dressmaking to them. Choice D is incorrect. Although Gibson does incorporate beadwork into his art, the text never mentions the colors or patterns that he uses or suggests that his art defies the expectations that people might have about color and pattern in beadwork.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">146 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eHe draws from traditional Native art forms to create his original works.\u003c/p\u003e", "id": "6c14d7be-8b32-4ff1-a1b9-76af6c627bd8"}, {"content": "\u003cp\u003eHe has been influenced by Native and non-Native artists equally.\u003c/p\u003e", "id": "4d5f4002-140a-4a73-ad0b-d83a15da233f"}, {"content": "\u003cp\u003eHe finds inspiration from boxing in designing the dresses he makes.\u003c/p\u003e", "id": "d2e3d43d-ec18-4d97-a027-159ea51f76db"}, {"content": "\u003cp\u003eHe rejects expectations about color and pattern when incorporating beadwork.\u003c/p\u003e", "id": "3f6ce6ea-e31e-44e6-b121-315eae3e272f"}], "correct_answer": ["A"], "externalid": "85c19ad6-e14d-43d4-9d45-def4e74635b2", "keys": ["6c14d7be-8b32-4ff1-a1b9-76af6c627bd8"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-002-CID", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most accurately describes Gibson\u0026rsquo;s approach to art. As the text explains, Gibson, who is Cherokee and Choctaw, transforms punching bags into art pieces by applying (or attaching) to them beadwork and elements of Native dressmaking, including leather fringe and the jingles of the jingle dress. The text goes on to say that in most Native communities, the art forms of beadwork and dressmaking are traditionally practiced by women. Therefore, Gibson\u0026rsquo;s approach to art consists of creating original works by drawing from traditional Native art forms.\u003c/p\u003e\u003cp\u003eChoice B is incorrect. Because Gibson incorporates Native art forms into his own original artwork, it can be inferred that he has been influenced by other Native artists, but the text never suggests that non-Native artists have influenced him. Choice C is incorrect because the text doesn\u0026rsquo;t indicate that Gibson designs dresses influenced by boxing but instead that he turns punching bags, which are used in boxing, into works of art by applying elements of Native dressmaking to them. Choice D is incorrect. Although Gibson does incorporate beadwork into his art, the text never mentions the colors or patterns that he uses or suggests that his art defies the expectations that people might have about color and pattern in beadwork.\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes Gibson\u0026rsquo;s approach to art, as presented in the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eChoctaw/Cherokee artist Jeffrey Gibson turns punching bags used by boxers into art by decorating them with beadwork and elements of Native dressmaking. These elements include leather fringe and jingles, the metal cones that cover the dresses worn in the jingle dance, a women\u0026rsquo;s dance of the Ojibwe people. Thus, Gibson combines an object commonly associated with masculinity (a punching bag) with art forms traditionally practiced by women in most Native communities (beadwork and dressmaking). In this way, he rejects the division of male and female gender roles.\u003c/p\u003e", "templateclusterid": "ace3e439-d8fb-401d-9373-782fd90e91df", "templateclustername": "", "type": "mcq", "vaultid": "3992baf9-ac0b-4318-af5d-c93bbfb28c17"}, "createDate": 1691007959311, "difficulty": "M", "external_id": "85c19ad6-e14d-43d4-9d45-def4e74635b2", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "66bef967", "score_band_range_cd": 5, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "7958076b-4c83-4567-a53b-279ee40d1934", "updateDate": 1691007959311};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-66bef967");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

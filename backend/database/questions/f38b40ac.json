@@ -1,0 +1,22 @@
+{
+  "question_id": "f38b40ac",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In addition to her technical skill and daring feats, American stunt pilot Bessie Coleman was also known for dazzling the crowds that came to watch her air shows in the 1920s with her exuberant personality. During her career, she was careful and purposeful about how she crafted her public persona. An aviation researcher has claimed that Coleman intentionally defied social norms of the time by how she chose to present herself to the public.",
+  "question_text": "Which quotation from an article about Coleman would most directly support the aviation researcher&rsquo;s claim?",
+  "answer_options": [
+    "&ldquo;For her air shows, Coleman frequently used the Curtiss JN-4, or &lsquo;Jenny,&rsquo; which at that time was one of the most well-known types of planes.&rdquo;",
+    "&ldquo;While Coleman was beloved by spectators for her charisma, she had a more complicated relationship with her managers and staff, who at times found her behavior too impulsive and demanding.&rdquo;",
+    "&ldquo;Coleman once considered leaving her career as a stunt pilot to focus her efforts on giving speeches, which she felt would better support her public image.&rdquo;&nbsp;",
+    "&ldquo;Although female pilots were typically expected to wear traditional but impractical attire that included dresses or skirts, photographs of Coleman show her wearing pants and leather jackets.&rdquo;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. This choice supports the claim of Coleman's intentional defiance of social norms: female pilots were expected to wear skirts, but Coleman wore pants and leather jackets instead.",
+    "A": "Choice A is incorrect. Coleman flew a well-known, common plane, which would not have defied social norms among pilots.",
+    "B": "Choice B is incorrect. Her complicated relationship with managers and staff would not have been a component of Coleman's public persona. This choice also fails to mention any \"social norms of the time.\"",
+    "C": "Choice C is incorrect. While this quotation suggests that Coleman was careful and purposeful about her public image, it doesn't directly mention anything about \"social norms of the time.\""
+  }
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question b11bb2a3</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Amy Lowell&rsquo;s 1912 poem &ldquo;Summer.&rdquo;</p>
+<blockquote class="dap_poemexcerpt">
+<p>It is summer, glorious, deep-toned summer,</p>
+<p>The very crown of nature&rsquo;s changing year</p>
+<p>When all her surging life is at its full.</p>
+<p>To me alone it is a time of pause,</p>
+<p><span role="region" aria-label="Referenced Content"><u>A void</u></span> and silent space between two worlds,</p>
+<p>When inspiration lags, and feeling sleeps,</p>
+<p>Gathering strength for efforts yet to come.</p>
+</blockquote></div>
+
+                        <div class="mt-3"><p>As used in the text, what does the phrase &ldquo;a void&rdquo; most nearly mean?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>A useless</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>An empty</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>A forgotten</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>An incomplete</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because as used in the text, a span of time is described as "a void" space, which most nearly means an empty or vacant one. In the text, the speaker describes summertime in counterintuitive terms: although nature&rsquo;s "surging life is at its full" during the season, the speaker feels summer to be "a time of pause, / A void and silent space between two worlds." The speaker says further that during summer, "feeling sleeps / Gathering strength" for future efforts. Thus, the speaker regards summer as an empty stretch of time, to be followed by a period of greater activity.</p><p>Choice A is incorrect. Although the text does present summer as a time of inactivity, it doesn&rsquo;t characterize that inactivity as useless, or as having no purpose; in fact, the speaker regards summer as a time when "feeling" gathers "strength for efforts yet to come." Choice C is incorrect. Although the text characterizes summer as a time "when inspiration lags, and feeling sleeps," it doesn&rsquo;t discuss the season&rsquo;s relationship to the speaker&rsquo;s memory or suggest that summer can easily be forgotten. Choice D is incorrect. In some contexts, "void" can mean devoid of, or lacking, a particular element, and such a lack could be conceived of as incompleteness. However, the text doesn&rsquo;t portray summer as not being complete or whole; instead, it characterizes vacancy or inactivity as being an essential quality of the season, as experienced by the speaker.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">507 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eA useless\u003c/p\u003e", "id": "c9f8d142-5604-45bf-9c1b-5823de80d17c"}, {"content": "\u003cp\u003eAn empty\u003c/p\u003e", "id": "4a06ecbb-3065-485a-a9b9-1524ceda8b6a"}, {"content": "\u003cp\u003eA forgotten\u003c/p\u003e", "id": "280f7da7-b8a6-40ba-8daa-f20e9c8428a8"}, {"content": "\u003cp\u003eAn incomplete\u003c/p\u003e", "id": "70651206-84cc-4827-b5c4-178c6ec44506"}], "correct_answer": ["B"], "externalid": "07b3f7e5-e57c-4a76-be24-674638b5d65c", "keys": ["4a06ecbb-3065-485a-a9b9-1524ceda8b6a"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-038-WIC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because as used in the text, a span of time is described as \"a void\" space, which most nearly means an empty or vacant one. In the text, the speaker describes summertime in counterintuitive terms: although nature\u0026rsquo;s \"surging life is at its full\" during the season, the speaker feels summer to be \"a time of pause, / A void and silent space between two worlds.\" The speaker says further that during summer, \"feeling sleeps / Gathering strength\" for future efforts. Thus, the speaker regards summer as an empty stretch of time, to be followed by a period of greater activity.\u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although the text does present summer as a time of inactivity, it doesn\u0026rsquo;t characterize that inactivity as useless, or as having no purpose; in fact, the speaker regards summer as a time when \"feeling\" gathers \"strength for efforts yet to come.\" Choice C is incorrect. Although the text characterizes summer as a time \"when inspiration lags, and feeling sleeps,\" it doesn\u0026rsquo;t discuss the season\u0026rsquo;s relationship to the speaker\u0026rsquo;s memory or suggest that summer can easily be forgotten. Choice D is incorrect. In some contexts, \"void\" can mean devoid of, or lacking, a particular element, and such a lack could be conceived of as incompleteness. However, the text doesn\u0026rsquo;t portray summer as not being complete or whole; instead, it characterizes vacancy or inactivity as being an essential quality of the season, as experienced by the speaker.\u003c/p\u003e", "stem": "\u003cp\u003eAs used in the text, what does the phrase \u0026ldquo;a void\u0026rdquo; most nearly mean?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Amy Lowell\u0026rsquo;s 1912 poem \u0026ldquo;Summer.\u0026rdquo;\u003c/p\u003e\n\u003cblockquote class=\"dap_poemexcerpt\"\u003e\n\u003cp\u003eIt is summer, glorious, deep-toned summer,\u003c/p\u003e\n\u003cp\u003eThe very crown of nature\u0026rsquo;s changing year\u003c/p\u003e\n\u003cp\u003eWhen all her surging life is at its full.\u003c/p\u003e\n\u003cp\u003eTo me alone it is a time of pause,\u003c/p\u003e\n\u003cp\u003e\u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003eA void\u003c/u\u003e\u003c/span\u003e and silent space between two worlds,\u003c/p\u003e\n\u003cp\u003eWhen inspiration lags, and feeling sleeps,\u003c/p\u003e\n\u003cp\u003eGathering strength for efforts yet to come.\u003c/p\u003e\n\u003c/blockquote\u003e", "templateclusterid": "bada61b3-1925-40df-ba41-9f67e9bc97d6", "templateclustername": "", "type": "mcq", "vaultid": "1b452255-da0d-4e92-9c7a-30394b79b3c6"}, "createDate": 1691007959321, "difficulty": "E", "external_id": "07b3f7e5-e57c-4a76-be24-674638b5d65c", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "b11bb2a3", "score_band_range_cd": 2, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "d57f3db2-3616-4aa8-8daf-b6e75ec8dd1f", "updateDate": 1691007959321};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-b11bb2a3");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

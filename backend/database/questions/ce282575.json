@@ -1,0 +1,22 @@
+{
+  "question_id": "ce282575",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: J.R.R. Tolkien's 1937 novel The Hobbit features two maps. The novel opens with a reproduction of the map that the characters use on their quest. This map introduces readers to the fictional world they are about to enter. The novel closes with a map depicting every stop on the characters' journey. That map allows readers to reconstruct the story they have just read. The student wants to contrast the purposes of the two maps in The Hobbit . Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to contrast the purposes of the two maps in  The Hobbit . Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "The Hobbit &rsquo;s opening map introduces readers to the fictional world they are about to enter, while the closing map allows them to reconstruct the story they have just read.",
+    "The Hobbit , a novel published by J.R.R. Tolkien in 1937, features a reproduction of a map that the characters use on their quest, as well as a map that appears at the end of the novel.",
+    "The Hobbit &rsquo;s two maps, one opening and one closing the novel, each serve a purpose for readers.",
+    "In 1937, author J.R.R. Tolkien published  The Hobbit , a novel featuring both an opening and a closing map."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The sentence contrasts the purposes of the two maps in The Hobbit , noting that the opening map introduces readers to the book's fictional world, while the closing map helps readers reconstruct the story. The word \"while\" helps signal a contrast between the purposes of the maps.",
+    "B": "Choice B is incorrect. While the sentence mentions the two maps, it doesn't contrast the maps' purposes.",
+    "C": "Choice C is incorrect. While the sentence mentions the two maps and notes that each has a purpose, it doesn't specify what those purposes are or how they contrast.",
+    "D": "Choice D is incorrect. While the sentence mentions the two maps, it doesn't contrast the maps' purposes."
+  }
+}

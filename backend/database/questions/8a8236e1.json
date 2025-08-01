@@ -1,0 +1,22 @@
+{
+  "question_id": "8a8236e1",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Scent is tightly interwoven with our daily lives, often evoking significant memories and important social events. This connection is of growing interest to archaeologists who hope to use it to better understand ancient rituals, trade, social hierarchies, and medicine. Although the speed at which odor molecules dissipate makes identifying ancient scents challenging, advancements in biomolecular technologies show promise in unlocking ancient aromas from preserved artifacts. Archaeological studies making use of these advancements may provide new insights into past societies.",
+  "question_text": "According to the text, what is one reason some archaeologists are interested in recovering scents from ancient artifacts?",
+  "answer_options": [
+    "They are investigating whether people&rsquo;s sense of smell has declined in recent centuries.",
+    "They believe the scents could illuminate important aspects of ancient life.",
+    "They think that ancient scents would be enjoyable to people today.&nbsp;",
+    "They hope to develop new medicines using ancient scent molecules.&nbsp;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The text states that archaeologists are interested in using scents to better understand \"ancient rituals, trade, social hierarchies, and medicine,\" all of which are important aspects of ancient life.",
+    "A": "Choice A is incorrect. The text doesn't say anything about investigating if people's sense of smell has declined in recent centuries. It says that scents fade over time—not that people have gotten worse at smelling scents.",
+    "C": "Choice C is incorrect. The text says that archaeologists are interested in using scents to better understand \"ancient rituals, trade, social hierarchies, and medicine,\" but it doesn't say anything about ancient scents being enjoyable to people today.",
+    "D": "Choice D is incorrect. The text doesn't say anything about developing new medicines. Rather, it says that archaeologists are interested in using scents to better understand \"ancient rituals, trade, social hierarchies, and medicine.\""
+  }
+}

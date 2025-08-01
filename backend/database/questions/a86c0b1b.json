@@ -1,0 +1,22 @@
+{
+  "question_id": "a86c0b1b",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Ancient Native American and Australian Aboriginal cultures described the Pleiades star cluster as having seven stars. It was referred to as the Seven Sisters in the mythology of ancient Greece. Today, the cluster appears to have only six stars. Two of the stars have moved so close together that they now appear as one. The student wants to specify the reason the Pleiades' appearance changed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to specify the reason the Pleiades&rsquo; appearance changed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Ancient Native American and Australian Aboriginal cultures described the Pleiades, which was referred to in Greek mythology as the Seven Sisters, as having seven stars.",
+    "Although once referred to as the Seven Sisters, the Pleiades appears to have only six stars today.",
+    "In the time since ancient cultures described the Pleiades as having seven stars, two of the cluster&rsquo;s stars have moved so close together that they now appear as one.",
+    "The Pleiades has seven stars, but two are so close together that they appear to be a single star."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The sentence specifies the reason the Pleiades' appearance changed, noting that two of the cluster's stars have moved so close together that they now appear as one star.",
+    "A": "Choice A is incorrect. The sentence specifies how ancient Native American and Australian Aboriginal cultures described the Pleiades; it doesn't specify the reason the Pleiades' appearance changed.",
+    "B": "Choice B is incorrect. The sentence describes the appearance of the Pleiades today; it doesn't specify the reason the Pleiades' appearance changed.",
+    "D": "Choice D is incorrect. The sentence explains why two of the Pleiades' stars appear to be a single star; it doesn't specify the reason the Pleiades' appearance changed."
+  }
+}

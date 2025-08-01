@@ -1,0 +1,22 @@
+{
+  "question_id": "ad729337",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "With its clich&eacute;d imagery of suburban lawns and power lines, John Ashbery's 2004 poem \"Ignorance of the Law Is No Excuse\" may seem barren terrain for critical analysis. ______ blank cultural critic Lauren Berlant finds fertile ground in just its first two stanzas, devoting most of a book chapter to deciphering the \"weight of the default space\" Ashbery creates in this poem.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Likewise,",
+    "Nonetheless,",
+    "In turn,",
+    "That is,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"Nonetheless\" is a transition that indicates disagreement. The first sentence describes the unlikelihood of finding much for critical analysis in Ashbery's poem (\"barren terrain\"), while the second sentence describes how Berlant did in fact find much to analyze in Ashbery's poem (\"fertile ground\"), so the transition \"nonetheless\" fits perfectly.",
+    "A": "Choice A is incorrect. This choice uses a transition that indicates the addition of a new but similar idea, which doesn't make sense here. The idea in this sentence directly contradicts the idea in the previous sentence.",
+    "C": "Choice C is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense in this context—a poem seemingly having little opportunity for critical analysis would not cause someone to write an extensive critical analysis (in fact, we might expect the opposite).",
+    "D": "Choice D is incorrect. This choice uses a transition that indicates a restatement of the same idea in other words. But the text isn't restating the first idea here. Instead, it's offering a contradiction to the idea expressed in the first sentence."
+  }
+}

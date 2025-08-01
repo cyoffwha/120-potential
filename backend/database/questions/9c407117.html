@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 9c407117</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>A student performs an experiment testing her hypothesis that a slightly acidic soil environment is more beneficial for the growth of the plant <em>Brassica rapa parachinensis </em>(a vegetable commonly known as choy sum) than a neutral soil environment. She plants sixteen seeds of choy sum in a mixture of equal amounts of coffee grounds (which are highly acidic) and potting soil and another sixteen seeds in potting soil without coffee grounds as the control for the experiment. The two groups of seeds were exposed to the same growing conditions and monitored for three weeks.</p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most directly weaken the student&rsquo;s hypothesis?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The choy sum planted in the soil without coffee grounds were significantly taller at the end of the experiment than the choy sum planted in the mixture of soil and coffee grounds.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The choy sum grown in the soil without coffee grounds weighed significantly less at the end of the experiment than the choy sum grown in the mixture of soil and coffee grounds.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The choy sum seeds planted in the soil without coffee grounds sprouted significantly later in the experiment than did the seeds planted in the mixture of soil and coffee grounds.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Significantly fewer of the choy sum seeds planted in the soil without coffee grounds sprouted plants than did the seeds planted in the mixture of soil and coffee grounds.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it describes an experimental outcome that would most directly weaken the student&rsquo;s hypothesis. According to the text, the student hypothesizes that <em>Brassica rapa parachinensis </em>(choy sum) will benefit more from acidic soil than it will from neutral soil. The text then explains that the student planted 16 choy sum seeds in potting soil with coffee grounds added to increase acidity and another 16 seeds in soil without coffee grounds as a control (a group identical to the experimental group except for the experimental modification being tested). If the hypothesis were correct, the plants in the more acidic soil-and-coffee-grounds mixture would grow faster than those in the control group. However, choice A proposes a scenario in which the plants in soil without coffee grounds were &ldquo;significantly taller&rdquo; than those in the more acidic mixture&mdash;an outcome that weakens the hypothesis that higher acidity is beneficial to the plants&rsquo; growth. </p><p>Choice B is incorrect. If the choy sum planted in the neutral soil produced less plant matter and therefore weighed less than the choy sum planted in the acidic soil-and-coffee-grounds mixture, this finding would strengthen the student&rsquo;s hypothesis, not weaken it. Choice C is incorrect. If seeds planted in neutral soil (without coffee grounds) sprouted significantly later than seeds planted in the acidic soil-and-coffee-grounds mixture, this finding would strengthen, not weaken, the student&rsquo;s hypothesis that acidic soil benefits choy sum. Choice D is incorrect. If seeds planted in the neutral soil (without coffee grounds) sprouted significantly fewer plants than seeds planted in the acidic soil-and-coffee-grounds mixture did, this finding would strengthen, not weaken, the student&rsquo;s hypothesis that choy sum benefits from acidic soil. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">234 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe choy sum planted in the soil without coffee grounds were significantly taller at the end of the experiment than the choy sum planted in the mixture of soil and coffee grounds.\u003c/p\u003e", "id": "257f489e-d504-4625-bead-95867e7eadc2"}, {"content": "\u003cp\u003eThe choy sum grown in the soil without coffee grounds weighed significantly less at the end of the experiment than the choy sum grown in the mixture of soil and coffee grounds.\u003c/p\u003e", "id": "fa2e28df-1784-444d-95f3-8b0207b4c278"}, {"content": "\u003cp\u003eThe choy sum seeds planted in the soil without coffee grounds sprouted significantly later in the experiment than did the seeds planted in the mixture of soil and coffee grounds.\u003c/p\u003e", "id": "0d3701e5-e063-48cb-a065-d3baca37807a"}, {"content": "\u003cp\u003eSignificantly fewer of the choy sum seeds planted in the soil without coffee grounds sprouted plants than did the seeds planted in the mixture of soil and coffee grounds.\u003c/p\u003e", "id": "a05b1718-e0a2-4f03-ad87-0cc994ec8e3f"}], "correct_answer": ["A"], "externalid": "9d63dd85-3fe2-4008-b144-de2a399f793e", "keys": ["257f489e-d504-4625-bead-95867e7eadc2"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-313-TXT", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it describes an experimental outcome that would most directly weaken the student\u0026rsquo;s hypothesis. According to the text, the student hypothesizes that \u003cem\u003eBrassica rapa parachinensis \u003c/em\u003e(choy sum) will benefit more from acidic soil than it will from neutral soil. The text then explains that the student planted 16 choy sum seeds in potting soil with coffee grounds added to increase acidity and another 16 seeds in soil without coffee grounds as a control (a group identical to the experimental group except for the experimental modification being tested). If the hypothesis were correct, the plants in the more acidic soil-and-coffee-grounds mixture would grow faster than those in the control group. However, choice A proposes a scenario in which the plants in soil without coffee grounds were \u0026ldquo;significantly taller\u0026rdquo; than those in the more acidic mixture\u0026mdash;an outcome that weakens the hypothesis that higher acidity is beneficial to the plants\u0026rsquo; growth. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. If the choy sum planted in the neutral soil produced less plant matter and therefore weighed less than the choy sum planted in the acidic soil-and-coffee-grounds mixture, this finding would strengthen the student\u0026rsquo;s hypothesis, not weaken it. Choice C is incorrect. If seeds planted in neutral soil (without coffee grounds) sprouted significantly later than seeds planted in the acidic soil-and-coffee-grounds mixture, this finding would strengthen, not weaken, the student\u0026rsquo;s hypothesis that acidic soil benefits choy sum. Choice D is incorrect. If seeds planted in the neutral soil (without coffee grounds) sprouted significantly fewer plants than seeds planted in the acidic soil-and-coffee-grounds mixture did, this finding would strengthen, not weaken, the student\u0026rsquo;s hypothesis that choy sum benefits from acidic soil. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most directly weaken the student\u0026rsquo;s hypothesis?\u003c/p\u003e", "stimulus": "\u003cp\u003eA student performs an experiment testing her hypothesis that a slightly acidic soil environment is more beneficial for the growth of the plant \u003cem\u003eBrassica rapa parachinensis \u003c/em\u003e(a vegetable commonly known as choy sum) than a neutral soil environment. She plants sixteen seeds of choy sum in a mixture of equal amounts of coffee grounds (which are highly acidic) and potting soil and another sixteen seeds in potting soil without coffee grounds as the control for the experiment. The two groups of seeds were exposed to the same growing conditions and monitored for three weeks.\u003c/p\u003e", "templateclusterid": "883d5a71-7116-4a4e-877a-baa8350a2fa2", "templateclustername": "", "type": "mcq", "vaultid": "e7560922-8484-4a2b-8626-91d0a5c9ca68"}, "createDate": 1691007959335, "difficulty": "H", "external_id": "9d63dd85-3fe2-4008-b144-de2a399f793e", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "9c407117", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "c86a2e5e-b694-4c3e-95dd-6942a13130c4", "updateDate": 1691007959335};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-9c407117");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

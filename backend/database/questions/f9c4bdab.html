@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question f9c4bdab</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>A student is writing a paper about <em>One Night in Miami...</em>, a 2020 film directed by Regina King and written by Kemp Powers. Powers adapted the film&rsquo;s screenplay from his 2013 play, which he wrote after learning about a 1964 meeting that took place in Miami, Florida, between four prominent figures of the Civil Rights movement: Malcolm X, Muhammad Ali, Jim Brown, and Sam Cooke. The student claims that although Powers was inspired by this meeting, the film is best understood not as a precise retelling of historical events but rather as a largely imagined but informed representation of them.</p></div>
+
+                        <div class="mt-3"><p>Which quotation from an article about <em>One Night in Miami... </em>would be the most effective evidence for the student to include in support of this claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;When Powers learned of the meeting, he initially planned to write a much longer work about its four famous participants rather than focusing on the meeting itself.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;<em>One Night in Miami...</em> received numerous awards and nominations, including an Academy Award nomination for Powers for Best Adapted Screenplay.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Powers has described <em>One Night in Miami... </em>as the story of four friends encouraging and supporting one another while engaged in a crucial political debate about how best to achieve equality for Black people in the United States.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Powers could find only the most superficial historical details about the meeting, so he read extensively about the four individuals and their thinking at the time in an effort to portray what might have happened between them.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it provides a quotation that effectively supports the student&rsquo;s claim about the film <em>One Night in Miami&hellip;</em>. The quotation states that in researching the play on which the film was based, Kemp Powers only found superficial details about what actually happened during the 1964 meeting in Miami between four leading Civil Rights leaders, meaning that there is very little information about the meeting in the historical record. In the absence of greater details, it wouldn&rsquo;t have been possible for the film to be a precise retelling of the historical events it depicts. The quotation explains that to compensate for this lack of information about the meeting, Powers did extensive research into the four figures and how they thought at the time in order to speculate in an informed way about what they might have said or what might have occurred between them. Therefore, the quotation effectively supports the claim that the film is best understood not as a precise retelling of a historical event but as a deeply informed imaginative rendering of that event.&nbsp;</p><p>Choice A is incorrect. Although the quotation discusses how on learning about the 1964 meeting in Miami, Powers was inspired to write a play and, later, to adapt it into a screenplay, it doesn&rsquo;t discuss Powers&rsquo;s approach to representing what had occurred in the meeting. Instead, it states that Powers didn&rsquo;t initially plan to write a story only &ldquo;focusing on the meeting itself&rdquo; but rather had considered writing a &ldquo;much longer&rdquo; and more expansive work about the meeting&rsquo;s four participants. Choice B is incorrect because the quotation doesn&rsquo;t discuss Powers&rsquo;s approach to representing historical events in his play and in the film; instead, the quotation focuses on the film&rsquo;s positive critical reception by mentioning that it received numerous awards and nominations. Choice C is incorrect. Although the quotation references historical events that are discussed directly in the play and film by explaining how the four historical figures featured in the story engage in political debates about contemporary issues, it doesn&rsquo;t specify to what extent Powers&rsquo;s representation of what occurred during the 1964 meeting in Miami is a factual retelling of what happened and how much is an imaginative rendering of what might have happened. Rather, the quotation focuses on Powers&rsquo;s description of the film&rsquo;s basic premise and how the characters engage with the historical context of its setting. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">181 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;When Powers learned of the meeting, he initially planned to write a much longer work about its four famous participants rather than focusing on the meeting itself.\u0026rdquo;\u003c/p\u003e", "id": "716e7c54-bc90-4155-9e31-7eae2f41d9a3"}, {"content": "\u003cp\u003e\u0026ldquo;\u003cem\u003eOne Night in Miami...\u003c/em\u003e received numerous awards and nominations, including an Academy Award nomination for Powers for Best Adapted Screenplay.\u0026rdquo;\u003c/p\u003e", "id": "5a3c5d24-f16c-46ba-ad68-a628de32461c"}, {"content": "\u003cp\u003e\u0026ldquo;Powers has described \u003cem\u003eOne Night in Miami... \u003c/em\u003eas the story of four friends encouraging and supporting one another while engaged in a crucial political debate about how best to achieve equality for Black people in the United States.\u0026rdquo;\u003c/p\u003e", "id": "aa3cc34a-ba68-4dcd-b8ab-dd03b4930d4d"}, {"content": "\u003cp\u003e\u0026ldquo;Powers could find only the most superficial historical details about the meeting, so he read extensively about the four individuals and their thinking at the time in an effort to portray what might have happened between them.\u0026rdquo;\u003c/p\u003e", "id": "e635cbdd-690b-4d53-a1ba-d73e145754ef"}], "correct_answer": ["D"], "externalid": "24f0aa79-c7cc-4438-84e1-bec4e8d2a77f", "keys": ["e635cbdd-690b-4d53-a1ba-d73e145754ef"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-345-TXT", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it provides a quotation that effectively supports the student\u0026rsquo;s claim about the film \u003cem\u003eOne Night in Miami\u0026hellip;\u003c/em\u003e. The quotation states that in researching the play on which the film was based, Kemp Powers only found superficial details about what actually happened during the 1964 meeting in Miami between four leading Civil Rights leaders, meaning that there is very little information about the meeting in the historical record. In the absence of greater details, it wouldn\u0026rsquo;t have been possible for the film to be a precise retelling of the historical events it depicts. The quotation explains that to compensate for this lack of information about the meeting, Powers did extensive research into the four figures and how they thought at the time in order to speculate in an informed way about what they might have said or what might have occurred between them. Therefore, the quotation effectively supports the claim that the film is best understood not as a precise retelling of a historical event but as a deeply informed imaginative rendering of that event.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although the quotation discusses how on learning about the 1964 meeting in Miami, Powers was inspired to write a play and, later, to adapt it into a screenplay, it doesn\u0026rsquo;t discuss Powers\u0026rsquo;s approach to representing what had occurred in the meeting. Instead, it states that Powers didn\u0026rsquo;t initially plan to write a story only \u0026ldquo;focusing on the meeting itself\u0026rdquo; but rather had considered writing a \u0026ldquo;much longer\u0026rdquo; and more expansive work about the meeting\u0026rsquo;s four participants. Choice B is incorrect because the quotation doesn\u0026rsquo;t discuss Powers\u0026rsquo;s approach to representing historical events in his play and in the film; instead, the quotation focuses on the film\u0026rsquo;s positive critical reception by mentioning that it received numerous awards and nominations. Choice C is incorrect. Although the quotation references historical events that are discussed directly in the play and film by explaining how the four historical figures featured in the story engage in political debates about contemporary issues, it doesn\u0026rsquo;t specify to what extent Powers\u0026rsquo;s representation of what occurred during the 1964 meeting in Miami is a factual retelling of what happened and how much is an imaginative rendering of what might have happened. Rather, the quotation focuses on Powers\u0026rsquo;s description of the film\u0026rsquo;s basic premise and how the characters engage with the historical context of its setting. \u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from an article about \u003cem\u003eOne Night in Miami... \u003c/em\u003ewould be the most effective evidence for the student to include in support of this claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eA student is writing a paper about \u003cem\u003eOne Night in Miami...\u003c/em\u003e, a 2020 film directed by Regina King and written by Kemp Powers. Powers adapted the film\u0026rsquo;s screenplay from his 2013 play, which he wrote after learning about a 1964 meeting that took place in Miami, Florida, between four prominent figures of the Civil Rights movement: Malcolm X, Muhammad Ali, Jim Brown, and Sam Cooke. The student claims that although Powers was inspired by this meeting, the film is best understood not as a precise retelling of historical events but rather as a largely imagined but informed representation of them.\u003c/p\u003e", "templateclusterid": "c7d40537-52fa-4985-af67-4fd0af1dfebe", "templateclustername": "", "type": "mcq", "vaultid": "f37d1966-4c78-4e5c-a898-909e286aefbb"}, "createDate": 1691007959336, "difficulty": "H", "external_id": "24f0aa79-c7cc-4438-84e1-bec4e8d2a77f", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "f9c4bdab", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "97e6a8ca-9753-47a1-a391-e492b88e0960", "updateDate": 1691007959336};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-f9c4bdab");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 5e101c70</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>&nbsp;</p><p><span aria-level="2" role="heading"><strong>Text 1</strong></span></p>
+<p>Most animals can regenerate some parts of their bodies, such as skin. But when a three-banded panther worm is cut into three pieces, each piece grows into a new worm. Researchers are investigating this feat partly to learn more about humans&rsquo; comparatively limited abilities to regenerate, and they&rsquo;re making exciting progress. An especially promising discovery is that both humans and panther worms have a gene for early growth response (EGR) linked to regeneration.</p>
+
+<p>&nbsp;</p><p><span aria-level="2" role="heading"><strong>Text 2</strong></span></p>
+<p>When Mansi Srivastava and her team reported that panther worms, like humans, possess a gene for EGR, it caused excitement. However, as the team pointed out, the gene likely functions very differently in humans than it does in panther worms. Srivastava has likened EGR to a switch that activates other genes involved in regeneration in panther worms, but how this switch operates in humans remains unclear.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, what would the author of Text 2 most likely say about Text 1&rsquo;s characterization of the discovery involving EGR?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It is reasonable given that Srivastava and her team have identified how EGR functions in both humans and panther worms.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It is overly optimistic given additional observations from Srivastava and her team.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It is unexpected given that Srivastava and her team&rsquo;s findings were generally met with enthusiasm.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It is unfairly dismissive given the progress that Srivastava and her team have reported.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it reflects how the author of Text 2 would most likely respond to Text 1 based on the information provided. Text 1 discusses the discovery of a regeneration-linked gene, EGR, in both three-banded panther worms (which are capable of full regeneration) and humans (who have relatively limited regeneration abilities). Text 1 characterizes this discovery as &ldquo;especially promising&rdquo; and a sign of &ldquo;exciting progress&rdquo; in understanding human regeneration. The author of Text 2, on the other hand, focuses on the fact that the team that reported the EGR finding pointed out that while EGR&rsquo;s function in humans isn&rsquo;t yet known, it&rsquo;s likely very different from its function in panther worms. Therefore, the author of Text 2 would most likely say that Text 1&rsquo;s enthusiasm about the EGR discovery is overly optimistic given Srivastava&rsquo;s team&rsquo;s observations about EGR in humans. </p><p>Choice A is incorrect because the author of Text 2 explains that Srivastava and her team explicitly reported that they haven&rsquo;t yet identified how EGR functions in humans; therefore, the author of Text 2 wouldn&rsquo;t say that Text 1&rsquo;s excitement is reasonable for the stated reason. Instead, the author of Text 2 would likely characterize Text 1&rsquo;s excitement as premature and overly optimistic. Choice C is incorrect because Text 1 does treat Srivastava&rsquo;s team&rsquo;s findings with enthusiasm; it describes the discovery of EGR in both three-banded panther worms and humans as promising and exciting. It would be illogical for the author of Text 2 to say that because most others treat the discovery with enthusiasm, Text 1&rsquo;s enthusiastic characterization of the discovery is unexpected. Choice D is incorrect because Text 1 isn&rsquo;t at all dismissive of Srivastava&rsquo;s team&rsquo;s findings; instead, Text 1 is optimistic about the EGR discovery, characterizing it as promising and exciting. There&rsquo;s nothing in Text 2 to suggest that the author of Text 2 would say that Text 1&rsquo;s praise for the discovery is dismissive, or disdainful.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">444 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt is reasonable given that Srivastava and her team have identified how EGR functions in both humans and panther worms.\u003c/p\u003e", "id": "c0657c51-13df-43b8-a098-e4c908c96015"}, {"content": "\u003cp\u003eIt is overly optimistic given additional observations from Srivastava and her team.\u003c/p\u003e", "id": "36aadb98-c1c0-45aa-8086-d9f3d9f5704e"}, {"content": "\u003cp\u003eIt is unexpected given that Srivastava and her team\u0026rsquo;s findings were generally met with enthusiasm.\u003c/p\u003e", "id": "8c4955e5-e01b-48c3-9068-967b8e499852"}, {"content": "\u003cp\u003eIt is unfairly dismissive given the progress that Srivastava and her team have reported.\u003c/p\u003e", "id": "60356f1c-029c-4179-ba43-de2ace59a486"}], "correct_answer": ["B"], "externalid": "70210034-540e-47df-82a9-09dd65daf1ae", "keys": ["36aadb98-c1c0-45aa-8086-d9f3d9f5704e"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-007-CTC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it reflects how the author of Text 2 would most likely respond to Text 1 based on the information provided. Text 1 discusses the discovery of a regeneration-linked gene, EGR, in both three-banded panther worms (which are capable of full regeneration) and humans (who have relatively limited regeneration abilities). Text 1 characterizes this discovery as \u0026ldquo;especially promising\u0026rdquo; and a sign of \u0026ldquo;exciting progress\u0026rdquo; in understanding human regeneration. The author of Text 2, on the other hand, focuses on the fact that the team that reported the EGR finding pointed out that while EGR\u0026rsquo;s function in humans isn\u0026rsquo;t yet known, it\u0026rsquo;s likely very different from its function in panther worms. Therefore, the author of Text 2 would most likely say that Text 1\u0026rsquo;s enthusiasm about the EGR discovery is overly optimistic given Srivastava\u0026rsquo;s team\u0026rsquo;s observations about EGR in humans. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the author of Text 2 explains that Srivastava and her team explicitly reported that they haven\u0026rsquo;t yet identified how EGR functions in humans; therefore, the author of Text 2 wouldn\u0026rsquo;t say that Text 1\u0026rsquo;s excitement is reasonable for the stated reason. Instead, the author of Text 2 would likely characterize Text 1\u0026rsquo;s excitement as premature and overly optimistic. Choice C is incorrect because Text 1 does treat Srivastava\u0026rsquo;s team\u0026rsquo;s findings with enthusiasm; it describes the discovery of EGR in both three-banded panther worms and humans as promising and exciting. It would be illogical for the author of Text 2 to say that because most others treat the discovery with enthusiasm, Text 1\u0026rsquo;s enthusiastic characterization of the discovery is unexpected. Choice D is incorrect because Text 1 isn\u0026rsquo;t at all dismissive of Srivastava\u0026rsquo;s team\u0026rsquo;s findings; instead, Text 1 is optimistic about the EGR discovery, characterizing it as promising and exciting. There\u0026rsquo;s nothing in Text 2 to suggest that the author of Text 2 would say that Text 1\u0026rsquo;s praise for the discovery is dismissive, or disdainful.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, what would the author of Text 2 most likely say about Text 1\u0026rsquo;s characterization of the discovery involving EGR?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003cspan aria-level=\"2\" role=\"heading\"\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eMost animals can regenerate some parts of their bodies, such as skin. But when a three-banded panther worm is cut into three pieces, each piece grows into a new worm. Researchers are investigating this feat partly to learn more about humans\u0026rsquo; comparatively limited abilities to regenerate, and they\u0026rsquo;re making exciting progress. An especially promising discovery is that both humans and panther worms have a gene for early growth response (EGR) linked to regeneration.\u003c/p\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003cspan aria-level=\"2\" role=\"heading\"\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eWhen Mansi Srivastava and her team reported that panther worms, like humans, possess a gene for EGR, it caused excitement. However, as the team pointed out, the gene likely functions very differently in humans than it does in panther worms. Srivastava has likened EGR to a switch that activates other genes involved in regeneration in panther worms, but how this switch operates in humans remains unclear.\u003c/p\u003e", "templateclusterid": "b96feec8-e826-464b-badb-2e105730190d", "templateclustername": "", "type": "mcq", "vaultid": "54bbd1c2-d1f7-4028-92d2-074411ae6c6f"}, "createDate": 1691007959313, "difficulty": "H", "external_id": "70210034-540e-47df-82a9-09dd65daf1ae", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "5e101c70", "score_band_range_cd": 6, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "a4a359c5-eeed-4604-a702-6f3a8d52e75e", "updateDate": 1691007959313};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-5e101c70");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

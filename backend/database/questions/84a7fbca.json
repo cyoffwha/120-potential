@@ -1,0 +1,22 @@
+{
+  "question_id": "84a7fbca",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "When Mexican-American archaeologist Zelia Maria Magdalena Nuttall published her 1886 research paper on sculptures found at the ancient Indigenous city of Teotihuacan in present-day Mexico, other researchers readily ______ blank her work as groundbreaking; this recognition stemmed from her convincing demonstration that the sculptures were much older than had previously been thought.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "acknowledged",
+    "ensured",
+    "denied",
+    "underestimated"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of Nuttall's 1886 research paper. In this context, \"acknowledged\" means recognized as having a certain status. The text indicates that other researchers recognized Nuttall's work as groundbreaking because of its \"convincing demonstration\" related to the age of the ancient sculptures. In other words, the researchers recognized the groundbreaking status of Nuttall's work.",
+    "B": "Choice B is incorrect because in this context, \"ensured\" would mean to have guaranteed or made sure something was the case. The text states that other researchers gave Nuttall's work recognition after it was published, but there's no indication that they contributed to the work or had any involvement that would have allowed them to make sure the work would be groundbreaking.",
+    "C": "Choice C is incorrect because the text doesn't suggest that other researchers \"denied,\" or refused to admit or accept, that Nuttall's work was groundbreaking; on the contrary, it indicates that researchers praised the work, recognizing it as groundbreaking due to its \"convincing demonstration\" related to the age of the ancient sculptures.",
+    "D": "Choice D is incorrect because the text doesn't suggest that other researchers \"underestimated,\" or undervalued, Nuttall's work; on the contrary, it indicates that researchers praised the work, recognizing it as groundbreaking due to its \"convincing demonstration\" related to the age of the ancient sculptures."
+  }
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question a87c3925</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><strong><span role="heading" aria-level="2">Text 1</span></strong></p>
+<p>Soy sauce, made from fermented soybeans, is noted for its umami flavor. Umami&mdash;one of the five basic tastes along with sweet, bitter, salty, and sour&mdash;was formally classified when its taste receptors were discovered in the 2000s. In 2007, to define the pure umami flavor scientists Rie Ishii and Michael O&rsquo;Mahony used broths made from shiitake mushrooms and kombu seaweed, and two panels of Japanese and US judges closely agreed on a description of the taste.</p>
+<p>&nbsp;</p>
+<p><strong><span role="heading" aria-level="2">Text 2</span></strong></p>
+<p>A 2022 experiment by Manon J&uuml;nger et al. led to a greater understanding of soy sauce&rsquo;s flavor profile. The team initially presented a mixture of compounds with low molecular weights to taste testers who found it was not as salty or bitter as real soy sauce. Further analysis of soy sauce identified proteins, including dipeptides, that enhanced umami flavor and also contributed to saltiness. The team then made a mix of 50 chemical compounds that re-created soy sauce&rsquo;s flavor.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, if Ishii and O&rsquo;Mahony (Text 1) and J&uuml;nger et al. (Text 2) were aware of the findings of both experiments, they would most likely agree with which statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>On average, the diets of people in the United States tend to have fewer foods that contain certain dipeptides than the diets of people in Japan have.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Chemical compounds that activate both the umami and salty taste receptors tend to have a higher molecular weight than those that only activate umami taste receptors.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Fermentation introduces proteins responsible for the increase of umami flavor in soy sauce, and those proteins also increase the perception of saltiness.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The broths in the 2007 experiment most likely did not have a substantial amount of the dipeptides that played a key part in the 2022 experiment.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. Ishii and O&rsquo;Mahony were trying to isolate the pure umami flavor, while J&uuml;nger was trying to recreate soy sauce, which has a mix of flavors that includes umami. Accordingly, the broths from Text 1 are not described as having any soy sauce in them&mdash;just &ldquo;shiitake mushrooms and kombu seaweed.&rdquo; So they probably don&rsquo;t have as much of the dipeptides described in Text 2, which were found to be a key part of soy sauce&rsquo;s umami-ness and its saltiness. </p><p>Choice A is incorrect. Neither text supports this. Neither text gets into the diets of people in the United States, nor the diets of people in Japan. Choice B is incorrect. Neither text supports this. Text 2 does talk about the molecular weights of chemical compounds, but there isn&rsquo;t enough information provided about molecular weights in Text 1 to make an inference about what the scientists in Text 1 would say. Choice C is incorrect. Neither text supports this. Text 1 briefly mentions that soy sauce is &ldquo;made from fermented soybeans,&rdquo; but it never claims that fermentation is responsible for its flavor in any way. And Text 2 never mentions fermentation at all. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">327 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eOn average, the diets of people in the United States tend to have fewer foods that contain certain dipeptides than the diets of people in Japan have.\u003c/p\u003e", "id": "0dcfb41c-9ce7-4f87-8000-e5e3ecd91770"}, {"content": "\u003cp\u003eChemical compounds that activate both the umami and salty taste receptors tend to have a higher molecular weight than those that only activate umami taste receptors.\u003c/p\u003e", "id": "938e3518-aae5-4c0b-81ba-9a39c9674df4"}, {"content": "\u003cp\u003eFermentation introduces proteins responsible for the increase of umami flavor in soy sauce, and those proteins also increase the perception of saltiness.\u003c/p\u003e", "id": "101d5415-16b8-4dd7-992c-c1df19b5659f"}, {"content": "\u003cp\u003eThe broths in the 2007 experiment most likely did not have a substantial amount of the dipeptides that played a key part in the 2022 experiment.\u003c/p\u003e", "id": "83262271-f126-4f7c-b763-59c880ee2b5f"}], "correct_answer": ["D"], "externalid": "7c99a73d-836b-4ef9-82aa-79f1b2805261", "keys": ["83262271-f126-4f7c-b763-59c880ee2b5f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-H004", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. Ishii and O\u0026rsquo;Mahony were trying to isolate the pure umami flavor, while J\u0026uuml;nger was trying to recreate soy sauce, which has a mix of flavors that includes umami. Accordingly, the broths from Text 1 are not described as having any soy sauce in them\u0026mdash;just \u0026ldquo;shiitake mushrooms and kombu seaweed.\u0026rdquo; So they probably don\u0026rsquo;t have as much of the dipeptides described in Text 2, which were found to be a key part of soy sauce\u0026rsquo;s umami-ness and its saltiness. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Neither text supports this. Neither text gets into the diets of people in the United States, nor the diets of people in Japan. Choice B is incorrect. Neither text supports this. Text 2 does talk about the molecular weights of chemical compounds, but there isn\u0026rsquo;t enough information provided about molecular weights in Text 1 to make an inference about what the scientists in Text 1 would say. Choice C is incorrect. Neither text supports this. Text 1 briefly mentions that soy sauce is \u0026ldquo;made from fermented soybeans,\u0026rdquo; but it never claims that fermentation is responsible for its flavor in any way. And Text 2 never mentions fermentation at all. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, if Ishii and O\u0026rsquo;Mahony (Text 1) and J\u0026uuml;nger et al. (Text 2) were aware of the findings of both experiments, they would most likely agree with which statement?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cstrong\u003e\u003cspan role=\"heading\" aria-level=\"2\"\u003eText 1\u003c/span\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eSoy sauce, made from fermented soybeans, is noted for its umami flavor. Umami\u0026mdash;one of the five basic tastes along with sweet, bitter, salty, and sour\u0026mdash;was formally classified when its taste receptors were discovered in the 2000s. In 2007, to define the pure umami flavor scientists Rie Ishii and Michael O\u0026rsquo;Mahony used broths made from shiitake mushrooms and kombu seaweed, and two panels of Japanese and US judges closely agreed on a description of the taste.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e\u003cspan role=\"heading\" aria-level=\"2\"\u003eText 2\u003c/span\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eA 2022 experiment by Manon J\u0026uuml;nger et al. led to a greater understanding of soy sauce\u0026rsquo;s flavor profile. The team initially presented a mixture of compounds with low molecular weights to taste testers who found it was not as salty or bitter as real soy sauce. Further analysis of soy sauce identified proteins, including dipeptides, that enhanced umami flavor and also contributed to saltiness. The team then made a mix of 50 chemical compounds that re-created soy sauce\u0026rsquo;s flavor.\u003c/p\u003e", "templateclusterid": "86fe0dd5-29ce-4501-bb68-96cd470ad616", "templateclustername": "", "type": "mcq", "vaultid": "d4c9ca0c-c5de-456c-8cab-a17cfcee3acd"}, "createDate": 1691007959365, "difficulty": "H", "external_id": "7c99a73d-836b-4ef9-82aa-79f1b2805261", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "a87c3925", "score_band_range_cd": 7, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "23bac07a-b650-4ac3-8d4a-d0645b4d7300", "updateDate": 1691007959365};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-a87c3925");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

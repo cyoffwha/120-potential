@@ -1,0 +1,22 @@
+{
+  "question_id": "d2cf0e11",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Inventor John Friedman created a prototype of the first flexible straw by inserting a screw into a paper straw and, using dental floss, binding the straw tightly around the ______ blank When the floss and screw were removed, the resulting corrugations in the paper allowed the straw to bend easily over the edge of a glass.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "screw&rsquo;s thread&rsquo;s.",
+    "screws&rsquo; threads.",
+    "screw&rsquo;s threads.",
+    "screws threads&rsquo;."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of plural and possessive nouns. The singular possessive noun \"screw's\" and the plural noun \"threads\" correctly indicate that there is only one screw and it has multiple threads.",
+    "A": "Choice A is incorrect because the context requires the plural noun \"threads,\" not the singular possessive noun \"thread's.\"",
+    "B": "Choice B is incorrect because the context requires the singular possessive noun \"screw's,\" not the plural possessive noun \"screws'.\"",
+    "D": "Choice D is incorrect because the context requires the singular possessive noun \"screw's\" and the plural noun \"threads,\" not the plural noun \"screws\" or the plural possessive noun \"threads.'\""
+  }
+}

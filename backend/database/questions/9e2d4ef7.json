@@ -1,0 +1,22 @@
+{
+  "question_id": "9e2d4ef7",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Abdulrazak Gurnah was awarded the 2021 Nobel Prize in Literature. Gurnah was born in Zanzibar in East Africa and currently lives in the United Kingdom. Many readers have singled out Gurnah's 1994 book Paradise for praise. Paradise is a historical novel about events that occurred in colonial East Africa. The student wants to introduce Paradise to an audience unfamiliar with the novel and its author. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to introduce  Paradise  to an audience unfamiliar with the novel and its author. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Abdulrazak Gurnah, who wrote  Paradise  and later was awarded the Nobel Prize in Literature, was born in Zanzibar in East Africa and currently lives in the United Kingdom.&nbsp;",
+    "Many readers have singled out Abdulrazak Gurnah&rsquo;s 1994 book  Paradise,  a historical novel about colonial East Africa,   for praise.&nbsp;",
+    "A much-praised historical novel about colonial East Africa,  Paradise  (1994) was written by Abdulrazak Gurnah, winner of the 2021 Nobel Prize in Literature.",
+    "Paradise  is a historical novel about events that occurred in colonial East Africa, Abdulrazak Gurnah&rsquo;s homeland."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The sentence effectively introduces Paradise to an audience unfamiliar with the novel and its author, describing Paradise as a historical novel about colonial East Africa and its author as the winner of the 2021 Nobel Prize in Literature.",
+    "A": "Choice A is incorrect. While the sentence introduces Abdulrazak Gurnah to an audience unfamiliar with the author, it doesn't effectively introduce Paradise .",
+    "B": "Choice B is incorrect. While the sentence provides background information about Paradise , it doesn't effectively introduce the novel to an audience unfamiliar with its author.",
+    "D": "Choice D is incorrect. While the sentence provides background information about Paradise , it doesn't effectively introduce the novel to an audience unfamiliar with its author."
+  }
+}

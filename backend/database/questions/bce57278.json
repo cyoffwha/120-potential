@@ -1,0 +1,22 @@
+{
+  "question_id": "bce57278",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Some US reformers sought to improve society in the 1800s by building utopias. A utopia is a community intended to represent a perfect society based on a specific set of principles. One such community was Brook Farm near Boston, Massachusetts. It was founded in 1841 by writer George Ripley. Ripley wrote in a letter that his goal for Brook Farm was \"to guarantee the highest mental freedom, by providing all with labor, adapted to their tastes and talents, and securing to them the fruits of their industry.\" The student wants to explain the goal of Brook Farm using a quotation from George Ripley. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to explain the goal of Brook Farm using a quotation from George Ripley. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "In a letter, writer George Ripley explained his goal to &ldquo;guarantee the highest mental freedom.&rdquo;",
+    "Utopias, such as Brook Farm, founded by George Ripley in 1841, were based on a specific set of principles intended to create a perfect society.",
+    "Founded by George Ripley near Boston, Massachusetts, Brook Farm was part of a trend in the 1800s, when reformers in the United States built utopias.",
+    "Established in 1841, Brook Farm was a utopian community created to &ldquo;guarantee the highest mental freedom, by providing all with labor... [and] the fruits of their industry,&rdquo; according to founder George Ripley."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. This choice explains the goal of Brook Farm—to provide mental freedom to all by engaging individuals in labor suited to their interests—using a quotation from George Ripley.",
+    "A": "Choice A is incorrect. This choice only mentions part of Ripley's goal, and it doesn't mention Brook Farm at all.",
+    "B": "Choice B is incorrect. This choice defines what a utopia is but doesn't use Ripley's words to describe his vision for Brook Farm.",
+    "C": "Choice C is incorrect. This choice provides some background information about Brook Farm, but it doesn't explain its goals or include Ripley's words."
+  }
+}

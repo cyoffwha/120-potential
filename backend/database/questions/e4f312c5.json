@@ -1,0 +1,22 @@
+{
+  "question_id": "e4f312c5",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "While most animals are incapable of passing somatic mutations—genetic alterations that arise in an organism's nonreproductive cells—on to their offspring, elkhorn coral ( Acropora palmata ) presents an intriguing ______ blank : in a 2022 study, researchers found that elkhorn coral produced offspring that inherited somatic mutations from a parent.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "hypothesis",
+    "affinity",
+    "anomaly",
+    "corroboration"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. An \"anomaly\" is something that deviates from norms or expectations. In this case, the elkhorn coral is an anomaly because it can pass on somatic mutations, whereas most other animals can't.",
+    "A": "Choice A is incorrect. A \"hypothesis\" is \"a theory about something,\" but no theories are provided about elkhorn coral in this text, just facts.",
+    "B": "Choice B is incorrect. \"Affinity\" represents \"an inclination or liking toward something.\" As genetic mutations tend to occur without any conscious effort, you can't really have an inclination toward passing on somatic mutations.",
+    "D": "Choice D is incorrect. \"Corroboration\" means \"evidence to support or prove something.\" Because elkhorn coral do the opposite of what most animals do, they do not provide corroboration of the theory that somatic mutations can't be passed onto offspring. Rather, they show the opposite."
+  }
+}

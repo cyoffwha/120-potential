@@ -1,0 +1,22 @@
+{
+  "question_id": "bc56170b",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Most, but not all, of the Moon's oxygen comes from the Sun, via solar wind. Cosmochemist Kentaro Terada from Osaka University wondered if some of the unaccounted-for oxygen could be coming from Earth. In 2008, he analyzed data from the Japanese satellite Kaguya. Kaguya gathered data about gases and particles it encountered while orbiting the Moon. Based on the Kaguya data, Terada confirmed his suspicion that Earth is sending oxygen to the Moon. The student wants to emphasize the aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "As it orbited the Moon, the Kaguya satellite collected data that was later analyzed by cosmochemist Kentaro Terada.",
+    "Before 2008, Kentaro Terada wondered if the Moon was receiving some of its oxygen from Earth.",
+    "Cosmochemist Kentaro Terada set out to determine whether some of the Moon&rsquo;s oxygen was coming from Earth.",
+    "Kentaro Terada&rsquo;s study determined that Earth is sending a small amount of oxygen to the Moon."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The sentence emphasizes the aim, or goal, of the research study, noting what Terada set out to do: determine whether some of the Moon's oxygen was coming from Earth.",
+    "A": "Choice A is incorrect. The sentence focuses on how the Kaguya satellite collected data; it doesn't emphasize the aim of the research study.",
+    "B": "Choice B is incorrect. While the sentence mentions what Terada was curious about before conducting the research study, it doesn't emphasize his study's aim.",
+    "D": "Choice D is incorrect. The sentence presents the research study's conclusion; it doesn't emphasize the study's aim."
+  }
+}

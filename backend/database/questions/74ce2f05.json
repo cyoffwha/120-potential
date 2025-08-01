@@ -1,0 +1,22 @@
+{
+  "question_id": "74ce2f05",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "A study led by scientist Rebecca Kirby at the University of Wisconsin–Madison found that black bears that eat human food before hibernation have increased levels of a rare carbon isotope, ______ blank due to the higher 13 C levels in corn and cane sugar. Bears with these elevated levels were also found to have much shorter hibernation periods on average.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "carbon-13, ( 13 C)",
+    "carbon-13 ( 13 C)",
+    "carbon-13, ( 13 C),",
+    "carbon-13 ( 13 C),"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. The comma after \"(13C)\" pairs with the comma after \"isotope\" to separate the supplementary element \"carbon-13 (13C)\" from the rest of the sentence. This supplementary element defines the \"rare carbon isotope,\" and the pair of commas indicates that this element could be removed without affecting the grammatical coherence of the sentence.",
+    "A": "Choice A is incorrect because it fails to use appropriate punctuation to separate the supplementary element \"carbon-13 (13C)\" from the rest of the sentence.",
+    "B": "Choice B is incorrect because it fails to use appropriate punctuation to separate the supplementary element \"carbon-13 (13C)\" from the rest of the sentence.",
+    "C": "Choice C is incorrect because it fails to use appropriate punctuation to separate the supplementary element \"carbon-13 (13C)\" from the rest of the sentence. The comma after \"carbon-13\" isn't necessary because the parentheses around \"13C\" already separate this element from the rest of the sentence."
+  }
+}

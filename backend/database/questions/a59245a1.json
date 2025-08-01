@@ -1,0 +1,22 @@
+{
+  "question_id": "a59245a1",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The painter Mar&iacute;a Izquierdo played an important role in the development of twentieth-century Mexican art, but her work has never been well-known in the United States except among art historians. One reason for Izquierdo's relative obscurity is the enormous popularity of some of her peers. In particular, the painters Frida Kahlo and Diego Rivera have so captivated the interest of US audiences that Izquierdo and other Mexican artists from the period often get overlooked, despite the high quality of their work.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Izquierdo&rsquo;s work is not as well-known in the United States as it should be because Kahlo and Rivera draw so much of the public&rsquo;s attention.",
+    "During Izquierdo&rsquo;s lifetime, her paintings were displayed in galleries in the United States much more frequently than paintings by Kahlo and Rivera were.",
+    "Izquierdo painted some of the same subjects that Kahlo and Rivera painted but used different techniques than they used.&nbsp;",
+    "Few of Izquierdo&rsquo;s works are in galleries today because she produced only a small number of paintings.&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately states the main idea of the text. The text begins by stating that Mar&iacute;a Izquierdo was an important figure in the history of twentieth-century Mexican art, but despite her importance, her work hasn't received widespread recognition in the United States. According to the text, one reason for this is that Frida Kahlo and Diego Rivera are so famous in the US that they overshadow other important Mexican artists, including Izquierdo. Thus, the main idea of the text is that Izquierdo's work is less well known in the US than it should be because Kahlo and Rivera draw most of the public's attention.",
+    "B": "Choice B is incorrect because the text doesn't discuss the appearance of Izquierdo's paintings in galleries in the US during her lifetime, nor does it suggest that her paintings were displayed more frequently than paintings by Kahlo or Rivera were. Instead, the text focuses on the fact that Izquierdo has been overlooked in the US because of Kahlo's and Rivera's greater popularity.",
+    "C": "Choice C is incorrect because the text doesn't discuss either the subject matter of Izquierdo's paintings or the techniques she used, nor does it compare these aspects of her paintings with those of Kahlo's and Rivera's paintings.",
+    "D": "Choice D is incorrect because the text doesn't mention how many of Izquierdo's paintings appear in galleries today, nor does it state that she produced only a small number of paintings."
+  }
+}

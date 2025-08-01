@@ -1,0 +1,22 @@
+{
+  "question_id": "81a3a607",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In the Indigenous intercropping system known as the Three Sisters, maize, squash, and beans form an ______ blank web of relations: maize provides the structure on which the bean vines grow; the squash vines cover the soil, discouraging competition from weeds; and the beans aid their two \"sisters\" by enriching the soil with essential nitrogen.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "indecipherable",
+    "ornamental",
+    "obscure",
+    "intricate"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most logically completes the text's discussion of the Three Sisters intercropping system. As used in this context, \"intricate\" would mean made up of complexly related elements. The text indicates that in the Three Sisters system, maize, squash, and beans form a \"web of relations\" in which the crops interact in various ways. The text's description of these interactions—the bean vines growing on the maize stalks, the squash vines keeping weeds away, and the beans adding nutrients that the maize and squash use—provides context suggesting that this \"web of relations\" is intricate.",
+    "A": "Choice A is incorrect because describing the relationship among the crops in the Three Sisters system as \"indecipherable,\" or impossible to comprehend, would not make sense in context. Although the text presents the relationship as complex, the text's description of the role that each crop plays makes it clear that the relationship is well understood, not indecipherable.",
+    "B": "Choice B is incorrect because the text discusses the practical benefits that each plant in the Three Sisters system provides to other members of the system, showing that the relationship among the crops that make up the system is not \"ornamental,\" or mainly serving a decorative purpose.",
+    "C": "Choice C is incorrect because describing the relationship among the crops in the Three Sisters system as \"obscure,\" or unknown or poorly understood, would not make sense in context. Although the text presents the relationship as complex, the text's description of the role that each crop plays makes it clear that the relationship is well understood, not obscure."
+  }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 90117366</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>To explore how blinking affects social interactions, Dutch researchers observed interactions between human speakers and &ldquo;listeners&rdquo; (animated human faces on a screen). The researchers found that when the listeners blinked slowly, the speakers tended to talk for less time. <span aria-hidden="true">______</span><span class="sr-only">blank</span> quicker blinks were associated with longer talking times.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical transition?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For example,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Specifically,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Firstly,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By contrast,</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. &ldquo;By contrast&rdquo; logically signals that the finding described in this sentence contrasts with the finding described in the previous sentence. That is, quicker blinks were associated with longer talking times, whereas slower blinks were associated with shorter talking times.&nbsp;</p><p>Choice A is incorrect because &ldquo;for example&rdquo; illogically signals that the finding described in this sentence is an example of the finding described in the previous sentence. Instead, it contrasts with that finding. Choice B is incorrect because &ldquo;specifically&rdquo; illogically signals that this sentence provides specific, precise details about the finding described in the previous sentence. Instead, it presents information that contrasts with that finding.&nbsp;Choice C is incorrect because &ldquo;firstly&rdquo; illogically signals that the finding described in this sentence is a first point or occurs first in a chronological sequence of events. Instead, it contrasts with the finding described in the previous sentence.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">694 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eFor example,\u003c/p\u003e", "id": "9da19e18-f0fe-41d3-947a-f2090d1abc19"}, {"content": "\u003cp\u003eSpecifically,\u003c/p\u003e", "id": "dfdf54e1-3677-4201-a2c2-78b33143c21f"}, {"content": "\u003cp\u003eFirstly,\u003c/p\u003e", "id": "6ed4ddba-1950-4557-afe0-8a4ba6d6112f"}, {"content": "\u003cp\u003eBy contrast,\u003c/p\u003e", "id": "677b1b7c-3ade-44e0-994c-845e71a682c4"}], "correct_answer": ["D"], "externalid": "7cb902b9-8d7e-4cdb-b081-96c1113c4978", "keys": ["677b1b7c-3ade-44e0-994c-845e71a682c4"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-249-TRA", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. \u0026ldquo;By contrast\u0026rdquo; logically signals that the finding described in this sentence contrasts with the finding described in the previous sentence. That is, quicker blinks were associated with longer talking times, whereas slower blinks were associated with shorter talking times.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because \u0026ldquo;for example\u0026rdquo; illogically signals that the finding described in this sentence is an example of the finding described in the previous sentence. Instead, it contrasts with that finding. Choice B is incorrect because \u0026ldquo;specifically\u0026rdquo; illogically signals that this sentence provides specific, precise details about the finding described in the previous sentence. Instead, it presents information that contrasts with that finding.\u0026nbsp;Choice C is incorrect because \u0026ldquo;firstly\u0026rdquo; illogically signals that the finding described in this sentence is a first point or occurs first in a chronological sequence of events. Instead, it contrasts with the finding described in the previous sentence.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical transition?\u003c/p\u003e", "stimulus": "\u003cp\u003eTo explore how blinking affects social interactions, Dutch researchers observed interactions between human speakers and \u0026ldquo;listeners\u0026rdquo; (animated human faces on a screen). The researchers found that when the listeners blinked slowly, the speakers tended to talk for less time. \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e quicker blinks were associated with longer talking times.\u003c/p\u003e", "templateclusterid": "48ff0fcc-251e-4ad2-bd80-25671c125fec", "templateclustername": "", "type": "mcq", "vaultid": "2de964b9-42a2-4b00-9d40-62102cff0e3d"}, "createDate": 1691007959333, "difficulty": "E", "external_id": "7cb902b9-8d7e-4cdb-b081-96c1113c4978", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "90117366", "score_band_range_cd": 3, "skill_cd": "TRA", "skill_desc": "Transitions", "uId": "ca9e0086-8f5e-434f-897a-98c62f48b895", "updateDate": 1691007959333};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-90117366");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

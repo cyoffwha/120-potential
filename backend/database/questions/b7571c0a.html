@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question b7571c0a</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Practical movie effects, such as the use of actual locations in a film, provide a more realistic visual experience than computer-generated imagery (CGI) does, but giving audiences the &ldquo;real thing&rdquo; can be prohibitively expensive. <span aria-hidden="true">______</span><span class="sr-only">blank</span> many filmmakers use a blended approach, employing practical effects whenever possible and CGI elements as necessary to control costs.  </p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical transition?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Similarly,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For this reason,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Furthermore,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In other words,</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The first sentence tells us that practical effects are more realistic but also more expensive than CGI. The second sentence tells us that many filmmakers use both kinds of effects, balancing realism with cost. To connect these ideas, we need a cause-and-effect transition, like &ldquo;therefore.&rdquo; &ldquo;For this reason&rdquo; has the same meaning as &ldquo;therefore.&rdquo;&nbsp;. </p><p>Choice A is incorrect. This isn&rsquo;t a logical transition. The first sentence tells us that practical effects are more realistic but also more expensive than CGI. The second sentence tells us that many filmmakers use both kinds of effects, balancing realism with cost. To connect these ideas, we need a cause-and-effect transition, like &ldquo;therefore.&rdquo; &ldquo;Similarly&rdquo; doesn&rsquo;t show cause and effect: it shows the addition of another agreeing idea.&nbsp;Choice C is incorrect. This isn&rsquo;t a logical transition. The first sentence tells us that practical effects are more realistic but also more expensive than CGI. The second sentence tells us that many filmmakers use both kinds of effects, balancing realism with cost. To connect these ideas, we need a cause-and-effect transition, like &ldquo;therefore.&rdquo; &ldquo;Furthermore&rdquo; doesn&rsquo;t show cause and effect: it shows the addition of another agreeing idea.&nbsp;Choice D is incorrect. This isn&rsquo;t a logical transition. The first sentence tells us that practical effects are more realistic but also more expensive than CGI. The second sentence tells us that many filmmakers use both kinds of effects, balancing realism with cost. To connect these ideas, we need a cause-and-effect transition, like &ldquo;therefore.&rdquo; &ldquo;In other words&rdquo; doesn&rsquo;t show cause and effect: it shows a restatement of the same idea in different words.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">656 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eSimilarly,\u003c/p\u003e", "id": "0e10cec5-bf93-4f52-b6ba-45315c0feb77"}, {"content": "\u003cp\u003eFor this reason,\u003c/p\u003e", "id": "772cca76-23d5-4873-8af4-7ffd17b0fe98"}, {"content": "\u003cp\u003eFurthermore,\u003c/p\u003e", "id": "b51bb679-283b-4f9c-8a64-b093e3057cd6"}, {"content": "\u003cp\u003eIn other words,\u003c/p\u003e", "id": "78ed8c2e-6b5f-4398-a84f-e118d03a8870"}], "correct_answer": ["B"], "externalid": "b0cd1d34-da58-4d8c-aca5-e234f05ac2f2", "keys": ["772cca76-23d5-4873-8af4-7ffd17b0fe98"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-200-TRA", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The first sentence tells us that practical effects are more realistic but also more expensive than CGI. The second sentence tells us that many filmmakers use both kinds of effects, balancing realism with cost. To connect these ideas, we need a cause-and-effect transition, like \u0026ldquo;therefore.\u0026rdquo; \u0026ldquo;For this reason\u0026rdquo; has the same meaning as \u0026ldquo;therefore.\u0026rdquo;\u0026nbsp;. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This isn\u0026rsquo;t a logical transition. The first sentence tells us that practical effects are more realistic but also more expensive than CGI. The second sentence tells us that many filmmakers use both kinds of effects, balancing realism with cost. To connect these ideas, we need a cause-and-effect transition, like \u0026ldquo;therefore.\u0026rdquo; \u0026ldquo;Similarly\u0026rdquo; doesn\u0026rsquo;t show cause and effect: it shows the addition of another agreeing idea.\u0026nbsp;Choice C is incorrect. This isn\u0026rsquo;t a logical transition. The first sentence tells us that practical effects are more realistic but also more expensive than CGI. The second sentence tells us that many filmmakers use both kinds of effects, balancing realism with cost. To connect these ideas, we need a cause-and-effect transition, like \u0026ldquo;therefore.\u0026rdquo; \u0026ldquo;Furthermore\u0026rdquo; doesn\u0026rsquo;t show cause and effect: it shows the addition of another agreeing idea.\u0026nbsp;Choice D is incorrect. This isn\u0026rsquo;t a logical transition. The first sentence tells us that practical effects are more realistic but also more expensive than CGI. The second sentence tells us that many filmmakers use both kinds of effects, balancing realism with cost. To connect these ideas, we need a cause-and-effect transition, like \u0026ldquo;therefore.\u0026rdquo; \u0026ldquo;In other words\u0026rdquo; doesn\u0026rsquo;t show cause and effect: it shows a restatement of the same idea in different words.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical transition?\u003c/p\u003e", "stimulus": "\u003cp\u003ePractical movie effects, such as the use of actual locations in a film, provide a more realistic visual experience than computer-generated imagery (CGI) does, but giving audiences the \u0026ldquo;real thing\u0026rdquo; can be prohibitively expensive. \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e many filmmakers use a blended approach, employing practical effects whenever possible and CGI elements as necessary to control costs.  \u003c/p\u003e", "templateclusterid": "6043ef1d-a25d-46b9-8b45-ae3cf54d1922", "templateclustername": "", "type": "mcq", "vaultid": "d469c753-6d82-4db5-9e92-b2a18326c668"}, "createDate": 1691007959325, "difficulty": "E", "external_id": "b0cd1d34-da58-4d8c-aca5-e234f05ac2f2", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "b7571c0a", "score_band_range_cd": 3, "skill_cd": "TRA", "skill_desc": "Transitions", "uId": "9556a785-1153-45b9-adfc-df72997f0ee7", "updateDate": 1691007959325};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-b7571c0a");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

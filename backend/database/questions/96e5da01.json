@@ -1,0 +1,22 @@
+{
+  "question_id": "96e5da01",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The alga species Chlorella vulgaris is very efficient at making oxygen. For this reason, scientists are currently exploring ways to use this species in space. C. vulgaris might be used, for example, to build future biological air exchange systems that ______ blank oxygen for astronauts.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "are producing",
+    "produced",
+    "produce",
+    "have produced"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the use of verbs to express tense. Simple present tense verbs can be used to describe actions that tend to occur, including in a hypothetical or future scenario. In this case, the simple present tense verb \"produce\" indicates what the air exchange systems might be able to do in the future (produce oxygen for astronauts).",
+    "A": "Choice A is incorrect. The present progressive tense verb \"are producing\" suggests that the oxygen is currently being produced, not that it might be produced in the future.",
+    "B": "Choice B is incorrect because the past tense verb \"produced\" suggests that the oxygen was produced in the past, not that it might be produced in the future.",
+    "D": "Choice D is incorrect because the present perfect tense verb \"have produced\" suggests that the oxygen has been produced from a point in the past up to the present, not that it might be produced in the future."
+  }
+}

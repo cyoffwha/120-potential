@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 86b78078</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>Samuel Selvon was a Trinidadian author.</li>
+<li><em>The Lonely Londoners </em>is one of his most celebrated novels.</li>
+<li>Selvon published the novel in 1956.</li>
+<li>It is about a group of men who emigrate from the Caribbean to Great Britain after World War II.</li>
+<li>Some of <em>The Lonely Londoners</em>&rsquo; characters also appear in Selvon&rsquo;s later novel <em>Moses Ascending</em>.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to introduce Samuel Selvon and his novel <em>The Lonely Londoners </em>to a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In 1956, Trinidadian author Samuel Selvon published one of his most celebrated novels, <em>The Lonely Londoners, </em>which is about a group of men who emigrate from the Caribbean to Great Britain after World War II.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Samuel Selvon wrote the novel&nbsp;<em>Moses Ascending&nbsp;</em>after he wrote&nbsp;<em>The Lonely Londoners.&nbsp;</em></p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p><em>The Lonely Londoners</em>, a celebrated novel that was published in 1956, depicts post&ndash;World War II Caribbean migration from the perspective of a Trinidadian author.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Some of the characters who appear in Samuel Selvon&rsquo;s <em>Moses Ascending </em>also appear in <em>The Lonely Londoners. </em></p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. By noting that Selvon is a Trinidadian author and indicating that <em>The Lonely Londoners</em>, published in 1956, is about a group of men who emigrate from the Caribbean to Great Britain after World War II, the sentence effectively introduces Samuel Selvon and his novel to a new audience. </p><p>Choice B is incorrect. The sentence indicates the order in which two of Selvon&rsquo;s novels were written; it doesn&rsquo;t introduce Samuel Selvon and <em>The Lonely Londoners</em> to a new audience. Choice C is incorrect. While the sentence describes the novel <em>The Lonely Londoners</em>, it doesn&rsquo;t mention its author, Samuel Selvon, by name and thus doesn&rsquo;t effectively introduce him to a new audience. Choice D is incorrect. The sentence indicates that two of Selvon&rsquo;s novels include the same characters; it doesn&rsquo;t introduce Samuel Selvon and <em>The Lonely Londoners</em> to a new audience. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">700 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIn 1956, Trinidadian author Samuel Selvon published one of his most celebrated novels, \u003cem\u003eThe Lonely Londoners, \u003c/em\u003ewhich is about a group of men who emigrate from the Caribbean to Great Britain after World War II.\u003c/p\u003e", "id": "c6001397-9897-472e-bf4d-1ad4f51413ac"}, {"content": "\u003cp\u003eSamuel Selvon wrote the novel\u0026nbsp;\u003cem\u003eMoses Ascending\u0026nbsp;\u003c/em\u003eafter he wrote\u0026nbsp;\u003cem\u003eThe Lonely Londoners.\u0026nbsp;\u003c/em\u003e\u003c/p\u003e", "id": "ba05df17-68ac-4a81-81c7-0be1011d5738"}, {"content": "\u003cp\u003e\u003cem\u003eThe Lonely Londoners\u003c/em\u003e, a celebrated novel that was published in 1956, depicts post\u0026ndash;World War II Caribbean migration from the perspective of a Trinidadian author.\u003c/p\u003e", "id": "6cd19d5d-45c7-4c5f-88ef-4efaade211d6"}, {"content": "\u003cp\u003eSome of the characters who appear in Samuel Selvon\u0026rsquo;s \u003cem\u003eMoses Ascending \u003c/em\u003ealso appear in \u003cem\u003eThe Lonely Londoners. \u003c/em\u003e\u003c/p\u003e", "id": "3faa8930-6006-4ed5-b0a3-e95f504d90a1"}], "correct_answer": ["A"], "externalid": "77881421-3e40-4139-8342-2d1cb10f3af0", "keys": ["c6001397-9897-472e-bf4d-1ad4f51413ac"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-769-SYN", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. By noting that Selvon is a Trinidadian author and indicating that \u003cem\u003eThe Lonely Londoners\u003c/em\u003e, published in 1956, is about a group of men who emigrate from the Caribbean to Great Britain after World War II, the sentence effectively introduces Samuel Selvon and his novel to a new audience. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. The sentence indicates the order in which two of Selvon\u0026rsquo;s novels were written; it doesn\u0026rsquo;t introduce Samuel Selvon and \u003cem\u003eThe Lonely Londoners\u003c/em\u003e to a new audience. Choice C is incorrect. While the sentence describes the novel \u003cem\u003eThe Lonely Londoners\u003c/em\u003e, it doesn\u0026rsquo;t mention its author, Samuel Selvon, by name and thus doesn\u0026rsquo;t effectively introduce him to a new audience. Choice D is incorrect. The sentence indicates that two of Selvon\u0026rsquo;s novels include the same characters; it doesn\u0026rsquo;t introduce Samuel Selvon and \u003cem\u003eThe Lonely Londoners\u003c/em\u003e to a new audience. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to introduce Samuel Selvon and his novel \u003cem\u003eThe Lonely Londoners \u003c/em\u003eto a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eSamuel Selvon was a Trinidadian author.\u003c/li\u003e\n\u003cli\u003e\u003cem\u003eThe Lonely Londoners \u003c/em\u003eis one of his most celebrated novels.\u003c/li\u003e\n\u003cli\u003eSelvon published the novel in 1956.\u003c/li\u003e\n\u003cli\u003eIt is about a group of men who emigrate from the Caribbean to Great Britain after World War II.\u003c/li\u003e\n\u003cli\u003eSome of \u003cem\u003eThe Lonely Londoners\u003c/em\u003e\u0026rsquo; characters also appear in Selvon\u0026rsquo;s later novel \u003cem\u003eMoses Ascending\u003c/em\u003e.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "952e71f8-3db6-48a7-903e-fcb9f6edfaaa", "templateclustername": "", "type": "mcq", "vaultid": "d6c90b8e-6669-43cf-8982-7739e998cff0"}, "createDate": 1691007959351, "difficulty": "M", "external_id": "77881421-3e40-4139-8342-2d1cb10f3af0", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "86b78078", "score_band_range_cd": 4, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "d8d83807-07dd-4b42-836e-dbd7ea2ea191", "updateDate": 1691007959351};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-86b78078");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

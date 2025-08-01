@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e441da80</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><figure class="image"><svg aria-label="A line graph titled Investigative Articles Published in the Albuquerque Journal from 2010 to 2019. The horizontal axis has no label. It ranges from 2010 to 2019 in increments of 1. The vertical axis is labeled Number of articles. It ranges from 0 to 1,750 in increments of 250. Refer to long description." height="440.509521484375" role="img" viewbox="0 0 450 440.509521484375" width="450" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 1" id="ed420550-79eb-48d4-af01-cd27cdd08afd"><defs>
+<marker id="marker0" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#000" points="3 0, 0 5.196, 6 5.196"></polygon>
+</marker>
+<marker id="marker1" markerheight="5" markerunits="strokeWidth" markerwidth="5" refx="2.5" refy="2.5">
+<path d="M0,0 L0,5 L5,5 L5,0 z" fill="#BBB" stroke="#000" stroke-width="1.5"></path>
+</marker>
+<marker id="marker2" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<circle cx="3" cy="3" fill="#FFF" r="1.8" stroke="#000" stroke-width=".6"></circle>
+</marker>
+<marker id="marker3" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#999" points="0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3" stroke="#000" stroke-linejoin="round" stroke-width=".5"></polygon>
+</marker>
+</defs><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="96.0787353515625" x2="435" xmlns="http://www.w3.org/2000/svg" y1="96" y2="96"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="90.0787353515625" x2="102.0787353515625" xmlns="http://www.w3.org/2000/svg" y1="96" y2="96"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(84.0787353515625 102)">1,750</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="96.0787353515625" x2="435" xmlns="http://www.w3.org/2000/svg" y1="124.57142857142857" y2="124.57142857142857"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="90.0787353515625" x2="102.0787353515625" xmlns="http://www.w3.org/2000/svg" y1="124.57142857142857" y2="124.57142857142857"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(84.0787353515625 130.57142857142856)">1,500</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="96.0787353515625" x2="435" xmlns="http://www.w3.org/2000/svg" y1="153.14285714285714" y2="153.14285714285714"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="90.0787353515625" x2="102.0787353515625" xmlns="http://www.w3.org/2000/svg" y1="153.14285714285714" y2="153.14285714285714"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(84.0787353515625 159.14285714285714)">1,250</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="96.0787353515625" x2="435" xmlns="http://www.w3.org/2000/svg" y1="181.71428571428572" y2="181.71428571428572"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="90.0787353515625" x2="102.0787353515625" xmlns="http://www.w3.org/2000/svg" y1="181.71428571428572" y2="181.71428571428572"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(84.0787353515625 187.71428571428572)">1,000</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="96.0787353515625" x2="435" xmlns="http://www.w3.org/2000/svg" y1="210.28571428571428" y2="210.28571428571428"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="90.0787353515625" x2="102.0787353515625" xmlns="http://www.w3.org/2000/svg" y1="210.28571428571428" y2="210.28571428571428"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(84.0787353515625 216.28571428571428)">750</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="96.0787353515625" x2="435" xmlns="http://www.w3.org/2000/svg" y1="238.85714285714286" y2="238.85714285714286"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="90.0787353515625" x2="102.0787353515625" xmlns="http://www.w3.org/2000/svg" y1="238.85714285714286" y2="238.85714285714286"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(84.0787353515625 244.85714285714286)">500</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="96.0787353515625" x2="435" xmlns="http://www.w3.org/2000/svg" y1="267.42857142857144" y2="267.42857142857144"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="90.0787353515625" x2="102.0787353515625" xmlns="http://www.w3.org/2000/svg" y1="267.42857142857144" y2="267.42857142857144"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(84.0787353515625 273.42857142857144)">250</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="96.0787353515625" x2="435" xmlns="http://www.w3.org/2000/svg" y1="296" y2="296"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="90.0787353515625" x2="102.0787353515625" xmlns="http://www.w3.org/2000/svg" y1="296" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(84.0787353515625 302)">0</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(24 196) rotate(-90)">Number of articles</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="96.0787353515625" x2="96.0787353515625" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.02479858398438" x2="113.02479858398438" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(122.94479858398438 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2010</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="146.91692504882812" x2="146.91692504882812" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(156.8369250488281 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2011</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="180.80905151367188" x2="180.80905151367188" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(190.72905151367186 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2012</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="214.70117797851563" x2="214.70117797851563" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(224.62117797851562 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2013</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="248.5933044433594" x2="248.5933044433594" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(258.5133044433594 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2014</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="282.4854309082031" x2="282.4854309082031" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(292.40543090820313 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2015</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="316.37755737304684" x2="316.37755737304684" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(326.29755737304686 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2016</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="350.26968383789057" x2="350.26968383789057" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(360.1896838378906 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2017</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="384.1618103027343" x2="384.1618103027343" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(394.0818103027343 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2018</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="418.053936767578" x2="418.053936767578" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(427.97393676757804 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2019</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(265.53936767578125 24)">Investigative Articles</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(265.53936767578125 48)">Published in the Albuquerque Journal</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(265.53936767578125 72)">from 2010 to 2019</text><rect fill="none" height="39" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="122.57246398925781" x="171.2137680053711" xmlns="http://www.w3.org/2000/svg" y="390.509521484375"></rect><line marker-end="url(#marker0)" stroke="#000" stroke-width="2.4" x1="178.2137680053711" x2="205.2137680053711" y1="407.509521484375" y2="407.509521484375"></line><line marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="205.2137680053711" x2="232.2137680053711" y1="407.509521484375" y2="407.509521484375"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(242.2137680053711 414.509521484375)"> Total</text><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="113.02479858398438" x2="146.91692504882812" y1="173.0285714285714" y2="160.11428571428573"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="146.91692504882812" x2="180.80905151367188" y1="160.11428571428573" y2="125.02857142857144"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="180.80905151367188" x2="214.70117797851563" y1="125.02857142857144" y2="113.14285714285714"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="214.70117797851563" x2="248.5933044433594" y1="113.14285714285714" y2="181.94285714285715"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="248.5933044433594" x2="282.4854309082031" y1="181.94285714285715" y2="192.8"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="282.4854309082031" x2="316.37755737304684" y1="192.8" y2="202.9714285714286"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="316.37755737304684" x2="350.26968383789057" y1="202.9714285714286" y2="168.57142857142856"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="350.26968383789057" x2="384.1618103027343" y1="168.57142857142856" y2="196.34285714285716"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="384.1618103027343" x2="418.053936767578" y1="196.34285714285716" y2="242.85714285714286"></line></g></svg></figure>
+<p>Investigative journalists research and report about fraud, corruption, public hazards, and more. The graph shows the number of investigative articles published in the <em>Albuquerque Journal</em> newspaper from 2010 to 2019. According to an analyst, although the number of investigative articles published in this newspaper has varied significantly over the period shown, <span aria-label="Referenced Content" role="region"><u>the number overall has fallen since 2010</u></span>.</p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the graph to justify the underlined claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The newspaper published approximately 1,000 investigative articles in 2010 and approximately 500 in 2019.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The smallest annual number of investigative articles published in the newspaper during the period shown is approximately 1,600 in 2013.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The greatest annual number of investigative articles published in the newspaper during the period shown is approximately 1,000 in 2017.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The newspaper published approximately 1,000 investigative articles in 2010 and approximately 1,600 in 2013.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. By comparing the number of investigative articles in 2010 to the number in 2019, we can see that the number has fallen overall. </p><p>Choice B is incorrect. This choice misreads the graph. The 1,600 articles published in 2013 was the largest annual number of investigative articles published during the period. Also, notice that the claim focuses on an overall change, while this choice just focuses on one year. We can&rsquo;t determine an overall increase or decrease by looking at just one year. Choice C is incorrect. The 1,000 articles published in 2017 wasn&rsquo;t the largest number published during the period. Also, notice that the claim focuses on an overall change, while this choice just focuses on one year. We can&rsquo;t determine an overall increase or decrease by looking at just one year. Choice D is incorrect. This choice doesn&rsquo;t justify the claim. The claim is about a decrease in articles published between 2010 and 2019. This data shows an increase in articles published over a different period (2010-2013). </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">194 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe newspaper published approximately 1,000 investigative articles in 2010 and approximately 500 in 2019.\u003c/p\u003e", "id": "af965d7f-deea-4263-8b60-4a98505195d5"}, {"content": "\u003cp\u003eThe smallest annual number of investigative articles published in the newspaper during the period shown is approximately 1,600 in 2013.\u0026nbsp;\u003c/p\u003e", "id": "c070892f-c09b-42da-9648-69b9b70102df"}, {"content": "\u003cp\u003eThe greatest annual number of investigative articles published in the newspaper during the period shown is approximately 1,000 in 2017.\u0026nbsp;\u003c/p\u003e", "id": "8d2e5f3a-fdcc-4c96-8a07-9d6574923cb9"}, {"content": "\u003cp\u003eThe newspaper published approximately 1,000 investigative articles in 2010 and approximately 1,600 in 2013.\u003c/p\u003e", "id": "d2509708-52a7-4549-80d5-8c611430f123"}], "correct_answer": ["A"], "externalid": "c4867d24-bd6b-421c-9558-60415940d47d", "keys": ["af965d7f-deea-4263-8b60-4a98505195d5"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-E001", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. By comparing the number of investigative articles in 2010 to the number in 2019, we can see that the number has fallen overall. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. This choice misreads the graph. The 1,600 articles published in 2013 was the largest annual number of investigative articles published during the period. Also, notice that the claim focuses on an overall change, while this choice just focuses on one year. We can\u0026rsquo;t determine an overall increase or decrease by looking at just one year. Choice C is incorrect. The 1,000 articles published in 2017 wasn\u0026rsquo;t the largest number published during the period. Also, notice that the claim focuses on an overall change, while this choice just focuses on one year. We can\u0026rsquo;t determine an overall increase or decrease by looking at just one year. Choice D is incorrect. This choice doesn\u0026rsquo;t justify the claim. The claim is about a decrease in articles published between 2010 and 2019. This data shows an increase in articles published over a different period (2010-2013). \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the graph to justify the underlined claim?\u003c/p\u003e", "stimulus": "\u003cfigure class=\"image\"\u003e\u003csvg aria-label=\"A line graph titled Investigative Articles Published in the Albuquerque Journal from 2010 to 2019. The horizontal axis has no label. It ranges from 2010 to 2019 in increments of 1. The vertical axis is labeled Number of articles. It ranges from 0 to 1,750 in increments of 250. Refer to long description.\" height=\"440.509521484375\" role=\"img\" viewbox=\"0 0 450 440.509521484375\" width=\"450\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cg data-name=\"Layer 1\" id=\"ed420550-79eb-48d4-af01-cd27cdd08afd\"\u003e\u003cdefs\u003e\n\u003cmarker id=\"marker0\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#000\" points=\"3 0, 0 5.196, 6 5.196\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker1\" markerheight=\"5\" markerunits=\"strokeWidth\" markerwidth=\"5\" refx=\"2.5\" refy=\"2.5\"\u003e\n\u003cpath d=\"M0,0 L0,5 L5,5 L5,0 z\" fill=\"#BBB\" stroke=\"#000\" stroke-width=\"1.5\"\u003e\u003c/path\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker2\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003ccircle cx=\"3\" cy=\"3\" fill=\"#FFF\" r=\"1.8\" stroke=\"#000\" stroke-width=\".6\"\u003e\u003c/circle\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker3\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#999\" points=\"0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\".5\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003c/defs\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"96.0787353515625\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"96\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"90.0787353515625\" x2=\"102.0787353515625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"96\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(84.0787353515625 102)\"\u003e1,750\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"96.0787353515625\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"124.57142857142857\" y2=\"124.57142857142857\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"90.0787353515625\" x2=\"102.0787353515625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"124.57142857142857\" y2=\"124.57142857142857\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(84.0787353515625 130.57142857142856)\"\u003e1,500\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"96.0787353515625\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"153.14285714285714\" y2=\"153.14285714285714\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"90.0787353515625\" x2=\"102.0787353515625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"153.14285714285714\" y2=\"153.14285714285714\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(84.0787353515625 159.14285714285714)\"\u003e1,250\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"96.0787353515625\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"181.71428571428572\" y2=\"181.71428571428572\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"90.0787353515625\" x2=\"102.0787353515625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"181.71428571428572\" y2=\"181.71428571428572\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(84.0787353515625 187.71428571428572)\"\u003e1,000\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"96.0787353515625\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"210.28571428571428\" y2=\"210.28571428571428\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"90.0787353515625\" x2=\"102.0787353515625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"210.28571428571428\" y2=\"210.28571428571428\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(84.0787353515625 216.28571428571428)\"\u003e750\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"96.0787353515625\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"238.85714285714286\" y2=\"238.85714285714286\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"90.0787353515625\" x2=\"102.0787353515625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"238.85714285714286\" y2=\"238.85714285714286\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(84.0787353515625 244.85714285714286)\"\u003e500\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"96.0787353515625\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"267.42857142857144\" y2=\"267.42857142857144\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"90.0787353515625\" x2=\"102.0787353515625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"267.42857142857144\" y2=\"267.42857142857144\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(84.0787353515625 273.42857142857144)\"\u003e250\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"96.0787353515625\" x2=\"435\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"296\" y2=\"296\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"90.0787353515625\" x2=\"102.0787353515625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"296\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(84.0787353515625 302)\"\u003e0\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(24 196) rotate(-90)\"\u003eNumber of articles\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"96.0787353515625\" x2=\"96.0787353515625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.02479858398438\" x2=\"113.02479858398438\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(122.94479858398438 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2010\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"146.91692504882812\" x2=\"146.91692504882812\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(156.8369250488281 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2011\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"180.80905151367188\" x2=\"180.80905151367188\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(190.72905151367186 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2012\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"214.70117797851563\" x2=\"214.70117797851563\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(224.62117797851562 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2013\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"248.5933044433594\" x2=\"248.5933044433594\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(258.5133044433594 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2014\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"282.4854309082031\" x2=\"282.4854309082031\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(292.40543090820313 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2015\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"316.37755737304684\" x2=\"316.37755737304684\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(326.29755737304686 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2016\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"350.26968383789057\" x2=\"350.26968383789057\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(360.1896838378906 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2017\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"384.1618103027343\" x2=\"384.1618103027343\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(394.0818103027343 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2018\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"418.053936767578\" x2=\"418.053936767578\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(427.97393676757804 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2019\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(265.53936767578125 24)\"\u003eInvestigative Articles\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(265.53936767578125 48)\"\u003ePublished in the Albuquerque Journal\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(265.53936767578125 72)\"\u003efrom 2010 to 2019\u003c/text\u003e\u003crect fill=\"none\" height=\"39\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"122.57246398925781\" x=\"171.2137680053711\" xmlns=\"http://www.w3.org/2000/svg\" y=\"390.509521484375\"\u003e\u003c/rect\u003e\u003cline marker-end=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"178.2137680053711\" x2=\"205.2137680053711\" y1=\"407.509521484375\" y2=\"407.509521484375\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"205.2137680053711\" x2=\"232.2137680053711\" y1=\"407.509521484375\" y2=\"407.509521484375\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(242.2137680053711 414.509521484375)\"\u003e Total\u003c/text\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"113.02479858398438\" x2=\"146.91692504882812\" y1=\"173.0285714285714\" y2=\"160.11428571428573\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"146.91692504882812\" x2=\"180.80905151367188\" y1=\"160.11428571428573\" y2=\"125.02857142857144\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"180.80905151367188\" x2=\"214.70117797851563\" y1=\"125.02857142857144\" y2=\"113.14285714285714\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"214.70117797851563\" x2=\"248.5933044433594\" y1=\"113.14285714285714\" y2=\"181.94285714285715\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"248.5933044433594\" x2=\"282.4854309082031\" y1=\"181.94285714285715\" y2=\"192.8\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"282.4854309082031\" x2=\"316.37755737304684\" y1=\"192.8\" y2=\"202.9714285714286\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"316.37755737304684\" x2=\"350.26968383789057\" y1=\"202.9714285714286\" y2=\"168.57142857142856\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"350.26968383789057\" x2=\"384.1618103027343\" y1=\"168.57142857142856\" y2=\"196.34285714285716\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"384.1618103027343\" x2=\"418.053936767578\" y1=\"196.34285714285716\" y2=\"242.85714285714286\"\u003e\u003c/line\u003e\u003c/g\u003e\u003c/svg\u003e\u003c/figure\u003e\u003cdiv aria-label=\"Long description for line graph titled Investigative Articles Published in the Albuquerque Journal from 2010 to 2019\" class=\"sr-only\" role=\"region\"\u003e\u003cul\u003e\n\u003cli\u003eThe line graph:\u00a0\u003cbr/\u003e\n\u003cul\u003e\n\u003cli\u003eBegins at 2010, 1,076\u003c/li\u003e\n\u003cli\u003eRises gradually to 2011, 1,189\u003c/li\u003e\n\u003cli\u003eRises sharply to 2012, 1,496\u003c/li\u003e\n\u003cli\u003eRises gradually to 2013, 1,600\u003c/li\u003e\n\u003cli\u003eFalls sharply to 2014, 998\u003c/li\u003e\n\u003cli\u003eFalls gradually to 2015, 903\u003c/li\u003e\n\u003cli\u003eFalls gradually to 2016, 814\u003c/li\u003e\n\u003cli\u003eRises sharply to 2017, 1,115\u003c/li\u003e\n\u003cli\u003eFalls sharply to 2018, 872\u003c/li\u003e\n\u003cli\u003eFalls sharply to 2019, 465\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n\u003cp\u003eInvestigative journalists research and report about fraud, corruption, public hazards, and more. The graph shows the number of investigative articles published in the \u003cem\u003eAlbuquerque Journal\u003c/em\u003e newspaper from 2010 to 2019. According to an analyst, although the number of investigative articles published in this newspaper has varied significantly over the period shown,\u00a0\u003cspan aria-label=\"Referenced Content\" role=\"region\"\u003e\u003cu\u003ethe number overall has fallen since 2010\u003c/u\u003e\u003c/span\u003e.\u003c/p\u003e", "templateclusterid": "8253a4fd-4f31-4370-b1e4-257af3c2baab", "templateclustername": "", "type": "mcq", "vaultid": "6b3a5740-5fdc-4359-8dd4-571ff9c27183"}, "createDate": 1691007959368, "difficulty": "E", "external_id": "c4867d24-bd6b-421c-9558-60415940d47d", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "e441da80", "score_band_range_cd": 2, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "9efc45cd-95f7-4b1e-bcf6-47ec56759494", "updateDate": 1691007959368};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e441da80");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

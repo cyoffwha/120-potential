@@ -1,0 +1,22 @@
+{
+  "question_id": "6f5fc289",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Charles Dickens's 1854 novel Hard Times . Coketown is a fictional town in England. [Coketown] contained several large streets all very like one another, and many small streets still more like one another, inhabited by people equally like one another, who all went in and out at the same hours, with the same sound upon the same pavements, to do the same work, and to whom every day was the same as yesterday and tomorrow, and every year the counterpart of the last and the next.",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To emphasize the uniformity of both the town and the people who live there",
+    "To explain the limited work opportunities available to the town&rsquo;s residents",
+    "To reveal how the predictability of the town makes it easy for people lose track of time",
+    "To argue that the simplicity of life in the town makes it a pleasant place to live"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The author describes Coketown as having streets that are all very similar and residents who live similarly and do the same work. This repetition of similarities emphasizes how everything in Coketown is alike.",
+    "B": "Choice B is incorrect. While the text mentions that all the residents \"do the same work,\" it never explains what that work is or why everyone does it. Besides, the idea that they all do the same work is just one of several similarities among the townspeople described in the text.",
+    "C": "Choice C is incorrect. While the last sentence states that \"every day was the same as yesterday and tomorrow, and every year the counterpart of the last and the next,\" it never suggests that people actually \"lose track of time.\" This is also too narrow to be the main idea, since time is just one of many aspects of Coketown that the text describes as always being the same.",
+    "D": "Choice D is incorrect. The text never mentions whether life is simple in Coketown, and the town sounds as though it's probably a pretty dull place to live, rather than a pleasant one."
+  }
+}

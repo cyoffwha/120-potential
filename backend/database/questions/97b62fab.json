@@ -1,0 +1,22 @@
+{
+  "question_id": "97b62fab",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Smaller than poppy seeds, tardigrades are tiny, but they are tough. These minuscule animals can survive for thirty years without food or water, and ______ blank can withstand extreme temperatures as low as minus 328 degrees and as high as 304 degrees Fahrenheit.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "that",
+    "it",
+    "they",
+    "he"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is pronoun-antecedent agreement. The plural pronoun \"they\" agrees in number with the plural antecedent \"animals,\" which refers to tardigrades.",
+    "A": "Choice A is incorrect because the singular pronoun \"that\" doesn't agree in number with the plural antecedent \"animals.\"",
+    "B": "Choice B is incorrect because the singular pronoun \"it\" doesn't agree in number with the plural antecedent \"animals.\"",
+    "D": "Choice D is incorrect because the singular pronoun \"he\" doesn't agree in number with the plural antecedent \"animals.\""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "9645f55e",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Text 1 For decades, bluegrass musicians have debated whether their genre should exclude influences from mainstream genres such as rock. Many insist that bluegrass is defined by its adherence to the folk music of the US South, out of which bluegrass emerged. Such \"purists,\" as they are known, regard the recordings of Bill Monroe, which established the bluegrass sound in the 1940s, as a standard against which the genre should still be measured. Text 2 Bluegrass isn't simply an extension of folk traditions into the era of recorded music. In reality, Bill Monroe created the bluegrass sound in the 1940s by combining Southern folk music with commercial genres that had arisen only a few decades before, such as jazz and the blues. Since bluegrass has always been a mixed genre, contemporary bluegrass musicians should not be forbidden from incorporating into it influences from rock and other mainstream genres.",
+  "question_text": "Based on the texts, how would the author of Text 2 most likely regard the perspective of bluegrass purists, as described in Text 1?",
+  "answer_options": [
+    "As inconsistent, since bluegrass purists themselves enjoy other musical genres",
+    "As unrealistic, since bluegrass purists have no way of enforcing their musical preferences",
+    "As shortsighted, because bluegrass could enlarge its audience by including influences from mainstream genres",
+    "As illogical, because the purists overlook crucial aspects of how the bluegrass sound first originated."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. According to Author 1, the \"purists\" argue that bluegrass should stick to its folk music roots. But Author 2 points out that this isn't how bluegrass emerged: it actually got its sound from a mix of folk, jazz, and blues.",
+    "A": "Choice A is incorrect. There's nothing in Text 2 about what other genres the purists enjoy, so this inference about Author 2's views isn't supported.",
+    "B": "Choice B is incorrect. There's nothing in Text 2 about whether or how purists can enforce their preferences, so this inference about Author 2's views isn't supported.",
+    "C": "Choice C is incorrect. There's nothing in Text 2 about the size of bluegrass's audience, so this inference about Author 2's views isn't supported."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "61228830",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "A heliograph is a semaphore device used for sending optical communications—usually in the form of Morse code—by reflecting flashes of sunlight off a mirror. Heliographs were used for rapid communication across expansive distances for military, surveying, and forestry purposes during the late nineteenth and early twentieth centuries, but they were largely effective only during the daytime, and the range of the device depended on factors such as the opacity of the air and line of sight. Therefore, heliographs were eventually replaced by technology that ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "worked on similar principles but was easier to produce and maintain.&nbsp;",
+    "was not so constrained by environmental circumstances.",
+    "could be used for more than military, surveying, or forestry purposes.",
+    "enabled communication that didn&rsquo;t require knowledge of Morse code."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The passage explains that heliographs \"were largely effective only during the daytime\" and that \"the range of the device depended on factors such as the opacity of the air and line of sight.\" These constraints would have greatly limited the use of the heliograph, so we can infer that this would have been a reason to replace it with new technology.",
+    "A": "Choice A is incorrect. The passage doesn't discuss the production and maintenance of heliographs, so there's no basis for this inference.",
+    "C": "Choice C is incorrect. The passage doesn't mention any \"other purposes\" that a heliograph wouldn't work for, so there's no basis for this inference.",
+    "D": "Choice D is incorrect. The passage doesn't mention knowledge of Morse code as a particular problem with the use of heliographs, so there's no basis for this inference."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "f40ca576",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Each year in the fall, when the weather starts to cool in the northern hemisphere, millions of North American monarch butterflies journey south. Searching for food and warmer habitats, they ______ blank thousands of miles—from as far north as Canada all the way down to Mexico—on this annual migration.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "flew",
+    "were flying",
+    "had flown",
+    "fly"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the use of verbs to express tense. In this choice, the present tense verb \"fly\" is consistent with the other present tense verb ( \"journey\") used to describe the butterflies' yearly migration. Together, these simple present tense verbs correctly indicate that the migration is a current, yearly occurrence.",
+    "A": "Choice A is incorrect. The simple past tense verb \"flew\" isn't consistent with the other present tense verb used to describe the butterflies' yearly migration.",
+    "B": "Choice B is incorrect. The past progressive tense verb \"were flying\" isn't consistent with the other present tense verb used to describe the butterflies' yearly migration.",
+    "C": "Choice C is incorrect. The past perfect tense verb \"had flown\" isn't consistent with the other present tense verb used to describe the butterflies' yearly migration."
+  }
+}

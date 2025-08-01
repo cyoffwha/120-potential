@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question a842db60</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>To make her art more widely available, graphic artist Elizabeth Catlett turned to linocuts. In linocut printing, an artist carves an image into a sheet of linoleum to create a stamp that is used to mass-produce prints. In the linocut series <em>The Black Woman </em>(1946&ndash;1947), Catlett depicts the everyday experiences of Black women alongside the achievements of well-known Black women. This pairing invites the viewer to draw connections among the women. The linocut process enabled Catlett&rsquo;s work to reach a wide audience and supported her aim to unite Black women through her art.</p></div>
+
+                        <div class="mt-3"><p>According to the text, what is significant about Catlett&rsquo;s use of linocut printing?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Linocut printing involved using materials that were readily available to Catlett.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Linocut printing helped Catlett use art to connect people, especially Black women.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Catlett became commercially successful once she started using linocut printing.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Catlett was one of the first Black artists to use linocut printing.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The last sentence states that the linocut process &ldquo;supported her [Catlett&rsquo;s] aim to unite Black women through her art.&rdquo; </p><p>Choice A is incorrect. The text briefly describes the linocut printing process but doesn&rsquo;t discuss the availability of the materials used in the process. Choice C is incorrect. The text says that the linocut process &ldquo;enabled Catlett&rsquo;s work to reach a wide audience,&rdquo; but that doesn&rsquo;t mean that linocuts made her &ldquo;commercially successful.&rdquo; In other words, we don&rsquo;t know how much money she made off her linocuts&mdash;we only know that more people were able to see her work. Choice D is incorrect. The text says that Catlett depicted Black women in her linocuts, but not that she was one of the first Black artists to use linocut printing. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">285 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eLinocut printing involved using materials that were readily available to Catlett.\u0026nbsp;\u003c/p\u003e", "id": "1f8d5ebd-a01f-46ca-961e-f5820fa2b8c1"}, {"content": "\u003cp\u003eLinocut printing helped Catlett use art to connect people, especially Black women.\u003c/p\u003e", "id": "cd254279-16e2-40ab-8ac0-3041eeb46cbc"}, {"content": "\u003cp\u003eCatlett became commercially successful once she started using linocut printing.\u0026nbsp;\u003c/p\u003e", "id": "82d53c73-526b-47aa-9f76-29a1e3111b62"}, {"content": "\u003cp\u003eCatlett was one of the first Black artists to use linocut printing.\u003c/p\u003e", "id": "aa7ca8a2-47e4-4703-bbca-69df0eb965ac"}], "correct_answer": ["B"], "externalid": "85b52d3b-001d-4ff1-81fd-e1742c8c00aa", "keys": ["cd254279-16e2-40ab-8ac0-3041eeb46cbc"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CID-E006", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The last sentence states that the linocut process \u0026ldquo;supported her [Catlett\u0026rsquo;s] aim to unite Black women through her art.\u0026rdquo; \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The text briefly describes the linocut printing process but doesn\u0026rsquo;t discuss the availability of the materials used in the process. Choice C is incorrect. The text says that the linocut process \u0026ldquo;enabled Catlett\u0026rsquo;s work to reach a wide audience,\u0026rdquo; but that doesn\u0026rsquo;t mean that linocuts made her \u0026ldquo;commercially successful.\u0026rdquo; In other words, we don\u0026rsquo;t know how much money she made off her linocuts\u0026mdash;we only know that more people were able to see her work. Choice D is incorrect. The text says that Catlett depicted Black women in her linocuts, but not that she was one of the first Black artists to use linocut printing. \u003c/p\u003e", "stem": "\u003cp\u003eAccording to the text, what is significant about Catlett\u0026rsquo;s use of linocut printing?\u003c/p\u003e", "stimulus": "\u003cp\u003eTo make her art more widely available, graphic artist Elizabeth Catlett turned to linocuts. In linocut printing, an artist carves an image into a sheet of linoleum to create a stamp that is used to mass-produce prints. In the linocut series \u003cem\u003eThe Black Woman \u003c/em\u003e(1946\u0026ndash;1947), Catlett depicts the everyday experiences of Black women alongside the achievements of well-known Black women. This pairing invites the viewer to draw connections among the women. The linocut process enabled Catlett\u0026rsquo;s work to reach a wide audience and supported her aim to unite Black women through her art.\u003c/p\u003e", "templateclusterid": "9c81935d-a4e2-4be7-a2ed-d8702653ed2d", "templateclustername": "", "type": "mcq", "vaultid": "9cf223d0-1dea-4855-8e9a-27b535f1cb36"}, "createDate": 1691007959359, "difficulty": "E", "external_id": "85b52d3b-001d-4ff1-81fd-e1742c8c00aa", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "a842db60", "score_band_range_cd": 2, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "fb872ced-cc06-4968-a37f-3c830d7592ef", "updateDate": 1691007959359};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-a842db60");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

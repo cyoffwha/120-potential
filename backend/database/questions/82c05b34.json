@@ -1,0 +1,22 @@
+{
+  "question_id": "82c05b34",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Text 1 The live music festival business is growing in event size and genre variety. With so many consumer options, organizers are finding ways to cement festival attendance as a special experience worth sharing. This phenomenon is linked to the growing \"experiential economy,\" where many find it gratifying to purchase lived experiences. To ensure a profitable event, venues need to consider the overall consumer experience, not just the band lineup. Text 2 Music festival appearances are becoming a more important part of musicians' careers. One factor in this shift is the rising use of streaming services that allow access to huge numbers of songs for a monthly fee, subsequently reducing sales of full-length albums. With this shift in consumer behavior, musicians are increasingly dependent on revenue from live performances.",
+  "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+  "answer_options": [
+    "Consumers are more interested in paying subscription fees to stream music than in attending music festivals in person.&nbsp;",
+    "Consumers&rsquo; growing interest in purchasing experiences is mostly confined to the music industry.&nbsp;",
+    "Changing consumer behaviors are leading to changes in music-related businesses.&nbsp;",
+    "The rising consumer demand for live music festivals also generates higher demand for music streaming platforms."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. Both authors mention how consumer behaviors have shifted, and how this affects different aspects of the music industry. Text 1 states that consumers enjoy purchasing \"lived experiences,\" and that this influences how organizers design music festivals. Text 2 states that consumers are using streaming services more, and that this reduces album sales and increases the importance of live performances for musicians.",
+    "A": "Choice A is incorrect. Neither text claims that consumers prefer streaming to festivals, or that these are mutually exclusive options. Text 1 implies that festivals are popular and profitable, and Text 2 never suggests that streaming services diminish the demand for live music.",
+    "B": "Choice B is incorrect. This choice misreads Text 1, which identifies music festivals as just one example of a broader trend of purchasing \"lived experiences.\" Text 2 doesn't mention growing interest in purchasing experiences, in the music industry or otherwise.",
+    "D": "Choice D is incorrect. Neither text establishes a cause/effect relationship between the demand for festivals and the demand for streaming platforms. Text 1 does not mention streaming platforms at all, and Text 2 does not imply that streaming platforms benefit from the popularity of festivals."
+  }
+}

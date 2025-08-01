@@ -1,0 +1,22 @@
+{
+  "question_id": "8622320e",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Earth's auroras—colorful displays of light seen above the northern and southern poles—result, broadly speaking, from the Sun's activity. ______ blank the Sun releases charged particles that are captured by Earth's magnetic field and channeled toward the poles. These particles then collide with atoms in the atmosphere, causing the atoms to emit auroral light.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Specifically,",
+    "Similarly,",
+    "Nevertheless,",
+    "Hence,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Specifically\" logically signals that the information in this sentence—that the Sun releases charged particles that later collide with atoms, resulting in auroral light—provides specific, precise details about how auroras result from the Sun's activity.",
+    "B": "Choice B is incorrect because \"similarly\" illogically signals that the information in this sentence is similar to the general information about auroras in the previous sentence. Instead, this sentence provides specific, precise details about how auroras form.",
+    "C": "Choice C is incorrect because \"nevertheless\" illogically signals that the information in this sentence is despite the general information about auroras in the previous sentence. Instead, this sentence provides specific, precise details about how auroras form.",
+    "D": "Choice D is incorrect because \"hence\" illogically signals that the information in this sentence is a result of the general information about auroras in the previous sentence. Instead, this sentence provides specific, precise details about how auroras form."
+  }
+}

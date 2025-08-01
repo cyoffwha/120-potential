@@ -1,0 +1,22 @@
+{
+  "question_id": "bb275f0d",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Cities tend to have a wide range of flowering vegetation in parks, yards, and gardens. This vegetation provides a varied diet for honeybees, strengthening bees' immune systems. On average, 62.5 percent of bees in an urban area will survive a harsh winter. Rural areas are often dominated by monoculture crops such as corn or wheat. On average, only 40 percent of honeybees in a rural area will survive a harsh winter. The student wants to make and support a generalization about honeybees. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to make and support a generalization about honeybees.&nbsp;Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Cities tend to have a wider range of flowering vegetation than do rural areas, which are often dominated by monoculture crops.",
+    "In urban areas, over 60 percent of honeybees, on average, will survive a harsh winter, whereas in rural areas, only 40 percent will.&nbsp;",
+    "The strength of honeybees&rsquo; immune systems depends on what the bees eat, and a varied diet is more available to bees in an urban area than to those in a rural area.",
+    "Honeybees are more likely to thrive in cities than in rural areas because the varied diet available in urban areas strengthens the bees&rsquo; immune systems."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because the sentence makes and supports a generalization about honeybees. It claims that honeybees living in urban areas are more likely to thrive than rural bees, and it supports the claim with information about the effect of a varied diet on urban bees' immune systems.",
+    "A": "Choice A is incorrect. While the sentence makes a generalization, it doesn't mention honeybees.",
+    "B": "Choice B is incorrect. While the sentence provides data about honeybee survival, it doesn't make a generalization about honeybees based on this information.",
+    "C": "Choice C is incorrect. While the sentence makes a generalization about honeybees' diets and immune systems, it doesn't provide adequate support for this generalization."
+  }
+}

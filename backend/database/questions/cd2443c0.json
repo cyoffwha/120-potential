@@ -1,0 +1,22 @@
+{
+  "question_id": "cd2443c0",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "A pioneer in the field of taphonomy (the study of how organic remains become fossils), ______ blank may be just as prevalent in the fossil record as those of thick-shelled organisms.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "fossils of thin-shelled organisms, Anna Behrensmeyer demonstrated in a 2005 analysis,",
+    "Anna Behrensmeyer demonstrated in a 2005 analysis that fossils of thin-shelled organisms",
+    "it was demonstrated in a 2005 analysis by Anna Behrensmeyer that fossils of thin-shelled organisms",
+    "a 2005 analysis&mdash;by Anna Behrensmeyer&mdash;demonstrated that fossils of thin-shelled organisms"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase \"Anna Behrensmeyer\" the subject of the sentence and places it immediately after the modifying phrase \"a pioneer&hellip;fossils.\" In doing so, this choice clearly establishes that Anna Behrensmeyer—and not another noun in the sentence—is a pioneer in the field of taphonomy.",
+    "A": "Choice A is incorrect because it results in a dangling modifier. The placement of the noun phrase \"fossils of thin-shelled organisms\" immediately after the modifying phrase illogically suggests that the \"fossils\" are a pioneer in the field of taphonomy.",
+    "C": "Choice C is incorrect because it results in a dangling modifier. The placement of the pronoun \"it\" immediately after the modifying phrase illogically suggests that \"it\" is a pioneer in the field of taphonomy.",
+    "D": "Choice D is incorrect because it results in a dangling modifier. The placement of the noun phrase \"a 2005 analysis\" immediately after the modifying phrase illogically suggests that \"a 2005 analysis\" is a pioneer in the field of taphonomy."
+  }
+}

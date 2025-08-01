@@ -11,6 +11,7 @@ import openai
 
 from db import User, SessionLocal, engine, Base, Question
 from questions_api import router as questions_router
+from user_progress_api import router as progress_router
 
 
 load_dotenv()
@@ -30,8 +31,9 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
-# --- Include questions API router ---
+# --- Include API routers ---
 app.include_router(questions_router)
+app.include_router(progress_router)
 
 class DialogRequest(BaseModel):
     passage: str

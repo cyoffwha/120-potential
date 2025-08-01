@@ -1,0 +1,22 @@
+{
+  "question_id": "d2eb1df1",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In recommending Bao Phi's collection S &ocirc;ng I Sing , a librarian noted that pieces by the spoken-word poet don't lose their ______ blank nature when printed: the language has the same pleasant musical quality on the page as it does when performed by Phi.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "scholarly",
+    "melodic",
+    "jarring",
+    "personal"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. Based on the text, we're looking for a word that means something similar to \"pleasant musical quality.\" That's exactly what \"melodic\" means.",
+    "A": "Choice A is incorrect. This isn't a logical word choice. Based on the text, we're looking for a word that means something similar to \"pleasant musical quality.\" \"Scholarly\" would suggest something that is academic or well-researched, which doesn't match the meaning we're looking for.",
+    "C": "Choice C is incorrect. This isn't a logical word choice. Based on the text, we're looking for a word that means something similar to \"pleasant musical quality.\" \"Jarring\" would suggest the opposite: something unpleasant or discordant.",
+    "D": "Choice D is incorrect. This isn't a logical word choice. Based on the text, we're looking for a word that means something similar to \"pleasant musical quality.\" \"Personal\" would suggest something that is expressive or intimate, which doesn't match the meaning we're looking for."
+  }
+}

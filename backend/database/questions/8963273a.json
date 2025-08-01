@@ -1,0 +1,22 @@
+{
+  "question_id": "8963273a",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Musician Joni Mitchell, who is also a painter, uses images she creates for her album covers to emphasize ideas expressed in her music. For the cover of her album Turbulent Indigo (1994), Mitchell painted a striking self-portrait that closely resembles Vincent van Gogh's Self-Portrait with Bandaged Ear (1889). The image calls attention to the album's title song, in which Mitchell sings about the legacy of the postimpressionist painter. In that song, Mitchell also hints that she feels a strong artistic connection to Van Gogh—an idea that is reinforced by her imagery on the cover.",
+  "question_text": "Which choice best describes the overall structure of the text?",
+  "answer_options": [
+    "It presents a claim about Mitchell, then gives an example supporting that claim.",
+    "It discusses Van Gogh&rsquo;s influence on Mitchell, then considers Mitchell&rsquo;s influence on other artists.",
+    "It describes a similarity between two artists, then notes a difference between them.",
+    "It describes the songs on  Turbulent Indigo , then explains how they relate to the album&rsquo;s cover."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it accurately describes the organization of the elements within the text. The text begins with the claim that Joni Mitchell's album covers use images she creates in order to emphasize ideas embedded in her albums. It then goes on to provide an example of how Mitchell's self-portrait on the cover of Turbulent Indigo resembles a painting by Van Gogh, which the text indicates helps emphasize the strong connection Mitchell feels toward Van Gogh, a connection that is also expressed in the album's title song.",
+    "B": "Choice B is incorrect because there are no references in the text to artists other than Joni Mitchell and Van Gogh.",
+    "C": "Choice C is incorrect because there is nothing in the text that calls attention to any similarities or differences between Joni Mitchell and Van Gogh. Instead, it mentions that Mitchell feels a strong \"artistic connection\" to Van Gogh.",
+    "D": "Choice D is incorrect because the text discusses the cover before referring to any songs, and it only references one song from the album not all the songs."
+  }
+}

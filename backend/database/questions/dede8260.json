@@ -1,0 +1,22 @@
+{
+  "question_id": "dede8260",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: When medical students mention their patients on social media, they may violate patient confidentiality. Terry Kind led a study to determine how many medical schools have student policies that mention social media use. Kind and her team reviewed 132 medical school websites, examining publicly available student policies. Only thirteen medical schools had guidelines that explicitly mention social media, and only five defined what constitutes acceptable social media use. The student wants to emphasize the study's methodology. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the study&rsquo;s methodology. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "The student policies of 132 medical schools can be found online, according to research by Terry Kind.",
+    "To find out how many medical schools have guidelines about student social media use, Terry Kind and her team examined the student policies of 132 medical schools.",
+    "Out of 132 medical schools, only thirteen had student policies that mentioned social media, and only five specified what use was acceptable.&nbsp;",
+    "Terry Kind and her team wanted to know how many medical schools have student social media policies in place about protecting patient confidentiality.&nbsp;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The sentence effectively emphasizes Kind's methodology: examining the student policies of 132 medical schools for guidelines about student social media use.",
+    "A": "Choice A is incorrect. The sentence specifies how many medical schools' student policies are available online; it doesn't emphasize the study's methodology.",
+    "C": "Choice C is incorrect. The sentence emphasizes the study's results, not the study's methodology.",
+    "D": "Choice D is incorrect. The sentence emphasizes the aim of the study, not the study's methodology."
+  }
+}

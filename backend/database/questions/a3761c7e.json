@@ -1,0 +1,22 @@
+{
+  "question_id": "a3761c7e",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Physicist Joseph Weber performed ______ blank work in gravitational wave research in the 1960s and 1970s, conducting key experiments that scientists later used as the basis for their own investigations that led to the first verified detection of a gravitational wave in 2015.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "foundational",
+    "supplementary",
+    "repetitive",
+    "ineffective"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of physicist Joseph Webster's research on gravitational waves. In this context \"foundational\" means the basis on which something else develops. The text indicates that Webster's experiments in the 1960s and 1970s were earlier than, and \"key\" to, the work of later scientists in the field; thus, Webster's work was foundational to the later scientists' experiments and the eventual detection of a gravitational wave in 2015.",
+    "B": "Choice B is incorrect because the text does not suggest that Webster's work was supplementary, or an additional element of an existing, larger project, but rather it was \"the basis for\" later experiments.",
+    "C": "Choice C is incorrect because the text does not assert that Webster's work was repetitive, or involved doing something the same way many times. Rather, the text indicates that Webster's work formed the basis for later investigations in the field of gravitational wave research.",
+    "D": "Choice D is incorrect because the text does not state that Webster's work was ineffective, or failed to produce the desired outcome. Rather, the text strongly implies that Webster's work was productive and extremely important to later work in the field of gravitational wave research."
+  }
+}

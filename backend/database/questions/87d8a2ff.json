@@ -1,0 +1,22 @@
+{
+  "question_id": "87d8a2ff",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "During a 2021 launch, Rocket Labs' Electron rocket experienced an unexpected failure: its second-stage booster shut down suddenly after ignition. ______ blank instead of downplaying the incident, Rocket Labs' CEO publicly acknowledged what happened and apologized for the loss of the rocket's payload, which had consisted of two satellites.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Afterward,",
+    "Additionally,",
+    "Indeed,",
+    "Similarly,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Afterward\" logically signals that the events described in this sentence—the CEO's public acknowledgment and apology—occurred after the rocket booster's failure and are part of a chronological sequence of events.",
+    "B": "Choice B is incorrect because \"additionally\" illogically signals that the events described in this sentence merely occurred in addition to the rocket booster's failure. Instead, they occurred after the rocket booster's failure and are part of a chronological sequence of events.",
+    "C": "Choice C is incorrect because \"indeed\" illogically signals that the events described in this sentence emphasize or strengthen a statement made in the previous sentence. Instead, they occurred after the rocket booster's failure and are part of a chronological sequence of events.",
+    "D": "Choice D is incorrect because \"similarly\" illogically signals that the events described in this sentence are similar to the rocket booster's failure. Instead, they occurred after the rocket booster's failure and are part of a chronological sequence of events."
+  }
+}

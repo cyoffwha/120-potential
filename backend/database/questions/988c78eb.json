@@ -1,0 +1,22 @@
+{
+  "question_id": "988c78eb",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Former First Lady of the United States Eleanor Roosevelt and Indian activist and educator Hansa Mehta were instrumental in drafting the United Nations' Universal Declaration of Human Rights, a document that ______ blank the basic freedoms to which all people are entitled.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "have outlined",
+    "were outlining",
+    "outlines",
+    "outline"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is subject-verb agreement. The singular verb \"outlines\" agrees in number with the singular subject \"document.\"",
+    "A": "Choice A is incorrect because the plural verb \"have outlined\" doesn't agree in number with the singular subject \"document.\"",
+    "B": "Choice B is incorrect because the plural verb \"were outlining\" doesn't agree in number with the singular subject \"document.\"",
+    "D": "Choice D is incorrect because the plural verb \"outline\" doesn't agree in number with the singular subject \"document.\""
+  }
+}

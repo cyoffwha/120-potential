@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question a3761c7e</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Physicist Joseph Weber performed <span aria-hidden="true">______</span><span class="sr-only">blank</span> work in gravitational wave research in the 1960s and 1970s, conducting key experiments that scientists later used as the basis for their own investigations that led to the first verified detection of a gravitational wave in 2015.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>foundational</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>supplementary</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>repetitive</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>ineffective</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most logically completes the text&rsquo;s discussion of physicist Joseph Webster&rsquo;s research on gravitational waves. In this context &ldquo;foundational&rdquo; means the basis on which something else develops. The text indicates that Webster&rsquo;s experiments in the 1960s and 1970s were earlier than, and &ldquo;key&rdquo; to, the work of later scientists in the field; thus, Webster&rsquo;s work was foundational to the later scientists&rsquo; experiments and the eventual detection of a gravitational wave in 2015. &nbsp;</p><p>Choice B is incorrect because the text does not suggest that Webster&rsquo;s work was supplementary, or an additional element of an existing, larger project, but rather it was &ldquo;the basis for&rdquo; later experiments. Choice C is incorrect because the text does not assert that Webster&rsquo;s work was repetitive, or involved doing something the same way many times. Rather, the text indicates that Webster&rsquo;s work formed the basis for later investigations in the field of gravitational wave research. &nbsp;Choice D is incorrect because the text does not state that Webster&rsquo;s work was ineffective, or failed to produce the desired outcome. Rather, the text strongly implies that Webster&rsquo;s work was productive and extremely important to later work in the field of gravitational wave research.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">425 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003efoundational\u003c/p\u003e", "id": "5309ff79-e524-44de-bdca-b70b63eba260"}, {"content": "\u003cp\u003esupplementary\u003c/p\u003e", "id": "a4d72050-7a61-46b4-845d-b6fe793f0b47"}, {"content": "\u003cp\u003erepetitive\u003c/p\u003e", "id": "0ac1e107-6108-4fff-bed8-b85d79cfbcfe"}, {"content": "\u003cp\u003eineffective\u003c/p\u003e", "id": "dc8f2ede-9cd4-4832-889c-adac8f1ef014"}], "correct_answer": ["A"], "externalid": "40bb3e5d-a1dd-49ed-a57a-c8772051e9d2", "keys": ["5309ff79-e524-44de-bdca-b70b63eba260"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-016-WIC", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most logically completes the text\u0026rsquo;s discussion of physicist Joseph Webster\u0026rsquo;s research on gravitational waves. In this context \u0026ldquo;foundational\u0026rdquo; means the basis on which something else develops. The text indicates that Webster\u0026rsquo;s experiments in the 1960s and 1970s were earlier than, and \u0026ldquo;key\u0026rdquo; to, the work of later scientists in the field; thus, Webster\u0026rsquo;s work was foundational to the later scientists\u0026rsquo; experiments and the eventual detection of a gravitational wave in 2015. \u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice B is incorrect because the text does not suggest that Webster\u0026rsquo;s work was supplementary, or an additional element of an existing, larger project, but rather it was \u0026ldquo;the basis for\u0026rdquo; later experiments. Choice C is incorrect because the text does not assert that Webster\u0026rsquo;s work was repetitive, or involved doing something the same way many times. Rather, the text indicates that Webster\u0026rsquo;s work formed the basis for later investigations in the field of gravitational wave research. \u0026nbsp;Choice D is incorrect because the text does not state that Webster\u0026rsquo;s work was ineffective, or failed to produce the desired outcome. Rather, the text strongly implies that Webster\u0026rsquo;s work was productive and extremely important to later work in the field of gravitational wave research.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003ePhysicist Joseph Weber performed \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e work in gravitational wave research in the 1960s and 1970s, conducting key experiments that scientists later used as the basis for their own investigations that led to the first verified detection of a gravitational wave in 2015.\u003c/p\u003e", "templateclusterid": "3588ac2e-ee07-46ff-b6eb-8fd6e95c98b2", "templateclustername": "", "type": "mcq", "vaultid": "9735a314-a512-4eae-af50-936935669396"}, "createDate": 1691007959316, "difficulty": "E", "external_id": "40bb3e5d-a1dd-49ed-a57a-c8772051e9d2", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "a3761c7e", "score_band_range_cd": 2, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "8e006a8c-674f-42de-b3e9-5101d31f7e49", "updateDate": 1691007959316};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-a3761c7e");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 8391a002</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Black beans (<em>Phaseolus vulgaris</em>) are a nutritionally dense food, but they are difficult to digest in part because of their high levels of soluble fiber and compounds like raffinose. They also contain antinutrients like tannins and trypsin inhibitors, which interfere with the body&rsquo;s ability to extract nutrients from foods. In a research article, Marisela Granito and Glenda &Aacute;lvarez from Sim&oacute;n Bol&iacute;var University in Venezuela claim that inducing fermentation of black beans using lactic acid bacteria improves the digestibility of the beans and makes them more nutritious.</p></div>
+
+                        <div class="mt-3"><p>Which finding from Granito and &Aacute;lvarez&rsquo;s research, if true, would most directly support their claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>When cooked, fermented beans contained significantly more trypsin inhibitors and tannins but significantly less soluble fiber and raffinose than nonfermented beans.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Fermented beans contained significantly less soluble fiber and raffinose than nonfermented beans, and when cooked, the fermented beans also displayed a significant reduction in trypsin inhibitors and tannins.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>When the fermented beans were analyzed, they were found to contain two microorganisms, <em>Lactobacillus casei</em>&nbsp;and&nbsp;<em>Lactobacillus plantarum</em>, that are theorized to increase the amount of nitrogen absorbed by the gut after eating beans.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Both fermented and nonfermented black beans contained significantly fewer trypsin inhibitors and tannins after being cooked at high pressure.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it presents a finding that would best support Granito and &Aacute;lvarez&rsquo;s claim that fermenting black beans makes them easier to digest and more nutritious. The text indicates that high levels of soluble fiber and raffinose in black beans make the beans hard to digest and that tannins and trypsin inhibitors make it harder for the body to extract nutrients from the beans. If it were found that fermenting the beans significantly reduces their levels of soluble fiber, raffinose, trypsin inhibitors, and tannins when cooked, this would directly support the claim that fermentation improves the digestibility of the beans and makes them more nutritious. </p><p>Choice A is incorrect because the text indicates that trypsin inhibitors and tannins interfere with the body&rsquo;s ability to extract nutrients from black beans; if fermentation and cooking were found to increase these antinutrients, fermented beans would likely be less nutritious than unfermented ones, not more nutritious (as Granito and &Aacute;lvarez claim). Choice C is incorrect because the text doesn&rsquo;t address the idea that greater nitrogen absorption in the gut has an effect on a food&rsquo;s digestibility or level of nutrition, so the discovery of the presence of microorganisms that may increase nitrogen absorption wouldn&rsquo;t provide relevant support for the claim that fermentation makes black beans easier to digest and more nutritious. Choice D is incorrect because Granito and &Aacute;lvarez&rsquo;s claim focuses on the effect of fermenting black beans, but the finding that nonfermented black beans also have fewer trypsin inhibitors and tannins when cooked at high pressure would suggest that the role of the cooking method could be significant when it comes to nutrition; further, the finding wouldn&rsquo;t address the beans&rsquo; digestibility. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">282 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eWhen cooked, fermented beans contained significantly more trypsin inhibitors and tannins but significantly less soluble fiber and raffinose than nonfermented beans.\u0026nbsp;\u003c/p\u003e", "id": "1224158e-d626-492c-979f-5e7b17bf1809"}, {"content": "\u003cp\u003eFermented beans contained significantly less soluble fiber and raffinose than nonfermented beans, and when cooked, the fermented beans also displayed a significant reduction in trypsin inhibitors and tannins.\u003c/p\u003e", "id": "cd7cb21b-1a63-40e7-aec6-ebf086ed5de2"}, {"content": "\u003cp\u003eWhen the fermented beans were analyzed, they were found to contain two microorganisms, \u003cem\u003eLactobacillus casei\u003c/em\u003e\u0026nbsp;and\u0026nbsp;\u003cem\u003eLactobacillus plantarum\u003c/em\u003e, that are theorized to increase the amount of nitrogen absorbed by the gut after eating beans.\u0026nbsp;\u003c/p\u003e", "id": "d1c2b400-0429-48dc-bd02-048322290ffe"}, {"content": "\u003cp\u003eBoth fermented and nonfermented black beans contained significantly fewer trypsin inhibitors and tannins after being cooked at high pressure.\u0026nbsp;\u003c/p\u003e", "id": "4032ac49-246d-4551-9d88-cb1e677da8ee"}], "correct_answer": ["B"], "externalid": "3999df4f-831b-45be-a3b3-2fa658b23a70", "keys": ["cd7cb21b-1a63-40e7-aec6-ebf086ed5de2"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-310-TXT", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it presents a finding that would best support Granito and \u0026Aacute;lvarez\u0026rsquo;s claim that fermenting black beans makes them easier to digest and more nutritious. The text indicates that high levels of soluble fiber and raffinose in black beans make the beans hard to digest and that tannins and trypsin inhibitors make it harder for the body to extract nutrients from the beans. If it were found that fermenting the beans significantly reduces their levels of soluble fiber, raffinose, trypsin inhibitors, and tannins when cooked, this would directly support the claim that fermentation improves the digestibility of the beans and makes them more nutritious. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text indicates that trypsin inhibitors and tannins interfere with the body\u0026rsquo;s ability to extract nutrients from black beans; if fermentation and cooking were found to increase these antinutrients, fermented beans would likely be less nutritious than unfermented ones, not more nutritious (as Granito and \u0026Aacute;lvarez claim). Choice C is incorrect because the text doesn\u0026rsquo;t address the idea that greater nitrogen absorption in the gut has an effect on a food\u0026rsquo;s digestibility or level of nutrition, so the discovery of the presence of microorganisms that may increase nitrogen absorption wouldn\u0026rsquo;t provide relevant support for the claim that fermentation makes black beans easier to digest and more nutritious. Choice D is incorrect because Granito and \u0026Aacute;lvarez\u0026rsquo;s claim focuses on the effect of fermenting black beans, but the finding that nonfermented black beans also have fewer trypsin inhibitors and tannins when cooked at high pressure would suggest that the role of the cooking method could be significant when it comes to nutrition; further, the finding wouldn\u0026rsquo;t address the beans\u0026rsquo; digestibility. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding from Granito and \u0026Aacute;lvarez\u0026rsquo;s research, if true, would most directly support their claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eBlack beans (\u003cem\u003ePhaseolus vulgaris\u003c/em\u003e) are a nutritionally dense food, but they are difficult to digest in part because of their high levels of soluble fiber and compounds like raffinose. They also contain antinutrients like tannins and trypsin inhibitors, which interfere with the body\u0026rsquo;s ability to extract nutrients from foods. In a research article, Marisela Granito and Glenda \u0026Aacute;lvarez from Sim\u0026oacute;n Bol\u0026iacute;var University in Venezuela claim that inducing fermentation of black beans using lactic acid bacteria improves the digestibility of the beans and makes them more nutritious.\u003c/p\u003e", "templateclusterid": "6deb2ec7-8176-40fd-8233-6ec0616c3b20", "templateclustername": "", "type": "mcq", "vaultid": "2896f143-d1d6-49fa-b6e8-102cd2aa278e"}, "createDate": 1691007959335, "difficulty": "H", "external_id": "3999df4f-831b-45be-a3b3-2fa658b23a70", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "8391a002", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "f86fe392-2a59-4478-8972-1329f3e8c070", "updateDate": 1691007959335};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-8391a002");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

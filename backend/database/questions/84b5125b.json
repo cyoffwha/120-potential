@@ -1,0 +1,22 @@
+{
+  "question_id": "84b5125b",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Artist Marilyn Dingle's intricate, coiled baskets are ______ blank sweetgrass and palmetto palm. Following a Gullah technique that originated in West Africa, Dingle skillfully winds a thin palm frond around a bunch of sweetgrass with the help of a \"sewing bone\" to create the basket's signature look that no factory can reproduce.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "indicated by",
+    "handmade from",
+    "represented by",
+    "collected with"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of Marilyn Dingle's baskets. In this context, to say that Dingle's baskets are \"handmade from\" particular plants means that Dingle creates baskets herself using those plants but without using machines. The text says that Dingle \"skillfully winds\" parts of palmetto palm plants around sweetgrass plants to make baskets with an appearance that \"no factory can reproduce.\" This context suggests that Dingle's baskets are handmade from sweetgrass and palmetto palm.",
+    "A": "Choice A is incorrect because the text describes how Dingle uses sweetgrass and palmetto palm to create her baskets, not how her baskets are \"indicated by,\" or signified by, sweetgrass and palmetto palm.",
+    "C": "Choice C is incorrect. Although Dingle's baskets are described as being made using sweetgrass and palm, there's nothing in the text to suggest that the baskets are \"represented by,\" or exemplified or portrayed by, sweetgrass and palmetto palm. Instead, the focus of the text is on Dingle's use of sweetgrass and palmetto palm and the impossibility of replicating the appearance of her baskets using machines.",
+    "D": "Choice D is incorrect because there's nothing in the text to suggest that Dingle's baskets are \"collected with,\" or brought together in a group with, sweetgrass and palmetto palm. Instead, the text describes how Dingle uses those plants to make her baskets."
+  }
+}

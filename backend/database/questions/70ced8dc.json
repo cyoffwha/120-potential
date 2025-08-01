@@ -1,0 +1,22 @@
+{
+  "question_id": "70ced8dc",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Typically, underlines, scribbles, and notes left in the margins by a former owner lower a book's ______ blank when the former owner is a famous poet like Walt Whitman, such markings, known as marginalia, can be a gold mine to literary scholars.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "value, but",
+    "value",
+    "value,&nbsp;",
+    "value but"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is the coordination of independent clauses within a sentence. An independent clause is a phrase containing a subject and a verb that can stand on its own as a sentence. This choice uses a comma and the coordinating conjunction \"but\" to join the first independent clause (\"underlines&hellip;lower a book's value\") and the second independent clause (\"such markings&hellip;can be a gold mine to scholars\") to create a compound sentence.",
+    "B": "Choice B is incorrect because it results in a run-on sentence. The two independent clauses are fused without punctuation and/or a conjunction.",
+    "C": "Choice C is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between two independent clauses.",
+    "D": "Choice D is incorrect because a comma is needed to mark the boundary between two coordinated independent clauses."
+  }
+}

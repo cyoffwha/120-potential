@@ -1,0 +1,22 @@
+{
+  "question_id": "6bc0e595",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "One aspect of in-person shopping that online shopping can't replicate is the opportunity to touch a product before buying it. Does this difference matter? In an experiment, researchers asked one group of participants to touch a mug and a toy, while another group was prohibited from touching the two items. The participants were then asked how much money they'd pay for the items. People who got to touch the items were willing to pay much more money for them than were people who weren't allowed to touch the items. This finding suggests that ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "people who mainly shop online probably spend more money every month than people who mainly shop in person do.",
+    "in-person shopping may make products seem more valuable than they seem if only viewed online.&nbsp;",
+    "retailers with in-person and online stores should charge the same price for a given product in both places.",
+    "online retailers may be able to raise the prices they charge for products that are only available online."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The text tells us that \"people who got to touch the items were willing to pay much more money for them than people who weren't allowed to touch\" them. This suggests that being able to interact with a product in person may make it seem more valuable to a shopper.",
+    "A": "Choice A is incorrect. The text doesn't discuss how much people spend each month, so there's not much basis for this claim. Furthermore, since being able to touch a product tends to make people \"willing to pay much more money\" for it, we might predict that an online shopper would be willing to spend less on the same purchases as an in-person shopper.",
+    "C": "Choice C is incorrect. The text doesn't discuss what retailers \"should charge,\" so there's not much basis for this claim. Furthermore, the study in the text suggests that in-person stores may actually be able to charge more for a given product, since shoppers can touch it.",
+    "D": "Choice D is incorrect. The text doesn't discuss products that are only available online, so there's not much basis for this claim. Furthermore, products only available online would still have the problem of shoppers not being able to touch them, and the study suggests that this lowers the prices shoppers are willing to pay."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "d54e16ee",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Originally coined by economist Joan Robinson to refer to markets with multiple sellers of a product but only one buyer, the term \"monopsony\" can also refer to markets where demand for labor is limited. In a product monopsony, the single buyer can force sellers to lower their prices. ______ blank in a labor monopsony, employers can force workers to accept lower wages.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Earlier,",
+    "Instead,",
+    "Similarly,",
+    "In particular,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"Similarly\" logically signals that the information in this sentence about a labor monopsony is similar to the information in the previous sentence about a product monopsony. In both types of markets, one party (an employer or a buyer) has the power to force another party (a worker or seller) to accept less money (for labor or products).",
+    "A": "Choice A is incorrect because \"earlier\" illogically signals that the information in this sentence about a labor monopsony occurs earlier (in a chronological sequence) than the information about a product monopsony. Instead, it is similar to the information about a product monopsony.",
+    "B": "Choice B is incorrect because \"instead\" illogically signals that the information in this sentence about a labor monopsony is an alternative to the previous information about a product monopsony. Instead, it is similar to the information about a product monopsony.",
+    "D": "Choice D is incorrect because \"in particular\" illogically signals that the information in this sentence about a labor monopsony provides specific details elaborating on the previous information about a product monopsony. Instead, it is similar to the information about a product monopsony."
+  }
+}

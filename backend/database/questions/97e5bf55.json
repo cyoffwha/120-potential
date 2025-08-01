@@ -1,0 +1,22 @@
+{
+  "question_id": "97e5bf55",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Text 1 In 1916, H. Dugdale Sykes disputed claims that The Two Noble Kinsmen was coauthored by William Shakespeare and John Fletcher. Sykes felt Fletcher's contributions to the play were obvious—Fletcher had a distinct style in his other plays, so much so that lines with that style were considered sufficient evidence of Fletcher's authorship. But for the lines not deemed to be by Fletcher, Sykes felt that their depiction of women indicated that their author was not Shakespeare but Philip Massinger. Text 2 Scholars have accepted The Two Noble Kinsmen as coauthored by Shakespeare since the 1970s: it appears in all major one-volume editions of Shakespeare's complete works. Though scholars disagree about who wrote what exactly, it is generally held that on the basis of style, Shakespeare wrote all of the first act and most of the last, while John Fletcher authored most of the three middle acts.",
+  "question_text": "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?",
+  "answer_options": [
+    "John Fletcher&rsquo;s writing has a unique, readily identifiable style.",
+    "The women characters in John Fletcher&rsquo;s plays are similar to the women characters in Philip Massinger&rsquo;s plays.",
+    "The Two Noble Kinsmen  belongs in one-volume compilations of Shakespeare&rsquo;s complete plays.",
+    "Philip Massinger&rsquo;s style in the first and last acts of  The Two Noble Kinsmen  is an homage to Shakespeare&rsquo;s style."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. Text 1 states that Sykes felt Fletcher's contributions to the play were obvious because he had a distinct style in his other plays. Text 2 states that scholars generally agree \"on the basis of style\" that Fletcher wrote most of the three middle acts. Both texts imply that Fletcher's writing has a unique, readily identifiable style that can be used to distinguish his work from others.",
+    "B": "Choice B is incorrect. While Text 1 refers to the women in Massinger plays, neither text compares the women of Fletcher's plays to the women of Massinger's plays. Text 2 doesn't mention Massinger at all.",
+    "C": "Choice C is incorrect. Text 1 states that Sykes disputed that Shakespeare coauthored the play, and implied that it was coauthored by Fletcher and Massinger instead. Sykes, therefore, would disagree that The Two Noble Kinsmen belongs in a Shakespeare compilation.",
+    "D": "Choice D is incorrect. Text 1 doesn't suggest that Massinger was inspired by Shakespeare, and Text 2 doesn't mention Massinger at all."
+  }
+}

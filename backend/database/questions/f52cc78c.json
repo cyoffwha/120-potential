@@ -1,0 +1,22 @@
+{
+  "question_id": "f52cc78c",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Text 1 Polar bears sustain themselves primarily by hunting seals on the Arctic sea ice, but rising ocean temperatures are causing the ice to diminish, raising concerns about polar bear population declines as these large predators' seal-hunting habitats continue to shrink. A 2020 study examining polar bear populations across the Arctic concluded that populations affected by sea-ice loss are at great risk of extinction by the end of the twenty-first century . Text 2 Monitoring carried out by researchers from the Norwegian Polar Institute shows that the polar bear population on the Arctic archipelago of Svalbard remains stable and well nourished despite rapidly declining sea ice in recent years. The researchers attribute this population's resilience in part to a shift in feeding strategies: in addition to hunting seals, the Svalbard polar bears have begun relying on a diet of reindeer meat and birds' eggs.",
+  "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the conclusion presented in the underlined portion of Text 1?",
+  "answer_options": [
+    "By noting that it neglects the possibility of some polar bear populations adapting to changes in their environment",
+    "By suggesting that it is likely incorrect about the rates at which warming ocean temperatures have caused sea ice to melt in the Arctic",
+    "By asserting that it overlooks polar bear populations that have not yet been affected by loss of seal-hunting habitats",
+    "By arguing that it fails to account for polar bears&rsquo; reliance on a single seal-hunting strategy"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. Text 2 describes how the Svalbard polar bears have adapted to the loss of sea ice by diversifying their diet and feeding on reindeer and seabird eggs, resulting in a \"stable and well nourished\" population despite environmental challenges. This counters the underlined claim that polar bears facing a loss of sea ice are at \"great risk of extinction\" by the end of the century.",
+    "B": "Choice B is incorrect. Text 2 does not challenge the fact that sea ice is rapidly declining in the Arctic due to warming ocean temperatures. In fact, it states that the Svalbard polar bears have faced \"rapidly declining sea ice in recent years.\"",
+    "C": "Choice C is incorrect. The claim in Text 1 is specific to polar bear populations affected by the loss of seal hunting habitats, so unaffected populations are irrelevant to the claim. Also, Text 2 doesn't mention any polar bear populations that haven't yet been affected by loss of seal hunting habitats. It focuses on a population that has been affected by sea-ice loss but has managed to survive and thrive nevertheless.",
+    "D": "Choice D is incorrect. Text 2 doesn't imply that polar bears rely on a single seal-hunting strategy. In fact, the researcher in Text 2 would say that Text 1 fails to account for polar bears' ability to develop other hunting strategies and food sources."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "c966ad55",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is from Srimati Svarna Kumari Devi's 1894 novel The Fatal Garland (translated by A. Christina Albers in 1910). Shakti is walking near a riverbank that she visited frequently during her childhood. She crossed the woods she knew so well. The trees seemed to extend their branches like welcoming arms. They greeted her as an old friend. Soon she reached the river-side. Which choice best describes the function of the underlined portion in the text as a whole?",
+  "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?&nbsp;",
+  "answer_options": [
+    "It suggests that Shakti feels uncomfortable near the river.",
+    "It indicates that Shakti has lost her sense of direction in the woods.",
+    "It emphasizes Shakti&rsquo;s sense of belonging in the landscape.",
+    "It conveys Shakti&rsquo;s appreciation for her long-term friendships.&nbsp;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The first sentence of the text states that Shakti knows the woods she is walking in well. The next sentence, which is underlined, emphasizes Shakti's familiarity with, and sense of security within, the woods by describing how the tree branches are friendly and \"welcoming,\" as they are depicted as extending open arms to her. The remainder of the text also shows that Shakti is comfortable and content in the woods by describing her as \"an old friend\" of the trees. Thus, the function of the underlined portion is to emphasize Shakti's sense of belonging in the wooded landscape that she visits.",
+    "A": "Choice A is incorrect because the text and underlined portion suggest that Shakti is comfortable, not uncomfortable, in her surroundings: the trees around her are described as welcoming and reassuring. Moreover, the underlined portion discusses Shakti's feelings in the forest, not the river, since she hasn't reached the river yet.",
+    "B": "Choice B is incorrect because the text and underlined portion emphasize Shakti's familiarity with the woods. The trees are inviting, and she feels like \"an old friend\" to the woods, so she isn't lost or confused there.",
+    "D": "Choice D is incorrect because the third sentence uses the phrase \"as an old friend\" figuratively in reference to Shakti's sense of familiarity with the landscape, not in reference to her long-standing friendships with other people, and the text and underlined portion never discuss her feelings about such friendships."
+  }
+}

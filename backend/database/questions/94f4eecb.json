@@ -1,0 +1,22 @@
+{
+  "question_id": "94f4eecb",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Las sergas de Esplandi&aacute;n was a novel popular in sixteenth-century Spain. The novel featured a fictional island inhabited solely by Black women and known as California. That same century, Spanish explorers learned of an \"island\" off the west coast of Mexico. They called it California after the island in the novel. The \"island\" was actually the peninsula now known as Baja California (\"Lower California\"), which lies to the south of the US state of California. The student wants to emphasize the role a misconception played in the naming of a place. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize the role a misconception played in the naming of a place. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "The novel  Las sergas de Esplandi&aacute;n  featured a fictional island known as California.",
+    "To the south of the US state of California lies Baja California (&ldquo;Lower California&rdquo;), originally called California after a fictional place.&nbsp;",
+    "In the sixteenth century, Spanish explorers learned of a peninsula off the west coast of Mexico and called it California.&nbsp;",
+    "Thinking it was an island, Spanish explorers called a peninsula California after an island in a popular novel."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence emphasizes the role a misconception played in the naming of a place, explaining that Spanish explorers mistook a peninsula for an island and, as a result, named the peninsula after a fictional island, California.",
+    "A": "Choice A is incorrect. The sentence mentions a novel that featured a fictional island, California; it doesn't emphasize the role a misconception played in the naming of a place.",
+    "B": "Choice B is incorrect. The sentence notes that Baja California was originally named after a fictional place; it doesn't emphasize the role a misconception—specifically, the Spanish explorers' mistaken belief that the peninsula was an island—played in the naming of a place.",
+    "C": "Choice C is incorrect. The sentence indicates when Spanish explorers learned of the peninsula they called California; it doesn't emphasize the role a misconception played in the naming of a place."
+  }
+}

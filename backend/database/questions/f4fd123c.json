@@ -1,0 +1,22 @@
+{
+  "question_id": "f4fd123c",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The African Games Co-production Market, one of over 180 annual international conferences supporting video game development, ______ blank the growth of the African gaming industry by helping start-up studios in Africa find partners.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "promote",
+    "are promoting",
+    "promotes",
+    "have promoted"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The subject of the sentence is \"The African Games Co-production Market.\" That's one market, so it's a singular noun, which means it needs a singular verb. \"Promotes\" is the only singular verb among the choices.",
+    "A": "Choice A is incorrect. This choice creates a subject-verb agreement error. The subject \"The African Games Co-production Market\" is singular, but the verb \"promote\" is plural.",
+    "B": "Choice B is incorrect. This choice creates a subject-verb agreement error. The subject \"The African Games Co-production Market\" is singular, but the verb \"are promoting\" is plural.",
+    "D": "Choice D is incorrect. This choice creates a subject-verb agreement error. The subject \"The African Games Co-production Market\" is singular, but the verb \"have promoted\" is plural."
+  }
+}

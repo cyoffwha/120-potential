@@ -1,0 +1,22 @@
+{
+  "question_id": "a842db60",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "To make her art more widely available, graphic artist Elizabeth Catlett turned to linocuts. In linocut printing, an artist carves an image into a sheet of linoleum to create a stamp that is used to mass-produce prints. In the linocut series The Black Woman (1946–1947), Catlett depicts the everyday experiences of Black women alongside the achievements of well-known Black women. This pairing invites the viewer to draw connections among the women. The linocut process enabled Catlett's work to reach a wide audience and supported her aim to unite Black women through her art.",
+  "question_text": "According to the text, what is significant about Catlett&rsquo;s use of linocut printing?",
+  "answer_options": [
+    "Linocut printing involved using materials that were readily available to Catlett.&nbsp;",
+    "Linocut printing helped Catlett use art to connect people, especially Black women.",
+    "Catlett became commercially successful once she started using linocut printing.&nbsp;",
+    "Catlett was one of the first Black artists to use linocut printing."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The last sentence states that the linocut process \"supported her [Catlett's] aim to unite Black women through her art.\"",
+    "A": "Choice A is incorrect. The text briefly describes the linocut printing process but doesn't discuss the availability of the materials used in the process.",
+    "C": "Choice C is incorrect. The text says that the linocut process \"enabled Catlett's work to reach a wide audience,\" but that doesn't mean that linocuts made her \"commercially successful.\" In other words, we don't know how much money she made off her linocuts—we only know that more people were able to see her work.",
+    "D": "Choice D is incorrect. The text says that Catlett depicted Black women in her linocuts, but not that she was one of the first Black artists to use linocut printing."
+  }
+}

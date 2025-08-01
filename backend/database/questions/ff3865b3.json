@@ -1,0 +1,22 @@
+{
+  "question_id": "ff3865b3",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: A wok is a cooking pan that originated in China during the Han dynasty (206 BCE–220 CE). The wok's round, wide base helps to cook food evenly. The wok's high, angled sides help to contain oil splatters. Grace Young is a cook and culinary historian. Her book The Breath of a Wok (2004) traces the history of the wok. The student wants to describe the wok's shape. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to describe the wok&rsquo;s shape. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Grace Young&rsquo;s 2004 book,  The Breath of a Wok , traces the history of the cooking pan.",
+    "Able to cook food evenly and contain oil splatters, the wok is the subject of Grace Young&rsquo;s 2004 book.",
+    "A wok is a cooking pan with a round, wide base and high, angled sides.",
+    "The design of a wok, a type of cooking pan that originated in China during the Han dynasty, helps the pan cook food evenly and contain oil splatters."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. It summarizes the information that describes the wok's shape from the second and third bullet points.",
+    "A": "Choice A is incorrect. This choice doesn't describe the shape of a wok.",
+    "B": "Choice B is incorrect. This choice doesn't describe the shape of a wok, just some of its features.",
+    "D": "Choice D is incorrect. This choice doesn't describe the shape of a wok, only some of its benefits or functions."
+  }
+}

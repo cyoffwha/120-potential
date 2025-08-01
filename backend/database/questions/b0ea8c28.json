@@ -1,0 +1,22 @@
+{
+  "question_id": "b0ea8c28",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Sue&ntilde;o de Familia is an exhibition of drawings, paintings, and ceramics that explores the artistic heritage of US-based artist Yolanda Gonz&aacute;lez. The exhibition ______ blank five generations, featuring works by Gonz&aacute;lez's great-grandfather, grandmother, mother, and niece as well as Gonz&aacute;lez herself.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "borrows",
+    "spans",
+    "judges",
+    "neglects"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of the Sue&ntilde;o de Familia art exhibition. In this context, \"spans\" means extends across or covers. The text states that the exhibition explores Gonz&aacute;lez's artistic heritage and features artwork by her great-grandfather, grandmother, mother, and niece. This context conveys the idea that the exhibition spans, or extends across, five generations of Gonz&aacute;lez's family.",
+    "A": "Choice A is incorrect because it wouldn't make sense to say that the exhibition \"borrows,\" or acquires, five generations of Gonz&aacute;lez's family. The text indicates that the exhibition features artwork by family members from five generations, not that the five generations themselves have been acquired for inclusion in the exhibition.",
+    "C": "Choice C is incorrect because the text indicates that the purpose of the exhibition is to highlight artwork, not to \"judge,\" or give an opinion on, five generations of the artist's family.",
+    "D": "Choice D is incorrect because the text doesn't suggest that the exhibition \"neglects,\" or gives little attention to, five generations of Gonz&aacute;lez's family. On the contrary, the text indicates that the exhibition is dedicated to exploring Gonz&aacute;lez's artistic heritage and therefore designed to bring attention to her family members and their artwork."
+  }
+}

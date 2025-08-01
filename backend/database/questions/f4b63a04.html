@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question f4b63a04</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:&nbsp;</p>
+<ul>
+<li>In 2013, paleontology professor Hesham Sallam and his students from Mansoura University in Egypt made a discovery.</li>
+<li>The team found a partial dinosaur skeleton at a site in Egypt&rsquo;s Dakhla Oasis.</li>
+<li>The skeleton belonged to a dinosaur species that lived approximately 80 million years ago.</li>
+<li>The new species was named <em>Mansourasaurus </em>to recognize&nbsp;the team that discovered it.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to explain the origin of the species&rsquo; name. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p><em>Mansourasaurus, </em>a new species discovered in Egypt in 2013, lived<em> </em>approximately 80 million years ago.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>A partial dinosaur skeleton found in Egypt&rsquo;s Dakhla Oasis belonged to a species named <em>Mansourasaurus</em>.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p><em>Mansourasaurus, </em>a species that&nbsp;lived approximately 80 million years ago, was discovered in 2013 by Egyptian paleontologist Hesham Sallam and a team of university students.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The new species was named <em>Mansourasaurus</em> to recognize the team that discovered it, a professor and students from Mansoura University.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. It explains where the dinosaur&rsquo;s name came from. </p><p>Choice A is incorrect. This choice does not explain the origin of the dinosaur&rsquo;s name. Choice B is incorrect. This choice does not explain the origin of the dinosaur&rsquo;s name. Choice C is incorrect. This choice does not explain the origin of the dinosaur&rsquo;s name. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">600 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u003cem\u003eMansourasaurus, \u003c/em\u003ea new species discovered in Egypt in 2013, lived\u003cem\u003e \u003c/em\u003eapproximately 80 million years ago.\u003c/p\u003e", "id": "f8b57cd9-640e-48ba-b593-e15d984b3763"}, {"content": "\u003cp\u003eA partial dinosaur skeleton found in Egypt\u0026rsquo;s Dakhla Oasis belonged to a species named \u003cem\u003eMansourasaurus\u003c/em\u003e.\u003c/p\u003e", "id": "5ffeab2d-b64d-4249-8873-e9876e7b9809"}, {"content": "\u003cp\u003e\u003cem\u003eMansourasaurus, \u003c/em\u003ea species that\u0026nbsp;lived approximately 80 million years ago, was discovered in 2013 by Egyptian paleontologist Hesham Sallam and a team of university students.\u003c/p\u003e", "id": "0e415d10-8310-41ad-8568-cc47aefa75ed"}, {"content": "\u003cp\u003eThe new species was named \u003cem\u003eMansourasaurus\u003c/em\u003e to recognize the team that discovered it, a professor and students from Mansoura University.\u003c/p\u003e", "id": "431aa404-5f10-4ccf-8ce9-d22256abb0f1"}], "correct_answer": ["D"], "externalid": "ba326bd3-4344-46af-9257-c70f53076429", "keys": ["431aa404-5f10-4ccf-8ce9-d22256abb0f1"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-SYN-E003", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. It explains where the dinosaur\u0026rsquo;s name came from. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice does not explain the origin of the dinosaur\u0026rsquo;s name. Choice B is incorrect. This choice does not explain the origin of the dinosaur\u0026rsquo;s name. Choice C is incorrect. This choice does not explain the origin of the dinosaur\u0026rsquo;s name. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to explain the origin of the species\u0026rsquo; name. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u0026nbsp;\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIn 2013, paleontology professor Hesham Sallam and his students from Mansoura University in Egypt made a discovery.\u003c/li\u003e\n\u003cli\u003eThe team found a partial dinosaur skeleton at a site in Egypt\u0026rsquo;s Dakhla Oasis.\u003c/li\u003e\n\u003cli\u003eThe skeleton belonged to a dinosaur species that lived approximately 80 million years ago.\u003c/li\u003e\n\u003cli\u003eThe new species was named \u003cem\u003eMansourasaurus \u003c/em\u003eto recognize\u0026nbsp;the team that discovered it.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "6b62be55-b084-4018-85a2-463944e769dc", "templateclustername": "", "type": "mcq", "vaultid": "56a69a9c-6eee-4ec6-ad77-48f1811cf6d0"}, "createDate": 1691007959371, "difficulty": "E", "external_id": "ba326bd3-4344-46af-9257-c70f53076429", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "f4b63a04", "score_band_range_cd": 2, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "56b0d513-462a-4a80-90f7-1b1aaad7739e", "updateDate": 1691007959371};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-f4b63a04");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

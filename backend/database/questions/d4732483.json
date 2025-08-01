@@ -1,0 +1,22 @@
+{
+  "question_id": "d4732483",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Studying late nineteenth- and early twentieth-century artifacts from an agricultural and domestic site in Texas, archaeologist Ayana O. Flewellen found that Black women employed as farm workers utilized hook-and-eye closures to fasten their clothes at the waist, giving themselves a silhouette similar to the one that was popular in contemporary fashion and typically achieved through more restrictive garments such as corsets. Flewellen argues that this sartorial practice shows that these women balanced hegemonic ideals of femininity with the requirements of their physically demanding occupation.",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To describe an unexpected discovery that altered a researcher&rsquo;s view of how rapidly fashions among Black female farmworkers in late nineteenth- and early twentieth-century Texas changed during the period",
+    "To discuss research that investigated the ways in which Black female farmworkers in late nineteenth- and early twentieth-century Texas used fashion practices to resist traditional gender ideals",
+    "To evaluate a scholarly work that offers explanations for the impact of urban fashion ideals on Black female farmworkers in late nineteenth- and early twentieth-century Texas",
+    "To summarize the findings of a study that explored factors influencing a fashion practice among Black female farmworkers in late nineteenth- and early twentieth-century Texas"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text provides an overview of a scholarly work discussing the fashion practices of Black female farmworkers in late 19th- and early 20th-century Texas, and how these practices were influenced by both the fashion ideals of the time and the demands of farmwork.",
+    "A": "Choice A is incorrect. The text never discusses the rate of fashion change among Black female farmworkers. The text also never categorizes Flewellen's findings as \"unexpected.\"",
+    "B": "Choice B is incorrect. The text actually explains that Black female farmworkers were trying to achieve traditional feminine ideals, not resist them.",
+    "C": "Choice C is incorrect. The text doesn't evaluate a scholarly work but rather simply describes it. Furthermore, the text is focused on \"agricultural and domestic\" fashion, not urban fashion as this choice suggests."
+  }
+}

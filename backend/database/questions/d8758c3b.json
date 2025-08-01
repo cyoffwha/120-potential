@@ -1,0 +1,22 @@
+{
+  "question_id": "d8758c3b",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Psychologists wanted to test how young children think about rewards and fairness. In an experiment, two teachers handed out rewards while children (ages four to six) watched. The teachers gave out the same number of rewards, but one of them counted the rewards out loud. The children were then asked who was fairer. 73% chose the teacher who counted. The psychologists think that counting showed the children that the teacher wanted to be fair. The children may have believed that the teacher who did not count did not care about fairness.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Psychologists think children cannot understand the concept of fairness until they are six years old.&nbsp;",
+    "An experiment found that counting out loud is the best way to teach mathematical concepts to children.&nbsp;",
+    "Psychologists think young children expect to be rewarded when the children show that they care about fairness.&nbsp;",
+    "An experiment showed that the way rewards are given out may affect whether young children think the situation is fair."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The text describes a study assessing how children think of rewards and fairness and its results. It concludes that the children in the study may have thought that a teacher who counted out loud when giving rewards cared more about fairness than a teacher who did not count out loud.",
+    "A": "Choice A is incorrect. The children in the study are described as being \"four to six,\" and the text doesn't mention any differences among the different ages.",
+    "B": "Choice B is incorrect. The experiment wasn't about teaching math—rather, it was about how counting out loud affected the children's perception of fairness.",
+    "C": "Choice C is incorrect. The experiment doesn't focus on whether the children care about fairness, and the text never mentions the children's expectations of being rewarded."
+  }
+}

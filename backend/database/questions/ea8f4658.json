@@ -1,0 +1,22 @@
+{
+  "question_id": "ea8f4658",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "When particles are suspended in liquid (like pollen in a water glass), they will zigzag randomly through the liquid and collide with one another in perpetuity. This type of random, continuous ______ blank is known as Brownian motion, can be observed throughout the natural world.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "movement: which",
+    "movement, which",
+    "movement which",
+    "movement. Which"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. This choice correctly uses commas to set off the nonessential relative clause \"which is known as Brownian motion\" that provides extra information about the \"random, continuous movement\" that isn't necessary for the function of the sentence.",
+    "A": "Choice A is incorrect. This choice results in a punctuation error. The relative clause \"which is known as Brownian motion\" is a nonessential supplement. Nonessential supplements need to be set apart from the rest of the sentence with a pair of commas, dashes, or parentheses, so we can't use a colon here. Also, notice that colons can only come after an independent clause, which isn't the case here.",
+    "C": "Choice C is incorrect. This choice results in a punctuation error. The relative clause \"which is known as Brownian motion\" is a nonessential supplement, so it should be separated from the rest of the sentence by a pair of matching punctuation marks. We already have a comma after \"motion,\" so we need to add a comma before \"which.\" This choice is missing that comma.",
+    "D": "Choice D is incorrect. This choice results in a sentence fragment. \"This type of random, continuous movement\" is not an independent clause and can't stand alone as a full sentence, so we can't put a period here."
+  }
+}

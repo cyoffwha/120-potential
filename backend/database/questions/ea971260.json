@@ -1,0 +1,22 @@
+{
+  "question_id": "ea971260",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is adapted from Louisa May Alcott's 1869 novel An Old-Fashioned Girl . Polly, a teenager, is visiting her friend Fanny. Fanny's friends did not interest Polly much; she was rather afraid of them [because] they seemed so much older and wiser than herself, even those younger in years. They talked about things of which she knew nothing and when Fanny tried to explain, she didn't find them interesting; indeed, some of them rather shocked and puzzled her. Which choice best states the main purpose of the text?",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To portray Polly&rsquo;s reaction to Fanny&rsquo;s friends",
+    "To identify the topics Polly talks about with Fanny&rsquo;s friends",
+    "To explain how Fanny met some of her friends",
+    "To illustrate how Fanny&rsquo;s friends feel about Polly"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately describes the main purpose of the text, which is to show how Polly reacted to some of Fanny's other friends. The text describes Polly as being frightened of Fanny's friends because they seemed \"much older and wiser\" to her and elaborates that they \"talked about things of which\" Polly was unfamiliar, uninterested, and shocked. Thus, the main purpose of the text is to describe Polly's impressions of Fanny's other friends.",
+    "B": "Choice B is incorrect because the text does not provide any of the topics Polly discussed with Fanny's friends, stating only that Polly found the topics unfamiliar, uninteresting, and shocking.",
+    "C": "Choice C is incorrect because the text says nothing about how Fanny and her other friends first met.",
+    "D": "Choice D is incorrect because the focus of the text is on Polly's feelings about Fanny's other friends, not on the other friends' feelings about Polly."
+  }
+}

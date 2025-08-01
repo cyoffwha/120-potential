@@ -1,0 +1,22 @@
+{
+  "question_id": "e13171c4",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Historians Tiya Miles and Roy E. Finkenbine have both documented the assistance Indigenous peoples gave to Black freedom seekers leaving the South before the US Civil War. Much of the historical evidence of this help comes from Indigenous oral traditions and from autobiographies written by the freedom seekers. One such narrative is Jermain Loguen's autobiography, which tells about how Neshnab&eacute; (Potawatomi) villagers offered him food, lodging, and directions during his 1835 journey from Tennessee to Canada.",
+  "question_text": "Which choice best describes the function of the underlined sentence?",
+  "answer_options": [
+    "It provides an example of an autobiography that describes help given by an Indigenous people to a Black freedom seeker.",
+    "It shows why Loguen decided to write in great detail about his experiences traveling from Tennessee to Canada in his autobiography.",
+    "It argues that autobiographies are particularly important sources of information about geography in the United States before the Civil War.",
+    "It suggests that most historians believe that Neshnab&eacute; villagers were more successful in assisting freedom seekers than other people were."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The previous sentence broadly mentions \"autobiographies written by the freedom seekers.\" This sentence identifies Loguen's autobiography as a specific example.",
+    "B": "Choice B is incorrect. The sentence never explains why Loguen chose to write about his experiences.",
+    "C": "Choice C is incorrect. The previous sentence identifies autobiographies as useful sources of historical information about a specific topic, but not for \"information about geography.\" The underlined sentence provides details of one autobiography as an example of a source of information about that specific topic (interactions between Indigenous people and Black freedom seekers).",
+    "D": "Choice D is incorrect. The text never discusses other specific people who helped freedom seekers, and therefore can't make a comparison between the Neshnab&eacute; and anyone else."
+  }
+}

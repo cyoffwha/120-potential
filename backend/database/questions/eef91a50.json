@@ -1,0 +1,22 @@
+{
+  "question_id": "eef91a50",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Nine months before Rosa Parks made history by refusing to comply with the segregated seating policy on a Montgomery, Alabama, bus, a fifteen-year-old Montgomery girl named Claudette Colvin was arrested for the same ______ blank to some historians, Colvin's arrest led to Parks's action and eventually to the desegregation of Montgomery's bus system.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "offense. According",
+    "offense, according",
+    "offense according",
+    "offense and according"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Nine months&hellip;offense\" and \"according to&hellip;system\" are both independent clauses. Separating them with a period and turning them into their own sentences is the only grammatically correct choice among the provided options.",
+    "B": "Choice B is incorrect. This choice results in a comma splice error, which is a punctuation error that occurs when two independent clauses are joined by only a comma. \"Nine months&hellip;offense\" and \"according to&hellip;system\" are both independent clauses, so they need to be either joined by a semicolon, joined by a comma and a coordinating conjunction, or separated by a period.",
+    "C": "Choice C is incorrect. This choice results in a run-on sentence, which occurs when two independent clauses are joined without punctuation. \"Nine months&hellip;offense\" and \"according to&hellip;system\" are both independent clauses, so they need to be either joined by a semicolon, joined by a comma and a coordinating conjunction, or separated by a period.",
+    "D": "Choice D is incorrect. This choice results in a run-on sentence, which occurs when two independent clauses are joined without punctuation. \"Nine months&hellip;offense\" and \"according to&hellip;system\" are independent clauses, so we would need to put a comma before the coordinating conjunction \"and\" to join them properly."
+  }
+}

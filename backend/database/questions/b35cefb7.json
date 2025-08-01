@@ -1,0 +1,22 @@
+{
+  "question_id": "b35cefb7",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The fine, powdery substance that covers the Moon's surface is called regolith. Because regolith is both readily available and high in oxygen ______ blank scientists have wondered whether it could be used as a potential source of oxygen for future lunar settlements.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "content and",
+    "content,",
+    "content",
+    "content, and"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is punctuation between a subordinate clause and a main clause. This choice correctly uses a comma to mark the boundary between the subordinate clause (\"Because...content\") and the main clause (\"scientists...settlements\").",
+    "A": "Choice A is incorrect. Joining the subordinate clause (\"Because...content\") and the clause that follows (\"scientists...settlements\") with the conjunction \"and\" results in an ungrammatical sentence that lacks a main clause.",
+    "C": "Choice C is incorrect because it fails to mark the boundary between the subordinate clause and the main clause with appropriate punctuation.",
+    "D": "Choice D is incorrect. Joining the subordinate clause (\"Because...content\") and the clause that follows (\"scientists...settlements\") with a comma and the conjunction \"and\" results in an ungrammatical sentence that lacks a main clause."
+  }
+}

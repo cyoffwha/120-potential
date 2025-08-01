@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 742fd8ba</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><figure class="image"><svg aria-label="Bar graph titled Metal Content of Plants with and without Kanamycin Exposure. The horizontal axis is labeled Experimental condition. 2 data categories are shown. The vertical axis is labeled Metal content, in parts per million. It ranges from 0 to 700 in increments of 100. Refer to long description." height="501.5167236328125" role="img" viewbox="0 0 380 501.5167236328125" width="380" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 1" id="ed420550-79eb-48d4-af01-cd27cdd08afd"><defs>
+<pattern height="100" id="bar4" patterntransform="rotate(50)" patternunits="userSpaceOnUse" width="10" x="0" y="0">
+<rect fill="#CDCDCD" height="100" width="5" x="0" y="0"></rect>
+<rect fill="#444444" height="100" width="5" x="5" y="0"></rect>
+</pattern>
+</defs><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.359375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="96" y2="96"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.359375" x2="119.359375" xmlns="http://www.w3.org/2000/svg" y1="96" y2="96"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.359375 102)">700</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.359375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="124.57142857142857" y2="124.57142857142857"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.359375" x2="119.359375" xmlns="http://www.w3.org/2000/svg" y1="124.57142857142857" y2="124.57142857142857"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.359375 130.57142857142856)">600</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.359375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="153.14285714285714" y2="153.14285714285714"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.359375" x2="119.359375" xmlns="http://www.w3.org/2000/svg" y1="153.14285714285714" y2="153.14285714285714"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.359375 159.14285714285714)">500</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.359375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="181.71428571428572" y2="181.71428571428572"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.359375" x2="119.359375" xmlns="http://www.w3.org/2000/svg" y1="181.71428571428572" y2="181.71428571428572"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.359375 187.71428571428572)">400</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.359375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="210.28571428571428" y2="210.28571428571428"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.359375" x2="119.359375" xmlns="http://www.w3.org/2000/svg" y1="210.28571428571428" y2="210.28571428571428"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.359375 216.28571428571428)">300</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.359375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="238.85714285714286" y2="238.85714285714286"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.359375" x2="119.359375" xmlns="http://www.w3.org/2000/svg" y1="238.85714285714286" y2="238.85714285714286"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.359375 244.85714285714286)">200</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.359375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="267.42857142857144" y2="267.42857142857144"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.359375" x2="119.359375" xmlns="http://www.w3.org/2000/svg" y1="267.42857142857144" y2="267.42857142857144"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.359375 273.42857142857144)">100</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.359375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="296" y2="296"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="107.359375" x2="119.359375" xmlns="http://www.w3.org/2000/svg" y1="296" y2="296"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(101.359375 302)">0</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(24 196) rotate(-90)">Metal content</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(48 196) rotate(-90)">(parts per million)</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="113.359375" x2="113.359375" xmlns="http://www.w3.org/2000/svg" y1="96" y2="296"></line><rect fill="#B3B3B3" height="111.42857142857143" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="35.948660714285715" x="149.30803571428572" xmlns="http://www.w3.org/2000/svg" y="184.57142857142856"></rect><rect fill="#333333" height="178.57142857142858" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="35.948660714285715" x="185.25669642857144" xmlns="http://www.w3.org/2000/svg" y="117.42857142857142"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(195.17669642857143 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">without kanamycin</text><rect fill="#B3B3B3" height="85.71428571428571" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="35.948660714285715" x="257.1540178571429" xmlns="http://www.w3.org/2000/svg" y="210.28571428571428"></rect><rect fill="#333333" height="64.28571428571429" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="35.948660714285715" x="293.1026785714286" xmlns="http://www.w3.org/2000/svg" y="231.71428571428572"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(303.0226785714286 315.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">with kanamycin</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.1796875 24)">Metal Content of Plants with </text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.1796875 48)">and without Kanamycin </text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.1796875 72)">Exposure</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.1796875 446.5167578125)">Experimental condition</text><rect fill="none" height="26.84" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="138.09375" x="170.1328125" xmlns="http://www.w3.org/2000/svg" y="463.6767578125"></rect><rect fill="#B3B3B3" height="12" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="12" x="177.1328125" xmlns="http://www.w3.org/2000/svg" y="470.6767578125"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(196.1328125 482.6767578125)">zinc</text><rect fill="#333333" height="12" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="12" x="241.9921875" xmlns="http://www.w3.org/2000/svg" y="470.6767578125"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(260.9921875 482.6767578125)">iron</text></g></svg></figure>
+<p>Many plants lose their leaf color when exposed to kanamycin, an antibiotic produced by some soil microorganisms. Spelman College biologist Mentewab Ayalew and her colleagues hypothesized that plants’ response to kanamycin exposure involves altering their uptake of metals, such as iron and zinc. The researchers grew two groups of seedlings of the plant <em>Arabidopsis</em> <em>thaliana</em>, half of which were exposed to kanamycin and half of which were a control group without exposure to kanamycin, and measured the plants’ metal content five days after germination. </p></div>
+
+                        <div class="mt-3"><p>Which choice best describes data in the graph that support Ayalew and her colleagues&rsquo; hypothesis?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The control plants contained higher levels of zinc than iron, but plants exposed to kanamycin contained higher levels of iron than zinc.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Both groups of plants contained more than 200 parts per million of both iron and zinc.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Zinc levels were around 300 parts per million in the control plants but nearly 400 parts per million in the plants exposed to kanamycin.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The plants exposed to kanamycin showed lower levels of iron and zinc than the control plants did.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it best describes data in the graph supporting Ayalew and her colleagues&rsquo; hypothesis that plants&rsquo; response to kanamycin exposure involves altering their uptake of metals. The graph compares the metal content of two groups of plants, one with kanamycin exposure and a control group without such exposure. The amount of zinc in plants without kanamycin exposure is around 400 parts per million, while the amount of zinc in plants with kanamycin exposure is lower, at around 300 parts per million. Similarly, the amount of iron in plants without kanamycin exposure is a little over 600 parts per million, while the amount of iron in plants with kanamycin exposure is lower, at a little over 200 parts per million. Thus, the graph shows that plants with kanamycin exposure have significantly lower levels of both iron and zinc than the plants without kanamycin exposure. This is evidence supporting the hypothesis that kanamycin exposure results in plants altering their uptake of metals. </p><p>Choice A is incorrect because the graph shows that control plants contained higher levels of iron than zinc, not higher levels of zinc than iron; similarly, the plants exposed to kanamycin contained higher levels of zinc than iron, not higher levels of iron than zinc. Choice B is incorrect. Though the claim that both groups of plants contained more than 200 parts per million of both iron and zinc is supported by the graph, this alone does not state whether plants with kanamycin exposure have a different metal content than plants without kanamycin exposure. Choice C is incorrect. The graph shows that the zinc levels for the control plants (those without kanamycin exposure) were around 400 parts per million, not 300 parts per million, and that the zinc levels for plants with kanamycin exposure were around 300 parts per million, not 400 parts per million. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">101 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe control plants contained higher levels of zinc than iron, but plants exposed to kanamycin contained higher levels of iron than zinc.\u003c/p\u003e", "id": "07e61fc9-b57b-4b08-93f1-4bc1fdda966a"}, {"content": "\u003cp\u003eBoth groups of plants contained more than 200 parts per million of both iron and zinc.\u003c/p\u003e", "id": "cb9402ed-cf3c-4533-9d90-506a1012b31d"}, {"content": "\u003cp\u003eZinc levels were around 300 parts per million in the control plants but nearly 400 parts per million in the plants exposed to kanamycin.\u003c/p\u003e", "id": "165b7146-32ac-42ad-81e1-1983687652c6"}, {"content": "\u003cp\u003eThe plants exposed to kanamycin showed lower levels of iron and zinc than the control plants did.\u0026nbsp;\u003c/p\u003e", "id": "cacb963a-a347-4807-937c-9e50b029d6da"}], "correct_answer": ["D"], "externalid": "121f0267-8731-4483-8bac-45f2f405e799", "keys": ["cacb963a-a347-4807-937c-9e50b029d6da"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-506-QUA", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it best describes data in the graph supporting Ayalew and her colleagues\u0026rsquo; hypothesis that plants\u0026rsquo; response to kanamycin exposure involves altering their uptake of metals. The graph compares the metal content of two groups of plants, one with kanamycin exposure and a control group without such exposure. The amount of zinc in plants without kanamycin exposure is around 400 parts per million, while the amount of zinc in plants with kanamycin exposure is lower, at around 300 parts per million. Similarly, the amount of iron in plants without kanamycin exposure is a little over 600 parts per million, while the amount of iron in plants with kanamycin exposure is lower, at a little over 200 parts per million. Thus, the graph shows that plants with kanamycin exposure have significantly lower levels of both iron and zinc than the plants without kanamycin exposure. This is evidence supporting the hypothesis that kanamycin exposure results in plants altering their uptake of metals. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the graph shows that control plants contained higher levels of iron than zinc, not higher levels of zinc than iron; similarly, the plants exposed to kanamycin contained higher levels of zinc than iron, not higher levels of iron than zinc. Choice B is incorrect. Though the claim that both groups of plants contained more than 200 parts per million of both iron and zinc is supported by the graph, this alone does not state whether plants with kanamycin exposure have a different metal content than plants without kanamycin exposure. Choice C is incorrect. The graph shows that the zinc levels for the control plants (those without kanamycin exposure) were around 400 parts per million, not 300 parts per million, and that the zinc levels for plants with kanamycin exposure were around 300 parts per million, not 400 parts per million. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes data in the graph that support Ayalew and her colleagues\u0026rsquo; hypothesis?\u003c/p\u003e", "stimulus": "\u003cfigure class=\"image\"\u003e\u003csvg aria-label=\"Bar graph titled Metal Content of Plants with and without Kanamycin Exposure. The horizontal axis is labeled Experimental condition. 2 data categories are shown. The vertical axis is labeled Metal content, in parts per million. It ranges from 0 to 700 in increments of 100. Refer to long description.\" height=\"501.5167236328125\" role=\"img\" viewbox=\"0 0 380 501.5167236328125\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cg data-name=\"Layer 1\" id=\"ed420550-79eb-48d4-af01-cd27cdd08afd\"\u003e\u003cdefs\u003e\n\u003cpattern height=\"100\" id=\"bar4\" patterntransform=\"rotate(50)\" patternunits=\"userSpaceOnUse\" width=\"10\" x=\"0\" y=\"0\"\u003e\n\u003crect fill=\"#CDCDCD\" height=\"100\" width=\"5\" x=\"0\" y=\"0\"\u003e\u003c/rect\u003e\n\u003crect fill=\"#444444\" height=\"100\" width=\"5\" x=\"5\" y=\"0\"\u003e\u003c/rect\u003e\n\u003c/pattern\u003e\n\u003c/defs\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.359375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"96\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.359375\" x2=\"119.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"96\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.359375 102)\"\u003e700\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.359375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"124.57142857142857\" y2=\"124.57142857142857\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.359375\" x2=\"119.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"124.57142857142857\" y2=\"124.57142857142857\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.359375 130.57142857142856)\"\u003e600\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.359375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"153.14285714285714\" y2=\"153.14285714285714\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.359375\" x2=\"119.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"153.14285714285714\" y2=\"153.14285714285714\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.359375 159.14285714285714)\"\u003e500\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.359375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"181.71428571428572\" y2=\"181.71428571428572\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.359375\" x2=\"119.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"181.71428571428572\" y2=\"181.71428571428572\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.359375 187.71428571428572)\"\u003e400\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.359375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"210.28571428571428\" y2=\"210.28571428571428\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.359375\" x2=\"119.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"210.28571428571428\" y2=\"210.28571428571428\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.359375 216.28571428571428)\"\u003e300\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.359375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"238.85714285714286\" y2=\"238.85714285714286\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.359375\" x2=\"119.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"238.85714285714286\" y2=\"238.85714285714286\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.359375 244.85714285714286)\"\u003e200\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.359375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"267.42857142857144\" y2=\"267.42857142857144\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.359375\" x2=\"119.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"267.42857142857144\" y2=\"267.42857142857144\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.359375 273.42857142857144)\"\u003e100\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.359375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"296\" y2=\"296\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"107.359375\" x2=\"119.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"296\" y2=\"296\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(101.359375 302)\"\u003e0\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(24 196) rotate(-90)\"\u003eMetal content\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(48 196) rotate(-90)\"\u003e(parts per million)\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"113.359375\" x2=\"113.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"96\" y2=\"296\"\u003e\u003c/line\u003e\u003crect fill=\"#B3B3B3\" height=\"111.42857142857143\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"35.948660714285715\" x=\"149.30803571428572\" xmlns=\"http://www.w3.org/2000/svg\" y=\"184.57142857142856\"\u003e\u003c/rect\u003e\u003crect fill=\"#333333\" height=\"178.57142857142858\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"35.948660714285715\" x=\"185.25669642857144\" xmlns=\"http://www.w3.org/2000/svg\" y=\"117.42857142857142\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(195.17669642857143 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003ewithout kanamycin\u003c/text\u003e\u003crect fill=\"#B3B3B3\" height=\"85.71428571428571\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"35.948660714285715\" x=\"257.1540178571429\" xmlns=\"http://www.w3.org/2000/svg\" y=\"210.28571428571428\"\u003e\u003c/rect\u003e\u003crect fill=\"#333333\" height=\"64.28571428571429\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"35.948660714285715\" x=\"293.1026785714286\" xmlns=\"http://www.w3.org/2000/svg\" y=\"231.71428571428572\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(303.0226785714286 315.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003ewith kanamycin\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.1796875 24)\"\u003eMetal Content of Plants with \u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.1796875 48)\"\u003eand without Kanamycin \u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.1796875 72)\"\u003eExposure\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.1796875 446.5167578125)\"\u003eExperimental condition\u003c/text\u003e\u003crect fill=\"none\" height=\"26.84\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"138.09375\" x=\"170.1328125\" xmlns=\"http://www.w3.org/2000/svg\" y=\"463.6767578125\"\u003e\u003c/rect\u003e\u003crect fill=\"#B3B3B3\" height=\"12\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"12\" x=\"177.1328125\" xmlns=\"http://www.w3.org/2000/svg\" y=\"470.6767578125\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(196.1328125 482.6767578125)\"\u003ezinc\u003c/text\u003e\u003crect fill=\"#333333\" height=\"12\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"12\" x=\"241.9921875\" xmlns=\"http://www.w3.org/2000/svg\" y=\"470.6767578125\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(260.9921875 482.6767578125)\"\u003eiron\u003c/text\u003e\u003c/g\u003e\u003c/svg\u003e\u003c/figure\u003e\u003cdiv aria-label=\"Long description for bar graph titled Metal Content of Plants with and without Kanamycin Exposure\" class=\"sr-only\" role=\"region\"\u003e\u003cul\u003e\n\u003cli\u003eFor each data category, the following bars are shown:\n\u003cul\u003e\n\u003cli\u003eZinc\u003c/li\u003e\n\u003cli\u003eIron\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe data for the 2 categories are as follows:\n\u003cul\u003e\n\u003cli\u003eWithout kanamycin:\n\u003cul\u003e\n\u003cli\u003eZinc: 390\u003c/li\u003e\n\u003cli\u003eIron: 625\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eWith kanamycin:\n\u003cul\u003e\n\u003cli\u003eZinc: 300\u003c/li\u003e\n\u003cli\u003eIron: 225\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n\u003cp\u003eMany plants lose their leaf color when exposed to kanamycin, an antibiotic produced by some soil microorganisms. Spelman College biologist Mentewab Ayalew and her colleagues hypothesized that plants\u2019 response to kanamycin exposure involves altering their uptake of metals, such as iron and zinc. The researchers grew two groups of seedlings of the plant \u003cem\u003eArabidopsis\u003c/em\u003e \u003cem\u003ethaliana\u003c/em\u003e, half of which were exposed to kanamycin and half of which were a control group without exposure to kanamycin, and measured the plants\u2019 metal content five days after germination. \u003c/p\u003e", "templateclusterid": "159fa7c9-3d37-47cf-b733-42bae9d276ca", "templateclustername": "", "type": "mcq", "vaultid": "19093fc9-936c-4668-9606-8639cdd786cf"}, "createDate": 1691007959337, "difficulty": "M", "external_id": "121f0267-8731-4483-8bac-45f2f405e799", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "742fd8ba", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "51e0c5d3-1740-4c80-9e79-85a5e59ac6e6", "updateDate": 1691007959337};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-742fd8ba");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

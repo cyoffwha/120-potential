@@ -1,0 +1,22 @@
+{
+  "question_id": "7a895def",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Georgia Douglas Johnson wrote many plays in the 1920s and 1930s. At the time, professional theater companies rarely put on plays by Black women, so few of Johnson's plays made it to the stage. Only a small number of her plays were published in her lifetime. But that doesn't mean that Johnson never learned what other people thought of her plays. Johnson hosted weekly get-togethers for fellow Black writers and artists in her Washington, D.C., home. Attendees would read and discuss one another's work, including Johnson's own. These gatherings could therefore serve as ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "an occasion for professional theater companies to put on plays.&nbsp;",
+    "an opportunity for Johnson to get feedback on her plays.&nbsp;",
+    "a way for Johnson to learn about plays that were produced in other cities.",
+    "subject matter for future plays by Johnson.&nbsp;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The passage tells us that attendees at Johnson's get-togethers \"would read and discuss one another's work.\" This suggests that the gatherings could provide an opportunity for Johnson to get feedback on her plays. Notice how the text foreshadows this conclusion by the mention of Johnson learning \"what other people thought of her plays.\"",
+    "A": "Choice A is incorrect. The passage doesn't mention theater companies attending the get-togethers, so there is no basis for this inference.",
+    "C": "Choice C is incorrect. The passage doesn't mention learning about plays from other cities, so there is no basis for this inference.",
+    "D": "Choice D is incorrect. The passage doesn't mention Johnson using the get-togethers as inspiration for future plays, so there is no basis for this inference."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "7f48b098",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Photosynthesis, the mechanism by which plants use sunlight to turn carbon dioxide and water into ______ blank is fueled in part by an enzyme called Photosystem II that harvests energy-giving electrons from water molecules.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "nutrients",
+    "nutrients and",
+    "nutrients,",
+    "nutrients&mdash;"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. The comma after \"nutrients\" pairs with the comma after \"photosynthesis\" to separate the supplementary element \"the mechanism by which plants use sunlight to turn carbon dioxide and water into nutrients\" from the rest of the sentence. This supplementary element functions to define the term \"photosynthesis,\" and the pair of commas indicates that this element could be removed without affecting the grammatical coherence of the sentence.",
+    "A": "Choice A is incorrect because it fails to use appropriate punctuation to separate the supplementary element from the rest of the sentence.",
+    "B": "Choice B is incorrect because a conjunction can't be paired with a comma in this way to separate the supplementary element from the rest of the sentence.",
+    "D": "Choice D is incorrect because a dash can't be paired with a comma in this way to separate the supplementary element from the rest of the sentence."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "aab74a3b",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Researcher Lin Zhi developed a process for increasing the tensile strength—measured in gigapascals, or GPa—of silkworm ______ blank dissolving and reweaving the silk in a solution of iron metal ions, zinc, and sugar, Zhi increased the amount of force required to stretch it from approximately 0.5 GPa to 2 GPa.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "silk, by",
+    "silk by",
+    "silk and by",
+    "silk. By"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The independent clauses \"researcher Lin Zhi&hellip;silk\" and \"by dissolving&hellip;2 GPa\" can be grammatically separated by a period. They can stand alone as sentences, and this is the only choice that lets them do that.",
+    "A": "Choice A is incorrect. This choice results in a grammar error called a comma splice. \"Researcher Lin Zhi&hellip;silk\" and \"by dissolving&hellip;2 GPa\" are both independent clauses. They need to either be separated with punctuation like a period or a semicolon, or they need to be connected by a comma and a coordinating conjunction like \"and.\" A comma alone isn't enough.",
+    "B": "Choice B is incorrect. This choice results in a grammar error called a run-on sentence. \"Researcher Lin Zhi&hellip;silk\" and \"by dissolving&hellip;2 GPa\" are both independent clauses. They need to either be separated with punctuation like a period or a semicolon, or they need to be connected by a comma and a coordinating conjunction like \"and.\"",
+    "C": "Choice C is incorrect. This choice results in a grammar error called a run-on sentence. \"Researcher Lin Zhi&hellip;silk\" and \"by dissolving&hellip;2 GPa\" are both independent clauses. The coordinating conjunction \"and\" isn't enough to link them by itself. We need a comma, too."
+  }
+}

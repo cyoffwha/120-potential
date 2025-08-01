@@ -1,0 +1,22 @@
+{
+  "question_id": "9f1a0d91",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "\"Tulip mania\"—the rapid rise and sudden fall of the price of tulip bulbs in seventeenth-century Amsterdam—is often cited as an example of the perils of rampant market speculation. However, recent research has demonstrated that the episode was neither as frenzied nor as disastrous as has been thought. The popular myth surrounding it, ______ blank should be regarded with some skepticism.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "for example,",
+    "by contrast,",
+    "nevertheless,",
+    "therefore,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. This sentence is arguing that new evidence contradicting popular beliefs about \"tulip mania\" should cast doubt on those beliefs. \"Therefore\" is a cause-and-effect transition, which fits perfectly in this context.",
+    "A": "Choice A is incorrect. This choice uses an exemplification transition, which doesn't make sense here. Skepticism about the popular beliefs is not an example of recent evidence contradicting those beliefs—rather, skepticism is an effect of that recent evidence.",
+    "B": "Choice B is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous sentence. Instead, it connects a cause from the previous sentence (new evidence that tulip mania was not as disastrous as thought) to an effect (that we should look with skepticism upon the myth about its disastrousness).",
+    "C": "Choice C is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous sentence. Instead, it connects a cause from the previous sentence (new evidence that tulip mania was not as disastrous as thought) to an effect (that we should look with skepticism upon the myth about its disastrousness)."
+  }
+}

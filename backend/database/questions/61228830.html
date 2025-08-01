@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 61228830</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>A heliograph is a semaphore device used for sending optical communications&mdash;usually in the form of Morse code&mdash;by reflecting flashes of sunlight off a mirror. Heliographs were used for rapid communication across expansive distances for military, surveying, and forestry purposes during the late nineteenth and early twentieth centuries, but they were largely effective only during the daytime, and the range of the device depended on factors such as the opacity of the air and line of sight. Therefore, heliographs were eventually replaced by technology that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>worked on similar principles but was easier to produce and maintain.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>was not so constrained by environmental circumstances.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>could be used for more than military, surveying, or forestry purposes.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>enabled communication that didn&rsquo;t require knowledge of Morse code.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The passage explains that heliographs &ldquo;were largely effective only during the daytime&rdquo; and that &ldquo;the range of the device depended on factors such as the opacity of the air and line of sight.&rdquo; These constraints would have greatly limited the use of the heliograph, so we can infer that this would have been a reason to replace it with new technology. </p><p>Choice A is incorrect. The passage doesn&rsquo;t discuss the production and maintenance of heliographs, so there&rsquo;s no basis for this inference. Choice C is incorrect. The passage doesn&rsquo;t mention any &ldquo;other purposes&rdquo; that a heliograph wouldn&rsquo;t work for, so there&rsquo;s no basis for this inference. Choice D is incorrect. The passage doesn&rsquo;t mention knowledge of Morse code as a particular problem with the use of heliographs, so there&rsquo;s no basis for this inference. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">190 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eworked on similar principles but was easier to produce and maintain.\u0026nbsp;\u003c/p\u003e", "id": "f1b17566-50ab-4dfa-8162-0b9dfb83b845"}, {"content": "\u003cp\u003ewas not so constrained by environmental circumstances.\u003c/p\u003e", "id": "ce4c2b6f-ae38-4a37-a380-6b1c21671281"}, {"content": "\u003cp\u003ecould be used for more than military, surveying, or forestry purposes.\u003c/p\u003e", "id": "e3d94608-7a32-4971-9020-9921737341e4"}, {"content": "\u003cp\u003eenabled communication that didn\u0026rsquo;t require knowledge of Morse code.\u003c/p\u003e", "id": "50304959-febe-4fac-b107-30742254efcf"}], "correct_answer": ["B"], "externalid": "cc7722c6-1049-4076-bffd-0613e48fd1d0", "keys": ["ce4c2b6f-ae38-4a37-a380-6b1c21671281"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-INF-H008", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The passage explains that heliographs \u0026ldquo;were largely effective only during the daytime\u0026rdquo; and that \u0026ldquo;the range of the device depended on factors such as the opacity of the air and line of sight.\u0026rdquo; These constraints would have greatly limited the use of the heliograph, so we can infer that this would have been a reason to replace it with new technology. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The passage doesn\u0026rsquo;t discuss the production and maintenance of heliographs, so there\u0026rsquo;s no basis for this inference. Choice C is incorrect. The passage doesn\u0026rsquo;t mention any \u0026ldquo;other purposes\u0026rdquo; that a heliograph wouldn\u0026rsquo;t work for, so there\u0026rsquo;s no basis for this inference. Choice D is incorrect. The passage doesn\u0026rsquo;t mention knowledge of Morse code as a particular problem with the use of heliographs, so there\u0026rsquo;s no basis for this inference. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eA heliograph is a semaphore device used for sending optical communications\u0026mdash;usually in the form of Morse code\u0026mdash;by reflecting flashes of sunlight off a mirror. Heliographs were used for rapid communication across expansive distances for military, surveying, and forestry purposes during the late nineteenth and early twentieth centuries, but they were largely effective only during the daytime, and the range of the device depended on factors such as the opacity of the air and line of sight. Therefore, heliographs were eventually replaced by technology that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "defd19d9-0b41-47b0-8913-05be560922ec", "templateclustername": "", "type": "mcq", "vaultid": "027e240f-4095-460e-8631-cc51b0486cae"}, "createDate": 1691007959368, "difficulty": "H", "external_id": "cc7722c6-1049-4076-bffd-0613e48fd1d0", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "61228830", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "9c292bda-c1d8-4b43-8ae3-6df5ae4b0289", "updateDate": 1691007959368};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-61228830");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

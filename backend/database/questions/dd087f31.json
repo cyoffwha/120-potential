@@ -1,0 +1,22 @@
+{
+  "question_id": "dd087f31",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Chimamanda Ngozi Adichie's 2013 novel Americanah chronicles the divergent experiences of Ifemelu and Obinze, a young Nigerian couple, after high school. Ifemelu moves to the United States to attend a prestigious university. ______ blank Obinze travels to London, hoping to start a career there. However, frustrated with the lack of opportunities, he soon returns to Nigeria.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Meanwhile,",
+    "Nevertheless,",
+    "Secondly,",
+    "In fact,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Meanwhile\" logically signals that the action described in this sentence (Obinze's move to London to pursue a career) is simultaneous with the action described in the previous sentence (Ifemelu's move to the United States). The first sentence establishes that the actions take place around the same time, referring to the characters' \"divergent experiences\" following high school.",
+    "B": "Choice B is incorrect because \"nevertheless\" illogically signals that the information in this sentence about Obinze's move to London is true despite the previous information about Ifemelu's move to the United States. Instead, as the first sentence establishes, Obinze's move and Ifemelu's move are related, parallel experiences that occur around the same time.",
+    "C": "Choice C is incorrect because \"secondly\" illogically signals that the information in this sentence is a second point or reason separate from the previous information about Ifemelu's move to the United States. Instead, as the first sentence establishes, Obinze's move and Ifemelu's move are related, parallel experiences that occur around the same time.",
+    "D": "Choice D is incorrect because \"in fact\" illogically signals that the information in this sentence emphasizes, modifies, or contradicts the previous information about Ifemelu's move to the United States. Instead, as the first sentence establishes, Obinze's move and Ifemelu's move are related, parallel experiences that occur around the same time."
+  }
+}

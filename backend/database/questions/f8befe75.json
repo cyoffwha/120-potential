@@ -1,0 +1,22 @@
+{
+  "question_id": "f8befe75",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Many intellectual histories of the Black Power movement of the 1960s and 1970s rely heavily on essays and other explicitly ideological works as primary sources, a tendency that can overrepresent the perspectives of a small number of thinkers, most of whom were male. Historian Ashley D. Farmer has shown that expanding the array of primary sources to encompass more types of print material—including political cartoons, advertisements, and artwork—leads to a much better understanding of the movement and the crucial and diverse roles that Black women played in shaping it.",
+  "question_text": "Which choice best describes the main idea of the text?",
+  "answer_options": [
+    "Farmer&rsquo;s methods and research have enriched the historical understanding of the Black Power movement and Black women&rsquo;s contributions to it.",
+    "Before Farmer&rsquo;s research, historians had largely ignored the intellectual dimensions of the Black Power movement.&nbsp;",
+    "Other historians of the Black Power movement have criticized Farmer&rsquo;s use of unconventional primary sources.&nbsp;",
+    "The figures in the Black Power movement whom historians tend to cite would have agreed with Farmer&rsquo;s conclusions about women&rsquo;s roles in the movement."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. It best describes the main idea of the text. The text starts by saying that historians of the Black Power movement are too reliant on openly ideological works, which were written mostly by men, as sources. The text then describes Farmer's research: she has shown that including other kinds of sources leads to a better understanding of the Black Power movement and the role Black women played in it.",
+    "B": "Choice B is incorrect. This doesn't describe the main idea of the text. In fact, it conflicts with the text. The text says that historians have relied on \"essays and other explicitly ideological works,\" which suggests that they have studied at least some of the intellectual dimensions of the Black Power movement.",
+    "C": "Choice C is incorrect. This doesn't describe the main idea of the text. The text never mentions how other historians of the Black Power movement view Farmer's use of unconventional sources. In fact, the text itself argues in favor of Farmer's research, claiming that it has led to a \"much better understanding of the movement.\"",
+    "D": "Choice D is incorrect. This doesn't describe the main idea of the text. The text never mentions what any figures in the Black Power movement thought about women's roles in the movement."
+  }
+}

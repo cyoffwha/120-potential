@@ -1,0 +1,22 @@
+{
+  "question_id": "b1e8b87f",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Winding through the ice atop Norway's Jotunheim Mountains is the Lendbreen pass, an ancient route that was used by hunters, farmers, traders, and travelers in the Middle Ages before eventually falling into disuse. Recently, archeologists have ______ blank knives, horseshoes, wool tunics, and thousands of other artifacts from the icy pass.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "unearthed:",
+    "unearthed,",
+    "unearthed&mdash;",
+    "unearthed"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. No punctuation should separate the verb \"unearthed\" and its objects (i.e, what was \"unearthed\"): \"knives, horseshoes, wool tunics, and thousands of other artifacts.\"",
+    "A": "Choice A is incorrect. This choice creates a punctuation error, separating the verb \"unearthed\" from its objects (i.e, what was \"unearthed\") with a colon.",
+    "B": "Choice B is incorrect. This choice creates a punctuation error, separating the verb \"unearthed\" from its objects (i.e, what was \"unearthed\") with a comma.",
+    "C": "Choice C is incorrect. This choice creates a punctuation error, separating the verb \"unearthed\" from its objects (i.e, what was \"unearthed\") with a dash."
+  }
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question a3204ab0</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>While researching a topic, a student has taken the following notes:</p>
+<ul>
+<li>Yellowstone is a national park in the northwest United States.</li>
+<li>In 1995, gray wolves were reintroduced into the park.</li>
+<li>Since then, the number of gray wolves in the park has stabilized at roughly 100.</li>
+<li>This number is believed to be the park&rsquo;s carrying capacity.</li>
+<li>Carrying capacity describes the maximum number of a species that a specific environment&rsquo;s resources can sustain over time.</li>
+</ul></div>
+
+                        <div class="mt-3"><p>The student wants to specify the number of gray wolves in Yellowstone. Which choice most effectively uses relevant information from the notes to accomplish this goal?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Gray wolves were reintroduced into Yellowstone, a national park in the northwest United States, in 1995.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>As of 1995, there were gray wolves living in Yellowstone, a national park in the northwest United States.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The carrying capacity of an environment, such as Yellowstone, describes the maximum number of species that the environment can sustain over time.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Yellowstone is a national park that has roughly 100 gray wolves living in it.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. This choice uses relevant information from the third bullet point to state the approximate number of gray wolves in Yellowstone. </p><p>Choice A is incorrect. This choice mentions the year gray wolves in Yellowstone were reintroduced but not how many there are currently. Choice B is incorrect. This choice mentions the year gray wolves in Yellowstone were reintroduced but not how many there are currently. Choice C is incorrect. This choice defines the term carrying capacity but doesn&rsquo;t connect it to the specific number of gray wolves currently living in Yellowstone. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">582 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eGray wolves were reintroduced into Yellowstone, a national park in the northwest United States, in 1995.\u003c/p\u003e", "id": "32dca355-4bf0-4f23-9873-7056566c840c"}, {"content": "\u003cp\u003eAs of 1995, there were gray wolves living in Yellowstone, a national park in the northwest United States.\u003c/p\u003e", "id": "de4dfc77-7760-49e5-acf7-db990ef3ddaa"}, {"content": "\u003cp\u003eThe carrying capacity of an environment, such as Yellowstone, describes the maximum number of species that the environment can sustain over time.\u003c/p\u003e", "id": "2cbf4eec-a9bc-4cd3-82a6-238a62dea5d6"}, {"content": "\u003cp\u003eYellowstone is a national park that has roughly 100 gray wolves living in it.\u003c/p\u003e", "id": "d75af13e-93b8-4650-abf8-8d3c3a65e045"}], "correct_answer": ["D"], "externalid": "8be51932-52d5-439e-989c-054212dee742", "keys": ["d75af13e-93b8-4650-abf8-8d3c3a65e045"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-SYN-E009", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. This choice uses relevant information from the third bullet point to state the approximate number of gray wolves in Yellowstone. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice mentions the year gray wolves in Yellowstone were reintroduced but not how many there are currently. Choice B is incorrect. This choice mentions the year gray wolves in Yellowstone were reintroduced but not how many there are currently. Choice C is incorrect. This choice defines the term carrying capacity but doesn\u0026rsquo;t connect it to the specific number of gray wolves currently living in Yellowstone. \u003c/p\u003e", "stem": "\u003cp\u003eThe student wants to specify the number of gray wolves in Yellowstone. Which choice most effectively uses relevant information from the notes to accomplish this goal?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhile researching a topic, a student has taken the following notes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eYellowstone is a national park in the northwest United States.\u003c/li\u003e\n\u003cli\u003eIn 1995, gray wolves were reintroduced into the park.\u003c/li\u003e\n\u003cli\u003eSince then, the number of gray wolves in the park has stabilized at roughly 100.\u003c/li\u003e\n\u003cli\u003eThis number is believed to be the park\u0026rsquo;s carrying capacity.\u003c/li\u003e\n\u003cli\u003eCarrying capacity describes the maximum number of a species that a specific environment\u0026rsquo;s resources can sustain over time.\u003c/li\u003e\n\u003c/ul\u003e", "templateclusterid": "cb432f97-125b-4a3a-afdb-470e750c5824", "templateclustername": "", "type": "mcq", "vaultid": "e4c8e83d-f68b-451a-a8ee-1d7200a8eb3c"}, "createDate": 1691007959371, "difficulty": "E", "external_id": "8be51932-52d5-439e-989c-054212dee742", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "a3204ab0", "score_band_range_cd": 1, "skill_cd": "SYN", "skill_desc": "Rhetorical Synthesis", "uId": "2ff3051b-a595-4f77-b355-6fde49671082", "updateDate": 1691007959371};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-a3204ab0");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

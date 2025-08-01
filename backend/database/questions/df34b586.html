@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question df34b586</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><figure class="image"><svg aria-label="A line graph titled Singer Sewing Machine Sales in Four Countries, 1903–1918. The horizontal axis is labeled Year. It ranges from 1903 to 1918 in increments of 5. The vertical axis is labeled Machines sold. It ranges from 0 to 60,000 in increments of 10,000. 4 lines are shown. Refer to long description." height="512.107666015625" role="img" viewbox="0 0 380 512.107666015625" width="380" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 1" id="ed420550-79eb-48d4-af01-cd27cdd08afd"><defs>
+<marker id="marker0" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#000" points="3 0, 0 5.196, 6 5.196"></polygon>
+</marker>
+<marker id="marker1" markerheight="5" markerunits="strokeWidth" markerwidth="5" refx="2.5" refy="2.5">
+<path d="M0,0 L0,5 L5,5 L5,0 z" fill="#BBB" stroke="#000" stroke-width="1.5"></path>
+</marker>
+<marker id="marker2" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<circle cx="3" cy="3" fill="#FFF" r="1.8" stroke="#000" stroke-width=".6"></circle>
+</marker>
+<marker id="marker3" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#999" points="0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3" stroke="#000" stroke-linejoin="round" stroke-width=".5"></polygon>
+</marker>
+</defs><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="109.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="103.375" x2="115.375" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(97.375 78)">60,000</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="109.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="105.33333333333334" y2="105.33333333333334"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="103.375" x2="115.375" xmlns="http://www.w3.org/2000/svg" y1="105.33333333333334" y2="105.33333333333334"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(97.375 111.33333333333334)">50,000</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="109.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="138.66666666666669" y2="138.66666666666669"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="103.375" x2="115.375" xmlns="http://www.w3.org/2000/svg" y1="138.66666666666669" y2="138.66666666666669"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(97.375 144.66666666666669)">40,000</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="109.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="172" y2="172"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="103.375" x2="115.375" xmlns="http://www.w3.org/2000/svg" y1="172" y2="172"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(97.375 178)">30,000</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="109.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="205.33333333333334" y2="205.33333333333334"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="103.375" x2="115.375" xmlns="http://www.w3.org/2000/svg" y1="205.33333333333334" y2="205.33333333333334"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(97.375 211.33333333333334)">20,000</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="109.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="238.66666666666669" y2="238.66666666666669"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="103.375" x2="115.375" xmlns="http://www.w3.org/2000/svg" y1="238.66666666666669" y2="238.66666666666669"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(97.375 244.66666666666669)">10,000</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="109.375" x2="365" xmlns="http://www.w3.org/2000/svg" y1="272" y2="272"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="103.375" x2="115.375" xmlns="http://www.w3.org/2000/svg" y1="272" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(97.375 278)">0</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(24 172) rotate(-90)">Machines sold</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="109.375" x2="109.375" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="141.328125" x2="141.328125" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(151.248125 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">1903</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="205.234375" x2="205.234375" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(215.154375 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">1908</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="269.140625" x2="269.140625" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(279.060625 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">1913</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="333.046875" x2="333.046875" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(342.966875 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">1918</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(237.1875 24)">Singer Sewing Machine Sales</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(237.1875 48)">in Four Countries, 1903–1918</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(237.1875 348.947666015625)">Year</text><rect fill="none" height="135" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="198.85619354248047" x="98.07190322875977" xmlns="http://www.w3.org/2000/svg" y="366.107666015625"></rect><line marker-end="url(#marker0)" stroke="#000" stroke-width="2.4" x1="105.07190322875977" x2="132.07190322875977" y1="383.107666015625" y2="383.107666015625"></line><line marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="132.07190322875977" x2="159.07190322875977" y1="383.107666015625" y2="383.107666015625"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(169.07190322875977 390.107666015625)"> New Zealand</text><line marker-end="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="105.07190322875977" x2="132.07190322875977" y1="415.107666015625" y2="415.107666015625"></line><line marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="132.07190322875977" x2="159.07190322875977" y1="415.107666015625" y2="415.107666015625"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(169.07190322875977 422.107666015625)"> Australia</text><line marker-end="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="105.07190322875977" x2="132.07190322875977" y1="447.107666015625" y2="447.107666015625"></line><line marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="132.07190322875977" x2="159.07190322875977" y1="447.107666015625" y2="447.107666015625"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(169.07190322875977 454.107666015625)"> the Philippines</text><line marker-end="url(#marker3)" stroke="#999" stroke-width="3.5" x1="105.07190322875977" x2="132.07190322875977" y1="479.107666015625" y2="479.107666015625"></line><line marker-start="url(#marker3)" stroke="#999" stroke-width="3.5" x1="132.07190322875977" x2="159.07190322875977" y1="479.107666015625" y2="479.107666015625"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(169.07190322875977 486.107666015625)"> Turkey</text><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="141.328125" x2="205.234375" y1="257.72" y2="255.60666666666668"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="141.328125" x2="205.234375" y1="201.51" y2="191.07999999999998"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="141.328125" x2="205.234375" y1="265.54333333333335" y2="264.53"></line><line marker-end="url(#marker3)" marker-start="url(#marker3)" stroke="#999" stroke-width="3.5" x1="141.328125" x2="205.234375" y1="190.53666666666666" y2="161.33333333333331"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="205.234375" x2="269.140625" y1="255.60666666666668" y2="255.46"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="205.234375" x2="269.140625" y1="191.07999999999998" y2="190.35"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="205.234375" x2="269.140625" y1="264.53" y2="181.11333333333334"></line><line marker-end="url(#marker3)" marker-start="url(#marker3)" stroke="#999" stroke-width="3.5" x1="205.234375" x2="269.140625" y1="161.33333333333331" y2="102.68666666666667"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="269.140625" x2="333.046875" y1="255.46" y2="258.27"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="269.140625" x2="333.046875" y1="190.35" y2="204.2266666666667"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="269.140625" x2="333.046875" y1="181.11333333333334" y2="122.6"></line><line marker-end="url(#marker3)" marker-start="url(#marker3)" stroke="#999" stroke-width="3.5" x1="269.140625" x2="333.046875" y1="102.68666666666667" y2="226.65333333333334"></line></g></svg></figure>
+<p>By the early 1900s, the Singer Corporation, a US sewing machine manufacturer founded in 1851, began to see rapidly increasing sales abroad, particularly in Russia, Germany, and the United Kingdom. These markets were responsible for the bulk of Singer’s overseas sales, but demand for the company’s machines in other countries also grew significantly in the early twentieth century. For instance, sales of their sewing machines in <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the graph to complete the example?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>the Philippines increased dramatically from 1908 to 1918.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>New Zealand were largely consistent from 1903 to 1918.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Australia increased steadily from 1903 to 1918.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Turkey declined substantially from 1913 to 1918.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most effectively uses data from the graph to complete the example. According to the graph, fewer than 10,000 sewing machines were sold in the Philippines in both 1903 and 1908, but nearly 30,000 were sold in 1913 and around 45,000 were sold in 1918. This increase illustrates the statement in the text that demand for Singer sewing machines grew significantly in the early twentieth century in overseas countries other than Russia, Germany, and the United Kingdom. </p><p>Choice B is incorrect because consistent sales of Singer sewing machines in New Zealand from 1903 to 1918 do not indicate that demand for the product increased but rather that demand remained relatively the same. Choice C is incorrect because it does not accurately describe the data in the graph. Although sales in Australia did increase somewhat between 1903 and 1908, there was very little change between 1908 and 1913, and then sales declined between 1913 and 1918. The data for Australia, then, do not show a steady increase from 1903 to 1918. Choice D is incorrect because declining sales of Singer sewing machines in Turkey from 1913 to 1918 do not point to an increase in demand for the product but rather to a decline in demand. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">108 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003ethe Philippines increased dramatically from 1908 to 1918.\u003c/p\u003e", "id": "d6e9fe8f-ce55-4409-a0c1-e02a06072633"}, {"content": "\u003cp\u003eNew Zealand were largely consistent from 1903 to 1918.\u003c/p\u003e", "id": "f1b4caa8-b151-4099-9f0b-02529d5d359b"}, {"content": "\u003cp\u003eAustralia increased steadily from 1903 to 1918.\u003c/p\u003e", "id": "a4be42b4-0cdd-4173-978e-41905d87f910"}, {"content": "\u003cp\u003eTurkey declined substantially from 1913 to 1918.\u003c/p\u003e", "id": "da3e08ae-e125-4109-97b8-9c93c079b315"}], "correct_answer": ["A"], "externalid": "b5d4fe9f-39fe-4ed4-88a8-ebf95283118c", "keys": ["d6e9fe8f-ce55-4409-a0c1-e02a06072633"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-542-QUA", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most effectively uses data from the graph to complete the example. According to the graph, fewer than 10,000 sewing machines were sold in the Philippines in both 1903 and 1908, but nearly 30,000 were sold in 1913 and around 45,000 were sold in 1918. This increase illustrates the statement in the text that demand for Singer sewing machines grew significantly in the early twentieth century in overseas countries other than Russia, Germany, and the United Kingdom. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because consistent sales of Singer sewing machines in New Zealand from 1903 to 1918 do not indicate that demand for the product increased but rather that demand remained relatively the same. Choice C is incorrect because it does not accurately describe the data in the graph. Although sales in Australia did increase somewhat between 1903 and 1908, there was very little change between 1908 and 1913, and then sales declined between 1913 and 1918. The data for Australia, then, do not show a steady increase from 1903 to 1918. Choice D is incorrect because declining sales of Singer sewing machines in Turkey from 1913 to 1918 do not point to an increase in demand for the product but rather to a decline in demand. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the graph to complete the example?\u003c/p\u003e", "stimulus": "\u003cfigure class=\"image\"\u003e\u003csvg aria-label=\"A line graph titled Singer Sewing Machine Sales in Four Countries, 1903\u20131918. The horizontal axis is labeled Year. It ranges from 1903 to 1918 in increments of 5. The vertical axis is labeled Machines sold. It ranges from 0 to 60,000 in increments of 10,000. 4 lines are shown. Refer to long description.\" height=\"512.107666015625\" role=\"img\" viewbox=\"0 0 380 512.107666015625\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cg data-name=\"Layer 1\" id=\"ed420550-79eb-48d4-af01-cd27cdd08afd\"\u003e\u003cdefs\u003e\n\u003cmarker id=\"marker0\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#000\" points=\"3 0, 0 5.196, 6 5.196\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker1\" markerheight=\"5\" markerunits=\"strokeWidth\" markerwidth=\"5\" refx=\"2.5\" refy=\"2.5\"\u003e\n\u003cpath d=\"M0,0 L0,5 L5,5 L5,0 z\" fill=\"#BBB\" stroke=\"#000\" stroke-width=\"1.5\"\u003e\u003c/path\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker2\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003ccircle cx=\"3\" cy=\"3\" fill=\"#FFF\" r=\"1.8\" stroke=\"#000\" stroke-width=\".6\"\u003e\u003c/circle\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker3\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#999\" points=\"0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\".5\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003c/defs\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"109.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"103.375\" x2=\"115.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(97.375 78)\"\u003e60,000\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"109.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"105.33333333333334\" y2=\"105.33333333333334\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"103.375\" x2=\"115.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"105.33333333333334\" y2=\"105.33333333333334\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(97.375 111.33333333333334)\"\u003e50,000\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"109.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"138.66666666666669\" y2=\"138.66666666666669\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"103.375\" x2=\"115.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"138.66666666666669\" y2=\"138.66666666666669\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(97.375 144.66666666666669)\"\u003e40,000\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"109.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"172\" y2=\"172\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"103.375\" x2=\"115.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"172\" y2=\"172\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(97.375 178)\"\u003e30,000\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"109.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"205.33333333333334\" y2=\"205.33333333333334\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"103.375\" x2=\"115.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"205.33333333333334\" y2=\"205.33333333333334\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(97.375 211.33333333333334)\"\u003e20,000\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"109.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"238.66666666666669\" y2=\"238.66666666666669\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"103.375\" x2=\"115.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"238.66666666666669\" y2=\"238.66666666666669\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(97.375 244.66666666666669)\"\u003e10,000\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"109.375\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"272\" y2=\"272\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"103.375\" x2=\"115.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"272\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(97.375 278)\"\u003e0\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(24 172) rotate(-90)\"\u003eMachines sold\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"109.375\" x2=\"109.375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"141.328125\" x2=\"141.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(151.248125 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e1903\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"205.234375\" x2=\"205.234375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(215.154375 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e1908\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"269.140625\" x2=\"269.140625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(279.060625 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e1913\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"333.046875\" x2=\"333.046875\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(342.966875 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e1918\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(237.1875 24)\"\u003eSinger Sewing Machine Sales\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(237.1875 48)\"\u003ein Four Countries, 1903\u20131918\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(237.1875 348.947666015625)\"\u003eYear\u003c/text\u003e\u003crect fill=\"none\" height=\"135\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"198.85619354248047\" x=\"98.07190322875977\" xmlns=\"http://www.w3.org/2000/svg\" y=\"366.107666015625\"\u003e\u003c/rect\u003e\u003cline marker-end=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"105.07190322875977\" x2=\"132.07190322875977\" y1=\"383.107666015625\" y2=\"383.107666015625\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"132.07190322875977\" x2=\"159.07190322875977\" y1=\"383.107666015625\" y2=\"383.107666015625\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(169.07190322875977 390.107666015625)\"\u003e New Zealand\u003c/text\u003e\u003cline marker-end=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"105.07190322875977\" x2=\"132.07190322875977\" y1=\"415.107666015625\" y2=\"415.107666015625\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"132.07190322875977\" x2=\"159.07190322875977\" y1=\"415.107666015625\" y2=\"415.107666015625\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(169.07190322875977 422.107666015625)\"\u003e Australia\u003c/text\u003e\u003cline marker-end=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"105.07190322875977\" x2=\"132.07190322875977\" y1=\"447.107666015625\" y2=\"447.107666015625\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"132.07190322875977\" x2=\"159.07190322875977\" y1=\"447.107666015625\" y2=\"447.107666015625\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(169.07190322875977 454.107666015625)\"\u003e the Philippines\u003c/text\u003e\u003cline marker-end=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"105.07190322875977\" x2=\"132.07190322875977\" y1=\"479.107666015625\" y2=\"479.107666015625\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"132.07190322875977\" x2=\"159.07190322875977\" y1=\"479.107666015625\" y2=\"479.107666015625\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(169.07190322875977 486.107666015625)\"\u003e Turkey\u003c/text\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"141.328125\" x2=\"205.234375\" y1=\"257.72\" y2=\"255.60666666666668\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"141.328125\" x2=\"205.234375\" y1=\"201.51\" y2=\"191.07999999999998\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"141.328125\" x2=\"205.234375\" y1=\"265.54333333333335\" y2=\"264.53\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker3)\" marker-start=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"141.328125\" x2=\"205.234375\" y1=\"190.53666666666666\" y2=\"161.33333333333331\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"205.234375\" x2=\"269.140625\" y1=\"255.60666666666668\" y2=\"255.46\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"205.234375\" x2=\"269.140625\" y1=\"191.07999999999998\" y2=\"190.35\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"205.234375\" x2=\"269.140625\" y1=\"264.53\" y2=\"181.11333333333334\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker3)\" marker-start=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"205.234375\" x2=\"269.140625\" y1=\"161.33333333333331\" y2=\"102.68666666666667\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"269.140625\" x2=\"333.046875\" y1=\"255.46\" y2=\"258.27\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"269.140625\" x2=\"333.046875\" y1=\"190.35\" y2=\"204.2266666666667\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"269.140625\" x2=\"333.046875\" y1=\"181.11333333333334\" y2=\"122.6\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker3)\" marker-start=\"url(#marker3)\" stroke=\"#999\" stroke-width=\"3.5\" x1=\"269.140625\" x2=\"333.046875\" y1=\"102.68666666666667\" y2=\"226.65333333333334\"\u003e\u003c/line\u003e\u003c/g\u003e\u003c/svg\u003e\u003c/figure\u003e\u003cdiv aria-label=\"Long description for line graph titled Singer Sewing Machine Sales in Four Countries, 1903\u20131918\" class=\"sr-only\" role=\"region\"\u003e\u003cul\u003e\n\u003cli\u003eThe following 4 lines are shown:\u003cbr/\u003e\n\u003cul\u003e\n\u003cli\u003eNew Zealand\u003c/li\u003e\n\u003cli\u003eAustralia\u003c/li\u003e\n\u003cli\u003ethe Philippines\u003c/li\u003e\n\u003cli\u003eTurkey\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe New Zealand line:\u003cbr/\u003e\n\u003cul\u003e\n\u003cli\u003eBegins at 1903, 4,284\u003c/li\u003e\n\u003cli\u003eRises gradually to 1908, 4,918\u003c/li\u003e\n\u003cli\u003eRises gradually to 1913, 4,962\u003c/li\u003e\n\u003cli\u003eFalls gradually to 1918, 4,119\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe Australia line:\u003cbr/\u003e\n\u003cul\u003e\n\u003cli\u003eBegins at 1903, 21,147\u003c/li\u003e\n\u003cli\u003eRises gradually to 1908, 24,276\u003c/li\u003e\n\u003cli\u003eRises gradually to 1913, 24,495\u003c/li\u003e\n\u003cli\u003eFalls gradually to 1918, 20,332\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe Philippines line:\u003cbr/\u003e\n\u003cul\u003e\n\u003cli\u003eBegins at 1903, 1,937\u003c/li\u003e\n\u003cli\u003eRises gradually to 1908, 2,241\u003c/li\u003e\n\u003cli\u003eRises sharply to 1913, 27,266\u003c/li\u003e\n\u003cli\u003eRises sharply to 1918, 44,820\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eThe Turkey line:\u003cbr/\u003e\n\u003cul\u003e\n\u003cli\u003eBegins at 1903, 24,439\u003c/li\u003e\n\u003cli\u003eRises sharply to 1908, 33,200\u003c/li\u003e\n\u003cli\u003eRises sharply to 1913, 50,794\u003c/li\u003e\n\u003cli\u003eFalls sharply to 1918, 13,604\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n\u003cp\u003eBy the early 1900s, the Singer Corporation, a US sewing machine manufacturer founded in 1851, began to see rapidly increasing sales abroad, particularly in Russia, Germany, and the United Kingdom. These markets were responsible for the bulk of Singer\u2019s overseas sales, but demand for the company\u2019s machines in other countries also grew significantly in the early twentieth century. For instance, sales of their sewing machines in \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "37f9974f-041f-47dd-9dab-4a12798f89d3", "templateclustername": "", "type": "mcq", "vaultid": "3855b102-5129-4caa-acb6-f4dea8e17b84"}, "createDate": 1691007959338, "difficulty": "E", "external_id": "b5d4fe9f-39fe-4ed4-88a8-ebf95283118c", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "df34b586", "score_band_range_cd": 3, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "5821e4cf-50c6-4c90-9d67-af635007e421", "updateDate": 1691007959338};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-df34b586");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

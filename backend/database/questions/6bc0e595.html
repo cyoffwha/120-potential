@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 6bc0e595</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>One aspect of in-person shopping that online shopping can&rsquo;t replicate is the opportunity to touch a product before buying it. Does this difference matter? In an experiment, researchers asked one group of participants to touch a mug and a toy, while another group was prohibited from touching the two items. The participants were then asked how much money they&rsquo;d pay for the items. People who got to touch the items were willing to pay much more money for them than were people who weren&rsquo;t allowed to touch the items. This finding suggests that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>people who mainly shop online probably spend more money every month than people who mainly shop in person do.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>in-person shopping may make products seem more valuable than they seem if only viewed online.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>retailers with in-person and online stores should charge the same price for a given product in both places.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>online retailers may be able to raise the prices they charge for products that are only available online.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The text tells us that &ldquo;people who got to touch the items were willing to pay much more money for them than people who weren&rsquo;t allowed to touch&rdquo; them. This suggests that being able to interact with a product in person may make it seem more valuable to a shopper. </p><p>Choice A is incorrect. The text doesn&rsquo;t discuss how much people spend each month, so there&rsquo;s not much basis for this claim. Furthermore, since being able to touch a product tends to make people &ldquo;willing to pay much more money&rdquo; for it, we might predict that an online shopper would be willing to spend less on the same purchases as an in-person shopper. Choice C is incorrect. The text doesn&rsquo;t discuss what retailers &ldquo;should charge,&rdquo; so there&rsquo;s not much basis for this claim. Furthermore, the study in the text suggests that in-person stores may actually be able to charge more for a given product, since shoppers can touch it. Choice D is incorrect. The text doesn&rsquo;t discuss products that are only available online, so there&rsquo;s not much basis for this claim. Furthermore, products only available online would still have the problem of shoppers not being able to touch them, and the study suggests that this lowers the prices shoppers are willing to pay. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">67 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003epeople who mainly shop online probably spend more money every month than people who mainly shop in person do.\u003c/p\u003e", "id": "c5cb3ed0-4b0d-4b19-97a9-fd3bc210631d"}, {"content": "\u003cp\u003ein-person shopping may make products seem more valuable than they seem if only viewed online.\u0026nbsp;\u003c/p\u003e", "id": "e22fbcc0-1c81-4c1d-8357-771c217fd63a"}, {"content": "\u003cp\u003eretailers with in-person and online stores should charge the same price for a given product in both places.\u003c/p\u003e", "id": "5e75c0ad-f431-4575-a218-fc615aa66e93"}, {"content": "\u003cp\u003eonline retailers may be able to raise the prices they charge for products that are only available online.\u003c/p\u003e", "id": "baabaeff-68aa-438b-b7d6-26829b06164a"}], "correct_answer": ["B"], "externalid": "83317e04-9b65-4e2e-81f4-ff77cf641a23", "keys": ["e22fbcc0-1c81-4c1d-8357-771c217fd63a"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-INF-E007", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The text tells us that \u0026ldquo;people who got to touch the items were willing to pay much more money for them than people who weren\u0026rsquo;t allowed to touch\u0026rdquo; them. This suggests that being able to interact with a product in person may make it seem more valuable to a shopper. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. The text doesn\u0026rsquo;t discuss how much people spend each month, so there\u0026rsquo;s not much basis for this claim. Furthermore, since being able to touch a product tends to make people \u0026ldquo;willing to pay much more money\u0026rdquo; for it, we might predict that an online shopper would be willing to spend less on the same purchases as an in-person shopper. Choice C is incorrect. The text doesn\u0026rsquo;t discuss what retailers \u0026ldquo;should charge,\u0026rdquo; so there\u0026rsquo;s not much basis for this claim. Furthermore, the study in the text suggests that in-person stores may actually be able to charge more for a given product, since shoppers can touch it. Choice D is incorrect. The text doesn\u0026rsquo;t discuss products that are only available online, so there\u0026rsquo;s not much basis for this claim. Furthermore, products only available online would still have the problem of shoppers not being able to touch them, and the study suggests that this lowers the prices shoppers are willing to pay. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eOne aspect of in-person shopping that online shopping can\u0026rsquo;t replicate is the opportunity to touch a product before buying it. Does this difference matter? In an experiment, researchers asked one group of participants to touch a mug and a toy, while another group was prohibited from touching the two items. The participants were then asked how much money they\u0026rsquo;d pay for the items. People who got to touch the items were willing to pay much more money for them than were people who weren\u0026rsquo;t allowed to touch the items. This finding suggests that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "10f0cf3a-dc79-4799-9a00-e099fab864bf", "templateclustername": "", "type": "mcq", "vaultid": "54b53ce0-cff7-4c06-a037-527f0dea776b"}, "createDate": 1691007959368, "difficulty": "E", "external_id": "83317e04-9b65-4e2e-81f4-ff77cf641a23", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "6bc0e595", "score_band_range_cd": 2, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "35fbf869-05b7-4b53-b8a4-39d709a0aac2", "updateDate": 1691007959368};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-6bc0e595");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

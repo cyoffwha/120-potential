@@ -1,0 +1,22 @@
+{
+  "question_id": "aa7ae735",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The following text is adapted from Mohsin Hamid's 2017 novel Exit West . Saeed lives with his mother and father. On cloudless nights after a daytime rain, Saeed's father would sometimes bring out the telescope, and the family would sip green tea on their balcony, enjoying a breeze, and take turns to look up at objects whose light, often, had been emitted before any of these three viewers had been born—light from other centuries, only now reaching Earth. &copy;2017 by Mohsin Hamid",
+  "question_text": "As used in the text, what does the word &ldquo;reaching&rdquo; most nearly mean?",
+  "answer_options": [
+    "Arriving at",
+    "Consulting with",
+    "Running to",
+    "Clinging to"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The word \"reaching\" in this text means \"to arrive\" at Earth. Before, the light had been traveling across space; now, it had arrived at Earth.",
+    "B": "Choice B is incorrect. \"Consulting with\" means \"seeking advice or information from someone.\" Light is not alive, so it can't consult with Earth.",
+    "C": "Choice C is incorrect. It's confusing to say that starlight is \"only now running to Earth,\" both because light doesn't literally \"run\" and because the text is describing the moment the light touches Earth, not the period of time when it's traveling to Earth.",
+    "D": "Choice D is incorrect. This might be tempting, as \"clinging to\" has a connotation of \"sticking to.\" It wouldn't make sense to say that the light was \"only now\" clinging to Earth."
+  }
+}

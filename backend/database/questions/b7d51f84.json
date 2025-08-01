@@ -1,0 +1,22 @@
+{
+  "question_id": "b7d51f84",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In West Africa, jalis have traditionally been keepers of information about family histories and records of important events. They have often served as teachers and advisers, too. New technologies may have changed some aspects of the role today, but jalis continue to be valued for knowing and protecting their peoples' stories.",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "Even though there have been some changes in their role, jalis continue to preserve their communities&rsquo; histories.",
+    "Although jalis have many roles, many of them like teaching best.",
+    "Jalis have been entertaining the people within their communities for centuries.",
+    "Technology can now do some of the things jalis used to be responsible for."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it best states the main idea of the text. According to the text, jalis' traditional role has been to maintain information about families' histories and significant events. The text goes on to say that although technological changes have altered jalis' role somewhat, jalis are still valued for preserving the histories of their communities.",
+    "B": "Choice B is incorrect because the text says nothing about jalis' views of the various tasks they perform. There is no information to support the idea that many jalis prefer teaching to other tasks.",
+    "C": "Choice C is incorrect because the text doesn't describe jalis as being sources of entertainment. Rather, jalis are presented as valued sources of knowledge. Additionally, the text gives no indication of how long jalis have been serving their communities.",
+    "D": "Choice D is incorrect because the main focus of the text is on jalis' role and their continued value despite the effects of technology, not on what technology can now do. Although the text indicates that jalis' role has changed as a result of technological changes, the text doesn't present any specific information about technology performing tasks that jalis once performed."
+  }
+}

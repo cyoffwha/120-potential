@@ -1,0 +1,22 @@
+{
+  "question_id": "603755a5",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1959, marine biologist Dr. Albert Jones founded the Underwater Adventure Seekers, a scuba diving ______ blank that is the oldest club for Black divers in the United States and that has helped thousands of diving enthusiasts become certified in the field.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "club",
+    "club,",
+    "club&mdash;",
+    "club, and"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"That is&hellip;field\" is an essential supplement, so we should not use punctuation to separate it from \"scuba diving club.\" .",
+    "B": "Choice B is incorrect. This choice creates a punctuation error. \"That is&hellip;field\" is an essential supplement, so we should not use a comma (or any kind of punctuation) to separate it from \"scuba diving club.\" .",
+    "C": "Choice C is incorrect. This choice creates a punctuation error. \"That is&hellip;field\" is an essential supplement, so we should not use a dash (or any kind of punctuation) to separate it from \"scuba diving club.\" .",
+    "D": "Choice D is incorrect. This choice creates a run-on sentence. It makes \"that is&hellip;United States\" into an awkward independent clause, but it also makes \"that has&hellip;field\" into its own awkward independent clause without the correct punctuation separating it."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "790fc366",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Using satellite remote sensing, Dr. Catherine Nakalembe, director of NASA's Harvest Africa initiative, gathers important data on crop health. Nakalembe doesn't just compile the ______ blank she also shares her findings with African farmers, enabling them to make data-driven decisions about managing critical food crops.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "information, though;",
+    "information, though,",
+    "information; though",
+    "information though,"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. This choice uses a semicolon to join two independent clauses (\"Nakalembe doesn't just&hellip;though\" and \"she also shares...\"). This choice also appropriately includes \"though\" in the first clause, where it logically belongs.",
+    "B": "Choice B is incorrect. This choice results in a grammar error called a comma splice. It incorrectly joins two independent clauses with only a comma instead of a comma and a coordinating conjunction like \"and\" or \"but.\" \"Though\" is a transition word, but it's not a coordinating conjunction.",
+    "C": "Choice C is incorrect. This choice results in a punctuation error. A semicolon can only be used to link two independent clauses. However, if \"though\" is included in the second clause, it turns the second clause into a dependent clause, so a semicolon can't be used after \"information.\"",
+    "D": "Choice D is incorrect. This choice results in a grammar error called a comma splice. It incorrectly joins two independent clauses with only a comma instead of a comma and a coordinating conjunction like \"and\" or \"but.\""
+  }
+}

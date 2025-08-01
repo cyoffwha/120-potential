@@ -1,0 +1,22 @@
+{
+  "question_id": "89961e26",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Artist Justin Favela explained that he wanted to reclaim the importance of the pi&ntilde;ata as a symbol in Latinx culture. To do so, he created numerous sculptures from strips of tissue paper, which is similar to the material used to create pi&ntilde;atas. In 2017, Favela created an impressive life-size pi&ntilde;ata-like sculpture of the Gypsy Rose lowrider car, which was displayed at the Petersen Automotive Museum in Los Angeles, California. The Gypsy Rose lowrider was famously driven by Jesse Valadez, an early president of the Los Angeles Imperials Car Club.",
+  "question_text": "According to the text, which piece of Favela&rsquo;s art was on display in the Petersen Automotive Museum in 2017?",
+  "answer_options": [
+    "A painting of Los Angeles",
+    "A sculpture of a lowrider car",
+    "A painting of a pi&ntilde;ata",
+    "A sculpture of Jesse Valadez"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The text describes Favela's approach to sculpture, and then describes the lowrider car that he depicted in 2017.",
+    "A": "Choice A is incorrect. This isn't what the text says. The Petersen Automotive Museum is located in Los Angeles, but Favela's artwork isn't a painting, and it doesn't depict L.A.",
+    "C": "Choice C is incorrect. This isn't what the text says. Favela makes sculptures similar to pi&ntilde;atas, not paintings of them.",
+    "D": "Choice D is incorrect. This isn't what the text says. Jesse Valadez owned the lowrider car that Favela depicted in sculpture."
+  }
+}

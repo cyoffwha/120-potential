@@ -1,0 +1,22 @@
+{
+  "question_id": "ec3d7605",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Award-winning travel writer Linda Watanabe McFerrin considers the background research she conducts on destinations featured in her travel books to be its own reward. ______ blank McFerrin admits to finding the research phase of her work just as fascinating and engaging as exploring a location in person.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "By contrast,",
+    "Likewise,",
+    "Besides,",
+    "In fact,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"In fact\" logically signals that the information in this sentence—that McFerrin finds the research phase of her work to be just as fascinating as travel—emphasizes and elaborates on the previous sentence's point that McFerrin regards background research as a rewarding activity.",
+    "A": "Choice A is incorrect because \"by contrast\" illogically signals that the information in this sentence contrasts with the previous sentence's point about McFerrin's attitude toward background research. Instead, it emphasizes and elaborates on that point.",
+    "B": "Choice B is incorrect because \"likewise\" illogically signals that this sentence merely adds a second, similar point to the previous sentence's point about McFerrin's attitude toward background research. Instead, it emphasizes and elaborates on that point.",
+    "C": "Choice C is incorrect because \"besides\" illogically signals that this sentence provides a separate point in addition to, or apart from, the previous sentence's point about McFerrin's attitude toward background research. Instead, it emphasizes and elaborates on that point."
+  }
+}

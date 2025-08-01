@@ -1,0 +1,22 @@
+{
+  "question_id": "7fdba7ad",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The Milky Way galaxy is composed of millions of stars in a relatively flat structure containing a thin disk and a thick disk. Based on computer simulations and analysis of data on the brightness, position, and chemical composition of about 250,000 stars in the thick disk (collected from two telescopes, one in China and one orbiting in space), astrophysicists Maosheng Xiang and Hans-Walter Rix claim that the thick disk of the Milky Way formed in two distinct phases rather than a single one.",
+  "question_text": "Which finding, if true, would most directly support the researchers&rsquo; claim?",
+  "answer_options": [
+    "The telescopes used by the researchers have detected stars of similar ages in galaxies other than the Milky Way.",
+    "There&rsquo;s an age difference of about 2 billion years between certain stars in the thick disk.",
+    "The thin disk contains about twice as many stars that can be seen from Earth as the thick disk does.",
+    "The stars in the Milky Way tend to have very similar chemical compositions."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. A consistent age difference of 2 billion years between certain stars within the thick disk would support the claim that the thick disk formed in two phases instead of one, with the second phase beginning 2 billion years after the first phase.",
+    "A": "Choice A is incorrect. This choice doesn't support the claim. The researchers base their claim on their study of stars inside the thick disk of the Milky Way. This choice makes a comparison to stars in other galaxies, which isn't relevant.",
+    "C": "Choice C is incorrect. This choice doesn't support the claim. The researchers base their claim on their study of stars inside the thick disk. This choice makes a comparison to the thin disk, which isn't relevant.",
+    "D": "Choice D is incorrect. This choice doesn't support the claim. It's too general. The claim is specifically about the thick disk."
+  }
+}

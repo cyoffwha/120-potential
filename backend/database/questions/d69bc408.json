@@ -1,0 +1,22 @@
+{
+  "question_id": "d69bc408",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Aphra Behn's 1689 novel The Lucky Mistake . Atlante and Rinaldo are neighbors who have been secretly exchanging letters through Charlot, Atlante's sister. [Atlante] gave this letter to Charlot; who immediately ran into the balcony with it, where she still found Rinaldo in a melancholy posture, leaning his head on his hand: She showed him the letter, but was afraid to toss it to him, for fear it might fall to the ground; so he ran and fetched a long cane, which he cleft at one end, and held it while she put the letter into the cleft, and stayed not to hear what he said to it. But never was man so transported with joy, as he was at the reading of this letter; it gives him new wounds; for to the generous, nothing obliges love so much as love.",
+  "question_text": "Which choice best describes the overall structure of the text?",
+  "answer_options": [
+    "It describes the delivery of a letter, and then portrays a character&rsquo;s happiness at reading that letter.",
+    "It establishes that a character is desperate to receive a letter, and then explains why another character has not yet written that letter.",
+    "It presents a character&rsquo;s concerns about delivering a letter, and then details the contents of that letter.",
+    "It reveals the inspiration behind a character&rsquo;s letter, and then emphasizes the excitement that another character feels upon receiving that letter."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately describes the overall structure of the text. The narrator begins by explaining how Charlot carefully delivers Atlante's letter to Rinaldo, and then relates that Rinaldo feels \"transported with joy\" after reading the letter. Therefore, the overall structure of the text is best described as a description of the delivery of a letter followed by the portrayal of a character's happiness after reading the letter.",
+    "B": "Choice B is incorrect because the text indicates that the letter has been written; there's no explanation why another character hasn't written one. In addition, the text's description of Rinaldo \"in a melancholy posture\" suggests that he's sad and thoughtful, not that he's desperate to receive the letter.",
+    "C": "Choice C is incorrect. Although the text states that Charlot won't toss the letter to Rinaldo because she doesn't want it to fall, the text doesn't refer to the contents of the letter. Instead, the text describes how happy Rinaldo feels after reading it.",
+    "D": "Choice D is incorrect. Although the text does describe Rinaldo's reaction to the letter, the text doesn't begin by discussing Atlante's inspiration for writing the letter. Instead, the text begins by discussing the delivery of the letter."
+  }
+}

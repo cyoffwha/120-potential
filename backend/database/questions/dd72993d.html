@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question dd72993d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Rivers rich in sediment appear yellow, while increases in red algae make rivers appear red. To track things like the sediment or algae content of large US rivers, John R. Gardner and colleagues used satellite data to determine the dominant visible wavelengths of light measured for various segments of these rivers. The researchers classified wavelengths of 495 nanometers (nm) and below as red, wavelengths between 495 and 560 nm as blue, and wavelengths of 560 nm and above as yellow. The researchers concluded that for the Missouri River, segments flowing into lakes tend to carry more sediment than those flowing out of lakes.  &nbsp;</p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most directly support the researchers&rsquo; conclusion?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The segments of the Missouri River that had higher levels of chlorophyll-a, which contributes to the green color of photosynthetic organisms, have dominant wavelengths of light between 490 and 560 nm.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In lakes through which segments of the Missouri River pass, the dominant wavelength of light tended to be above 560 nm near the lakes&rsquo; shores and below 560 nm in the lakes&rsquo; centers.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The majority of the segments of the Missouri River were found to have dominant wavelengths of light significantly higher than 560 nm.&nbsp;&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Segments of the Missouri River flowing into lakes typically had dominant wavelengths of light above 560 nm, while segments flowing out of lakes typically had dominant wavelengths below 560 nm.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it presents a finding that, if true, would support Gardner and colleagues&rsquo; conclusion that segments of the Missouri River flowing into lakes tend to carry more sediment than do segments of the river flowing out of lakes. The text says that rivers appear yellow when they contain a lot of sediment and appear red when they contain a lot of algae. It goes on to explain that Gardner and colleagues measured the wavelengths of light for different segments of rivers in the United States and classified those wavelength measurements into colors: red for wavelengths of 495 nanometers and below, blue for wavelengths between 495 and 560 nanometers, and yellow for wavelengths of 560 nanometers and above. Combined with the earlier information about river colors, this suggests that rivers rich in sediment will have wavelengths of 560 nanometers and above (since such rivers appear yellow). If researchers found that Missouri River segments flowing into lakes tend to have wavelengths above 560 nanometers and segments flowing out of lakes tend to have wavelengths below 560 nanometers, this finding would support Gardner and colleagues&rsquo; conclusion, since it would suggest that the river tends to carry more sediment when it flows into lakes than when it flows out of lakes.&nbsp;</p><p>Choice A is incorrect because finding that sections of the Missouri River with high chlorophyll-a levels have wavelengths between 490 and 560 nanometers would be irrelevant to the researchers&rsquo; conclusion that segments of the river flowing into lakes are richer in sediment than are segments of the river flowing out of lakes. This finding would not indicate anything about segments flowing into or out of lakes.&nbsp;Choice B is incorrect because finding that lakes through which the Missouri River passes have higher wavelengths near their shores than in the center would not support the researchers&rsquo; conclusion that segments of the river flowing into lakes have more sediment than segments flowing out of lakes. This finding would suggest only that there is more sediment around the edges of lakes than in their centers, which does not have any direct bearing on the researchers&rsquo; conclusion about river segments flowing into and out of lakes.&nbsp;Choice C is incorrect because finding that most segments of the Missouri River have wavelengths significantly higher than 560 nanometers would suggest that most segments of the river are high in sediment, not that segments flowing into lakes are higher in sediment than segments flowing out of lakes. Only a comparison of river segments flowing into lakes with segments flowing out of lakes can support the researchers&rsquo; conclusion.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">51 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe segments of the Missouri River that had higher levels of chlorophyll-a, which contributes to the green color of photosynthetic organisms, have dominant wavelengths of light between 490 and 560 nm.\u003c/p\u003e", "id": "d9b0edc8-bfe0-4406-9848-53a29a84311c"}, {"content": "\u003cp\u003eIn lakes through which segments of the Missouri River pass, the dominant wavelength of light tended to be above 560 nm near the lakes\u0026rsquo; shores and below 560 nm in the lakes\u0026rsquo; centers.\u003c/p\u003e", "id": "1b9d6d58-43df-444c-a61e-827247c6b2b1"}, {"content": "\u003cp\u003eThe majority of the segments of the Missouri River were found to have dominant wavelengths of light significantly higher than 560 nm.\u0026nbsp;\u0026nbsp;\u003c/p\u003e", "id": "045af686-c342-4bb5-96dc-a4a817a70028"}, {"content": "\u003cp\u003eSegments of the Missouri River flowing into lakes typically had dominant wavelengths of light above 560 nm, while segments flowing out of lakes typically had dominant wavelengths below 560 nm.\u003c/p\u003e", "id": "8d5607dd-0f2d-4c9e-86b0-d447cb98efac"}], "correct_answer": ["D"], "externalid": "a0624880-0cff-4f54-93c7-0ee67780fa3a", "keys": ["8d5607dd-0f2d-4c9e-86b0-d447cb98efac"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-330-TXT", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it presents a finding that, if true, would support Gardner and colleagues\u0026rsquo; conclusion that segments of the Missouri River flowing into lakes tend to carry more sediment than do segments of the river flowing out of lakes. The text says that rivers appear yellow when they contain a lot of sediment and appear red when they contain a lot of algae. It goes on to explain that Gardner and colleagues measured the wavelengths of light for different segments of rivers in the United States and classified those wavelength measurements into colors: red for wavelengths of 495 nanometers and below, blue for wavelengths between 495 and 560 nanometers, and yellow for wavelengths of 560 nanometers and above. Combined with the earlier information about river colors, this suggests that rivers rich in sediment will have wavelengths of 560 nanometers and above (since such rivers appear yellow). If researchers found that Missouri River segments flowing into lakes tend to have wavelengths above 560 nanometers and segments flowing out of lakes tend to have wavelengths below 560 nanometers, this finding would support Gardner and colleagues\u0026rsquo; conclusion, since it would suggest that the river tends to carry more sediment when it flows into lakes than when it flows out of lakes.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because finding that sections of the Missouri River with high chlorophyll-a levels have wavelengths between 490 and 560 nanometers would be irrelevant to the researchers\u0026rsquo; conclusion that segments of the river flowing into lakes are richer in sediment than are segments of the river flowing out of lakes. This finding would not indicate anything about segments flowing into or out of lakes.\u0026nbsp;Choice B is incorrect because finding that lakes through which the Missouri River passes have higher wavelengths near their shores than in the center would not support the researchers\u0026rsquo; conclusion that segments of the river flowing into lakes have more sediment than segments flowing out of lakes. This finding would suggest only that there is more sediment around the edges of lakes than in their centers, which does not have any direct bearing on the researchers\u0026rsquo; conclusion about river segments flowing into and out of lakes.\u0026nbsp;Choice C is incorrect because finding that most segments of the Missouri River have wavelengths significantly higher than 560 nanometers would suggest that most segments of the river are high in sediment, not that segments flowing into lakes are higher in sediment than segments flowing out of lakes. Only a comparison of river segments flowing into lakes with segments flowing out of lakes can support the researchers\u0026rsquo; conclusion.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most directly support the researchers\u0026rsquo; conclusion?\u003c/p\u003e", "stimulus": "\u003cp\u003eRivers rich in sediment appear yellow, while increases in red algae make rivers appear red. To track things like the sediment or algae content of large US rivers, John R. Gardner and colleagues used satellite data to determine the dominant visible wavelengths of light measured for various segments of these rivers. The researchers classified wavelengths of 495 nanometers (nm) and below as red, wavelengths between 495 and 560 nm as blue, and wavelengths of 560 nm and above as yellow. The researchers concluded that for the Missouri River, segments flowing into lakes tend to carry more sediment than those flowing out of lakes.  \u0026nbsp;\u003c/p\u003e", "templateclusterid": "8e1b3715-b654-4c5d-bb7a-3200eb80c3f9", "templateclustername": "", "type": "mcq", "vaultid": "ea24875f-3216-4486-93bf-98d4848e96e4"}, "createDate": 1691007959335, "difficulty": "M", "external_id": "a0624880-0cff-4f54-93c7-0ee67780fa3a", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "dd72993d", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "277ef7c4-f790-471b-8e43-670c4de79f83", "updateDate": 1691007959335};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-dd72993d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

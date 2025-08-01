@@ -1,0 +1,22 @@
+{
+  "question_id": "dbd78791",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Led by Syrian American astronomer Shadia Habbal, the Solar Wind Sherpas are an intrepid team of scientists who travel the globe to study solar winds, the streams of particles emanating from the Sun that are only visible from certain locations during a total solar eclipse. When such an eclipse is imminent, the Sherpas pack up their telescopes and ______ blank ready.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "get",
+    "had gotten",
+    "got",
+    "were getting"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the present tense verb \"get\" is consistent with the other present tense verbs (\"are,\" \"travel,\" and \"pack\") used to describe the Sherpas and their activities.",
+    "B": "Choice B is incorrect. The past perfect verb \"had gotten\" isn't consistent with the other present tense verbs used to describe the Sherpas and their activities.",
+    "C": "Choice C is incorrect. The past tense verb \"got\" isn't consistent with the other present tense verbs used to describe the Sherpas and their activities.",
+    "D": "Choice D is incorrect. The past progressive verb \"were getting\" isn't consistent with the other present tense verbs used to describe the Sherpas and their activities."
+  }
+}

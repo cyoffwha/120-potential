@@ -1,0 +1,22 @@
+{
+  "question_id": "8432a140",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Marine biologist Camille Jazmin Gaynus studies coral reefs. Coral reefs are vital underwater ecosystems that provide habitats to 25% of all marine species. Reefs can include up to 8,000 species of fish, such as toadfish, seahorses, and clown triggerfish. The Amazon Reef is a coral reef in Brazil. It is one of the largest known reefs in the world. The student wants to introduce the scientist and her field of study to a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to introduce the scientist and her field of study to a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Located in Brazil, the Amazon Reef is one of the largest known coral reefs in the world.",
+    "Marine biologist Camille Jazmin Gaynus studies coral reefs, vital underwater ecosystems that provide homes to 25% of all marine species.&nbsp;",
+    "Providing homes to 25% of all marine species, including up to 8,000 species of fish, coral reefs are vital underwater ecosystems and thus of great interest to marine biologists.",
+    "As Camille Jazmin Gaynus knows well, coral reefs are vital underwater ecosystems, providing homes to thousands of species of fish."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. We're asked to select the sentence that \"introduce[s] the scientist and her field of study.\" This choice introduces scientist Camille Jazmin Gaynus as a marine biologist and explains what marine life she studies.",
+    "A": "Choice A is incorrect. This choice doesn't mention Camille Jazmin Gaynus, so it fails to \"introduce the scientist.\"",
+    "C": "Choice C is incorrect. This choice doesn't mention Camille Jazmin Gaynus, so it fails to \"introduce the scientist.\"",
+    "D": "Choice D is incorrect. This choice mentions Camille Jazmin Gaynus, but it doesn't identify her as a marine biologist. It says she \"knows well\" about coral reefs, but doesn't identify her expertise as a \"field of study.\""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "d47bb0a4",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Objects ranging from the Kikkoman soy sauce bottle to the Yamaha VMAX motorcycle to the Komachi bullet train ______ blank designed by twentieth-century industrial designer Kenji Ekuan.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "was",
+    "is",
+    "has been",
+    "were"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is subject-verb agreement. The plural verb \"were\" agrees in number with the plural subject \"objects.\"",
+    "A": "Choice A is incorrect because the singular verb \"was\" doesn't agree in number with the plural subject \"objects.\"",
+    "B": "Choice B is incorrect because the singular verb \"is\" doesn't agree in number with the plural subject \"objects.\"",
+    "C": "Choice C is incorrect because the singular verb \"has been\" doesn't agree in number with the plural subject \"objects.\""
+  }
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e1e89221</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is from Frances Hodgson Burnett&rsquo;s 1911 novel <em>The Secret Garden</em>. Mary, a young girl, is outside trying her new jump rope.</p>
+<blockquote>
+<p>The sun was shining and a little wind was blowing&mdash;not a <span role="region" aria-label="Referenced Content"><u>rough</u></span> wind, but one which came in delightful little gusts and brought a fresh scent of newly turned earth with it. She skipped round the fountain garden, and up one walk and down another.</p>
+</blockquote></div>
+
+                        <div class="mt-3"><p>As used in the text, what does the word &ldquo;rough&rdquo; most nearly mean?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Harsh</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Scratchy</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Basic</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Vague</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because as used in the text, "rough" most nearly means harsh, or forceful and unpleasant. The text describes Mary&rsquo;s surroundings as she plays: the sun is out and there&rsquo;s "a little wind." To further illustrate the wind, the narrator contrasts the word "rough" with a description of the wind blowing in "delightful little gusts," suggesting that the wind is not unpleasant or harsh at all.</p><p>Choice B is incorrect. Although in some contexts "rough" objects, or objects with irregular surfaces, can sometimes be scratchy, rough doesn&rsquo;t mean scratchy in this context. The text explains that the wind is not rough but rather gentle, "delightful little gusts," which suggests that the use of "rough" here is referring to the degree of force of the wind. Choice C is incorrect because there&rsquo;s nothing in the text to suggest that the wind wasn&rsquo;t "basic," or simple and uncomplicated. Instead, the text describes the wind as blowing not roughly or harshly but in "delightful little gusts." Choice D is incorrect because the word "vague" means not clearly expressed or seen. Nothing in the text indicates that the wind was barely noticeable to Mary as she played outside, but rather the text states that it was delightful.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">506 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eHarsh\u003c/p\u003e", "id": "0c484494-ccd4-4ea3-93a8-f4b3436367a9"}, {"content": "\u003cp\u003eScratchy\u003c/p\u003e", "id": "8d5c8ce2-593c-4528-9068-64484e180aae"}, {"content": "\u003cp\u003eBasic\u003c/p\u003e", "id": "8d22b026-dac3-4dd9-b805-9e2ae3522b35"}, {"content": "\u003cp\u003eVague\u003c/p\u003e", "id": "4b9c1a09-51eb-4bbc-b0cb-237469044ac3"}], "correct_answer": ["A"], "externalid": "df3063c9-79b5-4510-b41f-913071970103", "keys": ["0c484494-ccd4-4ea3-93a8-f4b3436367a9"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-035-WIC", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because as used in the text, \"rough\" most nearly means harsh, or forceful and unpleasant. The text describes Mary\u0026rsquo;s surroundings as she plays: the sun is out and there\u0026rsquo;s \"a little wind.\" To further illustrate the wind, the narrator contrasts the word \"rough\" with a description of the wind blowing in \"delightful little gusts,\" suggesting that the wind is not unpleasant or harsh at all.\u003c/p\u003e\u003cp\u003eChoice B is incorrect. Although in some contexts \"rough\" objects, or objects with irregular surfaces, can sometimes be scratchy, rough doesn\u0026rsquo;t mean scratchy in this context. The text explains that the wind is not rough but rather gentle, \"delightful little gusts,\" which suggests that the use of \"rough\" here is referring to the degree of force of the wind. Choice C is incorrect because there\u0026rsquo;s nothing in the text to suggest that the wind wasn\u0026rsquo;t \"basic,\" or simple and uncomplicated. Instead, the text describes the wind as blowing not roughly or harshly but in \"delightful little gusts.\" Choice D is incorrect because the word \"vague\" means not clearly expressed or seen. Nothing in the text indicates that the wind was barely noticeable to Mary as she played outside, but rather the text states that it was delightful.\u003c/p\u003e", "stem": "\u003cp\u003eAs used in the text, what does the word \u0026ldquo;rough\u0026rdquo; most nearly mean?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is from Frances Hodgson Burnett\u0026rsquo;s 1911 novel \u003cem\u003eThe Secret Garden\u003c/em\u003e. Mary, a young girl, is outside trying her new jump rope.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe sun was shining and a little wind was blowing\u0026mdash;not a \u003cspan role=\"region\" aria-label=\"Referenced Content\"\u003e\u003cu\u003erough\u003c/u\u003e\u003c/span\u003e wind, but one which came in delightful little gusts and brought a fresh scent of newly turned earth with it. She skipped round the fountain garden, and up one walk and down another.\u003c/p\u003e\n\u003c/blockquote\u003e", "templateclusterid": "91c52d4b-7d45-44df-8557-1c043311475c", "templateclustername": "", "type": "mcq", "vaultid": "a0bb1dce-f9b7-4c1f-953e-573e8cc9cbae"}, "createDate": 1691007959320, "difficulty": "E", "external_id": "df3063c9-79b5-4510-b41f-913071970103", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "e1e89221", "score_band_range_cd": 2, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "d5300951-73aa-4585-a244-c826df289512", "updateDate": 1691007959320};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e1e89221");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question aa7fc89b</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Susan Glaspell&rsquo;s 1912 short story &ldquo;&lsquo;Out There.&rsquo;&rdquo; An elderly shop owner is looking at a picture that he recently acquired and hopes to sell.</p>
+<p style='padding-left: 1em;'>It did seem that the picture failed to fit in with the rest of the shop. A persuasive young fellow who claimed he was closing out his stock let the old man have it for what he called a song. It was only a little out-of-the-way store which subsisted chiefly on the framing of pictures. The old man looked around at his views of the city, his pictures of cats and dogs, his flaming bits of landscape. &ldquo;Don&rsquo;t belong in here,&rdquo; he fumed.</p>
+<p style='padding-left: 1em;'>And yet the old man was secretly proud of his acquisition. There was a hidden dignity in his scowling as he shuffled about pondering the least ridiculous place for the picture.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main purpose of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To reveal the shop owner&rsquo;s conflicted feelings about the new picture</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To convey the shop owner&rsquo;s resentment of the person he got the new picture from</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To describe the items that the shop owner most highly prizes</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To explain differences between the new picture and other pictures in the shop</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most accurately describes the main purpose of the text. The text begins by stating that the new picture &ldquo;failed to fit in&rdquo; with the other items that the shop owner has. The text goes on to illustrate that point by describing the other pictures the shop owner has, indicating that the shop owner is fuming because he doesn&rsquo;t think the new picture belongs in the store. In the second paragraph, however, the text indicates that the shop owner is &ldquo;secretly proud of his acquisition.&rdquo; The main purpose of the text is thus to reveal the shop owner&rsquo;s conflicted feelings about the new picture. </p><p>Choice B is incorrect because the text doesn&rsquo;t suggest that the shop owner resents the young man who sold him the new picture; in fact, the text gives no indication of the owner&rsquo;s feelings about the young man at all. Choice C is incorrect. Although the text indicates that the new picture is different from the other items in the shop, there&rsquo;s no suggestion that the shop owner prizes either the new picture or the pictures of the city, pets, and landscapes more than he prizes any other items. Choice D is incorrect because the text doesn&rsquo;t describe what the new picture looks like; rather, the text identifies some of the other kinds of images that the shop owner has and states that they&rsquo;re different from the new picture without explaining how they&rsquo;re different.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">512 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eTo reveal the shop owner\u0026rsquo;s conflicted feelings about the new picture\u003c/p\u003e", "id": "413b29c5-6597-41e3-ab4b-ef224aa2fe17"}, {"content": "\u003cp\u003eTo convey the shop owner\u0026rsquo;s resentment of the person he got the new picture from\u003c/p\u003e", "id": "1936f5a1-6832-49d4-bf3f-28468fe689db"}, {"content": "\u003cp\u003eTo describe the items that the shop owner most highly prizes\u003c/p\u003e", "id": "3ae1456e-c791-4adc-b989-7538bda7506b"}, {"content": "\u003cp\u003eTo explain differences between the new picture and other pictures in the shop\u003c/p\u003e", "id": "f4e5b3dc-e4a8-4ec0-a682-40017551abc6"}], "correct_answer": ["A"], "externalid": "44563440-0571-499d-ba56-db50174dd26b", "keys": ["413b29c5-6597-41e3-ab4b-ef224aa2fe17"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-036-TSP", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most accurately describes the main purpose of the text. The text begins by stating that the new picture \u0026ldquo;failed to fit in\u0026rdquo; with the other items that the shop owner has. The text goes on to illustrate that point by describing the other pictures the shop owner has, indicating that the shop owner is fuming because he doesn\u0026rsquo;t think the new picture belongs in the store. In the second paragraph, however, the text indicates that the shop owner is \u0026ldquo;secretly proud of his acquisition.\u0026rdquo; The main purpose of the text is thus to reveal the shop owner\u0026rsquo;s conflicted feelings about the new picture. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because the text doesn\u0026rsquo;t suggest that the shop owner resents the young man who sold him the new picture; in fact, the text gives no indication of the owner\u0026rsquo;s feelings about the young man at all. Choice C is incorrect. Although the text indicates that the new picture is different from the other items in the shop, there\u0026rsquo;s no suggestion that the shop owner prizes either the new picture or the pictures of the city, pets, and landscapes more than he prizes any other items. Choice D is incorrect because the text doesn\u0026rsquo;t describe what the new picture looks like; rather, the text identifies some of the other kinds of images that the shop owner has and states that they\u0026rsquo;re different from the new picture without explaining how they\u0026rsquo;re different.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main purpose of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Susan Glaspell\u0026rsquo;s 1912 short story \u0026ldquo;\u0026lsquo;Out There.\u0026rsquo;\u0026rdquo; An elderly shop owner is looking at a picture that he recently acquired and hopes to sell.\u003c/p\u003e\n\u003cp style=\u0027padding-left: 1em;\u0027\u003eIt did seem that the picture failed to fit in with the rest of the shop. A persuasive young fellow who claimed he was closing out his stock let the old man have it for what he called a song. It was only a little out-of-the-way store which subsisted chiefly on the framing of pictures. The old man looked around at his views of the city, his pictures of cats and dogs, his flaming bits of landscape. \u0026ldquo;Don\u0026rsquo;t belong in here,\u0026rdquo; he fumed.\u003c/p\u003e\n\u003cp style=\u0027padding-left: 1em;\u0027\u003eAnd yet the old man was secretly proud of his acquisition. There was a hidden dignity in his scowling as he shuffled about pondering the least ridiculous place for the picture.\u003c/p\u003e", "templateclusterid": "9b7983fc-7df4-4c53-b3a3-1bd0e1de22b7", "templateclustername": "", "type": "mcq", "vaultid": "f54aba88-a597-4059-90d0-e76111ef44fe"}, "createDate": 1691007959320, "difficulty": "M", "external_id": "44563440-0571-499d-ba56-db50174dd26b", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "aa7fc89b", "score_band_range_cd": 4, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "dafd5a78-106e-4ee5-86f5-b1cbf3ff7649", "updateDate": 1691007959320};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-aa7fc89b");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

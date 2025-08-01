@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question c5d39bc7</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Scientists believe that, unlike most other species of barnacle, turtle barnacles (<em>Chelonibia testudinari</em>) can dissolve the cement-like secretions they use to attach <span aria-hidden="true">______</span><span class="sr-only">blank</span> to a sea turtle shell, enabling the barnacles to move short distances across the shell&rsquo;s surface.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>it</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>themselves</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&nbsp;them</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>itself</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The convention being tested is pronoun-antecedent agreement. The plural reflexive pronoun &ldquo;themselves&rdquo; agrees in number with the plural antecedent &ldquo;turtle barnacles,&rdquo; correctly indicating what is attached to a sea turtle shell.&nbsp;&nbsp;</p><p>Choice A is incorrect because the singular pronoun &ldquo;it&rdquo; doesn&rsquo;t agree in number with the plural antecedent &ldquo;turtle barnacles.&rdquo; Choice C is incorrect because it results in an unclear and confusing sentence. In this context, it&rsquo;s unclear what the plural pronoun &ldquo;them&rdquo; refers to. Choice D is incorrect because the singular reflexive pronoun &ldquo;itself&rdquo; doesn&rsquo;t agree in number with the plural antecedent &ldquo;turtle barnacles.&rdquo; </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">868 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eit\u003c/p\u003e", "id": "326422dd-fd3f-4bed-be32-612023c03035"}, {"content": "\u003cp\u003ethemselves\u003c/p\u003e", "id": "27ea6c37-75c8-4fba-9642-a7fa24337b70"}, {"content": "\u003cp\u003e\u0026nbsp;them\u003c/p\u003e", "id": "60f52975-e20b-484c-a789-0dafa292ea57"}, {"content": "\u003cp\u003eitself\u003c/p\u003e", "id": "846c84e0-4aea-43da-946d-d4fd8e6ddfd8"}], "correct_answer": ["B"], "externalid": "cfcb1e78-476f-40a1-8f13-5193567c4c5c", "keys": ["27ea6c37-75c8-4fba-9642-a7fa24337b70"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-695-SEC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The convention being tested is pronoun-antecedent agreement. The plural reflexive pronoun \u0026ldquo;themselves\u0026rdquo; agrees in number with the plural antecedent \u0026ldquo;turtle barnacles,\u0026rdquo; correctly indicating what is attached to a sea turtle shell.\u0026nbsp;\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because the singular pronoun \u0026ldquo;it\u0026rdquo; doesn\u0026rsquo;t agree in number with the plural antecedent \u0026ldquo;turtle barnacles.\u0026rdquo; Choice C is incorrect because it results in an unclear and confusing sentence. In this context, it\u0026rsquo;s unclear what the plural pronoun \u0026ldquo;them\u0026rdquo; refers to. Choice D is incorrect because the singular reflexive pronoun \u0026ldquo;itself\u0026rdquo; doesn\u0026rsquo;t agree in number with the plural antecedent \u0026ldquo;turtle barnacles.\u0026rdquo; \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eScientists believe that, unlike most other species of barnacle, turtle barnacles (\u003cem\u003eChelonibia testudinari\u003c/em\u003e) can dissolve the cement-like secretions they use to attach \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e to a sea turtle shell, enabling the barnacles to move short distances across the shell\u0026rsquo;s surface.\u003c/p\u003e", "templateclusterid": "33fd8903-b02a-40a8-aa42-b3840862137a", "templateclustername": "", "type": "mcq", "vaultid": "b930bcda-e90e-4dda-844e-c3658973fbc3"}, "createDate": 1691007959347, "difficulty": "E", "external_id": "cfcb1e78-476f-40a1-8f13-5193567c4c5c", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "c5d39bc7", "score_band_range_cd": 3, "skill_cd": "FSS", "skill_desc": "Form, Structure, and Sense", "uId": "a4beaec6-6aac-45a5-b1be-f6e3c141749b", "updateDate": 1691007959347};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-c5d39bc7");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

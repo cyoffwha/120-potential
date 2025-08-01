@@ -1,0 +1,22 @@
+{
+  "question_id": "61160f0a",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Author Madeline L'Engle, ______ blank to create a suspenseful tone that draws the reader in, begins her novel A Wrinkle in Time with descriptions of \"wraithlike shadows\" and \"the frenzied lashing of the wind.\"",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "looked",
+    "looks",
+    "is looking",
+    "looking"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the use of verb forms within a sentence. The nonfinite present participle verb \"looking\" is correctly used to form a subordinate clause that describes the intent behind how L'Engle begins her novel.",
+    "A": "Choice A is incorrect because the finite past tense verb \"looked\" can't be used in this way to form a subordinate clause.",
+    "B": "Choice B is incorrect because the finite present tense verb \"looks\" can't be used in this way to form a subordinate clause.",
+    "C": "Choice C is incorrect because the finite present progressive tense verb \"is looking\" can't be used in this way to form a subordinate clause."
+  }
+}

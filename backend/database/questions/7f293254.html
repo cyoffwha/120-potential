@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 7f293254</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Art collectives, like the United States- and Vietnam-based collective The Propeller Group or Cuba&rsquo;s Los Carpinteros, are groups of artists who agree to work together: perhaps for stylistic reasons, or to advance certain shared political ideals, or to help mitigate the costs of supplies and studio space. Regardless of the reasons, art collectives usually involve some collaboration among the artists. Based on a recent series of interviews with various art collectives, an arts journalist claims that this can be difficult for artists who are often used to having sole control over their work.</p></div>
+
+                        <div class="mt-3"><p>Which quotation from the interviews best illustrates the journalist&rsquo;s claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;The first collective I joined included many amazingly talented artists, and we enjoyed each other&rsquo;s company, but because we had a hard time sharing credit and responsibility for our work, the collective didn&rsquo;t last.&rdquo;&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;We work together, but that doesn&rsquo;t mean that individual projects are equally the work of all of us. Many of our projects are primarily the responsibility of whoever originally proposed the work to the group.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Having worked as a member of a collective for several years, it&rsquo;s sometimes hard to recall what it was like to work alone without the collective&rsquo;s support. But that support encourages my individual expression rather than limits it.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Sometimes an artist from outside the collective will choose to collaborate with us on a project, but all of those projects fit within the larger themes of the work the collective does on its own.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it presents the quotation that best illustrates the journalist&rsquo;s claim. By indicating that a collective didn&rsquo;t continue because it was hard to share credit and responsibilities within the group even though the company was enjoyable, the quotation shows that working collaboratively can be difficult for artists who are used to having complete control over their work. </p><p>Choice B is incorrect because the quotation indicates that members of a collective are able to collaborate together and have agreed on a fair way to manage their responsibilities; this doesn&rsquo;t demonstrate the challenge of sharing control among members of a collective. Choice C is incorrect because the quotation highlights the support and encouragement of individual expression an artist experiences due to working in a collective; these positive aspects don&rsquo;t demonstrate the challenge of sharing control among members of a collective. Choice D is incorrect because the quotation doesn&rsquo;t address any challenges of sharing control among members of a collective; it simply indicates that artists sometimes choose to work with collectives without having to be a member. Therefore, the quotation doesn&rsquo;t illustrate the journalist&rsquo;s claim.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">221 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;The first collective I joined included many amazingly talented artists, and we enjoyed each other\u0026rsquo;s company, but because we had a hard time sharing credit and responsibility for our work, the collective didn\u0026rsquo;t last.\u0026rdquo;\u0026nbsp;\u003c/p\u003e", "id": "a3d427c1-98fa-4950-9f1e-7e3f915d6d8f"}, {"content": "\u003cp\u003e\u0026ldquo;We work together, but that doesn\u0026rsquo;t mean that individual projects are equally the work of all of us. Many of our projects are primarily the responsibility of whoever originally proposed the work to the group.\u0026rdquo;\u003c/p\u003e", "id": "afa29749-f4be-438e-b501-760b96758925"}, {"content": "\u003cp\u003e\u0026ldquo;Having worked as a member of a collective for several years, it\u0026rsquo;s sometimes hard to recall what it was like to work alone without the collective\u0026rsquo;s support. But that support encourages my individual expression rather than limits it.\u0026rdquo;\u003c/p\u003e", "id": "d67f753a-939c-4bfb-850f-29966c9f548f"}, {"content": "\u003cp\u003e\u0026ldquo;Sometimes an artist from outside the collective will choose to collaborate with us on a project, but all of those projects fit within the larger themes of the work the collective does on its own.\u0026rdquo;\u003c/p\u003e", "id": "744c90f6-98e3-4cd1-9f45-d2c3f9d7f9f5"}], "correct_answer": ["A"], "externalid": "bf4990d3-7a3a-49ff-b7dc-8ba4cf811d16", "keys": ["a3d427c1-98fa-4950-9f1e-7e3f915d6d8f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-308-TXT", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it presents the quotation that best illustrates the journalist\u0026rsquo;s claim. By indicating that a collective didn\u0026rsquo;t continue because it was hard to share credit and responsibilities within the group even though the company was enjoyable, the quotation shows that working collaboratively can be difficult for artists who are used to having complete control over their work. \u003c/p\u003e\u003cp\u003eChoice B is incorrect because the quotation indicates that members of a collective are able to collaborate together and have agreed on a fair way to manage their responsibilities; this doesn\u0026rsquo;t demonstrate the challenge of sharing control among members of a collective. Choice C is incorrect because the quotation highlights the support and encouragement of individual expression an artist experiences due to working in a collective; these positive aspects don\u0026rsquo;t demonstrate the challenge of sharing control among members of a collective. Choice D is incorrect because the quotation doesn\u0026rsquo;t address any challenges of sharing control among members of a collective; it simply indicates that artists sometimes choose to work with collectives without having to be a member. Therefore, the quotation doesn\u0026rsquo;t illustrate the journalist\u0026rsquo;s claim.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from the interviews best illustrates the journalist\u0026rsquo;s claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eArt collectives, like the United States- and Vietnam-based collective The Propeller Group or Cuba\u0026rsquo;s Los Carpinteros, are groups of artists who agree to work together: perhaps for stylistic reasons, or to advance certain shared political ideals, or to help mitigate the costs of supplies and studio space. Regardless of the reasons, art collectives usually involve some collaboration among the artists. Based on a recent series of interviews with various art collectives, an arts journalist claims that this can be difficult for artists who are often used to having sole control over their work.\u003c/p\u003e", "templateclusterid": "17ce3a35-61d7-4f1a-bce3-c6328ca10743", "templateclustername": "", "type": "mcq", "vaultid": "17bb6acf-9a9b-4213-9cc4-96cf89fe9eaf"}, "createDate": 1691007959335, "difficulty": "H", "external_id": "bf4990d3-7a3a-49ff-b7dc-8ba4cf811d16", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "7f293254", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "b94d76d2-68d2-4964-a997-c8349c3e9673", "updateDate": 1691007959335};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-7f293254");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

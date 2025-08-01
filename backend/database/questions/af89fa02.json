@@ -1,0 +1,22 @@
+{
+  "question_id": "af89fa02",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The Babylonian king Hammurabi achieved much during his forty-year reign. He conquered all of Mesopotamia and built Babylon into one of the most powerful cities of the ancient world. Today, ______ blank he is mainly remembered for a code of laws inscribed on a seven-foot-tall block of stone: the Code of Hammurabi.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "therefore,",
+    "likewise,",
+    "however,",
+    "for instance,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. \"However\" logically signals that the information in this sentence—that Hammurabi is mainly remembered for just a single achievement, the Code of Hammurabi—is contrary to what might be assumed from the previous information about Hammurabi's many achievements.",
+    "A": "Choice A is incorrect because \"therefore\" illogically signals that the information in this sentence is a result of the previous information about Hammurabi's many achievements. Instead, this sentence makes a point that is contrary to what might be assumed from the previous information.",
+    "B": "Choice B is incorrect because \"likewise\" illogically signals that the information in this sentence is similar to the previous information about Hammurabi's many achievements. Instead, this sentence makes a point that is contrary to what might be assumed from the previous information.",
+    "D": "Choice D is incorrect because \"for instance\" illogically signals that this sentence exemplifies the previous information about Hammurabi's many achievements. Instead, this sentence makes a point that is contrary to what might be assumed from the previous information."
+  }
+}

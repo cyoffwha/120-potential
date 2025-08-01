@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e7dc27dc</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>As a monthly newsletter formed in 1969 by a group of Asian American students at the University of California, Los Angeles, <em>Gidra</em> helped raise awareness about social and political issues concerning the Asian American community on campus and at large. The newsletter had an expansive reach for a publication of its kind: around 4,000 copies were published each month. A student writing a history paper, however, hypothesizes that <em>Gidra</em>&rsquo;s influence cannot be measured by the number of newsletters published monthly alone.</p></div>
+
+                        <div class="mt-3"><p>Which finding, if true, would most directly support the student&rsquo;s hypothesis?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The students who initially formed <em>Gidra</em> each contributed financially to its creation.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>In addition to covering current events, <em>Gidra</em> also featured works of art and literature.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p><em>Gidra</em> was initially based out of the Asian American Studies Center at UCLA.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>People would often give their copies of <em>Gidra</em> to others once they had finished reading an issue.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. If there were more <em>Gidra</em> readers than there were copies of the newsletter, then the newsletter&rsquo;s influence would be much greater than its 4,000 monthly copies. </p><p>Choice A is incorrect. Information about the newsletter&rsquo;s initial funding doesn&rsquo;t tell us about the influence that the newsletter eventually had. Choice B is incorrect. While the content of <em>Gidra</em> was undoubtedly related to the newsletter&rsquo;s influence, this information isn&rsquo;t relevant to the specific hypothesis about monthly circulation numbers. Choice C is incorrect. Where the publishers of <em>Gidra</em> were initially based doesn&rsquo;t tell us about the newsletter&rsquo;s overall influence. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">80 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe students who initially formed \u003cem\u003eGidra\u003c/em\u003e each contributed financially to its creation.\u003c/p\u003e", "id": "2034d1d4-0345-4371-ba94-e185140caffe"}, {"content": "\u003cp\u003eIn addition to covering current events, \u003cem\u003eGidra\u003c/em\u003e also featured works of art and literature.\u003c/p\u003e", "id": "311e0377-da4e-4ba7-8b1c-a18e8bdee275"}, {"content": "\u003cp\u003e\u003cem\u003eGidra\u003c/em\u003e was initially based out of the Asian American Studies Center at UCLA.\u003c/p\u003e", "id": "b5e40dbf-f931-493a-8bef-a0d9c6a6bc35"}, {"content": "\u003cp\u003ePeople would often give their copies of \u003cem\u003eGidra\u003c/em\u003e to others once they had finished reading an issue.\u003c/p\u003e", "id": "aab9e7f7-e6af-42ea-8241-6f73e1099263"}], "correct_answer": ["D"], "externalid": "3cc18ae3-a388-4035-8d49-228be087c88c", "keys": ["aab9e7f7-e6af-42ea-8241-6f73e1099263"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TXT-E008", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. If there were more \u003cem\u003eGidra\u003c/em\u003e readers than there were copies of the newsletter, then the newsletter\u0026rsquo;s influence would be much greater than its 4,000 monthly copies. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Information about the newsletter\u0026rsquo;s initial funding doesn\u0026rsquo;t tell us about the influence that the newsletter eventually had. Choice B is incorrect. While the content of \u003cem\u003eGidra\u003c/em\u003e was undoubtedly related to the newsletter\u0026rsquo;s influence, this information isn\u0026rsquo;t relevant to the specific hypothesis about monthly circulation numbers. Choice C is incorrect. Where the publishers of \u003cem\u003eGidra\u003c/em\u003e were initially based doesn\u0026rsquo;t tell us about the newsletter\u0026rsquo;s overall influence. \u003c/p\u003e", "stem": "\u003cp\u003eWhich finding, if true, would most directly support the student\u0026rsquo;s hypothesis?\u003c/p\u003e", "stimulus": "\u003cp\u003eAs a monthly newsletter formed in 1969 by a group of Asian American students at the University of California, Los Angeles, \u003cem\u003eGidra\u003c/em\u003e helped raise awareness about social and political issues concerning the Asian American community on campus and at large. The newsletter had an expansive reach for a publication of its kind: around 4,000 copies were published each month. A student writing a history paper, however, hypothesizes that \u003cem\u003eGidra\u003c/em\u003e\u0026rsquo;s influence cannot be measured by the number of newsletters published monthly alone.\u003c/p\u003e", "templateclusterid": "e519a81c-8a64-4611-946a-028ccc580dfd", "templateclustername": "", "type": "mcq", "vaultid": "33f4843c-e170-41f8-a70d-949e6083f0ba"}, "createDate": 1691007959376, "difficulty": "E", "external_id": "3cc18ae3-a388-4035-8d49-228be087c88c", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "e7dc27dc", "score_band_range_cd": 2, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "44256010-a960-48a8-adcf-8c5fc06680d2", "updateDate": 1691007959376};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e7dc27dc");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

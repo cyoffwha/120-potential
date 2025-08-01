@@ -1,0 +1,22 @@
+{
+  "question_id": "d5c2a4d4",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Guy de Maupassant's nineteenth-century short story \"The Trip of Le Horla\" (translated by Albert M. C. McMaster, A. E. Henderson, Mme. Quesada, et al.). The narrator is part of a group traveling in a hot-air balloon at night. The earth no longer seems to exist, it is buried in milky vapors that resemble a sea. We are now alone in space with the moon, which looks like another balloon travelling opposite us; and our balloon, which shines in the air, appears like another, larger moon, a world wandering in the sky amid the stars, through infinity. We no longer speak, think nor live; we float along through space in delicious inertia. The air which is bearing us up has made of us all beings which resemble itself, silent, joyous, irresponsible beings, peculiarly alert, although motionless. Which choice best states the main idea of the text?",
+  "question_text": "Which choice best states the main idea of the text?",
+  "answer_options": [
+    "The narrator feels a growing sense of isolation even though his companions are nearby during the balloon ride.",
+    "The narrator and his companions are completely absorbed in the change in perspective they gain while riding in the balloon.",
+    "The narrator and his companions are troubled by the disorienting effects of the altitude while riding in the balloon.",
+    "The narrator is pleasantly surprised by his companions&rsquo; unrestrained enthusiasm about the sensation of riding in the balloon."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most accurately states the main idea of the text. The narrator describes the view he and his companions have from the balloon: the earth lies beneath \"milky vapors,\" and the balloon itself looks like another moon. The narrator goes on to explain how the people riding in the balloon are affected by the ride, explaining that they are immersed in the experience: floating along in \"delicious inertia,\" or inactivity, like \"silent, joyous, irresponsible beings.\" Thus, the main idea is that the narrator and his companions are completely absorbed in the change in perspective they gain while riding in the balloon.",
+    "A": "Choice A is incorrect because the narrator never describes himself as feeling isolated from his companions; instead, he characterizes riding in the balloon as an experience he is sharing with them. And although he does imply a sense of isolation, it is isolation from those on the ground, as when he says of himself and his companions, \"We are now alone.\"",
+    "C": "Choice C is incorrect because the narrator doesn't suggest that he or his companions are troubled by the effects of the balloon ride. Instead, he describes himself and his companions as \"joyous\" and the experience of floating in the balloon as \"delicious.\"",
+    "D": "Choice D is incorrect because nothing in the text suggests that the narrator is surprised by his companions' response to the balloon ride. In fact, the text indicates that the narrator and his companions are having the same experience: they're described as \"silent\" and \"motionless,\" rather than as having unrestrained enthusiasm."
+  }
+}

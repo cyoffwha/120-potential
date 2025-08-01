@@ -1,0 +1,22 @@
+{
+  "question_id": "b4c6cff6",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Karel Čapek's 1920 play R.U.R. (Rossum's Universal Robots ), translated by Paul Selver and Nigel Playfair in 1923. Fabry and Busman are telling Miss Glory why their company manufactures robots. FABRY: One Robot can replace two and a half workmen . The human machine, Miss Glory, was terribly imperfect . It had to be removed sooner or later. BUSMAN: It was too expensive. FABRY: It was not effective . It no longer answers the requirements of modern engineering . Nature has no idea of keeping pace with modern labor .",
+  "question_text": "As used in the text, what does the word &ldquo;answers&rdquo; most nearly mean?",
+  "answer_options": [
+    "Explains",
+    "Rebuts",
+    "Defends",
+    "Fulfills"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because as used in the text, \"answers\" most nearly means fulfills. In the text, Fabry and Busman claim that the robots manufactured by their company are more efficient than human workers, which they refer to as \"the human machine.\" Fabry observes that the human machine \"no longer answers the requirements of modern engineering .\" That is, human workers are incapable of meeting the rigorous needs of modern, industrialized workplaces.",
+    "A": "Choice A is incorrect. Although in some contexts \"answers\" can mean explains, it doesn't have that meaning in this context because the topic under discussion is human beings' inability to perform labor efficiently, not their inability to engage in discussion or explanation.",
+    "B": "Choice B is incorrect. Although in some contexts \"answers\" can mean rebuts, or proves a claim or argument to be false, it wouldn't make sense to speak of proving requirements to be false; requirements might or might not be reasonable, but they can't be verified as truthful or untruthful, as claims or accusations can.",
+    "C": "Choice C is incorrect. Although in some contexts, \"answers\" can mean defends against criticism, or justifies, it doesn't have that meaning in this context because the opinion that Fabry expresses is that human workers can no longer fulfill the requirements of modern workplaces, not that they have ceased to justify those requirements or to defend them against criticism; indeed, there is no suggestion in the text that workers ever defended those requirements."
+  }
+}

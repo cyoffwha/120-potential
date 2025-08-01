@@ -1,0 +1,22 @@
+{
+  "question_id": "f07570bb",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Researchers believe that pieces of hull found off Oregon's coast are from a Spanish cargo ship that was lost in 1697. Stories passed down among the area's Confederated Tribes of Siletz Indians support this belief. ______ blank Siletz stories describe how blocks of beeswax, an item the ship had been carrying, began washing ashore after the ship was lost.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "For this reason,",
+    "For example,",
+    "However,",
+    "Likewise,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"For example\" logically signals that the Siletz beeswax stories mentioned in this sentence are examples consistent with the previous claim that Siletz stories support the shipwreck theory.",
+    "A": "Choice A is incorrect because \"for this reason\" illogically signals that the Siletz stories about the beeswax were caused by the previous claim that Siletz stories support the shipwreck theory. Instead, the beeswax stories are examples consistent with the claim.",
+    "C": "Choice C is incorrect because \"however\" illogically signals that the Siletz stories about the beeswax contrast with the previous claim that Siletz stories support the shipwreck theory. Instead, the beeswax stories are examples consistent with the claim.",
+    "D": "Choice D is incorrect because \"likewise\" illogically signals that the Siletz stories about the beeswax are similar to the previous claim that Siletz stories support the shipwreck theory. Instead, the beeswax stories are examples consistent with the claim."
+  }
+}

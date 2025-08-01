@@ -1,0 +1,22 @@
+{
+  "question_id": "e1b00a70",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The more diverse and wide ranging an animal's behaviors, the larger and more energy demanding the animal's brain tends to be. ______ blank from an evolutionary perspective, animals that perform only basic actions should allocate fewer resources to growing and maintaining brain tissue. The specialized subtypes of ants within colonies provide an opportunity to explore this hypothesis.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Subsequently,",
+    "Besides,",
+    "Nevertheless,",
+    "Thus,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"Thus\" logically signals that the claim in this sentence—that animals performing only basic actions should allocate relatively few resources to their brain tissue—is a consequence of the previous sentence's claim about the energy demands of animal brains (namely, that the more diverse an animal's behaviors, the more energy its brain needs).",
+    "A": "Choice A is incorrect because \"subsequently\" illogically signals that the claim in this sentence occurs later in a chronological sequence of events than the previous sentence's claim about the energy demands of animal brains. Instead, the second claim is a consequence of the first.",
+    "B": "Choice B is incorrect because \"besides\" illogically signals that the claim in this sentence provides a separate point in addition to, or apart from, the previous sentence's claim about the energy demands of animal brains. Instead, the second claim is a consequence of the first.",
+    "C": "Choice C is incorrect because \"nevertheless\" illogically signals that the claim in this sentence is true in spite of the previous sentence's claim about the energy demands of animal brains. Instead, the second claim is a consequence of the first."
+  }
+}

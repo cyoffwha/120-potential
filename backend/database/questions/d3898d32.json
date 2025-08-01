@@ -1,0 +1,22 @@
+{
+  "question_id": "d3898d32",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Riley Black—the author of critically acclaimed books such as My Beloved Brontosaurus (2013)—is best known for writing about dinosaurs, but she has also conducted hands-on fieldwork. ______ blank her fieldwork has included paleontological digs in Utah, Montana, and Wyoming, and her dinosaur fossil discoveries can be seen at places such as the Carnegie Museum of Natural History.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Regardless,&nbsp;",
+    "Subsequently,",
+    "Specifically,&nbsp;",
+    "Conversely,"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The second sentence provides more specific information about the fieldwork mentioned in the first sentence—that the paleontological digs took place in Utah, Montana, and Wyoming. Therefore, \"specifically\" fits perfectly in this context.",
+    "A": "Choice A is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous sentence. Rather, this sentence agrees with and elaborates on the last sentence by providing more specifics about the fieldwork Black does.",
+    "B": "Choice B is incorrect. This choice uses a transition that indicates that an event took place after another event. But the two sentences are not describing different events—instead, this sentence gives more details about the fieldwork discussed in the first sentence.",
+    "D": "Choice D is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous sentence. Rather, this sentence agrees with and elaborates on the last sentence by providing more specifics about the fieldwork Black does."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "b4cda84d",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 1967 the US Congress created the Corporation for Public Broadcasting, which in turn created National Public Radio (NPR). NPR began producing and distributing high-quality news and cultural programming to affiliate stations across the United States in 1971. In a research paper, a student claims that the Corporation for Public Broadcasting and NPR were inspired by the British Broadcasting System (BBC), which had been established in the 1920s.",
+  "question_text": "Which quotation from a work by a historian would be the most effective evidence for the student to include in support of this claim?",
+  "answer_options": [
+    "&ldquo;Although the BBC had begun as a private corporation, politicians successfully argued to make it a public company because they believed a public broadcaster could help build national unity in the aftermath of World War I.&rdquo;",
+    "&ldquo;For many decades, the BBC had no competition since it held Britain&rsquo;s only broadcasting license, whereas in the United States, the Corporation for Public Broadcasting launched NPR in a broadcasting market already filled with competitors.&rdquo;",
+    "&ldquo;Congress&rsquo;s embrace of publicly funded broadcasting reflected a common belief among US politicians that the role of government was not only to ensure people&rsquo;s safety and liberty but also to enrich people&rsquo;s lives in other ways.&rdquo;",
+    "&ldquo;The goal of the BBC was to support British democracy by promoting an informed citizenry, and US legislators believed that ensuring access to high-quality programming could do the same for democracy in the United States.&rdquo;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because this quotation would be the most effective evidence to include in support of the claim that the Corporation for Public Broadcasting and NPR were inspired by the British Broadcasting System (BBC). The quotation states that the goal of the BBC was to support British democracy and that US legislators believed high-quality programming could accomplish the same goal for democracy in the United States. In other words, US legislators looked to the BBC as a model, taking direct inspiration from it when they created the Corporation for Public Broadcasting, which in turn created NPR.",
+    "A": "Choice A is incorrect because this quotation provides historical information about the BBC, not information about the inspiration for the creation of the Corporation for Public Broadcasting and NPR. This quotation, therefore, is irrelevant to the student's claim that the BBC inspired the creation of the Corporation for Public Broadcasting, which in turn created NPR.",
+    "B": "Choice B is incorrect because this quotation contrasts the lack of competition faced by the BBC with the substantial competition faced by NPR, which has no bearing on the student's claim that the Corporation for Public Broadcasting and NPR were inspired by the BBC.",
+    "C": "Choice C is incorrect because this quotation focuses on a common belief among US politicians that inspired Congress's embrace of publicly funded broadcasting. The quotation doesn't say anything about the BBC and therefore doesn't support the claim that the BBC inspired Congress to create the Corporation for Public Broadcasting, which in turn created NPR."
+  }
+}

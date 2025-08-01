@@ -1,0 +1,22 @@
+{
+  "question_id": "69a6d050",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In the early 1800s, the Cherokee scholar Sequoyah created the first script, or writing system, for an Indigenous language in the United States. Because it represented the sounds of spoken Cherokee so accurately, his script was easy to learn and thus quickly achieved ______ blank use: by 1830, over 90 percent of the Cherokee people could read and write it.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "widespread",
+    "careful",
+    "unintended",
+    "infrequent"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of the writing system created by Sequoyah. In this context, \"widespread\" means widely accepted or practiced. The text indicates that because Sequoyah's script accurately represented the spoken sounds of the Cherokee language and was easy to learn, nearly all Cherokee people were able to read and write it soon after it was created. This context demonstrates that the script was widely used by the Cherokee people.",
+    "B": "Choice B is incorrect. In this context, \"careful\" would mean exercised with care and attentive concern. Although the work of creating a writing system likely involved great care, the text indicates that the system was \"easy to learn,\" which conflicts with the idea that using this system requires a noteworthy amount of care.",
+    "C": "Choice C is incorrect because in this context \"unintended\" means not deliberate. The idea that using Sequoyah's script was unintentional conflicts directly with the claim that it was easy to learn and used by \"over 90% of the Cherokee people\" by 1830. In fact, because one had to learn this system, it's not clear how one could use it unintentionally.",
+    "D": "Choice D is incorrect because in this context \"infrequent\" means rare or not occurring often, which conflicts directly with the claim that \"over 90% of the Cherokee people\" were using Sequoyah's script by 1830."
+  }
+}

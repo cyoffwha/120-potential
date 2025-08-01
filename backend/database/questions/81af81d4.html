@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 81af81d4</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>&ldquo;Often Rebuked, Yet Always Back Returning&rdquo; is an 1846 poem by Emily Bront&euml;. The poem conveys the speaker&rsquo;s determination to experience the countryside around her: <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which quotation from the poem most effectively illustrates the claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Often rebuked, yet always back returning / To those first feelings that were born with me, / And leaving busy chase of wealth and learning / For idle dreams of things which cannot be.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;I&rsquo;ll walk, but not in old heroic traces, / And not in paths of high morality, / And not among the half-distinguished faces, / The clouded forms of long-past history.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;I&rsquo;ll walk where my own nature would be leading: / It vexes me to choose another guide: / Where the grey flocks in ferny glens are feeding; / Where the wild wind blows on the mountain side.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;To-day, I will seek not the shadowy region; / Its unsustaining vastness waxes drear; / And visions rising, legion after legion, / Bring the unreal world too strangely near.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it presents the quotation that best illustrates the claim that the speaker is determined to experience the countryside around her. In the quotation, the speaker makes it clear that she plans to walk somewhere based on her own wishes (&ldquo;where my own nature would be leading&rdquo;) rather than follow anything else (&ldquo;another guide&rdquo;), and that she&rsquo;ll walk &ldquo;in ferny glens&rdquo; alongside the mountain.&nbsp;</p><p>Choice A is incorrect because this quotation suggests that the speaker wants to avoid pursuing money and education (&ldquo;busy chase of wealth and learning&rdquo;) and instead return to some earlier interests (her &ldquo;first feelings&rdquo;); the quotation doesn&rsquo;t address her determination to experience the countryside.&nbsp;Choice B is incorrect because the speaker is describing the circumstances under which she won&rsquo;t walk, which doesn&rsquo;t address her determination to experience the countryside. Choice D is incorrect because rather than conveying her determination to experience the countryside, the speaker is explaining a particular thing she won&rsquo;t do (&ldquo;seek not the shadowy region&rdquo;). </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">114 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;Often rebuked, yet always back returning / To those first feelings that were born with me, / And leaving busy chase of wealth and learning / For idle dreams of things which cannot be.\u0026rdquo;\u003c/p\u003e", "id": "73ba8efe-9782-44ce-a3c1-528b3cc8a777"}, {"content": "\u003cp\u003e\u0026ldquo;I\u0026rsquo;ll walk, but not in old heroic traces, / And not in paths of high morality, / And not among the half-distinguished faces, / The clouded forms of long-past history.\u0026rdquo;\u003c/p\u003e", "id": "dd46dd16-11dd-4a1e-a34e-200e084bc067"}, {"content": "\u003cp\u003e\u0026ldquo;I\u0026rsquo;ll walk where my own nature would be leading: / It vexes me to choose another guide: / Where the grey flocks in ferny glens are feeding; / Where the wild wind blows on the mountain side.\u0026rdquo;\u003c/p\u003e", "id": "00fed495-64c9-40eb-8371-c6707708de66"}, {"content": "\u003cp\u003e\u0026ldquo;To-day, I will seek not the shadowy region; / Its unsustaining vastness waxes drear; / And visions rising, legion after legion, / Bring the unreal world too strangely near.\u0026rdquo;\u003c/p\u003e", "id": "6e2f42c1-afaf-41b4-a894-065a53cc9440"}], "correct_answer": ["C"], "externalid": "1a528880-397f-4739-b06d-5fa3d656aa3c", "keys": ["00fed495-64c9-40eb-8371-c6707708de66"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-418-LIT", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it presents the quotation that best illustrates the claim that the speaker is determined to experience the countryside around her. In the quotation, the speaker makes it clear that she plans to walk somewhere based on her own wishes (\u0026ldquo;where my own nature would be leading\u0026rdquo;) rather than follow anything else (\u0026ldquo;another guide\u0026rdquo;), and that she\u0026rsquo;ll walk \u0026ldquo;in ferny glens\u0026rdquo; alongside the mountain.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because this quotation suggests that the speaker wants to avoid pursuing money and education (\u0026ldquo;busy chase of wealth and learning\u0026rdquo;) and instead return to some earlier interests (her \u0026ldquo;first feelings\u0026rdquo;); the quotation doesn\u0026rsquo;t address her determination to experience the countryside.\u0026nbsp;Choice B is incorrect because the speaker is describing the circumstances under which she won\u0026rsquo;t walk, which doesn\u0026rsquo;t address her determination to experience the countryside. Choice D is incorrect because rather than conveying her determination to experience the countryside, the speaker is explaining a particular thing she won\u0026rsquo;t do (\u0026ldquo;seek not the shadowy region\u0026rdquo;). \u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from the poem most effectively illustrates the claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u0026ldquo;Often Rebuked, Yet Always Back Returning\u0026rdquo; is an 1846 poem by Emily Bront\u0026euml;. The poem conveys the speaker\u0026rsquo;s determination to experience the countryside around her: \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "1f97a8e6-4f64-4089-85e4-7df257a1a797", "templateclustername": "", "type": "mcq", "vaultid": "6a71c930-7945-4626-afde-a1618b7c8d9d"}, "createDate": 1691007959336, "difficulty": "M", "external_id": "1a528880-397f-4739-b06d-5fa3d656aa3c", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "81af81d4", "score_band_range_cd": 4, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "5efd4e24-e56a-412f-a0d3-026df395c423", "updateDate": 1691007959336};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-81af81d4");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

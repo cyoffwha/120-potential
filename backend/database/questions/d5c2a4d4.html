@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question d5c2a4d4</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is adapted from Guy de Maupassant&rsquo;s nineteenth-century short story &ldquo;The Trip of Le Horla&rdquo; (translated by Albert M. C. McMaster, A. E. Henderson, Mme. Quesada, et al.). The narrator is part of a group traveling in a hot-air balloon at night.</p>
+<blockquote>
+<p>The earth no longer seems to exist, it is buried in milky vapors that resemble a sea. We are now alone in space with the moon, which looks like another balloon travelling opposite us; and our balloon, which shines in the air, appears like another, larger moon, a world wandering in the sky amid the stars, through infinity. We no longer speak, think nor live; we float along through space in delicious inertia. The air which is bearing us up has made of us all beings which resemble itself, silent, joyous, irresponsible beings, peculiarly alert, although motionless.</p>
+</blockquote></div>
+
+                        <div class="mt-3"><p>Which choice best states the main idea of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The narrator feels a growing sense of isolation even though his companions are nearby during the balloon ride.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The narrator and his companions are completely absorbed in the change in perspective they gain while riding in the balloon.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The narrator and his companions are troubled by the disorienting effects of the altitude while riding in the balloon.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The narrator is pleasantly surprised by his companions&rsquo; unrestrained enthusiasm about the sensation of riding in the balloon.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it most accurately states the main idea of the text. The narrator describes the view he and his companions have from the balloon: the earth lies beneath "milky vapors," and the balloon itself looks like another moon. The narrator goes on to explain how the people riding in the balloon are affected by the ride, explaining that they are immersed in the experience: floating along in "delicious inertia," or inactivity, like "silent, joyous, irresponsible beings." Thus, the main idea is that the narrator and his companions are completely absorbed in the change in perspective they gain while riding in the balloon.</p><p>Choice A is incorrect because the narrator never describes himself as feeling isolated from his companions; instead, he characterizes riding in the balloon as an experience he is sharing with them. And although he does imply a sense of isolation, it is isolation from those on the ground, as when he says of himself and his companions, "We are now alone." Choice C is incorrect because the narrator doesn&rsquo;t suggest that he or his companions are troubled by the effects of the balloon ride. Instead, he describes himself and his companions as "joyous" and the experience of floating in the balloon as "delicious." Choice D is incorrect because nothing in the text suggests that the narrator is surprised by his companions&rsquo; response to the balloon ride. In fact, the text indicates that the narrator and his companions are having the same experience: they&rsquo;re described as "silent" and "motionless," rather than as having unrestrained enthusiasm.</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">174 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe narrator feels a growing sense of isolation even though his companions are nearby during the balloon ride.\u003c/p\u003e", "id": "7d7aa7ec-8640-414e-b9b4-405a621f55ba"}, {"content": "\u003cp\u003eThe narrator and his companions are completely absorbed in the change in perspective they gain while riding in the balloon.\u003c/p\u003e", "id": "208dda4f-079a-4462-8c0c-b0334ac31e2b"}, {"content": "\u003cp\u003eThe narrator and his companions are troubled by the disorienting effects of the altitude while riding in the balloon.\u003c/p\u003e", "id": "a3bffe30-5315-404a-8587-19c286ba0907"}, {"content": "\u003cp\u003eThe narrator is pleasantly surprised by his companions\u0026rsquo; unrestrained enthusiasm about the sensation of riding in the balloon.\u003c/p\u003e", "id": "dad2840b-8fc0-472c-9d27-9df7b9c0a574"}], "correct_answer": ["B"], "externalid": "fcc9d22f-ff02-4020-ae95-4a66720a6377", "keys": ["208dda4f-079a-4462-8c0c-b0334ac31e2b"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-027-CID", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it most accurately states the main idea of the text. The narrator describes the view he and his companions have from the balloon: the earth lies beneath \"milky vapors,\" and the balloon itself looks like another moon. The narrator goes on to explain how the people riding in the balloon are affected by the ride, explaining that they are immersed in the experience: floating along in \"delicious inertia,\" or inactivity, like \"silent, joyous, irresponsible beings.\" Thus, the main idea is that the narrator and his companions are completely absorbed in the change in perspective they gain while riding in the balloon.\u003c/p\u003e\u003cp\u003eChoice A is incorrect because the narrator never describes himself as feeling isolated from his companions; instead, he characterizes riding in the balloon as an experience he is sharing with them. And although he does imply a sense of isolation, it is isolation from those on the ground, as when he says of himself and his companions, \"We are now alone.\" Choice C is incorrect because the narrator doesn\u0026rsquo;t suggest that he or his companions are troubled by the effects of the balloon ride. Instead, he describes himself and his companions as \"joyous\" and the experience of floating in the balloon as \"delicious.\" Choice D is incorrect because nothing in the text suggests that the narrator is surprised by his companions\u0026rsquo; response to the balloon ride. In fact, the text indicates that the narrator and his companions are having the same experience: they\u0026rsquo;re described as \"silent\" and \"motionless,\" rather than as having unrestrained enthusiasm.\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main idea of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is adapted from Guy de Maupassant\u0026rsquo;s nineteenth-century short story \u0026ldquo;The Trip of Le Horla\u0026rdquo; (translated by Albert M. C. McMaster, A. E. Henderson, Mme. Quesada, et al.). The narrator is part of a group traveling in a hot-air balloon at night.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eThe earth no longer seems to exist, it is buried in milky vapors that resemble a sea. We are now alone in space with the moon, which looks like another balloon travelling opposite us; and our balloon, which shines in the air, appears like another, larger moon, a world wandering in the sky amid the stars, through infinity. We no longer speak, think nor live; we float along through space in delicious inertia. The air which is bearing us up has made of us all beings which resemble itself, silent, joyous, irresponsible beings, peculiarly alert, although motionless.\u003c/p\u003e\n\u003c/blockquote\u003e", "templateclusterid": "78de5253-3253-41a4-ac85-bee4090ece82", "templateclustername": "", "type": "mcq", "vaultid": "ade100d7-0427-40e3-aa35-dcd91c053bdc"}, "createDate": 1691007959318, "difficulty": "M", "external_id": "fcc9d22f-ff02-4020-ae95-4a66720a6377", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "d5c2a4d4", "score_band_range_cd": 5, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "946021e8-28dc-4f4b-8690-88e07dd52ad4", "updateDate": 1691007959318};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-d5c2a4d4");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

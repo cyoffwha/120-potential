@@ -1,0 +1,22 @@
+{
+  "question_id": "97360a00",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is adapted from Gwendolyn Bennett's 1926 poem \"Street Lamps in Early Spring.\" Night wears a garment All velvet soft, all violet blue... And over her face she draws a veil As shimmering fine as floating dew... And here and there In the black of her hair The subtle hands of Night Move slowly with their gem-starred light.",
+  "question_text": "Which choice best describes the overall structure of the text?",
+  "answer_options": [
+    "It presents alternating descriptions of night in a rural area and in a city.",
+    "It sketches an image of nightfall, then an image of sunrise.",
+    "It makes an extended comparison of night to a human being.",
+    "It portrays how night changes from one season of the year to the next."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most accurately describes the overall structure of the text. Throughout the text, the speaker characterizes nighttime as if it were a person who wears clothing (\"a garment\" that is \"velvet soft\" and \"violet blue\") and a veil \"over her face\" and who moves her hands \"slowly with their gem-starred light\" through her dark hair. Thus, the text is structured as an extended comparison of night to a human being.",
+    "A": "Choice A is incorrect because the text never mentions any particular location; instead, it focuses on presenting a single description of night as a person with certain clothing and features.",
+    "B": "Choice B is incorrect because the text doesn't make any reference to the sun or sunrise; instead, it focuses on presenting a single image of night as a person with certain clothing and features.",
+    "D": "Choice D is incorrect. Rather than describing how nighttime changes seasonally (or in any other way), the text presents a single image of night as a person with certain clothing and features."
+  }
+}

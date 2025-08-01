@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 6e0c60da</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>When one looks at the dark craggy vistas in Hitoshi Fugo&rsquo;s evocative photo series, one&rsquo;s mind might wander off to the cratered surfaces of faraway planets. <span aria-hidden="true">______</span><span class="sr-only">blank</span> it&rsquo;s the series&rsquo; title, <em>Flying Frying Pan</em>, that brings one back to Earth, reminding the viewer that each photo is actually a close-up view of a familiar household object: a frying pan.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical transition?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Consequently,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Alternatively,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Ultimately,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Additionally,</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The first sentence describes an experience that the viewer has when they&rsquo;re looking at the photos: they imagine other planets. This sentence describes an experience that the viewer has afterward: the title reminds them that the photos are of frying pans, bringing them back to reality. &ldquo;Ultimately&rdquo; is a transition that means &ldquo;eventually&rdquo; or &ldquo;in the end,&rdquo; so it fits the context perfectly. </p><p>Choice A is incorrect. This choice uses a cause-and-effect transition, which doesn&rsquo;t make sense here. The viewer imagining other planets when they&rsquo;re looking at the photos doesn&rsquo;t cause the title to bring them back to reality. Choice B is incorrect. This choice uses a transition that indicates another option or possibility, which doesn&rsquo;t make sense here. Rather, the viewer has both experiences: first the viewer imagines that they&rsquo;re looking at another planet, and then the title reminds them that it&rsquo;s just a frying pan. Choice D is incorrect. This choice uses a transition that indicates the addition of an agreeing idea. But the viewer&rsquo;s experience in the second sentence is actually the opposite of the viewer&rsquo;s experience in the first sentence. In the first sentence, the viewer is imagining that they&rsquo;re seeing a landscape from another planet. In the second sentence, the viewer is reminded that they&rsquo;re looking at a frying pan. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">594 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eConsequently,\u003c/p\u003e", "id": "1f97945d-98bd-45c5-9ab1-10ec8b50ac19"}, {"content": "\u003cp\u003eAlternatively,\u003c/p\u003e", "id": "32dc3903-d9e0-4eb9-917b-cf89dd4f5c3f"}, {"content": "\u003cp\u003eUltimately,\u003c/p\u003e", "id": "c7c0cfb6-7c11-4f7b-89c8-07c0e3b8e7ce"}, {"content": "\u003cp\u003eAdditionally,\u003c/p\u003e", "id": "467bc548-1c5b-48a2-9ace-e06990f113c3"}], "correct_answer": ["C"], "externalid": "54d57f5e-7d9a-4185-9a93-a5c476e4564a", "keys": ["c7c0cfb6-7c11-4f7b-89c8-07c0e3b8e7ce"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TRA-H002", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The first sentence describes an experience that the viewer has when they\u0026rsquo;re looking at the photos: they imagine other planets. This sentence describes an experience that the viewer has afterward: the title reminds them that the photos are of frying pans, bringing them back to reality. \u0026ldquo;Ultimately\u0026rdquo; is a transition that means \u0026ldquo;eventually\u0026rdquo; or \u0026ldquo;in the end,\u0026rdquo; so it fits the context perfectly. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice uses a cause-and-effect transition, which doesn\u0026rsquo;t make sense here. The viewer imagining other planets when they\u0026rsquo;re looking at the photos doesn\u0026rsquo;t cause the title to bring them back to reality. Choice B is incorrect. This choice uses a transition that indicates another option or possibility, which doesn\u0026rsquo;t make sense here. Rather, the viewer has both experiences: first the viewer imagines that they\u0026rsquo;re looking at another planet, and then the title reminds them that it\u0026rsquo;s just a frying pan. Choice D is incorrect. This choice uses a transition that indicates the addition of an agreeing idea. But the viewer\u0026rsquo;s experience in the second sentence is actually the opposite of the viewer\u0026rsquo;s experience in the first sentence. In the first sentence, the viewer is imagining that they\u0026rsquo;re seeing a landscape from another planet. In the second sentence, the viewer is reminded that they\u0026rsquo;re looking at a frying pan. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical transition?\u003c/p\u003e", "stimulus": "\u003cp\u003eWhen one looks at the dark craggy vistas in Hitoshi Fugo\u0026rsquo;s evocative photo series, one\u0026rsquo;s mind might wander off to the cratered surfaces of faraway planets. \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e it\u0026rsquo;s the series\u0026rsquo; title, \u003cem\u003eFlying Frying Pan\u003c/em\u003e, that brings one back to Earth, reminding the viewer that each photo is actually a close-up view of a familiar household object: a frying pan.\u003c/p\u003e", "templateclusterid": "fea9339a-de25-4093-8c58-72870dac306c", "templateclustername": "", "type": "mcq", "vaultid": "c520996d-a385-4651-b88b-ed0fa16a52c8"}, "createDate": 1691007959373, "difficulty": "H", "external_id": "54d57f5e-7d9a-4185-9a93-a5c476e4564a", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "6e0c60da", "score_band_range_cd": 6, "skill_cd": "TRA", "skill_desc": "Transitions", "uId": "46ffe705-9908-43fc-a9a8-9b173c6a3e62", "updateDate": 1691007959373};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-6e0c60da");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

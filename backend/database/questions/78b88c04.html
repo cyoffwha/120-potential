@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 78b88c04</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Joshua Hinson, director of the language revitalization program of the Chickasaw Nation in Oklahoma, helped produce the world&rsquo;s first Indigenous-language instructional app, Chickasaw <span aria-hidden="true">______</span><span class="sr-only">blank</span> Chickasaw TV, in 2010; and a Rosetta Stone language course in Chickasaw, in 2015. </p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Basic; in 2009, an online television network;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Basic; in 2009, an online television network,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Basic, in 2009; an online television network,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Basic, in 2009, an online television network,&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer. The convention being tested is the punctuation of items in a complex series. It&rsquo;s conventional to use a semicolon to separate items in a complex series with internal punctuation, and in this choice, the semicolon after &ldquo;2009&rdquo; is conventionally used to separate the first item (&ldquo;the world&rsquo;s&hellip;2009&rdquo;) and the second item (&ldquo;an online&hellip;2010&rdquo;) in the series of things that Hinson helped create. Further, the comma after &ldquo;Basic&rdquo; correctly pairs with the comma after &ldquo;app,&rdquo; and the comma after &ldquo;network&rdquo; correctly pairs with the comma after &ldquo;TV&rdquo; to set off the supplemental elements (&ldquo;Chickasaw Basic&rdquo; and &ldquo;Chickasaw TV&rdquo;) that provide the names of the app and the TV network, respectively. Altogether, the punctuation in this choice results in a sentence that clearly indicates that Hinson helped make a language app in 2009, an online TV network in 2010, and a language course in 2015. &nbsp;</p><p>Choice A is incorrect because it fails to punctuate the complex series in a way that makes clear that Hinson helped make a language app in 2009, an online TV network in 2010, and a language course in 2015. Choice B is incorrect because it fails to punctuate the complex series in a way that makes clear that Hinson helped make a language app in 2009, an online TV network in 2010, and a language course in 2015.&nbsp;Choice D is incorrect because the comma after &ldquo;2009&rdquo; doesn&rsquo;t match the semicolon used to separate the second and third items in the complex series. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">937 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eBasic; in 2009, an online television network;\u003c/p\u003e", "id": "181f34cd-ae48-4789-8075-fd62bb3d9715"}, {"content": "\u003cp\u003eBasic; in 2009, an online television network,\u003c/p\u003e", "id": "0aa3630d-2354-419c-a3c6-c540a3754a6b"}, {"content": "\u003cp\u003eBasic, in 2009; an online television network,\u003c/p\u003e", "id": "54e15d6a-694c-4d8f-a60f-fc502cbc4bce"}, {"content": "\u003cp\u003eBasic, in 2009, an online television network,\u0026nbsp;\u003c/p\u003e", "id": "52384a89-a769-428b-a9ac-4feeda39d49b"}], "correct_answer": ["C"], "externalid": "244cf997-b270-4a5d-8ae4-1182edf85856", "keys": ["54e15d6a-694c-4d8f-a60f-fc502cbc4bce"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-607-SEC", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer. The convention being tested is the punctuation of items in a complex series. It\u0026rsquo;s conventional to use a semicolon to separate items in a complex series with internal punctuation, and in this choice, the semicolon after \u0026ldquo;2009\u0026rdquo; is conventionally used to separate the first item (\u0026ldquo;the world\u0026rsquo;s\u0026hellip;2009\u0026rdquo;) and the second item (\u0026ldquo;an online\u0026hellip;2010\u0026rdquo;) in the series of things that Hinson helped create. Further, the comma after \u0026ldquo;Basic\u0026rdquo; correctly pairs with the comma after \u0026ldquo;app,\u0026rdquo; and the comma after \u0026ldquo;network\u0026rdquo; correctly pairs with the comma after \u0026ldquo;TV\u0026rdquo; to set off the supplemental elements (\u0026ldquo;Chickasaw Basic\u0026rdquo; and \u0026ldquo;Chickasaw TV\u0026rdquo;) that provide the names of the app and the TV network, respectively. Altogether, the punctuation in this choice results in a sentence that clearly indicates that Hinson helped make a language app in 2009, an online TV network in 2010, and a language course in 2015. \u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because it fails to punctuate the complex series in a way that makes clear that Hinson helped make a language app in 2009, an online TV network in 2010, and a language course in 2015. Choice B is incorrect because it fails to punctuate the complex series in a way that makes clear that Hinson helped make a language app in 2009, an online TV network in 2010, and a language course in 2015.\u0026nbsp;Choice D is incorrect because the comma after \u0026ldquo;2009\u0026rdquo; doesn\u0026rsquo;t match the semicolon used to separate the second and third items in the complex series. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eJoshua Hinson, director of the language revitalization program of the Chickasaw Nation in Oklahoma, helped produce the world\u0026rsquo;s first Indigenous-language instructional app, Chickasaw \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e Chickasaw TV, in 2010; and a Rosetta Stone language course in Chickasaw, in 2015. \u003c/p\u003e", "templateclusterid": "2c713773-6dd2-4e04-8f1b-3e4d7e81fee3", "templateclustername": "", "type": "mcq", "vaultid": "e69849dc-dc36-4b39-9255-34c4565d95ec"}, "createDate": 1691007959339, "difficulty": "H", "external_id": "244cf997-b270-4a5d-8ae4-1182edf85856", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "78b88c04", "score_band_range_cd": 6, "skill_cd": "BOU", "skill_desc": "Boundaries", "uId": "faa6b18b-edb0-49df-b90f-a61a1ca4bde7", "updateDate": 1691007959339};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-78b88c04");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

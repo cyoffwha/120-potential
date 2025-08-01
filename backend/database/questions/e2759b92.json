@@ -1,0 +1,22 @@
+{
+  "question_id": "e2759b92",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Occupying a significant part of modern-day Nigeria, the Kingdom of Benin was one of the major powers in West Africa between the thirteenth and nineteenth centuries. It ______ blank ruled by Oba Ewuare I from 1440 to 1473.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "is",
+    "will be",
+    "has been",
+    "was"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the past tense verb \"was ruled\" correctly indicates that Oba Ewuare I ruled the Kingdom of Benin in the distant past (from 1440 to 1473). This past tense verb choice is consistent with the other past tense verb (\"was\") used to describe the Kingdom of Benin.",
+    "A": "Choice A is incorrect because the present tense verb \"is ruled\" doesn't indicate that Oba Ewuare I ruled the Kingdom of Benin in the distant past.",
+    "B": "Choice B is incorrect because the future tense verb \"will be ruled\" doesn't indicate that Oba Ewuare I ruled the Kingdom of Benin in the distant past.",
+    "C": "Choice C is incorrect because the present perfect tense verb \"has been ruled\" doesn't indicate that Oba Ewuare I ruled the Kingdom of Benin in the distant past."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "5d3177aa",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In the early 1960s, the US had a strict national-origins quota system for immigrants. The number of new immigrants allowed from a country each year was based on how many people from that country lived in the US in 1890. This system favored immigrants from northern Europe. Almost 70% of slots were reserved for immigrants from Great Britain, Ireland, and Germany. The 1965 Hart-Celler Act abolished the national-origins quota system. The student wants to present the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to present the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Almost 70% of slots were reserved for immigrants from Great Britain, Ireland, and Germany at the time the Hart-Celler Act was proposed.",
+    "Prior to the Hart-Celler Act, new immigration quotas were based on how many people from each country lived in the US in 1890.",
+    "The quota system in place in the early 1960s was abolished by the 1965 Hart-Celler Act.&nbsp;",
+    "The 1965 Hart-Celler Act abolished the national-origins quota system, which favored immigrants from northern Europe."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence presents the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration, noting that the 1965 act abolished the national-origins quota system and explaining why that mattered, historically: because the old quota system had favored immigrants from northern Europe.",
+    "A": "Choice A is incorrect. The sentence describes an aspect of immigration policy at the time the Hart-Celler Act was proposed; it doesn't present the significance of the Hart-Celler Act to an audience unfamiliar with the history of US immigration.",
+    "B": "Choice B is incorrect. The sentence describes an aspect of immigration policy before the Hart-Celler Act; it doesn't describe or present the significance of the act to an audience unfamiliar with the history of US immigration.",
+    "C": "Choice C is incorrect. While the sentence indicates that the Hart-Celler Act abolished the old quota system, it doesn't explain the act or the quota system to an audience unfamiliar with the history of US immigration."
+  }
+}

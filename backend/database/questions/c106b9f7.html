@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question c106b9f7</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><strong>Text 1</strong></p>
+<p>American sculptor Edmonia Lewis is best known for her sculptures that represent figures from history and mythology, such as <em>The Death of Cleopatra</em> and <em>Haga</em>r. Although Lewis sculpted other subjects, her career as a sculptor is best represented by the works in which she depicted these historical and mythical themes.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Text 2&nbsp;</strong></p>
+<p>Art historians have typically ignored the many portrait busts Edmonia Lewis created. Lewis likely carved these busts (sculptures of a person&rsquo;s head) frequently throughout her long career. She is known for her sculptures that represent historical figures, but Lewis likely supported herself financially by carving portrait busts for acquaintances who paid her to represent their features. Thus, Lewis&rsquo;s portrait busts are a central aspect of her career as a sculptor.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, both authors would most likely agree with which statement?&nbsp;</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Lewis&rsquo;s portrait busts have overshadowed her other work.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p><em>The Death of Cleopatra</em> is Lewis&rsquo;s most famous piece.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Sculpting representations of historical figures was a short-lived trend.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Lewis&rsquo;s works are varied in the subjects they depict.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. Author 1 acknowledges that Lewis sculpted other subjects besides historical and mythical figures, suggesting a variety of subjects depicted. Author 2 mentions that Lewis carved portrait busts as well as historical sculptures, which also implies variation among Lewis&rsquo;s subjects. </p><p>Choice A is incorrect. Neither text suggests that Lewis&rsquo;s portrait busts have received more attention or appreciation than her other work. Author 1 briefly mentions her &ldquo;other works,&rdquo; but mostly focuses on her historical and mythical works. Author 2 states that art historians have typically ignored her portrait busts, which suggests that they haven&rsquo;t overshadowed her other work. Choice B is incorrect. Neither text explicitly states that <em>The Death of Cleopatra</em> is Lewis&rsquo;s most famous piece. Author 1 mentions it as one example of her historical works, but does not single it out as being more important or influential than <em>Hagar</em>. Author 2 does not mention it at all, focusing instead on her portrait busts. Choice C is incorrect. This choice isn&rsquo;t supported by the texts. Neither text suggests that sculpting historical figures was a trend that faded quickly. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">521 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eLewis\u0026rsquo;s portrait busts have overshadowed her other work.\u003c/p\u003e", "id": "e5aff14c-f483-4952-8188-f8d56826b820"}, {"content": "\u003cp\u003e\u003cem\u003eThe Death of Cleopatra\u003c/em\u003e is Lewis\u0026rsquo;s most famous piece.\u003c/p\u003e", "id": "82efa7ef-9b6f-48d4-be27-09e98ffe3ba5"}, {"content": "\u003cp\u003eSculpting representations of historical figures was a short-lived trend.\u003c/p\u003e", "id": "9af44078-f7b4-489f-a913-87534d138df0"}, {"content": "\u003cp\u003eLewis\u0026rsquo;s works are varied in the subjects they depict.\u003c/p\u003e", "id": "6ffde011-05c6-487a-9eb5-29e5efe4a87c"}], "correct_answer": ["D"], "externalid": "3edde485-3d30-41b8-8af4-98ffa91a318a", "keys": ["6ffde011-05c6-487a-9eb5-29e5efe4a87c"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-E006", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. Author 1 acknowledges that Lewis sculpted other subjects besides historical and mythical figures, suggesting a variety of subjects depicted. Author 2 mentions that Lewis carved portrait busts as well as historical sculptures, which also implies variation among Lewis\u0026rsquo;s subjects. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Neither text suggests that Lewis\u0026rsquo;s portrait busts have received more attention or appreciation than her other work. Author 1 briefly mentions her \u0026ldquo;other works,\u0026rdquo; but mostly focuses on her historical and mythical works. Author 2 states that art historians have typically ignored her portrait busts, which suggests that they haven\u0026rsquo;t overshadowed her other work. Choice B is incorrect. Neither text explicitly states that \u003cem\u003eThe Death of Cleopatra\u003c/em\u003e is Lewis\u0026rsquo;s most famous piece. Author 1 mentions it as one example of her historical works, but does not single it out as being more important or influential than \u003cem\u003eHagar\u003c/em\u003e. Author 2 does not mention it at all, focusing instead on her portrait busts. Choice C is incorrect. This choice isn\u0026rsquo;t supported by the texts. Neither text suggests that sculpting historical figures was a trend that faded quickly. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, both authors would most likely agree with which statement?\u0026nbsp;\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eAmerican sculptor Edmonia Lewis is best known for her sculptures that represent figures from history and mythology, such as \u003cem\u003eThe Death of Cleopatra\u003c/em\u003e and \u003cem\u003eHaga\u003c/em\u003er. Although Lewis sculpted other subjects, her career as a sculptor is best represented by the works in which she depicted these historical and mythical themes.\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eText 2\u0026nbsp;\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eArt historians have typically ignored the many portrait busts Edmonia Lewis created. Lewis likely carved these busts (sculptures of a person\u0026rsquo;s head) frequently throughout her long career. She is known for her sculptures that represent historical figures, but Lewis likely supported herself financially by carving portrait busts for acquaintances who paid her to represent their features. Thus, Lewis\u0026rsquo;s portrait busts are a central aspect of her career as a sculptor.\u003c/p\u003e", "templateclusterid": "1bb96b18-733c-4375-aaaa-157395a89bcc", "templateclustername": "", "type": "mcq", "vaultid": "b7ff6596-4cdb-4e80-b44f-520c92e2d012"}, "createDate": 1691007959361, "difficulty": "E", "external_id": "3edde485-3d30-41b8-8af4-98ffa91a318a", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "c106b9f7", "score_band_range_cd": 2, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "e44df05d-051e-4c5c-946e-419379b66608", "updateDate": 1691007959361};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-c106b9f7");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

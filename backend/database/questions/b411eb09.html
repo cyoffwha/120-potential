@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question b411eb09</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>New and interesting research conducted by Suleiman A. Al-Sweedan and Moath Alhaj is inspired by their observation that though there have been many studies of the effect of high altitude on blood chemistry, there is a <span aria-hidden="true">______</span><span class="sr-only">blank</span> studies of the effect on blood chemistry of living in locations below sea level, such as the California towns of Salton City and Seeley.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical and precise word or phrase?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>quarrel about</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>paucity of</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>profusion of</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>verisimilitude in</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it most logically and precisely completes the text&rsquo;s discussion of studies of altitude&rsquo;s effect on blood chemistry. In this context, &ldquo;paucity of&rdquo; means lack of. In describing the inspiration behind Al-Sweedan and Alhaj&rsquo;s research, the text uses the word &ldquo;though&rdquo; to suggest a contrasting relationship between two types of studies: those examining the effect on blood chemistry of living at a high altitude and those examining the effect on blood chemistry of living in locations below sea level. This contrasting relationship and the text&rsquo;s use of the word &ldquo;many&rdquo; provide context suggesting that there are few, if any, examples of the second type of study, whereas there are numerous examples of the first type. </p><p>Choice A is incorrect because it wouldn&rsquo;t make sense in context for there to be a &ldquo;quarrel about,&rdquo; or open disagreement about, studies of the effect on blood chemistry of living in locations below sea level. The text&rsquo;s use of the words &ldquo;though&rdquo; and &ldquo;many&rdquo; suggests a contrasting relationship in terms of amount between two types of studies: those examining the effect on blood chemistry of living at a high altitude and those examining the effect on blood chemistry of living in locations below sea level. There&rsquo;s nothing in the text to suggest that the contrast between the two types of studies involves the extent to which researchers broadly agree or disagree about the contents of either type. Choice C is incorrect because it wouldn&rsquo;t make sense in context for there to be a &ldquo;profusion of,&rdquo; or great abundance of, studies of the effect on blood chemistry of living in locations below sea level. The text&rsquo;s use of the words &ldquo;though&rdquo; and &ldquo;many&rdquo; suggests a contrasting relationship in terms of amount between two types of studies: those examining the effect on blood chemistry of living at a high altitude and those examining the effect on blood chemistry of living in locations below sea level. Rather than logically completing this contrast, &ldquo;profusion of&rdquo; would indicate that the two types of studies are similar in terms of amount, with many examples existing of both types. Choice D is incorrect because it wouldn&rsquo;t make sense in context for there to be a &ldquo;verisimilitude in,&rdquo; or appearance of truth in, studies of the effect on blood chemistry of living in locations below sea level. The text&rsquo;s use of the words &ldquo;though&rdquo; and &ldquo;many&rdquo; suggests a contrasting relationship in terms of amount between two types of studies: those examining the effect on blood chemistry of living at a high altitude and those examining the effect on blood chemistry of living in locations below sea level. There&rsquo;s nothing in the text to suggest that the contrast between the two types of studies involves the extent to which either type of study presents an appearance of truth. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">399 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003equarrel about\u003c/p\u003e", "id": "2883e722-8b00-47c1-a26c-31474f6f1648"}, {"content": "\u003cp\u003epaucity of\u003c/p\u003e", "id": "3a413c85-3069-46dd-9dde-7f37e20ee26f"}, {"content": "\u003cp\u003eprofusion of\u003c/p\u003e", "id": "8b8b9f4b-8313-497f-abe0-325f7347b9e8"}, {"content": "\u003cp\u003everisimilitude in\u003c/p\u003e", "id": "e33d710f-c13d-4fb0-ad7b-aef1cb170507"}], "correct_answer": ["B"], "externalid": "22aee311-bf13-42f1-867e-fbf71ee4ecfd", "keys": ["3a413c85-3069-46dd-9dde-7f37e20ee26f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "T2013", "position": "25", "rationale": "\u003cp\u003eChoice B is the best answer because it most logically and precisely completes the text\u0026rsquo;s discussion of studies of altitude\u0026rsquo;s effect on blood chemistry. In this context, \u0026ldquo;paucity of\u0026rdquo; means lack of. In describing the inspiration behind Al-Sweedan and Alhaj\u0026rsquo;s research, the text uses the word \u0026ldquo;though\u0026rdquo; to suggest a contrasting relationship between two types of studies: those examining the effect on blood chemistry of living at a high altitude and those examining the effect on blood chemistry of living in locations below sea level. This contrasting relationship and the text\u0026rsquo;s use of the word \u0026ldquo;many\u0026rdquo; provide context suggesting that there are few, if any, examples of the second type of study, whereas there are numerous examples of the first type. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because it wouldn\u0026rsquo;t make sense in context for there to be a \u0026ldquo;quarrel about,\u0026rdquo; or open disagreement about, studies of the effect on blood chemistry of living in locations below sea level. The text\u0026rsquo;s use of the words \u0026ldquo;though\u0026rdquo; and \u0026ldquo;many\u0026rdquo; suggests a contrasting relationship in terms of amount between two types of studies: those examining the effect on blood chemistry of living at a high altitude and those examining the effect on blood chemistry of living in locations below sea level. There\u0026rsquo;s nothing in the text to suggest that the contrast between the two types of studies involves the extent to which researchers broadly agree or disagree about the contents of either type. Choice C is incorrect because it wouldn\u0026rsquo;t make sense in context for there to be a \u0026ldquo;profusion of,\u0026rdquo; or great abundance of, studies of the effect on blood chemistry of living in locations below sea level. The text\u0026rsquo;s use of the words \u0026ldquo;though\u0026rdquo; and \u0026ldquo;many\u0026rdquo; suggests a contrasting relationship in terms of amount between two types of studies: those examining the effect on blood chemistry of living at a high altitude and those examining the effect on blood chemistry of living in locations below sea level. Rather than logically completing this contrast, \u0026ldquo;profusion of\u0026rdquo; would indicate that the two types of studies are similar in terms of amount, with many examples existing of both types. Choice D is incorrect because it wouldn\u0026rsquo;t make sense in context for there to be a \u0026ldquo;verisimilitude in,\u0026rdquo; or appearance of truth in, studies of the effect on blood chemistry of living in locations below sea level. The text\u0026rsquo;s use of the words \u0026ldquo;though\u0026rdquo; and \u0026ldquo;many\u0026rdquo; suggests a contrasting relationship in terms of amount between two types of studies: those examining the effect on blood chemistry of living at a high altitude and those examining the effect on blood chemistry of living in locations below sea level. There\u0026rsquo;s nothing in the text to suggest that the contrast between the two types of studies involves the extent to which either type of study presents an appearance of truth. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical and precise word or phrase?\u003c/p\u003e", "stimulus": "\u003cp\u003eNew and interesting research conducted by Suleiman A. Al-Sweedan and Moath Alhaj is inspired by their observation that though there have been many studies of the effect of high altitude on blood chemistry, there is a \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e studies of the effect on blood chemistry of living in locations below sea level, such as the California towns of Salton City and Seeley.\u003c/p\u003e", "templateclusterid": "4cd66247-291b-48e7-9f2b-8732d7b8204b", "templateclustername": "", "type": "mcq", "vaultid": "1c10a1fb-8270-497d-bbae-ad8a4e790ba0"}, "createDate": 1691007959378, "difficulty": "H", "external_id": "22aee311-bf13-42f1-867e-fbf71ee4ecfd", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "b411eb09", "score_band_range_cd": 7, "skill_cd": "WIC", "skill_desc": "Words in Context", "uId": "74d8972a-1c58-45c2-b6dc-e4942de18ff6", "updateDate": 1691007959378};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-b411eb09");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

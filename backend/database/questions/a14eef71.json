@@ -1,0 +1,22 @@
+{
+  "question_id": "a14eef71",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In 2015, a team led by materials scientists Anirudha Sumant and Diana Berman succeeded in reducing the coefficient of friction (COF) between two surfaces to the lowest possible level—superlubricity. A nearly frictionless (and, as its name suggests, extremely slippery) state, ______ blank",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "when their COF drops below 0.01, two surfaces reach superlubricity.",
+    "two surfaces, when their COF drops below 0.01, reach superlubricity.",
+    "reaching superlubricity occurs when two surfaces&rsquo; COF drops below 0.01.",
+    "superlubricity is reached when two surfaces&rsquo; COF drops below 0.01."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The subject of the modifier \"a nearly frictionless state\" is \"superlubricity.\" Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\" must be the first word in the missing clause.",
+    "A": "Choice A is incorrect. This choice creates a subject-modifier placement error. The subject of the modifier \"a nearly frictionless state\" is \"superlubricity.\" Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\" must be the first word in the missing clause.",
+    "B": "Choice B is incorrect. This choice creates a subject-modifier placement error. The subject of the modifier \"a nearly frictionless state\" is \"superlubricity.\" Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\" must be the first word in the missing clause.",
+    "C": "Choice C is incorrect. This choice creates a subject-modifier placement error. The subject of the modifier \"a nearly frictionless state\" is \"superlubricity.\" Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\" must be the first word in the missing clause."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "ac9a3a26",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "According to historian Vicki L. Ruiz, Mexican American women made crucial contributions to the labor movement during World War II. At the time, food processing companies entered into contracts to supply United States armed forces with canned goods. Increased production quotas conferred greater bargaining power on the companies' employees, many of whom were Mexican American women: employees insisted on more favorable benefits, and employers, who were anxious to fulfill the contracts, complied. Thus, labor activism became a platform for Mexican American women to assert their agency.",
+  "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+  "answer_options": [
+    "It elaborates on a claim about labor relations in a particular industry made earlier in the text.",
+    "It offers an example of a trend in the World War II&ndash;era economy discussed earlier in the text.",
+    "It notes a possible exception to the historical narrative of labor activism sketched earlier in the text.",
+    "It provides further details about the identities of the workers discussed earlier in the text."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it best describes how the underlined portion functions in the text as a whole. The text says that the increased production quotas of food processing companies during World War II enabled employees to make better bargains in exchange for their labor. The underlined portion presents an example of this increased bargaining power: employees requested more favorable benefits, and employers complied because they were under pressure to fulfill the demanding terms of their contracts. Thus, the underlined portion of the text elaborates on a claim about labor relations in a particular industry (food processing) made earlier in the text.",
+    "B": "Choice B is incorrect because there is no indication in the text that the economic factors that influenced food processing also influenced other parts of the economy; thus, the bargaining described in the underlined portion of the text cannot be called an example of a trend.",
+    "C": "Choice C is incorrect because the underlined portion supports the historical narrative of labor activism in food processing that is sketched in the text, instead of noting an exception to that narrative.",
+    "D": "Choice D is incorrect because while the underlined portion does discuss the demands that workers made in exchange for their labor, it does not discuss the identities of the workers."
+  }
+}

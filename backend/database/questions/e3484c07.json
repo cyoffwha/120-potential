@@ -1,0 +1,22 @@
+{
+  "question_id": "e3484c07",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Bioluminescence is the emission of light by living organisms. This light is produced by chemical reactions in organisms' cells. Jellyfish emit flashes of blue light. This behavior serves to startle predators. Black dragonfish emit a steady red light. This behavior helps them locate prey in deep waters. The student wants to emphasize a difference between the behavior of jellyfish and that of black dragonfish. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize a difference between the behavior of jellyfish and that of black dragonfish. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Both jellyfish and black dragonfish are organisms that emit light, which is produced by chemical reactions in these organisms&rsquo; cells.",
+    "Black dragonfish emit a steady red light, which helps them locate prey in deep waters.",
+    "Bioluminescence, the emission of light by living organisms, results from chemical reactions in organisms&rsquo; cells.&nbsp;",
+    "Jellyfish emit light to startle predators, whereas black dragonfish do so to locate prey."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence emphasizes a difference between the behavior of jellyfish and that of black dragonfish, noting that jellyfish and black dragonfish emit light as part of different behaviors (protection and predation, respectively).",
+    "A": "Choice A is incorrect. The sentence emphasizes a similarity between jellyfish and black dragonfish; it doesn't emphasize a difference between the behavior of the two animals.",
+    "B": "Choice B is incorrect. The sentence emphasizes the type of bioluminescence exhibited by black dragonfish, noting that it's used in predation; it doesn't emphasize a difference between the behavior of the two animals.",
+    "C": "Choice C is incorrect. The sentence defines bioluminescence and explains how it works; the sentence doesn't mention either animal or emphasize a difference between them."
+  }
+}

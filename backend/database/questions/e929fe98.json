@@ -1,0 +1,22 @@
+{
+  "question_id": "e929fe98",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Composer Florence Price won first place for her score Symphony in E Minor at the 1932 Wanamaker Foundation Awards. The piece was performed the following year by the Chicago Symphony Orchestra, a significant recognition of its quality. Price continued to compose many musical pieces throughout her career, blending traditional Black spirituals with classical European Romantic musical traditions. In recent years, Price's concertos and symphonies have been performed and recorded by several major orchestras, further preserving her work for others to enjoy.",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To provide examples of Price&rsquo;s importance as a composer",
+    "To argue that more major orchestras should perform Price&rsquo;s compositions",
+    "To describe the musical styles that inspired many of Price&rsquo;s symphonies",
+    "To compare Price&rsquo;s scores with those of classical European composers"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The text provides an overview of Florence Price's importance by describing her success at the 1932 Wanamaker Foundation Awards, her blending of Black spirituals and classical European Romantic musical traditions, and the recent performances and recordings of her concertos and symphonies by major orchestras.",
+    "B": "Choice B is incorrect. The text does mention that Price's compositions have been performed and recorded by major orchestras, but it doesn't argue that more orchestras should do so.",
+    "C": "Choice C is incorrect. The text does mention the blending of Black spirituals and classical European Romantic musical traditions, but only briefly, as part of a broader overview of Price's career.",
+    "D": "Choice D is incorrect. The text mentions Price's blending of Black spirituals with classical European Romantic musical traditions, but it doesn't directly compare Price's scores with those of classical European composers."
+  }
+}

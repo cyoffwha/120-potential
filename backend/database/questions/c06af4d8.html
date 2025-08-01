@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question c06af4d8</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Sociologist Alton Okinaka sits on the review board tasked with adding new sites to the Hawai&lsquo;i Register of Historic Places, which includes Pi&lsquo;ilanihale Heiau and the &lsquo;Ōpaeka&lsquo;a Road Bridge. Okinaka doesn&rsquo;t make such decisions <span aria-hidden="true">______</span><span class="sr-only">blank</span> all historical designations must be approved by a group of nine other experts from the fields of architecture, archaeology, history, and Hawaiian culture.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text so that it conforms to the conventions of Standard English?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>single-handedly, however;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>single-handedly; however,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>single-handedly, however,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>single-handedly however</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The convention being tested is the punctuation of a supplementary word or phrase between two main clauses. This choice correctly uses a comma to separate the supplementary adverb &ldquo;however&rdquo; from the preceding main clause (&ldquo;Okinaka doesn&rsquo;t&hellip;single-handedly&rdquo;) and a semicolon to join the next main clause (&ldquo;all&hellip;culture&rdquo;) to the rest of the sentence. Further, placing the semicolon after &ldquo;however&rdquo; correctly indicates that the information in the preceding main clause (Okinaka doesn&rsquo;t make such decisions single-handedly) is contrary to what might be assumed from the information in the previous sentence (Okinaka sits on the review board that adds new sites to the Hawaii Register of Historic Places). </p><p>Choice B is incorrect because placing the semicolon after &ldquo;single-handedly&rdquo; and the comma after &ldquo;however&rdquo; illogically indicates that the information in the next main clause (all historical designations must be approved by a group of experts) is contrary to the information in the previous clause (Okinaka doesn&rsquo;t make such decisions single-handedly).&nbsp;Choice C is incorrect because it results in a comma splice. Commas can&rsquo;t be used in this way to punctuate a supplementary word or phrase between two main clauses.&nbsp;Choice D is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">797 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003esingle-handedly, however;\u003c/p\u003e", "id": "50c01ca2-37b1-473d-b2cb-b954a7eb889d"}, {"content": "\u003cp\u003esingle-handedly; however,\u003c/p\u003e", "id": "f8176a6b-352c-4139-9730-002652787692"}, {"content": "\u003cp\u003esingle-handedly, however,\u003c/p\u003e", "id": "8aa04568-b581-42a8-8a57-e87045f36886"}, {"content": "\u003cp\u003esingle-handedly however\u003c/p\u003e", "id": "948e599e-ec1b-4d00-849f-58b1ab79e8cd"}], "correct_answer": ["A"], "externalid": "a1fa2a51-c2ae-4892-8ffc-41238399100e", "keys": ["50c01ca2-37b1-473d-b2cb-b954a7eb889d"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "T0014", "position": "25", "rationale": "\u003cp\u003eChoice A is the best answer. The convention being tested is the punctuation of a supplementary word or phrase between two main clauses. This choice correctly uses a comma to separate the supplementary adverb \u0026ldquo;however\u0026rdquo; from the preceding main clause (\u0026ldquo;Okinaka doesn\u0026rsquo;t\u0026hellip;single-handedly\u0026rdquo;) and a semicolon to join the next main clause (\u0026ldquo;all\u0026hellip;culture\u0026rdquo;) to the rest of the sentence. Further, placing the semicolon after \u0026ldquo;however\u0026rdquo; correctly indicates that the information in the preceding main clause (Okinaka doesn\u0026rsquo;t make such decisions single-handedly) is contrary to what might be assumed from the information in the previous sentence (Okinaka sits on the review board that adds new sites to the Hawaii Register of Historic Places). \u003c/p\u003e\u003cp\u003eChoice B is incorrect because placing the semicolon after \u0026ldquo;single-handedly\u0026rdquo; and the comma after \u0026ldquo;however\u0026rdquo; illogically indicates that the information in the next main clause (all historical designations must be approved by a group of experts) is contrary to the information in the previous clause (Okinaka doesn\u0026rsquo;t make such decisions single-handedly).\u0026nbsp;Choice C is incorrect because it results in a comma splice. Commas can\u0026rsquo;t be used in this way to punctuate a supplementary word or phrase between two main clauses.\u0026nbsp;Choice D is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text so that it conforms to the conventions of Standard English?\u003c/p\u003e", "stimulus": "\u003cp\u003eSociologist Alton Okinaka sits on the review board tasked with adding new sites to the Hawai\u0026lsquo;i Register of Historic Places, which includes Pi\u0026lsquo;ilanihale Heiau and the \u0026lsquo;\u014cpaeka\u0026lsquo;a Road Bridge. Okinaka doesn\u0026rsquo;t make such decisions \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e all historical designations must be approved by a group of nine other experts from the fields of architecture, archaeology, history, and Hawaiian culture.\u003c/p\u003e", "templateclusterid": "13bec23c-0059-4e2f-8264-28884a8ee9d1", "templateclustername": "", "type": "mcq", "vaultid": "78ec09f7-dae9-45ba-bf85-1346c5f6c406"}, "createDate": 1691007959378, "difficulty": "H", "external_id": "a1fa2a51-c2ae-4892-8ffc-41238399100e", "ibn": null, "module": "english", "pPcc": "SAT#SEC", "primary_class_cd": "SEC", "primary_class_cd_desc": "Standard English Conventions", "program": "SAT", "questionId": "c06af4d8", "score_band_range_cd": 7, "skill_cd": "BOU", "skill_desc": "Boundaries", "uId": "54976eb3-2d1b-4fe0-a758-499aad64d62f", "updateDate": 1691007959378};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-c06af4d8");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

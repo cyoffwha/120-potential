@@ -1,0 +1,22 @@
+{
+  "question_id": "86b78078",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Samuel Selvon was a Trinidadian author. The Lonely Londoners is one of his most celebrated novels. Selvon published the novel in 1956. It is about a group of men who emigrate from the Caribbean to Great Britain after World War II. Some of The Lonely Londoners ' characters also appear in Selvon's later novel Moses Ascending . The student wants to introduce Samuel Selvon and his novel The Lonely Londoners to a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to introduce Samuel Selvon and his novel  The Lonely Londoners  to a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "In 1956, Trinidadian author Samuel Selvon published one of his most celebrated novels,  The Lonely Londoners,  which is about a group of men who emigrate from the Caribbean to Great Britain after World War II.",
+    "Samuel Selvon wrote the novel&nbsp; Moses Ascending&nbsp; after he wrote&nbsp; The Lonely Londoners.&nbsp;",
+    "The Lonely Londoners , a celebrated novel that was published in 1956, depicts post&ndash;World War II Caribbean migration from the perspective of a Trinidadian author.",
+    "Some of the characters who appear in Samuel Selvon&rsquo;s  Moses Ascending  also appear in  The Lonely Londoners."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. By noting that Selvon is a Trinidadian author and indicating that The Lonely Londoners , published in 1956, is about a group of men who emigrate from the Caribbean to Great Britain after World War II, the sentence effectively introduces Samuel Selvon and his novel to a new audience.",
+    "B": "Choice B is incorrect. The sentence indicates the order in which two of Selvon's novels were written; it doesn't introduce Samuel Selvon and The Lonely Londoners to a new audience.",
+    "C": "Choice C is incorrect. While the sentence describes the novel The Lonely Londoners , it doesn't mention its author, Samuel Selvon, by name and thus doesn't effectively introduce him to a new audience.",
+    "D": "Choice D is incorrect. The sentence indicates that two of Selvon's novels include the same characters; it doesn't introduce Samuel Selvon and The Lonely Londoners to a new audience."
+  }
+}

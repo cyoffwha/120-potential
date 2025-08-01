@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 82ec9628</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Archaeologist Sue Brunning explains why the seventh-century ship burial site at Sutton Hoo in England was likely the tomb of a king. First, the gold artifacts inside the ship suggest that the person buried with them was a wealthy and respected leader. <span aria-hidden="true">______</span><span class="sr-only">blank</span> the massive effort required to bury the ship would likely only have been undertaken for a king.</p></div>
+
+                        <div class="mt-3"><p>Which choice completes the text with the most logical transition?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Instead,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Still,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Specifically,</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Second,</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. &ldquo;Second&rdquo; logically signals that the information in this sentence&mdash;that the effort to bury the ship would likely only have been made for a king&mdash;joins the information in the previous sentence (&ldquo;first&hellip;&rdquo;) in supporting Brunning&rsquo;s claim that the burial site was likely the tomb of a king. </p><p>Choice A is incorrect because &ldquo;instead&rdquo; illogically signals that the information in this sentence presents an alternative or substitute to the previous information about the gold artifacts inside the ship. Rather, this sentence presents a second piece of information that supports Brunning&rsquo;s claim. Choice B is incorrect because &ldquo;still&rdquo; illogically signals that the information in this sentence exists in contrast to or despite the previous information about the gold artifacts inside the ship. Instead, this sentence presents a second piece of information that supports Brunning&rsquo;s claim. Choice C is incorrect because &ldquo;specifically&rdquo; illogically signals that the information in this sentence specifies or elaborates on the previous information about the gold artifacts inside the ship. Instead, this sentence presents a second piece of information that supports Brunning&rsquo;s claim. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">685 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eInstead,\u003c/p\u003e", "id": "b0d53f55-3546-4797-8c10-8c50efa5a940"}, {"content": "\u003cp\u003eStill,\u003c/p\u003e", "id": "3040fd5f-2d75-4095-ba1e-a550a94202d1"}, {"content": "\u003cp\u003eSpecifically,\u003c/p\u003e", "id": "f099b584-e6ee-446b-bc3f-434dde60d493"}, {"content": "\u003cp\u003eSecond,\u003c/p\u003e", "id": "b50d7bbd-5ff6-473a-b6c6-aa3bf4e1eba1"}], "correct_answer": ["D"], "externalid": "285e3025-d702-4d3b-a5f7-d9162ecdc5f7", "keys": ["b50d7bbd-5ff6-473a-b6c6-aa3bf4e1eba1"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-221-TRA", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. \u0026ldquo;Second\u0026rdquo; logically signals that the information in this sentence\u0026mdash;that the effort to bury the ship would likely only have been made for a king\u0026mdash;joins the information in the previous sentence (\u0026ldquo;first\u0026hellip;\u0026rdquo;) in supporting Brunning\u0026rsquo;s claim that the burial site was likely the tomb of a king. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because \u0026ldquo;instead\u0026rdquo; illogically signals that the information in this sentence presents an alternative or substitute to the previous information about the gold artifacts inside the ship. Rather, this sentence presents a second piece of information that supports Brunning\u0026rsquo;s claim. Choice B is incorrect because \u0026ldquo;still\u0026rdquo; illogically signals that the information in this sentence exists in contrast to or despite the previous information about the gold artifacts inside the ship. Instead, this sentence presents a second piece of information that supports Brunning\u0026rsquo;s claim. Choice C is incorrect because \u0026ldquo;specifically\u0026rdquo; illogically signals that the information in this sentence specifies or elaborates on the previous information about the gold artifacts inside the ship. Instead, this sentence presents a second piece of information that supports Brunning\u0026rsquo;s claim. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice completes the text with the most logical transition?\u003c/p\u003e", "stimulus": "\u003cp\u003eArchaeologist Sue Brunning explains why the seventh-century ship burial site at Sutton Hoo in England was likely the tomb of a king. First, the gold artifacts inside the ship suggest that the person buried with them was a wealthy and respected leader. \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e the massive effort required to bury the ship would likely only have been undertaken for a king.\u003c/p\u003e", "templateclusterid": "145fb3a2-9ed8-47af-a71e-9bb5b8ec63a3", "templateclustername": "", "type": "mcq", "vaultid": "3fa60e1d-abe4-43f6-9f29-88b6b1eb358f"}, "createDate": 1691007959332, "difficulty": "M", "external_id": "285e3025-d702-4d3b-a5f7-d9162ecdc5f7", "ibn": null, "module": "english", "pPcc": "SAT#EOI", "primary_class_cd": "EOI", "primary_class_cd_desc": "Expression of Ideas", "program": "SAT", "questionId": "82ec9628", "score_band_range_cd": 4, "skill_cd": "TRA", "skill_desc": "Transitions", "uId": "c32e7c39-1002-488d-841e-d4df098f3784", "updateDate": 1691007959332};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-82ec9628");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

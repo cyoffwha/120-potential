@@ -1,0 +1,22 @@
+{
+  "question_id": "a466679a",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 1976, the Inuit rock group Sikumiut recorded the album People of the Ice . Though only their first record, it shows a band already skilled at the difficult task of making music that sounds easy and fun. On songs like \"Utirumavunga,\" Lucassie Koperqualuk's guitar riffs effortlessly ______ blank Charlie Adams's delightfully catchy vocal melodies.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "blend, with",
+    "blend. With",
+    "blend; with",
+    "blend with"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is punctuation between a verb and a prepositional phrase. No punctuation is needed between the verb \"blend\" and the prepositional phrase \"with Charlie Adams's delightfully catchy vocal melodies.\" The prepositional phrase completes the idea of the sentence, explaining with what Koperqualuk's guitar riffs blend.",
+    "A": "Choice A is incorrect because no punctuation is needed between the verb and the prepositional phrase.",
+    "B": "Choice B is incorrect because no punctuation is needed between the verb and the prepositional phrase.",
+    "C": "Choice C is incorrect because no punctuation is needed between the verb and the prepositional phrase."
+  }
+}

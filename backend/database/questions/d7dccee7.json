@@ -1,0 +1,22 @@
+{
+  "question_id": "d7dccee7",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In a 2019 study, Jeremy Gunawardena and colleagues found that the single-celled protozoan Stentor roeseli not only uses strategies to escape irritating stimuli but also switches strategies when one fails. This evidence of protozoans sophisticatedly \"changing their minds\" demonstrates that single-celled organisms may not be limited to ______ blank behaviors.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "aggressive",
+    "rudimentary",
+    "evolving",
+    "advantageous"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of single-celled organism behavior. As used in this context, \"rudimentary\" means basic or unsophisticated. According to the text, a study of the single-celled protozoan Stentor roeseli showed that the organisms can switch strategies for escaping certain stimuli, \"sophisticatedly &lsquo;changing their minds'\" and using new strategies should other strategies fail. This context suggests that single-celled organisms may not be limited to behaviors that are basic or rudimentary, since the study showed that single-celled protozoans can respond complexly to irritating stimuli.",
+    "A": "Choice A is incorrect because the text doesn't suggest that single-celled organisms may not be limited to behavior that is \"aggressive,\" or threatening. Rather, the text suggests that single-celled organisms may not be limited to behaviors that are basic, since the study of Stentor roeseli showed that single-celled protozoans can respond complexly to irritating stimuli.",
+    "C": "Choice C is incorrect because the text doesn't suggest that single-celled organisms may not be limited to behavior that is \"evolving,\" or advancing. Rather, the text suggests that single-celled organisms may not be limited to behaviors that are basic, since the study of Stentor roeseli showed that single-celled protozoans can respond complexly to irritating stimuli.",
+    "D": "Choice D is incorrect because the text doesn't suggest that single-celled organisms may not be limited to behavior that is \"advantageous,\" or helpful. Rather, the text suggests that single-celled organisms may not be limited to behaviors that are basic, since the study of Stentor roeseli showed that single-celled protozoans can respond complexly to irritating stimuli."
+  }
+}

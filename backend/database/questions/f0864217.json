@@ -1,0 +1,22 @@
+{
+  "question_id": "f0864217",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Rabinal Ach &iacute; is a precolonial Maya dance drama performed annually in Rabinal, a town in the Guatemalan highlands. Based on events that occurred when Rabinal was a city-state ruled by a king, ______ blank had once been an ally of the king but was later captured while leading an invading force against him.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Rabinal Ach&iacute;  tells the story of K&rsquo;iche&rsquo; Ach&iacute;, a military leader who",
+    "K&rsquo;iche&rsquo; Ach&iacute;, the military leader in the story of  Rabinal Ach&iacute; ,",
+    "the military leader whose story is told in  Rabinal Ach&iacute; , K&rsquo;iche&rsquo; Ach&iacute;,&nbsp;",
+    "there was a military leader, K&rsquo;iche&rsquo; Ach&iacute;, who in  Rabinal Ach&iacute;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The modifier \"Based on events&hellip;by a king,\" is describing the drama \"Rabinal Ach&iacute;.\" Modifiers need to be next to the subjects they describe, so \"Rabinal Ach&iacute;\" needs to be the first word after the comma.",
+    "B": "Choice B is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. The modifier \"Based on events&hellip;by a king,\" is describing the drama \"Rabinal Ach&iacute;.\" Modifiers need to be next to the subjects they describe, so \"Rabinal Ach&iacute;\" needs to be the first word after the comma.",
+    "C": "Choice C is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. The modifier \"Based on events&hellip;by a king,\" is describing the drama \"Rabinal Ach&iacute;.\" Modifiers need to be next to the subjects they describe, so \"Rabinal Ach&iacute;\" needs to be the first word after the comma.",
+    "D": "Choice D is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. The modifier \"Based on events&hellip;by a king,\" is describing the drama \"Rabinal Ach&iacute;.\" Modifiers need to be next to the subjects they describe, so \"Rabinal Ach&iacute;\" needs to be the first word after the comma."
+  }
+}

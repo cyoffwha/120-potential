@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question aa5897b8</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><u>In Jane Austen&rsquo;s novel <em>Mansfield Park</em>, an almost imperceptible smile from potential suitor Henry Crawford causes the protagonist Fanny Price to blush; her embarrassment grows when she suspects that he is aware of it.</u> This moment&mdash;in which Fanny not only infers Henry&rsquo;s mental state through his gestures, but also infers that <em>he</em> is drawing inferences about <em>her</em> mental state&mdash;illustrates what literary scholar George Butte calls &ldquo;deep intersubjectivity,&rdquo; a technique for representing interactions between consciousnesses through which Austen&rsquo;s novels derive much of their social and psychological drama.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes the function of the underlined sentence in the text as a whole?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It states a claim about Austen&rsquo;s skill at representing psychological complexity that is reinforced by an example presented in the following sentence.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It advances an interpretation of an Austen protagonist who is contrasted with protagonists from other Austen novels cited in the following sentence.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It describes a recurring theme in Austen&rsquo;s novels that is the focus of a literary scholar&rsquo;s analysis summarized in the following sentence.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>It provides a synopsis of an interaction in an Austen novel that illustrates a literary concept discussed in the following sentence.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The underlined sentence provides a concrete example to ground readers&rsquo; understanding of the &ldquo;deep intersubjectivity&rdquo; described in the next sentence as central to Austen&rsquo;s work. </p><p>Choice A is incorrect. There is no evaluation made of Austen&rsquo;s skill in this sentence, and no examples are given in the following sentence. This choice essentially flips the paragraph: it&rsquo;s this first sentence that provides an example. Choice B is incorrect. There are no other Austen protagonists mentioned in this passage, so this couldn&rsquo;t be the answer. Choice C is incorrect. The underlined sentence doesn&rsquo;t identify any &ldquo;recurring theme,&rdquo; but instead simply describes one interaction from one book. This interaction exemplifies the literary technique of &ldquo;deep intersubjectivity&rdquo; that is introduced in the next sentence. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">352 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eIt states a claim about Austen\u0026rsquo;s skill at representing psychological complexity that is reinforced by an example presented in the following sentence.\u0026nbsp;\u003c/p\u003e", "id": "56d13b85-f6b0-432a-b5c4-666355b17a1d"}, {"content": "\u003cp\u003eIt advances an interpretation of an Austen protagonist who is contrasted with protagonists from other Austen novels cited in the following sentence.\u0026nbsp;\u003c/p\u003e", "id": "a1a96748-3b8f-4a27-8df3-44882cd7ec1e"}, {"content": "\u003cp\u003eIt describes a recurring theme in Austen\u0026rsquo;s novels that is the focus of a literary scholar\u0026rsquo;s analysis summarized in the following sentence.\u0026nbsp;\u003c/p\u003e", "id": "900310f3-3a00-4b67-bf77-b6b1831a4ec3"}, {"content": "\u003cp\u003eIt provides a synopsis of an interaction in an Austen novel that illustrates a literary concept discussed in the following sentence.\u0026nbsp;\u003c/p\u003e", "id": "12207b90-cb8d-4f82-b5ef-5d2e1f215aac"}], "correct_answer": ["D"], "externalid": "0bfc085a-d882-418f-a208-100aefcda7fa", "keys": ["12207b90-cb8d-4f82-b5ef-5d2e1f215aac"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TSP-H007", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The underlined sentence provides a concrete example to ground readers\u0026rsquo; understanding of the \u0026ldquo;deep intersubjectivity\u0026rdquo; described in the next sentence as central to Austen\u0026rsquo;s work. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. There is no evaluation made of Austen\u0026rsquo;s skill in this sentence, and no examples are given in the following sentence. This choice essentially flips the paragraph: it\u0026rsquo;s this first sentence that provides an example. Choice B is incorrect. There are no other Austen protagonists mentioned in this passage, so this couldn\u0026rsquo;t be the answer. Choice C is incorrect. The underlined sentence doesn\u0026rsquo;t identify any \u0026ldquo;recurring theme,\u0026rdquo; but instead simply describes one interaction from one book. This interaction exemplifies the literary technique of \u0026ldquo;deep intersubjectivity\u0026rdquo; that is introduced in the next sentence. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes the function of the underlined sentence in the text as a whole?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cu\u003eIn Jane Austen\u0026rsquo;s novel \u003cem\u003eMansfield Park\u003c/em\u003e, an almost imperceptible smile from potential suitor Henry Crawford causes the protagonist Fanny Price to blush; her embarrassment grows when she suspects that he is aware of it.\u003c/u\u003e This moment\u0026mdash;in which Fanny not only infers Henry\u0026rsquo;s mental state through his gestures, but also infers that \u003cem\u003ehe\u003c/em\u003e is drawing inferences about \u003cem\u003eher\u003c/em\u003e mental state\u0026mdash;illustrates what literary scholar George Butte calls \u0026ldquo;deep intersubjectivity,\u0026rdquo; a technique for representing interactions between consciousnesses through which Austen\u0026rsquo;s novels derive much of their social and psychological drama.\u003c/p\u003e", "templateclusterid": "c29e2b32-d75d-48cd-9b99-b1ebe4608d26", "templateclustername": "", "type": "mcq", "vaultid": "83dcd9d4-ee1c-4885-9c51-7a85ec35e0aa"}, "createDate": 1691007959375, "difficulty": "H", "external_id": "0bfc085a-d882-418f-a208-100aefcda7fa", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "aa5897b8", "score_band_range_cd": 7, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "3cd2b9b2-3881-44c2-9327-ad7e42ca47c5", "updateDate": 1691007959375};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-aa5897b8");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "question_id": "f653b273",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Text 1 A tiny, unusual fossil in a piece of 99-million-year-old amber is of the extinct species Oculudentavis khaungraae . The O. khaungraae fossil consists of a rounded skull with a thin snout and a large eye socket. Because these features look like they are avian, or related to birds, researchers initially thought that the fossil might be the smallest avian dinosaur ever found. Text 2 Paleontologists were excited to discover a second small fossil that is similar to the strange O. khaungraae fossil but has part of the lower body along with a birdlike skull. Detailed studies of both fossils revealed several traits that are found in lizards but not in dinosaurs or birds. Therefore, paleontologists think the two creatures were probably unusual lizards, even though the skulls looked avian at first.",
+  "question_text": "Based on the texts, what would the paleontologists in Text 2 most likely say about the researchers&rsquo; initial thought in Text 1?",
+  "answer_options": [
+    "It is understandable because the fossil does look like it could be related to birds, even though  O. khaungraae  is probably a lizard.",
+    "It is confusing because it isn&rsquo;t clear what caused the researchers to think that  O. khaungraae  might be related to birds.",
+    "It is flawed because the researchers mistakenly assumed that  O. khaungraae  must be a lizard.",
+    "It is reasonable because the  O. khaungraae  skull is about the same size as the skull of the second fossil but is shaped differently."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it reflects what the paleontologists in Text 2 would most likely say about what the researchers in Text 1 initially thought. Text 1 focuses on the discovery of a strange fossil consisting of the skull of the extinct species Oculudentavis khaungraae . According to Text 1, the fossil has features that appear to be avian, or related to birds, which led researchers to initially think that the fossil might be a very small avian dinosaur. Text 2 begins by noting the discovery of a second fossil similar to the one discussed in Text 1, then explains that based on detailed studies of both fossils, paleontologists think that the two creatures were probably unusual lizards, even though the skulls appeared avian at first. This suggests that the paleontologists in Text 2 recognize that the fossils do indeed look like they could be related to birds. For this reason, the paleontologists in Text 2 would most likely say that the initial thought of the researchers in Text 1—that the fossil was avian—is understandable, even if the fossil is probably not avian but rather is from a lizard.",
+    "B": "Choice B is incorrect because Text 2 indicates that the fossils initially looked avian, so the paleontologists described in Text 2 wouldn't be confused by the researchers in Text 1 initially thinking that O. khaungraae might be related to birds. The paleontologists would find that initial thought understandable, not confusing.",
+    "C": "Choice C is incorrect because Text 1 never mentions lizards, so it wouldn't make sense for the paleontologists in Text 2 to say that the researchers in Text 1 mistakenly assumed that O. khaungraae must be a lizard.",
+    "D": "Choice D is incorrect. Although the paleontologists in Text 2 might agree that the initial thought of the researchers in Text 1 was reasonable, nothing in Text 2 suggests that the two skulls were shaped differently."
+  }
+}

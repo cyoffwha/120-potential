@@ -1,0 +1,22 @@
+{
+  "question_id": "83898524",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "In addition to advocating for South America's independence in two political treatises, the Cartagena Manifesto and the Letter from Jamaica, Sim&oacute;n Bol&iacute;var personally led armies against the Spanish, liberating three South American territories—New Granada (present-day Colombia and Panama), Venezuela, and Quito (present-day ______ blank from colonial rule.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "Ecuador,)",
+    "Ecuador)",
+    "Ecuador),",
+    "Ecuador)&mdash;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. The dash after \"Ecuador\" and the closing parenthesis pairs with the dash after \"territories\" to separate the supplementary element (\"New&hellip;Ecuador\") from the rest of the sentence. The supplementary element specifies the three South American territories that Sim&oacute;n Bol&iacute;var liberated, and the pair of dashes indicates that this element could be removed without affecting the grammatical coherence of the sentence.",
+    "A": "Choice A is incorrect because it fails to use appropriate punctuation to separate the supplementary element from the rest of the sentence. Furthermore, punctuation isn't needed between \"Ecuador\" and the closing parenthesis.",
+    "B": "Choice B is incorrect because it fails to use appropriate punctuation to separate the supplementary element from the rest of the sentence.",
+    "C": "Choice C is incorrect because a comma can't be paired with a dash to separate the supplementary element from the rest of the sentence."
+  }
+}

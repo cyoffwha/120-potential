@@ -1,0 +1,22 @@
+{
+  "question_id": "f33f0892",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Although novels and poems are considered distinct literary forms, many authors have created hybrid works that incorporate elements of both. Bernardine Evaristo's The Emperor's Babe , ______ blank is a verse novel, a book-length narrative complete with characters and a plot but conveyed in short, crisp lines of poetry rather than prose.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "by contrast,",
+    "consequently,",
+    "secondly,",
+    "for example,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"For example\" logically signals that the information in this sentence—that The Emperor's Babe is a novel conveyed in lines of poetry—exemplifies the claim in the previous sentence about hybrid works that incorporate elements of both novels and poems.",
+    "A": "Choice A is incorrect because \"by contrast\" illogically signals that the information in this sentence contrasts with the claim about hybrid works in the previous sentence. Instead, the information demonstrates that Evaristo's novel is an example of a hybrid work.",
+    "B": "Choice B is incorrect because \"consequently\" illogically signals that the information in this sentence is a consequence, or result, of the claim about hybrid works in the previous sentence. Instead, the information demonstrates that Evaristo's novel is an example of a hybrid work.",
+    "C": "Choice C is incorrect because \"secondly\" illogically signals that the information in this sentence is a second, separate claim from the previous sentence's claim about hybrid works. Instead, the information demonstrates that Evaristo's novel is an example of a hybrid work."
+  }
+}

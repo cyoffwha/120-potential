@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 5eda42a3</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>The following text is from Maggie Pogue Johnson&rsquo;s 1910 poem &ldquo;Poet of Our Race.&rdquo; In this poem, the speaker is addressing Paul Laurence Dunbar, a Black author.</p><p style='padding-left: 1em;'>Thou, with stroke of mighty pen,<br>&emsp;Hast told of joy and mirth,<br>And read the hearts and souls of men<br>&emsp;As cradled from their birth.</p><p style='padding-left: 1em;'>The language of the flowers,<br>&emsp;Thou hast read them all,<br>And e&rsquo;en the little brook<br>&emsp;Responded to thy call.</p></div>
+
+                        <div class="mt-3"><p>Which choice best states the main purpose of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To praise a certain writer for being especially perceptive regarding people and nature</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To establish that a certain writer has read extensively about a variety of topics</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To call attention to a certain writer&rsquo;s careful and elaborately detailed writing process</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>To recount fond memories of an afternoon spent in nature with a certain writer</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer because it most accurately states the main purpose of the text. In the first part of the text, the speaker addresses Paul Laurence Dunbar&rsquo;s ability to understand people (he has &ldquo;read the hearts and souls of men&rdquo; and written of their &ldquo;joy and mirth&rdquo;). In the second part of the text, the speaker describes Dunbar&rsquo;s thorough understanding of the natural world (he has read &ldquo;the language of the flowers&rdquo; and engaged with &ldquo;the little brook&rdquo;). Thus, the text mainly praises Dunbar for being especially perceptive about people and nature.&nbsp;</p><p>Choice B is incorrect because the speaker describes Dunbar as having read the &ldquo;hearts and souls of men&rdquo; and the &ldquo;language of flowers&rdquo; to convey Dunbar&rsquo;s ability to comprehend people and nature, not to suggest that Dunbar has literally read any of these things or has read a great deal about them. Choice C is incorrect because the text notes how well Dunbar has made sense of the topics he&rsquo;s written about but doesn&rsquo;t address any specific parts of Dunbar&rsquo;s writing process beyond the suggestion that he used a pen. Choice D is incorrect because the text focuses on Dunbar&rsquo;s understanding of people and nature as expressed in his writing. Nothing in the text suggests that the speaker is recalling a particular afternoon actually spent in nature with Dunbar; even if there had been a shared experience, the text isn&rsquo;t focused on reminiscing. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">204 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eTo praise a certain writer for being especially perceptive regarding people and nature\u003c/p\u003e", "id": "26cae7c4-1a33-44a0-a161-b627db52ed37"}, {"content": "\u003cp\u003eTo establish that a certain writer has read extensively about a variety of topics\u003c/p\u003e", "id": "0943f265-2de1-4b04-971c-48fbed626f1f"}, {"content": "\u003cp\u003eTo call attention to a certain writer\u0026rsquo;s careful and elaborately detailed writing process\u003c/p\u003e", "id": "fa904cd7-a664-4bef-b45d-a4a68084e64f"}, {"content": "\u003cp\u003eTo recount fond memories of an afternoon spent in nature with a certain writer\u003c/p\u003e", "id": "ee1af5ca-4b83-4c27-93ef-626ee4c1d371"}], "correct_answer": ["A"], "externalid": "376259b0-c855-4898-8e8e-9e8b363eca0f", "keys": ["26cae7c4-1a33-44a0-a161-b627db52ed37"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-025-TSP", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer because it most accurately states the main purpose of the text. In the first part of the text, the speaker addresses Paul Laurence Dunbar\u0026rsquo;s ability to understand people (he has \u0026ldquo;read the hearts and souls of men\u0026rdquo; and written of their \u0026ldquo;joy and mirth\u0026rdquo;). In the second part of the text, the speaker describes Dunbar\u0026rsquo;s thorough understanding of the natural world (he has read \u0026ldquo;the language of the flowers\u0026rdquo; and engaged with \u0026ldquo;the little brook\u0026rdquo;). Thus, the text mainly praises Dunbar for being especially perceptive about people and nature.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice B is incorrect because the speaker describes Dunbar as having read the \u0026ldquo;hearts and souls of men\u0026rdquo; and the \u0026ldquo;language of flowers\u0026rdquo; to convey Dunbar\u0026rsquo;s ability to comprehend people and nature, not to suggest that Dunbar has literally read any of these things or has read a great deal about them. Choice C is incorrect because the text notes how well Dunbar has made sense of the topics he\u0026rsquo;s written about but doesn\u0026rsquo;t address any specific parts of Dunbar\u0026rsquo;s writing process beyond the suggestion that he used a pen. Choice D is incorrect because the text focuses on Dunbar\u0026rsquo;s understanding of people and nature as expressed in his writing. Nothing in the text suggests that the speaker is recalling a particular afternoon actually spent in nature with Dunbar; even if there had been a shared experience, the text isn\u0026rsquo;t focused on reminiscing. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best states the main purpose of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eThe following text is from Maggie Pogue Johnson\u0026rsquo;s 1910 poem \u0026ldquo;Poet of Our Race.\u0026rdquo; In this poem, the speaker is addressing Paul Laurence Dunbar, a Black author.\u003c/p\u003e\u003cp style=\u0027padding-left: 1em;\u0027\u003eThou, with stroke of mighty pen,\u003cbr\u003e\u0026emsp;Hast told of joy and mirth,\u003cbr\u003eAnd read the hearts and souls of men\u003cbr\u003e\u0026emsp;As cradled from their birth.\u003c/p\u003e\u003cp style=\u0027padding-left: 1em;\u0027\u003eThe language of the flowers,\u003cbr\u003e\u0026emsp;Thou hast read them all,\u003cbr\u003eAnd e\u0026rsquo;en the little brook\u003cbr\u003e\u0026emsp;Responded to thy call.\u003c/p\u003e", "templateclusterid": "6f6aa8e5-6fc0-4745-8524-ea0f895c6191", "templateclustername": "", "type": "mcq", "vaultid": "c0cae386-4638-47e8-ac68-3b5fba1f1b87"}, "createDate": 1691007959318, "difficulty": "H", "external_id": "376259b0-c855-4898-8e8e-9e8b363eca0f", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "5eda42a3", "score_band_range_cd": 6, "skill_cd": "CID", "skill_desc": "Central Ideas and Details", "uId": "a7e7919b-f0f8-4dd7-8156-0d2c51bbfd83", "updateDate": 1691007959318};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-5eda42a3");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

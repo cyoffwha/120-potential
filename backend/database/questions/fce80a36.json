@@ -1,0 +1,22 @@
+{
+  "question_id": "fce80a36",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "In 2008 a complete set of ancient pessoi (glass game pieces) was uncovered from beneath a paving stone in modern-day Israel. Due to their small size, pessoi were easily misplaced, making a whole set a rare find. This has led some experts to suggest that the set may have been buried intentionally; however, without clear evidence, archaeologists are left to ______ blank what happened.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "speculate about",
+    "dismiss",
+    "expand on",
+    "catalog"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. \"Speculate\" means \"to form a theory or guess without any clear evidence.\" This makes sense because, due to the lack of \"clear evidence,\" the archaeologists can only guess how the pessoi set might have come to be there.",
+    "B": "Choice B is incorrect. \"Dismiss\" can mean \"send away\" or \"treat as unworthy of consideration.\" The text implies that the archaeologists are trying to figure out the truth—they wouldn't \"dismiss\" what really happened.",
+    "C": "Choice C is incorrect. \"Expand on\" means \"give more details about,\" but there aren't any details to give. Without any \"clear evidence,\" the archaeologists can't give any more details.",
+    "D": "Choice D is incorrect. \"Catalog\" means \"carefully record\" or \"make a list of.\" However, there's no \"clear evidence,\" so there's no real information to \"catalog.\""
+  }
+}

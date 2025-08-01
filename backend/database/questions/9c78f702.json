@@ -1,0 +1,22 @@
+{
+  "question_id": "9c78f702",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Phytoplankton play a crucial role in the ocean's uptake of carbon from the atmosphere. When alive, these tiny marine organisms absorb atmospheric carbon via photosynthesis. ______ blank after they die, the phytoplankton sink to the seafloor, where the carbon in their cells gets stored in sediment, preventing it from cycling back into the atmosphere.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "Specifically,",
+    "By contrast,",
+    "Nevertheless,",
+    "Then,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. \"Then\" logically signals that the event described in this sentence—carbon in phytoplankton cells being trapped in sediment after the organisms have died—occurs later in a chronological sequence than the event described in the previous sentence (phytoplankton absorbing carbon while alive).",
+    "A": "Choice A is incorrect because \"specifically\" illogically signals that the information that follows provides specific, precise details elaborating on the previous information about what phytoplankton do when alive. Instead, this sentence explains what happens after phytoplankton die—a later step in the chronological sequence of events.",
+    "B": "Choice B is incorrect because \"by contrast\" illogically signals that the information that follows contrasts with the previous information about what phytoplankton do when alive. Instead, this sentence explains what happens after phytoplankton die—a later step in the chronological sequence of events. There is no contrast: in both life and death, phytoplankton contribute to the ocean's carbon uptake.",
+    "C": "Choice C is incorrect because \"nevertheless\" illogically signals that the information that follows is in spite of the previous information about what phytoplankton do when alive. Instead, this sentence explains what happens after phytoplankton die—a later step in the chronological sequence of events. There is no contrast: in both life and death, phytoplankton contribute to the ocean's carbon uptake."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "f3fac04f",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Bioluminescent beetles called fireflies may seem to create flashes of light randomly, but each species of firefly actually has its own special series of repeated flashes and pauses. These unique ______ blank allow fireflies of the same species to find each other.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "quantities&nbsp;",
+    "decorations",
+    "patterns",
+    "agreements"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it most logically completes the text's discussion of the flashes created by fireflies. In this context, \"patterns\" means distinct and predictable sequences. The text indicates that although the flashes that fireflies produce appear to occur randomly—that is, without any particular sequence or rhythm—each species actually produces its own special series of flashes and pauses. Indeed, these series of flashes are so unique that fireflies can use them to find other members of their species. Therefore, this context supports the idea that fireflies produce flashes in distinct and recognizable patterns.",
+    "A": "Choice A is incorrect because \"quantities\" means certain amounts or numbers of something. Although the text discusses how different firefly species produce flashes and pauses in unique sequences that help other members of their species to find them, it doesn't mention the number of flashes that are used in these sequences.",
+    "B": "Choice B is incorrect because in this context, \"decorations\" would mean things that make an object more beautiful. Although it may be reasonable to say that firefly flashes are beautiful, the text focuses on the fact that fireflies use these unique sequences of flashes to find other members of their own species, not that the flashes make fireflies more beautiful.",
+    "D": "Choice D is incorrect because in this context, \"agreements\" would refer to deals that individuals have discussed and come to a consensus about. Since fireflies aren't capable of making such agreements, it wouldn't make sense to use this word to refer to the signals they send each other with their flashes."
+  }
+}

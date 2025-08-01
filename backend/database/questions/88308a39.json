@@ -1,0 +1,22 @@
+{
+  "question_id": "88308a39",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: Shaun Tan is an Australian author. In 2008, he published Tales from Outer Suburbia , a book of fifteen short stories. The stories describe surreal events occurring in otherwise ordinary suburban neighborhoods. In 2018, he published Tales from the Inner City , a book of twenty-five short stories. The stories describe surreal events occurring in otherwise ordinary urban settings. The student wants to emphasize a similarity between the two books by Shaun Tan. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to emphasize a similarity between the two books by Shaun Tan. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Shaun Tan&rsquo;s book  Tales from Outer Suburbia , which describes surreal events occurring in otherwise ordinary places,   contains fewer short stories than  Tales from the Inner City  does.",
+    "Tales from Outer Suburbia  was published in 2008, and  Tales from the Inner City  was published in&nbsp;2018.",
+    "Unlike  Tales from the Inner City , Shaun Tan&rsquo;s book  Tales from Outer Suburbia  is set in suburban neighborhoods.",
+    "Shaun Tan&rsquo;s books  Tales from Outer Suburbia  and  Tales from the Inner City  both describe surreal events occurring in otherwise ordinary places."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The sentence uses \"both\" to emphasize a thematic similarity between Tan's two books, noting that both Tales from Outer Suburbia and Tales from the Inner City describe surreal events occurring in otherwise ordinary places.",
+    "A": "Choice A is incorrect. The sentence emphasizes a difference (one contains fewer stories than the other), not a similarity, between the two books.",
+    "B": "Choice B is incorrect. The sentence indicates that Tan's books were published ten years apart; it doesn't emphasize a similarity between the two books.",
+    "C": "Choice C is incorrect. The sentence uses \"unlike\" to emphasize a difference between Tales from Outer Suburbia and Tales from the Inner City ; it doesn't emphasize a similarity between the two books."
+  }
+}

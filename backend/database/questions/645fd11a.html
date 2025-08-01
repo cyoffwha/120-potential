@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 645fd11a</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><figure class="image"><svg aria-label="Bar graph titled Average Number of Individuals Reporting Directly to CEOs. The horizontal axis is labeled Years. 3 data categories are shown. The vertical axis is labeled Average number of individuals directly reporting to CEO. It ranges from 0 to 7 in increments of 1. Refer to long description." height="479.62939453125" role="img" viewbox="0 0 400 479.62939453125" width="400" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 1" id="ed420550-79eb-48d4-af01-cd27cdd08afd"><defs>
+<pattern height="100" id="bar4" patterntransform="rotate(50)" patternunits="userSpaceOnUse" width="10" x="0" y="0">
+<rect fill="#CDCDCD" height="100" width="5" x="0" y="0"></rect>
+<rect fill="#444444" height="100" width="5" x="5" y="0"></rect>
+</pattern>
+</defs><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="93.359375" x2="385" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.359375" x2="99.359375" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(81.359375 78)">7</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="93.359375" x2="385" xmlns="http://www.w3.org/2000/svg" y1="100.57142857142857" y2="100.57142857142857"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.359375" x2="99.359375" xmlns="http://www.w3.org/2000/svg" y1="100.57142857142857" y2="100.57142857142857"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(81.359375 106.57142857142857)">6</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="93.359375" x2="385" xmlns="http://www.w3.org/2000/svg" y1="129.14285714285714" y2="129.14285714285714"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.359375" x2="99.359375" xmlns="http://www.w3.org/2000/svg" y1="129.14285714285714" y2="129.14285714285714"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(81.359375 135.14285714285714)">5</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="93.359375" x2="385" xmlns="http://www.w3.org/2000/svg" y1="157.71428571428572" y2="157.71428571428572"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.359375" x2="99.359375" xmlns="http://www.w3.org/2000/svg" y1="157.71428571428572" y2="157.71428571428572"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(81.359375 163.71428571428572)">4</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="93.359375" x2="385" xmlns="http://www.w3.org/2000/svg" y1="186.28571428571428" y2="186.28571428571428"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.359375" x2="99.359375" xmlns="http://www.w3.org/2000/svg" y1="186.28571428571428" y2="186.28571428571428"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(81.359375 192.28571428571428)">3</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="93.359375" x2="385" xmlns="http://www.w3.org/2000/svg" y1="214.85714285714286" y2="214.85714285714286"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.359375" x2="99.359375" xmlns="http://www.w3.org/2000/svg" y1="214.85714285714286" y2="214.85714285714286"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(81.359375 220.85714285714286)">2</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="93.359375" x2="385" xmlns="http://www.w3.org/2000/svg" y1="243.42857142857144" y2="243.42857142857144"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.359375" x2="99.359375" xmlns="http://www.w3.org/2000/svg" y1="243.42857142857144" y2="243.42857142857144"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(81.359375 249.42857142857144)">1</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="93.359375" x2="385" xmlns="http://www.w3.org/2000/svg" y1="272" y2="272"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.359375" x2="99.359375" xmlns="http://www.w3.org/2000/svg" y1="272" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(81.359375 278)">0</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(24 172) rotate(-90)">Average number of individuals </text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(48 172) rotate(-90)">directly reporting to CEO</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="93.359375" x2="93.359375" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><rect fill="#B3B3B3" height="57.14285714285714" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="29.1640625" x="122.5234375" xmlns="http://www.w3.org/2000/svg" y="214.85714285714286"></rect><rect fill="#333333" height="94.28571428571428" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="29.1640625" x="151.6875" xmlns="http://www.w3.org/2000/svg" y="177.71428571428572"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(161.6075 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">1991–1995</text><rect fill="#B3B3B3" height="71.42857142857143" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="29.1640625" x="210.015625" xmlns="http://www.w3.org/2000/svg" y="200.57142857142856"></rect><rect fill="#333333" height="114.28571428571428" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="29.1640625" x="239.1796875" xmlns="http://www.w3.org/2000/svg" y="157.71428571428572"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(249.0996875 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">1996–2001</text><rect fill="#B3B3B3" height="85.71428571428571" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="29.1640625" x="297.5078125" xmlns="http://www.w3.org/2000/svg" y="186.28571428571428"></rect><rect fill="#333333" height="194.28571428571428" stroke="#000000" stroke-linecap="round" stroke-linejoin="mitre" stroke-width="0.9" width="29.1640625" x="326.671875" xmlns="http://www.w3.org/2000/svg" y="77.71428571428572"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(336.591875 291.84) rotate(-40)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">2001–2008</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.1796875 24)">Average Number of Individuals</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.1796875 48)">Reporting Directly to CEOs</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(239.1796875 380.46939453125)">Years</text><rect fill="none" height="71" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="188.046875" x="113.4765625" xmlns="http://www.w3.org/2000/svg" y="397.62939453125"></rect><rect fill="#B3B3B3" height="12" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="12" x="120.4765625" xmlns="http://www.w3.org/2000/svg" y="409.62939453125"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(142.4765625 421.62939453125)"> managers</text><rect fill="#333333" height="12" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="12" x="120.4765625" xmlns="http://www.w3.org/2000/svg" y="441.62939453125"></rect><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(142.4765625 453.62939453125)"> department leaders</text></g></svg></figure>
+<p>Considering a large sample of companies, economics experts Maria Guadalupe, Julie Wulf, and Raghuram Rajan assessed the number of managers and leaders from different departments who reported directly to a chief executive officer (CEO). According to the researchers, the findings suggest that across the years analyzed, there was a growing interest among CEOs in connecting with more departments in their companies.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes data from the graph that support the researchers&rsquo; conclusion?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The average numbers of managers and department leaders reporting directly to their CEO didn&rsquo;t fluctuate from the 1991&ndash;1995 period to the 2001&ndash;2008 period.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The average number of managers reporting directly to their CEO was highest in the 1996&ndash;2001 period.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The average number of department leaders reporting directly to their CEO was greater than the average number of managers reporting directly to their CEO in each of the three periods studied.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The average number of department leaders reporting directly to their CEO rose over the three periods studied.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it describes data from the graph that support the researchers&rsquo; conclusion that there is a growing interest among CEOs in connecting with more departments in their companies. The graph shows the average number of individuals reporting directly to CEOs during three different time periods: the individuals are divided into managers and department leaders. The average number of department leaders directly reporting to their CEO during the 1991&ndash;1995 period was slightly more than three, during the 1996&ndash;2001 period it was four, and during the 2001&ndash;2008 period it was almost seven. Thus, the average number of department leaders reporting directly to their CEO rose over the three periods studied, which suggests that CEOs were connecting with more departments. </p><p>Choice A is incorrect because the average number of managers and department leaders reporting directly to their CEO rose for both categories between the 1991&ndash;1995 and 2001&ndash;2008 periods; thus, it isn&rsquo;t true that the average numbers didn&rsquo;t fluctuate. Choice B is incorrect because the average number of managers reporting directly to their CEO was highest in the 2001&ndash;2008 period, not in the 1996&ndash;2001 period. Choice C is incorrect. Although it correctly describes a feature of the graph, the observation that more department leaders than managers are reporting to CEOs does not by itself address the question of whether CEOs are connecting with more departments over time&mdash;to address that question, one needs to know whether the number of department leaders reporting to CEOs is increasing over time. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">39 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe average numbers of managers and department leaders reporting directly to their CEO didn\u0026rsquo;t fluctuate from the 1991\u0026ndash;1995 period to the 2001\u0026ndash;2008 period.\u003c/p\u003e", "id": "40004bdc-42a3-4667-b76c-0c2c2adb437e"}, {"content": "\u003cp\u003eThe average number of managers reporting directly to their CEO was highest in the 1996\u0026ndash;2001 period.\u003c/p\u003e", "id": "fb2075bb-9aa4-4053-a225-08dd448ce566"}, {"content": "\u003cp\u003eThe average number of department leaders reporting directly to their CEO was greater than the average number of managers reporting directly to their CEO in each of the three periods studied.\u003c/p\u003e", "id": "2f270469-87d4-4875-af53-1fe44978f171"}, {"content": "\u003cp\u003eThe average number of department leaders reporting directly to their CEO rose over the three periods studied.\u003c/p\u003e", "id": "959fc904-eb1a-4bb3-8231-de8718c5de71"}], "correct_answer": ["D"], "externalid": "e106d6c6-3728-41aa-983d-844c3f37d99e", "keys": ["959fc904-eb1a-4bb3-8231-de8718c5de71"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-528-QUA", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it describes data from the graph that support the researchers\u0026rsquo; conclusion that there is a growing interest among CEOs in connecting with more departments in their companies. The graph shows the average number of individuals reporting directly to CEOs during three different time periods: the individuals are divided into managers and department leaders. The average number of department leaders directly reporting to their CEO during the 1991\u0026ndash;1995 period was slightly more than three, during the 1996\u0026ndash;2001 period it was four, and during the 2001\u0026ndash;2008 period it was almost seven. Thus, the average number of department leaders reporting directly to their CEO rose over the three periods studied, which suggests that CEOs were connecting with more departments. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the average number of managers and department leaders reporting directly to their CEO rose for both categories between the 1991\u0026ndash;1995 and 2001\u0026ndash;2008 periods; thus, it isn\u0026rsquo;t true that the average numbers didn\u0026rsquo;t fluctuate. Choice B is incorrect because the average number of managers reporting directly to their CEO was highest in the 2001\u0026ndash;2008 period, not in the 1996\u0026ndash;2001 period. Choice C is incorrect. Although it correctly describes a feature of the graph, the observation that more department leaders than managers are reporting to CEOs does not by itself address the question of whether CEOs are connecting with more departments over time\u0026mdash;to address that question, one needs to know whether the number of department leaders reporting to CEOs is increasing over time. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes data from the graph that support the researchers\u0026rsquo; conclusion?\u003c/p\u003e", "stimulus": "\u003cfigure class=\"image\"\u003e\u003csvg aria-label=\"Bar graph titled Average Number of Individuals Reporting Directly to CEOs. The horizontal axis is labeled Years. 3 data categories are shown. The vertical axis is labeled Average number of individuals directly reporting to CEO. It ranges from 0 to 7 in increments of 1. Refer to long description.\" height=\"479.62939453125\" role=\"img\" viewbox=\"0 0 400 479.62939453125\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cg data-name=\"Layer 1\" id=\"ed420550-79eb-48d4-af01-cd27cdd08afd\"\u003e\u003cdefs\u003e\n\u003cpattern height=\"100\" id=\"bar4\" patterntransform=\"rotate(50)\" patternunits=\"userSpaceOnUse\" width=\"10\" x=\"0\" y=\"0\"\u003e\n\u003crect fill=\"#CDCDCD\" height=\"100\" width=\"5\" x=\"0\" y=\"0\"\u003e\u003c/rect\u003e\n\u003crect fill=\"#444444\" height=\"100\" width=\"5\" x=\"5\" y=\"0\"\u003e\u003c/rect\u003e\n\u003c/pattern\u003e\n\u003c/defs\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"93.359375\" x2=\"385\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.359375\" x2=\"99.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(81.359375 78)\"\u003e7\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"93.359375\" x2=\"385\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"100.57142857142857\" y2=\"100.57142857142857\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.359375\" x2=\"99.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"100.57142857142857\" y2=\"100.57142857142857\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(81.359375 106.57142857142857)\"\u003e6\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"93.359375\" x2=\"385\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"129.14285714285714\" y2=\"129.14285714285714\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.359375\" x2=\"99.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"129.14285714285714\" y2=\"129.14285714285714\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(81.359375 135.14285714285714)\"\u003e5\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"93.359375\" x2=\"385\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"157.71428571428572\" y2=\"157.71428571428572\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.359375\" x2=\"99.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"157.71428571428572\" y2=\"157.71428571428572\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(81.359375 163.71428571428572)\"\u003e4\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"93.359375\" x2=\"385\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"186.28571428571428\" y2=\"186.28571428571428\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.359375\" x2=\"99.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"186.28571428571428\" y2=\"186.28571428571428\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(81.359375 192.28571428571428)\"\u003e3\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"93.359375\" x2=\"385\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"214.85714285714286\" y2=\"214.85714285714286\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.359375\" x2=\"99.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"214.85714285714286\" y2=\"214.85714285714286\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(81.359375 220.85714285714286)\"\u003e2\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"93.359375\" x2=\"385\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"243.42857142857144\" y2=\"243.42857142857144\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.359375\" x2=\"99.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"243.42857142857144\" y2=\"243.42857142857144\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(81.359375 249.42857142857144)\"\u003e1\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"93.359375\" x2=\"385\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"272\" y2=\"272\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.359375\" x2=\"99.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"272\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(81.359375 278)\"\u003e0\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(24 172) rotate(-90)\"\u003eAverage number of individuals \u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(48 172) rotate(-90)\"\u003edirectly reporting to CEO\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"93.359375\" x2=\"93.359375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003crect fill=\"#B3B3B3\" height=\"57.14285714285714\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"29.1640625\" x=\"122.5234375\" xmlns=\"http://www.w3.org/2000/svg\" y=\"214.85714285714286\"\u003e\u003c/rect\u003e\u003crect fill=\"#333333\" height=\"94.28571428571428\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"29.1640625\" x=\"151.6875\" xmlns=\"http://www.w3.org/2000/svg\" y=\"177.71428571428572\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(161.6075 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e1991\u20131995\u003c/text\u003e\u003crect fill=\"#B3B3B3\" height=\"71.42857142857143\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"29.1640625\" x=\"210.015625\" xmlns=\"http://www.w3.org/2000/svg\" y=\"200.57142857142856\"\u003e\u003c/rect\u003e\u003crect fill=\"#333333\" height=\"114.28571428571428\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"29.1640625\" x=\"239.1796875\" xmlns=\"http://www.w3.org/2000/svg\" y=\"157.71428571428572\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(249.0996875 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e1996\u20132001\u003c/text\u003e\u003crect fill=\"#B3B3B3\" height=\"85.71428571428571\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"29.1640625\" x=\"297.5078125\" xmlns=\"http://www.w3.org/2000/svg\" y=\"186.28571428571428\"\u003e\u003c/rect\u003e\u003crect fill=\"#333333\" height=\"194.28571428571428\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"29.1640625\" x=\"326.671875\" xmlns=\"http://www.w3.org/2000/svg\" y=\"77.71428571428572\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(336.591875 291.84) rotate(-40)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e2001\u20132008\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.1796875 24)\"\u003eAverage Number of Individuals\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.1796875 48)\"\u003eReporting Directly to CEOs\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(239.1796875 380.46939453125)\"\u003eYears\u003c/text\u003e\u003crect fill=\"none\" height=\"71\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"188.046875\" x=\"113.4765625\" xmlns=\"http://www.w3.org/2000/svg\" y=\"397.62939453125\"\u003e\u003c/rect\u003e\u003crect fill=\"#B3B3B3\" height=\"12\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"12\" x=\"120.4765625\" xmlns=\"http://www.w3.org/2000/svg\" y=\"409.62939453125\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(142.4765625 421.62939453125)\"\u003e managers\u003c/text\u003e\u003crect fill=\"#333333\" height=\"12\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"12\" x=\"120.4765625\" xmlns=\"http://www.w3.org/2000/svg\" y=\"441.62939453125\"\u003e\u003c/rect\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(142.4765625 453.62939453125)\"\u003e department leaders\u003c/text\u003e\u003c/g\u003e\u003c/svg\u003e\u003c/figure\u003e\u003cdiv aria-label=\"Long description for bar graph titled Average Number of Individuals Reporting Directly to CEOs\" class=\"sr-only\" role=\"region\"\u003e\u003cul\u003e\n\u003cli\u003eFor each data category, the following bars are shown:\n\u003cul\u003e\n\u003cli\u003emanagers\u003c/li\u003e\n\u003cli\u003edepartment leaders\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eAll values are approximate.\u003c/li\u003e\n\u003cli\u003eThe data for the 3 categories are as follows:\n\u003cul\u003e\n\u003cli\u003e1991\u20131995:\n\u003cul\u003e\n\u003cli\u003emanagers: 2\u003c/li\u003e\n\u003cli\u003edepartment leaders: 3.2\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e1996\u20132001:\n\u003cul\u003e\n\u003cli\u003emanagers: 2.5\u003c/li\u003e\n\u003cli\u003edepartment leaders: 4\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e2001\u20132008:\n\u003cul\u003e\n\u003cli\u003emanagers: 3\u003c/li\u003e\n\u003cli\u003edepartment leaders: 6.9\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\u003c/div\u003e\n\u003cp\u003eConsidering a large sample of companies, economics experts Maria Guadalupe, Julie Wulf, and Raghuram Rajan assessed the number of managers and leaders from different departments who reported directly to a chief executive officer (CEO). According to the researchers, the findings suggest that across the years analyzed, there was a growing interest among CEOs in connecting with more departments in their companies.\u003c/p\u003e", "templateclusterid": "a697e20c-f7d5-45b4-965e-fd3d2c665395", "templateclustername": "", "type": "mcq", "vaultid": "e3f31403-2fc6-496a-ac99-afd9db5beff2"}, "createDate": 1691007959338, "difficulty": "H", "external_id": "e106d6c6-3728-41aa-983d-844c3f37d99e", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "645fd11a", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "1da52f74-ec72-43ad-9ddd-65bd0e653bf0", "updateDate": 1691007959338};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-645fd11a");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

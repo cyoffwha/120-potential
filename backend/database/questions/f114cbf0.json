@@ -1,0 +1,22 @@
+{
+  "question_id": "f114cbf0",
+  "domain": "Expression of Ideas",
+  "skill": "Transitions",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "A firefly uses specialized muscles to draw oxygen into its lower abdomen through narrow tubes, triggering a chemical reaction whereby the oxygen combines with chemicals in the firefly's abdomen to produce a glow. ______ blank when the firefly stops drawing in oxygen, the reaction—and the glow—cease.",
+  "question_text": "Which choice completes the text with the most logical transition?",
+  "answer_options": [
+    "For instance,",
+    "By contrast,",
+    "Specifically,",
+    "In conclusion,"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. \"By contrast\" logically signals that the information in this sentence—that a firefly's glow ceases when it stops drawing in oxygen—contrasts with the previous sentence's discussion of the processes that cause a firefly to begin to glow.",
+    "A": "Choice A is incorrect because \"for instance\" illogically signals that the information in the sentence exemplifies the previous sentence's discussion of how a firefly begins to glow. Instead, it contrasts with the previous sentence's discussion.",
+    "C": "Choice C is incorrect because \"specifically\" illogically signals that the information in the sentence provides specific details elaborating on the previous sentence's discussion of how a firefly begins to glow. Instead, it contrasts with the previous sentence's discussion.",
+    "D": "Choice D is incorrect because \"in conclusion\" illogically signals that the information in the sentence sums up the previous sentence's discussion of how a firefly begins to glow. Instead, it contrasts with the previous sentence's discussion."
+  }
+}

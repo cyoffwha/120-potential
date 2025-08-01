@@ -1,0 +1,22 @@
+{
+  "question_id": "74149724",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: John Carver was one of the 41 signatories of the Mayflower Compact. The Mayflower Compact was a legal agreement among the pilgrims that immigrated to Plymouth Colony. It was created in 1620 to establish a common government. It states that the pilgrims who signed it wanted to \"plant the first colony in the northern parts of Virginia\" under King James. Carver became the first governor of Plymouth Colony. The student wants to specify the reason the Mayflower Compact was created. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to specify the reason the Mayflower Compact was created. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Stating that its signatories wanted to &ldquo;plant the first colony in the northern parts of Virginia,&rdquo; the Mayflower Compact was a legal agreement among the pilgrims that immigrated to Plymouth Colony.",
+    "Created in 1620, the Mayflower Compact states that the pilgrims wanted to &ldquo;plant the first colony in the northern parts of Virginia.&rdquo;",
+    "The Mayflower Compact was created to establish a common government among the pilgrims that immigrated to Plymouth Colony.",
+    "The Mayflower Compact had 41 signatories, including John Carver, the first governor of Plymouth Colony."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The sentence specifies the reason the Mayflower Compact was created, noting that it was created to establish a common government among the pilgrims that immigrated to Plymouth Colony.",
+    "A": "Choice A is incorrect. While the sentence provides background information about the Mayflower Compact and notes the signatories' goal for the colony, it doesn't specify why the compact was created.",
+    "B": "Choice B is incorrect. While the sentence provides background information about the Mayflower Compact and notes the signatories' goal for the colony, it doesn't specify why the compact was created.",
+    "D": "Choice D is incorrect. The sentence specifies the number of pilgrims that signed the Mayflower Compact; it doesn't specify the reason the compact was created."
+  }
+}

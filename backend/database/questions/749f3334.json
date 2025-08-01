@@ -1,0 +1,22 @@
+{
+  "question_id": "749f3334",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is from Charlotte Forten Grimk&eacute;'s 1888 poem \"At Newport.\" Oh, deep delight to watch the gladsome waves Exultant leap upon the rugged rocks; Ever repulsed, yet ever rushing on— Filled with a life that will not know defeat; To see the glorious hues of sky and sea. The distant snowy sails, glide spirit like, Into an unknown world, to feel the sweet Enchantment of the sea thrill all the soul, Clearing the clouded brain, making the heart Leap joyous as it own bright, singing waves!",
+  "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+  "answer_options": [
+    "It portrays the surroundings as an imposing and intimidating scene.",
+    "It characterizes the sea&rsquo;s waves as a relentless and enduring force.",
+    "It conveys the speaker&rsquo;s ambivalence about the natural world.",
+    "It draws a contrast between the sea&rsquo;s waves and the speaker&rsquo;s thoughts."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The text presents the speaker's experience of viewing the sea. In the underlined portion, the speaker focuses on the idea that the waves hitting rocks on the shore are a relentless and enduring force: they are constantly pushed back (\"ever repulsed\") but always return (\"ever rushing on\"), as though they have an energy that can't be overcome (\"a life that will not know defeat\").",
+    "A": "Choice A is incorrect. Although the underlined portion characterizes the waves as a relentless force (always \"repulsed\" but still \"rushing on\" and never being defeated), the speaker doesn't suggest that the surroundings are intimidating. Instead, the speaker presents the scene in a positive way, describing the \"deep delight\" of the \"gladsome,\" or cheerful, waves and feeling \"the heart / Leap joyous\" while viewing the sea.",
+    "C": "Choice C is incorrect because the underlined portion doesn't suggest that the speaker is ambivalent, or has mixed feelings about, the natural world. Instead, it presents a single view of one part of the immediate surroundings: the speaker characterizes the sea's waves as an unstoppable force, since they are constantly pushed back but always return (\"ever repulsed, yet ever rushing on\").",
+    "D": "Choice D is incorrect. Although the text later suggests the speaker's view of her own thoughts by referring to a \"clouded brain\" and a heart that leaps joyously, this reference neither occurs within the underlined portion nor establishes a clear contrast with the relentless determination of the waves. The underlined portion addresses only the speaker's view of the waves and doesn't suggest what her own thoughts might be."
+  }
+}

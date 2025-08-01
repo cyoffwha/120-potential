@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 8a584241</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="image"><svg height="456.84" viewbox="0 0 380 456.84" width="380" xmlns="http://www.w3.org/2000/svg"><g data-name="Layer 1" id="ed420550-79eb-48d4-af01-cd27cdd08afd"><defs>
+<marker id="marker0" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#000" points="3 0, 0 5.196, 6 5.196"></polygon>
+</marker>
+<marker id="marker1" markerheight="5" markerunits="strokeWidth" markerwidth="5" refx="2.5" refy="2.5">
+<path d="M0,0 L0,5 L5,5 L5,0 z" fill="#BBB" stroke="#000" stroke-width="1.5"></path>
+</marker>
+<marker id="marker2" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<circle cx="3" cy="3" fill="#FFF" r="1.8" stroke="#000" stroke-width=".6"></circle>
+</marker>
+<marker id="marker3" markerheight="6" markerunits="strokeWidth" markerwidth="6" refx="3" refy="3">
+<polygon fill="#999" points="0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3" stroke="#000" stroke-linejoin="round" stroke-width=".5"></polygon>
+</marker>
+</defs><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="72" y2="72"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 78)">100</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="92" y2="92"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="92" y2="92"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 98)">90</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="112" y2="112"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="112" y2="112"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 118)">80</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="132" y2="132"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="132" y2="132"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 138)">70</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="152" y2="152"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="152" y2="152"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 158)">60</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="172" y2="172"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="172" y2="172"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 178)">50</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="192" y2="192"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="192" y2="192"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 198)">40</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="212" y2="212"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="212" y2="212"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 218)">30</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="232" y2="232"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="232" y2="232"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 238)">20</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="252" y2="252"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="252" y2="252"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 258)">10</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="365" xmlns="http://www.w3.org/2000/svg" y1="272" y2="272"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="81.328125" x2="93.328125" xmlns="http://www.w3.org/2000/svg" y1="272" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="end" transform="translate(75.328125 278)">0</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(24 172) rotate(-90)">Seeds germinated (%)</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="87.328125" x2="87.328125" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="122.037109375" x2="122.037109375" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(122.037109375 291.84)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">24</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="191.455078125" x2="191.455078125" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(191.455078125 291.84)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">48</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="260.873046875" x2="260.873046875" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(260.873046875 291.84)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">72</text><line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9" x1="330.291015625" x2="330.291015625" xmlns="http://www.w3.org/2000/svg" y1="72" y2="272"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(330.291015625 291.84)" x="0" xmlns="http://www.w3.org/2000/svg" y="0">168</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(226.1640625 24)">Seed Germination with and without</text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(226.1640625 48)">H₂S Treatment </text><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="middle" transform="translate(226.1640625 325.67999999999995)">Time (hours)</text><rect fill="none" height="103" stroke="#000000" stroke-linejoin="mitre" stroke-width="0.9" width="274.62420654296875" x="60.187896728515625" xmlns="http://www.w3.org/2000/svg" y="342.84000000000003"></rect><line marker-end="url(#marker0)" stroke="#000" stroke-width="2.4" x1="67.18789672851562" x2="94.18789672851562" y1="359.84000000000003" y2="359.84000000000003"></line><line marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="94.18789672851562" x2="121.18789672851562" y1="359.84000000000003" y2="359.84000000000003"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(131.18789672851562 366.84000000000003)"> 500 micromoles per liter</text><line marker-end="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="67.18789672851562" x2="94.18789672851562" y1="391.84000000000003" y2="391.84000000000003"></line><line marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="94.18789672851562" x2="121.18789672851562" y1="391.84000000000003" y2="391.84000000000003"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(131.18789672851562 398.84000000000003)"> 10 micromoles per liter</text><line marker-end="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="67.18789672851562" x2="94.18789672851562" y1="423.84000000000003" y2="423.84000000000003"></line><line marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="94.18789672851562" x2="121.18789672851562" y1="423.84000000000003" y2="423.84000000000003"></line><text fill="#000000" font-family="Crimson Text" font-size="19.84" text-anchor="top" transform="translate(131.18789672851562 430.84000000000003)"> untreated</text><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="122.037109375" x2="191.455078125" y1="262" y2="212"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="122.037109375" x2="191.455078125" y1="258.8" y2="125.4"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="122.037109375" x2="191.455078125" y1="272" y2="172"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="191.455078125" x2="260.873046875" y1="212" y2="102"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="191.455078125" x2="260.873046875" y1="125.4" y2="92"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="191.455078125" x2="260.873046875" y1="172" y2="125.4"></line><line marker-end="url(#marker0)" marker-start="url(#marker0)" stroke="#000" stroke-width="2.4" x1="260.873046875" x2="330.291015625" y1="102" y2="102"></line><line marker-end="url(#marker1)" marker-start="url(#marker1)" stroke="#000" stroke-dasharray="9 6" stroke-width="2.4" x1="260.873046875" x2="330.291015625" y1="92" y2="78.80000000000001"></line><line marker-end="url(#marker2)" marker-start="url(#marker2)" stroke="#000" stroke-dasharray="1.1 6" stroke-linecap="round" stroke-width="3" x1="260.873046875" x2="330.291015625" y1="125.4" y2="112"></line></g></svg></figure></p>
+<p>In high concentrations, hydrogen sulfide (H₂S) is typically toxic to many plants. Frederick D. Dooley and colleagues wanted to understand what effects low doses of H₂S might have on plant growth. They treated bean, corn, wheat, and pea seeds with various concentrations (measured in micromoles per liter) of H₂S and tracked the germination of those seeds along with the germination of untreated seeds. Treatment with particular concentrations of H₂S was associated with accelerated germination: for example, <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most effectively uses data from the graph to complete the statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>at 24 hours, less than 10% of seeds treated with H₂S at a concentration of 10 micromoles per liter had germinated, whereas more than 90% of those seeds had germinated at 168 hours.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>at 48 hours, more than 70% of seeds treated with H₂S at a concentration of 10 micromoles per liter had germinated, whereas only approximately 50% of untreated seeds had germinated.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>at 168 hours, more than 90% of seeds treated with H₂S at concentrations of 10 or 500 micromoles per liter had germinated, whereas less than 70% of untreated seeds had germinated.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>at 48 hours, approximately 50% of seeds treated with H₂S at a concentration of 10 micromoles per liter had germinated, whereas only approximately 30% of untreated seeds had germinated.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. The claim is that some concentrations of H₂S led to increased germination rates, and this choice accurately shows that seeds treated with 10 micromoles per liter of H₂S tended to germinate faster than untreated seeds. </p><p>Choice A is incorrect. This choice doesn&rsquo;t justify the claim. The claim compares the germination rates of seeds exposed to certain concentrations of H₂S to untreated seeds, but this choice only discusses one concentration of H₂S, so it can&rsquo;t support any comparison between treated and untreated groups. Choice C is incorrect. This choice misreads the graph. At 168 hours, only about 85% of seeds treated with H₂S at 500 micromoles per liter and well over 70% of untreated seeds had germinated (about 80%). Choice D is incorrect. This choice misreads the graph. At 48 hours, about 70% of seeds treated with H₂S at 10 micromoles per liter and about 50% of untreated seeds had germinated. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">50 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eat 24 hours, less than 10% of seeds treated with H\u2082S at a concentration of 10 micromoles per liter had germinated, whereas more than 90% of those seeds had germinated at 168 hours.\u003c/p\u003e", "id": "23748766-e102-438d-9e62-d4ceaf5ea155"}, {"content": "\u003cp\u003eat 48 hours, more than 70% of seeds treated with H\u2082S at a concentration of 10 micromoles per liter had germinated, whereas only approximately 50% of untreated seeds had germinated.\u0026nbsp;\u003c/p\u003e", "id": "9feb6867-75bf-416c-8f62-86d5f4295d57"}, {"content": "\u003cp\u003eat 168 hours, more than 90% of seeds treated with H\u2082S at concentrations of 10 or 500 micromoles per liter had germinated, whereas less than 70% of untreated seeds had germinated.\u003c/p\u003e", "id": "a40198bf-2b39-4c95-b182-695c251ff13b"}, {"content": "\u003cp\u003eat 48 hours, approximately 50% of seeds treated with H\u2082S at a concentration of 10 micromoles per liter had germinated, whereas only approximately 30% of untreated seeds had germinated.\u003c/p\u003e", "id": "6d89d2fb-62d7-4c85-93f9-857e73ad2c18"}], "correct_answer": ["B"], "externalid": "15e0f8c2-ed39-4583-83cc-73e2fa6eacfe", "keys": ["9feb6867-75bf-416c-8f62-86d5f4295d57"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-QUA-M009", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. The claim is that some concentrations of H\u2082S led to increased germination rates, and this choice accurately shows that seeds treated with 10 micromoles per liter of H\u2082S tended to germinate faster than untreated seeds. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. This choice doesn\u0026rsquo;t justify the claim. The claim compares the germination rates of seeds exposed to certain concentrations of H\u2082S to untreated seeds, but this choice only discusses one concentration of H\u2082S, so it can\u0026rsquo;t support any comparison between treated and untreated groups. Choice C is incorrect. This choice misreads the graph. At 168 hours, only about 85% of seeds treated with H\u2082S at 500 micromoles per liter and well over 70% of untreated seeds had germinated (about 80%). Choice D is incorrect. This choice misreads the graph. At 48 hours, about 70% of seeds treated with H\u2082S at 10 micromoles per liter and about 50% of untreated seeds had germinated. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most effectively uses data from the graph to complete the statement?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"image\"\u003e\u003csvg height=\"456.84\" viewbox=\"0 0 380 456.84\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cg data-name=\"Layer 1\" id=\"ed420550-79eb-48d4-af01-cd27cdd08afd\"\u003e\u003cdefs\u003e\n\u003cmarker id=\"marker0\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#000\" points=\"3 0, 0 5.196, 6 5.196\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker1\" markerheight=\"5\" markerunits=\"strokeWidth\" markerwidth=\"5\" refx=\"2.5\" refy=\"2.5\"\u003e\n\u003cpath d=\"M0,0 L0,5 L5,5 L5,0 z\" fill=\"#BBB\" stroke=\"#000\" stroke-width=\"1.5\"\u003e\u003c/path\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker2\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003ccircle cx=\"3\" cy=\"3\" fill=\"#FFF\" r=\"1.8\" stroke=\"#000\" stroke-width=\".6\"\u003e\u003c/circle\u003e\n\u003c/marker\u003e\n\u003cmarker id=\"marker3\" markerheight=\"6\" markerunits=\"strokeWidth\" markerwidth=\"6\" refx=\"3\" refy=\"3\"\u003e\n\u003cpolygon fill=\"#999\" points=\"0.5 3, 2.3 2.3, 3 0.5, 3.7 2.3, 5.5 3, 3.7 3.7, 3 5.5, 2.3 3.7, 0.5 3\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\".5\"\u003e\u003c/polygon\u003e\n\u003c/marker\u003e\n\u003c/defs\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"72\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 78)\"\u003e100\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"92\" y2=\"92\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"92\" y2=\"92\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 98)\"\u003e90\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"112\" y2=\"112\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"112\" y2=\"112\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 118)\"\u003e80\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"132\" y2=\"132\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"132\" y2=\"132\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 138)\"\u003e70\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"152\" y2=\"152\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"152\" y2=\"152\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 158)\"\u003e60\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"172\" y2=\"172\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"172\" y2=\"172\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 178)\"\u003e50\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"192\" y2=\"192\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"192\" y2=\"192\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 198)\"\u003e40\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"212\" y2=\"212\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"212\" y2=\"212\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 218)\"\u003e30\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"232\" y2=\"232\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"232\" y2=\"232\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 238)\"\u003e20\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"252\" y2=\"252\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"252\" y2=\"252\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 258)\"\u003e10\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"365\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"272\" y2=\"272\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"81.328125\" x2=\"93.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"272\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"end\" transform=\"translate(75.328125 278)\"\u003e0\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(24 172) rotate(-90)\"\u003eSeeds germinated (%)\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"87.328125\" x2=\"87.328125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"122.037109375\" x2=\"122.037109375\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(122.037109375 291.84)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e24\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"191.455078125\" x2=\"191.455078125\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(191.455078125 291.84)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e48\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"260.873046875\" x2=\"260.873046875\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(260.873046875 291.84)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e72\u003c/text\u003e\u003cline fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"0.9\" x1=\"330.291015625\" x2=\"330.291015625\" xmlns=\"http://www.w3.org/2000/svg\" y1=\"72\" y2=\"272\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(330.291015625 291.84)\" x=\"0\" xmlns=\"http://www.w3.org/2000/svg\" y=\"0\"\u003e168\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(226.1640625 24)\"\u003eSeed Germination with and without\u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(226.1640625 48)\"\u003eH\u2082S Treatment \u003c/text\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"middle\" transform=\"translate(226.1640625 325.67999999999995)\"\u003eTime (hours)\u003c/text\u003e\u003crect fill=\"none\" height=\"103\" stroke=\"#000000\" stroke-linejoin=\"mitre\" stroke-width=\"0.9\" width=\"274.62420654296875\" x=\"60.187896728515625\" xmlns=\"http://www.w3.org/2000/svg\" y=\"342.84000000000003\"\u003e\u003c/rect\u003e\u003cline marker-end=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"67.18789672851562\" x2=\"94.18789672851562\" y1=\"359.84000000000003\" y2=\"359.84000000000003\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"94.18789672851562\" x2=\"121.18789672851562\" y1=\"359.84000000000003\" y2=\"359.84000000000003\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(131.18789672851562 366.84000000000003)\"\u003e 500 micromoles per liter\u003c/text\u003e\u003cline marker-end=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"67.18789672851562\" x2=\"94.18789672851562\" y1=\"391.84000000000003\" y2=\"391.84000000000003\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"94.18789672851562\" x2=\"121.18789672851562\" y1=\"391.84000000000003\" y2=\"391.84000000000003\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(131.18789672851562 398.84000000000003)\"\u003e 10 micromoles per liter\u003c/text\u003e\u003cline marker-end=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"67.18789672851562\" x2=\"94.18789672851562\" y1=\"423.84000000000003\" y2=\"423.84000000000003\"\u003e\u003c/line\u003e\u003cline marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"94.18789672851562\" x2=\"121.18789672851562\" y1=\"423.84000000000003\" y2=\"423.84000000000003\"\u003e\u003c/line\u003e\u003ctext fill=\"#000000\" font-family=\"Crimson Text\" font-size=\"19.84\" text-anchor=\"top\" transform=\"translate(131.18789672851562 430.84000000000003)\"\u003e untreated\u003c/text\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"122.037109375\" x2=\"191.455078125\" y1=\"262\" y2=\"212\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"122.037109375\" x2=\"191.455078125\" y1=\"258.8\" y2=\"125.4\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"122.037109375\" x2=\"191.455078125\" y1=\"272\" y2=\"172\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"191.455078125\" x2=\"260.873046875\" y1=\"212\" y2=\"102\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"191.455078125\" x2=\"260.873046875\" y1=\"125.4\" y2=\"92\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"191.455078125\" x2=\"260.873046875\" y1=\"172\" y2=\"125.4\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker0)\" marker-start=\"url(#marker0)\" stroke=\"#000\" stroke-width=\"2.4\" x1=\"260.873046875\" x2=\"330.291015625\" y1=\"102\" y2=\"102\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker1)\" marker-start=\"url(#marker1)\" stroke=\"#000\" stroke-dasharray=\"9 6\" stroke-width=\"2.4\" x1=\"260.873046875\" x2=\"330.291015625\" y1=\"92\" y2=\"78.80000000000001\"\u003e\u003c/line\u003e\u003cline marker-end=\"url(#marker2)\" marker-start=\"url(#marker2)\" stroke=\"#000\" stroke-dasharray=\"1.1 6\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"260.873046875\" x2=\"330.291015625\" y1=\"125.4\" y2=\"112\"\u003e\u003c/line\u003e\u003c/g\u003e\u003c/svg\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eIn high concentrations, hydrogen sulfide (H\u2082S) is typically toxic to many plants. Frederick D. Dooley and colleagues wanted to understand what effects low doses of H\u2082S might have on plant growth. They treated bean, corn, wheat, and pea seeds with various concentrations (measured in micromoles per liter) of H\u2082S and tracked the germination of those seeds along with the germination of untreated seeds. Treatment with particular concentrations of H\u2082S was associated with accelerated germination: for example, \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "578db2d1-5dd6-449b-beb7-46357aa8c11c", "templateclustername": "", "type": "mcq", "vaultid": "06560f16-3a9c-4dda-a74a-3b483315b622"}, "createDate": 1691007959371, "difficulty": "M", "external_id": "15e0f8c2-ed39-4583-83cc-73e2fa6eacfe", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "8a584241", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "273fef6b-8d59-47ff-92b2-7037252fe07d", "updateDate": 1691007959371};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-8a584241");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

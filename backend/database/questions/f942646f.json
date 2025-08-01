@@ -1,0 +1,22 @@
+{
+  "question_id": "f942646f",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "Researchers Suchithra Rajendran and Maximilian Popfinger modeled varying levels of passenger redistribution from short-haul flights (flights of 50 to 210 minutes, from takeoff to landing) to high-speed rail trips. Planes travel faster than trains, but air travel typically requires 3 hours of lead time for security, baggage handling, and boarding that rail travel doesn't, so short-haul routes take similar amounts of time by air and by rail. However, the model suggests that as rail passenger volumes approach current capacity limits, long lead times emerge. Therefore, for rail to remain a viable alternative to short-haul flights, ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "rail systems should offer fewer long-haul routes and airlines should offer more long-haul routes.",
+    "rail systems may need to schedule additional trains for these routes.",
+    "security, baggage handling, and boarding procedures used by airlines may need to be implemented for rail systems.",
+    "passengers who travel by rail for these routes will need to accept that lead times will be similar to those for air travel."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. Air travel usually requires much more \"lead time\" than train travel, so short flights end up taking the same amount of time as a train trip to the same destination. But train travel starts to need more \"lead time\" when the trains approach their capacity limits. This suggests that train companies should add more trains for these routes if they want to encourage travelers to take a train instead of a plane.",
+    "A": "Choice A is incorrect. This inference isn't supported. The text never discusses \"long-haul routes\" for either air travel or rail travel, so there is no basis to make this inference.",
+    "C": "Choice C is incorrect. This inference isn't supported. The text only mentions these procedures to explain why the \"lead time\" is so long for air travel. It never suggests that trains need to start implementing these procedures too.",
+    "D": "Choice D is incorrect. This inference isn't supported. The goal is to make sure that trains \"remain a viable alternative\" to short flights, which suggests that anything that makes train travel take longer should be avoided."
+  }
+}

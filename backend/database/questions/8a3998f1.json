@@ -1,0 +1,22 @@
+{
+  "question_id": "8a3998f1",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "After the United Kingdom began rolling out taxes equivalent to a few cents on single-use plastic grocery bags in 2011, plastic-bag consumption decreased by up to ninety ______ blank taxes are subject to what economists call the \"rebound effect\": as the change became normalized, plastic-bag use started to creep back up.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "percent, such",
+    "percent and such",
+    "percent. Such",
+    "percent such"
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period after \"percent\" is used correctly to mark the boundary between one sentence (\"After&hellip;percent\") and another (\"Such&hellip;up\").",
+    "A": "Choice A is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences.",
+    "B": "Choice B is incorrect. Without a comma preceding it, the conjunction \"and\" can't be used in this way to join sentences.",
+    "D": "Choice D is incorrect because it results in a run-on sentence. The sentences (\"After&hellip;percent\" and \"Such&hellip;up\") are fused without punctuation and/or a conjunction."
+  }
+}

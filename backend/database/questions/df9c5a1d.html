@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question df9c5a1d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><figure class="table"><table class="gdr"><caption style="caption-side: top;"><p style="text-align: center;">Juvenile Plants Found Growing on Bare Ground and in Patches of Vegetation for Five Species</p></caption><thead><tr><th scope="col" style="text-align: center; vertical-align: bottom;">Species</th><th scope="col" style="text-align: center; vertical-align: bottom;">Bare ground</th><th scope="col" style="text-align: center; vertical-align: bottom;">Patches of vegetation</th><th scope="col" style="text-align: center; vertical-align: bottom;">Total</th><th scope="col" style="text-align: center; vertical-align: bottom;">Percent found in patches of vegetation</th></tr></thead><tbody><tr><th scope="row" style="text-align: left;"><em>T. moroderi</em></th><td style="text-align: center;">9</td><td style="text-align: center;">13</td><td style="text-align: center;">22</td><td style="text-align: center;">59.1%</td></tr><tr><th scope="row" style="text-align: left;"><em>T. libanitis</em></th><td style="text-align: center;">83</td><td style="text-align: center;">120</td><td style="text-align: center;">203</td><td style="text-align: center;">59.1%<em></em></td></tr><tr><th scope="row" style="text-align: left;"><em>H. syriacim</em></th><td style="text-align: center;">95</td><td style="text-align: center;">106</td><td style="text-align: center;">201</td><td style="text-align: center;">52.7%</td></tr><tr><th scope="row" style="text-align: left;"><em>H. squamatum</em></th><td style="text-align: center;">218</td><td style="text-align: center;">321</td><td style="text-align: center;">539</td><td style="text-align: center;">59.6%</td></tr><tr><th scope="row" style="text-align: left;"><em>H. stoechas</em></th><td style="text-align: center;">11</td><td style="text-align: center;">12</td><td style="text-align: center;">23</td><td style="text-align: center;">52.2%</td></tr></tbody></table></figure></p>
+<p>Alicia Montesinos-Navarro, Isabelle Storer, and Roc&iacute;o Perez-Barrales recently examined several plots within a diverse plant community in southeast Spain. The researchers calculated that if individual plants were randomly distributed on this particular landscape, only about 15% would be with other plants in patches of vegetation. They counted the number of juvenile plants of five species growing in patches of vegetation and the number growing alone on bare ground and compared those numbers to what would be expected if the plants were randomly distributed. Based on these results, they claim that plants of these species that grow in close proximity to other plants gain an advantage at an early developmental stage.</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes data from the table that support the researchers&rsquo; claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For all five species, less than 75% of juvenile plants were growing in patches of vegetation.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The species with the greatest number of juvenile plants growing in patches of vegetation was <em>H. stoechas</em>.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For <em>T. libanitis</em> and <em>T. moroderi</em>, the percentage of juvenile plants growing in patches of vegetation was less than what would be expected if plants were randomly distributed.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>For each species, the percentage of juvenile plants growing in patches of vegetation was substantially higher than what would be expected if plants were randomly distributed.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because it provides the most direct support from the table for the claim that the plants growing in close proximity to other plants gained an advantage at an early developmental stage. The table shows the total number of juvenile plants from five species that were found growing on bare ground and in patches of vegetation as well as the percentage of the total number of each species that were growing in patches of vegetation. For each of the five species, more than 50% of the juvenile plants were growing in patches of vegetation. The text notes, however, that a random distribution of plants across the landscape should result in only about 15% of the plants being found in patches of vegetation. In other words, for each of the five species, the percentage of juvenile plants found growing in patches of vegetation was substantially higher than could be explained by chance alone. This finding supports the claim in the text: if plants growing in patches are overrepresented among plants that have survived to the juvenile stage, as the data show they are, then it suggests that it&rsquo;s advantageous for plants at an early stage of development to grow in patches of vegetation.&nbsp;&nbsp;</p><p>Choice A is incorrect because the statement that less than 75% of juvenile plants were found growing in patches of vegetation, while true, doesn&rsquo;t clearly support the claim that the plants growing in close proximity to other plants gained an advantage at an early developmental stage. Saying that less than 75% of plants were found in patches doesn&rsquo;t indicate how the percentage growing in patches compares with the percentage that would be expected to grow in patches on the basis of chance alone, which is the information necessary to evaluate whether the claim in the text has support in the table. Put another way, if the percentage of plants found growing in patches was 15% or less, it would be true that less than 75% were found in patches, but the data would in fact weaken the claim in the text, not strengthen it, since the data would show that growing in patches wasn&rsquo;t advantageous.&nbsp;Choice B is incorrect because only 12 plants of this species were found growing in patches, which was the lowest number of any species, not the greatest number. Additionally, even if it were true that this species had the greatest number of plants growing in patches, the finding would be irrelevant to the claim that plants of all five species gained an advantage by growing in close proximity to other plants.&nbsp;Choice C is incorrect because 59.1% of the plants of these species were found growing in patches, which is a far greater percentage, not a lower percentage, than what would be expected if plants were randomly distributed (around 15%). Additionally, if it were true that the percentage of plants growing in patches was lower for these species than what would be expected from chance alone, that finding would weaken, not strengthen, the claim that growing in patches is advantageous.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">241 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eFor all five species, less than 75% of juvenile plants were growing in patches of vegetation.\u003c/p\u003e", "id": "23732c87-bfa1-4d30-bef9-d49a09c308e9"}, {"content": "\u003cp\u003eThe species with the greatest number of juvenile plants growing in patches of vegetation was \u003cem\u003eH. stoechas\u003c/em\u003e.\u003c/p\u003e", "id": "7855151b-5c02-4009-9825-bcebc9f20a07"}, {"content": "\u003cp\u003eFor \u003cem\u003eT. libanitis\u003c/em\u003e and \u003cem\u003eT. moroderi\u003c/em\u003e, the percentage of juvenile plants growing in patches of vegetation was less than what would be expected if plants were randomly distributed.\u003c/p\u003e", "id": "9e9b6e92-f98a-495e-9036-4cc8afbacc70"}, {"content": "\u003cp\u003eFor each species, the percentage of juvenile plants growing in patches of vegetation was substantially higher than what would be expected if plants were randomly distributed.\u003c/p\u003e", "id": "a75d0898-5e2e-4ce5-a16c-17daa72c886d"}], "correct_answer": ["D"], "externalid": "68c34ac6-b03e-440f-82e7-fa34d16e48a9", "keys": ["a75d0898-5e2e-4ce5-a16c-17daa72c886d"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-518-QUA", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because it provides the most direct support from the table for the claim that the plants growing in close proximity to other plants gained an advantage at an early developmental stage. The table shows the total number of juvenile plants from five species that were found growing on bare ground and in patches of vegetation as well as the percentage of the total number of each species that were growing in patches of vegetation. For each of the five species, more than 50% of the juvenile plants were growing in patches of vegetation. The text notes, however, that a random distribution of plants across the landscape should result in only about 15% of the plants being found in patches of vegetation. In other words, for each of the five species, the percentage of juvenile plants found growing in patches of vegetation was substantially higher than could be explained by chance alone. This finding supports the claim in the text: if plants growing in patches are overrepresented among plants that have survived to the juvenile stage, as the data show they are, then it suggests that it\u0026rsquo;s advantageous for plants at an early stage of development to grow in patches of vegetation.\u0026nbsp;\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because the statement that less than 75% of juvenile plants were found growing in patches of vegetation, while true, doesn\u0026rsquo;t clearly support the claim that the plants growing in close proximity to other plants gained an advantage at an early developmental stage. Saying that less than 75% of plants were found in patches doesn\u0026rsquo;t indicate how the percentage growing in patches compares with the percentage that would be expected to grow in patches on the basis of chance alone, which is the information necessary to evaluate whether the claim in the text has support in the table. Put another way, if the percentage of plants found growing in patches was 15% or less, it would be true that less than 75% were found in patches, but the data would in fact weaken the claim in the text, not strengthen it, since the data would show that growing in patches wasn\u0026rsquo;t advantageous.\u0026nbsp;Choice B is incorrect because only 12 plants of this species were found growing in patches, which was the lowest number of any species, not the greatest number. Additionally, even if it were true that this species had the greatest number of plants growing in patches, the finding would be irrelevant to the claim that plants of all five species gained an advantage by growing in close proximity to other plants.\u0026nbsp;Choice C is incorrect because 59.1% of the plants of these species were found growing in patches, which is a far greater percentage, not a lower percentage, than what would be expected if plants were randomly distributed (around 15%). Additionally, if it were true that the percentage of plants growing in patches was lower for these species than what would be expected from chance alone, that finding would weaken, not strengthen, the claim that growing in patches is advantageous.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes data from the table that support the researchers\u0026rsquo; claim?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cfigure class=\"table\"\u003e\u003ctable class=\"gdr\"\u003e\u003ccaption style=\"caption-side: top;\"\u003e\u003cp style=\"text-align: center;\"\u003eJuvenile Plants Found Growing on Bare Ground and in Patches of Vegetation for Five Species\u003c/p\u003e\u003c/caption\u003e\u003cthead\u003e\u003ctr\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eSpecies\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eBare ground\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003ePatches of vegetation\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003eTotal\u003c/th\u003e\u003cth scope=\"col\" style=\"text-align: center; vertical-align: bottom;\"\u003ePercent found in patches of vegetation\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e\u003cem\u003eT. moroderi\u003c/em\u003e\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e9\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e13\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e22\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e59.1%\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e\u003cem\u003eT. libanitis\u003c/em\u003e\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e83\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e120\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e203\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e59.1%\u003cem\u003e\u003c/em\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e\u003cem\u003eH. syriacim\u003c/em\u003e\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e95\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e106\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e201\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e52.7%\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e\u003cem\u003eH. squamatum\u003c/em\u003e\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e218\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e321\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e539\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e59.6%\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003cth scope=\"row\" style=\"text-align: left;\"\u003e\u003cem\u003eH. stoechas\u003c/em\u003e\u003c/th\u003e\u003ctd style=\"text-align: center;\"\u003e11\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e12\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e23\u003c/td\u003e\u003ctd style=\"text-align: center;\"\u003e52.2%\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/figure\u003e\u003c/p\u003e\n\u003cp\u003eAlicia Montesinos-Navarro, Isabelle Storer, and Roc\u0026iacute;o Perez-Barrales recently examined several plots within a diverse plant community in southeast Spain. The researchers calculated that if individual plants were randomly distributed on this particular landscape, only about 15% would be with other plants in patches of vegetation. They counted the number of juvenile plants of five species growing in patches of vegetation and the number growing alone on bare ground and compared those numbers to what would be expected if the plants were randomly distributed. Based on these results, they claim that plants of these species that grow in close proximity to other plants gain an advantage at an early developmental stage.\u003c/p\u003e", "templateclusterid": "47f76262-eb75-49c7-bddc-966375bc35af", "templateclustername": "", "type": "mcq", "vaultid": "d1391838-1518-46ca-9f6f-6988e4c03ba1"}, "createDate": 1691007959337, "difficulty": "H", "external_id": "68c34ac6-b03e-440f-82e7-fa34d16e48a9", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "df9c5a1d", "score_band_range_cd": 6, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "cc9342f9-a240-4615-b48b-b9ab936ffd3f", "updateDate": 1691007959337};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-df9c5a1d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "question_id": "7b55e895",
+  "domain": "Craft and Structure",
+  "skill": "Cross-Text Connections",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Text 1 Some animal species, like the leopard, can be found in many kinds of areas. On the other hand, tropical mountain bird species tend to be limited in the types of spaces they can call home. This is because many mountain bird species are only able to survive at very specific elevations. Over time, these species have likely become used to living at a specific temperature. Therefore, these species struggle to survive at elevations that are warmer or colder than they are used to. Text 2 A new study reviewed observations of nearly 3,000 bird species to understand why tropical mountain bird species live at specific elevations. They noted that when a mountain bird species was found in an area with many other bird species, it tended to inhabit much smaller geographic areas. It is thus likely that competition for resources with other species, not temperature, limits where these birds can live.",
+  "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+  "answer_options": [
+    "Tropical mountain bird species are restricted in where they can live.",
+    "Scientists have better tools to observe tropical mountain birds than they did in the past.",
+    "Little is known about how tropical mountain birds build their nests.",
+    "Tropical mountain bird species that live at high elevations tend to be genetically similar."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. Both texts state that tropical mountain bird species have limited ranges or habitats, although they disagree on the reason for this. Text 1 claims that temperature is the main factor that determines where these birds can live, while Text 2 claims that competition with other species is the main factor. However, both texts agree that these birds are not able to survive in many kinds of areas.",
+    "B": "Choice B is incorrect. Neither text mentions the tools or methods that scientists use to observe these birds, either now or in the past.",
+    "C": "Choice C is incorrect. Neither text mentions anything about how these birds build their nests.",
+    "D": "Choice D is incorrect. Neither text provides any information about the genetic similarity of these birds, so we have no evidence that either author would agree with this statement."
+  }
+}

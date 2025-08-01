@@ -1,0 +1,22 @@
+{
+  "question_id": "628e1305",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "\"Valia\" is a 1907 short story by Leonid Andreyev. In the story, the author emphasizes that the setting where the character Valia is reading is nearly silent: ______ blank",
+  "question_text": "Which quotation from &ldquo;Valia&rdquo; most effectively illustrates the claim?",
+  "answer_options": [
+    "&ldquo;The hand in which he carried his book was getting stiff with cold, but he would not ask his mother to take the book from him.&rdquo;",
+    "&ldquo;Valia was reading a huge, very huge book, almost half as large as himself.&rdquo;",
+    "&ldquo;Valia approached the window and examined the toys.&rdquo;",
+    "&ldquo;Everything in the room was quiet, so quiet that the only thing to be heard was the rustling of the pages he turned.&rdquo;"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because this quotation most effectively illustrates the claim that the author emphasizes the near silence of the setting where the character Valia is reading. In the quotation, the author highlights the near silence of the setting by twice using the word \"quiet\" to describe the room. The author also calls attention to the fact that Valia is reading in a nearly silent setting by noting that the only sound to be heard is that of the pages being turned.",
+    "A": "Choice A is incorrect because this quotation suggests that Valia is in a chilly setting that causes his hand to become cold, not that he's in a nearly silent setting.",
+    "B": "Choice B is incorrect because this quotation emphasizes the size of the book Valia is reading, not a quality of the setting where he's reading it.",
+    "C": "Choice C is incorrect because this quotation describes Valia approaching a window and looking at toys, not reading in a quiet setting."
+  }
+}

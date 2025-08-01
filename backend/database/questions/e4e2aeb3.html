@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question e4e2aeb3</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Text 1</p>
+<p>Like the work of Ralph Ellison before her, Toni Morrison&rsquo;s novels feature scenes in which characters deliver sermons of such length and verbal dexterity that for a time, the text exchanges the formal parameters of fiction for those of oral literature. Given the many other echoes of Ellison in Morrison&rsquo;s novels, both in structure and prose style, <span style="text-decoration: underline;">these scenes suggest Ellison&rsquo;s direct influence on Morrison.</span></p>
+<p>Text 2</p>
+<p>In their destabilizing effect on literary form, the sermons in Morrison&rsquo;s works recall those in Ellison&rsquo;s. Yet literature by Black Americans abounds in moments where interpolated speech erodes the division between oral and written forms that literature in English has traditionally observed. Morrison&rsquo;s use of the sermon is attributable not only to the influence of Ellison but also to a community-wide strategy of resistance to externally imposed literary conventions.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, how would the author of Text 2 most likely characterize the underlined claim in Text 1?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>As failing to consider Ellison&rsquo;s and Morrison&rsquo;s equivalent uses of the sermon within the wider cultural context in which they wrote</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>As misunderstanding the function of sermons in novels by Black American writers other than Ellison and Morrison</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>As disregarding points of structural and stylistic divergence between the works of Ellison and those of Morrison</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>As being indebted to the tradition of resisting literary conventions that privilege written forms, such as novels, over sermons and other oral forms</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. The author of Text 2 argues that Morrison&rsquo;s use of the sermon is not only influenced by Ellison, but also by a &ldquo;community-wide strategy of resistance&rdquo; to literary conventions practiced by Black American authors. Ellison, Text 2 alleges, is only one of many influences on Morrison. </p><p>Choice B is incorrect. Neither text specifically mentions sermons in works by authors other than Morrison or Ellison, only a tendency towards eroding &ldquo;the division between oral and written forms&rdquo; among Black American writers. Choice C is incorrect. Both texts describe similarities between the works of Ellison and Morrison, and neither points out instances of divergence. Text 2 simply suggests that Morrison was influenced by more than just Ellison. Choice D is incorrect. While Text 2 does discuss Morrison&rsquo;s resistance to certain literary conventions, it&rsquo;s unclear what it would mean for the underlined claim to be &ldquo;indebted&rdquo; to that tradition. This choice recycles language from the text, but not in a way that makes any coherent point. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">438 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eAs failing to consider Ellison\u0026rsquo;s and Morrison\u0026rsquo;s equivalent uses of the sermon within the wider cultural context in which they wrote\u003c/p\u003e", "id": "8fa1c8bd-cdea-4eff-802e-53b786079cbb"}, {"content": "\u003cp\u003eAs misunderstanding the function of sermons in novels by Black American writers other than Ellison and Morrison\u003c/p\u003e", "id": "fb4a5e70-7426-433d-a640-65b1f91b1147"}, {"content": "\u003cp\u003eAs disregarding points of structural and stylistic divergence between the works of Ellison and those of Morrison\u003c/p\u003e", "id": "85dfbf48-16ce-4e6c-9128-1d7c69f21d43"}, {"content": "\u003cp\u003eAs being indebted to the tradition of resisting literary conventions that privilege written forms, such as novels, over sermons and other oral forms\u003c/p\u003e", "id": "610d33c5-5dbb-48c7-bf86-338d61beba4f"}], "correct_answer": ["A"], "externalid": "dc9f8834-4a33-4df5-95e4-1900e4f12d32", "keys": ["8fa1c8bd-cdea-4eff-802e-53b786079cbb"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-H005", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. The author of Text 2 argues that Morrison\u0026rsquo;s use of the sermon is not only influenced by Ellison, but also by a \u0026ldquo;community-wide strategy of resistance\u0026rdquo; to literary conventions practiced by Black American authors. Ellison, Text 2 alleges, is only one of many influences on Morrison. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. Neither text specifically mentions sermons in works by authors other than Morrison or Ellison, only a tendency towards eroding \u0026ldquo;the division between oral and written forms\u0026rdquo; among Black American writers. Choice C is incorrect. Both texts describe similarities between the works of Ellison and Morrison, and neither points out instances of divergence. Text 2 simply suggests that Morrison was influenced by more than just Ellison. Choice D is incorrect. While Text 2 does discuss Morrison\u0026rsquo;s resistance to certain literary conventions, it\u0026rsquo;s unclear what it would mean for the underlined claim to be \u0026ldquo;indebted\u0026rdquo; to that tradition. This choice recycles language from the text, but not in a way that makes any coherent point. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, how would the author of Text 2 most likely characterize the underlined claim in Text 1?\u003c/p\u003e", "stimulus": "\u003cp\u003eText 1\u003c/p\u003e\n\u003cp\u003eLike the work of Ralph Ellison before her, Toni Morrison\u0026rsquo;s novels feature scenes in which characters deliver sermons of such length and verbal dexterity that for a time, the text exchanges the formal parameters of fiction for those of oral literature. Given the many other echoes of Ellison in Morrison\u0026rsquo;s novels, both in structure and prose style, \u003cspan style=\"text-decoration: underline;\"\u003ethese scenes suggest Ellison\u0026rsquo;s direct influence on Morrison.\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eText 2\u003c/p\u003e\n\u003cp\u003eIn their destabilizing effect on literary form, the sermons in Morrison\u0026rsquo;s works recall those in Ellison\u0026rsquo;s. Yet literature by Black Americans abounds in moments where interpolated speech erodes the division between oral and written forms that literature in English has traditionally observed. Morrison\u0026rsquo;s use of the sermon is attributable not only to the influence of Ellison but also to a community-wide strategy of resistance to externally imposed literary conventions.\u003c/p\u003e", "templateclusterid": "779a3333-321f-4696-8583-c37d9735704b", "templateclustername": "", "type": "mcq", "vaultid": "2b590194-86e9-46cd-b508-2c478e69f9e4"}, "createDate": 1691007959365, "difficulty": "H", "external_id": "dc9f8834-4a33-4df5-95e4-1900e4f12d32", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "e4e2aeb3", "score_band_range_cd": 6, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "a042cb3b-0f7e-4d1d-8932-8a72b9cb469f", "updateDate": 1691007959365};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-e4e2aeb3");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

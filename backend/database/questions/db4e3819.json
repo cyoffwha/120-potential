@@ -1,0 +1,22 @@
+{
+  "question_id": "db4e3819",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Midway through her 1968 jazz album A Monastic Trio , Alice Coltrane switches instruments, swapping the piano for the harp. With the same fluid style that Coltrane was famous for on piano, she ______ blank her fingers across the harp strings and creates a radiant sound.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "sweep",
+    "are sweeping",
+    "were sweeping",
+    "sweeps"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is subject-verb agreement. The singular verb \"sweeps\" agrees in number with the singular subject \"she,\" which refers to Alice Coltrane.",
+    "A": "Choice A is incorrect because the plural verb \"sweep\" doesn't agree in number with the singular subject \"she.\"",
+    "B": "Choice B is incorrect because the plural verb \"are sweeping\" doesn't agree in number with the singular subject \"she.\"",
+    "C": "Choice C is incorrect because the plural verb \"were sweeping\" doesn't agree in number with the singular subject \"she.\""
+  }
+}

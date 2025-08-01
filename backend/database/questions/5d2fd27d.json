@@ -1,0 +1,22 @@
+{
+  "question_id": "5d2fd27d",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "While we can infer information about climate activity in Earth's distant past from physical evidence, we of course cannot observe past climates directly. To study early Earth's climate in action, we must ______ blank that climate using computer models that represent various climate conditions consistent with the physical evidence.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "invent",
+    "simulate",
+    "exaggerate",
+    "preserve"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of climate activity in Earth's distant past. In this context, to \"simulate\" most nearly means to represent a natural process using computer models. According to the text, understanding Earth's early climate is difficult because we cannot make direct observations of the distant past. Instead, scientists must create computer models that approximate early climate conditions, based on the physical evidence that those conditions left behind on Earth's surface. This context supports the idea that computer models simulate Earth's climate in the distant past.",
+    "A": "Choice A is incorrect because scientists use existing physical evidence as a basis for developing computer models that describe what Earth's actual past climate might have been like. The models are not being used to \"invent,\" or imagine, a completely fictional climate.",
+    "C": "Choice C is incorrect because the computer models are being used in an attempt to describe as accurately as possible what Earth's past climate might have been like. They are not attempting to \"exaggerate,\" or distort, those features.",
+    "D": "Choice D is incorrect because the computer models do not \"preserve,\" or protect from deterioration, Earth's early climate; instead, they attempt to reproduce the characteristics of that climate, based on the remaining physical evidence of that climate."
+  }
+}

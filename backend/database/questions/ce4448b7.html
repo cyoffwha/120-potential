@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question ce4448b7</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Researchers recently found that disruptions to an enjoyable experience, like a short series of advertisements during a television show, often increase viewers&rsquo; reported enjoyment. Suspecting that disruptions to an unpleasant experience would have the opposite effect, the researchers had participants listen to construction noise for 30 minutes and anticipated that those whose listening experience was frequently interrupted with short breaks of silence would thus <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>find the disruptions more irritating as time went on.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>rate the listening experience as more negative than those whose listening experience was uninterrupted.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>rate the experience of listening to construction noise as lasting for less time than it actually lasted.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>perceive the volume of the construction noise as growing softer over time.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer. It most logically completes the text. The text tells us that disruptions to an enjoyable experience increase viewers&rsquo; enjoyment. It also says that researchers suspect the opposite is true for disruptions to an unpleasant experience. Thus, we can infer that the researchers expect to find that the interrupted unpleasant experience was worse for listeners than the uninterrupted unpleasant experience. &nbsp;</p><p>Choice A is incorrect. It doesn&rsquo;t logically complete the text. The text never makes any claims about how irritating the disruptions themselves are perceived to be. Rather, the text says that pleasant experiences are perceived as more enjoyable with interruptions, and that the opposite is suspected to be true of unpleasant experiences. Choice C is incorrect. It doesn&rsquo;t logically complete the text. The text never makes any claims about how long any experience is perceived to be. Rather, the text says that pleasant experiences are perceived as more enjoyable with interruptions, and that the opposite is suspected to be true of unpleasant experiences.&nbsp;Choice D is incorrect. It doesn&rsquo;t logically complete the text. The text never makes any claims about how interruptions affect the perceived volume of the unpleasant or pleasant experience. Rather, the text says that pleasant experiences are perceived as more enjoyable with interruptions, and that the opposite is suspected to be true of unpleasant experiences.&nbsp;</p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">16 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003efind the disruptions more irritating as time went on.\u0026nbsp;\u003c/p\u003e", "id": "e741b783-c184-4f18-89f8-b5bef80be989"}, {"content": "\u003cp\u003erate the listening experience as more negative than those whose listening experience was uninterrupted.\u003c/p\u003e", "id": "c8df6dbd-8876-40a8-a821-8646331f75bd"}, {"content": "\u003cp\u003erate the experience of listening to construction noise as lasting for less time than it actually lasted.\u003c/p\u003e", "id": "1e474385-8053-42aa-970d-5956bc4a5978"}, {"content": "\u003cp\u003eperceive the volume of the construction noise as growing softer over time.\u003c/p\u003e", "id": "293c210e-aefe-4fa4-ad60-32751dae1fec"}], "correct_answer": ["B"], "externalid": "90ef6bd8-7392-493a-a95b-f10670d19fa1", "keys": ["c8df6dbd-8876-40a8-a821-8646331f75bd"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-016-INF", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer. It most logically completes the text. The text tells us that disruptions to an enjoyable experience increase viewers\u0026rsquo; enjoyment. It also says that researchers suspect the opposite is true for disruptions to an unpleasant experience. Thus, we can infer that the researchers expect to find that the interrupted unpleasant experience was worse for listeners than the uninterrupted unpleasant experience. \u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect. It doesn\u0026rsquo;t logically complete the text. The text never makes any claims about how irritating the disruptions themselves are perceived to be. Rather, the text says that pleasant experiences are perceived as more enjoyable with interruptions, and that the opposite is suspected to be true of unpleasant experiences. Choice C is incorrect. It doesn\u0026rsquo;t logically complete the text. The text never makes any claims about how long any experience is perceived to be. Rather, the text says that pleasant experiences are perceived as more enjoyable with interruptions, and that the opposite is suspected to be true of unpleasant experiences.\u0026nbsp;Choice D is incorrect. It doesn\u0026rsquo;t logically complete the text. The text never makes any claims about how interruptions affect the perceived volume of the unpleasant or pleasant experience. Rather, the text says that pleasant experiences are perceived as more enjoyable with interruptions, and that the opposite is suspected to be true of unpleasant experiences.\u0026nbsp;\u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eResearchers recently found that disruptions to an enjoyable experience, like a short series of advertisements during a television show, often increase viewers\u0026rsquo; reported enjoyment. Suspecting that disruptions to an unpleasant experience would have the opposite effect, the researchers had participants listen to construction noise for 30 minutes and anticipated that those whose listening experience was frequently interrupted with short breaks of silence would thus \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "5117e41e-9135-4854-b073-eae273dda91e", "templateclustername": "", "type": "mcq", "vaultid": "0316985d-59dd-4035-88cc-fe327da99fac"}, "createDate": 1691007959316, "difficulty": "H", "external_id": "90ef6bd8-7392-493a-a95b-f10670d19fa1", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "ce4448b7", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "0c0c13fa-801c-4409-8bd2-3cb19cfb4a6b", "updateDate": 1691007959316};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-ce4448b7");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question ab56a107</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>&nbsp;</p><p><span aria-level="2" role="heading"><strong>Text 1</strong></span></p>
+<p>Digital art, the use of digital technology to create or display images, isn&rsquo;t really art at all. It doesn&rsquo;t require as much skill as creating physical art. &ldquo;Painting&rdquo; with a tablet and stylus is much easier than using paint and a brush: the technology is doing most of the work.</p>
+<p>&nbsp;</p><p><span aria-level="2" role="heading"><strong>Text 2</strong></span></p>
+<p>The painting programs used to create digital art involve more than just pressing a few buttons. In addition to knowing the fundamentals of art, digital artists need to be familiar with sophisticated software. Many artists will start by drawing an image on paper before transforming the piece to a digital format, where they can apply a variety of colors and techniques that would otherwise require many different traditional tools. </p></div>
+
+                        <div class="mt-3"><p>Based on the texts, how would the author of Text 2 most likely respond to the claims of the author of Text 1?&nbsp;</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By arguing that a piece of art created digitally can still be displayed traditionally</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By explaining that it&rsquo;s actually much harder to use a tablet and stylus to create art than to use paint and a brush</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By insisting that digital art requires artistic abilities and skill even if it employs less traditional tools</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By admitting that most digital artists don&rsquo;t think fundamental drawing skills are important</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>C</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice C is the best answer because it reflects how the author of Text 2 would respond to the claims in Text 1. Both texts address skills needed to produce digital art. Text 1 claims that digital art doesn&rsquo;t require the same amount of skill as creating physical art and that &ldquo;the technology is doing most of the work.&rdquo; Text 2 states that digital art requires &ldquo;knowing the fundamentals of art&rdquo; and that many digital artists begin their work on paper and then transfer it to a digital format using &ldquo;sophisticated software&rdquo; and &ldquo;a variety of colors and techniques.&rdquo; Therefore, the author of Text 2 would most likely insist that digital art requires artistic abilities even if it employs less traditional tools. </p><p>Choice A is incorrect because neither text discusses nondigital means of displaying art. Choice B is incorrect because the author of Text 2 doesn&rsquo;t address whether it&rsquo;s harder to use a tablet and stylus than it is to use paint and a brush. Text 2 does argue that digital art requires skills that aren&rsquo;t part of the traditional methods for producing art, but the text doesn&rsquo;t address relative difficulty. Choice D is incorrect because the author of Text 2 states that digital artists still need to know &ldquo;the fundamentals of art&rdquo; and that many digital artists begin their work by drafting on paper before transferring the work to a digital format. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">475 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eBy arguing that a piece of art created digitally can still be displayed traditionally\u003c/p\u003e", "id": "f0076977-6e11-445f-909d-a32a60e7ce96"}, {"content": "\u003cp\u003eBy explaining that it\u0026rsquo;s actually much harder to use a tablet and stylus to create art than to use paint and a brush\u003c/p\u003e", "id": "853fcaa7-91b1-410d-a361-000cb3d24016"}, {"content": "\u003cp\u003eBy insisting that digital art requires artistic abilities and skill even if it employs less traditional tools\u003c/p\u003e", "id": "05f1ba00-9134-4e9a-9741-f6cc6f12864f"}, {"content": "\u003cp\u003eBy admitting that most digital artists don\u0026rsquo;t think fundamental drawing skills are important\u003c/p\u003e", "id": "d0833b56-143d-4c7d-847d-99318cff37ee"}], "correct_answer": ["C"], "externalid": "6ea6be63-d92d-4ba8-8655-262858f55e62", "keys": ["05f1ba00-9134-4e9a-9741-f6cc6f12864f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-012-CTC", "position": "0", "rationale": "\u003cp\u003eChoice C is the best answer because it reflects how the author of Text 2 would respond to the claims in Text 1. Both texts address skills needed to produce digital art. Text 1 claims that digital art doesn\u0026rsquo;t require the same amount of skill as creating physical art and that \u0026ldquo;the technology is doing most of the work.\u0026rdquo; Text 2 states that digital art requires \u0026ldquo;knowing the fundamentals of art\u0026rdquo; and that many digital artists begin their work on paper and then transfer it to a digital format using \u0026ldquo;sophisticated software\u0026rdquo; and \u0026ldquo;a variety of colors and techniques.\u0026rdquo; Therefore, the author of Text 2 would most likely insist that digital art requires artistic abilities even if it employs less traditional tools. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because neither text discusses nondigital means of displaying art. Choice B is incorrect because the author of Text 2 doesn\u0026rsquo;t address whether it\u0026rsquo;s harder to use a tablet and stylus than it is to use paint and a brush. Text 2 does argue that digital art requires skills that aren\u0026rsquo;t part of the traditional methods for producing art, but the text doesn\u0026rsquo;t address relative difficulty. Choice D is incorrect because the author of Text 2 states that digital artists still need to know \u0026ldquo;the fundamentals of art\u0026rdquo; and that many digital artists begin their work by drafting on paper before transferring the work to a digital format. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, how would the author of Text 2 most likely respond to the claims of the author of Text 1?\u0026nbsp;\u003c/p\u003e", "stimulus": "\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003cspan aria-level=\"2\" role=\"heading\"\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eDigital art, the use of digital technology to create or display images, isn\u0026rsquo;t really art at all. It doesn\u0026rsquo;t require as much skill as creating physical art. \u0026ldquo;Painting\u0026rdquo; with a tablet and stylus is much easier than using paint and a brush: the technology is doing most of the work.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003cspan aria-level=\"2\" role=\"heading\"\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eThe painting programs used to create digital art involve more than just pressing a few buttons. In addition to knowing the fundamentals of art, digital artists need to be familiar with sophisticated software. Many artists will start by drawing an image on paper before transforming the piece to a digital format, where they can apply a variety of colors and techniques that would otherwise require many different traditional tools. \u003c/p\u003e", "templateclusterid": "ad04f83d-0100-44aa-928a-fc6934c95bf5", "templateclustername": "", "type": "mcq", "vaultid": "0aa2c4d8-dffc-4980-af72-559ea69184dc"}, "createDate": 1691007959314, "difficulty": "M", "external_id": "6ea6be63-d92d-4ba8-8655-262858f55e62", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "ab56a107", "score_band_range_cd": 4, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "c289656d-e40b-468f-81c4-04bbb574c601", "updateDate": 1691007959314};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-ab56a107");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

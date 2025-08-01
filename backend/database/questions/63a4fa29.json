@@ -1,0 +1,22 @@
+{
+  "question_id": "63a4fa29",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In 2013, archaeologists studied cat bone fragments they had found in the ruins of Quanhucun, a Chinese farming village. The fragments were estimated to be 5,300 years old. A chemical analysis of the fragments revealed that the cats had consumed large amounts of grain. The grain consumption is evidence that the Quanhucun cats may have been domesticated. The student wants to present the Quanhucun study and its conclusions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to present the Quanhucun study and its conclusions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "As part of a 2013 study of cat domestication, a chemical analysis was conducted on cat bone fragments found in Quanhucun, China.",
+    "A 2013 analysis of cat bone fragments found in Quanhucun, China, suggests that cats there may have been domesticated 5,300 years ago.&nbsp;",
+    "In 2013, archaeologists studied what cats in Quanhucun, China, had eaten more than 5,000 years ago.",
+    "Cat bone fragments estimated to be 5,300 years old were found in Quanhucun, China, in 2013."
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The sentence presents the study, describing it as a 2013 analysis of Quanhucun cat bone fragments, and its conclusions, indicating what the analysis suggests about cat domestication in Quanhucun.",
+    "A": "Choice A is incorrect because the sentence focuses on the study's methodology; it doesn't present conclusions from the study.",
+    "C": "Choice C is incorrect. While the sentence provides a general overview of the study, it doesn't present conclusions from the study.",
+    "D": "Choice D is incorrect. The sentence describes a finding from the study; it doesn't present conclusions from the study."
+  }
+}

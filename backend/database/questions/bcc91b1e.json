@@ -1,0 +1,22 @@
+{
+  "question_id": "bcc91b1e",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "The spacecraft OSIRIS-REx briefly made contact with the asteroid 101955 Bennu in 2020. NASA scientist Daniella DellaGiustina reports that despite facing the unexpected obstacle of a surface mostly covered in boulders, OSIRIS-REx successfully ______ blank a sample of the surface, gathering pieces of it to bring back to Earth.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "attached",
+    "collected",
+    "followed",
+    "replaced"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer because it most logically completes the text's discussion of the OSIRIS-REx spacecraft's contact with the asteroid 101955 Bennu. In this context, \"collected\" means acquired and took away. The text indicates that although the boulders on the asteroid's surface caused some unforeseen problems, OSIRIS-REx was able to gather a sample to return to Earth. This context suggests that OSIRIS-REx successfully collected a sample of 101955 Bennu.",
+    "A": "Choice A is incorrect because in this context \"attached\" means connected or affixed. The text indicates that OSIRIS-REx gathered pieces of 101955 Bennu to bring to Earth; it doesn't suggest that the spacecraft attached anything to the asteroid.",
+    "C": "Choice C is incorrect because in this context \"followed\" means tracked or traveled behind and the text discusses OSIRIS-REx's brief encounter with 101955 Bennu during which the spacecraft gathered a sample to bring to Earth. The text doesn't suggest that the spacecraft tracked the sample, and it's not clear what it would mean for the spacecraft to travel behind the sample it collected.",
+    "D": "Choice D is incorrect because in this context \"replaced\" means put back or returned. The text indicates that OSIRIS-REx gathered pieces of 101955 Bennu to bring to Earth but doesn't suggest that anything was returned to the asteroid."
+  }
+}

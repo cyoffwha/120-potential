@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question c885c38b</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>&nbsp;</p><p><span aria-level="2" role="heading"><strong>Text 1</strong></span></p>
+<p>Conventional wisdom long held that human social systems evolved in stages, beginning with hunter-gatherers forming small bands of members with roughly equal status. The shift to agriculture about 12,000 years ago sparked population growth that led to the emergence of groups with hierarchical structures: associations of clans first, then chiefdoms, and finally, bureaucratic states.</p>
+<p>&nbsp;</p><p><span aria-level="2" role="heading"><strong>Text 2</strong></span></p>
+<p>In a 2021 book, anthropologist David Graeber and archaeologist David Wengrow maintain that humans have always been socially flexible, alternately forming systems based on hierarchy and collective ones with decentralized leadership. The authors point to evidence that as far back as 50,000 years ago some hunter-gatherers adjusted their social structures seasonally, at times dispersing in small groups but also assembling into communities that included esteemed individuals.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, how would Graeber and Wengrow (Text 2) most likely respond to the &ldquo;conventional wisdom&rdquo; presented in Text 1?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By conceding the importance of hierarchical systems but asserting the greater significance of decentralized collective societies</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By disputing the idea that developments in social structures have followed a linear progression through distinct stages</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By acknowledging that hierarchical roles likely weren&rsquo;t a part of social systems before the rise of agriculture</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>By challenging the assumption that groupings of hunter-gatherers were among the earliest forms of social structure</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it describes the most likely way that Graeber and Wengrow (Text 2) would respond to the &ldquo;conventional wisdom&rdquo; presented in Text 1. According to Text 1, the conventional wisdom about human social systems is that they developed through stages, beginning with hunter-gatherer bands, then moving to clan associations, then chiefdoms, and finally arriving at states with bureaucratic structures. Text 2 indicates that Graeber and Wengrow believe that human social systems have been flexible, shifting between different types of structures, including both hierarchical and collective systems, and that these shifts may have even occurred seasonally. This suggests that Graeber and Wengrow would dispute the idea that developments in social structures have followed a linear progression through distinct stages.&nbsp;</p><p>Choice A is incorrect because nothing in Text 2 suggests that Graeber and Wengrow believe that decentralized collective societies are more significant than hierarchical systems. Text 2 is focused on Graeber and Wengrow&rsquo;s view that humans have flexibly shifted among various social structures, not on the importance of particular structures relative to others.&nbsp;Choice C is incorrect because Text 2 doesn&rsquo;t include any information suggesting that Graeber and Wengrow believe that hierarchies didn&rsquo;t emerge until after the rise of agriculture. In fact, Text 2 indicates that Graeber and Wengrow cite evidence suggesting that some hunter-gatherer groups formed social structures with hierarchical elements (&ldquo;communities that included esteemed individuals&rdquo;) 50,000 years ago, long before the rise of agriculture, which Text 1 says occurred around 12,000 years ago.&nbsp;Choice D is incorrect because there&rsquo;s no information in Text 2 suggesting that Graeber and Wengrow would challenge the assumption that groupings of hunter-gatherers were among the earliest forms of social structure. Although Text 1 does indicate that hunter-gatherer groups are assumed to be the earliest human social system, Text 2 says only that Graeber and Wengrow believe that some hunter-gatherer groups made use of different social structures at different times. Text 2 doesn&rsquo;t imply that Graeber and Wengrow doubt that hunter-gatherer groups preceded most other social structures. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">501 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eBy conceding the importance of hierarchical systems but asserting the greater significance of decentralized collective societies\u003c/p\u003e", "id": "1c89d318-819c-4de4-b109-055cc1da13ed"}, {"content": "\u003cp\u003eBy disputing the idea that developments in social structures have followed a linear progression through distinct stages\u003c/p\u003e", "id": "c680ce38-b5bd-4829-adb5-922a7cf5725d"}, {"content": "\u003cp\u003eBy acknowledging that hierarchical roles likely weren\u0026rsquo;t a part of social systems before the rise of agriculture\u003c/p\u003e", "id": "26877652-ca85-4eca-9dd5-83426d7e2b60"}, {"content": "\u003cp\u003eBy challenging the assumption that groupings of hunter-gatherers were among the earliest forms of social structure\u003c/p\u003e", "id": "586c8436-b166-4ce8-885a-10abcffbd89a"}], "correct_answer": ["B"], "externalid": "621c701a-7357-403e-812b-cafcc28f7c1f", "keys": ["c680ce38-b5bd-4829-adb5-922a7cf5725d"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-008-CTC", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it describes the most likely way that Graeber and Wengrow (Text 2) would respond to the \u0026ldquo;conventional wisdom\u0026rdquo; presented in Text 1. According to Text 1, the conventional wisdom about human social systems is that they developed through stages, beginning with hunter-gatherer bands, then moving to clan associations, then chiefdoms, and finally arriving at states with bureaucratic structures. Text 2 indicates that Graeber and Wengrow believe that human social systems have been flexible, shifting between different types of structures, including both hierarchical and collective systems, and that these shifts may have even occurred seasonally. This suggests that Graeber and Wengrow would dispute the idea that developments in social structures have followed a linear progression through distinct stages.\u0026nbsp;\u003c/p\u003e\u003cp\u003eChoice A is incorrect because nothing in Text 2 suggests that Graeber and Wengrow believe that decentralized collective societies are more significant than hierarchical systems. Text 2 is focused on Graeber and Wengrow\u0026rsquo;s view that humans have flexibly shifted among various social structures, not on the importance of particular structures relative to others.\u0026nbsp;Choice C is incorrect because Text 2 doesn\u0026rsquo;t include any information suggesting that Graeber and Wengrow believe that hierarchies didn\u0026rsquo;t emerge until after the rise of agriculture. In fact, Text 2 indicates that Graeber and Wengrow cite evidence suggesting that some hunter-gatherer groups formed social structures with hierarchical elements (\u0026ldquo;communities that included esteemed individuals\u0026rdquo;) 50,000 years ago, long before the rise of agriculture, which Text 1 says occurred around 12,000 years ago.\u0026nbsp;Choice D is incorrect because there\u0026rsquo;s no information in Text 2 suggesting that Graeber and Wengrow would challenge the assumption that groupings of hunter-gatherers were among the earliest forms of social structure. Although Text 1 does indicate that hunter-gatherer groups are assumed to be the earliest human social system, Text 2 says only that Graeber and Wengrow believe that some hunter-gatherer groups made use of different social structures at different times. Text 2 doesn\u0026rsquo;t imply that Graeber and Wengrow doubt that hunter-gatherer groups preceded most other social structures. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, how would Graeber and Wengrow (Text 2) most likely respond to the \u0026ldquo;conventional wisdom\u0026rdquo; presented in Text 1?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003cspan aria-level=\"2\" role=\"heading\"\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eConventional wisdom long held that human social systems evolved in stages, beginning with hunter-gatherers forming small bands of members with roughly equal status. The shift to agriculture about 12,000 years ago sparked population growth that led to the emergence of groups with hierarchical structures: associations of clans first, then chiefdoms, and finally, bureaucratic states.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003cspan aria-level=\"2\" role=\"heading\"\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eIn a 2021 book, anthropologist David Graeber and archaeologist David Wengrow maintain that humans have always been socially flexible, alternately forming systems based on hierarchy and collective ones with decentralized leadership. The authors point to evidence that as far back as 50,000 years ago some hunter-gatherers adjusted their social structures seasonally, at times dispersing in small groups but also assembling into communities that included esteemed individuals.\u003c/p\u003e", "templateclusterid": "91b4dbcd-0157-4c3e-82dd-8c32cc74f24d", "templateclustername": "", "type": "mcq", "vaultid": "e97f55c3-dc8d-4c30-8d20-1fd75a3d89d6"}, "createDate": 1691007959313, "difficulty": "H", "external_id": "621c701a-7357-403e-812b-cafcc28f7c1f", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "c885c38b", "score_band_range_cd": 6, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "d0cb97d0-3080-4e7b-8128-6a3e99b9cf85", "updateDate": 1691007959313};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-c885c38b");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

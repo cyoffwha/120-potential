@@ -1,0 +1,22 @@
+{
+  "question_id": "7254379e",
+  "domain": "Information and Ideas",
+  "skill": "Command of Evidence",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Some residents in a neighborhood in Atlanta recently founded a community garden inside a local park. The residents agreed to volunteer to take care of the garden together. Students at a local high school surveyed some of the volunteers as part of a project to understand the impact of the new garden. The students concluded that the new garden benefited the community overall by fostering connections and relationships between the volunteers and other residents of the neighborhood who weren't volunteering at the garden.",
+  "question_text": "Which quotation from a survey respondent would best illustrate the students&rsquo; conclusion?",
+  "answer_options": [
+    "&ldquo;Our first challenge was deciding what plants would be most suitable to the climate and soil here in Atlanta. We needed plants that could survive the hot and humid summers.&rdquo;",
+    "&ldquo;We&rsquo;re lucky to have a few expert gardeners living in the neighborhood. Some volunteers and I have gone to them a few times with questions, and they&rsquo;ve been eager to help us and to learn more about the project.&rdquo;",
+    "&ldquo;I love getting the opportunity to be outside and around nature, especially on days when the weather is nice.&rdquo;",
+    "&ldquo;My favorite thing about the garden is the feeling of pride I get when I walk by each day. As I see the plants growing, I feel good knowing I had a small part in creating this beautiful space in the neighborhood.&rdquo;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. This choice shows how volunteers have been interacting with nonvolunteer neighbors and benefiting from their gardening expertise: proof of the connections enabled by the garden.",
+    "A": "Choice A is incorrect. This volunteer describes the challenges of developing the garden, which isn't connected to the conclusion about the garden fostering connections between volunteers and neighbors.",
+    "C": "Choice C is incorrect. While the volunteer expresses enthusiasm for the garden, they don't mention any interactions with other people, which is what the students need to show for their conclusion.",
+    "D": "Choice D is incorrect. The respondent enjoys and takes pride in the garden, but they don't mention interacting with neighbors or other volunteers."
+  }
+}

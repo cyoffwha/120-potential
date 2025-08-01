@@ -1,0 +1,22 @@
+{
+  "question_id": "f6d1f735",
+  "domain": "Craft and Structure",
+  "skill": "Words in Context",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Researchers have struggled to pinpoint specific causes for hiccups, which happen when a person's diaphragm contracts ______ blank . However, neuroscientist Kimberley Whitehead has found that these uncontrollable contractions may play an important role in helping infants regulate their breathing.",
+  "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+  "answer_options": [
+    "involuntarily",
+    "beneficially",
+    "strenuously",
+    "smoothly"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most logically completes the text's discussion of diaphragm contractions and hiccups. In this context, \"involuntarily\" means done without any control, or by reflex. The text explains that when a person's diaphragm repeatedly contracts and results in hiccups (which may be beneficial for infants), those muscle contractions are \"uncontrollable.\" This context indicates that the diaphragm contractions occur without the person's control.",
+    "B": "Choice B is incorrect because it wouldn't support the logical relationship established in the text's discussion of diaphragm contractions and hiccups. The text indicates that although specific causes for hiccups haven't been identified, it may be the case that the muscle contractions that occur have an important purpose in infants. It wouldn't make sense to say that even though the contractions occur \"beneficially,\" or with a good or helpful effect, they might play a positive role in infants' breathing regulation.",
+    "C": "Choice C is incorrect because the text indicates that the diaphragm contractions that result in hiccups are \"uncontrollable.\" Because those muscle contractions are described as happening automatically and without the person's control, it wouldn't make sense to describe them as occurring \"strenuously,\" or in a way that requires great effort or energy.",
+    "D": "Choice D is incorrect because the text doesn't describe the quality of the diaphragm contractions that result in hiccups beyond stating that they are \"uncontrollable.\" Nothing in the text indicates that those muscle contractions occur \"smoothly,\" or evenly and continuously."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "92c2564d",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Utah is home to Pando, a colony of about 47,000 quaking aspen trees that all share a single root system. Pando is one of the largest single organisms by mass on Earth, but ecologists are worried that its growth is declining in part because of grazing by animals. The ecologists say that strong fences could prevent deer from eating young trees and help Pando start thriving again.",
+  "question_text": "According to the text, why are ecologists worried about Pando?",
+  "answer_options": [
+    "It isn&rsquo;t growing at the same rate it used to.",
+    "It isn&rsquo;t producing young trees anymore.",
+    "It can&rsquo;t grow into new areas because it is blocked by fences.",
+    "Its root system can&rsquo;t support many more new trees."
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it presents an explanation that is directly stated in the text for why ecologists are worried about Pando. The text states that Pando is a colony of about 47,000 quaking aspen trees that represents one of the largest organisms on Earth. According to the text, ecologists are worried that Pando's growth is declining, partly because animals are feeding on the trees. In other words, the ecologists are worried that Pando isn't growing at the same rate it used to.",
+    "B": "Choice B is incorrect. Rather than indicating that Pando isn't producing young trees anymore, the text reveals that Pando is indeed producing young trees, stating that those trees can be protected from grazing deer by strong fences.",
+    "C": "Choice C is incorrect because the text states that fences can be used to prevent deer from eating Pando's young trees, not that Pando itself can't grow in new areas because it's blocked by fences.",
+    "D": "Choice D is incorrect because the text offers no evidence that Pando's root system is incapable of supporting new trees or is otherwise a cause of worry for ecologists."
+  }
+}

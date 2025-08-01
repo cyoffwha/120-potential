@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question 7b55e895</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p><strong>Text 1</strong></p>
+<p>Some animal species, like the leopard, can be found in many kinds of areas. On the other hand, tropical mountain bird species tend to be limited in the types of spaces they can call home. This is because many mountain bird species are only able to survive at very specific elevations. Over time, these species have likely become used to living at a specific temperature. Therefore, these species struggle to survive at elevations that are warmer or colder than they are used to.</p>
+<p>&nbsp;</p>
+<p><strong>Text 2</strong></p>
+<p>A new study reviewed observations of nearly 3,000 bird species to understand why tropical mountain bird species live at specific elevations. They noted that when a mountain bird species was found in an area with many other bird species, it tended to inhabit much smaller geographic areas. It is thus likely that competition for resources with other species, not temperature, limits where these birds can live.</p></div>
+
+                        <div class="mt-3"><p>Based on the texts, both authors would most likely agree with which statement?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Tropical mountain bird species are restricted in where they can live.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Scientists have better tools to observe tropical mountain birds than they did in the past.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Little is known about how tropical mountain birds build their nests.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>Tropical mountain bird species that live at high elevations tend to be genetically similar.</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>A</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice A is the best answer. Both texts state that tropical mountain bird species have limited ranges or habitats, although they disagree on the reason for this. Text 1 claims that temperature is the main factor that determines where these birds can live, while Text 2 claims that competition with other species is the main factor. However, both texts agree that these birds are not able to survive in many kinds of areas. </p><p>Choice B is incorrect. Neither text mentions the tools or methods that scientists use to observe these birds, either now or in the past. Choice C is incorrect. Neither text mentions anything about how these birds build their nests. Choice D is incorrect. Neither text provides any information about the genetic similarity of these birds, so we have no evidence that either author would agree with this statement. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">519 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eTropical mountain bird species are restricted in where they can live.\u003c/p\u003e", "id": "4a385ae5-195e-4c3f-89e4-a8f0ff1cdbc5"}, {"content": "\u003cp\u003eScientists have better tools to observe tropical mountain birds than they did in the past.\u003c/p\u003e", "id": "05dac10e-cd41-4db6-a5ea-2993bac4f6ab"}, {"content": "\u003cp\u003eLittle is known about how tropical mountain birds build their nests.\u003c/p\u003e", "id": "8779fe45-c8b3-4cf7-9d00-676a2d76a0b3"}, {"content": "\u003cp\u003eTropical mountain bird species that live at high elevations tend to be genetically similar.\u003c/p\u003e", "id": "70503900-dc02-4f26-b682-1ccec49e3b1f"}], "correct_answer": ["A"], "externalid": "2085e5c2-ac9c-413c-aea2-aaa8e08135ac", "keys": ["4a385ae5-195e-4c3f-89e4-a8f0ff1cdbc5"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-CTC-E010", "position": "0", "rationale": "\u003cp\u003eChoice A is the best answer. Both texts state that tropical mountain bird species have limited ranges or habitats, although they disagree on the reason for this. Text 1 claims that temperature is the main factor that determines where these birds can live, while Text 2 claims that competition with other species is the main factor. However, both texts agree that these birds are not able to survive in many kinds of areas. \u003c/p\u003e\u003cp\u003eChoice B is incorrect. Neither text mentions the tools or methods that scientists use to observe these birds, either now or in the past. Choice C is incorrect. Neither text mentions anything about how these birds build their nests. Choice D is incorrect. Neither text provides any information about the genetic similarity of these birds, so we have no evidence that either author would agree with this statement. \u003c/p\u003e", "stem": "\u003cp\u003eBased on the texts, both authors would most likely agree with which statement?\u003c/p\u003e", "stimulus": "\u003cp\u003e\u003cstrong\u003eText 1\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eSome animal species, like the leopard, can be found in many kinds of areas. On the other hand, tropical mountain bird species tend to be limited in the types of spaces they can call home. This is because many mountain bird species are only able to survive at very specific elevations. Over time, these species have likely become used to living at a specific temperature. Therefore, these species struggle to survive at elevations that are warmer or colder than they are used to.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eText 2\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eA new study reviewed observations of nearly 3,000 bird species to understand why tropical mountain bird species live at specific elevations. They noted that when a mountain bird species was found in an area with many other bird species, it tended to inhabit much smaller geographic areas. It is thus likely that competition for resources with other species, not temperature, limits where these birds can live.\u003c/p\u003e", "templateclusterid": "787cdec2-659f-4280-ae46-6ccba0fbbf7d", "templateclustername": "", "type": "mcq", "vaultid": "f926ece7-2dac-43f0-a663-1cabddc19fc4"}, "createDate": 1691007959365, "difficulty": "E", "external_id": "2085e5c2-ac9c-413c-aea2-aaa8e08135ac", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "7b55e895", "score_band_range_cd": 1, "skill_cd": "CTC", "skill_desc": "Cross-Text Connections", "uId": "e1f739e5-7f96-4f02-89b3-cdd454d73805", "updateDate": 1691007959365};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-7b55e895");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

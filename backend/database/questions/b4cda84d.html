@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question b4cda84d</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In 1967 the US Congress created the Corporation for Public Broadcasting, which in turn created National Public Radio (NPR). NPR began producing and distributing high-quality news and cultural programming to affiliate stations across the United States in 1971. In a research paper, a student claims that the Corporation for Public Broadcasting and NPR were inspired by the British Broadcasting System (BBC), which had been established in the 1920s.</p></div>
+
+                        <div class="mt-3"><p>Which quotation from a work by a historian would be the most effective evidence for the student to include in support of this claim?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Although the BBC had begun as a private corporation, politicians successfully argued to make it a public company because they believed a public broadcaster could help build national unity in the aftermath of World War I.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;For many decades, the BBC had no competition since it held Britain&rsquo;s only broadcasting license, whereas in the United States, the Corporation for Public Broadcasting launched NPR in a broadcasting market already filled with competitors.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;Congress&rsquo;s embrace of publicly funded broadcasting reflected a common belief among US politicians that the role of government was not only to ensure people&rsquo;s safety and liberty but also to enrich people&rsquo;s lives in other ways.&rdquo;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>&ldquo;The goal of the BBC was to support British democracy by promoting an informed citizenry, and US legislators believed that ensuring access to high-quality programming could do the same for democracy in the United States.&rdquo;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer because this quotation would be the most effective evidence to include in support of the claim that the Corporation for Public Broadcasting and NPR were inspired by the British Broadcasting System (BBC). The quotation states that the goal of the BBC was to support British democracy and that US legislators believed high-quality programming could accomplish the same goal for democracy in the United States. In other words, US legislators looked to the BBC as a model, taking direct inspiration from it when they created the Corporation for Public Broadcasting, which in turn created NPR. </p><p>Choice A is incorrect because this quotation provides historical information about the BBC, not information about the inspiration for the creation of the Corporation for Public Broadcasting and NPR. This quotation, therefore, is irrelevant to the student&rsquo;s claim that the BBC inspired the creation of the Corporation for Public Broadcasting, which in turn created NPR. Choice B is incorrect because this quotation contrasts the lack of competition faced by the BBC with the substantial competition faced by NPR, which has no bearing on the student&rsquo;s claim that the Corporation for Public Broadcasting and NPR were inspired by the BBC.&nbsp;Choice C is incorrect because this quotation focuses on a common belief among US politicians that inspired Congress&rsquo;s embrace of publicly funded broadcasting. The quotation doesn&rsquo;t say anything about the BBC and therefore doesn&rsquo;t support the claim that the BBC inspired Congress to create the Corporation for Public Broadcasting, which in turn created NPR. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">254 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003e\u0026ldquo;Although the BBC had begun as a private corporation, politicians successfully argued to make it a public company because they believed a public broadcaster could help build national unity in the aftermath of World War I.\u0026rdquo;\u003c/p\u003e", "id": "8b7a6ba0-4747-496d-a50c-60d58256d453"}, {"content": "\u003cp\u003e\u0026ldquo;For many decades, the BBC had no competition since it held Britain\u0026rsquo;s only broadcasting license, whereas in the United States, the Corporation for Public Broadcasting launched NPR in a broadcasting market already filled with competitors.\u0026rdquo;\u003c/p\u003e", "id": "a4e04d11-c1de-4115-b642-c19866707bb1"}, {"content": "\u003cp\u003e\u0026ldquo;Congress\u0026rsquo;s embrace of publicly funded broadcasting reflected a common belief among US politicians that the role of government was not only to ensure people\u0026rsquo;s safety and liberty but also to enrich people\u0026rsquo;s lives in other ways.\u0026rdquo;\u003c/p\u003e", "id": "b3ab469d-9293-498b-960a-d265ccad5f4a"}, {"content": "\u003cp\u003e\u0026ldquo;The goal of the BBC was to support British democracy by promoting an informed citizenry, and US legislators believed that ensuring access to high-quality programming could do the same for democracy in the United States.\u0026rdquo;\u003c/p\u003e", "id": "acc03747-ae54-464b-935c-933524f1d48a"}], "correct_answer": ["D"], "externalid": "ad1536b8-b043-4d8d-8946-9aef5ae9a0fc", "keys": ["acc03747-ae54-464b-935c-933524f1d48a"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-337-TXT", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer because this quotation would be the most effective evidence to include in support of the claim that the Corporation for Public Broadcasting and NPR were inspired by the British Broadcasting System (BBC). The quotation states that the goal of the BBC was to support British democracy and that US legislators believed high-quality programming could accomplish the same goal for democracy in the United States. In other words, US legislators looked to the BBC as a model, taking direct inspiration from it when they created the Corporation for Public Broadcasting, which in turn created NPR. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because this quotation provides historical information about the BBC, not information about the inspiration for the creation of the Corporation for Public Broadcasting and NPR. This quotation, therefore, is irrelevant to the student\u0026rsquo;s claim that the BBC inspired the creation of the Corporation for Public Broadcasting, which in turn created NPR. Choice B is incorrect because this quotation contrasts the lack of competition faced by the BBC with the substantial competition faced by NPR, which has no bearing on the student\u0026rsquo;s claim that the Corporation for Public Broadcasting and NPR were inspired by the BBC.\u0026nbsp;Choice C is incorrect because this quotation focuses on a common belief among US politicians that inspired Congress\u0026rsquo;s embrace of publicly funded broadcasting. The quotation doesn\u0026rsquo;t say anything about the BBC and therefore doesn\u0026rsquo;t support the claim that the BBC inspired Congress to create the Corporation for Public Broadcasting, which in turn created NPR. \u003c/p\u003e", "stem": "\u003cp\u003eWhich quotation from a work by a historian would be the most effective evidence for the student to include in support of this claim?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn 1967 the US Congress created the Corporation for Public Broadcasting, which in turn created National Public Radio (NPR). NPR began producing and distributing high-quality news and cultural programming to affiliate stations across the United States in 1971. In a research paper, a student claims that the Corporation for Public Broadcasting and NPR were inspired by the British Broadcasting System (BBC), which had been established in the 1920s.\u003c/p\u003e", "templateclusterid": "e13c5062-4bb8-44f8-b67d-b4b9e974ddb3", "templateclustername": "", "type": "mcq", "vaultid": "a0ec49fb-d3ed-4cda-a4d2-7c61610ac2e3"}, "createDate": 1691007959336, "difficulty": "M", "external_id": "ad1536b8-b043-4d8d-8946-9aef5ae9a0fc", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "b4cda84d", "score_band_range_cd": 5, "skill_cd": "COE", "skill_desc": "Command of Evidence", "uId": "db5fa7ce-3f50-4139-9abd-a0e24e5fdacd", "updateDate": 1691007959336};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-b4cda84d");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

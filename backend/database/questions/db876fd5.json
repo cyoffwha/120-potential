@@ -1,0 +1,22 @@
+{
+  "question_id": "db876fd5",
+  "domain": "Information and Ideas",
+  "skill": "Inferences",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Songbirds learn to respond to and imitate their species' songs from an early age. With each generation, small differences are introduced that result in distinct variations—called dialects—among geographically isolated populations of the same species. A research study examined whether twelve-day-old Ficedula hypoleuca (pied flycatcher) nestlings prefer local dialects over the unfamiliar dialects of nonlocal F. hypoleuca populations: the more begging calls the nestlings made in response to a song, the stronger their preference. The researchers found that nestlings produced more begging calls in response to their own dialect than to nonlocal dialects. Since song preference plays a role in songbird mate selection, the finding suggests that ______ blank",
+  "question_text": "Which choice most logically completes the text?",
+  "answer_options": [
+    "F. hypoleuca  nestlings&rsquo; preference for their own dialect likely disappears as they mature to promote socialization between different  F. hypoleuca  populations.",
+    "F. hypoleuca  nestlings who show an early preference for their own dialect are likely to receive more food from their caretakers than nestlings who show no preferences among any  F. hypoleuca  dialects.&nbsp;",
+    "F. hypoleuca  nestlings&rsquo; preference for their own dialect likely drives them when they mature to reproduce with other  F. hypoleuca  from local rather than nonlocal populations. &nbsp;",
+    "F. hypoleuca  nestlings show a preference for both local  F. hypoleuca  dialects and the songs of other local songbirds over the songs of nonlocal birds of any species."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer. Because \"song preference plays a role in songbird mate selection,\" and because F. hypoleuca nestlings display a preference for local dialects, we can infer that they will be more likely to choose mates from local populations.",
+    "A": "Choice A is incorrect. We don't have any information suggesting that this preference disappears, so there's no basis for this inference.",
+    "B": "Choice B is incorrect. Although the passage discusses the number of begging calls made in response to various F. hypoleuca dialects, no mention is made about the amount of food received based on dialect preference. Therefore, there's no basis for this inference.",
+    "D": "Choice D is incorrect. There's no mention in the passage of methods of other types of local songbirds, so there's no basis for this inference."
+  }
+}

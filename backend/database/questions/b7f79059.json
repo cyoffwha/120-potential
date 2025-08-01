@@ -1,0 +1,22 @@
+{
+  "question_id": "b7f79059",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "The following text is from Ezra Pound's 1909 poem \"Hymn III,\" based on the work of Marcantonio Flaminio. As a fragile and lovely flower unfolds its gleaming &ensp;foliage on the breast of the fostering earth, if &ensp;the dew and the rain draw it forth; So doth my tender mind flourish, if it be fed with the &ensp;sweet dew of the fostering spirit, Lacking this, it beginneth straightway to languish, &ensp;even as a floweret born upon dry earth, if the &ensp;dew and the rain tend it not.",
+  "question_text": "Based on the text, in what way is the human mind like a flower?",
+  "answer_options": [
+    "It becomes increasingly vigorous with the passage of time.",
+    "It draws strength from changes in the weather.",
+    "&nbsp;It requires proper nourishment in order to thrive.",
+    "It perseveres despite challenging circumstances."
+  ],
+  "correct_answer": "C",
+  "answer_rationales": {
+    "C": "Choice C is the best answer because it presents a description of how the human mind is like a flower that is directly supported by the text. The text compares the needs of a \"fragile and lovely flower\" to those of the speaker's \"tender mind\": both need to be fed if they're going to survive. Without such feeding, they'll \"beginneth straightway to languish,\" or weaken. Thus, the text suggests that the human mind is like a flower in that they both need proper nourishment in order to thrive.",
+    "A": "Choice A is incorrect because the text doesn't address the passage of time or describe either the human mind or a flower as becoming increasingly vigorous.",
+    "B": "Choice B is incorrect because the text doesn't suggest that human minds or flowers draw strength from changes in weather. The references to rain in the text pertain to a flower's need for water rather than the general effects of changing weather.",
+    "D": "Choice D is incorrect because the text doesn't suggest that the human mind or a flower will persist regardless of challenging circumstances. In fact, the text indicates that they'll both languish right away if not given what they need."
+  }
+}

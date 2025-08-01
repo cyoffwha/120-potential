@@ -1,0 +1,22 @@
+{
+  "question_id": "e15c50b2",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "A standard Argo float, a type of autonomous robot, measures temperature and salinity in the upper regions of ice-free oceans. More advanced floats can measure a wider range of ______ blank and monitor seasonal ice zones.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "variables: travel to greater depths",
+    "variables, travel to greater depths,",
+    "variables travel to greater depths,",
+    "variables, travel to greater depths;"
+  ],
+  "correct_answer": "B",
+  "answer_rationales": {
+    "B": "Choice B is the best answer. The convention being tested is the punctuation of items in a series. The comma after \"variables\" is used conventionally to separate the first and second items in the series, and the comma after \"depths\" is used conventionally to separate the second and third items.",
+    "A": "Choice A is incorrect because a colon can't be used in this way to separate items in a simple series.",
+    "C": "Choice C is incorrect because a comma is needed after \"variables\" to separate the first and second items in the series.",
+    "D": "Choice D is incorrect because a semicolon can't be used in this way to separate items in a simple series."
+  }
+}

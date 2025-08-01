@@ -1,0 +1,22 @@
+{
+  "question_id": "6e193b19",
+  "domain": "Standard English Conventions",
+  "skill": "Form, Structure, and Sense",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Professional American football player Fred Cox invented one of the world's most popular toys. In the 1970s, he came up with the idea for the Nerf football, which ______ blank of the harder and heavier regulation football.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "were a smaller, foam version",
+    "are smaller, foam versions",
+    "were smaller, foam versions",
+    "is a smaller, foam version"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. The convention being tested is subject-verb agreement and agreement between nouns. The singular verb \"is\" and the singular noun \"version\" both agree in number with the relative pronoun \"which.\" In this context, \"which\" functions as a singular subject because it refers to the singular noun \"the Nerf football.\"",
+    "A": "Choice A is incorrect because the plural verb \"were\" doesn't agree in number with the singular noun phrase \"the Nerf football\" that it's modifying.",
+    "B": "Choice B is incorrect because the plural verb \"are\" and the plural noun \"versions\" don't agree in number with the singular noun phrase \"the Nerf football\" that they're modifying.",
+    "C": "Choice C is incorrect because the plural verb \"were\" and the plural noun \"versions\" don't agree in number with the singular noun phrase \"the Nerf football\" that they're modifying."
+  }
+}

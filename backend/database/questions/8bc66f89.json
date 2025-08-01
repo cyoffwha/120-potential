@@ -1,0 +1,22 @@
+{
+  "question_id": "8bc66f89",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "Part of the Atacama Desert in Peru has surprisingly rich plant life despite receiving almost no rainfall. Moisture from winter fog sustains plants once they're growing, but the soil's tough crust makes it hard for seeds to germinate in the first place. Local birds that dig nests in the ground seem to be of help: they churn the soil, exposing buried seeds to moisture and nutrients . Indeed, in 2016 Cristina Rengifo Faiffer found that mounds of soil dug up by birds were far more fertile and supported more seedlings than soil in undisturbed areas.",
+  "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+  "answer_options": [
+    "It elaborates on the idea that the top layer of Atacama Desert soil forms a tough crust.&nbsp;",
+    "It describes the process by which seeds are deposited into Atacama Desert soil.",
+    "It identifies the reason particular bird species dig nests in Atacama Desert soil.",
+    "It explains how certain birds promote seed germination in Atacama Desert soil."
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer because it most accurately describes how the underlined portion functions in the text as a whole. The first two sentences establish a natural phenomenon: there is a richness of plant life found in the Atacama Desert despite the hard soil that makes it challenging for seeds to germinate. The next sentence, which contains the underlined portion, offers a potential explanation for the phenomenon: local birds dig ground nests exposing seeds to moisture and materials in the soil necessary for germination. The last sentence summarizes a study that compared the fertileness of mounds of dirt dug up by birds to mounds that were undisturbed to support the explanation in the underlined portion. Thus, the underlined portion mainly functions to explain how certain birds promote seed germination in the Atacama Desert soil.",
+    "A": "Choice A is incorrect because the underlined portion doesn't address the topic of the soil's tough crust or its formation. Instead, the text elaborates on the idea that local birds that build ground nests may help seeds germinate in the hard soil.",
+    "B": "Choice B is incorrect because the underlined portion describes how some birds may support seed germination in Atacama Desert soil but doesn't describe how the seeds are deposited into the soil before germination begins.",
+    "C": "Choice C is incorrect because neither the underlined portion nor the text as a whole identifies a reason that a particular bird species may choose to dig ground nests in the Atacama Desert soil."
+  }
+}

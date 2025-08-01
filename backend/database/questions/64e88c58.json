@@ -1,0 +1,22 @@
+{
+  "question_id": "64e88c58",
+  "domain": "Expression of Ideas",
+  "skill": "Rhetorical Synthesis",
+  "difficulty": "Hard",
+  "has_image": false,
+  "passage": "While researching a topic, a student has taken the following notes: In 1971, experimental musician Pauline Oliveros created Sonic Meditations . Sonic Meditations is not music but rather a series of sound-based exercises called meditations. Each meditation consists of instructions for participants to make, imagine, listen to, or remember sounds. The instructions for Meditation V state, \"walk so silently that the bottoms of your feet become ears.\" Those for Meditation XVIII state, \"listen to a sound until you no longer recognize it.\" The student wants to provide an explanation and an example of Oliveros's Sonic Meditations . Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "question_text": "The student wants to provide an explanation and an example of Oliveros&rsquo;s  Sonic Meditations . Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "answer_options": [
+    "Sonic Meditations  is not music but rather a series of sound-based meditations that consist of instructions; Meditation XVIII, for instance, instructs participants to &ldquo;listen to a sound until you no longer recognize it.&rdquo;",
+    "In 1971, Oliveros created  Sonic Meditations , a series of meditations that consist of instructions for participants to make, imagine, listen to, or remember sounds.",
+    "&ldquo;Walk so silently that the bottoms of your feet become ears&rdquo; is one example of the instructions found in Oliveros&rsquo;s  Sonic Meditations .",
+    "While both meditations consist of instructions, Meditation XVIII instructs participants to &ldquo;listen,&rdquo; whereas Meditation V instructs participants to &ldquo;walk.&rdquo;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. It describes what a \"Sonic Meditation\" is, and then gives an example in the form of Meditation XVIII.",
+    "B": "Choice B is incorrect. This choice describes what a \"Sonic Meditation\" is, but doesn't give an example of one.",
+    "C": "Choice C is incorrect. This choice gives an example of a \"Sonic Meditation,\" but doesn't explain what the meditations are.",
+    "D": "Choice D is incorrect. This choice doesn't describe what a \"Sonic Meditation\" is."
+  }
+}

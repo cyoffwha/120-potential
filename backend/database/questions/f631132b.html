@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question f631132b</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>In the <em>Here and Now Storybook</em> (1921), educator Lucy Sprague Mitchell advanced the then controversial idea that books for very young children should imitate how they use language, since toddlers, who cannot yet grasp narrative or abstract ideas, seek reassurance in verbal repetition and naming. The most enduring example of this idea is Margaret Wise Brown&rsquo;s 1947 picture book <em>Goodnight Moon</em>, in which a young rabbit names the objects in his room as he drifts off to sleep. Scholars note that the book&rsquo;s emphasis on repetition, rhythm, and nonsense rhyme speaks directly to Mitchell&rsquo;s influence.&nbsp;</p></div>
+
+                        <div class="mt-3"><p>Which choice best describes the overall structure of the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The text outlines a debate between two authors of children&rsquo;s literature and then traces how that debate shaped theories on early childhood education.&nbsp;</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The text summarizes an argument about how children&rsquo;s literature should be evaluated and then discusses a contrasting view on that subject.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The text lists the literary characteristics that are common to many classics of children&rsquo;s literature and then indicates the narrative subjects that are most appropriate for young children.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>The text presents a philosophy about what material is most suitable for children&rsquo;s literature and then describes a book influenced by that philosophy. &nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>D</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice D is the best answer. The text starts by introducing Mitchell&rsquo;s philosophy about using simple, repetitive language in books for young children. Then it describes a book influenced by that philosophy, <em>Goodnight Moon</em>. </p><p>Choice A is incorrect. Although two authors are mentioned in the text, they both agree about the type of language that should be contained in books for young children. Choice B is incorrect. The text never discusses the evaluation of children&rsquo;s literature. It does provide one view of how children&rsquo;s books should be written, but never introduces a competing view. Choice C is incorrect. The text doesn&rsquo;t mention &ldquo;many classics of children&rsquo;s literature.&rdquo; Instead, it describes an educational theory and identifies one example of a famous children&rsquo;s book that was influenced by that theory. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">428 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eThe text outlines a debate between two authors of children\u0026rsquo;s literature and then traces how that debate shaped theories on early childhood education.\u0026nbsp;\u003c/p\u003e", "id": "763d8abf-83ba-4f2b-99c2-c112aac23369"}, {"content": "\u003cp\u003eThe text summarizes an argument about how children\u0026rsquo;s literature should be evaluated and then discusses a contrasting view on that subject.\u003c/p\u003e", "id": "1e103e2d-9a37-41bb-83a9-57dd8bd1e79e"}, {"content": "\u003cp\u003eThe text lists the literary characteristics that are common to many classics of children\u0026rsquo;s literature and then indicates the narrative subjects that are most appropriate for young children.\u003c/p\u003e", "id": "faac653e-53fb-43cd-8a4f-93264f35b878"}, {"content": "\u003cp\u003eThe text presents a philosophy about what material is most suitable for children\u0026rsquo;s literature and then describes a book influenced by that philosophy. \u0026nbsp;\u003c/p\u003e", "id": "768bda00-c45c-4c0c-9511-1a1c0a0e00f2"}], "correct_answer": ["D"], "externalid": "9c257555-c00b-4e1a-b84d-8f995da3632b", "keys": ["768bda00-c45c-4c0c-9511-1a1c0a0e00f2"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-KA-TSP-M007", "position": "0", "rationale": "\u003cp\u003eChoice D is the best answer. The text starts by introducing Mitchell\u0026rsquo;s philosophy about using simple, repetitive language in books for young children. Then it describes a book influenced by that philosophy, \u003cem\u003eGoodnight Moon\u003c/em\u003e. \u003c/p\u003e\u003cp\u003eChoice A is incorrect. Although two authors are mentioned in the text, they both agree about the type of language that should be contained in books for young children. Choice B is incorrect. The text never discusses the evaluation of children\u0026rsquo;s literature. It does provide one view of how children\u0026rsquo;s books should be written, but never introduces a competing view. Choice C is incorrect. The text doesn\u0026rsquo;t mention \u0026ldquo;many classics of children\u0026rsquo;s literature.\u0026rdquo; Instead, it describes an educational theory and identifies one example of a famous children\u0026rsquo;s book that was influenced by that theory. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice best describes the overall structure of the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eIn the \u003cem\u003eHere and Now Storybook\u003c/em\u003e (1921), educator Lucy Sprague Mitchell advanced the then controversial idea that books for very young children should imitate how they use language, since toddlers, who cannot yet grasp narrative or abstract ideas, seek reassurance in verbal repetition and naming. The most enduring example of this idea is Margaret Wise Brown\u0026rsquo;s 1947 picture book \u003cem\u003eGoodnight Moon\u003c/em\u003e, in which a young rabbit names the objects in his room as he drifts off to sleep. Scholars note that the book\u0026rsquo;s emphasis on repetition, rhythm, and nonsense rhyme speaks directly to Mitchell\u0026rsquo;s influence.\u0026nbsp;\u003c/p\u003e", "templateclusterid": "6feb5913-69d0-4a7a-8d47-d833406a63c7", "templateclustername": "", "type": "mcq", "vaultid": "80cfa052-7a5f-46d8-a5d7-796fa7cdcb25"}, "createDate": 1691007959375, "difficulty": "M", "external_id": "9c257555-c00b-4e1a-b84d-8f995da3632b", "ibn": null, "module": "english", "pPcc": "SAT#CAS", "primary_class_cd": "CAS", "primary_class_cd_desc": "Craft and Structure", "program": "SAT", "questionId": "f631132b", "score_band_range_cd": 4, "skill_cd": "TSP", "skill_desc": "Text Structure and Purpose", "uId": "933abd6a-3b9c-43c8-8968-4872b315e1e0", "updateDate": 1691007959375};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-f631132b");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

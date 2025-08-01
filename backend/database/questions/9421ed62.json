@@ -1,0 +1,22 @@
+{
+  "question_id": "9421ed62",
+  "domain": "Craft and Structure",
+  "skill": "Text Structure and Purpose",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "In 2007, computer scientist Luis von Ahn was working on converting printed books into a digital format. He found that some words were distorted enough that digital scanners couldn't recognize them, but most humans could easily read them. Based on that finding, von Ahn invented a simple security test to keep automated \"bots\" out of websites. The first version of the reCAPTCHA test asked users to type one known word and one of the many words scanners couldn't recognize. Correct answers proved the users were humans and added data to the book-digitizing project.",
+  "question_text": "Which choice best states the main purpose of the text?",
+  "answer_options": [
+    "To discuss von Ahn&rsquo;s invention of reCAPTCHA",
+    "To explain how digital scanners work",
+    "To call attention to von Ahn&rsquo;s book-digitizing project",
+    "To indicate how popular reCAPTCHA is"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer because it most accurately states the main purpose of the text. After providing a brief introduction to computer scientist Luis von Ahn, the text focuses on discussing how von Ahn's digitization work led to the invention of a digital security test known as reCAPTCHA.",
+    "B": "Choice B is incorrect because the text doesn't address how digital scanners work.",
+    "C": "Choice C is incorrect. Although the text mentions von Ahn's book-digitizing project, that information is provided as a detail, not as the main purpose of the text.",
+    "D": "Choice D is incorrect because the text doesn't provide any indication of reCAPTCHA's popularity; instead, it describes reCAPTCHA's origin."
+  }
+}

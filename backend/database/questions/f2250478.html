@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Question f2250478</title>
+    <style>
+img {
+            display: inline-block !important;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+.answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+/* Hide screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    display: none !important;
+}
+    </style>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body>
+    <div class="container mx-auto">
+<div class="mb-2 px-2">by <a href="https://linktr.ee/mdn522" class="underline font-bold" target="_blank">Abdullah Mallik</a> dedicated to
+        <a class="font-bold underline" href="http://dptutorials.net/" target="_blank">DPT SAT Batches</a> and <span class="font-bold" title="Bella">Someone Special</span>
+         | <a href="https://github.com/mdn522/sat-question-bank" target="_blank" class="underline font-bold">GitHub</a>
+    </div>
+</div>
+
+<style>
+    .answer-explanation {
+        opacity: 0;
+    }
+
+    .answer-explanation.show {
+        opacity: 1;
+    }
+
+    .question table {
+        border: 1px solid;
+    }
+
+    .question table tr th {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question table tr td {
+        border: 1px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .question ul {
+        list-style: disc;
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .question ol {
+        padding-left: 40px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="container mx-auto" x-data>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-16 gap-y-3">
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Test</span><br><span x-text="{'english': 'Reading and Writing', 'math': 'Math'}[question.module]"></span>
+        </div>
+        <div><span class="text-orange-700 font-bold text-lg">Domain</span><br><span class="" x-text="question.primary_class_cd_desc"></span></div>
+        <div><span class="text-orange-700 font-bold text-lg">Skill</span><br><span class="" x-text="question.skill_desc"></span></div>
+        <div>
+            <span class="text-orange-700 font-bold text-lg">Difficulty</span><br>
+            <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]" class="px-2 py-1 rounded" :class="{'E': 'bg-green-200', 'M': 'bg-orange-100', 'H': 'bg-red-200'}[question.difficulty]"></span>
+        </div>
+    </div>
+    
+    <div class="my-6"></div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 px-2 gap-16 hidden question" id="mathjax-wait">
+        <div class="" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <div class="answer px-[2rem] py-[2rem] mx-[-2rem] my-[-2rem]">
+
+                    </div>
+
+                    <div class="my-6"></div>
+
+                        <div><p>Among social animals that care for their young, such as chickens, macaque monkeys, and humans, newborns appear to show an innate attraction to faces and face-like stimuli. Elisabetta Versace and her colleagues used an image of three black dots arranged in the shape of eyes and a nose or mouth to test whether this trait also occurs in <em>Testudo</em> tortoises, which live alone and do not engage in parental care. They found that tortoise hatchlings showed a significant preference for the image, suggesting that <span aria-hidden="true">______</span><span class="sr-only">blank</span></p></div>
+
+                        <div class="mt-3"><p>Which choice most logically completes the text?</p></div>
+
+                    <div class="my-3"></div>
+
+                        <ol class="list-[upper-alpha]">
+
+                                <li class="p-2 border mb-2 rounded" @click=""><p>face-like stimuli are likely perceived as harmless by newborns of social species that practice parental care but as threatening by newborns of solitary species without parental care.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>researchers should not assume that an innate attraction to face-like stimuli is necessarily an adaptation related to social interaction or parental care.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>researchers can assume that the attraction to face-like stimuli that is seen in social species that practice parental care is learned rather than innate.</p></li>
+                            
+                                <li class="p-2 border mb-2 rounded" @click=""><p>newly hatched <em>Testudo&nbsp;</em>tortoises show a stronger preference for face-like stimuli than adult <em>Testudo&nbsp;</em>tortoises do.&nbsp;</p></li>
+                            
+                        </ol>
+
+                </div>
+            </div>
+
+            <div class="mt-8">
+                <a class="border rounded-xl bg-orange-300 hover:bg-orange-400 px-4 py-2 cursor-pointer select-none inline-block duration-150 transition-colors" @click="toggleAnswer()">Toggle Answer</a>
+
+            </div>
+            <br>
+            <span class="text-slate-600 text-sm">Tip: Press CTRL/Command to toggle answer</span>
+        </div>
+
+        <div class="answer-explanation transition-opacity duration-75" style="font-family: Roboto, sans-serif">
+            <div class="">
+                <span class="font-bold">Correct Answer: </span>
+                <span>B</span>
+
+            </div>
+            <div class="my-4"></div>
+
+            <div class="font-bold">Rationale</div>
+            <div class="">
+                
+                	<p>Choice B is the best answer because it presents the conclusion that most logically follows from the text&rsquo;s discussion of the study by Versace and colleagues. The text indicates that newborn animals of some species are attracted to faces and to stimuli that resemble faces. These species, the text says, share two characteristics: they&rsquo;re social and they practice parental care, meaning that parents care for their young. The text goes on to describe Versace and colleagues&rsquo; experiment, which showed that <em>Testudo</em> tortoises, which aren&rsquo;t social and don&rsquo;t practice parental care, were attracted to a stimulus that resembles a face. Since Versace and colleagues have shown that a species that isn&rsquo;t social and doesn&rsquo;t practice parental care nevertheless has the innate characteristic of being attracted to face-like stimuli, it follows that this characteristic shouldn&rsquo;t be assumed to be an adaptation related to social interaction or parental care. </p><p>Choice A is incorrect because the text indicates that the tortoise hatchlings, which are solitary and don&rsquo;t practice parental care, were attracted to the face-like stimuli, not that they perceived the stimuli as threatening. Choice C is incorrect because the phenomenon discussed in the text is an attraction to faces and face-like stimuli on the part of newborn animals, which can&rsquo;t show any learned characteristics since they were just born. Additionally, the text tells us that the tortoises Versace and colleagues studied aren&rsquo;t social and don&rsquo;t practice parental care, so any findings about those tortoises wouldn&rsquo;t be relevant to the question of whether an attraction to faces in social species that practice parental care is innate or learned.&nbsp;Choice D is incorrect because the text gives no indication that adult tortoises were tested on face-like stimuli and, if adults were in fact tested, no information about how they responded is provided. Since no information about adult tortoises&rsquo; responses is provided, no conclusion comparing those responses to the responses of newly hatched tortoises can be supported. </p>
+
+            </div>
+
+            <div class="my-4"></div>
+
+            <div class="">
+                <span class="font-bold">Question Difficulty: </span>
+                <span x-text="{'E': 'Easy', 'M': 'Medium', 'H': 'Hard'}[question.difficulty]"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="fixed right-2 bottom-4">
+    <span class="bg-green-100 rounded-xl p-2 mr-5">209 / 938</span>
+
+</div>
+
+<script>
+    let question = {"content": {"answerOptions": [{"content": "\u003cp\u003eface-like stimuli are likely perceived as harmless by newborns of social species that practice parental care but as threatening by newborns of solitary species without parental care.\u003c/p\u003e", "id": "a3d70ab9-55c8-45a0-b449-faf85e46e246"}, {"content": "\u003cp\u003eresearchers should not assume that an innate attraction to face-like stimuli is necessarily an adaptation related to social interaction or parental care.\u003c/p\u003e", "id": "7d6148a7-2dac-408c-8e14-faf98ecfe09f"}, {"content": "\u003cp\u003eresearchers can assume that the attraction to face-like stimuli that is seen in social species that practice parental care is learned rather than innate.\u003c/p\u003e", "id": "12bb1709-583a-4015-a629-607ae5cb329b"}, {"content": "\u003cp\u003enewly hatched \u003cem\u003eTestudo\u0026nbsp;\u003c/em\u003etortoises show a stronger preference for face-like stimuli than adult \u003cem\u003eTestudo\u0026nbsp;\u003c/em\u003etortoises do.\u0026nbsp;\u003c/p\u003e", "id": "7e4ce1a3-bf8c-481a-8559-3c5423ccda85"}], "correct_answer": ["B"], "externalid": "1830f378-1723-46f1-b0c3-3f7fd3b742f3", "keys": ["7d6148a7-2dac-408c-8e14-faf98ecfe09f"], "origin": "proteus", "parenttemplateid": "", "parenttemplatename": "OSP-010-INF", "position": "0", "rationale": "\u003cp\u003eChoice B is the best answer because it presents the conclusion that most logically follows from the text\u0026rsquo;s discussion of the study by Versace and colleagues. The text indicates that newborn animals of some species are attracted to faces and to stimuli that resemble faces. These species, the text says, share two characteristics: they\u0026rsquo;re social and they practice parental care, meaning that parents care for their young. The text goes on to describe Versace and colleagues\u0026rsquo; experiment, which showed that \u003cem\u003eTestudo\u003c/em\u003e tortoises, which aren\u0026rsquo;t social and don\u0026rsquo;t practice parental care, were attracted to a stimulus that resembles a face. Since Versace and colleagues have shown that a species that isn\u0026rsquo;t social and doesn\u0026rsquo;t practice parental care nevertheless has the innate characteristic of being attracted to face-like stimuli, it follows that this characteristic shouldn\u0026rsquo;t be assumed to be an adaptation related to social interaction or parental care. \u003c/p\u003e\u003cp\u003eChoice A is incorrect because the text indicates that the tortoise hatchlings, which are solitary and don\u0026rsquo;t practice parental care, were attracted to the face-like stimuli, not that they perceived the stimuli as threatening. Choice C is incorrect because the phenomenon discussed in the text is an attraction to faces and face-like stimuli on the part of newborn animals, which can\u0026rsquo;t show any learned characteristics since they were just born. Additionally, the text tells us that the tortoises Versace and colleagues studied aren\u0026rsquo;t social and don\u0026rsquo;t practice parental care, so any findings about those tortoises wouldn\u0026rsquo;t be relevant to the question of whether an attraction to faces in social species that practice parental care is innate or learned.\u0026nbsp;Choice D is incorrect because the text gives no indication that adult tortoises were tested on face-like stimuli and, if adults were in fact tested, no information about how they responded is provided. Since no information about adult tortoises\u0026rsquo; responses is provided, no conclusion comparing those responses to the responses of newly hatched tortoises can be supported. \u003c/p\u003e", "stem": "\u003cp\u003eWhich choice most logically completes the text?\u003c/p\u003e", "stimulus": "\u003cp\u003eAmong social animals that care for their young, such as chickens, macaque monkeys, and humans, newborns appear to show an innate attraction to faces and face-like stimuli. Elisabetta Versace and her colleagues used an image of three black dots arranged in the shape of eyes and a nose or mouth to test whether this trait also occurs in \u003cem\u003eTestudo\u003c/em\u003e tortoises, which live alone and do not engage in parental care. They found that tortoise hatchlings showed a significant preference for the image, suggesting that \u003cspan aria-hidden=\"true\"\u003e______\u003c/span\u003e\u003cspan class=\"sr-only\"\u003eblank\u003c/span\u003e\u003c/p\u003e", "templateclusterid": "5af87a70-0757-48e7-89df-ed1206652dfb", "templateclustername": "", "type": "mcq", "vaultid": "eff482f7-c758-42d8-9917-829c9da9b005"}, "createDate": 1691007959314, "difficulty": "H", "external_id": "1830f378-1723-46f1-b0c3-3f7fd3b742f3", "ibn": null, "module": "english", "pPcc": "SAT#INI", "primary_class_cd": "INI", "primary_class_cd_desc": "Information and Ideas", "program": "SAT", "questionId": "f2250478", "score_band_range_cd": 6, "skill_cd": "INF", "skill_desc": "Inferences", "uId": "b0cc0474-4e3f-45fc-8c15-d17501110d32", "updateDate": 1691007959314};
+
+    function toggleAnswer() {
+        let els = document.getElementsByClassName('answer-explanation');
+        if (els.length >= 1) {
+            els[0].classList.toggle('show');
+        }
+    }
+    document.addEventListener("keyup", function (event) {
+        if (event.key == "Control" || event.metaKey) {
+            toggleAnswer()
+        }
+    });
+</script>
+
+    <script>
+    function saveImage(imagePath, imageName){
+        const link = document.createElement('a');
+        link.style.display = 'none';
+        document.body.appendChild(link)
+        link.setAttribute('download', imageName + '.png');
+        link.setAttribute('href', imagePath.replace("image/png", "image/octet-stream"));
+        link.click();
+    }
+
+    function downloadQuestion() {
+        html2canvas(document.querySelector(".answer")).then(canvas => {
+            // document.body.appendChild(canvas)
+            let blob = canvas.toDataURL();
+
+            saveImage(blob, "question-f2250478");
+            canvas.toBlob( function (blob) {
+                try {
+                    const item = new ClipboardItem({ "image/png": blob });
+                    navigator.clipboard.write([item]);
+                } catch (e) {
+                }
+            });
+
+        });
+    }
+
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+
+<script>
+    window.MathJax = {
+        startup: {
+            ready: () => {
+                console.log('MathJax is loaded, but not yet initialized');
+                MathJax.startup.defaultReady();
+                MathJax.typeset();
+                document.getElementById('mathjax-wait').classList.remove('hidden');
+                console.log('MathJax is initialized, and the initial typeset is queued');
+            }
+        }
+    };
+</script>
+</div>
+</body>
+</html>

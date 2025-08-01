@@ -1,0 +1,22 @@
+{
+  "question_id": "87aa7bab",
+  "domain": "Information and Ideas",
+  "skill": "Central Ideas and Details",
+  "difficulty": "Medium",
+  "has_image": false,
+  "passage": "A common assumption among art historians is that the invention of photography in the mid-nineteenth century displaced the painted portrait in the public consciousness. The diminishing popularity of the portrait miniature, which coincided with the rise of photography, seems to support this claim. However, photography's impact on the portrait miniature may be overstated. Although records from art exhibitions in the Netherlands from 1820 to 1892 show a decrease in the number of both full-sized and miniature portraits submitted, this trend was established before the invention of photography.",
+  "question_text": "Based on the text, what can be concluded about the diminishing popularity of the portrait miniature in the nineteenth century? &nbsp;",
+  "answer_options": [
+    "Factors other than the rise of photography may be more directly responsible for the portrait miniature&rsquo;s decline.",
+    "Although portrait miniatures became less common than photographs, they were widely regarded as having more artistic merit. &nbsp;&nbsp;&nbsp;&nbsp;",
+    "The popularity of the portrait miniature likely persisted for longer than art historians have assumed.&nbsp;",
+    "As demand for portrait miniatures decreased, portrait artists likely shifted their creative focus to photography.&nbsp;"
+  ],
+  "correct_answer": "A",
+  "answer_rationales": {
+    "A": "Choice A is the best answer. The text says that the impact of photography on the portrait miniature might be \"overstated,\" as some records show a decrease in the number of portrait miniatures before the invention of photography. From this, we can conclude that factors other than the rise of photography may be more directly responsible for the portrait miniature's decline.",
+    "B": "Choice B is incorrect. The text never discusses the \"artistic merit\" of either art form.",
+    "C": "Choice C is incorrect. The text never suggests that the portrait miniature was popular for longer than historians thought—if anything, it suggests that the portrait miniature started losing its popularity earlier than historians thought.",
+    "D": "Choice D is incorrect. The text never suggests that portrait painters shifted to become photographers."
+  }
+}

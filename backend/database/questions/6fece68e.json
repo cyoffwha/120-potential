@@ -1,0 +1,22 @@
+{
+  "question_id": "6fece68e",
+  "domain": "Standard English Conventions",
+  "skill": "Boundaries",
+  "difficulty": "Easy",
+  "has_image": false,
+  "passage": "Emperor Ashoka ruled the Maurya Empire in South Asia from roughly 270 to 232 BCE. He is known for enforcing a moral code called the Law of Piety, which established the sanctity of animal ______ blank the just treatment of the elderly, and the abolition of the slave trade.",
+  "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "answer_options": [
+    "life",
+    "life;",
+    "life:",
+    "life,"
+  ],
+  "correct_answer": "D",
+  "answer_rationales": {
+    "D": "Choice D is the best answer. Notice that \"the sanctity of animal life\" is the first item in a list of three things. We must use a comma to separate the first two items in the list, just as a comma is used to separate \"the just treatment of the elderly\" and \"the abolition of the slave trade.\"",
+    "A": "Choice A is incorrect. This choice creates a punctuation error. Notice that \"the sanctity of animal life\" is the first item in a list of three things. To appropriately format the list, we need punctuation to separate each item.",
+    "B": "Choice B is incorrect. This choice creates a punctuation error. Notice that \"the sanctity of animal life\" is the first item in a list of three things. While semicolons are sometimes used to separate list items, this list uses commas to separate the other list items, and lists must use the same punctuation throughout.",
+    "C": "Choice C is incorrect. This choice creates a punctuation error. Notice that \"the sanctity of animal life\" is the first item in a list of three things. While colons can be used to introduce lists, they can't be used to separate items within a list."
+  }
+}
